@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Practice Fusion, home to over 112,000 connected healthcare professionals.",
+            "fileID": "cd9c9dde390d4f798cb2b888c8a7a9a7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you need technical support for your electronic health records, press '1'.",
+                "fileID": "1aeb9fbc22f244658341c4ee1f6ef3ab",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For setup and installation assistance, press '1'.",
+                            "fileID": "45fc1bd7ab6d4d548102592104b5a3f7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a setup specialist.",
+                                        "fileID": "6e310f1a56ff4a7db9fbed558f8c6db8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b03617242acc4e4d823d5fe7bbc52e4f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For troubleshooting and system error reporting, press '2'.",
+                            "fileID": "3788cde2cfab412bba8108b2d10c2982",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a troubleshooting expert.",
+                                        "fileID": "55c864ecd9d643c78290da9c10582a4e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4fabcb9f6b0342159dc9848157069e2a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6d18bb2f23a842528bac8fea1ac70f63",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you have questions about your account or billing, press '2'.",
+                "fileID": "ca6b30c3a39d44b491ae04db00fb841e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing statements and payment questions, press '1'.",
+                            "fileID": "ab0c0c6b70474eba8490665bfb1eca80",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we direct you to our billing department.",
+                                        "fileID": "d3ee83dd58f04a308f15498e7245fceb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6b11ea98af52424d85798cffc6b47e26",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account updates and profile changes, press '2'.",
+                            "fileID": "076ec6bc2b3347d98e0afaca708a8e1e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to account services.",
+                                        "fileID": "6c03fb8d02844d25af10f608ada2b579"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "46b74ba565014bb2bb4fdc11567057e7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "520d078f7023480180a4e364493dd427",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "67777d3b62984a4ab67b1ff19fd5073c",
+        "navigationGoals": null
+    },
+    "id": "e967609621c4490e98fcd58f0ae8517c",
+    "navigationGoals": null
+}

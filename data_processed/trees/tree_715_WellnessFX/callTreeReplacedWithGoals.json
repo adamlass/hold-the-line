@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling WellnessFX in San Francisco, where your wellness is in your hands.",
+            "fileID": "f845cb5c9b1549f28ce3517521634e93"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For appointment services, press 1.",
+                "fileID": "e79e4d1ef5bc4002a389b550bb629c19",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a new wellness assessment, press 1.",
+                            "fileID": "26f5d3a14b2644539f9aeaa20e0ba408",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our appointment scheduling team.",
+                                        "fileID": "20f398d8db004550b7b0d0bb4639caf5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cc8468e78309405e924e4400f4d2a652",
+                                "navigationGoals": [
+                                    "Book a new wellness assessment appointment this week.",
+                                    "Schedule a new wellness assessment to screen for PTSD and overall health.",
+                                    "I want to schedule a new comprehensive metabolic and lipid panel assessment for early next week.",
+                                    "I need help booking a new wellness check-up.",
+                                    "I want to book a new wellness assessment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To reschedule or cancel an existing appointment, press 2.",
+                            "fileID": "f39ebed3167443e983c4b4540eb54d55",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a scheduling specialist.",
+                                        "fileID": "d2f9842e2d8b4bc1a94af9141d02d9f2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "92d8ee755e3b4d18b2859bf542c05734",
+                                "navigationGoals": [
+                                    "Reschedule my existing wellness assessment to a different date.",
+                                    "Reschedule my existing wellness appointment to a later date.",
+                                    "I need to reschedule my upcoming lipid panel appointment from Tuesday at 10 AM to Friday afternoon.",
+                                    "I need to reschedule or cancel an appointment I already booked.",
+                                    "I need to reschedule my upcoming appointment."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0ed995b1feea47d9bbecb94f5dcc6f23",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For test results and wellness consultations, press 2.",
+                "fileID": "f1fa24ffd01f44f190dad4f418ad248c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear your recent test results, press 1.",
+                            "fileID": "635485fd1ba94f85b469f1c386c5b32d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your results.",
+                                        "fileID": "80d2538f4e7a4b7e8544366b77cb6b24"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c45bc97d5b7e4591a115cc6117a52842",
+                                "navigationGoals": [
+                                    "Retrieve my recent lab test results.",
+                                    "Retrieve my recent lab results to review my stress hormone levels.",
+                                    "I\u2019d like to retrieve and review my latest complete blood count and metabolic panel results.",
+                                    "I\u2019d like to hear my recent lab test results.",
+                                    "I\u2019d like to hear my recent lab results."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a wellness advisor about your results, press 2.",
+                            "fileID": "896181477d6b483c895c65fd7dcda42b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a wellness advisor.",
+                                        "fileID": "61b283e79cba453ba7ff8b5267d325cd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cc4065018bac45d286cb4953d8102ca3",
+                                "navigationGoals": [
+                                    "Speak with a wellness advisor about my test results.",
+                                    "Speak with a wellness advisor about my test findings and coping strategies.",
+                                    "I want to consult a wellness specialist about my recent nutrigenomic report findings.",
+                                    "I want to speak with an advisor about my test results.",
+                                    "I\u2019d like to speak with a wellness advisor about my results."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "375b3204e26e475eb79544991823607b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "36421c07d66a4133805af59598b12558",
+        "navigationGoals": null
+    },
+    "id": "5a7d4622ab4643999ca0cd4cd508236d",
+    "navigationGoals": null
+}

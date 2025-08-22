@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#SBATCH --job-name=tts                      # Job name
+#SBATCH --output=slurm-jobs/tts.%j.out      # Name of output file (%j expands to jobId)
+#SBATCH --cpus-per-task=2                   # Schedule 8 cores (includes hyperthreading)
+#SBATCH --gres=gpu:a100_40gb:1
+#SBATCH --time=24:00:00                     # Run time (hh:mm:ss) - run for one hour max
+#SBATCH --partition=scavenge                   # Run on GPU queue
+
+echo "Running on $(hostname):"
+nvidia-smi
+
+export PYTHONUNBUFFERED=1
+export CUBLAS_WORKSPACE_CONFIG=:4096:8
+
+# echo "Checking for CUDA availability"
+# python -c "import torch; print(torch.cuda.get_device_capability(0) if torch.cuda.is_available() else 'No GPU available')"
+
+echo "Execute python"
+poetry run python src/models/BarkTTS.py

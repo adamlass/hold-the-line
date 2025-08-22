@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Spotify, your digital music service from San Francisco offering access to millions of songs.",
+            "fileID": "3631d95450a04973bea2e19aa2411b54"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For subscription and billing inquiries, press 1.",
+                "fileID": "83b4e9ca2c784519be64c9a1bc842ebb",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For plan changes and upgrades, press 1.",
+                            "fileID": "1436d4069c1345bea5d88c98a2699e3b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our subscription support team.",
+                                        "fileID": "48077ca5337e422fbfbfd77e3c3fcd00"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fc8556abf5744cffb1b67f1c49d803e0",
+                                "navigationGoals": [
+                                    "I need to upgrade my plan to Premium Family effective immediately.",
+                                    "I\u2019d like to upgrade my plan to the family tier and apply the veteran discount.",
+                                    "I need to upgrade from Free to Premium Duo and verify the pro-rated charges",
+                                    "I want to change my subscription plan to the family tier",
+                                    "I\u2019d like to switch from a free account to a Premium Student plan and ensure my university email is recognized."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and payment questions, press 2.",
+                            "fileID": "331bd09589354565930356afd7b97250",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a billing specialist.",
+                                        "fileID": "0ca7a2a59fc740ab9f15f3912a3f04a2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "da547968c3ba44cc8daba93c56cd74a6",
+                                "navigationGoals": [
+                                    "I was double-charged this month and need a refund.",
+                                    "I need to dispute an unexpected charge on my account.",
+                                    "I want to dispute an unexpected $9.99 charge and get a detailed billing breakdown",
+                                    "I need help understanding a recent charge on my account",
+                                    "I was billed twice this month; can you clarify the extra charge and process a refund?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "769ab092e78f464db3a177ee647d733d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support, press 2.",
+                "fileID": "fdbd116f561c481984ab3fea5f37dcfb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For streaming and playback issues, press 1.",
+                            "fileID": "6c9d79ed60824088af829c46ee4e4028",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support agent.",
+                                        "fileID": "70bf075a1936491aaf63633cd079cc81"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a4f54062e2bd4c0fa7ea384d6f107636",
+                                "navigationGoals": [
+                                    "My tracks keep cutting out on my desktop app; please help fix playback.",
+                                    "My music keeps pausing when I try to stream offline during my workouts.",
+                                    "I\u2019m experiencing buffering and bit-rate drops when streaming to my Chromecast\u2014need troubleshooting",
+                                    "My music keeps stopping during playback\u2014can you help?",
+                                    "On my campus Wi-Fi, my tracks keep buffering after ten seconds; how can I fix the playback issue?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For library and playlist help, press 2.",
+                            "fileID": "16a9c1a9cfbd40d1bc7f8fd2c008bcb6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our library support team.",
+                                        "fileID": "b16f0a5e6c1d4d2fbe8ec21e117e9feb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fc7e6d5dc63c44f3b4ffe9d52d6e74f1",
+                                "navigationGoals": [
+                                    "Some of my playlists vanished; I need to restore them.",
+                                    "I need to recover a playlist I accidentally deleted.",
+                                    "My offline playlists aren\u2019t syncing\u2014help me resolve the sync conflicts and adjust playlist filters",
+                                    "I\u2019m having trouble accessing my playlists in my library",
+                                    "I accidentally deleted my \u201cStatistical Mechanics\u201d study playlist; can I recover it?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2c29f4b24c3846aeb2254e0f1faf2eba",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c99e686f70264bb8a8dba4f213d18cdf",
+        "navigationGoals": null
+    },
+    "id": "3d8d8cc657bd4d23b91c83e7ab09946f",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Memebox in San Francisco, where innovative K-Beauty meets community inspiration.",
+            "fileID": "8ab55a6909414f2ab8866fc4763dc30b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For order and account support, press 1.",
+                "fileID": "88e1c74d5b034c13a3a843f13b2f10f5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For order tracking, press 1.",
+                            "fileID": "cfa407919d1841ac889821f47658d3b9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to one of our order support specialists.",
+                                        "fileID": "2d5b075d2bdd4b4a8891b9ab19d81328"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7cdbcbf57cd94719a1415311bbe49deb",
+                                "navigationGoals": [
+                                    "Check the delivery status of my recent order.",
+                                    "Track the shipping status of my recent Memebox order.",
+                                    "Retrieve the real-time tracking number and delivery ETA for my recent order.",
+                                    "I need help tracking my recent skincare order.",
+                                    "I\u2019d like to check the delivery status of my recent Memebox order."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account updates, press 2.",
+                            "fileID": "a90a9d11422f47dca9b372c12297f3d7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account services team.",
+                                        "fileID": "84641e38ec524f69a678b9bbbd650a24"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f96943ee2cde46ff85d4a2d45da0538f",
+                                "navigationGoals": [
+                                    "Update my shipping address on my account.",
+                                    "Update the shipping address on my account.",
+                                    "Update my account\u2019s payment credentials by adding a new credit card and verifying my billing address.",
+                                    "I want to update my mailing address on my Memebox account.",
+                                    "I need to update my account details, like payment method or address."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "35e8928503bc43f19ef26a5958c1a0b0",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For product advice and community events, press 2.",
+                "fileID": "1004f50867ef4f888d15ac8e82b2bb24",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For personalized K-Beauty advice, press 1.",
+                            "fileID": "1f9479b46bc644019f894c0a1eeb1648",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a K-Beauty specialist.",
+                                        "fileID": "f3c850696d7143e69dbc35a501172091"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d15dbc4301154706be9b9cb60657f077",
+                                "navigationGoals": [
+                                    "Get personalized skincare recommendations for my skin type.",
+                                    "Get personalized skincare recommendations for dry, sensitive skin.",
+                                    "Request a personalized K-Beauty formulation based on my oily, acne-prone skin profile and ingredient sensitivities.",
+                                    "I\u2019d like advice on which K-Beauty products are best for my mature skin.",
+                                    "I want tailored skincare advice for my sensitive skin."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For information on upcoming beauty community events, press 2.",
+                            "fileID": "7f7694c4cdf4467db17ce135cd13ec53",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our community events coordinator.",
+                                        "fileID": "3573c1d8ed98430091112f5a9a540dfb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c39efae9f37a42f7aa9e3bfcb9957967",
+                                "navigationGoals": [
+                                    "Find out dates and details for upcoming local beauty events.",
+                                    "Find details on upcoming local beauty community events.",
+                                    "Enroll me in the upcoming San Francisco K-Beauty community event and send me the detailed schedule.",
+                                    "I\u2019d like to know when the next community beauty event is scheduled.",
+                                    "I\u2019m calling to learn about upcoming Memebox beauty events in my area."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fce5e560721e45f18286471225c35c8a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3749b669ba3c461093f23d063cd4caa8",
+        "navigationGoals": null
+    },
+    "id": "c13ed932d8904d3f9d8140e49aae5967",
+    "navigationGoals": null
+}

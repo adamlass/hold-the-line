@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling HeartFlow, located in the Peninsula, pioneers in non-invasive coronary artery analysis.",
+            "fileID": "8615321bcdb64490a9da2e4a8ff96c25"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our HeartFlow Analysis and how it creates detailed 3D models of your coronary arteries, press 1.",
+                "fileID": "7468678e00e943d79be8af33b08acfcd",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn how we transform standard CT scan data into personalized artery models, press 1.",
+                            "fileID": "6b2dc36a76de466aa0de8434e1f5f823",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our clinical analytics team for an in-depth explanation.",
+                                        "fileID": "e93cafbf96a34ee384c345abcc9cab90"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c3925275fc1749df952204f685bc96df",
+                                "navigationGoals": [
+                                    "Need a quick overview of how you convert CT data into 3D coronary artery models.",
+                                    "I want a detailed explanation of how HeartFlow creates personalized 3D artery models from my CT data.",
+                                    "I\u2019d like a detailed breakdown of the image-to-3D reconstruction pipeline your clinical analytics team employs for coronary artery modeling.",
+                                    "I need someone to walk me through how my CT scan data is turned into a 3D model of my coronary arteries.",
+                                    "I want to talk to a clinical analyst about how CT scans get turned into detailed 3D coronary artery models."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For instructions on obtaining and submitting your CT scans for analysis, press 2.",
+                            "fileID": "f5401ac500e64de89ca5b584b3534529",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our imaging specialists to guide you through the scan process.",
+                                        "fileID": "c659ae381d4049b98544a9fd07ad6b7f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9d6345555a1244e9b2c5babbaf9a0350",
+                                "navigationGoals": [
+                                    "Need instructions on how to send you my CT scan files for analysis.",
+                                    "I need step-by-step guidance on obtaining and submitting my CT scans for analysis.",
+                                    "I need step-by-step instructions for acquiring and uploading CT DICOM datasets to your HeartFlow analysis platform.",
+                                    "I need help getting and sending my CT scans to you for analysis.",
+                                    "I need instructions on how to obtain and submit CT scan data for analysis, including the correct imaging protocols."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "74eb8ed792bd4a20b15187e21a8601b1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For assistance with appointments and consultations, press 2.",
+                "fileID": "2125f0540a924b8d8ae34a63fdc918a3",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule or modify your HeartFlow Analysis appointment, press 1.",
+                            "fileID": "ea8faf0dcef44eab9c9c85d0e361e936",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our scheduling department.",
+                                        "fileID": "68baeac07aa94ec0a5907f89bf3c3354"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "25daf5b4eaee4d06b24891ead84f6ffb",
+                                "navigationGoals": [
+                                    "Need to schedule a HeartFlow Analysis appointment.",
+                                    "I want to schedule or modify my HeartFlow Analysis appointment.",
+                                    "I\u2019d like to schedule a HeartFlow Analysis consultation to interpret my recent CT scan results.",
+                                    "I want to make or adjust my appointment for the HeartFlow Analysis.",
+                                    "I\u2019d like to schedule or change my HeartFlow Analysis appointment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support with our hardware integration and software, press 2.",
+                            "fileID": "1f9e711607844621a2d25b9c94894cad",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "e066099114de4f368f37865c57c47a45"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f187b456ca9e4787bcfb92eaf8279de1",
+                                "navigationGoals": [
+                                    "Need technical support integrating my CT scanner with your software.",
+                                    "I'm having trouble connecting my imaging hardware to the HeartFlow software and need technical support.",
+                                    "I\u2019m encountering API integration issues between my PACS and your analysis software and need technical support.",
+                                    "I\u2019m having trouble with the HeartFlow software\u2014can someone help me get it working so I can see my results?",
+                                    "I need technical support integrating HeartFlow\u2019s software with our imaging hardware."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e2846ac8ae5b4cea9c4017ee6b88e6b2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c54af27378534a46b62a12a7a591713d",
+        "navigationGoals": null
+    },
+    "id": "a4fe89d4a7b045a6bb2df9beca5b5c57",
+    "navigationGoals": null
+}

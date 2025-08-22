@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Bugcrowd, based in San Francisco and the leader in crowdsourced cybersecurity for the enterprise.",
+            "fileID": "de0bd382dea44ea0975405f40dffebd4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new business inquiries, press 1.",
+                "fileID": "f1f1085553dc44c299961ca37b4a625c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our enterprise crowdsourced security platform, press 1.",
+                            "fileID": "b065a61777824995830c8b0d1d3e806c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a specialist for our crowdsourced cybersecurity platform.",
+                                        "fileID": "c359d29666c34967b437729f88d5bf25"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "115998815a44463c9916fa5d7974cc78",
+                                "navigationGoals": [
+                                    "Connect me to a specialist to explain your enterprise crowdsourced security platform.",
+                                    "I\u2019m an ex-military vet looking to adopt Bugcrowd\u2019s enterprise bug bounty solution for my organization.",
+                                    "Discuss integration architecture and SLAs for Bugcrowd\u2019s enterprise crowdsourced security platform",
+                                    "I need a patient specialist to explain how your enterprise security platform works.",
+                                    "I\u2019d like to speak with a specialist about how Bugcrowd\u2019s platform can support security testing for my university research project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To request pricing information or schedule a product demo, press 2.",
+                            "fileID": "e7745ec5403e4596be134487b72a3317",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer your call to our sales team for pricing and demos.",
+                                        "fileID": "bc6b154494cd40858e0fb1fa2bf086f9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d721040e0cb5456ea0fb20601a489a4c",
+                                "navigationGoals": [
+                                    "Get pricing details and schedule a product demo.",
+                                    "As a veteran entrepreneur, I need pricing details and to schedule a demo of your platform.",
+                                    "Obtain detailed pricing tiers and schedule a live demo of the Bugcrowd platform",
+                                    "I want to get pricing information and schedule a product demo.",
+                                    "Could you provide pricing details and arrange a demo of your crowdsourced security platform for my physics lab?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "40d5f17d291e4ccf9f213756493eafd2",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "f7e57ddb7803406ea2251acf4abf3f13",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with your Bugcrowd deployment, press 1.",
+                            "fileID": "34493867ce6d47e2a2d81081113ca4e7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support engineer.",
+                                        "fileID": "b837c48b75544c0a8233aa782a970386"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "134a54f9284445e4b75cee7be5d15242",
+                                "navigationGoals": [
+                                    "Troubleshoot my Bugcrowd deployment with a technical support engineer.",
+                                    "I\u2019m an ex-military cybersecurity specialist needing help integrating Bugcrowd into our environment.",
+                                    "Debug an API integration issue in my Bugcrowd deployment",
+                                    "I\u2019m having trouble with my Bugcrowd deployment and need technical assistance.",
+                                    "I need technical assistance configuring the Bugcrowd API integration for my vulnerability scanning setup."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, invoices, or account management, press 2.",
+                            "fileID": "060d3f96552d40b5bf4a669b40783ed0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing and accounts department.",
+                                        "fileID": "bc76cd205ab344f0910ea8659f5b8a2f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3cbccecfd2f34bca863e5541eca10e0e",
+                                "navigationGoals": [
+                                    "Review my billing and invoices with the accounts department.",
+                                    "I need to update billing details for our veteran-led team and get my most recent invoice.",
+                                    "Clarify my latest invoice and update my payment method",
+                                    "I have questions about my invoice and need help with billing and account details.",
+                                    "I have a billing question regarding the invoice for our department\u2019s Bugcrowd account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cfaca70c09754b0590dca83f884914a8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "44b0f70225a74935a610d7db82234e09",
+        "navigationGoals": null
+    },
+    "id": "5c742ef56f9b4fcdb6f0365bd16bb1e7",
+    "navigationGoals": null
+}

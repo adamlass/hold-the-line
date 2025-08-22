@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Abstract in San Francisco, the collaboration platform for modern design teams.",
+            "fileID": "b549a342c9ab4b0390b1924b1f270459"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product demos, press 1.",
+                "fileID": "5165d29feed441b4bcb82a1b6edbf884",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo, press 1.",
+                            "fileID": "976baaac37dd47909864d888fd165de4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales team member for your demo.",
+                                        "fileID": "5f502013086140b6a7132993973184be"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c323afa7986a48a3a65ecb9b5eae0f97",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing and licensing information, press 2.",
+                            "fileID": "1234260a0b5d4406a5818486e21210b7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for pricing details.",
+                                        "fileID": "8cf9775198b141ae9210d22352cffa4a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cf537b41d6dd48ba8c2552c39fa53e9b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9318213457ba44879d9779d35c05113f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and account services, press 2.",
+                "fileID": "d0a9707327014220b7afa08f24e40651",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "a41dd5eed5f74cde829c35b8dc8ea55a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "c12e576ac00f4c3da7b852f81317567b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cf4f8ee9d9144b88b5057ae13db0ea8d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "d5d02053a5f645aca0b4f82a96881b92",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "6b4afcf3f22642c18903f598cb2e7e62"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4bc0fc9ebcd74e338666d5f95183cb02",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "20d92264274042a6b755564361111e8a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b1fdad3c6fe5485cae8b60edcf4f3acd",
+        "navigationGoals": null
+    },
+    "id": "14bbf1f6e7c24b0d95d072c2a6215f34",
+    "navigationGoals": null
+}

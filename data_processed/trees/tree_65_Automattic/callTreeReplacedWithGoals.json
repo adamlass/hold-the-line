@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Automattic in San Francisco, where we're passionate about making the web a better place with WordPress.",
+            "fileID": "866c72d93b63401da13638e73422a543"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and Partnership inquiries, press 1.",
+                "fileID": "a18f90097f0b48469a8686ab2977266d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with our Enterprise Sales team.",
+                            "fileID": "c6677425978945c290fd292239c90317",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Enterprise Sales team; your call is important to us.",
+                                        "fileID": "78e5281429d4466f9b022737861d196f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3bbe14a3935742d5a35a5568aa127876",
+                                "navigationGoals": [
+                                    "I need to discuss customizing an enterprise WordPress solution for my company\u2019s high-traffic site.",
+                                    "Discuss enterprise-grade WordPress hosting options for my veteran support organization",
+                                    "Discuss enterprise subscription tiers and SLA details for high-traffic WordPress deployments",
+                                    "I\u2019d like to speak with someone about pricing and setup for an enterprise WordPress solution for my organization.",
+                                    "Inquire about enterprise hosting plans and pricing for my university physics lab\u2019s website"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to learn about our Integration and Partnership programs.",
+                            "fileID": "b189f70e957c4aa783471e8f7ef2867a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our Partnership and Integration specialists.",
+                                        "fileID": "1723df6588f24aaa99eed35defb8469b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e9bc0bece40842058b7386c2a5578491",
+                                "navigationGoals": [
+                                    "I\u2019m looking to explore integrating my SaaS platform with WordPress\u2019s partnership program.",
+                                    "Explore partnership and integration programs to connect my veteran services platform with WordPress",
+                                    "Explore integration APIs and co-marketing partnership frameworks with Automattic",
+                                    "I\u2019m interested in information on partnering with WordPress and integrating its features into my company\u2019s systems.",
+                                    "Learn about Automattic\u2019s integration program to embed custom physics simulation tools into WordPress"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cac8d40d25ce43819dfc4b44a757b8c5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technical Support and Developer Tools assistance, press 2.",
+                "fileID": "d282fa4cf59b46f0b475dc5a4d727398",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for WordPress.com Hosting support.",
+                            "fileID": "9880f43d3fa24a49a5bf6f4e8dff1fc9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our WordPress.com Hosting support team; we\u2019ll be with you shortly.",
+                                        "fileID": "a565e7b421b745259b37b359af5da469"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5d3d91f3a2c64839a8180e46834eb2dc",
+                                "navigationGoals": [
+                                    "I need immediate support to troubleshoot slow loading on my WordPress.com hosting.",
+                                    "Get troubleshooting help for my veteran-focused blog hosted on WordPress.com",
+                                    "Troubleshoot SSL renewal errors and CDN caching issues on my WordPress.com hosting",
+                                    "I need assistance restoring access and fixing my WordPress.com hosted site.",
+                                    "Get support configuring WordPress.com hosting for my student research blog, including domain setup and file upload limits"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for Developer Tools and API support.",
+                            "fileID": "2909947474a74c0da840b275a4ad0f36",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience; connecting you to our Developer Tools support now.",
+                                        "fileID": "234b8914553346f2847e03c9dee0cccb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "20446c70b73a4040a96b63ab6641c52d",
+                                "navigationGoals": [
+                                    "I need help using the WordPress Developer API to automate our content publishing.",
+                                    "Request API and developer tools support to integrate my veteran outreach app with WordPress",
+                                    "Resolve OAuth authentication and rate-limit problems with the WordPress.com REST API",
+                                    "I\u2019d like help understanding and using the WordPress developer API for a custom feature.",
+                                    "Ask for help using WordPress\u2019s Developer API to automate publishing data from my physics experiments"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9f9d260b6fee45279d1ba4564f9e8274",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "25e8c6ea0cc5424896d8045093bdb33a",
+        "navigationGoals": null
+    },
+    "id": "eafbe02bade6429c822ec029b65c5c68",
+    "navigationGoals": null
+}

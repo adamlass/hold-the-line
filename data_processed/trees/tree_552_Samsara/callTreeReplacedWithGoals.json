@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Samsara, the new data platform for the physical world, headquartered in San Francisco.",
+            "fileID": "a73b4e848c184235aee82bea39b9a7da"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "3ae7888b829e495e8be267e6df15f6fa",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales specialist, press 1.",
+                            "fileID": "13baaf26462a4f29b56fcba1ca38f39f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist.",
+                                        "fileID": "98574991d195437a9fa2836f2b6dc8ac"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d19b83797f934eba869028246298e3cb",
+                                "navigationGoals": [
+                                    "I need information on advanced analytics features from a sales specialist.",
+                                    "I need to speak with a sales specialist about purchasing Samsara for my veteran-owned logistics company.",
+                                    "I need to talk to a sales specialist about enterprise-scale API integration and licensing options.",
+                                    "I want to speak with someone about buying the right Samsara sensors for my needs.",
+                                    "I need to speak with a sales specialist about purchasing Samsara sensors for my physics lab setup."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To request a product demo or pricing, press 2.",
+                            "fileID": "27856d927364413084177fe47c901ea5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our demo team.",
+                                        "fileID": "cc57c25ccc4e467d9187be136ed10cb3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d27e411d419148c490724d6614c709e0",
+                                "navigationGoals": [
+                                    "I want to schedule a live demo and get pricing for 50 IoT sensors.",
+                                    "I\u2019d like to schedule a product demo and get pricing details for deploying Samsara across my small fleet.",
+                                    "I want to schedule a product demo covering sensor network analytics and get detailed pricing tiers.",
+                                    "I\u2019d like to schedule a demo of the platform and get pricing information.",
+                                    "I\u2019d like to schedule a product demo and get pricing for using Samsara to collect experimental data."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b8843a3fd46f4fc5991ee54ecc15a338",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and customer service, press 2.",
+                "fileID": "37ad4a2ec71b4b83a10730bafff3d00d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "c83c637e7ef14dc5808ea055126f0078",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "1288558ad79f425f8feca2d643795ea0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "95347ae7380e4acc8add4d723ca4b550",
+                                "navigationGoals": [
+                                    "Help troubleshoot a connectivity issue with an offline device.",
+                                    "I\u2019m having trouble connecting my vehicle sensors to the Samsara platform and need technical assistance.",
+                                    "I\u2019m experiencing connectivity issues with the Samsara API endpoint and need to troubleshoot with technical support.",
+                                    "I\u2019m having trouble with my sensor connecting and need technical help.",
+                                    "I\u2019m having trouble connecting my sensors and uploading readings\u2014need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For training and consulting services, press 2.",
+                            "fileID": "c0a434ec320c4782b015fcbbfde645de",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our customer success team.",
+                                        "fileID": "a871504a53104daba816623807bbaf81"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ad6947907f1f409d8e73452e8f9ff315",
+                                "navigationGoals": [
+                                    "I want to discuss professional training and implementation consulting.",
+                                    "I want to set up training and consulting services to learn how to use Samsara\u2019s analytics for my fleet operations.",
+                                    "I\u2019d like to arrange a consulting session for advanced analytics training and system onboarding best practices.",
+                                    "I need information on training sessions so I can learn to use the Samsara system.",
+                                    "I want information on training and consulting services to integrate Samsara into my research workflow."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bf3fb8c093714755821b2e118c90fcbd",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f7328a0d538d4368af904e55d6b1f0bd",
+        "navigationGoals": null
+    },
+    "id": "377e876b922643cbbbc14d4c360c4a96",
+    "navigationGoals": null
+}

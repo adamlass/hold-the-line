@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Insight Recruiting, the premier search firm in the San Francisco Bay Area.",
+            "fileID": "c748cc3712cb40b0b2d752ad0161fe5d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For client services, press 1.",
+                "fileID": "8d0b0c0d075740f0ae68d666f6694597",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a recruiter about your hiring needs, press 1.",
+                            "fileID": "b4c89b04f87c4563afd63b0fbd47f679",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruiting specialist.",
+                                        "fileID": "a27b556cdd6e4adbbd81e3c4023d6f7d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c5b845de45cc45489f2d92a1038d8fd9",
+                                "navigationGoals": [
+                                    "I need to discuss recruiting support for a new engineering hire.",
+                                    "I need to speak with a recruiting specialist about hiring veteran talent for my team.",
+                                    "I need to integrate your recruiting API into our HRIS to automate candidate sourcing.",
+                                    "I\u2019d like to discuss hiring a part-time assistant for my small home business.",
+                                    "I\u2019d like to discuss hiring undergraduate assistants for my physics research project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "cbee26a92c7d4864a08bcb69ed56d28a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to billing and accounts.",
+                                        "fileID": "b227380c0046423a9320165b3eab2aeb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "07e7cef30c06459e91e34dde9728c688",
+                                "navigationGoals": [
+                                    "I want to resolve a billing question on our last invoice.",
+                                    "I want to review and clarify my company\u2019s latest invoice for your recruitment services.",
+                                    "I want to upload a new corporate credit card and get last quarter\u2019s invoice as a PDF.",
+                                    "I need help understanding last month\u2019s invoice and my payment options.",
+                                    "I need to clarify an invoice I received for recruitment services last month."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5023be08574f42aaa5c6e0f7a94882a1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For candidate services, press 2.",
+                "fileID": "8e02fd492c2447a9b1e8191d29502660",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit your resume or discuss new opportunities, press 1.",
+                            "fileID": "dd723b1ffc314c9b9e4e091ac9f68936",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a recruitment consultant.",
+                                        "fileID": "01f32a3aa83f44a38ff51fbdc4ed9168"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "476d40489e3544c8aa4953890b0fd6ce",
+                                "navigationGoals": [
+                                    "I\u2019d like to submit my resume for current job openings.",
+                                    "I\u2019d like to submit my resume and discuss potential career opportunities tailored to veterans.",
+                                    "I\u2019d like to submit my resume and set up alerts for DevOps roles with AWS and Terraform.",
+                                    "I want to submit my resume for part-time or flexible roles.",
+                                    "I want to submit my resume for entry-level physics research internships."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing application, press 2.",
+                            "fileID": "71f75819c82d4f15b625e82a05751bda",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your application status.",
+                                        "fileID": "7223bb7782a34503b2f4a7dd3fb2ab2d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "203d30e1e8074543b2852293e5dcc3e7",
+                                "navigationGoals": [
+                                    "I need an update on my application status for a recent position.",
+                                    "I want to check the status of my application for the logistics coordinator role I applied for.",
+                                    "I\u2019m checking the status of my senior backend engineer application submitted last week.",
+                                    "I\u2019d like an update on the status of my recent job application.",
+                                    "I\u2019d like to check the status of my application for the lab assistant position."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "47b6f3e5964f47c08d689c48dc83e98e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "45d059cd22b947a7aeb6a8f9f588b823",
+        "navigationGoals": null
+    },
+    "id": "5e59bc32d4d241e5923a449db66b6f0c",
+    "navigationGoals": null
+}

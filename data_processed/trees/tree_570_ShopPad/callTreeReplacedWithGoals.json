@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling ShopPad in the East Bay, where we craft beautiful, custom Shopify solutions for your store to thrive.",
+            "fileID": "c11ff43ec31f47c5bea34e68c8903481"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our bespoke Shopify services and new project consultations, please press 1.",
+                "fileID": "5e0adbbf82ee4d618f7ded6750fea94c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a consultation for a new Shopify store, please press 1.",
+                            "fileID": "e40f7b38c3604b8fa6a740d5ccf83370",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a ShopPad sales consultant.",
+                                        "fileID": "7ce0003e72724216a02e83d8951f97bf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0c4c04b0ac114fe6a9472e887801b2fc",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a consultation to discuss launching a new Shopify store.",
+                                    "Schedule a call to discuss creating a new Shopify store for my veteran-owned business.",
+                                    "I\u2019d like to schedule a consultation to architect and deploy a new Shopify store.",
+                                    "I\u2019d like to talk to someone about starting a new Shopify store.",
+                                    "I\u2019d like to schedule a consultation to plan a new Shopify store for my physics-themed merchandise."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about our custom theme design and enhancements, please press 2.",
+                            "fileID": "a17734f729f94741af293ace453d5011",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our design team.",
+                                        "fileID": "78888fac8bbe489bb0b62306bfc36598"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "348a9dd9a30d418ea789a24cd6b1304d",
+                                "navigationGoals": [
+                                    "I want to discuss redesigning my store\u2019s theme to improve the user interface.",
+                                    "Discuss designing a custom theme that reflects my veteran-owned brand.",
+                                    "I want to discuss custom theme design and UI/UX enhancements for my Shopify site.",
+                                    "I want help updating my store\u2019s design and adding a custom theme.",
+                                    "I\u2019d like to discuss custom theme design options for my store\u2019s layout and branding."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ae030fdf5e184859bedad1d571d96483",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support, integrations, and account assistance, please press 2.",
+                "fileID": "b2b5d5906086473587606cbdf5530662",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with store setup, app integrations, or troubleshooting, please press 1.",
+                            "fileID": "317be6c1fa7b41978334e889abca183f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a ShopPad support specialist.",
+                                        "fileID": "a71a96729bf0414188dfca8bd7d3e439"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8c98c4c7bee147b29b513a8eba1db6d6",
+                                "navigationGoals": [
+                                    "I\u2019m having trouble setting up an app integration and need technical support.",
+                                    "Get help integrating an inventory management app with my Shopify store.",
+                                    "I need technical support for store setup, API integrations, and troubleshooting.",
+                                    "I need assistance fixing an app integration on my Shopify store.",
+                                    "I need technical support integrating an app into my Shopify site."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, subscriptions, or account questions, please press 2.",
+                            "fileID": "95a1922c5b0c4ebabd04d9cec9b7bec6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "e48d499aa0ec41d7a88f134b2ba42e1c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e8729229903645389a4e18500e83a0b5",
+                                "navigationGoals": [
+                                    "I need to update my billing information and review my subscription.",
+                                    "Update my billing info and review my ShopPad subscription invoice.",
+                                    "I have questions about my billing, subscription plan, and account charges.",
+                                    "I have questions about my subscription and billing charges.",
+                                    "I have a billing question about my monthly subscription fees."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b9a8415b974a469ca7d3eb10d6665b8a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "509698078f0d4dc08e2f4796d4906fd2",
+        "navigationGoals": null
+    },
+    "id": "d94b63d0d705401eb03e0c9cce14ccae",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Luma Health in San Francisco, where we provide no-fuss, HIPAA-compliant text messaging and secure chat.",
+            "fileID": "dc34979e6ba34ea3ae88ecb7e043a8e1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For patient support, press 1.",
+                "fileID": "75cca0df89cd4dab9f3fab7482f40c4a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with appointment reminders or scheduling, press 1.",
+                            "fileID": "766c8224d8634b688fed26d24c516f8c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a patient scheduling specialist.",
+                                        "fileID": "224f2ac80ce24df7b8c9b8672aff525f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c280c9cccea7483eb65b2d40876ce091",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "If you're experiencing issues with secure messaging, press 2.",
+                            "fileID": "33b94b19dc6649ab9bda4ea4882ed347",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a messaging support specialist.",
+                                        "fileID": "2c4e75cae72b45efa8204fb2365cb8d4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f66ec85f0f564c4c8b2dfd8d107918a6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "97f71a1f04c445aea7b2dbc1d1e12551",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For provider and administrator support, press 2.",
+                "fileID": "795def56447f4ec7a99c57d9d37c8f11",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For onboarding and setup assistance, press 1.",
+                            "fileID": "90695f2c696146aba415b093a68d5f27",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a provider onboarding specialist.",
+                                        "fileID": "77af0b3ca1734244bca9f15873e7c91b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8710127d993340399a28485e05964950",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support and troubleshooting, press 2.",
+                            "fileID": "6a4c56b73dc44d69ae58fd4ad1d329d3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a technical support representative.",
+                                        "fileID": "7d383cd119304c7cba58e39d709c7e3d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9c3b67144940485caeb07e8efc3c332b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9a97ce6c791a4eecac8a53e5def1e3e2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1470df4a5bcc4d1db512816aa9293b17",
+        "navigationGoals": null
+    },
+    "id": "95549cda23b541f689cfbdb7e4698c81",
+    "navigationGoals": null
+}

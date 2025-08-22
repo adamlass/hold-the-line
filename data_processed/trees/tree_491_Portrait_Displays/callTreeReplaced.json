@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Portrait Displays, the East Bay's premier provider of customized display software for computer and display manufacturers.",
+            "fileID": "217561a86ea8494aacf63560ddf4bac9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and partnerships, press 1.",
+                "fileID": "9873da8183874ccdb2c04b53821bf372",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new product inquiries and pricing, press 1.",
+                            "fileID": "88f5d88e92a04e1a986d62f484244df1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "d69668cd0564451a9804e4e870e755b4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dedc61f10b0946b2854c773fe7541e70",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For OEM partnerships and licensing, press 2.",
+                            "fileID": "297062dafbf24c9b845e077c442446aa",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our OEM partnerships team.",
+                                        "fileID": "6e35921dc3824818bb68b4aacf135bae"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6232214c677b402581bab3ffdb9d68ce",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "01344694734746fb899d11032a60335e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support, press 2.",
+                "fileID": "19c0184cdd444eebaf1ea98681e91724",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For setup and installation assistance, press 1.",
+                            "fileID": "eb51f57e2c2b4530a4ddb83e7e08dc2e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our installation support team.",
+                                        "fileID": "673cdb4a7530412d91d4b5a8755a5fb9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a8b830fd25a04c5a96306f4cd530ea5a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For troubleshooting and diagnostics, press 2.",
+                            "fileID": "bf1042382182488d8f29d231c12531f7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our troubleshooting specialists.",
+                                        "fileID": "fef13ccd493342b49c5b1780208baf44"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "79d1370f174a4ebc9c794643627eb399",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e103c6f111f3487f8dded42d64fabd37",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "eb3f46a818eb456f8b76de9ea857bfb5",
+        "navigationGoals": null
+    },
+    "id": "7b82041d1b2d490e8b0f7bf44aa4e5e5",
+    "navigationGoals": null
+}

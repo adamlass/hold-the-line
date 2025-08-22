@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Hornblower Cruises San Francisco, where we create amazing experiences on the water.",
+            "fileID": "6272c0dc417b403d9cd53619f8493dad"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For reservations and booking inquiries, press 1.",
+                "fileID": "f539bb2999d74441ac6d4e9008ab728d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To make a new cruise reservation, press 1.",
+                            "fileID": "aaf46d01f7d14266a44451e64388b528",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our reservations team.",
+                                        "fileID": "941caa925b4a49ac850fd04cdd33da36"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2787f534470f4df5be59e5a5b45b2401",
+                                "navigationGoals": [
+                                    "I\u2019d like to book a dinner cruise for two next Friday evening.",
+                                    "I want to book a San Francisco sightseeing cruise next Saturday and apply my veteran discount.",
+                                    "I'd like to hit the reservations endpoint to spin up a new Saturday sunset cruise booking.",
+                                    "I\u2019d like to make a new Bay cruise reservation for two with wheelchair assistance.",
+                                    "I\u2019d like to book a San Francisco Bay cruise for two next Saturday evening."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To modify or cancel an existing booking, press 2.",
+                            "fileID": "67deaaca27e8402ea49d81a88d9a1b3a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One of our agents will be with you shortly to assist with your booking.",
+                                        "fileID": "8bc8e91ba3d347618311b192f9dc6475"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b7d95855ec5d41b990897c3453e7bacb",
+                                "navigationGoals": [
+                                    "I need to change my reservation from Saturday to Sunday and add one more guest.",
+                                    "I need to change the date of my existing cruise reservation because I have a VA appointment.",
+                                    "Please modify reservation ID 123456 by updating the date parameter to next Friday.",
+                                    "I need to change the date on my existing cruise booking from July 5th to July 12th.",
+                                    "I need to change my upcoming cruise reservation from July 15th to July 22nd."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6c4c17d33abb42feac731c016b28a996",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For departure schedules and onboard services, press 2.",
+                "fileID": "36a8748beb524cebacd02703347e768d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear today's departure schedule, press 1.",
+                            "fileID": "6631d54966444afba511e6c1d8320e89",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the departure times for you.",
+                                        "fileID": "3196625509d54ed689c35771d7d51fa7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7f04c809412e42808691ef3560b62046",
+                                "navigationGoals": [
+                                    "What are today\u2019s sunset cruise departure times?",
+                                    "I\u2019d like to know today\u2019s cruise departure times so I can plan before my support group meeting.",
+                                    "Can you query the departure schedule endpoint to retrieve today's cruise times?",
+                                    "Could you tell me today\u2019s departure times for the San Francisco Bay cruise?",
+                                    "Could you provide today\u2019s departure times for the public bay cruises?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about onboard amenities and dining options, press 2.",
+                            "fileID": "100a6d6483e64c2cb8cdbb958d31f159",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold as we connect you to our guest services team.",
+                                        "fileID": "194ac6defa7a42079ecb5ba502d2c7df"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c5d480141bf445b0be09d38d19883dff",
+                                "navigationGoals": [
+                                    "Can you tell me what food and drink options are available onboard?",
+                                    "I\u2019m interested in onboard dining options and accessibility accommodations for veterans.",
+                                    "I want to fetch the onboard amenities and dining options via the guest services API.",
+                                    "I\u2019d like information on the onboard meal options and accessible facilities.",
+                                    "I\u2019m looking for details on the onboard dining options and amenities for my cruise."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fd459be8360641a185cd97d40916e6f6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f32b628076be4b588476ed9458135feb",
+        "navigationGoals": null
+    },
+    "id": "33501206640d43a7b5448b1eeac5adde",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Dialpad in San Francisco, your AI-powered cloud phone solution for seamless business communications.",
+            "fileID": "a90bc0e539eb4e25901f300609bf5a09"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our sales team, press 1.",
+                "fileID": "3c09caccfc294ad5bf289029e560a303",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information about pricing and plans, press 1.",
+                            "fileID": "9575dbb396ed42768b905be493f9d226",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a pricing specialist.",
+                                        "fileID": "9565aa8f63bc42058a772adf3ba25ea2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bc33ae3e3dad461aac9131a0f513d39f",
+                                "navigationGoals": [
+                                    "Quickly compare subscription tiers to choose the most cost-effective plan",
+                                    "Explore veteran discount on pricing plans",
+                                    "I need a detailed breakdown of pricing tiers, including concurrent call path limits and add-on feature costs.",
+                                    "I need help understanding your service costs, since I\u2019m on a fixed income.",
+                                    "Ask about academic pricing tiers and student discounts for the standard plan."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For a live product demonstration, press 2.",
+                            "fileID": "fd6b393353784fd2b6e01a088b0f3cc9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a demonstration specialist.",
+                                        "fileID": "9153e9cd25c149c0a5c8755bb2cf42aa"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6aa788ac02444b2cb2908558a091cc9d",
+                                "navigationGoals": [
+                                    "Arrange a brief live walkthrough of the platform\u2019s core features",
+                                    "Schedule a live demo of the product",
+                                    "I\u2019d like to schedule a live demo of the AI-powered telephony platform, focusing on analytics dashboards and CRM integrations.",
+                                    "I\u2019d like a live, step-by-step demonstration of your system\u2014I\u2019m not very tech-savvy.",
+                                    "Arrange a live demonstration of Dialpad features, focusing on lab group collaboration."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6e79e6d5c2804b72ae4a26cb851a4fae",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To reach technical support, press 2.",
+                "fileID": "d6666970224f4cc6b77202ec43d1ea5a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "6b90c730ed8641d5bf36391161b7544a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support agent.",
+                                        "fileID": "8cffbbcf58434a97922c48e573c697be"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "92c763aeb48d4004a05bbf8423dbca96",
+                                "navigationGoals": [
+                                    "Resolve a call quality issue on my business line",
+                                    "Troubleshoot integration issue with my phone system",
+                                    "I need assistance troubleshooting my SIP trunk configuration and diagnosing call routing latency issues.",
+                                    "My phone features aren\u2019t working properly; I need to speak with technical support.",
+                                    "Resolve audio latency issues when using Dialpad\u2019s desktop app on Linux."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries, press 2.",
+                            "fileID": "fb1874399b024a7dbff228790c5157c0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "d8f4dc91159f44349e8af784b3d83fa9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1c13fa212ed44a93ba5e623da00303f3",
+                                "navigationGoals": [
+                                    "Clarify an unexpected invoice charge and update my payment method",
+                                    "Understand my latest bill and veteran discount",
+                                    "I need clarity on my invoice\u2014specifically usage-based charges, overage thresholds, and billing cycle dates.",
+                                    "I have questions about my latest bill and need someone to explain the charges.",
+                                    "Clarify an unexpected charge on my Dialpad invoice and adjust my billing settings."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "88ee104cebcf4b74aeff72e0171f9775",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "11cd11f4b3ab4e39b9015a65b6def8a6",
+        "navigationGoals": null
+    },
+    "id": "fe8d40eb947849c6bf4d870fa726895c",
+    "navigationGoals": null
+}

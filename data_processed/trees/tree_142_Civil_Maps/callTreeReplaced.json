@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Civil Maps in San Francisco, powering autonomous vehicles with real-time 3D cognition for safer, smarter mobility.",
+            "fileID": "8535fce0717349b7aee2c677215c7864"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support and service inquiries, press '1'.",
+                "fileID": "5c50fc495ac44b0d8a9ad92dddcca735",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For integration support and mapping software assistance, press '1'.",
+                            "fileID": "1370e73988144cdd8024c9143c949035",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "84d9b1dace824822b2402979ae0c3e90"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3d30143594254e359235119fcce5b472",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing, invoicing, and account management, press '2'.",
+                            "fileID": "0c4c7e41c4904f988fe34c8554fb5b4f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "2aa5903d8ccb4a4f8d5d72d41c0d5bee"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5421087b66c64334a72f0a192f5fb03a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "93a95315ae22481281f1595119042aef",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales, demos, and general information, press '2'.",
+                "fileID": "7b1e566d13bc471f91af50727c4808b2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For detailed product information and pricing, press '1'.",
+                            "fileID": "614bbde96dc74b86a434ba2d7497fff8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "f5c4226f3b8241d29ef2da9cd9ade5f1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "239a6cd212c74dc2ae5f06db9f25ca9e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a personalized demo of our 3D mapping platform, press '2'.",
+                            "fileID": "933a633be3dd4ca38c4e34514ab112da",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo scheduling specialist.",
+                                        "fileID": "bc979d78c31c4ac5a216323874062f76"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d4a8955fae0243ed8c1d5865cbaec4c1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "18be5355861246faa4713a9dad1a8f41",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5aa34fd2a4d042eaa5d39e2fad08417e",
+        "navigationGoals": null
+    },
+    "id": "c321419995864df49110659608fe4bf3",
+    "navigationGoals": null
+}

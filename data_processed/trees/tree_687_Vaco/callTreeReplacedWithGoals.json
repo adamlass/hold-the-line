@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Vaco East Bay, your trusted partner for expert recruiting services.",
+            "fileID": "401e9d891429464d8e12bf901e30c04b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an employer seeking qualified candidates, press 1.",
+                "fileID": "f8315871d03b4dbb945b3abff22faf08",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For permanent placement solutions, press 1.",
+                            "fileID": "9cf135a3d77c4916b13483b9af3bd3b4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a permanent placement specialist.",
+                                        "fileID": "38b25a9eda4c482ab72f3951c5b6e1ca"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c14b8fa1f5784f818d25700457613e89",
+                                "navigationGoals": [
+                                    "I need to hire a full-time project manager quickly.",
+                                    "I need to discuss permanent placement options to hire qualified candidates for my company.",
+                                    "I need to recruit a full-time DevOps engineer with AWS and Kubernetes expertise.",
+                                    "I need to hire a full-time administrative assistant with bookkeeping experience.",
+                                    "I\u2019m calling to recruit a full-time research assistant for our physics lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For contract and temporary staffing services, press 2.",
+                            "fileID": "2f7451b595144062a53be1db09ebed4d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our contract staffing team.",
+                                        "fileID": "784bded11d8d47c499cf8279de99f0f6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ad8cde7cf71f430eafd0a9faed6395c2",
+                                "navigationGoals": [
+                                    "I need contract support for a two-month marketing campaign.",
+                                    "I want to arrange contract or temporary staff support for a short-term project at my business.",
+                                    "I'm looking to onboard contract QA automation testers for a three-month sprint.",
+                                    "I\u2019m looking for temporary receptionist support for a few months.",
+                                    "I need to staff temporary lab technicians for an upcoming experimental project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b58de044d7ff49f3aaa24aed318a75f6",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a job seeker looking for opportunities, press 2.",
+                "fileID": "e4483d5d3f9d4df680869115395eb14b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore current job openings, press 1.",
+                            "fileID": "125bac54478a48b5b0f88ffff2cda4c4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our recruiting team for job openings.",
+                                        "fileID": "1f5d70e992ae4c27bd18272df1a75c09"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e26a1f4a485143c190cc13478225473b",
+                                "navigationGoals": [
+                                    "I want to see current software engineer openings.",
+                                    "I\u2019m looking to explore current job openings that match my military background.",
+                                    "Show me current full-stack developer openings in the Bay Area with remote flexibility.",
+                                    "I want to hear about current part-time job openings in my area.",
+                                    "I\u2019d like to review available entry-level physics research positions."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a career advisor, press 2.",
+                            "fileID": "e7d08b42d55345d6b1079d2045800e33",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Vaco career advisor.",
+                                        "fileID": "84dbdf25dc43439f96515b843959ea12"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b99325a3ff2d4cfa8961f7221a5e6967",
+                                "navigationGoals": [
+                                    "I need career advice on improving my resume.",
+                                    "I\u2019d like to speak with a career advisor for guidance on transitioning to civilian roles.",
+                                    "I want a career consultation on transitioning from IT support to cloud engineering roles.",
+                                    "I\u2019d like to speak with someone about updating my resume and getting career advice.",
+                                    "I want to speak with a career advisor about transitioning from my physics studies into industry."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8c59515298804bd298a3aafee413c20a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "775d20709d564142acc7ca7adcb9ef5c",
+        "navigationGoals": null
+    },
+    "id": "07bf22cf0cb840d3bee41b3e7223adf1",
+    "navigationGoals": null
+}

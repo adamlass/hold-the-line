@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Sony PlayStation San Francisco, your gateway to the latest in gaming, electronics, movies, music, and TV entertainment.",
+            "fileID": "b142c17f924c42f89ca6e0c8cf573543"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For our latest gaming consoles, upcoming PlayStation titles, and special promotions, press '1'.",
+                "fileID": "5d7eb3fb41624a0c8fc4561a55506fbe",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a PlayStation gaming specialist, press '1'.",
+                            "fileID": "6edb47be9b514e01b8c53df9cc74dbbe",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a PlayStation gaming specialist.",
+                                        "fileID": "6d340d9a49d04c4b9d00ccc36020f1b8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3ce1006289d34a1abc05064c6cd7600d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn about our newest electronics, movies, music, and TV show releases, press '2'.",
+                            "fileID": "ac83a13facaf439183aadda43ed33581",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales and entertainment team.",
+                                        "fileID": "f23d44e1119b487d963a911c718f0485"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "149ad065ba8c4c7a8bc662084e664619",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e44130b5944845f681471debc3ff67da",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support with your Sony products, press '2'.",
+                "fileID": "be25b0c38c6248da8b44bbe9210b664a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support for PlayStation consoles and accessories, press '1'.",
+                            "fileID": "b0986c52e1cc498eb79bc9b8a9b0ca11",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to PlayStation technical support.",
+                                        "fileID": "44095a059d66438ab8b99976fd302fdc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cbfbd8f9c403435396b6c44edb7e1f47",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For support with electronics, movies, music, or TV devices, press '2'.",
+                            "fileID": "3b504024080c49e6af42d8260cf81f84",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to general product support.",
+                                        "fileID": "163acde9bd4f40a5ae209234b52bdc7f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "88e1b13bc89a44a2897abd59473fce9b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f3b06ccebd0f41ae81675ac71161c53f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "84501478792249bfb4e4830f4c1a03ec",
+        "navigationGoals": null
+    },
+    "id": "8f42e7f1c0d44dbdb4fad98c4d7aa7d0",
+    "navigationGoals": null
+}

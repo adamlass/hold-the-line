@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to LaunchDarkly in the East Bay, empowering you to deploy code safely and release features when you\u2019re ready.",
+            "fileID": "b18b544c151b43059ba748800994f9f5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support with feature management, press 1.",
+                "fileID": "70b554600d7d465b88a132955a01ce70",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need assistance with feature flags configuration, press 1.",
+                            "fileID": "decd6727f2df4cea940d2ac76653cc8f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to a feature flags specialist from LaunchDarkly; your call is important to us.",
+                                        "fileID": "4006130017b6447c823a08705dc0dda5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a9540383de0642f29649f947c23bc731",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For help with integration, setup, or API questions, press 2.",
+                            "fileID": "e4034169dacd40b4b66761d582fbc233",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our integration support team; we appreciate your patience.",
+                                        "fileID": "a97427f29eb2490185e834c66703fad1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d05db574a8ff4838b25551a34e394fb6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "381026ffb5764744815dd22bde216817",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To speak with our sales team about plans and pricing, press 2.",
+                "fileID": "12fb559193a745ebbb457bfbaf198cf6",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on pricing tiers and subscription options, press 1.",
+                            "fileID": "6749085c67f14b1193d39b24e4f2b320",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to our pricing specialists; thank you for choosing LaunchDarkly.",
+                                        "fileID": "b743a430f6bb4bcf9552bb94e2890736"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "69aef1ec9efc48e2ae827796c498e336",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a live demo and explore features, press 2.",
+                            "fileID": "cbc856ddcfe14a45abcf4959af69bd23",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we arrange your demo; a representative will be with you shortly.",
+                                        "fileID": "2962efc085af4ddda08ac17d2f81da42"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a9d6f14d714a4218bb906da4b38b79ba",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "da83c7575c2340c290693405faba3b44",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "39217cdc178a4e218f445e6323b28d89",
+        "navigationGoals": null
+    },
+    "id": "c5ded11700e94ff7ac7d045bc066af2d",
+    "navigationGoals": null
+}

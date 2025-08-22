@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "ROOT",
+            "fileID": "e63e322aa61642acbb691fa4b35f92bf"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "ROOT:1",
+                "fileID": "b7b218a1a3d14703bd132929cdec3ca5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "ROOT:1:1",
+                            "fileID": "d9390e739f1e44be97fde76ce72b0161",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "ROOT:1:1:0",
+                                        "fileID": "b6b6519cda0e4b3db8fa0fef08c1af50"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "40c17f9527304318a0ff7d5e4dffdb82",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "ROOT:1:2",
+                            "fileID": "58303a811fed421bbefd1c3800614aa9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "ROOT:1:2:0",
+                                        "fileID": "d678de0718fc4ceab59590378bde84cf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6c4199f6d343472499d1be0ad3a29c4d",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "701009ae0e8c4ff79d7ef78b81b3299d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "ROOT:2",
+                "fileID": "de03c9f056974911b38ee2344d0d7ba5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "ROOT:2:1",
+                            "fileID": "94356fd3fee34cd3b088dcda267535b8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "ROOT:2:1:0",
+                                        "fileID": "6746f47868c4440bb5f03c154d15a305"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "208298317b2740bd9b7cdd0e83e792f1",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "ROOT:2:2",
+                            "fileID": "019c6006e5a74f09aef20d37662e6ee4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "ROOT:2:2:0",
+                                        "fileID": "71affe8a2e114bd68d9e3eba45e0494a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "57ec658fcd854befbbc57835d5c88928",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "01a017e98ae14a889a9af9e75559a52b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7bfe342a347b4c04bc001e17f0a5f0e6",
+        "navigationGoals": null
+    },
+    "id": "e175dec41ede40d3afa29947ff73dd0f",
+    "navigationGoals": null
+}

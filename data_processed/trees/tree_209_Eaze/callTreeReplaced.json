@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Eaze, San Francisco's number one legal cannabis delivery platform.",
+            "fileID": "608dfe64266740e28dd221459939188d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For placing a new order or tracking an existing delivery, press 1.",
+                "fileID": "eab150c143db43428d4d1cbec8d53d54",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To place a new cannabis order, press 1.",
+                            "fileID": "58f38a6e491441718a873358ff037655",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our ordering department.",
+                                        "fileID": "53721edad08d4b8eac3c21d2879d1760"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0596728c9955450684c5c8e4427b7048",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing delivery, press 2.",
+                            "fileID": "444704bcbf9d4046a4b39731f56667fb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your delivery tracking details.",
+                                        "fileID": "79442c34dc8246bb80e684de3255aed9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d348cd50c93b4839ae86cfd810cbf82c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "de3177d99f4b448cb41e64c1887d5b2a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account management and customer support, press 2.",
+                "fileID": "8b42c57a25f04be2a5249e8eb2147fc0",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To update your account information, press 1.",
+                            "fileID": "398a762b1d2549a5850c5587f21edf8e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we route you to account management.",
+                                        "fileID": "4ec0e53496db4aefa3c6ec3215de68be"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8047e6372db147eda739b9dfdc5f553a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with customer support, press 2.",
+                            "fileID": "c9000207a9bd4672b5310dbc72ba7251",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to customer support.",
+                                        "fileID": "0a8c9330235f405fb09e35ef81bf433b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "55693cc30a514d6ba691862437e5e09b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1e521d4ae5934d3a86d2a047b4cf70d5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d1fbc10e0e1f404da9f800f78f14dfba",
+        "navigationGoals": null
+    },
+    "id": "e4f47248b04c4152bbf1f3078dc22481",
+    "navigationGoals": null
+}

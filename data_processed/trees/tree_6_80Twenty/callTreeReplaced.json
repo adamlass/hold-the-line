@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling 80Twenty, your premier marketing, sales, and creative staffing agency based in San Francisco.",
+            "fileID": "cb3b392731a14dd0853fd0b0090977fb"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an employer looking to fill marketing, sales, or creative positions, press 1.",
+                "fileID": "fdf19a05c1dd49febda25c16abc7bb4e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on our candidate sourcing process, press 1.",
+                            "fileID": "907c7e847dfd48d18b269c7fd6a704b9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our candidate sourcing team.",
+                                        "fileID": "2297112e48fc481c9c88618b5c53ff2c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "124388915b50413b8f062916c9190993",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with an account manager, press 2.",
+                            "fileID": "0fe32e056cc34d21bac71ff864ed8f54",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to an account manager.",
+                                        "fileID": "14fe8cc4f42d4527bb433f1f153eed8d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "199f52b26e954ef0bcc13b58b086b08d",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "93a59641ec3b46e39d97aabd23837f54",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a marketing, sales, or creative professional seeking new opportunities, press 2.",
+                "fileID": "daaaff9cac98426d885d3a7863ff3ef0",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear about current job openings, press 1.",
+                            "fileID": "cd444338fe2240d1b98310eb545d2152",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our recruitment team for current opportunities.",
+                                        "fileID": "dc055fe0e24b45b685e1e03abdef592f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1c4add76f6ad4c339e04ef7a05273732",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak directly with a recruiter, press 2.",
+                            "fileID": "de393e52fa57437d9f3eec0ba1e3fa82",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to a recruiter.",
+                                        "fileID": "23fbe89591fa4edfa466ba60783f975b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0d46b2c61eb44218b6e1b65e1920d283",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "63b7368a80ca4a27a75fc73f40b0f020",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "be6f060782a74f96889f767f99ada5ee",
+        "navigationGoals": null
+    },
+    "id": "ae20be35463e440db2105fd1d9b60709",
+    "navigationGoals": null
+}

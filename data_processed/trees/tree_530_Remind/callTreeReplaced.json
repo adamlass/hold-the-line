@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Remind, the free messaging service from San Francisco that makes school communication simple.",
+            "fileID": "642a11bee1f94ff2b26b01eacb0e5ed1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our support team, press 1.",
+                "fileID": "8d48b21bf7094b2bb936e9c0333ac907",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with sending messages, press 1.",
+                            "fileID": "aa675c63f4ad42b9b36968f2e10a909e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the messaging support team.",
+                                        "fileID": "0bec837abd5d4265b71f0ef81a8d437b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "db23a4164fdd48159288a7d8bf06d740",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For issues with account access, press 2.",
+                            "fileID": "d3f224854034486d9b3e5d7e895aa9b7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account access assistance.",
+                                        "fileID": "cbc1a3d715384a219efe1794d9d98cc3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "29a7574305f142a0a6cf56dc754bc0e2",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "797ed8276d624fd09b85bd4a3bb67eac",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To access account setup and training resources, press 2.",
+                "fileID": "31c3215c5a3e481eafcf012e4470f4f5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To create a new Remind account, press 1.",
+                            "fileID": "9413a298ae12432b9944f029d00edf26",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account setup assistance.",
+                                        "fileID": "1b113defa8ad45e7a27ea180879e0f30"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d7764871147b4608ab087192fd4d273d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For guided tutorials and tips, press 2.",
+                            "fileID": "17f2d3a515c44c5d9d863da748064286",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our training and tutorial specialist.",
+                                        "fileID": "084a433741204a90bfe1cf20082b6c84"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "52d12c701fef4071a0d1cc6d908a6798",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "17888c2f74ae43fea08092bb1c390a3d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "142ae7b48b104383b7e174a373c6ccea",
+        "navigationGoals": null
+    },
+    "id": "40a3f8fc224a47e7a269481734e667d1",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Chewse in San Francisco, where teams that eat together thrive together.",
+            "fileID": "10397e6f87c9428098ebfd10f30054c2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To place a new order for our family-style meals, press '1'.",
+                "fileID": "6861b52cfb6b478caf61933218ac705f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To order our breakfast platters, press '1'.",
+                            "fileID": "8ad9ff9d6f6f482296e7ea571328d5ab",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our breakfast catering specialists.",
+                                        "fileID": "6ae196dad8e649cd801b225033032c20"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a7ad605e1a4743aaacdcd31eec94ef0f",
+                                "navigationGoals": [
+                                    "I need to arrange a breakfast catering order for my team tomorrow at 9 AM.",
+                                    "Schedule breakfast catering for my veterans' support group meeting.",
+                                    "Provision a breakfast platter order for 15 seats with a 9:00 AM delivery tomorrow",
+                                    "I need to place a new breakfast catering order for my family\u2019s morning meal.",
+                                    "I\u2019d like to place a breakfast catering order for eight people at 8 AM tomorrow for my study group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To order our lunch family-style meals, press '2'.",
+                            "fileID": "fe0420d0e9d148bdaf708dc6cf913fa2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our lunch ordering team.",
+                                        "fileID": "58e71b932e524fbcaf68463cdba85f1b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0da08937816946b6a03088e6489471c1",
+                                "navigationGoals": [
+                                    "I\u2019d like to place a family-style lunch order for about 12 people this Thursday around noon.",
+                                    "Place a family-style lunch order for our veterans' workshop.",
+                                    "Instantiate a family-style lunch meal order for a 10-person team at 1 PM",
+                                    "I want to set up a lunch family-style order for our office group.",
+                                    "I\u2019d like to schedule a family-style lunch for ten people next Tuesday at noon for our research meeting."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "33cd7ab931fd4bdaa3c688eb9b48b40d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For order status and account inquiries, press '2'.",
+                "fileID": "5580896eb10a4502a851e90c463abe57",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check the status of an existing order, press '1'.",
+                            "fileID": "523b203816424a7c85a124c11ccec085",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your order details.",
+                                        "fileID": "2c1d8e31f8314a7b9b866fa524f5d8b5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b3e28aa0ac0b45f0b33d37df8b059ca4",
+                                "navigationGoals": [
+                                    "Can you update me on the status of my current order, please?",
+                                    "Check the delivery status of my existing catering order.",
+                                    "Pull the real-time delivery status for my existing order #98765",
+                                    "I\u2019d like to check the delivery status of my existing order.",
+                                    "I need to check the delivery status of my existing order placed on May 3."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and invoice questions, press '2'.",
+                            "fileID": "3d75335438484bd1a72358b3f98ce23b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our billing department.",
+                                        "fileID": "b0be8c264adc4fe99ab3ce68ca0b89f4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "286fd8d265f9458bbecd5108519818f7",
+                                "navigationGoals": [
+                                    "I need a copy of my latest invoice and have a question about one of the charges.",
+                                    "Request a copy of the invoice for my most recent catering order.",
+                                    "Retrieve the PDF invoice for order #98765 and validate the billing line items",
+                                    "I have a question about the invoice for my last order.",
+                                    "I have a billing question about the invoice for our recent team lunch order."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6aeb46c4db414e4ebf9fae44e7e68f37",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3bbdd465e8ba4e708461f7c329c0e12a",
+        "navigationGoals": null
+    },
+    "id": "f94feeb578234d169e51f4ce28d31a8a",
+    "navigationGoals": null
+}

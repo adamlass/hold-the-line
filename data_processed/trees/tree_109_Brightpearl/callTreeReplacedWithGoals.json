@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Brightpearl in San Francisco, your partner for complete cloud-based back office solutions for retailers and wholesalers.",
+            "fileID": "089cf69d204345a4aaaad598920b7530"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For support with order fulfillment and logistics, press 1.",
+                "fileID": "2087829a48524e4ab6da6dcd86aa6418",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For order tracking and status updates, press 1.",
+                            "fileID": "d68b16bb890a4d89956c9ed9589db1d0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order tracking team.",
+                                        "fileID": "27be5ed9b9eb4af59400da3c1deaa5e1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "11163b1651fc4424a1ff59377ec69cbb",
+                                "navigationGoals": [
+                                    "I need a quick update on my order\u2019s shipping status and tracking details.",
+                                    "Check the delivery status of my latest supply order",
+                                    "I need to set up real-time shipment tracking via API webhooks for my orders.",
+                                    "I\u2019d like to know when my recent order will arrive.",
+                                    "Check the shipping status of the lab equipment I ordered last week."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For inventory management and stock optimization, press 2.",
+                            "fileID": "1f8fe0309cfa49dba4dfbec3a54082bf",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line while we transfer you to our inventory management team.",
+                                        "fileID": "7b9ba0bb8c7641d19a750e4fb647a922"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f1334a2905044affbcbc9a94a7e7d892",
+                                "navigationGoals": [
+                                    "I need assistance optimizing stock levels and inventory settings.",
+                                    "Review current inventory levels of my tactical gear and reorder if needed",
+                                    "I want to configure auto-reorder thresholds and dynamic stock-level alerts in inventory.",
+                                    "I need to check how many of my items are in stock.",
+                                    "Review current stock levels of my lab consumables and set reorder thresholds."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2e47facdbc884f88bd09380827a58a72",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For billing, account updates, and general inquiries, press 2.",
+                "fileID": "7f6e35e669f24703acc096b862e802d1",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing and invoice questions, press 1.",
+                            "fileID": "4c6a22d23108410695bedb049279a3d3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our billing department.",
+                                        "fileID": "f91b155c78bd4cfa85c4e4de6dcd0127"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a0ac3904d0554a3588bd207f437b2d4e",
+                                "navigationGoals": [
+                                    "I need to review my latest invoice and resolve a billing discrepancy.",
+                                    "Clarify an unexpected charge on my recent invoice",
+                                    "I need to reconcile last quarter\u2019s usage invoices and update the payment method on file.",
+                                    "I have a question about a charge on my last invoice.",
+                                    "Clarify the charges on my most recent invoice for lab supplies."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account configuration and system setup assistance, press 2.",
+                            "fileID": "e15a576e1cf7497bbcb61f68f37f51eb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line while we connect you with an account specialist.",
+                                        "fileID": "c053dabc4a1b4d5b8818aaa17ab86ec5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aa41a77e20964e2bbbd1854d156439fc",
+                                "navigationGoals": [
+                                    "I need to configure my account and set up system integrations.",
+                                    "Configure user roles and permissions for my account",
+                                    "I\u2019d like to configure my Brightpearl account, set up user roles, and enable SAML single sign-on.",
+                                    "I need help configuring my account settings.",
+                                    "Get help setting up my Brightpearl account and configure user permissions."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7059467fecf94bfc87b7eb5a7e860387",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9b5fb636cd1043528b6ab3405266632f",
+        "navigationGoals": null
+    },
+    "id": "a0728afdb34e4e80b0a14f6ee93be72d",
+    "navigationGoals": null
+}

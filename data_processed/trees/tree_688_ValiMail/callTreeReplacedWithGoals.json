@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to ValiMail, the world leader in email authentication and security based in San Francisco.",
+            "fileID": "3e18e23ef15e47caaa9764bade7902ed"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales inquiries, press 1.",
+                "fileID": "afc9c0b273af4ecab527d314472bd9f4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on our email authentication and DMARC solutions, press 1.",
+                            "fileID": "d0611f0fd6c6442abfc0c1135a3634ad",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist.",
+                                        "fileID": "24581cc483324585a4dbaee97f13ed44"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "28b7995cc9b34889ba3ccf00b54f17dd",
+                                "navigationGoals": [
+                                    "Understand DMARC solution features and pricing quickly",
+                                    "I\u2019d like an overview of your email authentication offerings and a pricing estimate for a small veteran-led consultancy.",
+                                    "I want to discuss DMARC and SPF/DKIM integration options and get a sales specialist\u2019s input on our authentication roadmap.",
+                                    "I need help setting up your email authentication and DMARC\u2014I\u2019m not very tech-savvy.",
+                                    "I\u2019d like to learn more about your email authentication and DMARC capabilities for a research project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss enterprise licensing and volume pricing, press 2.",
+                            "fileID": "7d04d2b1875b4ab5820b249324707f09",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our enterprise sales team.",
+                                        "fileID": "1778227e972943c4ab54af650043584d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f1cf6f325cb547189cd2992380cf9f53",
+                                "navigationGoals": [
+                                    "Discuss enterprise licensing options and volume discounts",
+                                    "I need volume licensing and enterprise pricing details for deploying your DMARC solution across our organization.",
+                                    "I need a volume pricing quote for an enterprise license covering 5000 users with tiered discount rates.",
+                                    "I want information on enterprise licensing and volume pricing for our email solution.",
+                                    "I need to discuss enterprise licensing options and volume discounts for our university department."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "58141f19b25a4c96936cfee5b0fb02d3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support, press 2.",
+                "fileID": "ffc53aee028741799b77022bf416eb91",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "2dd2a3e931314a7891e2c1f7f86619c5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "29ce9b27a8b44471956358fb844082d7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4d3843253ed2491c989cd1b0f25c2d3b",
+                                "navigationGoals": [
+                                    "Troubleshoot an API integration issue with the service",
+                                    "I\u2019m having trouble configuring SPF and DMARC on my mail server and need technical assistance.",
+                                    "I\u2019m having SPF alignment errors and need help troubleshooting our email authentication policies.",
+                                    "I\u2019m having issues with email delivery and need technical troubleshooting help.",
+                                    "I'm having trouble with SPF alignment in our setup and need technical assistance."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "927a34d2011842fcab423d9ac0715ae4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing and account services.",
+                                        "fileID": "ba239b16a58b4bedaa0381b2fe6d158f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4e926617550542f39929edffa2f68174",
+                                "navigationGoals": [
+                                    "Check my billing statement and update payment information",
+                                    "I want to update my billing information and review my most recent invoice.",
+                                    "I\u2019d like to review my current subscription invoice, update payment details and verify account billing settings.",
+                                    "I don\u2019t understand my latest bill and need assistance with billing and account charges.",
+                                    "I have questions about a recent invoice and need to update my billing details."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c22906da7a6c4433808618d0fbb6b355",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "21aaa331cd0b41ca90569170801c5937",
+        "navigationGoals": null
+    },
+    "id": "4e8c070ecbd14769b81cd5668c3fdab4",
+    "navigationGoals": null
+}

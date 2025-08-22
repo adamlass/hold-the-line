@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Watsi in San Francisco, where we build technology to finance healthcare for everyone.",
+            "fileID": "761c8d73159d463698177167848ae81a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For donation inquiries and support, press 1.",
+                "fileID": "003404db472f4ebb8ad6948f9ca9230a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To make a one-time donation, press 1.",
+                            "fileID": "472588125f19428a99dfeac9d986a0dc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a donation specialist.",
+                                        "fileID": "105355d181044d2c95a57211b4bef725"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "75eeb112f8184d579a382b060233b861",
+                                "navigationGoals": [
+                                    "I\u2019d like to quickly complete a one-time donation today.",
+                                    "I\u2019d like to make a one-time donation in honor of my former unit.",
+                                    "Process a one-time donation transaction using my credit card.",
+                                    "I need help making a one-time donation over the phone.",
+                                    "I want to make a one-time donation to fund a patient\u2019s medical care through Watsi."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To set up a recurring monthly gift, press 2.",
+                            "fileID": "40d2b5f315174295a91c4023c9ac9034",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our recurring giving team.",
+                                        "fileID": "7267eccf7a594f519e85e5193d198523"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "395c5e87a77a46d6beb9f0981ce5f10b",
+                                "navigationGoals": [
+                                    "I need to set up a recurring monthly gift to Watsi.",
+                                    "I want to set up a recurring monthly gift to support ongoing patient care.",
+                                    "Configure a monthly recurring donation plan via automated billing.",
+                                    "I\u2019d like to set up a monthly gift.",
+                                    "I\u2019d like to set up a monthly recurring donation to support ongoing treatments."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c3763f6874d440168ada004041efb183",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For information on our healthcare partner programs, press 2.",
+                "fileID": "05d191749b4741f2849397499b45ee4c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn how to apply for patient funding, press 1.",
+                            "fileID": "8fb7eba8d28b4d79a1c31a5608e6c30d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a patient funding advisor.",
+                                        "fileID": "ecaa0deb03074fbfb3face4bf1ef6ba4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d416164cc8b9494eabc2854fea66fa1a",
+                                "navigationGoals": [
+                                    "I want to learn how to apply for patient funding through your program.",
+                                    "I need information on how to apply for funding to cover my treatment.",
+                                    "Obtain detailed specs for the patient funding application process and eligibility criteria.",
+                                    "Could you explain how to apply for patient funding?",
+                                    "I need guidance on how to apply for patient funding through Watsi."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To inquire about becoming a partner clinic, press 2.",
+                            "fileID": "6fb4560f63e44f20939de9ff5a7ce66c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a partner relations representative.",
+                                        "fileID": "863f8df136f54dd09431096d8ef3fe2d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fec9aa4ce4c947029149a8b7e16d21e7",
+                                "navigationGoals": [
+                                    "I\u2019m calling to explore signing up my clinic as a Watsi partner.",
+                                    "I run a small veterans\u2019 clinic and want to learn how to become a Watsi partner.",
+                                    "Acquire integration guidelines to onboard my clinic as a Watsi partner.",
+                                    "I want to ask about signing my clinic up as a partner.",
+                                    "I\u2019d like to inquire about becoming a Watsi partner clinic."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7d927a1584134568b2471c204a644365",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "306ad7a85f324379916d56e40304f1eb",
+        "navigationGoals": null
+    },
+    "id": "71479d351bf049e4b7c40e495cfefa01",
+    "navigationGoals": null
+}

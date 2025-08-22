@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Figure Eight in San Francisco, where we make AI work in the real world.",
+            "fileID": "1eade1b3b8394b35a788d281cc368553"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our sales team about AI solutions and pricing, press 1.",
+                "fileID": "19f5f5c4c5c84fbeb0def87ea15e37de",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing details and package options, press 1.",
+                            "fileID": "7dca37624bdb459eb966fe6c4034131a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold, and we will connect you to a pricing specialist shortly.",
+                                        "fileID": "4b6469ad357048b395778fc97b36c264"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ac9078b7f8364aaf9e46bc4682602e55",
+                                "navigationGoals": [
+                                    "Get a concise breakdown of service pricing tiers and associated costs",
+                                    "I\u2019m a vet launching a security startup; need detailed pricing on your AI packages.",
+                                    "Get a detailed breakdown of enterprise AI API pricing by usage tier.",
+                                    "I need an explanation of your AI service pricing and any discounts for seniors.",
+                                    "I\u2019d like details on pricing packages and any academic discounts available."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a personalized product demonstration, press 2.",
+                            "fileID": "62e4e151b5e64c2bb9ef9ac21f67a0ad",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold, and we will connect you to a demo coordinator shortly.",
+                                        "fileID": "a129b7e116434a49bd3477d2c0694211"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cd3a98145ddf44538c87fbf9935ffb44",
+                                "navigationGoals": [
+                                    "Book a personalized product demonstration at the earliest available slot",
+                                    "I need to schedule a personalized demo of your AI platform for threat-detection use cases.",
+                                    "Schedule a live technical demo of their model training and deployment workflow.",
+                                    "I\u2019d like to schedule a one-on-one product demo at a time I\u2019ll remember.",
+                                    "I\u2019d like to schedule a personalized demo of your AI platform."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3faac73a2e974e9d8de0952466aaf178",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To reach our support department, press 2.",
+                "fileID": "67911e8b8ff64b1d83ff0d4cdfe299fd",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "7fc7cd22bff544a58841c858140cda1d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold, and we will connect you to a technical support specialist shortly.",
+                                        "fileID": "6c75f51a577e4dd8aec0933e0d8905eb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2facc7832c00454097a07c1debfb8498",
+                                "navigationGoals": [
+                                    "Troubleshoot an integration error with the AI API",
+                                    "I\u2019m experiencing errors integrating your AI tool into my system and need technical support.",
+                                    "Troubleshoot a 500 error in our API integration causing inference failures.",
+                                    "I\u2019m having trouble logging in and need technical support to access my account.",
+                                    "I\u2019m encountering errors with the API\u2014can I get technical support to troubleshoot?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "74114a3e11b543dca1ba6f857815d706",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold, and we will connect you to our billing team shortly.",
+                                        "fileID": "3ae0ae366b3c433097841af27628dad8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "82c0014fc32c4110a9db325e226b46ef",
+                                "navigationGoals": [
+                                    "Clarify a billing discrepancy and update my payment method",
+                                    "I want to review my latest invoice and update my billing information on my account.",
+                                    "Clarify unexpected overage charges on our monthly API usage invoice.",
+                                    "I have a question about a recent billing charge and need help reviewing my invoice.",
+                                    "I have questions about my recent invoice and billing charges."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "197d99c4aabd4807a8d307a1a62cf741",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "351589fadfde41a4a74f1ff3e0f51919",
+        "navigationGoals": null
+    },
+    "id": "e8e43e80f5f146229d87a4e772576e83",
+    "navigationGoals": null
+}

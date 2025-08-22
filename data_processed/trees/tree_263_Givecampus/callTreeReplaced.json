@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to GiveCampus, San Francisco\u2019s digital fundraising and volunteer management platform for schools.",
+            "fileID": "72a32854edf84d9084c6ae54b4445821"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For existing users needing platform support, press 1.",
+                "fileID": "e59d96b1c08e44d48ee753065971874f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help setting up fundraising campaigns, press 1.",
+                            "fileID": "967e04e89c1741ddab4460e30c5dc0ea",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our campaign setup specialists.",
+                                        "fileID": "5653482846064b35bbab2dce6fd51419"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5d86f0e91c9d42bba394dbb9299a114b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For assistance with volunteer management tools, press 2.",
+                            "fileID": "14f7f6c6420445ce9567687c18ba2419",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our volunteer support team.",
+                                        "fileID": "f957eb025339430a8662d1f9d4159c52"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5e1604709f5943abb998ee054a3b459e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0bce97415dee408f9b5280b5c9aaa5aa",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and product inquiries or to schedule a demo, press 2.",
+                "fileID": "5ec30a66d8d34eb78ceeb6f1770045b2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team, press 1.",
+                            "fileID": "1601b3096b3b48b3b13153ea87016bae",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "13d9facbfceb4318acd481c555ee8901"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cc64e82cb7dd466fb8d52a984d27102e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To discuss pricing and plans, press 2.",
+                            "fileID": "496824e88b114e658fdf94c266c99517",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and plans team.",
+                                        "fileID": "01598a098dfd47298432c3e50a1b9af0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "87d557a375694dd3a098cc6de4497e59",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a6d018a4107a42f38d3ee17370c7d808",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9d7c3907d05e4dbcb41058c62871ea88",
+        "navigationGoals": null
+    },
+    "id": "bba360cb0031416eb645006340024e03",
+    "navigationGoals": null
+}

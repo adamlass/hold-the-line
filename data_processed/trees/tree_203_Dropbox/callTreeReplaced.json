@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Dropbox, the modern workspace designed to reduce busywork and help you focus on what matters.",
+            "fileID": "5e7bd4cc85df4cbcb5f32d53d6c751c0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support and troubleshooting, press 1.",
+                "fileID": "3325148e8ec24a749178e26a99bf8ed4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with syncing and file access issues, press 1.",
+                            "fileID": "dc8e0ba6cfa5404c9f8e367c6894fc0c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist for syncing and file access.",
+                                        "fileID": "bb50de8db52040d4a84f79f06fb63f5a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1e8366d374264e0a9a5a3f0b731c8084",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For assistance with integrations and third-party applications, press 2.",
+                            "fileID": "377a8a53c9dd41b78c3a305e3d5b4197",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist for integrations and third-party apps.",
+                                        "fileID": "6329640692b54977a746a2c2ab435d0d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9e759afe61924ac88e8d15680b25178c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "129d7adb587f496fb6ad9b9de739f017",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales, account information, and billing inquiries, press 2.",
+                "fileID": "8af4a93ded24442b9e06645fcbe27465",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press 1.",
+                            "fileID": "3591c99ff982416d82a896ea3a1954b3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "c511f2aed56c46a0bf7b0358a0decffc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "93bf70e2abda4f0fb4e253da7ac23a58",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and subscription questions, press 2.",
+                            "fileID": "0de1f59714c748d8901527c24b08a92e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing support.",
+                                        "fileID": "fbd376f69e014a49903c12eea6c8d05a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9414f22db91e4c0d856ca34f9592591e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e8fb45d7d70b4859bcc8ec3a83ee1c92",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3d443e486df049d78a8e33a23018d552",
+        "navigationGoals": null
+    },
+    "id": "ba80aadb953a49ac98f98a004b50838e",
+    "navigationGoals": null
+}

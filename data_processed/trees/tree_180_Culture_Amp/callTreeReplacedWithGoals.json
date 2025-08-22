@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Culture Amp in San Francisco, your partner in driving employee engagement through actionable feedback.",
+            "fileID": "099e12e9af724b54b6c24aa8ea9dc6a8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with creating and launching employee engagement surveys, press '1'.",
+                "fileID": "0de491d1003b4995b88d1ce36509d66a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a survey design specialist, press '1'.",
+                            "fileID": "b0ce44c49d9c40d08d41560d02ffaa1a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a survey design specialist.",
+                                        "fileID": "44398a5b8ce74012beb90f542741afa9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "53f86dd88d774f2e96970e9c9af57840",
+                                "navigationGoals": [
+                                    "Get guidance from a design specialist to develop tailored engagement survey questions.",
+                                    "I need guidance designing an engagement survey focused on the experiences of military veterans.",
+                                    "I need to design a custom employee engagement survey with advanced question branching and Likert-scale metrics.",
+                                    "I need to speak with someone about designing my employee survey questions.",
+                                    "I need help designing my student group\u2019s engagement survey to gather actionable feedback on lab collaboration."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule or launch a survey, press '2'.",
+                            "fileID": "61e701e562114430bced24299291ac94",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our survey launch team.",
+                                        "fileID": "2b8859ec5fad480ca7c2e536481a0ff5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ea9e5fc8cb4a40dbb7c41991b9e5d097",
+                                "navigationGoals": [
+                                    "Schedule and launch our quarterly employee engagement survey this week.",
+                                    "I\u2019m ready to schedule and launch our new employee engagement survey across the organization.",
+                                    "I\u2019d like to schedule and launch our next quarterly engagement survey, including setting up automated reminder workflows.",
+                                    "I want to schedule and launch an engagement survey for my team.",
+                                    "I want to schedule and send out my physics lab group\u2019s engagement survey."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a88d9015cf6f4475851bf64d74b6891c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For help with analyzing feedback and generating insights, press '2'.",
+                "fileID": "5d8e263a499d43d8a888cfd3c6cf0a41",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss analytics and interpreting employee feedback, press '1'.",
+                            "fileID": "c896b2660bcb4a54815bb2f26abecea2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to an analytics expert.",
+                                        "fileID": "395b60813a85435190a45202592cfb30"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "544ec3e6f1ac4a648b9a7d150ee9b3d5",
+                                "navigationGoals": [
+                                    "Discuss and interpret the latest survey feedback with an analytics expert.",
+                                    "I want help interpreting the results from our latest engagement survey to improve team morale.",
+                                    "I want to discuss the analytics on our latest feedback and interpret the data to extract actionable insights.",
+                                    "I need help interpreting survey feedback and analytics.",
+                                    "I need assistance interpreting the feedback data from my recently completed engagement survey."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For custom report and dashboard setup assistance, press '2'.",
+                            "fileID": "1547980b9b044723ab743dd9858d13ab",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a reporting specialist.",
+                                        "fileID": "25e275429578460c92379cb784d7eba5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4e0afc9d4b6f4c14abde7a656f966d04",
+                                "navigationGoals": [
+                                    "Set up a custom engagement dashboard to track team scores over time.",
+                                    "I need to set up custom dashboards and reports to track our engagement metrics over time.",
+                                    "I need assistance configuring a custom dashboard with dynamic visualizations and KPIs for our engagement reports.",
+                                    "I need assistance setting up custom reports and dashboards.",
+                                    "I\u2019d like to set up a custom dashboard to visualize the survey feedback results."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "dcbcea2dd7644753a975309b156c9000",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "0b3c8ed5299a4537b88beca273026f08",
+        "navigationGoals": null
+    },
+    "id": "5c0baa80a9c14b3a9b0e524c732db6c3",
+    "navigationGoals": null
+}

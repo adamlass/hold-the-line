@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Swiftly, based in San Francisco and dedicated to improving transit efficiency and reliability worldwide.",
+            "fileID": "dc2443bdfdba49fe8255a659eb7995bf"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an existing transit agency client, press 1.",
+                "fileID": "7b925a4972d74220850161abbfdeef6e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "decf77e0e7d44dc2be7dab345065e975",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "9585f22607d040999ce85fbec25414f1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "20d710559e1b4097bf2c70f55b3c64fc",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press 2.",
+                            "fileID": "732b6f5657ae40d388594cc34afd359a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "27fe02484a66432bbac0653335275c6f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0decfa96c2d14282b4448289d4cd38dd",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9af0f56d8c774116b510b9f45d57911f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are interested in new city or transit agency partnerships, press 2.",
+                "fileID": "79e702a2ef164cb08c35e53d7870931c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For partnership information and demos, press 1.",
+                            "fileID": "cf099bb6f0a042a1956cc55e0ed1f126",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to our partnerships team.",
+                                        "fileID": "5a48b88ada524179b3c79c736566bb0c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "193727bb7f7942658bf46a836ddcb631",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For general information about our services, press 2.",
+                            "fileID": "abbaa44933cd4bd3b76cd50cc7e8cab4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our customer information desk.",
+                                        "fileID": "b59b1c486f864ed59d37da8248db395b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8ce4956bd1024fdab5711009ffade590",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5523e191fbdf4f23a3d0be26a7a53dd0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6569ebdcff1a42389b8cc1e469338456",
+        "navigationGoals": null
+    },
+    "id": "753773b54e2349779f458739842962e6",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling CoInspect, your San Francisco-based app for food safety compliance, brand standards, and supply chain audits.",
+            "fileID": "4fc804678d2d497a98b02bdeb02bb205"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For a free demo of our CoInspect app, press 1.",
+                "fileID": "96efcf71c266456b8d4a74ebbe216d9a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a food safety compliance demo, press 1.",
+                            "fileID": "4caead6fd9f24a7ea2feb2acbaf5139c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo scheduling team for food safety compliance.",
+                                        "fileID": "95ec05d9c9e749349794c27fd43fc07b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cba713dd446349f8af1835670d86926d",
+                                "navigationGoals": [
+                                    "Set up a walkthrough of the food safety compliance features.",
+                                    "Schedule a walkthrough of the food safety compliance features to help my veteran-owned catering service meet regulations.",
+                                    "I\u2019d like to schedule a demo of your HACCP compliance workflows in the CoInspect app.",
+                                    "I\u2019d like to schedule a demo of your food safety compliance features.",
+                                    "I\u2019d like to schedule a demo of the food safety compliance module for our campus lab pantry."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a demo of our brand standards and supply chain auditing features, press 2.",
+                            "fileID": "1e5c1f1c970c4744b331b3c96acad7fd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo scheduling team for brand standards and supply chain audits.",
+                                        "fileID": "9987ad8ee7104cf99e1dd93c9c3267a4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5a962134da5c45c5b19709eab5121dfd",
+                                "navigationGoals": [
+                                    "Book a demo for the brand standards and supply chain audit tools.",
+                                    "Arrange a demo for brand standards and supply chain audit tools for my veteran-run food distribution business.",
+                                    "I want to book a walkthrough of your brand standards module and supply chain traceability features.",
+                                    "I want to set up a demo for the brand standards and supply chain audit tools.",
+                                    "I want to book a demo of the brand standards and supply chain audit features for my research group\u2019s procurement."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "91d963f575fb44b89ea7d763e7b55a14",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, press 2.",
+                "fileID": "7a2638f1395544a89d3ca112cfcf762d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance, press 1.",
+                            "fileID": "973a542959cd48bcb59f83f3ac8703ee",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support specialist.",
+                                        "fileID": "4fae5b60c5024882b5646b5ba283f93c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "491f348939f54d469e4c30495af83d1e",
+                                "navigationGoals": [
+                                    "Get help fixing a technical issue with the app.",
+                                    "Get technical support to resolve issues with my inspection report uploads on the CoInspect app.",
+                                    "I\u2019m getting an API sync failure in CoInspect and need technical assistance.",
+                                    "I need technical support to fix an issue in the app.",
+                                    "I need assistance troubleshooting an error uploading inspection data in the app."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "69fc508beac74445be008500271c4bb8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "24b37d6189cc44c4865b1f318260484c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "418ee6534a9f4762894036c0e5c0fb90",
+                                "navigationGoals": [
+                                    "Clarify a recent invoice and update my billing details.",
+                                    "Speak with billing to apply my veteran discount and update my subscription plan.",
+                                    "I need to review my subscription invoice and discuss upgrading to the enterprise plan.",
+                                    "I have a question about my billing and account charges.",
+                                    "I have a question about my subscription invoice and possible account upgrade options."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0bf500a7ba2b40b1bf1cb6681cdb9361",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a501f1a243e948d8aa21c2c8d836c72d",
+        "navigationGoals": null
+    },
+    "id": "37f81ced47bc42579cdb3d8505b2b240",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Braintree in San Francisco, your partner in building connected commerce experiences to help grow your revenue.",
+            "fileID": "cdfc6e6a799d40aab245cafea0f03e47"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new sales and product inquiries, press 1.",
+                "fileID": "369e60a5fb9845359c6f88c621d9b26b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing information and product demonstrations, press 1.",
+                            "fileID": "4a2966d087244e2ca5e8c99de086b90f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our product specialist.",
+                                        "fileID": "741d1416a8f74331b30d4709a2d44c50"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "860e3e17327f4482936707f8eaf5677a",
+                                "navigationGoals": [
+                                    "Quickly see a product demo and clarify pricing plans.",
+                                    "I\u2019d like a walkthrough of your payment gateway features for my veteran-owned online store.",
+                                    "I\u2019d like a live product demonstration of your payment SDK and an overview of your pricing tiers.",
+                                    "I\u2019d like a demo of the payment system and pricing details.",
+                                    "I\u2019d like to schedule a demonstration of your payment API and get detailed pricing for my project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative, press 2.",
+                            "fileID": "55af34cd032b4ad38b634d191732e02a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "a3985f4074884fedaba6854224e4c587"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9e70d4a639524d348dc3abefa99c2e98",
+                                "navigationGoals": [
+                                    "Speak with sales about enterprise package options and volume discounts.",
+                                    "I need to speak with sales about custom pricing packages for my growing business.",
+                                    "I want to talk to a sales representative about enterprise volume pricing and contract terms.",
+                                    "I need to speak with a sales rep to open a merchant account.",
+                                    "I want to speak with a sales representative about enterprise integration options for our lab\u2019s payment system."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6b905f644cf44b8894812ea8fc7c127b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "1a2cd657578f4f84b851509ed7960165",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For integration and API support, press 1.",
+                            "fileID": "220e22cf13cc471dab8aaae31b3d5c72",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our API support team.",
+                                        "fileID": "0cd5493788d5480281a15e11899cb652"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6abb59fe68bd439e9e386ba5be8907ec",
+                                "navigationGoals": [
+                                    "Get help resolving an API integration error in our checkout.",
+                                    "I need help integrating Braintree\u2019s API into my website\u2019s checkout flow.",
+                                    "I need help debugging my API integration, specifically OAuth authentication and webhook events.",
+                                    "I need help integrating Braintree\u2019s API into my website.",
+                                    "I need technical support troubleshooting my API integration in my development environment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "ce16d69a199c41f3965685e8fd6b901f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a billing specialist.",
+                                        "fileID": "347b299819c043e6a030aec005201a1c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "977c895012ab4003b90cb197ffefb8d6",
+                                "navigationGoals": [
+                                    "Confirm a recent invoice charge and update my billing information.",
+                                    "I want to review and correct a billing discrepancy on my latest invoice.",
+                                    "I have questions about my monthly billing statement, invoice details, and want to update my payment method.",
+                                    "I have a question about a charge on my billing statement.",
+                                    "I need to review my latest invoice and adjust my billing plan for the next period."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e3c105bf3e7741bda883b041ee89595e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9dbb2881bdc14b73875035262df7afa2",
+        "navigationGoals": null
+    },
+    "id": "61843a9b16004c38931be1846eae55d6",
+    "navigationGoals": null
+}

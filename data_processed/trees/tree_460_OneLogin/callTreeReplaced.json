@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling OneLogin, your unified access management solution for all of your applications.",
+            "fileID": "5ea9ebe440f44ef1b3aee176cbb93c5a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and account information, press 1.",
+                "fileID": "58b371793656417d8a69e834dfb1da68",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our enterprise sales team, press 1.",
+                            "fileID": "e2a4d22ca26047e4b4fa31b76cc82df5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to enterprise sales.",
+                                        "fileID": "8143a9649f25436fb8602c36fefca114"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3030c542e9574d1c989d19d95bebc0e3",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To reach our small business sales specialists, press 2.",
+                            "fileID": "d680c90ff9d64aeea0d568d38f9810c0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to small business sales.",
+                                        "fileID": "58d7d457bc27485d834b91c8c33b5df7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "858fbd183e28482ea5e08ba50ffec1f0",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3598532e6f3047af830e3c496117fbb0",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Support and technical assistance, press 2.",
+                "fileID": "e70b7864f38b4e229497b7b43519c8e0",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "59eef877e907484ab1891a229d6dde0f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to technical support.",
+                                        "fileID": "22248426848440c19f810a2f55ce5696"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3273acaf8083416997d64c61e6ea2ae5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account management inquiries, press 2.",
+                            "fileID": "d280cef4e9df4ed382370dabfe1712b9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our billing department.",
+                                        "fileID": "1590a8b30a5943c4880e7218b2122353"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1d88e2f4b13c4444a7baf59889d4c62c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "56a31b09a90542abb654e2fa857750b9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4f97557ec7fb4b4685a502e7bae57331",
+        "navigationGoals": null
+    },
+    "id": "4ff694ea18194540af90db63179c0138",
+    "navigationGoals": null
+}

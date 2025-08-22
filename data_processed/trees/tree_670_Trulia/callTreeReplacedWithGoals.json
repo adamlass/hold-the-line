@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Trulia in San Francisco, where you can discover a place you\u2019ll love to live.",
+            "fileID": "114efc8969e74cf092f40823982c063c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To search for homes and apartments, press 1.",
+                "fileID": "2c6accaa1a9c413690556ac34f49256b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To search by city name, press 1.",
+                            "fileID": "955199fd14de4f328eb3be809833165e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve listings for your selected city.",
+                                        "fileID": "266393e77a7640d2ac40699bcf1f1327"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "14ff0d783da64b5eabd8353514e56618",
+                                "navigationGoals": [
+                                    "Search for 2-bedroom apartments in Seattle by city",
+                                    "Locate 2-bedroom rentals in San Diego near the VA hospital",
+                                    "Perform a geo-based search for three-bedroom condos in Austin with fiber-ready infrastructure",
+                                    "I\u2019d like to search for available two-bedroom apartments in Berkeley by city name.",
+                                    "Look up available apartments in Cambridge, Massachusetts."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To search by ZIP code, press 2.",
+                            "fileID": "97125099108141578836ee389c473a85",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve listings for your selected ZIP code.",
+                                        "fileID": "ae5069a40fbf466c8b9d1c112fd41d2a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f6bce2a0c241438298a5692be1fd884f",
+                                "navigationGoals": [
+                                    "Retrieve home listings in ZIP code 94107",
+                                    "Find wheelchair-accessible apartments in 92103",
+                                    "Retrieve listings in ZIP code 94107 for properties under $1.5M with at least 2,000 sqft",
+                                    "I need to look up single-family home listings in the 94110 ZIP code.",
+                                    "Retrieve home listings in ZIP code 02139."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "74a8924da3384a889b722d6974ce9257",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, press 2.",
+                "fileID": "9e636ca63224432395530dec54f7b71a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account and login assistance, press 1.",
+                            "fileID": "df96d107720449c69977faa5dc95a4b8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account specialist.",
+                                        "fileID": "b2edf8d265f7412b908325df387183ac"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7dc73fe668ab4d65872ea62e0010a92b",
+                                "navigationGoals": [
+                                    "Get assistance resetting my Trulia account password",
+                                    "Reset my Trulia password to update my veteran housing preference",
+                                    "Troubleshoot OAuth login failure and reset my two-factor authentication settings",
+                                    "I need help resetting my Trulia password so I can sign in to my account.",
+                                    "Get assistance with recovering my Trulia login password."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For feedback or other inquiries, press 2.",
+                            "fileID": "b304ffac3cc147898217b9ec973d0f54",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our customer service team.",
+                                        "fileID": "69c0367104e74547a3c5579eb346e1e8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "92af83b18c14484fa3bbad1f1cb7d24f",
+                                "navigationGoals": [
+                                    "Submit feedback on the app\u2019s usability",
+                                    "Provide feedback about adding a veteran-friendly filter to listings",
+                                    "Submit feedback on API data latency issues in the property listing feed",
+                                    "I\u2019d like to give feedback about the app\u2019s font size being too small.",
+                                    "Send feedback about the Trulia listing filter options."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "35f8d6afec5143d6beb7a16ae9648dc0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2e5f3f8848c8478eafe18409fdf2b03a",
+        "navigationGoals": null
+    },
+    "id": "a7051bf7aa8c465f85f93ba2a8ee909f",
+    "navigationGoals": null
+}

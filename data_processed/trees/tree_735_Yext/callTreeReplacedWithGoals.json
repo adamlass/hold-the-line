@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Yext in San Francisco, where you can easily manage all your listings, local pages, and customer reviews across 100-plus sites and apps.",
+            "fileID": "4c715197f8054c5695141ed7d1b6b3cf"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To manage your business listings and local pages, press 1.",
+                "fileID": "563a63ea4ff542c5a06d169ba88ca887",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For assistance adding or updating your business listings, press 1.",
+                            "fileID": "2b7865c4b91242f9a284774a7d47d02e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our listings support team.",
+                                        "fileID": "42f65dbefb2741db99c9abd6744d81c9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "38d3f462e45443cf8fcbce3430cd6199",
+                                "navigationGoals": [
+                                    "Update my business address and hours across all directory listings",
+                                    "I need to update my veteran-owned auto repair shop\u2019s address and hours across all online listings.",
+                                    "I need to batch-upload and sync my business listings across multiple directories via the API.",
+                                    "I need help adding my new bookstore location and updating its hours online",
+                                    "I need to update my physics tutoring business\u2019s address and hours across all listing platforms."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help with your local pages and SEO settings, press 2.",
+                            "fileID": "ef739fe28b5d4e5b9bc3e9590409baed",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our local pages support specialist.",
+                                        "fileID": "9dbb54f86e2144cf8bfcfddf60ee08a8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1785fa4cbdcc4913a2daffffc0a16b8c",
+                                "navigationGoals": [
+                                    "Adjust SEO keywords and meta description on my local page",
+                                    "I want to improve my small veteran-run caf\u00e9\u2019s local page SEO so more customers find us nearby.",
+                                    "I want to optimize my local pages\u2019 metadata and update our SEO schema settings.",
+                                    "I want assistance improving my website\u2019s local page SEO so people nearby can find my gift shop",
+                                    "I want to optimize my local pages\u2019 SEO settings for my tutoring service."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4dea38bd96ed4148ae1334e9b38aa54e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To monitor customer reviews and access analytics, press 2.",
+                "fileID": "c9c249de665f47e18a2c1ac5ebd3c55c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For support responding to customer reviews, press 1.",
+                            "fileID": "359b354e75544b448b22ec90c6401057",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our reviews support team.",
+                                        "fileID": "57dfce91835942ed8d365024485c86b2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2a06f13f1a36461e8d6108d9f63d3663",
+                                "navigationGoals": [
+                                    "Respond to the latest customer reviews",
+                                    "I need to respond to recent customer reviews on Google and Yelp for my veteran-owned landscaping business.",
+                                    "I need to configure automated review-response templates within the platform.",
+                                    "I\u2019d like to reply to a recent customer review on my restaurant\u2019s page",
+                                    "I need help drafting and posting responses to recent student reviews."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For information about analytics and reporting tools, press 2.",
+                            "fileID": "6f29a161edfe4102845f1c3f6a064c4d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our analytics team.",
+                                        "fileID": "a33161c5cdd449078aeee74a6ed44a30"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fb428dcd7af8471692d4ee4ab4f2eb94",
+                                "navigationGoals": [
+                                    "Retrieve the monthly review analytics report",
+                                    "I want to access analytics to review engagement trends for my veteran-led home security service.",
+                                    "I\u2019d like to generate custom analytics reports and integrate them into our BI dashboard.",
+                                    "Can you send me last month\u2019s review analytics so I can see how my services are rated?",
+                                    "I want to pull analytics reports on my tutoring business\u2019s review trends and ratings."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2f3b426e673846ef921c6f8a50d8552c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "06a585c6a3de4d7e95c03568fbb1eada",
+        "navigationGoals": null
+    },
+    "id": "0ef7574f216c45a5b0784542662ea695",
+    "navigationGoals": null
+}

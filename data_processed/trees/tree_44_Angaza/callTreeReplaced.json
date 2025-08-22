@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Angaza, the number one sales platform for emerging markets offering solar lighting and clean cookstove solutions.",
+            "fileID": "53e889904aea44e79717ec0f4e42f968"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "95354fb4d97b4631a0e66ad97ab23d85",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our solar lighting systems, press 1.",
+                            "fileID": "b28e847182254046b78f45d8aca00ccf",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist for solar lighting solutions.",
+                                        "fileID": "ddef707e5c3748689c1f8fb92993079d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d037b3ad52a1415386744cabfffb4749",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn about our clean cookstove solutions, press 2.",
+                            "fileID": "4c587fe6922c4783b8f4279a32069ed0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist for clean cookstove solutions.",
+                                        "fileID": "8f668a4af6624c74b7689d6d71511f04"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ff148c98215e461c84e59f4c962b52d7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a822e38beb9a4de897f73eebb4f26aaf",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and billing inquiries, press 2.",
+                "fileID": "3374dd076b904e0f961de89191d992da",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For platform integration and API support, press 1.",
+                            "fileID": "a2817b33abca4710893e80a078a8bba2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our platform integration support team.",
+                                        "fileID": "5689488cc1a7408580816579cc688d5e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d9b564012c2a4bc492c07fcbb23f03e0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account management and billing support, press 2.",
+                            "fileID": "7507ace56a324efbb99c7c37b32499fc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account and billing support team.",
+                                        "fileID": "23d72e7ca4f04bb880707841f1dfb784"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cecd7abc56394c31b4749d1398b2d8b1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4542a7e73454413287187c4d2990baa9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3f980753940d4cbb82ce52fb2252e287",
+        "navigationGoals": null
+    },
+    "id": "23ee57489a4d41d69bf3fc2cc00fcabb",
+    "navigationGoals": null
+}

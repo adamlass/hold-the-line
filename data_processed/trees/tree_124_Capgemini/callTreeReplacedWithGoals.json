@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Capgemini San Francisco, a global leader in consulting, technology services and digital transformation.",
+            "fileID": "dcb4cb970bdd4332ab31fa9f5f10a5f4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our consulting and digital solutions, press '1' to choose that menu.",
+                "fileID": "474e6bb3c3da469a81827fd69ada4c71",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore our cloud and platform services, press '1' to choose that menu.",
+                            "fileID": "76100fb00d174bac8be48145447cc9d6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our cloud and platform specialist.",
+                                        "fileID": "dcd92e9cb3394744a632376865ff3111"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2caa5f2f0bb145728c69bad31fa640ba",
+                                "navigationGoals": [
+                                    "I need pricing and options for migrating our applications to Capgemini\u2019s cloud platform.",
+                                    "I want to speak with a cloud specialist about building scalable infrastructure for my veteran support nonprofit",
+                                    "I need to discuss multi-cloud deployment strategies using Kubernetes and Terraform.",
+                                    "I\u2019m not very tech-savvy; can someone guide me through setting up and migrating my files to a cloud platform?",
+                                    "Ask about accessing cloud computing and platform services for my computational physics research as a student"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about our digital transformation offerings, press '2' to choose that menu.",
+                            "fileID": "6b593719126045bfab3a057ccd03c22b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a digital transformation expert.",
+                                        "fileID": "1bf44f33e5f44646954214f27698d2a8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "df1087fa244349b9af5f5d2d71a6b257",
+                                "navigationGoals": [
+                                    "I\u2019d like to discuss a digital transformation strategy for our department.",
+                                    "I want to explore digital transformation solutions to modernize workflows at my veteran outreach program",
+                                    "I want to explore AI-driven process automation and RPA implementation for our finance workflows.",
+                                    "I need help understanding how to digitize my paper medical records and automate my home business processes.",
+                                    "Learn about digital transformation solutions for modernizing university research labs"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7669882cfa6e4f2c8283ffab7e57dc76",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To speak with a Capgemini team member, press '2' to choose that menu.",
+                "fileID": "628309ec3017406cbe89b6721a57a17f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For general consulting inquiries, press '1' to choose that menu.",
+                            "fileID": "191d3626f19a4107b16f7582691cf4ce",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a general consulting representative.",
+                                        "fileID": "bdd983b43eb94472ac98df853a74b90c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1db264a3c61a46338ce8067563271525",
+                                "navigationGoals": [
+                                    "I\u2019m looking for general consulting to optimize our operational workflows.",
+                                    "I need general consulting advice on optimizing operations for my veteran-run organization",
+                                    "I need strategic IT consulting on enterprise architecture and digital roadmap alignment.",
+                                    "I\u2019d like general advice on which consulting services can help streamline my small business operations.",
+                                    "Discuss internship or collaboration opportunities in physics-related consulting"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support, press '2' to choose that menu.",
+                            "fileID": "6e5c3db4672148c98dbc97d3a1b77fad",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "19b04001fdf3488aa9026c55526c8b45"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9a96a3376a9f492093d97bd344dc508a",
+                                "navigationGoals": [
+                                    "I need immediate technical support for an ongoing system outage.",
+                                    "I need technical support accessing my training portal for veteran career development",
+                                    "I need help troubleshooting OAuth2 authentication failures in our microservices API gateway.",
+                                    "I\u2019m having trouble logging into my account; can technical support help me fix this?",
+                                    "Obtain technical assistance to troubleshoot login issues on the Capgemini student portal"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "af90caf2c2fc4036845dc977dd074096",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "213bf0934c8e49d5bb014502ce102312",
+        "navigationGoals": null
+    },
+    "id": "375dffdedc744a568efac437f234f4d5",
+    "navigationGoals": null
+}

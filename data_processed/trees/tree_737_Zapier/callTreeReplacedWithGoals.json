@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Zapier in San Francisco, where we help you automate your work by connecting over a thousand apps in minutes.",
+            "fileID": "cfeb7238230d47dbbff7cf1ae940a3da"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and onboarding new integrations, press 1.",
+                "fileID": "7da42196455e4066a8b1dc55f85ab692",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing, plans, and billing inquiries, press 1.",
+                            "fileID": "b40849d0a4164de6b7c0af6cb8e0ec10",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for pricing and plan details.",
+                                        "fileID": "97ed10417eea45c5bb60d45bf0fcbc30"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b58fcca3a0d5492ba596444dc4d7dca1",
+                                "navigationGoals": [
+                                    "Review pricing tiers and choose the best Zapier plan for my team",
+                                    "I\u2019d like to review your pricing tiers and pick the best plan for my small nonprofit.",
+                                    "Review detailed pricing tiers and billing options for high-volume API usage",
+                                    "Help me understand the different subscription plans and choose the right one",
+                                    "Ask about student discount options for a Zapier plan to support my research workflows"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For assistance with setting up a new integration, press 2.",
+                            "fileID": "5525c7e6af904614a87c6de40eaccddd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience. A product specialist will be with you shortly.",
+                                        "fileID": "c059ac9072494eeebddb4c5271781f7a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b297bee3888440cc97c0772a6a0186d5",
+                                "navigationGoals": [
+                                    "Get step-by-step help setting up a new app integration",
+                                    "I need help setting up a Zap that sends my Typeform survey responses into a Google Sheet.",
+                                    "Configure a custom integration between Salesforce and Slack using Zapier\u2019s API",
+                                    "Walk me through setting up a new app integration step by step",
+                                    "Get assistance setting up an integration between my lab\u2019s data logger and Google Sheets"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "78aa924a96654ec9bfe4df52f3613c3e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "a8cfd9d3bb5a4f16885a8df82c70bdcf",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For troubleshooting your workflows, press 1.",
+                            "fileID": "0673c7abc9b8412abf23c8dc8e856305",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our technical support team who will assist with your workflows.",
+                                        "fileID": "7683794235ef4361becd127f4af6be3a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3c53d8cbc644447eaf9a493cf1547cea",
+                                "navigationGoals": [
+                                    "Troubleshoot and fix a broken automation workflow",
+                                    "My Zap that posts new Gmail messages to Slack stopped working and I need assistance fixing it.",
+                                    "Debug a multi-step Zap workflow that\u2019s failing on an HTTP 500 error",
+                                    "Help me troubleshoot a problem with one of my existing automations",
+                                    "Troubleshoot a failure in my automation that uploads experiment results to Google Drive"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and general inquiries, press 2.",
+                            "fileID": "f40cc849929a4d74b91f9a2d68a19f7f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account services team.",
+                                        "fileID": "6377001fdeb343ce8fdeda44a2a87c9b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "074956a4da3e4d8cae5f57bef4a01d67",
+                                "navigationGoals": [
+                                    "Update my account\u2019s payment method on file",
+                                    "I want to update my account\u2019s billing information and payment method.",
+                                    "Update account contact details and enable two-factor authentication on my Zapier account",
+                                    "Assist me with updating my account details or resetting my password",
+                                    "Update my billing information and switch to invoicing through my university account"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e6c92530f5b84a639a1ed59bc284dcc7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "296947582a4a441398435af3a2863fa0",
+        "navigationGoals": null
+    },
+    "id": "f74d6061d57a4eb4a8a8ca48988f5a5b",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Randstad San Francisco, your partner in temporary and permanent staffing solutions.",
+            "fileID": "597bcaf775724568ab0942555d5b2a77"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are looking for job opportunities, press 1.",
+                "fileID": "1215f23572d44b42b2e324c297f37980",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore temporary positions, press 1.",
+                            "fileID": "ec10caf9270741b9a656d433bfb17592",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a recruiter for temporary staffing.",
+                                        "fileID": "a5678fcc73f440b2b20da71c138c8d4f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "443d94ddbf924aeab6ff90b00b8ec2aa",
+                                "navigationGoals": [
+                                    "Connect me with a temp staffing recruiter to secure a short-term assignment quickly.",
+                                    "Find temporary job assignments that match my skills.",
+                                    "I need a three-month contract as a React front-end developer.",
+                                    "I need help finding a temporary position and would like to speak with a recruiter.",
+                                    "I want to find a temporary physics research assistant position over the summer."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss permanent career opportunities, press 2.",
+                            "fileID": "47afa536986d4049b768a3f27e9cf3fb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a specialist for permanent placements.",
+                                        "fileID": "c8362df2eaca4092a84ee2f692ed6c3e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "200bfbbb5c0e435e93863d1ee2011687",
+                                "navigationGoals": [
+                                    "Discuss permanent career opportunities and next steps with a specialist.",
+                                    "Explore permanent full-time career opportunities leveraging my veteran experience.",
+                                    "I\u2019m looking for a full-time senior DevOps engineer position.",
+                                    "I\u2019d like to discuss full-time job openings and get advice on permanent career options.",
+                                    "I'm interested in exploring full-time physics lab roles after graduation."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b7b77c521b534fd598e2d6e77491a331",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are seeking workforce solutions for your business, press 2.",
+                "fileID": "b6fe0044a45b477cb8fc274fc23b6ad9",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For temporary staffing solutions, press 1.",
+                            "fileID": "db8a85194f5d4a0fac5f966acb304ae0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our temporary staffing team.",
+                                        "fileID": "95c705fb6f5b4d5caca0d42474c9e6c2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a01f4e51276e4d29b0c73bff62e54b0e",
+                                "navigationGoals": [
+                                    "Set up temporary staffing for my business to cover urgent workforce needs.",
+                                    "Arrange temporary staffing support for my small business.",
+                                    "I want to staff my startup with temporary cloud engineers for an upcoming migration sprint.",
+                                    "I\u2019m calling to arrange temporary workers for my small business.",
+                                    "I need to hire temporary staff for a student-run physics workshop."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For permanent hiring and workforce consulting, press 2.",
+                            "fileID": "3f169e6677c04531ae924bb846eba61a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our workforce solutions specialist.",
+                                        "fileID": "9d333bb5c463477ab71912046d4c54ba"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c08513219ced483f816c01cae3688ded",
+                                "navigationGoals": [
+                                    "Get expert advice on long-term hiring and workforce consulting services.",
+                                    "Get consulting on permanent hiring solutions for my company.",
+                                    "I\u2019d like to discuss permanent IT talent acquisition and workforce consulting.",
+                                    "I want to explore hiring full-time staff and get consulting on long-term workforce needs.",
+                                    "I'm looking to recruit a permanent lab technician for my university research group."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "91c539d972524758bbf3a7b855956fd5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8891d11323204496a6b2e7b7ce7dae4a",
+        "navigationGoals": null
+    },
+    "id": "b2af0259521a44118db5e767922cf4e7",
+    "navigationGoals": null
+}

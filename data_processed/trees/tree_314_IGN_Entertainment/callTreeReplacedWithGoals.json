@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to IGN Entertainment, where over 154 million fans enjoy sharp opinions and groundbreaking gaming and entertainment content.",
+            "fileID": "bc70ef1c6d0142699f27500059c558c9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For support options, including account management and technical assistance, please press 1.",
+                "fileID": "088cd7d3b3094337942c9590cd74684c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account or subscription questions, please press 1.",
+                            "fileID": "b43527aa4dc34a11a7cb587975f8af7b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our subscriber services team.",
+                                        "fileID": "79672df81f924f66b7a29672d6a33404"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8f773e8d8489407185b8cbc392f873b7",
+                                "navigationGoals": [
+                                    "Update the payment method on my IGN subscription",
+                                    "I need to apply my veteran discount to my active IGN subscription.",
+                                    "I need to upgrade my Premium subscription plan and update my billing credentials.",
+                                    "I need help renewing my IGN subscription and updating my payment details.",
+                                    "I\u2019d like to apply for a student discount to my IGN Pro subscription."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support with our website or app, please press 2.",
+                            "fileID": "8cd3be2f070f485bafde321f23dfff2e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a technical support specialist.",
+                                        "fileID": "146196f1e2984e7f95f8885ffe31ca50"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dfa3d82c69f5487593c93732553e7553",
+                                "navigationGoals": [
+                                    "Fix the IGN app crashing when I try to log in",
+                                    "I need help fixing an error when logging into the IGN app on my phone.",
+                                    "I\u2019m seeing a memory-leak crash in the IGN app when switching tabs and need debugging support.",
+                                    "I\u2019m having trouble logging into the IGN app and need assistance.",
+                                    "I can\u2019t play videos on the IGN app and need technical help."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "944f997e076349cb9e2a9eed4352748e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For advertising, sponsorship, and partnership inquiries, please press 2.",
+                "fileID": "a5fd03c3675d40bd8d43d98b828caef2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For advertising and sponsorship opportunities, please press 1.",
+                            "fileID": "3b7ed3c23dd0465a94005ae9e523cbb4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold as we connect you to our sales and marketing team.",
+                                        "fileID": "8488e5c222e04c44b52a224b9fc4c469"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b016248eb402403dad9af5bb8e99583b",
+                                "navigationGoals": [
+                                    "Get pricing details for placing a banner ad on IGN",
+                                    "I\u2019m calling on behalf of a veterans charity to discuss sponsorship packages with IGN.",
+                                    "I want to explore programmatic ad integration and RTB targeting for my game\u2019s sponsorship campaign.",
+                                    "I\u2019d like to learn about advertising opportunities for a community newsletter aimed at seniors.",
+                                    "I\u2019m organizing a university physics club event and want to discuss sponsorship opportunities."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For media, press, and partnership inquiries, please press 2.",
+                            "fileID": "5d51a66f85e14e16b14f7edb18bf95ee",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we forward your call to our public relations team.",
+                                        "fileID": "5b411ec3d3314192957635c3a687fab8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "86eca8c8d6bf495bbe04c132990614f5",
+                                "navigationGoals": [
+                                    "Request a press kit for an upcoming article",
+                                    "I want to request a media interview with IGN about veteran gaming community coverage.",
+                                    "I\u2019d like to schedule a press interview with IGN\u2019s editorial team about our upcoming launch.",
+                                    "I\u2019m writing an article for my local paper and want to speak with someone about IGN\u2019s content for a press feature.",
+                                    "I\u2019m a student journalist seeking press credentials and a media kit for covering IGN\u2019s game-physics content."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7152918317e54228bec978d00be2bdcb",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "36c1efc03e8044a6a3e8c18248d7cdb1",
+        "navigationGoals": null
+    },
+    "id": "e923db023bd3494687744a5dca0da7c3",
+    "navigationGoals": null
+}

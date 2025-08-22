@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Databricks, the Unified Analytics Platform in San Francisco that accelerates innovation by unifying data science, engineering, and business.",
+            "fileID": "51b31cc06024465eb38aa866e0332ad7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information and sales inquiries about our platform, press '1'.",
+                "fileID": "19545823eb93492bbd4cbcd8dc756f40",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about platform capabilities and pricing, press '1'.",
+                            "fileID": "831993b8222e45d8b32113f426f15540",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for platform details.",
+                                        "fileID": "dee93370f18f4e5f844dc7722f2b13dd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0e581b654b1043c5a594733cd6e61377",
+                                "navigationGoals": [
+                                    "Review enterprise pricing options and feature list",
+                                    "I need details on platform capabilities and pricing for veteran job-placement analytics",
+                                    "Review detailed pricing tiers and feature matrix for Databricks compute and storage offerings.",
+                                    "I\u2019d like to understand the different pricing plans and costs of your platform.",
+                                    "I\u2019m interested in academic pricing and platform features for processing large physics research datasets."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a personalized demo with our specialists, press '2'.",
+                            "fileID": "8014c5fe728f4b4dabbf3138853ea0ea",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a demo specialist.",
+                                        "fileID": "fe414cbede414623b840dfb6b0cd02fe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "12cee221c4184605a2f867eadd9ebef7",
+                                "navigationGoals": [
+                                    "Arrange a customized platform demo with a specialist",
+                                    "I\u2019d like to schedule a personalized demo to see how Databricks can help me analyze veteran outreach data",
+                                    "Schedule a hands-on demo focused on Delta Lake integration with MLflow pipelines.",
+                                    "Could I schedule a walk-through of the platform features?",
+                                    "I\u2019d like to schedule a demo on using Databricks notebooks and Spark for physics simulations."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bbbf3b57058f41da888f84124c9dfcfa",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and billing inquiries, press '2'.",
+                "fileID": "3fac64954ebe4f4f93823316448adb80",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reach technical support, press '1'.",
+                            "fileID": "e0c8feb370694ef8921bf444685982a4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "22e9103f3f8c4e79a4da0d2ae31409d2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1bd70480fbdc44688b724313f872ba28",
+                                "navigationGoals": [
+                                    "Troubleshoot a data import error in my account",
+                                    "I need help troubleshooting errors in my Databricks notebook analyzing veteran survey results",
+                                    "Get technical assistance troubleshooting my Spark cluster autoscaling configuration.",
+                                    "I\u2019m having trouble accessing my account\u2014can I speak to technical support?",
+                                    "I need help troubleshooting cluster startup errors in my Databricks physics data notebook."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss billing and account questions, press '2'.",
+                            "fileID": "96a4b340ce89433f97bb40687a21bad5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "905774dec52d465783f8597b5e7a6e7f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "98a98987593c4ecf9357b0ba1bcb7eef",
+                                "navigationGoals": [
+                                    "Review my latest invoice details and update payment info",
+                                    "I have questions about billing charges and possible veteran discounts on my account",
+                                    "Clarify DBU consumption and overage charges on my interactive cluster billing statement.",
+                                    "I need help reviewing my latest invoice and charges on my account.",
+                                    "I have questions about billing for my student account and eligibility for an academic discount."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a66ade22cd0e4f4e97ce980c63548236",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "21fdb75c901f4157bc7a0847aacab66e",
+        "navigationGoals": null
+    },
+    "id": "3edb1b425eaa49f2b35f7234e8ed2a7d",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Motionloft in San Francisco, your partner for people and vehicle analytics.",
+            "fileID": "eb5fa1bccb9e4618b45f54fe8fe65396"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new solutions, press 1.",
+                "fileID": "907eb6b7adcb457886f94d4df3b5dfff",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a demo of our analytics platform, press 1.",
+                            "fileID": "60153343b1cd40b7b287305dda6067b7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for a platform demo.",
+                                        "fileID": "1280449b130c4449bbd463406caacdb1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e4c6ca1de6094409a3c8c15f86d047d9",
+                                "navigationGoals": [
+                                    "Schedule a demo of the analytics platform this week",
+                                    "I need to schedule a demo of the analytics platform to see how it can support my veteran housing project.",
+                                    "I want to schedule a hands-on demo of the Motionloft analytics dashboard and API.",
+                                    "I\u2019d like to schedule a demonstration of your analytics platform so I can see how it works.",
+                                    "I\u2019d like to arrange a hands-on demonstration of your analytics platform."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales agent about pricing and packages, press 2.",
+                            "fileID": "be663b1ef1314ac9958d593c85571e59",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our pricing and packages team.",
+                                        "fileID": "88cf657c3f434d819f72c29068d3e1e6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f3c0dee9006a4a66b6002ce22004c57c",
+                                "navigationGoals": [
+                                    "Get details on pricing tiers and package options",
+                                    "I want to discuss pricing and package options for monitoring traffic around our community center.",
+                                    "I need to review and discuss enterprise subscription tiers and pricing options.",
+                                    "I need to talk about pricing and package options for your analytics service.",
+                                    "I need detailed information on pricing tiers and package options for your analytics services."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8ff055435f0c490e9133b36fb14f84ea",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and account services, press 2.",
+                "fileID": "51d30b1cbc2641f68be625d8105dddcb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "2e0135c50eff44f58681e098d414d237",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "5f7cfef35df94513984623a7f097a006"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6459a7b852b84da6a9de43d8e868f6cd",
+                                "navigationGoals": [
+                                    "Troubleshoot a technical issue with my analytics dashboard",
+                                    "I'm having trouble feeding sensor data into the platform and need technical troubleshooting.",
+                                    "I require technical support troubleshooting API data ingestion and sensor connectivity.",
+                                    "I\u2019m having trouble using my account dashboard and need technical help.",
+                                    "I\u2019m experiencing an issue with my analytics data feed and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account management, press 2.",
+                            "fileID": "eb9a5ed6b3c94815aa4b2ac23c32bee9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing and account management team.",
+                                        "fileID": "d266d31f05e94cd88277988139684517"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5dcf27da8a1d4c2a9f7632ce9527b16c",
+                                "navigationGoals": [
+                                    "Update billing info and review recent account charges",
+                                    "I need help reviewing my latest invoice and applying any available veteran discount.",
+                                    "I want to update my billing information and review my invoice history.",
+                                    "I need help understanding my bill and updating my account details.",
+                                    "I have questions about my latest invoice and need assistance with billing and account management."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0e15cc6473c94016979136187e1007d3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "dbd13358ddd946a6bb85f2b798e105f0",
+        "navigationGoals": null
+    },
+    "id": "7da7e6abb68744e2a4621ae3b238d717",
+    "navigationGoals": null
+}

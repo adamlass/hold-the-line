@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Zume Pizza South Bay, home of delicious artisan thin-crust pizza delivered hot and fast.",
+            "fileID": "914bb1d3acd44db694f770e292ca091b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To place a new order, press 1.",
+                "fileID": "ad64856347ca4b96a57a30cadd164168",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To build your own artisan pizza, press 1.",
+                            "fileID": "1fb61f0ee5814949826f67da1d15692e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order specialist for custom pizzas.",
+                                        "fileID": "d20f211ba65d4991bed73c8b896aa0e7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f3c50d008f004cec85297425cd41d8be",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To choose from our chef\u2019s specialty pizzas, press 2.",
+                            "fileID": "65300d3fe0444ca4b97583af13034478",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order specialist for specialty pizzas.",
+                                        "fileID": "d57098cf610a42ef8b7c3649bd250e5e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "06c6df1a685f4097b877de9b417ed385",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "91da5075a1b7492abcc37ca865d340d8",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing orders, press 2.",
+                "fileID": "87341ca054f444c08e4fcc6ec518f7a7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To track your current delivery, press 1.",
+                            "fileID": "eb2182695ba842f09fbd89996fb1aa8c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to delivery tracking.",
+                                        "fileID": "78bbec6ad7ce4e839d07fa34b95e7f46"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "41359b1ae56a48f1a9c36f0e12c860dd",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To modify or cancel an order, press 2.",
+                            "fileID": "e5dd9d603222401eaa01491965a7ec07",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to update or cancel your order.",
+                                        "fileID": "b79bcba88df3470fa844879912148ad9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8a0fa393df834030a3b9a6d25c7cf574",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8cba8e3b5c4f4005a5e8b8ecdad2e5bd",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b9cdbc89630c4dc0b504cf0c2b8fda90",
+        "navigationGoals": null
+    },
+    "id": "8123afe581bf476899f94a089ee04564",
+    "navigationGoals": null
+}

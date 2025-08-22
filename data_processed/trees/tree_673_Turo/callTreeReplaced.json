@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Turo, the San Francisco-based platform for booking unforgettable cars from local hosts around the world.",
+            "fileID": "c8d1643899a941eebfd36e7adb05355f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To book a car, press 1.",
+                "fileID": "119dcd2e8f7c4d8f99e1bab6356e378c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To browse and book available cars, press 1.",
+                            "fileID": "6210325593bf445db0b34c326e21b1f1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we retrieve the latest car listings.",
+                                        "fileID": "341f9c5409964883bd4818bc45f69581"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e01da3147c0642e789532bedd0332519",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with a reservation specialist, press 2.",
+                            "fileID": "a52df328722a47b49f2660ef9fda9dca",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a reservation specialist.",
+                                        "fileID": "88a4b6452e484c9b8306d2af109f747c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "05b79430e2b547579f0d971b8c216cac",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "63fe1bcdc87641ef916231b6c5cfec05",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To manage an existing reservation, press 2.",
+                "fileID": "4842dd4ff769492fbd8a9bce83ab4103",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To modify or cancel your booking, press 1.",
+                            "fileID": "fb85ce52f0874d52969931857611d086",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our booking support team.",
+                                        "fileID": "526beda347ca4ba383963e5d297038d2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "83dc70a97dc4489b90093e99fd56415b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For questions about insurance or payments, press 2.",
+                            "fileID": "a9585478e2bd4308842faa9ec5ecda17",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to payments and insurance support.",
+                                        "fileID": "c9bffefac407460b9e15721c53c4a685"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8d8ae61b6480418981959c0dcb59fb12",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "dc7958a568e2499a98903f9096bb3cc5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "eda55114865b46989c374eeafef69237",
+        "navigationGoals": null
+    },
+    "id": "eac0e2e29d8e45299c6c5cf54414f61e",
+    "navigationGoals": null
+}

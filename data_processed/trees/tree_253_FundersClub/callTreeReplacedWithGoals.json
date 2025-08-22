@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to FundersClub, your gateway to highly vetted startup investments.",
+            "fileID": "c189e95cd7cd4373a890f4d806ef1b1a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 to explore current fundraising startups.",
+                "fileID": "b17cfa24ae4a4d8baecce8aebcf13194",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for Silicon Valley startup investments.",
+                            "fileID": "9c8e35e126254a33a39ccef5861ee8f2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Silicon Valley startup specialist.",
+                                        "fileID": "51d3875b1aa3496ab17d29b58c8f4a18"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7681e35752514da8805216276334f615",
+                                "navigationGoals": [
+                                    "Quickly speak with a specialist about Silicon Valley startups currently fundraising",
+                                    "I want to invest in early-stage Silicon Valley startups.",
+                                    "Connect me with the Silicon Valley specialist to discuss upcoming Series B cloud-native startups.",
+                                    "I\u2019d like to speak with someone about investing in Silicon Valley startups.",
+                                    "I\u2019d like details on Silicon Valley deep-tech startups currently raising funds."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for global startup opportunities.",
+                            "fileID": "c7df0d40a8764d8e8b9990746db32f4d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our global investments team.",
+                                        "fileID": "e621a8c3d51643a1a18783f49e0746f6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "036215e4ad9f47f7abfa4510c5c7c1d5",
+                                "navigationGoals": [
+                                    "Connect me to the global investments team to explore international startup opportunities",
+                                    "I'm looking for vetted global startup investment opportunities.",
+                                    "I\u2019d like to speak with the global investments team about EU-based AI company opportunities.",
+                                    "I need to connect with a representative about global startup investment opportunities.",
+                                    "I want to learn about international physical-sciences startups seeking investment."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "367f0e40c073480887daceea15b4b89c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for account and investor relations.",
+                "fileID": "2a1766550b924c64a9048d3d51c37ce4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for account support.",
+                            "fileID": "e5239743b36e486e942419aa163a3cd5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account support.",
+                                        "fileID": "251be50debae456f87c254690dd6b773"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e15c017886314b8abd4109aeffb6ca68",
+                                "navigationGoals": [
+                                    "Get help resolving an issue with my investor account",
+                                    "I need help accessing my FundersClub account.",
+                                    "I need assistance updating my funding preferences and verifying my accredited investor status.",
+                                    "I need help with my investor account.",
+                                    "I need assistance updating my investor account details and funding preferences."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to speak to an investor relations representative.",
+                            "fileID": "c7d8c07a6d984d65a3f4e043427150b9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to investor relations.",
+                                        "fileID": "14b622b999c34f7082b6a0a03277831b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8e3630bb2c334321825efca0eff17443",
+                                "navigationGoals": [
+                                    "Speak with investor relations about my portfolio performance",
+                                    "I\u2019d like to speak with an investor relations representative about my portfolio.",
+                                    "Please route me to investor relations for a detailed breakdown of my portfolio\u2019s performance.",
+                                    "I want to talk to someone in investor relations about my portfolio.",
+                                    "I have questions about FundersClub\u2019s investment minimums and fee structure."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "10bf2af8843644299abfcb87446d0c7b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1beba9ecd60b4db0aad0a4bfc1882951",
+        "navigationGoals": null
+    },
+    "id": "f2bd9be2b6264b7385ddb07a36e6d5e3",
+    "navigationGoals": null
+}

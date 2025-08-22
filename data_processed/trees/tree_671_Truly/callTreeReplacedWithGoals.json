@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Truly, San Francisco\u2019s #1 rated phone solution for sales teams who track, analyze, and coach on their customer conversations.",
+            "fileID": "aec0e3edbc5546bda9d19297729b2014"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales team inquiries and product information, press 1.",
+                "fileID": "f52c4d9f53cf4c438e8b9a4c9dd05cd9",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales specialist, press 1.",
+                            "fileID": "39e304fa8940439cb9b8d5bb4d2715a4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist. Thank you for your patience.",
+                                        "fileID": "cbc21858fb1f40fa97b052afe283496e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e9f4d72a654949d3972d292b92b5572e",
+                                "navigationGoals": [
+                                    "I want to discuss enterprise pricing and onboarding options with a sales advisor.",
+                                    "I want to speak to a sales rep about pricing and veteran discounts for my team\u2019s call coaching software.",
+                                    "Speak with a sales specialist to discuss enterprise API integration options and SDK licensing",
+                                    "I\u2019d like to talk to a sales expert to go over subscription options and pricing because I\u2019m not sure which plan I need.",
+                                    "Discuss academic pricing and feature availability with a sales specialist."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For details on reporting and analytics features, press 2.",
+                            "fileID": "cf96ac808d4b40f39d786d1aeee2e215",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve information about our reporting and analytics features. Thank you for your patience.",
+                                        "fileID": "d4f7dd1018e24d0b8b5192a092b4def5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9cd8c7e2d6c341afbc5af7b197ec363c",
+                                "navigationGoals": [
+                                    "I need details about the real-time call analytics and dashboard customization features.",
+                                    "I\u2019d like detailed info on your call analytics and reporting features for tracking my team\u2019s performance.",
+                                    "Get detailed specs on the reporting API and analytics dashboard\u2019s call-transcription metrics",
+                                    "I want someone to explain how to view and interpret the reporting and analytics in the system; I\u2019m a bit confused.",
+                                    "Get details on the platform\u2019s reporting and analytics features for a research project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2b42e838d86048e5b26029cdf4b9c4d8",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support, troubleshooting, or account assistance, press 2.",
+                "fileID": "59290591fb8740c7b04dbee0a6b8580c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "9da9061cc0334adf9c3d23aaf71c9407",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support. We appreciate your patience.",
+                                        "fileID": "af21f06c12b149ef8ab5dbf94588e4a0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b7e987c8c7f745af8aa76a97cb66e38d",
+                                "navigationGoals": [
+                                    "I\u2019m having trouble integrating Truly\u2019s API with our CRM and need technical assistance.",
+                                    "I\u2019m having trouble connecting calls through the system and need technical support to troubleshoot.",
+                                    "Troubleshoot packet loss and jitter issues in my SIP gateway integration",
+                                    "I need technical help because I can\u2019t get my calls to record like they used to.",
+                                    "Troubleshoot a problem with my call recordings not saving correctly."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, account, and subscription questions, press 2.",
+                            "fileID": "14442e4d249343a78cfba0f218344cba",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department. We appreciate your patience.",
+                                        "fileID": "9ccc6700f325480dba75b9cb3525c08c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6e7b09ae12d1452da13e671688bb2cac",
+                                "navigationGoals": [
+                                    "I need to update my payment method and review my subscription charges for this month.",
+                                    "I have a billing question and want to update my payment method and confirm my veteran discount eligibility.",
+                                    "Review and update my subscription tier and examine recent API usage invoices",
+                                    "I need assistance understanding my latest bill; I think there\u2019s an unexpected charge.",
+                                    "Inquire about my subscription invoice and payment options."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "61516f97e15945b08a3e7a176203814e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7057416c41064b01852bc75111d7f662",
+        "navigationGoals": null
+    },
+    "id": "710b1fc1d714496788ae8eb548569363",
+    "navigationGoals": null
+}

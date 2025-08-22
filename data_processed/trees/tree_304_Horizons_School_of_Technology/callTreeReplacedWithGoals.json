@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Horizons School of Technology, San Francisco\u2019s premier software engineering bootcamp for college students and recent graduates.",
+            "fileID": "751ae7793b924d708c6dc0d88dcd4c8a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for program information, including curriculum and outcomes.",
+                "fileID": "6a1efacf8036416f82b05ab54cd2a003",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to hear about our curriculum and course outcomes.",
+                            "fileID": "08174cf3dc7f49199b2c2e93c0569ce0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our curriculum specialists.",
+                                        "fileID": "bb415635a7234d9ea5b87b2baa022bd2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6c08df3427114429bd5d81de4ca28eff",
+                                "navigationGoals": [
+                                    "I want to understand the topics covered and outcomes of your software engineering bootcamp.",
+                                    "I want to discuss the bootcamp\u2019s curriculum and expected job outcomes to see if it fits my career goals.",
+                                    "Obtain comprehensive tech stack syllabus and detailed course outcome specifications for the bootcamp.",
+                                    "I\u2019d like someone to explain your course topics and what I will learn.",
+                                    "Understand the bootcamp\u2019s curriculum structure and outcomes, and how they leverage my physics background."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to get details on upcoming cohort dates and tuition.",
+                            "fileID": "fd00e249d87c416c943d16b62b49957b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we provide information on cohort dates and tuition.",
+                                        "fileID": "58675924af924e639fe0c2f596e10c06"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2a7730e116d04acebcb5bd03e34fa57c",
+                                "navigationGoals": [
+                                    "Can you tell me the next cohort start dates and the tuition fees?",
+                                    "I need details on upcoming cohort start dates and the total tuition cost.",
+                                    "Retrieve timeline of upcoming cohort start dates along with a breakdown of tuition fees and payment plans.",
+                                    "I want to know when the next classes start and how much the tuition costs.",
+                                    "Get upcoming cohort start dates and tuition costs to plan around my academic schedule."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5c4dcd122adf45fda88bf1c3ccbcbc80",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for admissions and financing options.",
+                "fileID": "96828bb462d641d987b154bed0ab9558",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to learn about admissions requirements.",
+                            "fileID": "2bce5960e5d44aa3a6ad6f9a6696355f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an admissions specialist.",
+                                        "fileID": "519bbaa6148a4f8393ba502a8575ae16"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b29c1a488c0b4c74b9b4c76e13afc3c1",
+                                "navigationGoals": [
+                                    "I\u2019d like to find out what criteria I need to meet to apply to your bootcamp.",
+                                    "I\u2019m looking for the specific admissions requirements to confirm I qualify.",
+                                    "Determine admissions prerequisites including required programming experience, educational background, and application deadlines.",
+                                    "I need help understanding the application requirements to apply.",
+                                    "Confirm the admissions prerequisites and see if my physics coursework meets the requirements."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to explore financial aid and scholarship opportunities.",
+                            "fileID": "0dc3f2861bf44b69a37949bf3dfb8d94",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our financial aid department.",
+                                        "fileID": "a0db06b5f89e4eba97ae88ecb0f7b93a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c842b089a47a4c2cad7d3dca1759b1e8",
+                                "navigationGoals": [
+                                    "I want information on available scholarships or financing plans.",
+                                    "I\u2019d like to learn about financial aid and veteran scholarship options, including GI Bill coverage.",
+                                    "Identify available financial aid packages, scholarship eligibility criteria, and tuition financing options.",
+                                    "I\u2019m interested in learning about scholarships or other financial assistance.",
+                                    "Explore available scholarships and financial aid options that I qualify for as a student."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9f09200f0fe14d549ba8533af8d154ef",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3b47440767af4f9381c20a7fe2fd1e2c",
+        "navigationGoals": null
+    },
+    "id": "24dbcd4b9f9c423cbb667a234f9f6e0c",
+    "navigationGoals": null
+}

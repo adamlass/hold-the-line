@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Envoy in San Francisco, your partner for secure, paperless visitor management on iPad.",
+            "fileID": "887b9f75aa1e466d85fb7e6457073513"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For support with your Envoy visitor management system, press '1'.",
+                "fileID": "a802dbe759d649a4847515a1e8ba860c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance with kiosk setup or photo capture, press '1'.",
+                            "fileID": "a4d40d802e604703940290199eb3b79f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a support specialist.",
+                                        "fileID": "85f7da69e5444a1f934bb203d56c9c4a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9626f5569ae24048b68111fed540c4ad",
+                                "navigationGoals": [
+                                    "Configure and troubleshoot my visitor kiosk\u2019s camera setup for check-ins.",
+                                    "My lobby iPad kiosk camera isn\u2019t capturing guest photos \u2013 I need help fixing it.",
+                                    "Debug the kiosk camera initialization error on my iPad visitor management system.",
+                                    "I need step-by-step help to set up the iPad kiosk and enable the visitor photo feature.",
+                                    "I need help setting up the iPad kiosk and resolving photo\u2010capture errors for our lab\u2019s visitor sign-in station."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press '2'.",
+                            "fileID": "10102aec47ce4505ac05126ce1e83835",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing support.",
+                                        "fileID": "682b0c32d7a1454cb16b240cf349de85"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d02422d10f454a5b9bd584ac147cd8e8",
+                                "navigationGoals": [
+                                    "Review last month\u2019s Envoy invoice and update my billing information.",
+                                    "I need to update my billing information and review my latest Envoy invoice.",
+                                    "Review the pro-rated fee applied to my Envoy Enterprise invoice this month.",
+                                    "I want to review my billing statements and update my payment details.",
+                                    "I\u2019d like to review the latest invoice and clarify the billing charges for our department\u2019s Envoy subscription."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e5e67348dc9a44fcbc472e1ce64ac67a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To speak with our sales team about Envoy solutions, press '2'.",
+                "fileID": "708232cf340442189658a0c1276b4d17",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized product demo, press '1'.",
+                            "fileID": "8f96aa7d68c840dc8c1adce3b3c62b44",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "5c36500d5e754c8895cce37d8cb9dc97"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6b025ebe638746408f004966cff372d7",
+                                "navigationGoals": [
+                                    "Book a personalized live demo of the Envoy system for our team.",
+                                    "I want to schedule a hands-on demo of the Envoy visitor management system.",
+                                    "Schedule a one-on-one demo highlighting Envoy\u2019s REST API integration capabilities.",
+                                    "I'd like to schedule a guided demonstration of the Envoy system to understand its features.",
+                                    "I want to schedule a personalized Envoy product demo for our physics research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For information on pricing and enterprise plans, press '2'.",
+                            "fileID": "224af060233e4d90a76428604d92247a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the details.",
+                                        "fileID": "184f9682cb884e16bfe46f7d4b8d2cae"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f865a94a07264035a91abdc919d0ea6c",
+                                "navigationGoals": [
+                                    "Get detailed pricing and enterprise plan options for Envoy.",
+                                    "I\u2019m interested in enterprise pricing details and volume discounts for our offices.",
+                                    "Get enterprise plan tier pricing and SLA details for a 500-seat deployment.",
+                                    "I need details on enterprise pricing tiers and contract options.",
+                                    "I\u2019m looking for detailed pricing and enterprise plan options to support multiple kiosks across campus."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "23489817ca394cc99870c2e282e9a9b8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8ea1e2ef2d2040bcb8f52058a7ce82bd",
+        "navigationGoals": null
+    },
+    "id": "ded2cebaaa2e471792fe14d11b1cb127",
+    "navigationGoals": null
+}

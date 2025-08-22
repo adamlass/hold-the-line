@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Collective Health, your partner in workforce health management based in San Francisco.",
+            "fileID": "5b180f989c4641e79e8adf760f048d66"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new employer inquiries and onboarding assistance, press 1.",
+                "fileID": "8d6313c2f96e4b048443d90fd88896c5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with one of our sales representatives, press 1.",
+                            "fileID": "1d110ffdc333460f8947e0fbe564df8c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to sales.",
+                                        "fileID": "e09505b618d54a27bb1a4de439d9db07"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "77f901e63b374b2c9190dd1fd16d156a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a live demo of our Workforce Health Management System, press 2.",
+                            "fileID": "d44666f37e5b42d58bd4c2726ad2d1c1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demonstration team.",
+                                        "fileID": "0737c86638334ff2be9c2c212c844bf7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "caf01385ed0d44b9b8e5fbe252477569",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3e92f3162ec944918ab414456928ef37",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support with your existing services, press 2.",
+                "fileID": "41cc1a1247d04c60800eafee7d12ce3b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance, press 1.",
+                            "fileID": "2abfa53c2fe345f19822f3f703ddab80",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "869ce90df8e64e9087ba9ca757fa5599"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "21e8029e762745289422f0960cac917c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "21293e894bc04c4695c202b5d9dd52c3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "ef588d83f3234a5aafef7ab769c5e474"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1dffc891cf3c4686a1775270361d3a44",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e6314395945b469c9be961a2738f30e4",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "811d7229e21c4efdbfca35260e3e3422",
+        "navigationGoals": null
+    },
+    "id": "f956d244f40d4fe8a7892c6b8c747807",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Gymboree Group, San Francisco\u2019s premier destination for quality kids\u2019 clothing since 1986.",
+            "fileID": "5d09efc0d9044ec9bb5bdd766fdabd66"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For shopping and orders, press 1.",
+                "fileID": "a9f9fbebadb444918c84a7853407faaf",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To browse our latest arrivals and seasonal collections, press 1.",
+                            "fileID": "a6d4080760fb489d84903cd1b988b642",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our online sales team.",
+                                        "fileID": "48ba210eea8d445a851ab04a5cbe7ab5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1bda06b85c0a42c7bc3a4123b65f3584",
+                                "navigationGoals": [
+                                    "Browse and purchase items from the new seasonal collection",
+                                    "Ask about any veteran discount on the new seasonal kids\u2019 clothing line",
+                                    "I\u2019d like to access the latest seasonal product catalog and review new SKU releases.",
+                                    "I\u2019d like assistance browsing your newest kids\u2019 clothing arrivals.",
+                                    "I\u2019d like to browse the newest kids\u2019 clothing line and pick out some items to buy."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing order, press 2.",
+                            "fileID": "bb15f022ea984499a4d1e9a8f0ac5c16",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we retrieve your order status.",
+                                        "fileID": "10259c83f6eb4a58ba94b56e540b1426"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "63d9151a6648460aa2f5faf2c557e0da",
+                                "navigationGoals": [
+                                    "Get an update on the shipping status of my recent order",
+                                    "Check if my recent order shipped to my military base address has been dispatched",
+                                    "I need to retrieve my order\u2019s current shipment status and tracking ID.",
+                                    "I need to check the status of my recent order.",
+                                    "I need to check the delivery status of an order I recently placed."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1a0b1ab6a7674da2bcaf038eb0766dda",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer service and support, press 2.",
+                "fileID": "05f1894de2084d81bad628fc7cf5d278",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For returns and exchanges, press 1.",
+                            "fileID": "b854a3ed0a5f443c94e77281c629ebee",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our returns department.",
+                                        "fileID": "207bdd92ce2b42f5993ea1b40db08fc1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f8453ed7b811444682e0eff74997f45b",
+                                "navigationGoals": [
+                                    "Arrange a return and refund for a recent purchase",
+                                    "Arrange an exchange for toddler pants I bought that turned out too small",
+                                    "I want to initiate a return and configure an exchange for a specific order.",
+                                    "I want to arrange a return or exchange for an item I bought.",
+                                    "I want to return an item and arrange an exchange for a different size."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For sizing advice and product information, press 2.",
+                            "fileID": "e02cb10107c94a96aa4d442dd73e6702",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to a product specialist.",
+                                        "fileID": "0447633721774255a429830b83171d9c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6fa706b485e148d28bcc982708e003fa",
+                                "navigationGoals": [
+                                    "Ask for sizing advice on a specific kids\u2019 garment",
+                                    "Get sizing advice to pick the right size for my son\u2019s winter coat",
+                                    "I need detailed size-chart analytics and material composition info for a particular garment.",
+                                    "I need help choosing the right size for a child\u2019s outfit.",
+                                    "I\u2019d like precise sizing details and fit information for a garment before I order it."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5e185823b07a4f7ebbb73725d2798ed3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a6bd3e8c43c74c7dab5111c60f45135b",
+        "navigationGoals": null
+    },
+    "id": "1c6a19ac126047ba9fbf7086711e1bab",
+    "navigationGoals": null
+}

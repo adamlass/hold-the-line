@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Mixpanel in San Francisco, where we help you acquire, engage, and retain customers with actionable user analytics.",
+            "fileID": "a4fd272e46574f569da1b61b6d1b671f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales inquiries and quotes, press '1'.",
+                "fileID": "0d819ed5ba534a8a8755d519dd233082",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on purchasing Mixpanel analytics solutions and pricing, press '1'.",
+                            "fileID": "66dd8e94682a431fbd7f9b3a94ecd711",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Mixpanel sales representative.",
+                                        "fileID": "df308092123d4e38a1540649bc070026"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c6680cb92b154986ab5ccbd78c7ed7b3",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For questions about your existing Mixpanel account or billing, press '2'.",
+                            "fileID": "0b89dbbe38c24895b6962e71a63730bc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Mixpanel account specialist.",
+                                        "fileID": "3cb888bd37dc4d318d00b8b22b4fa9cb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "429b9a2ee6944344bee97be384d918d8",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "43f5c133ba2f44b488fa989301aca93f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support, press '2'.",
+                "fileID": "98991f05578d43d19cee13d42a3dac5a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are experiencing issues with data collection or event tracking, press '1'.",
+                            "fileID": "73b60df23bd94f918432a432f1da062d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Mixpanel technical specialist.",
+                                        "fileID": "95f7b2568f294e2c9ec225cf040ab74e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dec260cf645546a1bce2103c31c53382",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "If you need assistance accessing your Mixpanel dashboard or reporting features, press '2'.",
+                            "fileID": "ed64b6ef01bb4e34bd076838d80cc543",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support team for dashboard assistance.",
+                                        "fileID": "cc79840735c84a11834f0185dfe96d5a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1079193939bc4267bc406cca0754768f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "236d521dc0334fef83f6e337647767bd",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "641000140a8f4111836b8dd6ad8a6d0f",
+        "navigationGoals": null
+    },
+    "id": "ce53afd3592346f28a228a799165665b",
+    "navigationGoals": null
+}

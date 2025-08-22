@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Creative Market in San Francisco, your destination for premium design assets starting at two dollars.",
+            "fileID": "ef68788f0c1e473d839a7c8186cdea75"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for sales and product information.",
+                "fileID": "384e72ad193f4e20877de9b5a2b19397",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to purchase graphics, fonts, themes, and photos.",
+                            "fileID": "e957b95cb307459e958772152ffe9918",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist for purchasing design assets.",
+                                        "fileID": "75d678d26ae84eb4a4d02e6b4f1ee594"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0abb2bab7a354237b10904d8874626db",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 to learn about our enterprise subscription plans.",
+                            "fileID": "3c036a9534d24a659b2c99905bba74fe",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our enterprise solutions team.",
+                                        "fileID": "61802819c64743929987887ec218bd5d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "178f7a3862c04beb8a35e8d9b83dabce",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "19e8d291b4784d6e8a2bfc9327e8d727",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for customer support and account services.",
+                "fileID": "4361e9ec4c95459cb2782a5f0a5d66a3",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for technical support for your design assets.",
+                            "fileID": "976dce9967204917975f268013d4c0c0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "2c29240ed4c046eda16f182eeb5fb410"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dbdc4270b4074fb7a9833dedac6f4cb2",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for billing, invoices, and account inquiries.",
+                            "fileID": "9c9c5309db784fadae857539c4c8648d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing and account services.",
+                                        "fileID": "5ffeb1f090754fccac009dc17ba1e02f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "734d798f75114c629207e17cdf671595",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b041b966531d474496a5794d599df463",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1db04e5f909c46bda9358e48be54ecf2",
+        "navigationGoals": null
+    },
+    "id": "d1d66c35bbcd4658b94e30d228cf389a",
+    "navigationGoals": null
+}

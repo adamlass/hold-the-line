@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Kiip, the San Francisco-based in-app mobile advertising platform connecting brands to customers at meaningful moments.",
+            "fileID": "7e8af125eac6479690d2faa84c58ccbf"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and partnerships, press 1.",
+                "fileID": "63e37869e1de473581f9326a9cbc404b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are interested in new advertising partnerships, press 1.",
+                            "fileID": "9c32b40c53194b689c784abcd9bcd2c0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships team. Your call is important to us.",
+                                        "fileID": "f803178412ff41ec86e2afb1fdf66f77"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9af0ae35cca14599a9087f8352559ec8",
+                                "navigationGoals": [
+                                    "Discuss an in-app advertising partnership for our upcoming product launch.",
+                                    "As a veteran entrepreneur, I want to discuss a new advertising partnership.",
+                                    "I want to explore setting up a new in-app ad partnership using your SDK.",
+                                    "I\u2019d like to speak with someone about starting a new advertising partnership with Kiip.",
+                                    "I\u2019d like to set up a new in-app advertising partnership to promote my physics research app."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "If you have questions about your current campaign or billing, press 2.",
+                            "fileID": "a060731bf61340758e6c7e30e769b3b3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing and campaign support team. One moment please.",
+                                        "fileID": "666a9ec894544d4f84c957e0c69ed446"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ca09cbf608784d50bff91ed49cf174e5",
+                                "navigationGoals": [
+                                    "Resolve a billing discrepancy on my current campaign invoice.",
+                                    "I need to review the billing details for my current Kiip campaign.",
+                                    "I need to clarify some billing line items on my active campaign invoice.",
+                                    "I need help understanding the billing charges on my current ad campaign.",
+                                    "I need to review the billing details and performance metrics of my current ad campaign."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8e5a83722ff7482196eef2e3fa70e78b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and account services, press 2.",
+                "fileID": "3ee6b607819a4fcdbb760627e5899399",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance with the Kiip platform, press 1.",
+                            "fileID": "fc31df60f24d41218ec8977865200587",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we route you to technical support. Our team will be with you shortly.",
+                                        "fileID": "5f74d7d529bc472c926b66d168941f94"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e6e3f07282cc4b6b8c96bcd6299c82ff",
+                                "navigationGoals": [
+                                    "Troubleshoot the API integration error on my Kiip account.",
+                                    "I\u2019m troubleshooting technical issues with the Kiip SDK integration.",
+                                    "I\u2019m troubleshooting an API integration error with the Kiip platform.",
+                                    "I\u2019m having trouble logging into my Kiip advertiser account and need technical support.",
+                                    "I\u2019m experiencing integration issues with the Kiip SDK in my physics quiz app and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and user settings, press 2.",
+                            "fileID": "035af2fdaaab4cd6834246b9036b8d2d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the account services team. One moment please.",
+                                        "fileID": "b1aa5009dab0421f80952a46b966bdf2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "78ffa2798e8645648538c26af04cc849",
+                                "navigationGoals": [
+                                    "Update team access permissions and contact info in my account.",
+                                    "I want to update my account settings, such as my payment method and contact info.",
+                                    "I need to update my developer account permissions and user settings.",
+                                    "I\u2019d like to update my account settings, such as my contact email and payment information.",
+                                    "I want to update my account email to my university address and adjust my notification preferences."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ad206ac3b86f4158b135401464987c58",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4631a15a5ce343529a0afd6fb2ebcb15",
+        "navigationGoals": null
+    },
+    "id": "72a4965c078d4baca0ba7226656aa499",
+    "navigationGoals": null
+}

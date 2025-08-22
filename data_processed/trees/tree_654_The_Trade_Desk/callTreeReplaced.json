@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to The Trade Desk New York, where we transform advertising through our AI-driven technology platform.",
+            "fileID": "136ee0183e4347cbb54b070dd8f73c6e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new business inquiries, press 1.",
+                "fileID": "f95800d9a5db41609ba61fb08e25f39c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn more about our AI-powered ad buying platform, press 1.",
+                            "fileID": "0abe32b1f829467db7db5e80ff788160",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales specialist.",
+                                        "fileID": "c5ab9c2f1b8f4ed49ec0444129a39ff1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "880b1765e83d42008db75160aaeb2ac4",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a personalized demo of our technology, press 2.",
+                            "fileID": "18b6fb74717e4f1dada4a561ccae243c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we set up your demo appointment.",
+                                        "fileID": "b7894275d3c6448a86ff2fb1fadc1544"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4d9fc973173c42768a3cbf47a9af79a3",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f826e418fa9f4112a47fddf5c423ca6f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and account assistance, press 2.",
+                "fileID": "7dba1d37737f4d3cac186a9b68721c24",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To report a technical issue with your dashboard, press 1.",
+                            "fileID": "63b110dcb4a74c8184ab911a721eae56",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support.",
+                                        "fileID": "d87743ecb3ad47c3ab2f343186a0379e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "970beca828c643c8a8fdc0c9472579b2",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing questions or account management, press 2.",
+                            "fileID": "8e28d45e9de445199e284848d63fdcc2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing team.",
+                                        "fileID": "1a92f22e39d947c7a5b8e4e062f4d6b3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "789ee6f4b9344db08ee610b6a84e5d24",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0f0db9bf28c54f039c8c9b047819255c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d266aef8a05d4c19b63e464743612d90",
+        "navigationGoals": null
+    },
+    "id": "b57996cb3a014ccd80e39ba9777e6050",
+    "navigationGoals": null
+}

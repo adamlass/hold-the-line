@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to CBS Interactive San Francisco, where we deliver truly premium content at scale.",
+            "fileID": "d4199e984c9845d6bc7d1424768e3b56"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For advertising and partnership opportunities, press 1.",
+                "fileID": "0f04a0f9dc4e43ec832d99a9b4af5a9e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For digital advertising solutions, press 1.",
+                            "fileID": "8bc4e2caa49d4862a4e86c446e7c4896",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our digital advertising team.",
+                                        "fileID": "3d0307ac6ab44878aa0196fc7be3850a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6f7aeb2cb13c4be5b7e4328caf884f2e",
+                                "navigationGoals": [
+                                    "Get pricing and specs for a digital advertising campaign",
+                                    "I\u2019m a veteran-owned business looking to run digital ads on your network.",
+                                    "I need to integrate your digital advertising API for a programmatic bidding setup.",
+                                    "I\u2019d like information on placing a digital ad on your site.",
+                                    "I would like details on placing digital advertisements to promote my physics tutoring startup."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For branded content and sponsorships, press 2.",
+                            "fileID": "caffce4bc59d4cf3b694f04a746f16ee",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we\u2019re connecting you to the branded content and sponsorships department.",
+                                        "fileID": "3b271637a2204ff2bf7903e685b207a5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "65f74827a95349ddbaf2469c6f357c8e",
+                                "navigationGoals": [
+                                    "Discuss sponsorship packages and timelines for branded content",
+                                    "I want to explore a sponsorship to promote my nonprofit supporting fellow veterans.",
+                                    "I want to explore a branded content sponsorship package for native article promotion.",
+                                    "I want to discuss branded content sponsorship opportunities.",
+                                    "I am seeking sponsorship for a physics outreach video series for my university."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "74882f3cff6d41cca55742d002bc67ad",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and account services, press 2.",
+                "fileID": "d40565a1a731419198c1e8f1153dfb80",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "11661a70843148ddb54d703dbf8a87ae",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support.",
+                                        "fileID": "f160ceab8a3e49a6b93fcecd567d1800"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d5950f69a68f485abf18deb73c7993bc",
+                                "navigationGoals": [
+                                    "Resolve a technical issue with my account login",
+                                    "I need help fixing errors when I try to access my CBS Interactive account online.",
+                                    "I\u2019m troubleshooting errors with your analytics SDK integration and need technical support.",
+                                    "I need help accessing my account and troubleshooting a technical issue.",
+                                    "I need assistance troubleshooting access to your online physics resource library."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and subscription inquiries, press 2.",
+                            "fileID": "3ecc79b5fa694f4d8619a78f88e40374",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience. We are connecting you to our billing and subscriptions team.",
+                                        "fileID": "edb7e71e2ca44fb0b97a3f836f1bb2b3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "92ed03916fbe45c59dd93d95abf690a7",
+                                "navigationGoals": [
+                                    "Clarify a recent subscription charge and update my billing info",
+                                    "I\u2019d like to update my payment info and ask about veteran discounts on my subscription.",
+                                    "I need to audit recent subscription invoices and upgrade our enterprise billing plan.",
+                                    "I have a question about my subscription billing and need assistance.",
+                                    "I have a billing question regarding my student subscription to your digital content."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "58c9846ee863405ea74d5fbc97e18246",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5aa69d2fbcc44f15939092af8346088b",
+        "navigationGoals": null
+    },
+    "id": "98d173785fef4147897b95c89dcd466e",
+    "navigationGoals": null
+}

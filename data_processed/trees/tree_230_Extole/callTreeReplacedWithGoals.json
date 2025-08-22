@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Extole in San Francisco, the enterprise platform that drives brand advocacy and influence.",
+            "fileID": "ec60d594a6704d7586df6adf0d2baf60"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new accounts, press 1.",
+                "fileID": "e1cffc84b2f34530808b8c28100f7ebf",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a product demo, press 1.",
+                            "fileID": "0c9ff2eedb434d8d846b02a2eb258e10",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo scheduling team.",
+                                        "fileID": "9b307fb5813d4693abe520e47c0bc1c5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "afbb1fc9f61c47a0b1ea8ed3ef9b2fd7",
+                                "navigationGoals": [
+                                    "I want to schedule a demo of Extole\u2019s platform as soon as possible",
+                                    "I want to arrange a demo of Extole\u2019s platform for my veterans organization.",
+                                    "Schedule a demo to review Extole's referral API integration workflow.",
+                                    "I need help scheduling a demo so I can learn how the platform works.",
+                                    "Schedule a demo of Extole\u2019s platform for my physics research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative, press 2.",
+                            "fileID": "b5accdf437ee4e4889ad1dd4a615c7a0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "fc4382f45b784f56a52bfbb456963c14"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b7c77e5e63a54a649c1e55fedc1b6178",
+                                "navigationGoals": [
+                                    "I need to speak with a sales representative to discuss account options",
+                                    "I need to speak to a sales rep about opening an Extole account.",
+                                    "Discuss enterprise pricing tiers, licensing options, and SLA terms.",
+                                    "I want to speak with someone about purchasing options and pricing.",
+                                    "Speak with a sales representative about pricing plans for our department."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ebb7b6c371b74c169a9615884f143a7b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and services, press 2.",
+                "fileID": "46b626f3f9254ce8abc422698bc3bab0",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "a2e1f5e263fd4779a0dfe5db3211837a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "fa8fd425da2142b7b05cd03e33e7e8a5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e88964ec0592428788044a3e7d65c45b",
+                                "navigationGoals": [
+                                    "I need help troubleshooting a technical issue with the platform",
+                                    "I need technical support to troubleshoot an issue with Extole.",
+                                    "Troubleshoot OAuth authentication errors in our Extole SDK integration.",
+                                    "I need technical assistance to resolve an issue I'm experiencing.",
+                                    "Get technical help fixing an API error on our lab\u2019s Extole integration."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing or account inquiries, press 2.",
+                            "fileID": "62ba14a17b354b2fbc738b4f6ab65552",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and accounts team.",
+                                        "fileID": "c6071929a83f442ba12adf3f6d8c64e9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0fbfa3474dff41ccbf01e012d79b5a6e",
+                                "navigationGoals": [
+                                    "I need to clarify a billing charge on my account",
+                                    "I have billing questions about my Extole account charges.",
+                                    "Clarify invoice charges and usage overages for our monthly subscription.",
+                                    "I need help understanding a billing charge and updating my account information.",
+                                    "Update billing information and get a copy of the latest invoice for our account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0756be47f34a49d2a94a3fad6289bfb3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1af8fa4e47b44b6faac6324480474268",
+        "navigationGoals": null
+    },
+    "id": "05062984e5624c76a44f291578dd02ec",
+    "navigationGoals": null
+}

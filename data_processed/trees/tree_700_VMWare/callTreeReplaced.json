@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling VMware South Bay, a global leader in cloud infrastructure and digital workspace technology.",
+            "fileID": "28ded6cdff0b49268573bcccc929c7ee"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales, licensing, and new deployments, press 1.",
+                "fileID": "72c0d54a9fef419d94d2932b11104ee9",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For VMware Cloud and cloud infrastructure sales, press 1.",
+                            "fileID": "f2f67ecc2d454088a4a533103d01c2d9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our cloud infrastructure sales team.",
+                                        "fileID": "2e6b9758c65d4e91a0e73003f907a798"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f2ea122c6f1143f09057ff1d45ee460d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For licensing inquiries and contract renewals, press 2.",
+                            "fileID": "8c5bc404ee1549c3a34659578b00684d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold to speak with our licensing and renewals specialist.",
+                                        "fileID": "55f4e25a4a594afcb25a822c2ed450ac"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f13b67394fb1461a80d457f1cb7622c4",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "12179b02d8b04def9808740e61be440e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and customer care, press 2.",
+                "fileID": "34608e71130c4fefbd5cd2abd6743a50",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For developer tools and API support, press 1.",
+                            "fileID": "ca1dfbc946bd45dda6009a665333afcf",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold to connect with our developer tools support team.",
+                                        "fileID": "dd3a66dd0d0b4c3ba6968fe95793b1d6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7531404bc5c34e6c8046cb708996f19c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For digital workspace and end-user support, press 2.",
+                            "fileID": "6ee1e19b3c484f9d88049913f63762c2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold to connect with our digital workspace support team.",
+                                        "fileID": "860700f0986f4f97ae62ce38f78500b7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bd1434c79a1c4b92a4db2273e26ae691",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9d6b9a3301e0428082e210b92a101fd3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "39599236839f41bc93e8d85a6d60bca0",
+        "navigationGoals": null
+    },
+    "id": "c8cdaa9c5bf34a47b54e2546e5472378",
+    "navigationGoals": null
+}

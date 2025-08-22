@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Mainz Brady Group, East Bay's premier IT staffing firm serving California, Oregon, and Washington.",
+            "fileID": "43bd662cf306474aac91cfc905f3c5cc"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a job seeker looking for IT opportunities, press 1.",
+                "fileID": "ed25975d670d4812bbefc7bca2066f45",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit your resume and explore current openings, press 1.",
+                            "fileID": "c70aeed114094a17a0180350c964fd52",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our candidate support team.",
+                                        "fileID": "197957673f934e708d3c66b553d8336d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e39105d3f6a64b0bad01075d04d8b919",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing application, press 2.",
+                            "fileID": "91f8f6d0e364465aa1652ab6b55066bb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your application status.",
+                                        "fileID": "d9a89c917bcb456aaa0440a016f97e40"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "66401265798f45059ebb20388ce5a1f1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b4097f40c6dc478797585a0f24b060b0",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an employer seeking staffing solutions, press 2.",
+                "fileID": "68ba1fcd2b3e40ffa04884530d4e50de",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request IT staffing or discuss your hiring needs, press 1.",
+                            "fileID": "c1d59cf1b5cd4b59b3d196246cda1da6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our client services team.",
+                                        "fileID": "009f91b5c1e743b1880db14ba3182f83"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9f07b27e73c8400f89774dc889fb0bd1",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To check on an existing staffing request, press 2.",
+                            "fileID": "f85b85efef514f70a895ce52a4415f68",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we look up your staffing request details.",
+                                        "fileID": "2b418223d9914bd9bdf60d7bbb3cc045"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "318b85689c1244bb96bd592d12f8d775",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4739cd2721b34461941392b9bb4923c4",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "362748521eca47dca3a9c675a526e993",
+        "navigationGoals": null
+    },
+    "id": "677b53ef25c447dda10abad65fd2e072",
+    "navigationGoals": null
+}

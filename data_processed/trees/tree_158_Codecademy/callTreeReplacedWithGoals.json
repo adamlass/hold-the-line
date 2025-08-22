@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Codecademy in New York, where millions join us to learn coding and advance their careers.",
+            "fileID": "c7091d591c6444dc8b935eb543a60cc6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To explore our course offerings and enroll in a program, press 1.",
+                "fileID": "c9815631e5cd4254acc606a8f9adc5d5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For beginner and introductory coding courses, press 1.",
+                            "fileID": "52a8d5a3dfa949698b6c3f99bd733ee0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our enrollment team for beginner courses.",
+                                        "fileID": "fc4295c352e7432ab48f2acd0c97d8a2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5f51b30f06e142ad9941ac39897ff0bf",
+                                "navigationGoals": [
+                                    "Enroll swiftly in an introductory coding course.",
+                                    "Enroll in a beginner coding course to help transition to a tech career.",
+                                    "I want to enroll in an entry-level Python fundamentals course and get the onboarding details.",
+                                    "I want to sign up for a beginner coding course and get help with the schedule.",
+                                    "As a physics student, I want to enroll in a beginner Python course for scientific data analysis."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For advanced and professional certification paths, press 2.",
+                            "fileID": "53b670c9542e4ad6abd2bf253b3ba2a7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our enrollment advisors for advanced programs.",
+                                        "fileID": "dd8161afb8ef4c88b04a609376697e74"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b84b2d4cd7fb4c6a94b5c3180f41161a",
+                                "navigationGoals": [
+                                    "Sign up for a professional-level certification path.",
+                                    "Enroll in an advanced certification program, like cybersecurity.",
+                                    "I'm looking to register for the advanced full-stack developer certification and confirm the prerequisites.",
+                                    "I need to enroll in the advanced certification program to improve my skills.",
+                                    "I\u2019m looking to sign up for the professional full-stack developer certification to enhance my research toolkit."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "131713a26f844ef98543d54460b6cffa",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "c14f3d0c57ab47a9b5420787d706a0ab",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with our platform, press 1.",
+                            "fileID": "72de69d26534445a8afd248af9fd8ed7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "9f9ea47935434715abda6eccee64bb98"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b6787c8c6d1e4b2999d1aceea0a37b3a",
+                                "navigationGoals": [
+                                    "Fix a technical glitch on the learning platform.",
+                                    "Resolve a technical issue logging into my learning dashboard.",
+                                    "I need to debug an API integration error I\u2019m encountering in the Codecademy code editor.",
+                                    "I'm having trouble accessing my course materials online and need technical support.",
+                                    "My Jupyter notebook environment isn\u2019t loading on the platform\u2014I need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account, billing or subscription inquiries, press 2.",
+                            "fileID": "f75a76612ceb4686856582ab5d1e4812",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "23aea143034145b58412102cd22e81fb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2121311632ca47fbb80d818c857b24f5",
+                                "navigationGoals": [
+                                    "Clarify and correct a billing charge on my account.",
+                                    "Update my billing information for my subscription.",
+                                    "I\u2019d like to update my Pro subscription\u2019s payment method and review my billing history.",
+                                    "I need help understanding my bill and updating my payment information.",
+                                    "I need to update my subscription billing information before my student discount expires."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "509f7fcbe4034489be85a14bed9165b8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4b128365f7024e08a219b14e46495020",
+        "navigationGoals": null
+    },
+    "id": "6ad913d9a15142bfb318bf9f886d86c7",
+    "navigationGoals": null
+}

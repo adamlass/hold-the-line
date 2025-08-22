@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Vonnda in San Francisco, where we revolt against mediocrity to create online experiences that truly resonate.",
+            "fileID": "3f669715e43646a89dcd086a9797c5ea"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you're interested in starting a new project with Vonnda, press 1 to choose that menu.",
+                "fileID": "c5505a32dc924d16b3feecb589c75c23",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our strategy and design team, press 1 to choose that menu.",
+                            "fileID": "b3a4f141f69f453b8b87c26199ed923b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you with our strategy and design team. Your call is important to us.",
+                                        "fileID": "f4a65b7a765747dab520ad4458205e4a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cc198db70cc34ae690eaeb797ed64872",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To connect with our front-end and back-end development specialists, press 2 to choose that menu.",
+                            "fileID": "0a10ac4db624474188ede430350c7ee0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you with our development specialists. Your call is important to us.",
+                                        "fileID": "61788fe4959345e5846eb5af401ea0e1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f3095b71e8524037a4fd3f68e16d4eb7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7d754768a89c4ed690b6b06b12fa8e9b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing client support and account inquiries, press 2 to choose that menu.",
+                "fileID": "84807830f5d04e87bfbb1c23baa3d3cb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For project status updates and milestones, press 1 to choose that menu.",
+                            "fileID": "b547653611b04c8ba04413ef272e546e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line for project status updates. A member of our team will be with you shortly.",
+                                        "fileID": "b21a60ad7f234c18baec09a3b90beafa"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3c0871304c514e7f904d7ebfb61021d6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing, invoicing, and account questions, press 2 to choose that menu.",
+                            "fileID": "13aa89e904cb4b0985c218d25a761be9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line for billing and account support. Your patience is appreciated.",
+                                        "fileID": "ccb36ea808894b0db2026e724598abed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7c1d52ba408b46edb61e38a6d62a016a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "229a31565a1b48fbafcd5352eff8b343",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "33dc7c88f9cc44808f1bc8acbfbbc3e5",
+        "navigationGoals": null
+    },
+    "id": "ace80c941ec444d39267bdadb1354392",
+    "navigationGoals": null
+}

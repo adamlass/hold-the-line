@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Rainmakers in San Francisco, where we connect high-performing sales professionals with outstanding companies.",
+            "fileID": "41ecbaa6d6ca45bc8175ad22d216dcb8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For companies interested in hiring top sales talent, press 1.",
+                "fileID": "f15694b67dd247d9a920cbd4c8257b72",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak directly with one of our recruitment specialists, press 1.",
+                            "fileID": "2642ea26a2444f2d98370ffb67f62712",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruitment specialist.",
+                                        "fileID": "bfed82e720c744c28067b6d8169c493f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "58088d5457e847209778641fcf328608",
+                                "navigationGoals": [
+                                    "I need to speak with a recruiter about hiring top sales talent.",
+                                    "Connect with a recruitment specialist to discuss hiring experienced sales reps for my veteran-owned business.",
+                                    "I\u2019d like to connect with a recruitment specialist to discuss sourcing sales engineers for our SaaS platform.",
+                                    "I need to speak with someone about hiring a salesperson for my business.",
+                                    "Connect me with a recruiter to discuss hiring a sales engineer for my physics startup."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For information about our placement services and pricing, press 2.",
+                            "fileID": "656bca4e77d4428eb607f11f8455ada1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve details on our placement services and pricing.",
+                                        "fileID": "2dd4146ebdbd40f996bc186a88db2d61"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9accc3fc4bf643e092b9cd730a7a3e91",
+                                "navigationGoals": [
+                                    "I\u2019d like details on your placement services and pricing.",
+                                    "Get details on placement services and pricing for recruiting sales talent at my company.",
+                                    "I need detailed pricing and service-level information on your sales talent placement packages.",
+                                    "I'm calling to find out how much your placement services cost.",
+                                    "Get a breakdown of fees for your sales placement services."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e3ed761c28464d90824c12ae8363eacf",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you\u2019re a sales professional seeking new opportunities, press 2.",
+                "fileID": "a05e2532113740f6a3b2ccc64a73b39d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a free career consultation, press 1.",
+                            "fileID": "9fd2941bb1a44f46b818c4bb98c4ecb2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a career advisor.",
+                                        "fileID": "c0133173e16c4f62a6f0327baf2b6d29"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c1afa61d43e04420b3cbb253e80021b8",
+                                "navigationGoals": [
+                                    "I want to schedule a free career consultation.",
+                                    "Schedule a free career consultation to explore sales roles that leverage my military experience.",
+                                    "I want to schedule a career consultation to explore data-driven sales roles in enterprise software.",
+                                    "I'd like to schedule a free career consultation.",
+                                    "Set up a career consultation about transitioning into technical sales."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To submit your resume and profile, press 2.",
+                            "fileID": "ca735cdba38d42a384ffb987fffc59cd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we take down your resume and details.",
+                                        "fileID": "3c74ef6f47294133b81336d7885f0adf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6d9b6fde7a224dfb82ca6d0cb7b05c6b",
+                                "navigationGoals": [
+                                    "I\u2019d like to submit my resume and profile for consideration.",
+                                    "Submit my resume and profile for consideration for sales job openings.",
+                                    "I\u2019d like to submit my resume and sales performance metrics to join your candidate network.",
+                                    "I want to submit my resume for your review.",
+                                    "Submit my resume for consideration for technical sales roles."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d5a795694f1e41faa10b3a8c70940eb2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d27053b33a8a4c23a57aef15bb86bf41",
+        "navigationGoals": null
+    },
+    "id": "2f1c83bdbf204e359b6f7335cdd8cdbd",
+    "navigationGoals": null
+}

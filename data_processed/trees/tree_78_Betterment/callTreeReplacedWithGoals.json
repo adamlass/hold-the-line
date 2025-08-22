@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Betterment in New York, the online financial advisor built for people who refuse to settle for average investing.",
+            "fileID": "13e753f77ded42ac84c3184bb9762b3c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For account services and support, press '1'.",
+                "fileID": "a2ae0f64e2e540faa44a8ce3fcbb1321",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To open a new account and get started, press '1'.",
+                            "fileID": "ff575bc8788b4e51a821dd52380982d5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account opening team.",
+                                        "fileID": "e844a746a5614990819e67f018ce3b5c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e23394dd6b59454fb1edd263835d60c6",
+                                "navigationGoals": [
+                                    "I want to open a new Betterment investment account.",
+                                    "As a veteran, I want to create a new Betterment account and fund it.",
+                                    "Open a new Roth IRA and configure automated ACH deposits via Plaid",
+                                    "I want help setting up a new Betterment account and walking through the process.",
+                                    "I\u2019d like to open a new Betterment account to start investing my savings for graduate studies."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For questions about your existing account or technical support, press '2'.",
+                            "fileID": "9dab41dcfd3c4fe792a60a87a1049312",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with an account support specialist.",
+                                        "fileID": "cdd4d73f5fdb439589adf1cfc6042cb0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c46f5f79c29e4a0099aac88e5d267b1c",
+                                "navigationGoals": [
+                                    "I need help resolving an issue with my existing account.",
+                                    "I need assistance accessing my existing account to review my veteran benefit deposits.",
+                                    "Resolve a two-factor authentication failure on my existing account login",
+                                    "I need assistance resetting my account password.",
+                                    "I need assistance troubleshooting why my recent deposit isn\u2019t showing up in my Betterment account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "944f79db11ae4f39b76d33a266f437a5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For personalized investment advice and portfolio guidance, press '2'.",
+                "fileID": "56d5a43316854c5e9f93f80c58642a6b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a one-on-one portfolio review with an advisor, press '1'.",
+                            "fileID": "3d1a7eeaec274369ad9bb474d25044be",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a portfolio advisor.",
+                                        "fileID": "b638312ce7da49659497e44fd6e99da5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bb7f745661ba4166891ec54e72353a34",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a one-on-one portfolio review with an advisor.",
+                                    "As a veteran, I want to schedule a one-on-one portfolio review with an advisor.",
+                                    "Schedule a one-on-one portfolio review to discuss asset allocation and tax-loss harvesting",
+                                    "I\u2019d like to schedule a one-on-one phone review of my portfolio with an advisor.",
+                                    "I want to schedule a one-on-one portfolio review to discuss optimizing my asset allocation."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For information on our automated investing solutions, press '2'.",
+                            "fileID": "59f24be25d084a328c9f81573709e07c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our automated investing experts.",
+                                        "fileID": "1168ce9dd43d4e5387c654b231d41396"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "116fead3bf2b4155bffda5148b7e7ad1",
+                                "navigationGoals": [
+                                    "I\u2019m seeking detailed information on your automated investing solutions.",
+                                    "I\u2019d like to learn about automated investing solutions for my post-service savings.",
+                                    "Get specifications on Betterment\u2019s automated investing algorithms and tax optimization features",
+                                    "I want information about Betterment\u2019s automated investment plans and how they work.",
+                                    "I\u2019d like to learn more about Betterment\u2019s automated investing solution and how it manages portfolios."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "965b51fdc48142f7976c076e73791ced",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bb82791887314bd1a0f7d445400ae6eb",
+        "navigationGoals": null
+    },
+    "id": "e7116f24519343cea2223592f62f8443",
+    "navigationGoals": null
+}

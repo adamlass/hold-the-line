@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Daily Kos East Bay, your source for Democratic Party news and liberal political discussion.",
+            "fileID": "8ebae59c91d342bda923b4e06b160bc1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To hear today\u2019s top headlines and editorial analysis, press 1.",
+                "fileID": "504409da4dd34354b2239c8e4a5be58c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For today\u2019s top headlines, press 1.",
+                            "fileID": "508dbdf781f649288a40759db9ab4306",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the latest headlines for you.",
+                                        "fileID": "8580f34c806e4876acf9df85c98cc031"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "057c7df62de344bf8ba0bac212c928ca",
+                                "navigationGoals": [
+                                    "I need a quick briefing on today\u2019s top East Bay political headlines.",
+                                    "I want to listen to today\u2019s top headlines.",
+                                    "Pull the latest Daily Kos top headlines feed.",
+                                    "I\u2019d like to listen to today\u2019s top headlines.",
+                                    "I\u2019d like to hear today\u2019s top political headlines."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For in-depth editorial analysis, press 2.",
+                            "fileID": "84ffdb0f2c124c639c1299cffa82cbab",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our editorial analysis team.",
+                                        "fileID": "2297562da9bf45a8bb71c971a57ff9dd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "124ff8aaf2594471ab1b1d62257e8907",
+                                "navigationGoals": [
+                                    "I\u2019d like to hear an in-depth editorial analysis of today\u2019s major stories.",
+                                    "I want to hear the in-depth editorial analysis.",
+                                    "Access the in-depth editorial analysis pipeline.",
+                                    "I want an in-depth editorial analysis of today\u2019s news.",
+                                    "I want to access the in-depth editorial analysis."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0f31a12484974f44b9dc1fd9df8d4029",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To access our community forum and member support, press 2.",
+                "fileID": "61fecb69d2b04b24a6246596d068a1fb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For forum registration and account assistance, press 1.",
+                            "fileID": "6d14d998a4694b2184421ff758890cfe",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to member support.",
+                                        "fileID": "f0f0ac1406934d30875fce9c686a109e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "43bef4af22034d20a20af244844afbfc",
+                                "navigationGoals": [
+                                    "I need help creating and accessing my forum account quickly.",
+                                    "I need help registering for the community forum and setting up my account.",
+                                    "Provision a new community forum account.",
+                                    "I need help registering for the community forum.",
+                                    "I need help registering for the community forum and setting up my account."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For posting guidelines and comment moderation, press 2.",
+                            "fileID": "f0edac2762764a908be3f914b0d8df02",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the community moderation team.",
+                                        "fileID": "09dc200e162a401089c3cb12c389d9b7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6dbdaaa6d887494ca3899a4fc53eba2b",
+                                "navigationGoals": [
+                                    "I want to review the forum\u2019s posting guidelines before contributing.",
+                                    "I need to understand the forum\u2019s posting guidelines and moderation process.",
+                                    "Retrieve the community posting guidelines and moderation policy.",
+                                    "I\u2019d like to learn the forum posting guidelines and comment rules.",
+                                    "I\u2019m looking for the forum\u2019s posting guidelines and moderation policies."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d36de948df3e444f9a05ca485e30b5be",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4f4af51f2b4942f6afbf622722c6babd",
+        "navigationGoals": null
+    },
+    "id": "e544f9e7820a4a7cb07bcb8757982d44",
+    "navigationGoals": null
+}

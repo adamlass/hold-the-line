@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Betterworks Peninsula, where we empower your team's success through continuous performance management.",
+            "fileID": "ef39c035084a4588b853eb2487b3b927"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To get help setting and managing your OKRs, press 1.",
+                "fileID": "bc33220759974c7693757948264e2b91",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule an OKR planning session with our experts, press 1.",
+                            "fileID": "c0c76161de7d4c77b103f7a8b46317fc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our OKR planning experts.",
+                                        "fileID": "fb97d7b2f59a419cbfc4501cd6877948"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a671984e99f94b92a1ba392748011204",
+                                "navigationGoals": [
+                                    "Schedule a session with OKR planning experts",
+                                    "Schedule an OKR planning session to set clear mission-style objectives for my new team",
+                                    "I want to schedule a deep-dive OKR planning workshop with your expert consultants.",
+                                    "I need help scheduling an OKR planning session to define my team's goals.",
+                                    "I want to book a planning session to structure my team\u2019s OKRs for the upcoming quarter."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To review your current objectives and key results, press 2.",
+                            "fileID": "5c66735f8ae345dcb4b33fc1b94638c9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to an OKR review specialist.",
+                                        "fileID": "7fab3dd8dc6e41e28c98fd2e49fb08c2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ba347df02cb143a9a69a37bfe76717e0",
+                                "navigationGoals": [
+                                    "Review my team\u2019s current OKRs with a specialist",
+                                    "Review my current OKRs with a specialist to ensure I'm tracking progress correctly",
+                                    "I need a technical audit of my existing OKRs and feedback on optimization.",
+                                    "I want to review my current objectives and key results with a specialist.",
+                                    "I\u2019d like to review and refine our existing OKRs with a specialist."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "855b5202f1134dc7bd6ef3c656dd0d11",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To discuss employee engagement and development programs, press 2.",
+                "fileID": "7f8412190ae741f39053284de8bbe668",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with an employee engagement specialist, press 1.",
+                            "fileID": "6a6838b812da447cbef03c6c9791643d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an employee engagement specialist.",
+                                        "fileID": "7f8d7bdbbb0b448f99454c05c1446dc8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "00373dec98934fb39208fa6458ad4a8a",
+                                "navigationGoals": [
+                                    "Get advice on boosting employee engagement",
+                                    "Speak with an engagement specialist about boosting team morale and cohesion",
+                                    "I\u2019d like to analyze our employee engagement metrics and discuss pulse-survey strategies.",
+                                    "I need advice on improving my team's engagement and morale.",
+                                    "I\u2019m looking for guidance on improving my team\u2019s engagement strategies."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about our employee development solutions, press 2.",
+                            "fileID": "881c7c3309c244c7b7296d2672c7ed63",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our employee development team.",
+                                        "fileID": "954d77d323404d2f9a1eb179bff60575"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b53fc7543d1e40a79f63e65fd02974b8",
+                                "navigationGoals": [
+                                    "Learn about available employee development and training solutions",
+                                    "Learn about development programs to build my civilian leadership skills",
+                                    "I want to explore skill-gap analysis tools and design a customized development curriculum.",
+                                    "I want information on employee development and training programs.",
+                                    "I need information on employee development programs to support my team\u2019s skill growth."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e62f2ed40f914503bb2f4bc1d5429746",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f13d07054afd4cb295b7c16e1a2e043d",
+        "navigationGoals": null
+    },
+    "id": "eea6a5f0ba8948a485eb033e729119bf",
+    "navigationGoals": null
+}

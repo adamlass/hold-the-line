@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling SV Angel, San Francisco\u2019s leading angel investment firm.",
+            "fileID": "ad893ceba0b84e47940cf259751a1085"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a portfolio company needing support, press 1.",
+                "fileID": "3cd1e6c1d5064f9fb40ded0b064f7686",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For business development assistance, press 1.",
+                            "fileID": "820c180707a9437485f582f3871b26fd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a business development specialist.",
+                                        "fileID": "98f859ae3eed4d1eacd402bb252ae330"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "518e8b1016ce4b19b7c0f4d01a1d4603",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For financing and M&A advice, press 2.",
+                            "fileID": "4e4dc4b39b914d6a9a3676f8d04228dd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please; connecting you to our financing and M&A team.",
+                                        "fileID": "f895a5b3329343419c481f5f3f515d06"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "28cded8376c94effa246ac19720337d8",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3167be9497b14e79b45773811d4d2ffe",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are interested in presenting a new investment opportunity, press 2.",
+                "fileID": "64622cf0e67e45a3865837e96cc3bac0",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit a pitch deck, press 1.",
+                            "fileID": "ee55793f4ad54deb863d3397324bbceb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer your pitch to our investments team.",
+                                        "fileID": "a48cb827bafa4cb589759c471f346f35"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "15fc6f2b85d6432291ceab74f8ffe013",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For all other inquiries, press 2.",
+                            "fileID": "e41abb3ec5344210a73c821d64c96774",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold and we\u2019ll connect you to an SV Angel representative.",
+                                        "fileID": "d5ef7fef0c254b0fb3922fb29b1c9ecb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "65dcc8650c584eb28828939bb63bc930",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bd8b1cc503664bba8f8ad31b72259e15",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e5ac61b098144bfca5356a023e0eeedc",
+        "navigationGoals": null
+    },
+    "id": "bbc0610ff7044340adf09b239cf28586",
+    "navigationGoals": null
+}

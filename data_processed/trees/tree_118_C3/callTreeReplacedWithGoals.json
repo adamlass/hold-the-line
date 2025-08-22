@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to C3, the Peninsula\u2019s leading provider of enterprise AI, predictive analytics, and IoT software solutions.",
+            "fileID": "a99863ec97554a64b9faf0ae714017eb"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our AI, predictive analytics, and IoT solutions, and to schedule a demo, press 1.",
+                "fileID": "75355303967d467abbe261f790475b97",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative about solution deployment, please hold the line.",
+                            "fileID": "6ba2b0dbd90241a8ab751e9d1d50ebda",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for choosing C3. A sales specialist will be with you shortly.",
+                                        "fileID": "f1cfbd99b7e34296800f6f7618fa6f63"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7e92ae824fb54b748dbafe21ebf1dfb9",
+                                "navigationGoals": [
+                                    "Discuss enterprise AI & IoT solution deployment options and pricing with a sales specialist",
+                                    "Discuss deploying an AI-driven analytics platform to improve veterans\u2019 benefit program management",
+                                    "Connect me with a sales engineer to discuss deploying your enterprise AI predictive analytics and IoT stack at my organization.",
+                                    "I need to speak with someone about deploying your AI and analytics solutions at my business.",
+                                    "I\u2019d like to speak with a sales rep to discuss using C3\u2019s predictive analytics for my physics research and schedule a demo."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To arrange a personalized product demonstration, please hold the line.",
+                            "fileID": "6a8443c2af73459b8518f904a1a4b32d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "We\u2019re connecting you to schedule your product demo. Please hold.",
+                                        "fileID": "8fa2269c03b8423499bc77d763070f9b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7d46cdfc8bae4a5f8c5b7b9c68791a32",
+                                "navigationGoals": [
+                                    "Schedule a personalized demonstration of the predictive analytics platform",
+                                    "Schedule a personalized demo of the C3 predictive analytics dashboard for my veteran support nonprofit",
+                                    "I\u2019d like to schedule a deep-dive demo of your analytics platform, focusing on real-time data ingestion and visualization features.",
+                                    "I want to schedule a personalized demo of your AI, predictive analytics, and IoT software.",
+                                    "I want to arrange a tailored demo of your IoT platform for monitoring my lab sensors."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4a139ae2a0cb4a338c94b76cdf314a89",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support, customer service, or troubleshooting assistance, press 2.",
+                "fileID": "ca7037cce6174fe19ead51849f1c2a0d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For assistance with your existing C3 platform account, please hold the line.",
+                            "fileID": "7b91d674a96b4ddb9837dc18d30aa82d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our customer support team is gathering your account details. Please hold.",
+                                        "fileID": "de43b7709d2e4b47985c91dfe471bb48"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "055f59907c7646a68fae9db9d44f198f",
+                                "navigationGoals": [
+                                    "Update billing and contact information on my existing C3 platform account",
+                                    "Get assistance accessing my existing C3 account and review my subscription details",
+                                    "I need assistance updating my C3 platform user credentials and regenerating my API access keys.",
+                                    "I need help accessing my C3 account because I can\u2019t log in.",
+                                    "I need assistance accessing my existing C3 account to retrieve my stored simulation data."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For troubleshooting and technical support on our AI and IoT applications, please hold the line.",
+                            "fileID": "71fc0f9e00fb48dba5a2cb68dd0e67c1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "A technical specialist will be with you momentarily. Thank you for your patience.",
+                                        "fileID": "a26ef21387ae4f23ac2b3f72e96aa5b6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0df56e400f00474794ab8ec1b0e365ff",
+                                "navigationGoals": [
+                                    "Troubleshoot connectivity issues between my IoT devices and the analytics application",
+                                    "Troubleshoot an issue with IoT sensor integration on the C3 platform for monitoring facility conditions",
+                                    "I\u2019m experiencing errors deploying my IoT edge device with your AI module and need help debugging the connector pipeline.",
+                                    "My IoT devices linked to C3 aren\u2019t working and I need troubleshooting assistance.",
+                                    "I\u2019m having errors with the C3 AI/IoT application in my experiment and need technical support."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fb42e7b28b4a4c91b4521d8e71dab3bc",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d35a50210cbb49d99e0c810d2f5660ed",
+        "navigationGoals": null
+    },
+    "id": "31c519935ed94f6e9684c3e830eba644",
+    "navigationGoals": null
+}

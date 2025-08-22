@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Outreach, the San Francisco based sales engagement platform that helps B2B teams drive more pipeline and close more deals.",
+            "fileID": "5068e53734034b8daf18ca71ae40ae7f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and New Business inquiries, press 1.",
+                "fileID": "27a4cf07a7ef444f9ecd7df485da1b9b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For Product Demonstrations and Onboarding, press 1.",
+                            "fileID": "76bfce25b7c44e7385d2e96b760a8618",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Product Demonstrations team.",
+                                        "fileID": "212b9c504dec4b83a068c8850276cfeb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dbbe1dd7e13d4adebc92e6244da7e871",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For Pricing, Licensing, and Subscription inquiries, press 2.",
+                            "fileID": "bac889c719574b7799149667722b2799",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Pricing and Licensing team.",
+                                        "fileID": "1672d71508194d1f846295aa277dbac3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ef5c9ae01c3049259f4d91e25e3ba7df",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9e2f574dd9a04a4590520389167cab25",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Customer Support and Technical Assistance, press 2.",
+                "fileID": "327cfe904e84421194f446b959cb5f94",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For Technical Troubleshooting and Platform Issues, press 1.",
+                            "fileID": "db15cc12ac2d4cfd89099f8d062c2d74",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Technical Support team.",
+                                        "fileID": "b724f13fe2ba464f95fbe1ad44ba007d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c8712a0f4bd549439728e3e616851be5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For Billing, Invoices, and Account Administration, press 2.",
+                            "fileID": "945a19fe844644f9a39a2887db19ce89",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Billing and Account Services team.",
+                                        "fileID": "27be0284f9ce48ef814f93d470fb3de8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ac831d11cd3b4099b2120ed2619db493",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d0c2552f561b4dadbe84a24cbd7dc502",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bcbc839267994962a33a8d905488ff78",
+        "navigationGoals": null
+    },
+    "id": "ce7adbb397b1459cb8c321e0c13c5a0b",
+    "navigationGoals": null
+}

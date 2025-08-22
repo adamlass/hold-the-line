@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling HotPads in San Francisco, your premier real estate marketplace for searching millions of apartments and houses.",
+            "fileID": "488356aa415445e695046a472cc2115f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To search for apartments or houses, press 1.",
+                "fileID": "a756a9b55c704288bb769d061c0fdcf8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To search by city, neighborhood, or price range, press 1.",
+                            "fileID": "a27cfcf996484d10897906bb1d7265e3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our search support team.",
+                                        "fileID": "3076060b003243628e6bc523ad8c397c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f054d436ad4e4a02b049a7b36214fd40",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To set up saved searches and alerts, press 2.",
+                            "fileID": "e20fd231f69840eea17613e08efb88b4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our alerts support team.",
+                                        "fileID": "b4f86c7949fd4d8fac074f4711d48680"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "74d5827777f548ad9216882d9ce33cc9",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "735dfa5a57914a5da8ee822b078a2f9c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a landlord or property owner, press 2.",
+                "fileID": "548411cb543c4e22b96af64c5dffb179",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To list a new rental property, press 1.",
+                            "fileID": "0b124bf2902b4e1fa4cc842a8964df86",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our listing specialists.",
+                                        "fileID": "4e4fea6b90374e6488c23a26fd9b192c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2b559a8d3f104260a041dff38a377f5b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To manage or update an existing listing, press 2.",
+                            "fileID": "de3f139e5e4846138f8b11a980e230b8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account management team.",
+                                        "fileID": "e1a1a9fdde5a46eeba8b0ff9e97d44d5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d69f95941c094c66a88362d3ec55ca48",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "64f0d435ebcd4ba78079bff22e692cd5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9f40a31d36284febaf2b8852fd571601",
+        "navigationGoals": null
+    },
+    "id": "1aa5693edf394de49c615de62e3f1380",
+    "navigationGoals": null
+}

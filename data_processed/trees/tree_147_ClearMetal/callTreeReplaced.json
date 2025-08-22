@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling ClearMetal, the San Francisco\u00ad-based AI\u00ad-powered logistics platform offering end-to-end, order-level shipment visibility.",
+            "fileID": "48160c2f1d1a488499b9c9cd2a6965d5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For order status and shipment tracking, press 1.",
+                "fileID": "00b4b9c46aad4643ac69149dd90b1028",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To track a shipment by order number, press 1.",
+                            "fileID": "2bf8af5e3d284fc3a0025db95c38aa89",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your tracking information.",
+                                        "fileID": "61c2eb90ff9d494488ecd8936bfcf54f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "114918386287403eafa4595e5ac5a8bc",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To report a delivery exception or delay, press 2.",
+                            "fileID": "af39a15aa0c9451aba09b03de0a1fba9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One of our logistics specialists will be with you shortly.",
+                                        "fileID": "9093d55156884a269be6bed0cc914d45"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b9327e412aec4d8a9e5916135b1c52a7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "47eec87cb3cb4deb9c19bdae920859dd",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and account services, press 2.",
+                "fileID": "f066e4a9298d4aa9ad627ce5d23c6f07",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team, press 1.",
+                            "fileID": "87dedff10f9648e8b927e8c92541c23b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "a71e1b902a1948dcbfe2a8ee79e43a7a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4d90bb0afc894f2b947d71832b9299f0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To reach technical support, press 2.",
+                            "fileID": "0ad01c6bb5864c698689540a41ac95c2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "3ed806fd37bc4f79bb0029e4a758eb67"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e273f004bc71476ba61aed042948d4d9",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "988e5524b5d24dd1a3de0576a1f30e97",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8abecf99a2044920b26b03ab22400b7e",
+        "navigationGoals": null
+    },
+    "id": "2765c6448cbe4ff38a7df0d2fd761238",
+    "navigationGoals": null
+}

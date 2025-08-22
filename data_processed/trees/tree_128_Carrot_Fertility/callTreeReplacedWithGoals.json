@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Carrot Fertility, your inclusive partner in employee reproductive health benefits.",
+            "fileID": "83203905e6824d269a16d030db838bd3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you\u2019re an employer looking to customize your company\u2019s fertility benefits, press 1.",
+                "fileID": "de1e6699cc654e52afcf900a832ac16d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn more about designing a tailored fertility plan for your workforce, press 1.",
+                            "fileID": "f5f0a239582b4e35b0fb9d94f235a078",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our employer solutions team.",
+                                        "fileID": "8b9c09d0f54b456284015738bf6e7d38"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1c1fd6012d9143b4bd1a562bece92b2e",
+                                "navigationGoals": [
+                                    "I need to customize a fertility benefits plan for my company's employees.",
+                                    "As a veteran business owner, I\u2019d like to design a tailored fertility benefits plan for my employees.",
+                                    "I want to integrate and configure a custom fertility benefits module in our HRIS with Carrot\u2019s employer solutions team.",
+                                    "I need to speak with someone about customizing fertility benefits for my company's workforce.",
+                                    "I\u2019d like to explore customizing fertility benefits for my company\u2019s workforce."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To get information on pricing, enrollment process, and implementation timelines, press 2.",
+                            "fileID": "3f75b9c60f6a43eb82c5d5e0b713979f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. A pricing and enrollment specialist will be with you shortly.",
+                                        "fileID": "1c60bb9952694d96a58aacb34fb4f2bc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "07e360dce00f467ab2c86588575c73c2",
+                                "navigationGoals": [
+                                    "I need pricing and enrollment details, plus an implementation timeline for our fertility benefits.",
+                                    "As a veteran-run company, I need details on pricing, enrollment, and implementation timelines for our fertility benefits.",
+                                    "I need detailed pricing tiers, enrollment workflow specifications, and projected go-live timelines for implementing Carrot Fertility benefits.",
+                                    "I need pricing details and enrollment steps for our company's fertility benefits plan.",
+                                    "I need details on pricing, enrollment procedures, and implementation timelines for our fertility benefits plan."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0636919f17fd49d3a0fddf464e435e75",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you\u2019re an employee seeking support with your fertility benefits, press 2.",
+                "fileID": "b34e0b4de139482ab34b7a4851ab45a6",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a fertility consultation with a care coordinator, press 1.",
+                            "fileID": "10d85b7e1acd4707a781244d01679ad3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to a fertility care coordinator.",
+                                        "fileID": "3ba2e00b118c44a98a5b42117397a6b4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0eb56a7df28944d4b61790bf49e9a83f",
+                                "navigationGoals": [
+                                    "I need to schedule a fertility consultation with a care coordinator.",
+                                    "As an ex-military veteran, I want to book a fertility consultation with a care coordinator.",
+                                    "I\u2019d like to schedule a telehealth fertility consultation with a care coordinator and sync it to my calendar.",
+                                    "I want to set up a fertility consultation appointment with a care coordinator.",
+                                    "I want to schedule a fertility consultation with a care coordinator under my employer\u2019s plan."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For general support, benefits FAQs, or account questions, press 2.",
+                            "fileID": "8a7d73fca96640b3a7d7570e2b1df51d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. A support representative will be with you shortly.",
+                                        "fileID": "70c6a21d2c04479f922be00d4d716a4e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a82a6873b1f941fcabbf9ce83e8152a5",
+                                "navigationGoals": [
+                                    "I need help with general questions about my fertility benefits and my account.",
+                                    "As an ex-service member, I need help understanding my fertility benefits and have general account questions.",
+                                    "I need to troubleshoot my benefits portal access, review my coverage entitlements in the online dashboard, and reset my account credentials.",
+                                    "I need assistance understanding my fertility benefits and have some general account questions.",
+                                    "I need general support with my fertility benefits, like FAQs and account questions."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6d5b770001bb45308af6a127380ccfdb",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "38c51f398d69428896d105e1ddee9d0f",
+        "navigationGoals": null
+    },
+    "id": "4d8234df20cb4955b9468c937ed892a7",
+    "navigationGoals": null
+}

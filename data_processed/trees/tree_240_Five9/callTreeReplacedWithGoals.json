@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Five9 in the East Bay, the leading provider of cloud contact center software for the digital enterprise.",
+            "fileID": "d714eb95617e44fa8c8937bea5c6efba"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support, press 1.",
+                "fileID": "ab78ede7ae8548729c5b4d0339b5a14f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For cloud platform assistance, press 1.",
+                            "fileID": "186a9cc1ab35412fb8a7e4bbedb48ac2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a cloud support specialist.",
+                                        "fileID": "52db48336da1464681a2751e27cef831"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0f4f70c0c9ef43bb83c1386cbc02f7e3",
+                                "navigationGoals": [
+                                    "I need help troubleshooting an error deploying our cloud contact center instance",
+                                    "I\u2019m experiencing frequent call drops on our Five9 cloud platform and need help troubleshooting.",
+                                    "Troubleshoot a REST API authentication failure on my cloud contact center instance",
+                                    "I\u2019m having trouble logging into my cloud account and need someone to walk me through it.",
+                                    "I need help resolving a connectivity issue with the Five9 cloud API in our lab\u2019s data pipeline."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "b0a3db63b9ef4ec5b4d5af47aa48e504",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing team.",
+                                        "fileID": "c4fc43e9cb904a7a98ba6f10ad0a79f5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f5eb0d6ffbe849b495731312f5fcaf3e",
+                                "navigationGoals": [
+                                    "I need to update my payment method and get last month\u2019s invoice",
+                                    "I need to review last month\u2019s invoice and apply the veteran discount I was told about.",
+                                    "Retrieve last month\u2019s usage metrics and detailed invoice from my billing dashboard",
+                                    "I don\u2019t understand some charges on my bill and need help correcting my account billing.",
+                                    "I have questions about our account billing and student discount eligibility for our research group."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ca3ffb3b6ba9476faa82e0419d1dc7b1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and product information, press 2.",
+                "fileID": "e554e82aeb9b4dc39dbdaadf154fd815",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our cloud contact center solutions, press 1.",
+                            "fileID": "83be62b438a14763a3c49645c9c7bd7e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our sales team.",
+                                        "fileID": "86c954a234354c688ca41dd56f22b181"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64f8e7334eff49749da3005c0bf0b2c2",
+                                "navigationGoals": [
+                                    "I\u2019d like to review your cloud contact center pricing and feature options",
+                                    "I\u2019m evaluating your cloud contact center features for a veteran outreach center and need product details and pricing.",
+                                    "Compare feature tiers and pricing for your cloud contact center solution",
+                                    "I\u2019d like to learn about your cloud contact center packages and their pricing.",
+                                    "I\u2019d like information and a demo of Five9\u2019s cloud contact center for our department\u2019s outreach needs."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For enterprise partnership and integration inquiries, press 2.",
+                            "fileID": "cc333a792e424958891feb7eea3dc550",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our partnerships team.",
+                                        "fileID": "0991bea2a0bd49d3a3fed0bbb40a2915"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aa903a58340942bda2d7104cec92602e",
+                                "navigationGoals": [
+                                    "I want to discuss an enterprise integration partnership and API access",
+                                    "I want to discuss integrating Five9 with our existing mission-critical CRM at our veteran support nonprofit.",
+                                    "Get specifications on SSO integration and partner SDK options for enterprise deployment",
+                                    "I\u2019m interested in partnering with Five9 and need guidance on integrating your service with our system.",
+                                    "I want to explore an enterprise partnership to integrate Five9 with our university\u2019s CRM system."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "710da8f0496041799bcc3cfa9eea8039",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a7413ba7014d4c82b55091656123dbb7",
+        "navigationGoals": null
+    },
+    "id": "7d7294aaa2dc4a2da0dd0c507ade27c0",
+    "navigationGoals": null
+}

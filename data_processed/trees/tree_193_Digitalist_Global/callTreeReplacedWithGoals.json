@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Digitalist Global in San Francisco, where we co-create innovative marketing solutions with our clients.",
+            "fileID": "9b2512ee001d4b89a57b329787b44c1f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To explore our portfolio and recent client collaborations, press 1.",
+                "fileID": "40b2ed3aa4874c5194364956c35e6901",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For digital marketing campaigns and online strategies, press 1.",
+                            "fileID": "be24527bbe4a477182d172821e4b5076",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our digital marketing showcase.",
+                                        "fileID": "6c56eb6b06124d30ba1605973bdd8cb5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "614bf858a6db4eb4b3ef60e75e9b10c4",
+                                "navigationGoals": [
+                                    "Quickly view Digitalist\u2019s recent digital marketing campaign case studies.",
+                                    "I want to see examples of online marketing strategies for my veteran-owned small business.",
+                                    "I\u2019d like to deep-dive into your programmatic advertising and cross-channel retargeting strategies.",
+                                    "I\u2019m calling because I\u2019d like to review your digital marketing campaigns.",
+                                    "I\u2019d like to review their digital marketing campaign case studies for research outreach."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For creative design projects and branding case studies, press 2.",
+                            "fileID": "7fb297df92af441694b9e87a508af7f9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our creative design team.",
+                                        "fileID": "979836d13be94ce49ff0b72289df7963"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2096245b7df948c58205b23b6b0c72c5",
+                                "navigationGoals": [
+                                    "Browse their latest creative design and branding examples.",
+                                    "I'd like to review creative branding case studies to refresh my nonprofit\u2019s identity.",
+                                    "I\u2019d like to analyze your UX/UI design systems and branding guidelines from recent case studies.",
+                                    "I\u2019d like to see examples of your creative design and branding projects.",
+                                    "I want to explore their creative design portfolio to guide my poster and branding."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c7dfe09100184fcda74c1f149da09247",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To speak with our marketing experts and discuss your next project, press 2.",
+                "fileID": "66ecd0a869304d7dbd702b19b343ae9f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a new partnership or collaboration, press 1.",
+                            "fileID": "a924b7f52b8446f2a1476643236724e5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships director.",
+                                        "fileID": "ff5ee91ae84d421fb0b86715eecf5668"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "158f92d3f26c43a99e45b46709244597",
+                                "navigationGoals": [
+                                    "Connect with the partnerships director to discuss a new collaboration.",
+                                    "I need to discuss setting up a collaboration for a veteran outreach campaign.",
+                                    "I want to explore a strategic API integration partnership between our SaaS platform and your marketing services.",
+                                    "I want to speak about forming a new partnership.",
+                                    "I\u2019m looking to propose a collaboration on a student-led physics outreach project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a consultation with an account manager, press 2.",
+                            "fileID": "d6da0be240ea47e1a7f60c04a1bcc3ef",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account manager.",
+                                        "fileID": "acec666355274dc3a09b85f83e52d1c6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "36113aeaa0e6488ba85cdb8290129a2d",
+                                "navigationGoals": [
+                                    "Schedule a consultation with an account manager for my upcoming project.",
+                                    "I\u2019d like to schedule a consultation with an account manager about our marketing needs.",
+                                    "I need to schedule a scoping session to align on project requirements, deliverables, and KPIs.",
+                                    "I\u2019d like to schedule a consultation with an account manager.",
+                                    "I need to schedule a consultation to plan marketing for my upcoming research seminar series."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "763f7da90d354f9886140d74b4dc3f9d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a22f1f1c531443cc9c47d3779a582086",
+        "navigationGoals": null
+    },
+    "id": "2baef2375fde4453842d8dbb8c18ce6a",
+    "navigationGoals": null
+}

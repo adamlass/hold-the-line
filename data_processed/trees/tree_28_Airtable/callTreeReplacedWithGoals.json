@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Airtable in San Francisco, where part spreadsheet, part database, and entirely flexible solutions empower your team.",
+            "fileID": "76944c6f89ae4f8eb9978877e8b5c871"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support, press 1.",
+                "fileID": "e33f03a675c940e08a6ea2b45e0017b2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To ask questions about Airtable features and functionality, press 1.",
+                            "fileID": "5ef826eb161344debe8f6bdc9901b5b7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a product specialist from our support team.",
+                                        "fileID": "7d02f6ed37a84e71865e3e3d7ac1cdd8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "784f3267b0284f75bba66eda75a443aa",
+                                "navigationGoals": [
+                                    "Quickly learn how to set up Airtable automations",
+                                    "I need help setting up custom fields and filters in Airtable for my veteran outreach database.",
+                                    "I need guidance on configuring complex rollup fields and automating multi-table workflows in my Airtable base.",
+                                    "I need help learning how to sort my contact list alphabetically in my Airtable base.",
+                                    "I need help setting up custom formulas to calculate experimental uncertainties in my Airtable base."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "If you need to report an outage or a service incident, press 2.",
+                            "fileID": "014496b96a554956b9c915d3c709cfcd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our incident response team.",
+                                        "fileID": "2355285524e744e7bb0470e728b8d46a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4ecd19132ab344cca4130a06f3006555",
+                                "navigationGoals": [
+                                    "Report a service outage affecting my Airtable base",
+                                    "I want to report that I can\u2019t access my base right now and need to know when the service will be restored.",
+                                    "I\u2019m encountering a service outage\u2014my API calls are failing with 503 errors and bases aren\u2019t syncing.",
+                                    "My Airtable workspace won\u2019t load; I think there\u2019s an outage, could you check?",
+                                    "I want to report that I can\u2019t access my lab scheduling base due to a suspected service outage."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ec7190f5d13e4fe487ca569201aecd04",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and account management, press 2.",
+                "fileID": "b16a29b2bdc143e8bcda1d9df511f5e4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new subscriptions or pricing information, press 1.",
+                            "fileID": "3d97098e49a046cfa6a75b6a3771313d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales representative.",
+                                        "fileID": "f6ca2f03dd5448edab075feecd200daf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d63d2f4d2a924222b024e1f0a08c7e3e",
+                                "navigationGoals": [
+                                    "Get pricing details for upgrading my Airtable plan",
+                                    "I\u2019m looking for subscription pricing options for our nonprofit veteran support group.",
+                                    "I want to upgrade to the Pro plan for higher API rate limits and advanced automation credits; please send pricing options.",
+                                    "I\u2019d like pricing details for a new Airtable subscription with advanced features.",
+                                    "I\u2019d like pricing details and student discount options for an academic team subscription."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries or to manage your account, press 2.",
+                            "fileID": "ab4c31149ab142939161eda246a6678c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with billing and account support.",
+                                        "fileID": "f8ab265c26c9408db47f73089cfb75d7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f18289c84f3c4603af96e5f92b40e0c9",
+                                "navigationGoals": [
+                                    "Resolve a billing discrepancy and update my payment information",
+                                    "I need to update my billing info and review my last invoices for the Airtable account.",
+                                    "I need to update the credit card on file and get a breakdown of last month\u2019s billing charges.",
+                                    "I want to update my payment method and check my latest billing statement.",
+                                    "I need to update my payment method and obtain my latest invoice for grant expense reporting."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a177ac9816e8450a9cea0d3c66832e59",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6f37911a88114d77941ef8debbd5800a",
+        "navigationGoals": null
+    },
+    "id": "7de6d691b64240d1bc1fc33149bcccc1",
+    "navigationGoals": null
+}

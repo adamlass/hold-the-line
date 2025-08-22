@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Lever in San Francisco, where we streamline your hiring process so you can focus on what truly matters: your candidates.",
+            "fileID": "bc958e48fd014f0f9ad9134ae6cd4e41"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "a4dd70d3c3714663812e24a43ae75519",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a demo of Lever's applicant tracking system, press 1.",
+                            "fileID": "bbde315e76c04097bbd3f85f81f3b5f8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for your demonstration.",
+                                        "fileID": "0b4595cdab134a5ab798f5ab066b0ff1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "92e9340bb80945a7913d8e4186e586a0",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a demo of Lever\u2019s applicant tracking system.",
+                                    "I\u2019d like to schedule a demo to see how Lever can help my team streamline veteran hiring.",
+                                    "Schedule a demo of Lever\u2019s ATS to evaluate its feature set.",
+                                    "I\u2019d like to schedule a simple demonstration of your hiring software.",
+                                    "Arrange a demonstration of Lever's applicant tracking system for my lab's recruitment needs."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing and licensing information, press 2.",
+                            "fileID": "8a1666435ad34397a2048697f88431bd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our sales specialists for pricing.",
+                                        "fileID": "081fdd574d21471db7fd2ee3da176e3e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d9a152f041a74c15ba3510d6a9845025",
+                                "navigationGoals": [
+                                    "I need detailed pricing and licensing information for Lever.",
+                                    "I need detailed pricing and licensing information for Lever to plan our budget.",
+                                    "Get detailed pricing tiers and licensing options for Lever.",
+                                    "I need to find out how much your service costs and what plans are available.",
+                                    "Obtain detailed pricing and licensing plans for Lever's hiring software."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5c435f62f69c406290e16a2dd2ecf0a4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "61afc455d1634de5bb9538e84218c82b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with your current Lever account, press 1.",
+                            "fileID": "35225a623b744941ac5cabec45a4b4ad",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a support agent familiar with your account.",
+                                        "fileID": "c7153f9db2bd46d0ad1af12e08cd01f8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6ecd5523a0c943cf883a89ddaa832f30",
+                                "navigationGoals": [
+                                    "I need help with my existing Lever account settings.",
+                                    "I\u2019m having trouble accessing my Lever account and need assistance logging in.",
+                                    "Troubleshoot and configure my existing Lever account settings.",
+                                    "I need help logging into my Lever account and checking my settings.",
+                                    "Seek assistance resolving an issue with my existing Lever user account."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For integration and API support, press 2.",
+                            "fileID": "ef59d6bc2f694692ac040b88d4438454",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we are transferring you to our integration support team.",
+                                        "fileID": "02bd7c0f67c24a1fa530556d26e02cf2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "270e0c18e5ac4c8287e4e5c1db3d673f",
+                                "navigationGoals": [
+                                    "I need support integrating Lever with our system via API.",
+                                    "I want to talk to someone about setting up an API integration between Lever and our veteran jobs portal.",
+                                    "Obtain API integration support for connecting Lever to our HRIS.",
+                                    "I want assistance connecting Lever to my other HR systems.",
+                                    "Request guidance on integrating Lever's API with our department's hiring platform."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4515283a841b4535a8fdfc0c7a8da995",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a0012a4f4e9b4b8c9dfcd1e8bdffc3e8",
+        "navigationGoals": null
+    },
+    "id": "bb2fc7bd22144bc6973d1eb584dc4279",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Robert Half San Francisco, connecting top talent and leading employers across finance, law, technology and more.",
+            "fileID": "a49e12eaabd04d7691578aeff01adc57"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For job seekers looking to start or advance your career, press 1.",
+                "fileID": "b2f78d15d840431f97050ca08753a120",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore temporary, contract, or full-time job opportunities, press 1.",
+                            "fileID": "9ead8daec3fc4735ac86f5cc6f56388a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a job placement specialist.",
+                                        "fileID": "0d7e7085513f4aad83a9b5ae5c585e40"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5f6ad2c355934864b800e31b1a94e1cc",
+                                "navigationGoals": [
+                                    "Connect me to a specialist who can quickly help me find temporary or contract finance roles in San Francisco.",
+                                    "I\u2019d like to explore temporary, contract, or full-time tech roles geared toward veterans.",
+                                    "Connect me to a placement specialist to discuss contract or full-time software engineer positions.",
+                                    "I\u2019m a senior looking for full- or part-time finance work and would appreciate help finding opportunities.",
+                                    "I want to explore contract or full-time data analysis roles where my physics background is valued."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak directly with a staffing professional, press 2.",
+                            "fileID": "c21e554730d544ed9b8393d6188b43a4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a staffing consultant.",
+                                        "fileID": "0c4f667beb6c401d927e7d3c7b7565ae"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "50e0026ac0f14fb0a405d48c0d3b55f6",
+                                "navigationGoals": [
+                                    "Put me through to a staffing professional so I can discuss full-time technology opportunities right away.",
+                                    "I want to speak directly with a staffing consultant about transitioning from the military into a civilian career.",
+                                    "Speak with a staffing consultant for resume optimization and interview prep for a DevOps engineer role.",
+                                    "I\u2019m an older job seeker and need to speak with a staffing consultant about available positions.",
+                                    "I need to speak with a staffing consultant about positioning my physics degree for internships in finance or tech."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7455800cbc5145fa9248d032bd78404e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an employer seeking skilled professionals, press 2.",
+                "fileID": "fc713f4061a449069adce646480604a7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To post a new position or discuss hiring solutions, press 1.",
+                            "fileID": "938588ac2cc742739a182feba37e9ee7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an employer services expert.",
+                                        "fileID": "4391318c2341420482ba9b34cab89a1a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4d43034c0fb84b3ba1e3614c17ca08bc",
+                                "navigationGoals": [
+                                    "I need to post a new position for our legal team and review your hiring solutions.",
+                                    "I\u2019m a veteran entrepreneur and need to post a new job opening and discuss hiring solutions.",
+                                    "Post a new backend developer requisition and evaluate recruitment solutions.",
+                                    "I\u2019m an older business owner needing to post a new job opening and would appreciate assistance.",
+                                    "I\u2019d like to post a new listing for a student lab assistant position in my physics research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To follow up on an existing job order, press 2.",
+                            "fileID": "4c83b88be2ce48e497034d948765530f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your job order details.",
+                                        "fileID": "349b704091234a71973788665835e8f4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "210a153d4dc641658cb24e242b13390d",
+                                "navigationGoals": [
+                                    "I want to check the status of my existing job order for an accounting role.",
+                                    "I\u2019m calling to follow up on a job order I submitted for staffing my veteran-owned business.",
+                                    "Follow up on the status of my open cybersecurity engineer job order.",
+                                    "I\u2019m an elderly employer checking on a job order I placed earlier and need to know its status.",
+                                    "I need to follow up on the status of the job order I submitted for hiring an undergraduate researcher."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c2295a366e124e6687076fe80fdc9c03",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "75802725d0b241df87da5b218e1b4a94",
+        "navigationGoals": null
+    },
+    "id": "eb0d9b465f6c436b8c16e28fab1c33ae",
+    "navigationGoals": null
+}

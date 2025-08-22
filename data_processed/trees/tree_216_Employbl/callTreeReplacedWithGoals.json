@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Employbl, your East Bay source for Bay Area talent with a simple monthly subscription and no hiring fees.",
+            "fileID": "748f4ca61e454b2c9bb9ac95fc143ed5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an employer looking to discover active candidates in the Bay Area, press 1.",
+                "fileID": "4711406e8d1f4794b4eb58f344a5b6bd",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To connect with a recruiter and discuss your hiring needs, press 1.",
+                            "fileID": "3605f0f079e04f68b11d22b446a638b5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruiter.",
+                                        "fileID": "c446f91f99c84954af9d073135c1bcd7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "67bd5dfa5a8d4058adb592fd1051535e",
+                                "navigationGoals": [
+                                    "I want to speak with a recruiter about finding Bay Area candidates.",
+                                    "I\u2019d like to speak with a recruiter to discuss hiring Bay Area talent for my veteran-owned business.",
+                                    "I want to connect with a recruiter to architect our Bay Area talent acquisition strategy.",
+                                    "I need to speak with a recruiter about finding candidates for my business.",
+                                    "I\u2019m looking to speak with a recruiter about sourcing Bay Area candidates for my research assistant positions."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn more about our straightforward monthly pricing, press 2.",
+                            "fileID": "c016a5e3e3054c6b8bd30286b899e170",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve pricing information.",
+                                        "fileID": "2426594128e645248501471653f95ce0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8457e47a0097417799ff7f4ba873989a",
+                                "navigationGoals": [
+                                    "I need details on your monthly subscription pricing.",
+                                    "I need a clear breakdown of your monthly subscription pricing for the service.",
+                                    "I need a detailed breakdown of your monthly subscription tiers and pricing structure.",
+                                    "I\u2019d like to understand your monthly subscription fees for your hiring service.",
+                                    "I\u2019d like detailed information on your monthly subscription pricing for posting job openings."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b1ea69c8899a4821bffbeac844013f90",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you already subscribe and need billing or support assistance, press 2.",
+                "fileID": "c0f49edac6664ca988531a2a9de0f717",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing inquiries and payment support, press 1.",
+                            "fileID": "b42481d000e64687a4ad0cceb0288de4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to billing.",
+                                        "fileID": "f41298746209479f893df5bc6aac65ef"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a702b180b1d2466c9a4d5b1010ab2b07",
+                                "navigationGoals": [
+                                    "I need help resolving a billing issue with my subscription.",
+                                    "I want help resolving a billing charge on my active subscription.",
+                                    "I need billing support to audit my latest invoice line items and update my payment method.",
+                                    "I have a question about a charge on my bill and need billing assistance.",
+                                    "I need assistance resolving a billing discrepancy on my current subscription."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical assistance or account support, press 2.",
+                            "fileID": "1f244bbd076748b8bccc67fad43176e6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to support.",
+                                        "fileID": "a72a1603feba4cd8b442f3e15a42d365"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "33260849dc5740cc831c765ee495f799",
+                                "navigationGoals": [
+                                    "I need technical support to access my account.",
+                                    "I\u2019m having trouble with my account access and need technical support.",
+                                    "I need technical support to debug our API integration, renew our access token, and configure webhooks.",
+                                    "I\u2019m having trouble accessing my account and need technical support.",
+                                    "I require technical support to access my Employbl account and manage my listings."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2f789188ca1f448e83c239ded6831084",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "cb4445fb22a44da6892b538b8203ab53",
+        "navigationGoals": null
+    },
+    "id": "1d3985047b044c89b2f1a24bab2cb405",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Gusto, where we help you tame the chaos of payroll, benefits, and HR.",
+            "fileID": "f5bb3ef45bc64da7b2ffe47929cd7f2e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For payroll inquiries, press 1.",
+                "fileID": "a34561e0444c4a1d974d184c30a0fa28",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new payroll setup, press 1.",
+                            "fileID": "dbcf3e7800294f01adaf7a24d1e8d58e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our new payroll setup specialists.",
+                                        "fileID": "21ddedf14ff244e98baa20f7142453d9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d7801e4e983e448a970cb61ef84e4c7b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For ongoing payroll support, press 2.",
+                            "fileID": "1f3f535f101e425cb3c9aa7c9311817b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a payroll support representative.",
+                                        "fileID": "26dc51f503694b598d1ed85123c3b20f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "94dcd0686ff04dfa950d5d2d00393c35",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e7e62bb0feab4ac3a6e89c212e4cf54f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For benefits and insurance support, press 2.",
+                "fileID": "27665169f24d48d98efd794e1972c333",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For benefits enrollment, press 1.",
+                            "fileID": "9b7ff72e0fcd4c71ba3a255c0863f57d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our benefits enrollment team.",
+                                        "fileID": "7844b9ecc96c4ddb90adb57f96e648f4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "14639567b24e4664b37bd2fb17e3dc10",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For benefits support, press 2.",
+                            "fileID": "2fc8c6f2d95345ac9247ef067cb314a0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a benefits support specialist.",
+                                        "fileID": "e65905dbfdcf4b23861e94b3297aad58"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bb4e182b48c848e69cdd02d53b996fbc",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "012738283c3f4c489ca45e814a51eb10",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6a40aecdfe1a4be6b7556333592e685b",
+        "navigationGoals": null
+    },
+    "id": "aaed3fc742644cc4bdbdf163bc4b19db",
+    "navigationGoals": null
+}

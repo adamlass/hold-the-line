@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Kyokan, your East Bay blockchain development and financial services agency making blockchain accessible to everyone on Earth.",
+            "fileID": "518532eae7244bf1ad4fd116090e12f4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales or partnership inquiries, press 1.",
+                "fileID": "b56fa1fc3b9342b7bfdfc3aeb006b1ee",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss a new development project, press 1.",
+                            "fileID": "3bf1b61e0f054c5f891831fbb28aea63",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our project consultation team.",
+                                        "fileID": "ec1c0f60c9eb4aba8ac9e3077f0226f3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7eaa2dc3972b4ed6a2e70815b9837a4b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To inquire about partnership opportunities, press 2.",
+                            "fileID": "eb9a1f4a11744350a230f75895c860f2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnership team.",
+                                        "fileID": "f1586668f7bd4813b097f5c0b2f7f4a1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e5ea7e6f269c44898737d2d4390eaef9",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1292f09bb52040938943a01db1137e71",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For developer support and technical assistance, press 2.",
+                "fileID": "39cd58738f3a4a3b903cda5c563b0b1a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need API integration help, press 1.",
+                            "fileID": "d84054322c784f4ba5ddded94c50bc2e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our API support engineers.",
+                                        "fileID": "ab3bc05e6d16422c830f05355aa3bbb8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "304f5b2a1bea4cbcaa2b2af147205d9b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For blockchain security and compliance questions, press 2.",
+                            "fileID": "52d49d9b83c945d498e891c13a02a621",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our security and compliance specialists.",
+                                        "fileID": "fd4adce1128e4b488fffb57be7742ab0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "db2c83e31a55437cb2f5528ad9e9067a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "66a69b4fcea7495480311d4a6f76ff84",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "00d337fc37e340d9931c8edc8181c9af",
+        "navigationGoals": null
+    },
+    "id": "5ec2789e5da04d278afa2cfe42be8d35",
+    "navigationGoals": null
+}

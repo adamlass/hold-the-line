@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Lattice, based in San Francisco, your partner to align, engage, and grow your employees.",
+            "fileID": "182b7ec181e248b79d0e1c29e54f8e6e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "19a34bae739344efa8e8c7aa39268039",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a live product demo, press 1.",
+                            "fileID": "133004571aaf4e72b37fff7eaea36ceb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for choosing Lattice. Please hold while we connect you to our sales team for a live demo.",
+                                        "fileID": "8c6997460f8447238d5e5a1688144f9a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a04b53dec3b045489519b92fc3cf482e",
+                                "navigationGoals": [
+                                    "I want to schedule a live demo of Lattice today.",
+                                    "I'd like to schedule a live demo to see how Lattice can help me manage my team's performance in my new civilian role.",
+                                    "I\u2019d like to schedule a live product demo to explore Lattice\u2019s API integration and real-time analytics features.",
+                                    "I\u2019d like to arrange a live demonstration to see how Lattice works",
+                                    "I\u2019d like to schedule a live demo of Lattice\u2019s engagement and performance modules to evaluate them for my research team\u2019s workflows."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing and licensing inquiries, press 2.",
+                            "fileID": "a1e6daf0866a48c1b04e33e3f6b7f5d1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "We appreciate your interest in our pricing options. Please hold while we connect you to a sales representative.",
+                                        "fileID": "83ef360e579e4c5daca8d15975d45952"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "daa8a949b35349248327d8c2c08cffab",
+                                "navigationGoals": [
+                                    "I need to review Lattice's pricing plans and licensing options.",
+                                    "I need a quote on Lattice pricing and licensing for my small veteran-run nonprofit.",
+                                    "I need a detailed breakdown of Lattice\u2019s per-user licensing tiers and any volume discount structures.",
+                                    "I need to know Lattice\u2019s pricing and available license options",
+                                    "I need detailed pricing and academic licensing information for using Lattice in my physics department\u2019s pilot program."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "daadb6b1085b4eb7b6f46e19a63e283f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, press 2.",
+                "fileID": "57f20f2487934ba697d480e8b0538915",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "08ae4b4d2683428997dc685b6584cc2d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our technical support team will be with you shortly. Please hold the line.",
+                                        "fileID": "11344ef71f39472da692cc36eedadd17"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2e84ec421611454b8320f32ad09228be",
+                                "navigationGoals": [
+                                    "I need help troubleshooting a technical error in my account.",
+                                    "I'm having trouble logging into my Lattice account and need technical assistance.",
+                                    "Help me troubleshoot an OAuth token failure when calling Lattice\u2019s employee engagement API endpoints.",
+                                    "I\u2019m having trouble with the software and need technical help",
+                                    "I\u2019m encountering an integration error with the Lattice API and require technical support to troubleshoot."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account and billing questions, press 2.",
+                            "fileID": "9445d4c9dfa149cd9c4efd3e34c64175",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our account management team.",
+                                        "fileID": "cf6bf530030d430fbd64e891d0a7d82e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2abfaa23111240baa9c0f731a9067eae",
+                                "navigationGoals": [
+                                    "I need clarification on a recent billing invoice.",
+                                    "I want to update my billing information and review my latest invoice.",
+                                    "Investigate and correct an overcharge on my Lattice subscription invoice for last billing cycle.",
+                                    "I have questions about my account billing and charges",
+                                    "I need assistance reviewing and updating my account\u2019s billing details, specifically my current subscription invoice."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2b89e3f78c1a4e25bcfd2dd39a1b8b6a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "993bdd11ae144fdba896d88f6e25c78f",
+        "navigationGoals": null
+    },
+    "id": "c84cc3bf8b0144eab3fe7ec67e103836",
+    "navigationGoals": null
+}

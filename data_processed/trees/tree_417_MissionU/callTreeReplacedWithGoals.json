@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to MissionU in San Francisco, where we equip you with the skills and experience needed to launch a successful career.",
+            "fileID": "6316fafdd51a4de7b9d184f7ef6b7627"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For admissions and enrollment information, press 1.",
+                "fileID": "57b101684e4c468ebd8eb5582088124c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For questions about tuition and financing, press 1.",
+                            "fileID": "cd6c8187771647ac9f97b48a2e32ea5f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our financial aid advisor.",
+                                        "fileID": "6ca851aeb2874cfd880d850f706e789d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3d8b8c41edf5489ba6a122e3c90096c1",
+                                "navigationGoals": [
+                                    "Review available financial aid and tuition payment plans.",
+                                    "I need to understand my tuition costs and financing options, including how my GI Bill applies.",
+                                    "I need a breakdown of the tuition cost structure and financing options, including interest rates, repayment schedules, and ROI projections.",
+                                    "I need help understanding tuition payment options and financial aid.",
+                                    "I want to discuss tuition payment options and available financial aid."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For application status and deadlines, press 2.",
+                            "fileID": "a8b03f646c9545a089bab1157b874725",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our admissions team.",
+                                        "fileID": "c83d99b1e3fe4ccd89b8165f29241e64"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "374de577c4104f2aa4f9649d22588214",
+                                "navigationGoals": [
+                                    "Check my application status and upcoming deadlines.",
+                                    "I want to check the status of my application and confirm the deadlines I need to meet.",
+                                    "I want to verify my application status and confirm upcoming deadlines, including any missing documentation requirements.",
+                                    "I want to check on my application status and upcoming deadlines.",
+                                    "I\u2019d like to check my application status and confirm the upcoming deadlines."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6950cfac278949b4b1547f6ae4e92f01",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For curriculum details and career support services, press 2.",
+                "fileID": "a546e0c96b1b4c82a5825dbd6e8e868b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For an overview of our one-year curriculum, press 1.",
+                            "fileID": "d1e2b1d83d114e09b0574e83c3f4166f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our program specialists.",
+                                        "fileID": "7c9e2d492d6a48f7bf44dca4f4273d97"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fb56fb701e794549b6db9ad975768b8a",
+                                "navigationGoals": [
+                                    "Get a concise overview of the one-year curriculum.",
+                                    "I\u2019d like an overview of the one-year curriculum and how it supports career transition for veterans.",
+                                    "I'm looking for the detailed syllabus outline, course modules, credit allocation, and competency assessments for your one-year curriculum.",
+                                    "Could someone explain the one-year curriculum details to me?",
+                                    "I\u2019m seeking an outline of the one-year curriculum structure and core modules."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For information on employer partnerships and job placement, press 2.",
+                            "fileID": "14ca7fdd57554e748ebb703c9508dedd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our career services team.",
+                                        "fileID": "e4468c1175eb4526872cfca327a1b391"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f1d08dd2ea094990b1464d08f7dc4343",
+                                "navigationGoals": [
+                                    "Find out employer partnerships and job placement support.",
+                                    "I\u2019m interested in learning about employer partnerships and job placement assistance available to graduates.",
+                                    "I\u2019d like to review your employer partnership network, placement metrics, hiring pipeline integration, and average time-to-hire data.",
+                                    "I\u2019d like information on job placement support and employer partnerships.",
+                                    "I want information on career services, including employer partnerships and job placement support."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "048313a9a5384775ba3f1b89fcee4c36",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a8b338ef84e34743b39772a008f63e3a",
+        "navigationGoals": null
+    },
+    "id": "1fea1fdd271148fd97ec6a2a97ba52b8",
+    "navigationGoals": null
+}

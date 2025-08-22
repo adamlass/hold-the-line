@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Wikia in San Francisco, the ultimate fan media hub.",
+            "fileID": "b02fb87a52414cb49fb15c3cfb398c40"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For fan community support, press 1.",
+                "fileID": "27a388cc7cf04e729e2193b934dc421d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To report content issues, press 1.",
+                            "fileID": "1b723237a1c7429088a153e895b9aaa5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a community specialist.",
+                                        "fileID": "87a2c18811834fb08c33926364ea5355"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c5a61913508f492ab956988eb7afdfbb",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical assistance with our site, press 2.",
+                            "fileID": "4bebb16133724e6794e72614a847d4eb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "392a2546de8640789e7d0138d81a5b59"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a70b9f7841e14c4d97d2c95749e35d51",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b7ed165a05584aadac6c400fac905e75",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For advertising and partnership inquiries, press 2.",
+                "fileID": "e17e4a6b56ae484382f1750a43d7cffc",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request our media kit, press 1.",
+                            "fileID": "d8fd006a1d9d403bb5195e4a34f2f93b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we prepare your media kit information.",
+                                        "fileID": "b05c5780ec2c452191d2246a29cc967c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4668e63860484e98a5495c7b9ef5f7c0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To discuss brand collaborations, press 2.",
+                            "fileID": "b3c80e775add4160bbe5547a452573a2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships department.",
+                                        "fileID": "f751cb5f4296428bb5a46cde83cee53d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "305e8cce90de4dea96f68556b9d33c7c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bf7c2a61d6314514b35dbf59710c987a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "abfb32a8ae154fee8f98b7d87980ae5b",
+        "navigationGoals": null
+    },
+    "id": "4ecbec30e7674e7fbcabe421e8a41639",
+    "navigationGoals": null
+}

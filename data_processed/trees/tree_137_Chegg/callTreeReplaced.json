@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Chegg South Bay, your destination for step-by-step textbook solutions, instant online tutoring, and up to ninety percent savings on rentals.",
+            "fileID": "d40c7f05a2e04d99ba959c3f3cd4dc0f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For textbook solutions and rental inquiries, press 1.",
+                "fileID": "1957c3692e8343f18eb79406e8dc18d1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To rent or buy textbooks at up to ninety percent off, press 1.",
+                            "fileID": "2a78c8190b1d47bea33cd39aa7ed5800",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer your call to our textbook rentals department.",
+                                        "fileID": "03c5a9374251460abb9a1ce2cee30df6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "786b0491c8c542cb99843f11ba1b0376",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For step-by-step textbook solutions and homework help, press 2.",
+                            "fileID": "2a298384b3864e1f9d64db9940e6227d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer your call to our textbook solutions team.",
+                                        "fileID": "d6d8029ec66d4003b128138c6a3ca3c5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d0aa9687e2cb4a649d80b9531e11565f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8206bf1d31644fb0afc337d99c6fc569",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To connect with an online tutor or learn about our tutoring services, press 2.",
+                "fileID": "487989c494b04902b95b878177fb58b9",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with an online tutor now, press 1.",
+                            "fileID": "a07f8d4db39943729640ff3e6b23ab31",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an available tutor.",
+                                        "fileID": "b54fee081ff64ac0acbccd56f0cfd514"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f39cd70557c04deea9788f5175bd3e01",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For information on tutoring packages and pricing, press 2.",
+                            "fileID": "f0c72eb2458f41e6ad06dc0faeda030b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer your call to our tutoring services specialist.",
+                                        "fileID": "cfc463b0197345d2bba288d26e9b6cd7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1a95808ae19441a3878e927f33659a8c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "29a659a7dca74e69b82d207fe9698a46",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b8891ff1ea6a481a9071d29880fd1bff",
+        "navigationGoals": null
+    },
+    "id": "d5b95faade114dbab2853d928ea7a1df",
+    "navigationGoals": null
+}

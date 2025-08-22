@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Eventbrite in San Francisco, where you can find your next experience.",
+            "fileID": "ab7b49a42586426a9044af680eae770d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For ticket purchases and order inquiries, press 1.",
+                "fileID": "50d0fc7c3c44467cb3e43c0d71d27458",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check the status of an existing order, press 1.",
+                            "fileID": "7fc7a805fb8b420db5a6bbcd5eb45294",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an order support specialist.",
+                                        "fileID": "5ac308354d3d4a53908c6335c5047893"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2c34363b2cd44cfebc1345a13478daa6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To buy new tickets for upcoming experiences, press 2.",
+                            "fileID": "ec1d7b0b83624f7c8e3d685a0187eafb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we direct you to our ticketing service.",
+                                        "fileID": "0696c521e0de4e9f8fecea9681e0e00c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "966af09fa98b4a72b9bbf3a5d29f6fb6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a84ff9dd51e94e5fbf191cbda9760432",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To plan, create, or manage your event on our platform, press 2.",
+                "fileID": "5f2a1bf3d0d1407f96de0ee76bba4de2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To create a new event and start selling tickets, press 1.",
+                            "fileID": "d702110918ca4678ad175535df525e08",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our event creation team.",
+                                        "fileID": "fdd71eba087940769073820167db814b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "632a10ddeb2d444681f1770c70ed2fe9",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To manage or update an existing event, press 2.",
+                            "fileID": "c97cb47ad21c454095c668cea272b748",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to event management support.",
+                                        "fileID": "9788e48d01684a2387818b3721b63d34"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6633ef0320254f93ad089ae31b7e9965",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1dbee10fbe504157bed05d3c14cbf23c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "01ee638c6e1a4a60ab7722f8492da5f4",
+        "navigationGoals": null
+    },
+    "id": "5eb0b60b93bb4978b0b43b1b6a1ca57e",
+    "navigationGoals": null
+}

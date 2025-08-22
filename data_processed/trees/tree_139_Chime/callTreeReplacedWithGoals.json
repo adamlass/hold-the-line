@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Chime, the fastest growing challenger bank committed to helping you achieve financial peace of mind.",
+            "fileID": "f4c3dbde10904050a3d7ca1edc95590a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for account services, including balance inquiries and transfers.",
+                "fileID": "c61a1f8a4ed34933b9619b95e451db19",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to check your balance and view recent transactions.",
+                            "fileID": "c3c97682e32148d6b2d9348d2f386e5a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for the next available account specialist.",
+                                        "fileID": "2dda603ef89f4d4283081bd332383302"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "997c5fbd62c8439ebfaa58600e2a52bc",
+                                "navigationGoals": [
+                                    "I need to quickly check my account balance and recent transactions.",
+                                    "I need to check my account balance and recent transactions to verify my VA benefit deposit.",
+                                    "I need to retrieve my account balance and recent transaction history for reconciliation.",
+                                    "I need help viewing my balance and recent transactions.",
+                                    "Check my account balance and view recent transactions to confirm my lab stipend deposit."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to make mobile check deposits or transfer funds.",
+                            "fileID": "75f1029e8b3c4a2fbb99414aa5489ccb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our mobile deposits team.",
+                                        "fileID": "6d43cb8fedb74827ba2e0a95a6d904f6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "692dd5f7185a43e5b593064848121c75",
+                                "navigationGoals": [
+                                    "I want to deposit a check using the mobile deposit feature.",
+                                    "I want to deposit a check and transfer some funds into my savings.",
+                                    "I want to perform a remote deposit capture of a physical check via the mobile app.",
+                                    "I need help depositing a check with my phone.",
+                                    "Deposit my scholarship check using mobile deposit and verify it cleared."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6f47772a2bd045178d68ef048364d24d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for debit card support and transaction disputes.",
+                "fileID": "e27595b068824e75bf0fa973888a4caf",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to report a lost or stolen card.",
+                            "fileID": "ec504febfcac4c32b00a18f301caee15",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our card support specialists.",
+                                        "fileID": "43c1d291f0284e12966e2f47acbd55cd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "11c72cc5564a4415bcb44da30d9a2c76",
+                                "navigationGoals": [
+                                    "I need to report my debit card as lost or stolen and request a replacement.",
+                                    "I need to report my lost debit card and request a replacement.",
+                                    "I need to hotlist my debit card and order a replacement because it\u2019s missing.",
+                                    "I need to report my debit card as lost.",
+                                    "Report my debit card as lost after I misplaced it at the university library."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to dispute a recent transaction.",
+                            "fileID": "307f436e17a746ba8943c435aa9793f4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our disputes team.",
+                                        "fileID": "f05da9fdd12c4f168717bc78a510b785"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "327c6c468a194fbaa3be019d614e4792",
+                                "navigationGoals": [
+                                    "I need to dispute a recent unauthorized transaction on my card.",
+                                    "I need to dispute an unfamiliar charge on my recent statement.",
+                                    "I\u2019d like to file a chargeback for an unauthorized transaction on my debit card.",
+                                    "I need to dispute a transaction I don't recognize.",
+                                    "Dispute an unrecognized charge from an electronics supplier I never contacted."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3880cc921fad46e4b4c7ccc64cf35514",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "046fefae79ef4329bbcf960899ff32e7",
+        "navigationGoals": null
+    },
+    "id": "17e1e9195a234d6a81dc17f99152b8e5",
+    "navigationGoals": null
+}

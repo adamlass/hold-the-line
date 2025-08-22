@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Hammerhead in San Francisco, where we empower your ride with the Karoo cycling companion.",
+            "fileID": "8176e7624e1a453ea982e5f9073f9e80"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you need technical support or troubleshooting for your Karoo cycling computer, press 1.",
+                "fileID": "27ee2f0dd5df4d6cbaf87c7a8766c9d4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with setup, firmware updates and device configuration, press 1.",
+                            "fileID": "d9da2168765746e2a241f6e979b9d435",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Karoo technical specialist.",
+                                        "fileID": "122aee6fb1dd4b82bb17738dad8a3ee0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c00afe2c0e2e483c9fb1220daae0a03a",
+                                "navigationGoals": [
+                                    "Help me update and configure my Karoo cycling computer\u2019s firmware.",
+                                    "Troubleshoot GPS signal issues and update firmware on my Karoo cycling computer",
+                                    "I need detailed assistance with updating my Karoo firmware to v5.0 and calibrating its GPS and power-meter settings.",
+                                    "I need someone to walk me through updating the firmware and pairing my Karoo cycling computer.",
+                                    "Could you guide me through updating my Karoo firmware and configuring its custom data screens?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For warranty claims, repairs and returns, press 2.",
+                            "fileID": "301a013b373d4cd88e8798332da74524",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our warranty and repair team.",
+                                        "fileID": "6bebe25d6f804aefb0d83a6d5945d187"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f332b37026a7445f94daf8d74bbca5f2",
+                                "navigationGoals": [
+                                    "Initiate a warranty repair and return for my malfunctioning Karoo device.",
+                                    "Initiate a warranty repair for my cracked Karoo touchscreen under the warranty program",
+                                    "I\u2019d like to initiate a warranty claim and arrange repair for my Karoo unit\u2019s touchscreen calibration failure under warranty.",
+                                    "I want to arrange a warranty repair because my Karoo stopped turning on.",
+                                    "I need to file a warranty claim and arrange a repair for my malfunctioning Karoo unit."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1da4cedfe06c47f7b3eb5832588be4e0",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To learn about purchasing Karoo devices, accessories or community resources, press 2.",
+                "fileID": "d14184eefbc24b928539b6c76f833598",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on purchasing Karoo devices and accessories, press 1.",
+                            "fileID": "ac64a300b2fa429a8b6da38f02767f04",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "153f9244ff244f85a6c37211f246db1b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a944659670d44ed2aac092ac4024ff84",
+                                "navigationGoals": [
+                                    "Get pricing and availability details for a new Karoo unit and mounts.",
+                                    "Ask about purchasing an extra Karoo battery and inquire about veteran discounts",
+                                    "I\u2019m looking to purchase a Karoo 3 with ANT+ power and cadence sensor bundles and need pricing and compatibility details.",
+                                    "I\u2019d like to purchase a new mount and spare charging cable for my Karoo device.",
+                                    "I\u2019m looking for information on purchasing a Karoo device and compatible accessories, including pricing and specs."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For training programs, group rides and community events, press 2.",
+                            "fileID": "ee34cc05988d408c9b7a7e3838c431e2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our community engagement team.",
+                                        "fileID": "ec04e9aca38d45cc882c6135df2ab95e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6a652c92dc694c918c574fe444dea8cd",
+                                "navigationGoals": [
+                                    "Find upcoming Karoo training programs or community rides near me.",
+                                    "Find and sign up for local veteran cycling group rides and community training events",
+                                    "I want to register for the Hammerhead community\u2019s advanced interval training program and local group rides schedule.",
+                                    "I\u2019m looking for local training rides and group events for senior cyclists.",
+                                    "I\u2019d like details on upcoming Karoo community events, training programs, and group rides in my area."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cae8a8816fcd418fa6a77872e324f3bc",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6537554a6f8f46c9907614b33e5ab3d8",
+        "navigationGoals": null
+    },
+    "id": "e5982462a53f4263b8f76e7d5b5277af",
+    "navigationGoals": null
+}

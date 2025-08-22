@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to OpenTable in San Francisco, where you can find your table for any occasion.",
+            "fileID": "3ea8a25596c440b59efdece915d0ac0f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To make a new reservation, press '1'.",
+                "fileID": "631d224e0c30492ca24c99b5978af662",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reserve a table for today, press '1'.",
+                            "fileID": "3bddbda203ec4a5caee167bb9c94cec2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our same-day reservations team.",
+                                        "fileID": "a5cf339faa92463495ba32e4031dd062"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "723e27cf26d0414ba4015e186c29426c",
+                                "navigationGoals": [
+                                    "I need a table tonight for two at 7 PM.",
+                                    "I\u2019d like to book a table for dinner tonight in downtown San Francisco for me and two friends.",
+                                    "I need to provision a same-day reservation for two at 7 PM tonight.",
+                                    "I\u2019d like to book a table for two this evening.",
+                                    "I\u2019d like to reserve a table tonight in San Francisco."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To reserve a table for another date, press '2'.",
+                            "fileID": "4eec64f10fa74f5391839a5323a06935",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our advanced booking specialists.",
+                                        "fileID": "766fefbc6fc7415ea061b4a38f321b6e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "16808144f59a462fb405aada68117782",
+                                "navigationGoals": [
+                                    "I\u2019d like to reserve a table for four next Friday at 8 PM.",
+                                    "I need to reserve a table for four next Saturday evening at a San Francisco restaurant.",
+                                    "I\u2019d like to schedule an advanced booking for next Friday at 8 PM for six people.",
+                                    "I need to reserve a table for next Friday night.",
+                                    "I want to book a table for another date next week."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "63e19d17dd154e569e78f057b7249c50",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and inquiries, press '2'.",
+                "fileID": "c21fba1ff09c4b2eb4fa2aadae2bdfd8",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with an existing reservation, press '1'.",
+                            "fileID": "7b904ae8414647a881c2bf8420c003dc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to customer support for reservation assistance.",
+                                        "fileID": "278382fa509e4322921d5d0f3684dc49"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7d83dc99611e4a58b415dcff76b6e93d",
+                                "navigationGoals": [
+                                    "I need to modify my reservation for tomorrow evening.",
+                                    "I want to update the time and party size on my existing reservation.",
+                                    "I need to modify my existing reservation\u2014change the time to 8 PM and update the guest count to four.",
+                                    "I want to change the time on my existing reservation.",
+                                    "I need assistance updating my existing reservation."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "If you\u2019re a restaurant looking to partner with us, press '2'.",
+                            "fileID": "f1becc97fc404407bdf65cee308e7098",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our restaurant partnerships department.",
+                                        "fileID": "99e46f44c1c94ea1b488a238d192d052"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e862abfac28746d28309d873f3a23b98",
+                                "navigationGoals": [
+                                    "I\u2019m calling to discuss partnering my restaurant with OpenTable.",
+                                    "I\u2019m a veteran-owned restaurant owner and want to sign up my establishment with OpenTable.",
+                                    "I want to initiate partnership onboarding and API integration for my restaurant.",
+                                    "I\u2019m a restaurant owner and want to sign up my venue with OpenTable.",
+                                    "I\u2019m researching OpenTable\u2019s restaurant partnership program for a school project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "41cd045873e344b0ab5f83c66b49dddf",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "aada92370bb74d86988958aa66be6994",
+        "navigationGoals": null
+    },
+    "id": "d82711f837744ccb9993d5ee918e59f3",
+    "navigationGoals": null
+}

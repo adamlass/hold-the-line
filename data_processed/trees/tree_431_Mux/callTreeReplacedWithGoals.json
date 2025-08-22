@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Mux, the video infrastructure API built by experts to make beautiful video possible for every development team.",
+            "fileID": "d17c978785454609b50a57fe3cf8dd6e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support and API documentation, press 1.",
+                "fileID": "2c29aeb67e184d759bb54904f02f62fc",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To connect with our API integration support team, press 1.",
+                            "fileID": "137e3591189a445683d88969d75bcafb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line and we'll connect you with our API integration specialists.",
+                                        "fileID": "b26a371e75f74280a11c06f84b5703b5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1f1b022f59534c3c9cdcff504ef63c95",
+                                "navigationGoals": [
+                                    "Get quick help fixing my Mux API integration so my video streams properly.",
+                                    "I need technical assistance integrating Mux video APIs into my training platform.",
+                                    "I need help debugging our webhook signature validation in the Mux API integration.",
+                                    "I need help setting up the Mux API on my website",
+                                    "Discuss how to integrate Mux's streaming API with my physics lab's data visualization app."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For developer resources and best practices, press 2.",
+                            "fileID": "9bba30dc945c4fb2bc7b9a30586d1ba8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our developer resources team.",
+                                        "fileID": "aff0776fc6294314a2f3cc76d5358a85"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "29f531f2bcf64e3c9a956f0bb5a51e45",
+                                "navigationGoals": [
+                                    "Obtain Mux video API best practices for optimizing encoding and playback performance.",
+                                    "I want best-practice guides and developer resources for optimizing video streaming.",
+                                    "I want developer docs on optimizing HLS chunk size for low-latency streaming.",
+                                    "I\u2019d like best practice guides for using Mux in my project",
+                                    "Get recommendations on encoding settings for smoothly streaming high-frame-rate experiment footage."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4741f8d91b8741ad8b51e50af065c252",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and billing inquiries, press 2.",
+                "fileID": "e1b648fc287048d98e46fed5a3dcf82d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team, press 1.",
+                            "fileID": "9b538261874e4879a881827831cd31a7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a Mux sales representative.",
+                                        "fileID": "a5da38e93f474d67a0f437c758ae288d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "781bc696ffca48378c715d909913f168",
+                                "navigationGoals": [
+                                    "Request a quote and discuss pricing options for scaling our video platform.",
+                                    "I'd like to discuss pricing and enterprise plans for our video service startup.",
+                                    "I'd like to get pricing details for an enterprise plan with adaptive bitrate streaming.",
+                                    "I want information on Mux\u2019s pricing plans",
+                                    "Ask about student discounts or academic pricing tiers for a Mux subscription."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account management, press 2.",
+                            "fileID": "89e1d1ee2eea48f8adc36352ce8b6ee6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing and accounts department.",
+                                        "fileID": "5ca934db4a2d4658bef26cf7f25ad994"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8aa14a9026d44202910d2dc211bf743e",
+                                "navigationGoals": [
+                                    "Review this month's invoice and update my payment method to avoid interruptions.",
+                                    "I need to update my account billing information and review my latest invoice.",
+                                    "I need to update my billing method and retrieve last month\u2019s usage invoice.",
+                                    "I need assistance updating my billing information",
+                                    "Update billing information and review recent charges for my group account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2dcc998df95549f685ab947184a00de2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "93636968128d476bb369fc3738d6b511",
+        "navigationGoals": null
+    },
+    "id": "b8082671d36442cca8cc18969a04a07c",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Checkr, where we build a fairer future by improving understanding of the past.",
+            "fileID": "86092eb867994da18e4b8ffa1509ef69"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with your background check status and results, please press 1.",
+                "fileID": "c545f058f8444e748b3a9d9b3b64b8d5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check the status of an existing background check, please press 1.",
+                            "fileID": "1845250009024938b896dc2dba79b76f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your background check status.",
+                                        "fileID": "445b9a804d0d4be9843496c031395bfc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9db3c7c131734e9583535113458fd954",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with our support team about an issue or dispute a result, please press 2.",
+                            "fileID": "1d94e6f852614d73939642abf00b94a8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support team.",
+                                        "fileID": "d7d3f9eb775f4c00988e33eab9ed29ed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3dbff2374d124432a31d03ad4e853f4b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5c9cc5adf4914f68b9cbdb119055c73a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For information on our AI-powered platform or to speak with our sales team, please press 2.",
+                "fileID": "e51904cb629b48c28803a1300c2a595f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo, please press 1.",
+                            "fileID": "d574bdb8a01a4123ad7f5ec747d575dc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you with our sales team for a personalized demo.",
+                                        "fileID": "4505e52763da442bba6fb2bbbbbfbf26"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6d0b8bca3a534404867712842da78adb",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For details on pricing and plans, please press 2.",
+                            "fileID": "e994c0bef7fa49b7bdbd7b40e9be3003",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to our sales department for pricing information.",
+                                        "fileID": "f28e086c979a4474b306202fa2a1fdf5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "edd6f82d3d844ea8921264f598458992",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "858237278f074efbad4f453c20c2c303",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3b6c9ade975f4e2ca8663ef0468d1ae0",
+        "navigationGoals": null
+    },
+    "id": "6f4d58b3a65d483980f026f725ad6c48",
+    "navigationGoals": null
+}

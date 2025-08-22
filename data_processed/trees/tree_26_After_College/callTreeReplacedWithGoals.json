@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling After College in San Francisco, connecting talented graduates directly with the employers who want to hire you.",
+            "fileID": "31b89fcedb854805a74d1d28e90ea70f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an employer looking to recruit college talent, press 1.",
+                "fileID": "3ad7fa294b6f43feb58b44aae92a8e34",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To post a new job listing on our marketplace, press 1.",
+                            "fileID": "ac6de8b3aa2348228afabb1b13e7ef6d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our job posting support team.",
+                                        "fileID": "7472c0422d134900ac67733451398b70"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b3eea5ce0330475f85e41cae275a80c1",
+                                "navigationGoals": [
+                                    "I need to post a new job opening for a data analyst role right away.",
+                                    "I want to post a new job listing on the marketplace for my veteran-led business.",
+                                    "I need to publish a new job requisition via your job-posting support.",
+                                    "I need help posting a new job opening; I\u2019m not sure how to complete the listing form.",
+                                    "Post a listing for a part-time undergraduate research assistant position in my physics lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about enterprise solutions and pricing, press 2.",
+                            "fileID": "9bb944e484664c78a5fc22883f81e661",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our enterprise solutions consultant.",
+                                        "fileID": "1e2638be9bb84373b57beee02c30a7d8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8cefbaeca069431a8b1a45a26ac309f4",
+                                "navigationGoals": [
+                                    "I\u2019m looking for enterprise package pricing and features for bulk hiring.",
+                                    "I\u2019d like information on enterprise hiring solutions and pricing for my company.",
+                                    "I want to get enterprise-tier pricing and API integration details.",
+                                    "Could you explain your enterprise hiring solutions and their pricing options to me?",
+                                    "Get pricing details for our university physics department\u2019s enterprise recruiting package."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2bc8b881ef694bd7a6e145198c8e3f46",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a recent graduate or student seeking opportunities, press 2.",
+                "fileID": "3d3cddbd8ddd4d3cab9d4f28438b5b20",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To create or update your candidate profile, press 1.",
+                            "fileID": "ca5fe5fabac747b9aaa18de0bbc8d5b4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our profile management team.",
+                                        "fileID": "14e7b7a2a39f4d2886e2d0686101cdb9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b2c5d8bed45c4542ac14783a0f7bed2e",
+                                "navigationGoals": [
+                                    "Please help me update my candidate profile with my latest graduation and internship details.",
+                                    "I need to create or update my candidate profile to highlight my military background.",
+                                    "I need to update my candidate profile with my latest project portfolio.",
+                                    "I\u2019m trying to create or update my candidate profile and need assistance with the details.",
+                                    "Update my candidate profile to highlight my quantum mechanics research experience."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a career specialist for guidance, press 2.",
+                            "fileID": "a9de8651ad454700b208798fa9bc01b7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a career specialist.",
+                                        "fileID": "72397b2d0cdc48f39d7cfed3d9f55e73"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a36d541d87a649a890143123eccbe914",
+                                "navigationGoals": [
+                                    "Connect me with a career specialist for quick resume and job-search advice.",
+                                    "I want to speak with a career specialist about transitioning my military skills to civilian roles.",
+                                    "I want to connect with a career specialist for technical interview coaching.",
+                                    "I\u2019d like to speak with a career specialist for guidance on my job search.",
+                                    "Speak with a career specialist about applying to graduate programs in physics."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "eeb6d84bbdf04bbab419196ce43cbc39",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bd02a41fd04845ab90ba3efd662a5d1f",
+        "navigationGoals": null
+    },
+    "id": "c30c451f00bf43169b3f6f71a94cd3bb",
+    "navigationGoals": null
+}

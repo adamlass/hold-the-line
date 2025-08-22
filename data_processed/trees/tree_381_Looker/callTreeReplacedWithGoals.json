@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Looker, where everyone gets access to fresh, reliable data.",
+            "fileID": "022617d5bc1049c8bfd63dcbc5963a71"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "275c9c4e57ba48409978dfb7c774ff11",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized product demo or discuss analytics solutions, press 1.",
+                            "fileID": "0f6fded2243549db9f6e922f713d330a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a Looker specialist for your product demo. Thank you for holding.",
+                                        "fileID": "140424b9dbc84b20ae43b5a125481fcd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0c2c75a774764fac916439f859fe038e",
+                                "navigationGoals": [
+                                    "Arrange a personalized Looker product demo with a specialist",
+                                    "I\u2019d like to schedule a demo to see how Looker can visualize veteran support program data.",
+                                    "Arrange a technical walkthrough of Looker's analytics platform",
+                                    "Could you walk me through a live demo of your data tool?",
+                                    "Schedule a personalized demo to explore how Looker can visualize and analyze my physics research data."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, licensing, and purchase inquiries, press 2.",
+                            "fileID": "a658cd65f5034e0780bf4d93e210c389",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our sales team for pricing and licensing. Thank you for holding.",
+                                        "fileID": "df4f32b0544048faafd67299f820c7a5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4538d9d09c1d459c9e7e845d4f1146a3",
+                                "navigationGoals": [
+                                    "Obtain detailed pricing and licensing options for Looker",
+                                    "Can you provide pricing and license options for a small nonprofit serving veterans?",
+                                    "Request a detailed breakdown of pricing tiers and enterprise licensing for Looker",
+                                    "I need to find out the costs and licensing options for purchasing Looker.",
+                                    "Get information on academic licensing and student pricing for Looker subscriptions."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0e85850f4ec442e5b7a3daa8c4383dcb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support or billing, press 2.",
+                "fileID": "63fe04ff9c674697ad018946de2ecdd5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reach our technical support team for assistance, press 1.",
+                            "fileID": "10ed907595794eb5924da8bc2d218b7d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with Looker technical support. We appreciate your patience.",
+                                        "fileID": "4d721ac638024a02b4ad9a045d327b2d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "00c61ce0eb704669a5264b2a87130909",
+                                "navigationGoals": [
+                                    "Resolve a technical issue with my Looker dashboard",
+                                    "I need help troubleshooting an error loading my veteran service analytics in Looker.",
+                                    "Troubleshoot an API integration error with Looker's platform",
+                                    "I\u2019m having trouble with the software and need technical assistance.",
+                                    "Troubleshoot technical issues accessing a newly created Looker dashboard with my experimental datasets."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "764df6b85a66416ea95d103f54cf08e8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing department. Thank you for holding.",
+                                        "fileID": "c8bec0459fe946e3aef22a0e2274858d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bbdfce1223ec44e084801fbfe1b203f1",
+                                "navigationGoals": [
+                                    "Clarify recent billing charges on my Looker account",
+                                    "I have a billing question regarding my latest Looker subscription invoice.",
+                                    "Clarify the charges on my latest Looker billing statement",
+                                    "I\u2019d like to review my account billing and payment information.",
+                                    "Clarify recent billing charges and update payment details on my Looker account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a4c8f26a47fc4f2699ebe8c9031f6eeb",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3d09edb343234e0995bec3608856aaaf",
+        "navigationGoals": null
+    },
+    "id": "64d4f1b901eb4069aa80c727ab86a336",
+    "navigationGoals": null
+}

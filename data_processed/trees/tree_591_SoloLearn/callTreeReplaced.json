@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to SoloLearn in the East Bay, your partner in mastering C++ programming.",
+            "fileID": "9c2fc6a71791451da6cc807ad9481789"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our C++ course modules and curriculum, press 1.",
+                "fileID": "177ef8010f4f419d8c657fd781c21860",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore basic concepts, data types, and arrays, press 1.",
+                            "fileID": "c19aae457be2400fa281cc2538e73678",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a C++ course specialist.",
+                                        "fileID": "5983586900d14972a9548c74e4b66078"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "eaf0678a391f461ab37fdd8fd9ef7950",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn about pointers, object-oriented programming, and advanced topics, press 2.",
+                            "fileID": "74f31ab8519a4a21896bfa0adf0b8e76",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an advanced C++ tutor.",
+                                        "fileID": "c40bc7e6164a42cb82bf4c0504e2cfe5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8d1850c49c6c4904b61e1d94b4cca8ef",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "966d2b2f6d204eb9be15ec84845cb9b5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and other inquiries, press 2.",
+                "fileID": "cb191bdfea0b4330b99c714289e5aff5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account and billing questions, press 1.",
+                            "fileID": "09e37bdbd5bd4b5685b5c910b7b23eb0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect your call to our billing team.",
+                                        "fileID": "f677297a2c834c41986b70f8191880d6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cd0999f57a4d49c1bb016e932a4cbdef",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical assistance or to report a platform issue, press 2.",
+                            "fileID": "ca502e0f9f3c43fbba6f66404af68281",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "97639658989943ac8dfebe8c25a38101"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4ab8bee1804c4c7d9b5a5bee3758f3c6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "20d0d549311840288671fe5258841d8b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3e769f279c874d349a227073384a2927",
+        "navigationGoals": null
+    },
+    "id": "c194b887ec21429eabda78e8a2d8fc61",
+    "navigationGoals": null
+}

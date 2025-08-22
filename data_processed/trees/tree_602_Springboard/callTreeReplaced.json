@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Springboard in San Francisco, your partner in future-proofing your career.",
+            "fileID": "6411a03ebbd7461da9a9935ef195a6e0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our courses and admissions, press 1.",
+                "fileID": "dc80578e2c2f43669254c922236a3ac7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our full-stack web development program, press 1.",
+                            "fileID": "949579e11a754777a3c040e3c8f37417",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a course advisor for full-stack web development.",
+                                        "fileID": "dd6f33917e544385894604fdaf1f8127"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5fccd67ee08a4931a1f5d289c1c6042d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn about our data science bootcamp, press 2.",
+                            "fileID": "7df86429fdab415c8b14ff19880ecae4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a course advisor for data science.",
+                                        "fileID": "931b6f2d409c42f5b39d9983723268cf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "822b69b4608e4a68888564a5e99752d6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b87be92c07f1423f83734c4d29893ba8",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For student support and technical assistance, press 2.",
+                "fileID": "4646840fb3694ac98e9546f1e4f57b15",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and platform help, press 1.",
+                            "fileID": "7589f541408a413899a33f51d45d4c2e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience, we are connecting you to technical support now.",
+                                        "fileID": "6edb40cdd91d4feb8e18b0eeaf5b4a34"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "889b237ce09846ca8d1bda94daa8ac67",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For career advising and mentor scheduling, press 2.",
+                            "fileID": "5549f7b408424d439388fcbc7aed68ed",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we are connecting you to our career advising team.",
+                                        "fileID": "a83dee8c42c44894ac3bf48fadb2248d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7c21df8ceabc46c49ed3ef16133bf818",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "04217d9c716c458fa162bd60686d8abb",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ddd6a3c81b9d442baea186f454333781",
+        "navigationGoals": null
+    },
+    "id": "2d74c272adc94ec8be71629157c5c8ef",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Slow Ventures in San Francisco, where we believe you should never climb alone.",
+            "fileID": "b23b596ecea7417dbe118c9ce4c272db"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new investment inquiries, press 1.",
+                "fileID": "1de8269e86bf486090bcee95ebd639df",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with an investment associate, press 1.",
+                            "fileID": "3456a47e3a974b738e64ecc5cac41d62",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with an investment associate.",
+                                        "fileID": "f69bfde03421442481c316d7e18a76f0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c634c48514384facbcb9379bab4052e3",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To submit your pitch deck, press 2.",
+                            "fileID": "acf6bade8c654d379095fd8d5e67b01b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we forward your materials to our review team.",
+                                        "fileID": "fa23de0f3917495da213fdcaddeee3a2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ddc2d3646b6446eda49cfc8dcdae0272",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e782a218ca364c4c91f605542b3eb137",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For portfolio support services, press 2.",
+                "fileID": "d92addee0a6749d28afa0ef36e261c91",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For operational support, press 1.",
+                            "fileID": "052575fd0dba4feb99a4bc4f956797ba",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our portfolio operations team.",
+                                        "fileID": "ae905e56741f4853bf253ac57c2b1f16"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c9edfa2ac4af44f8a9aa72603d623213",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For financial and legal assistance, press 2.",
+                            "fileID": "00f2095d1b8642189100c1119863b5b8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer your call to our finance and legal department.",
+                                        "fileID": "c142bc3637bb413299717946ac9ad793"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0202620a5e6f4a9090b258e9d917a88d",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e1c56cd18a5140a8b5d21a4365cc1680",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "43354a7ad0d24a108e3de113e5ca1480",
+        "navigationGoals": null
+    },
+    "id": "8b5838db2a3242b085197dff477bd0d7",
+    "navigationGoals": null
+}

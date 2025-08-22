@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Redbubble, the San Francisco based marketplace for awesome products designed by independent artists.",
+            "fileID": "994f5273b89d4419ae4d8285338242f0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For questions about orders, shipping, and returns, press 1.",
+                "fileID": "519e2196d66149b294bd1e7fc47bdfd5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To track an existing order, press 1.",
+                            "fileID": "d66143bea6c24c508040b96d3ab30b82",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order tracking specialist.",
+                                        "fileID": "11590c093bbc425f84dee08149e6fc9d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d5dfd8b5ae2e46569a1101e5be4a9101",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To initiate a return or report a damaged item, press 2.",
+                            "fileID": "d82e05700ebe420b965a535949c28678",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our returns department.",
+                                        "fileID": "4f94772f979449919071a3ffd1871645"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9c8dd679f41745e6b64293ea05878e6b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "44378783396043aeb33c977ab387c1c5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For artist account and shop management support, press 2.",
+                "fileID": "96d8cc9d006348cc9316d2f4d6764225",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with uploading artwork and creating listings, press 1.",
+                            "fileID": "53136d24cbc3420da3185ab32e835b3e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an artist support representative.",
+                                        "fileID": "438fd20c91494ed99a5ddddc9dbb910b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9d2b22f325d54e37abf70bce04752975",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For questions about royalties and payouts, press 2.",
+                            "fileID": "922c0bf8cc3a4632be3825358b5b2d25",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our finance team.",
+                                        "fileID": "e146d8309e794295a154cc54a9677890"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4cc667efa7874db0b12372c1597e1322",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5f56a026c5704e5eb6d56df9b85a2219",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bed2941a7b654ab09525953c3d9201a8",
+        "navigationGoals": null
+    },
+    "id": "0cc9b5942bdd43c69f9462adfff08ca8",
+    "navigationGoals": null
+}

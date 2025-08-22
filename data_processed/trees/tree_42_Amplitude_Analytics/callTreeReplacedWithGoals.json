@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Amplitude Analytics, empowering your business with actionable product insights for the digital era.",
+            "fileID": "c0659429d06a4a03bc7f8684fece06c0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales inquiries and product demos, press 1.",
+                "fileID": "535c2a444df04fab82d484f00d232427",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo with our team, press 1.",
+                            "fileID": "29ed43fa15414c9eb33a225ba5390650",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for a product demonstration.",
+                                        "fileID": "2a0a6019d4eb4fd7bc5b65250cfb3bc0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "188084155d7e4a78bc8df9ad427845c9",
+                                "navigationGoals": [
+                                    "Connect me with a specialist to schedule a personalized product demo right away.",
+                                    "Schedule a personalized demo to see how Amplitude can track user engagement in my veteran services platform.",
+                                    "I need to schedule a live walkthrough of Amplitude\u2019s feature set and API instrumentation with a sales engineer.",
+                                    "I\u2019d like a one-on-one walkthrough of the product\u2019s features.",
+                                    "I\u2019d like to schedule a demo to see how Amplitude can help analyze my experimental data."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For detailed pricing information and plan options, press 2.",
+                            "fileID": "2e8a7592e22f46628414efa43d7a9226",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for pricing details. A sales representative will be with you shortly.",
+                                        "fileID": "13e576cd1e24450f8a17b8eb4cfaac41"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d82b4e1104e04cbfa0e65fb37e0c7505",
+                                "navigationGoals": [
+                                    "Get detailed pricing and plan options to finalize our budget.",
+                                    "Get detailed pricing and plan options, including any veteran or nonprofit discounts, for Amplitude Analytics.",
+                                    "I want a detailed breakdown of pricing tiers, seat licensing costs, overage fees, and custom enterprise packages.",
+                                    "I need clear information on subscription plans and costs.",
+                                    "I need pricing details and student plan options for university research use."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "77587edaf4d44915bc353e6c3f17e9e9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and troubleshooting, press 2.",
+                "fileID": "bdce9f6606e3451facada29748b5d390",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with integration, setup, and onboarding, press 1.",
+                            "fileID": "30bbb7243a884f22b79eb9b1c7217bde",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. We\u2019re connecting you to our integration specialists.",
+                                        "fileID": "23c7ff67ad5e451cbc1a42a50c5b2d7f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "253a4c13b68c4fc8810525c5728e3a15",
+                                "navigationGoals": [
+                                    "Speak with an integration expert to set up Amplitude\u2019s SDK in our app.",
+                                    "Connect with integration specialists to onboard and integrate Amplitude into my app\u2019s architecture.",
+                                    "I need help configuring the JavaScript SDK integration and setting up my event-tracking pipelines.",
+                                    "I need help setting up and integrating the software.",
+                                    "I need assistance integrating Amplitude into my data analysis pipeline."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management, billing, or subscription questions, press 2.",
+                            "fileID": "4803a12f65db4947a2580774a1125be4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our account management team. We appreciate your patience.",
+                                        "fileID": "e68b29457f3c4ce2b454774becdfab65"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "30aea3530afb4330860c9adab90e3a27",
+                                "navigationGoals": [
+                                    "Clarify a billing discrepancy and update our subscription plan.",
+                                    "Speak with account management to update my billing details and review my subscription plan.",
+                                    "I\u2019d like to update my subscription plan, adjust seat counts, and clarify my latest invoice charges.",
+                                    "I need assistance with my account details, like billing or subscription changes.",
+                                    "I want to update my subscription billing information and check my invoice."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5de45d56e18f4caebd5d09c09fb065ac",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "88f219bbd3264d8e817b5fe35ee7e2fd",
+        "navigationGoals": null
+    },
+    "id": "7a07fb2c71734d7bba2456889e1e722b",
+    "navigationGoals": null
+}

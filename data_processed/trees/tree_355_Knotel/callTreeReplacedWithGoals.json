@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Knotel, your agile coworking partner in San Francisco, where we customize and operate your ideal office so you can focus on your business.",
+            "fileID": "07f9f63a1be8461787b6f593bc8d1b48"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our flexible office solutions and customization options, press 1.",
+                "fileID": "1c72ed9c96db417587b725594e42798a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore our office locations in San Francisco and beyond, press 1.",
+                            "fileID": "50458e56686a47618ee78fd44e724f3b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to information about our office locations.",
+                                        "fileID": "8a2236b2cea54f38baf75c86a310df22"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "31c9c1fa103745509c8daf9745ceb884",
+                                "navigationGoals": [
+                                    "Locate available coworking locations in San Francisco and nearby areas",
+                                    "I\u2019m looking to review your coworking locations in San Francisco and surrounding areas for my veteran-led startup.",
+                                    "Retrieve a catalog of Knotel office locations (SF + beyond) with floor plan specs and capacity metrics.",
+                                    "I\u2019d like to find out where your Bay Area offices are located.",
+                                    "Find all Knotel office locations in and around San Francisco where I can book a quiet study space."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discover how we tailor workspaces to match your brand, press 2.",
+                            "fileID": "660885fa189349abbd98e0e358b883a6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we gather details on workspace customization.",
+                                        "fileID": "cff51e0034de4f6ba1cc3085950163f0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f51a165fc5864961bef06100499f6b26",
+                                "navigationGoals": [
+                                    "Find out how Knotel customizes workspaces to reflect my brand",
+                                    "I want to learn how you customize workspaces to reflect my veteran-owned brand\u2019s identity.",
+                                    "Access workspace customization specs\u2014branding elements, modular furniture configurations, and connected device support.",
+                                    "Could you explain how you customize workspaces to suit my brand?",
+                                    "Learn how I can customize a workspace to reflect my physics research group\u2019s branding."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "64789a199cbd48db8ec33346c829632a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To speak with a representative about pricing and availability, press 2.",
+                "fileID": "83c2675cb65f4ea79edcaaa90d973717",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a quote for your team\u2019s workspace needs, press 1.",
+                            "fileID": "a80ecebad951471d96e3b7b259cf3bf1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you, please hold while we prepare a customized quote for you.",
+                                        "fileID": "5e3ae104987a41aebb89b3c248f2513f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "948769cf54cf4e4db5dd7ee13082dded",
+                                "navigationGoals": [
+                                    "Get a tailored pricing quote for my team\u2019s office requirements",
+                                    "Please prepare a quote for a private office space for my five-person veteran support team.",
+                                    "Generate a tailored pricing quote for a team office: seat rates, service bundles, and SLA details.",
+                                    "I need a price quote for a small team office.",
+                                    "Obtain a price quote for a small office space for my physics project team."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check current availability of our San Francisco offices, press 2.",
+                            "fileID": "88d0f237606a48c0a73d205454c4d5bf",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold briefly while we check office availability for you.",
+                                        "fileID": "8fcf8c62f4384f6a9fe636c57063ec32"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "174bcc8875ad4ba4868b4898888c48fb",
+                                "navigationGoals": [
+                                    "Check current availability of San Francisco office spaces",
+                                    "Could you check current office availability in San Francisco for my small veteran-run business?",
+                                    "Query live availability status for SF offices: desk counts, suite vacancies, and start-date slots.",
+                                    "Can you check if you have any available offices in San Francisco right now?",
+                                    "Check current availability of San Francisco offices for my group study sessions."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6e6983c028704c6297441c5d933263d1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b1b053cf09b4424a86478e80f6b83fc0",
+        "navigationGoals": null
+    },
+    "id": "85ea49098f614ede86711b1abd21b369",
+    "navigationGoals": null
+}

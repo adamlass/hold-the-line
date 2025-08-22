@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Hired in San Francisco, the B2B software marketplace connecting businesses with exceptional talent for jobs they'll love.",
+            "fileID": "fe318546abe3492eaeaf429322dc8ec5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For employer services, press 1.",
+                "fileID": "0a36ffdc48554d698e62db26523d87dd",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For sales inquiries about listing job openings, press 1.",
+                            "fileID": "f0dbe03c8afa48cbbc881f70d14a3f5a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "1abb2796d351417baf2825fff6815074"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "43422c978f4740019d4ab5fed340728e",
+                                "navigationGoals": [
+                                    "I need pricing details and options for listing multiple developer job openings.",
+                                    "I\u2019m calling to ask about pricing and steps to post my company\u2019s job openings for veterans.",
+                                    "I need to connect with sales to discuss API integration for automating our job postings and evaluate pricing tiers.",
+                                    "I want to speak to someone about posting a job opening for my business.",
+                                    "I\u2019d like to speak with sales about posting several research assistant openings for my physics lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account support, press 2.",
+                            "fileID": "16b7778b9fa442abb7e40154c2da6350",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing and account support.",
+                                        "fileID": "8a5f5c5cee4841a285307b63b7739351"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "679a5fe1211e4636a320d0242697405d",
+                                "navigationGoals": [
+                                    "I want to review last month\u2019s invoice and update our payment method.",
+                                    "I need help resolving a billing discrepancy on my employer account.",
+                                    "I need help reconciling our monthly subscription invoice and exporting billing data to our accounting system.",
+                                    "I need assistance understanding a recent billing charge on my account.",
+                                    "I need help updating my payment details and reviewing my employer account billing."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a67ca3e069f448c2a122ce9059fe335a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For candidate support and job matching services, press 2.",
+                "fileID": "6ff8273e758a421e976924072ebb3ece",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To update your profile or resume, press 1.",
+                            "fileID": "0cdfe4a5c2864c668352f355e7f92e09",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to candidate profile support.",
+                                        "fileID": "0a198c67dfeb4eb7b4511dfd0520c700"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "76559141fe5b416fb3e8e1769f8dbb82",
+                                "navigationGoals": [
+                                    "I need to upload an updated resume and adjust my candidate profile.",
+                                    "I want to update my candidate profile to include my military service details.",
+                                    "I want to update my candidate profile, upload a new JSON-formatted resume, and sync my GitHub portfolio.",
+                                    "I\u2019d like to update my resume information in my profile.",
+                                    "I want to update my candidate profile with my latest thesis and resume."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help with interviews and job offers, press 2.",
+                            "fileID": "2c1c03e47b4c4829acef592c981c0bd4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to interview and offers assistance.",
+                                        "fileID": "fe58e888689c4e569314d5b39ed0728e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a4ea11284fbc49549d1a32535283541e",
+                                "navigationGoals": [
+                                    "I\u2019d like advice on negotiating the compensation for a job offer I received.",
+                                    "I\u2019m looking for advice on preparing for upcoming interviews and negotiating job offers.",
+                                    "I need assistance scheduling a technical mock interview and reviewing negotiation best practices for my job offer.",
+                                    "I need help reviewing a job offer I just received.",
+                                    "I need guidance on preparing for and negotiating a job offer after my interviews."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fd9b0e8cd4ef481fa0cde4901aca2c1f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b586ef5ed4444935a1f034046d088721",
+        "navigationGoals": null
+    },
+    "id": "8e118e3beb3b4179a59da3fb9b7892d8",
+    "navigationGoals": null
+}

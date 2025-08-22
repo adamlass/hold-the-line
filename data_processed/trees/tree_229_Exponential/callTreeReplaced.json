@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Exponential Interactive in the East Bay, your partner in advertising intelligence and digital media solutions.",
+            "fileID": "0b1932a4562b4493890c02ae7c3c0689"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our advertising solutions and campaign management, press 1.",
+                "fileID": "eddc3ddd93564e639913182f06dae21d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss new advertising campaigns and custom media solutions, press 1.",
+                            "fileID": "4e2c7829f08a47ccb41fa43203c20ab9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a campaign specialist.",
+                                        "fileID": "089e7828872d487d98a62af51b70bed9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b0c3c4cf72de4568ab268438d1dc144c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To explore media analytics and reporting services, press 2.",
+                            "fileID": "856195320f8542e495eb4ceb9774b3f1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our analytics team.",
+                                        "fileID": "50f4910a5d4a43e987e7cff5eb03fc08"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7feb438d47934c84bb1a5faa710b6f5b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "db612b8ee2fe49b3823fdd2b0ead7745",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and platform assistance, press 2.",
+                "fileID": "1b4019c68800478f8a9031c4f1893415",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with platform access or login issues, press 1.",
+                            "fileID": "301cf18411e64e729345b46d1c5cef4e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "b0087171a8074513a8f396254af5a863"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0c7ae29ff24a494992de0a6fa8af805b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For troubleshooting ad delivery or other technical inquiries, press 2.",
+                            "fileID": "d046f7b37c3542809710aee1868fff4b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical specialist.",
+                                        "fileID": "92de33366a3b42bba525860159ecd3f1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a8d2c423f33b4a34ad60a20e229c39d1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a747907d87a548c5b4e248a77092c686",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c589cf50ec4e46bfa49e36722d7f0774",
+        "navigationGoals": null
+    },
+    "id": "295e227be987419baceeb7bdbe480367",
+    "navigationGoals": null
+}

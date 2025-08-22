@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Sendwithus in San Francisco, your partner in crafting exceptional email experiences that drive growth.",
+            "fileID": "7fba709e1dde4dc2934d21909c7f5e58"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For customer support, press 1.",
+                "fileID": "eddb1631795144c495d0d5c399a253fa",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "24715db8e6d747088360d62669ab4c4f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "a27697974a584149bdd5ba03e309cb97"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e06ca72f4cd8485e9f3829c141730760",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "015f1c3372264d2fb0d88269269ee03f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and account team.",
+                                        "fileID": "308fe954371d4aa68e53780650fbb991"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e39aa9b8655a429b90e9a83cbca99519",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5bb2ae2d9c7f484e91d6df4bb8890471",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and information on our email marketing solutions, press 2.",
+                "fileID": "23bb3eecadc54a8cb1bb5eb1226a9c01",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a product demo, press 1.",
+                            "fileID": "71f0b1eadf8848c6a069b845d4d4df65",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we\u2019re connecting you to someone to schedule your demo.",
+                                        "fileID": "0d0c2ac729e34d69824b2024aee3fe44"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5c44e74ac79c474bab2c4b056c0e2ed4",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative, press 2.",
+                            "fileID": "d254e4aa19164cbc81529539760fce44",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a sales specialist.",
+                                        "fileID": "46862db34edd43f781c7346660270532"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6c25f63ffdbd4e50bc59e2ed3dda53f7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "effc5154cc3043338c34e947b6b7ab0c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ecc92de8d7914007a3bf0001d57078fe",
+        "navigationGoals": null
+    },
+    "id": "4d7221b60b3b4d899d1912d3a07e05e2",
+    "navigationGoals": null
+}

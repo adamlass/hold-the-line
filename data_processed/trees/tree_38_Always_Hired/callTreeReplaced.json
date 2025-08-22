@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Always Hired in San Francisco, your B2B partner for tech sales talent acquisition.",
+            "fileID": "8d492cad443e424bba3f1c83dfb1f9e3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our tech sales hiring experts, press 1.",
+                "fileID": "09f09477727b4344927949c9519517d6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For current tech sales job openings, press 1.",
+                            "fileID": "4a1c7a8b10ee481aa5fdc8e8eb125fae",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our job listings specialist.",
+                                        "fileID": "8341c1eda4ba4c9aaec5b868d3cb3787"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e7848607e99f493fa02ea364f536abd7",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To check the status of your application, press 2.",
+                            "fileID": "56964f2436014c4299e55681f792920c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an application support representative.",
+                                        "fileID": "03dc819053fa4cd69450b255585c7b75"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2559509aaefa4bf097b9adc71b0939d6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8192c9c91a8f48f296559aa9833e3fec",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To learn about our employer talent acquisition solutions, press 2.",
+                "fileID": "99ba2da726f546419a2bf28a180d43f2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss enterprise talent acquisition partnerships, press 1.",
+                            "fileID": "c938337f78b443b7afd8acc5d250f238",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a talent acquisition consultant.",
+                                        "fileID": "53890311d5a741d6babd485cfb40a448"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3ad64552bad041ac847d64f299cfcdc7",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For information on pricing and software features, press 2.",
+                            "fileID": "d3d61e39601242479d04ca6830426289",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for pricing details.",
+                                        "fileID": "a2f4b4d49d334ae9b532eb813ac2a7f2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64f47d42a577452da6a9ff14722211bf",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "50c5255def694c708cc76230b2174824",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "80ec6c0b1eba47a3a1c73a4ade1dfadf",
+        "navigationGoals": null
+    },
+    "id": "23e8df1d1cf0414084ad903c4cab0bdd",
+    "navigationGoals": null
+}

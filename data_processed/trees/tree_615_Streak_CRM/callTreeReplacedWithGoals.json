@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Streak CRM, the only CRM built entirely within Gmail to help you close deals, manage partnerships, and track support without ever leaving your inbox.",
+            "fileID": "328ead586c974bf4a9815d9d32c176d4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To talk to our sales team for deal management, press 1.",
+                "fileID": "0040bc4f79fb4d009a9a2c2763a630f3",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new deal setup and pipeline configuration, press 1.",
+                            "fileID": "12d71ac0f9a549cabf33cece39d3a773",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales representative.",
+                                        "fileID": "de4b814f3c3e4323953ee66d95bd08cf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "716427a48bd34b3b96dfdc559072d2cc",
+                                "navigationGoals": [
+                                    "Set up a new sales pipeline in Streak CRM for an upcoming client deal.",
+                                    "I need to configure a new sales pipeline in Streak for my veteran-owned consulting business.",
+                                    "I need to provision a new sales pipeline in Streak CRM within Gmail.",
+                                    "Please help me set up a new deal pipeline in my email CRM.",
+                                    "I want to set up a new deal pipeline to track research collaboration offers."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To inquire about an existing deal or update your pipeline, press 2.",
+                            "fileID": "3f53af38540540b6bd28354c1f4bb8eb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your account manager.",
+                                        "fileID": "865f12b66d8a43c4a8854505b6b96e01"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "93744befe90c485f9d1a14688521572e",
+                                "navigationGoals": [
+                                    "Get an update on my current deal status and adjust its pipeline stage.",
+                                    "I want to follow up on the deal I submitted last week and update its stage in my pipeline.",
+                                    "I need to update an existing deal\u2019s stage and refresh my pipeline data.",
+                                    "Please let me check on my current deal and update its details.",
+                                    "I need to get an update on my existing deal and adjust its stage accordingly."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b4e4a9da3b12475b866dcccf9a2529bf",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support issues or partnership inquiries, press 2.",
+                "fileID": "a1ebb56c7d5a4d6384653aeb4726bcdf",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For partnership opportunities and integrations, press 1.",
+                            "fileID": "52cf6e42d3994e6885f889ee8a017028",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships team.",
+                                        "fileID": "462a232d34c74e0bbb61314d7b80c6c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6deebebfc5954105b95988a1f7a657d6",
+                                "navigationGoals": [
+                                    "Explore partnership integration options for our business with Streak CRM.",
+                                    "I\u2019m interested in partnering Streak with my nonprofit veteran support network.",
+                                    "I want to discuss integrating Streak CRM with our internal API for a partnership.",
+                                    "Please tell me about integrating a new partner service with my account.",
+                                    "I\u2019d like to explore integration options for connecting Streak CRM with my experiment-tracking software."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support and troubleshooting, press 2.",
+                            "fileID": "fad6d18b8e024a27938954c2327914cf",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support specialist.",
+                                        "fileID": "e5c3cfc4b1b446908f6946de6ddf4f8d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dbf8fe8c2afd43d7b5c4f967775e32c5",
+                                "navigationGoals": [
+                                    "Resolve a technical issue with Streak CRM functionality in Gmail.",
+                                    "I\u2019m experiencing sync errors in the Gmail extension and need technical assistance.",
+                                    "I\u2019m experiencing sync errors with the Gmail extension and need troubleshooting support.",
+                                    "Please help me troubleshoot a technical issue I\u2019m having with the CRM.",
+                                    "I need help troubleshooting an issue with email syncing in Streak CRM."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c644b88ee7b04b50ae1084bbce9fa915",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "78bfdfd427034f4092e73b013642f662",
+        "navigationGoals": null
+    },
+    "id": "be17ee2c139840399f830e3676c166cd",
+    "navigationGoals": null
+}

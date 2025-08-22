@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Jobvite, Peninsula\u2019s leading recruiting software for sourcing, hiring, and onboarding top talent.",
+            "fileID": "171552905f76413d9df4308222220f29"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our Sales team, press 1.",
+                "fileID": "dbdf9633c6f74d52860404702f4bf978",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product demonstrations and platform walkthroughs, press 1.",
+                            "fileID": "99eef8906cba4bc2949c8d1aebaad0ae",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for a product demo.",
+                                        "fileID": "e2bf98a832ff4705bd06f9d7e4037be6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e43b1a49aab14b49be461c7594e4bb1d",
+                                "navigationGoals": [
+                                    "I need to book a quick demo of the Jobvite platform.",
+                                    "Schedule a live demo of the Jobvite platform to evaluate its fit for our veteran hiring initiative",
+                                    "I want to schedule a Jobvite platform walkthrough focusing on API and integrations.",
+                                    "I\u2019d like someone to walk me through a live demo of the hiring platform.",
+                                    "Schedule a detailed walkthrough of Jobvite\u2019s sourcing and onboarding features to evaluate its fit for recruiting research assistants in my physics lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss pricing, licensing, and subscription plans, press 2.",
+                            "fileID": "e016f96c409c47c881849ee00d743c00",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing specialist.",
+                                        "fileID": "e30b34bf044f49b190afac2c65854b74"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "30cacd08df774b25b49a5e81125cb745",
+                                "navigationGoals": [
+                                    "I want to review pricing and subscription plan options.",
+                                    "Get detailed pricing and subscription options for an annual Jobvite license",
+                                    "I need detailed info on subscription plans, licensing limits, and pricing structure.",
+                                    "I need to know the details of subscription plans and pricing options.",
+                                    "Obtain a clear breakdown of subscription tiers and pricing options to determine funding needs for my student-run physics organization."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "79ff39d6013342b095a98dab88747539",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you need assistance with your existing Jobvite account, press 2.",
+                "fileID": "87e267375fef49ab8f0c856720ab4ed4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "a4729e2d16f240b99674452910c8b72c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support engineer.",
+                                        "fileID": "084601124f4a4f56aa181eed4b9387fb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c6e2d8a3f8104e09bba02602d8b811e1",
+                                "navigationGoals": [
+                                    "I'm facing a technical issue with my existing Jobvite account and need support.",
+                                    "Troubleshoot a login error on my existing Jobvite account",
+                                    "I\u2019m experiencing OAuth integration failures on my Jobvite account and need troubleshooting.",
+                                    "I can\u2019t access my account and need help troubleshooting my login.",
+                                    "Troubleshoot login issues with my existing Jobvite account when attempting to post a lab assistant position."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, invoicing, and account questions, press 2.",
+                            "fileID": "43d8ef2bbf604f1eb9474ea3aeb3d359",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "31917d936fd545cc9c4ad2229ade7b67"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "16c024d6cdc948b1bd19f90b0be0ebf1",
+                                "navigationGoals": [
+                                    "I have a question about my Jobvite billing and invoice details.",
+                                    "Resolve a discrepancy on my latest Jobvite invoice",
+                                    "I need to review and understand my latest Jobvite billing invoice and payment terms.",
+                                    "I have questions about my latest invoice and billing charges.",
+                                    "Clarify a recent invoice charge and update the payment method for my student group\u2019s Jobvite subscription."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "789dbac37fab40cf91487a71bd9a71dc",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3ce08aea5ae44c84bd34c9fae111e9d9",
+        "navigationGoals": null
+    },
+    "id": "6d79fa73fb264c8b89e3d9bc10bbbcab",
+    "navigationGoals": null
+}

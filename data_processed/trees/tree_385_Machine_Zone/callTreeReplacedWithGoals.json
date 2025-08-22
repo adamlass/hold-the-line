@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Machine Zone in South Bay, where we are changing the way the world experiences games.",
+            "fileID": "abadf6dddebb44018f5fb529a3a971b9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for player support.",
+                "fileID": "5cb17c381db746439840268969725559",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for technical support.",
+                            "fileID": "b947c102446f4e5fbda98aed6c4a39d2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All technical support agents are currently assisting other players. Please hold, and we\u2019ll connect you shortly.",
+                                        "fileID": "ad148d940ef546e08ec9896403e8de02"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "70bd2c91a9f34607bac79a9f831456a4",
+                                "navigationGoals": [
+                                    "Fix frequent game crashes on Android",
+                                    "As an ex-military veteran, I\u2019m experiencing game crashes and losing my progress.",
+                                    "Troubleshoot my client\u2019s segmentation fault on game launch by analyzing the crash dump and driver logs.",
+                                    "I\u2019m having trouble opening my game and need step-by-step help.",
+                                    "I\u2019m having crashes when I load the physics simulation level in the game and need technical assistance."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for account and billing inquiries.",
+                            "fileID": "ccafd929f5714291bffdd4dd47704d81",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our account and billing specialists are helping other players right now. Please hold, and we\u2019ll connect you shortly.",
+                                        "fileID": "d3127f2c9cc94d01a89c50b71c7878b2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "35a4b0f5c0c14523a6ebc21a4ef9e806",
+                                "navigationGoals": [
+                                    "Resolve a double charge on my billing statement",
+                                    "As a veteran, I need help getting a refund for an unauthorized in-game charge.",
+                                    "Audit my in-game purchase transactions and update the stored credit card token via your billing portal API.",
+                                    "I don\u2019t understand a recent billing charge and need assistance.",
+                                    "I noticed I was double-charged for an in-game currency purchase and need help resolving the billing issue."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "be3a96c3f41c4fc28b750b749791f428",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for corporate services.",
+                "fileID": "fdefde7b4e2e4daa91d1acf2d2c5d0d8",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for media and partnership inquiries.",
+                            "fileID": "08d03a3712d94f38905dd36764dbe234",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our media and partnership team is currently on another call. Please hold, and we\u2019ll connect you shortly.",
+                                        "fileID": "10e8dc93889845b69be2734f0cda1261"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7c68704546354f49805f0f714885be39",
+                                "navigationGoals": [
+                                    "Get details on a media partnership opportunity",
+                                    "As an ex-military veteran, I want to discuss a media partnership to promote veteran support in your game.",
+                                    "Obtain your press kit and discuss integrating your game\u2019s streaming API into our platform for a co-marketing partnership.",
+                                    "I\u2019d like to set up an interview for my senior gaming newsletter.",
+                                    "I represent my university\u2019s physics club and would like to discuss partnering with Machine Zone on an educational campaign."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for career opportunities.",
+                            "fileID": "281e2ea096414f49b4a0a40ad6e7ae13",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest in careers at Machine Zone. Please hold, and one of our talent specialists will be with you shortly.",
+                                        "fileID": "a86e6c64f9dd4a899adac38fdbe819eb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c6fc25f49edb47be894293737a21a265",
+                                "navigationGoals": [
+                                    "Check status of my engineering job application",
+                                    "As an ex-military veteran, I\u2019d like to explore career opportunities for veterans at Machine Zone.",
+                                    "Check the status of my application for the Senior DevOps Engineer role and learn about your microservices architecture.",
+                                    "I want details on part-time support positions and how to apply.",
+                                    "I\u2019m a physics student interested in internship opportunities in your physics simulation or game development team."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "58b08c8f696344dd9689f463175c3842",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a5f3b03379694131909510d6a73776a6",
+        "navigationGoals": null
+    },
+    "id": "06df0106737b4e5ba474dd275c2c7a5a",
+    "navigationGoals": null
+}

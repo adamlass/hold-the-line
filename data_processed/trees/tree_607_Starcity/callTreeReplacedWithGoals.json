@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Starcity, where comfortable community living thrives in San Francisco.",
+            "fileID": "e94e6660d3c44ee488b2c74c9de430c0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on availability or to schedule a community tour, press 1.",
+                "fileID": "80f92241b7334f788a330ff2a9896946",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check current availability of our shared apartments and studios, press 1.",
+                            "fileID": "8904b42b3e934ab2b81e237cd3cc84be",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our leasing specialist for availability details.",
+                                        "fileID": "f173c076a6f24faf8a884d310e5ff47b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5b0a9bcf4f854edd819982b570ebc78c",
+                                "navigationGoals": [
+                                    "Find out which shared studios are free starting next month.",
+                                    "Check which Starcity studios or shared apartments are currently available for move-in",
+                                    "Pull up current availability of one-bedroom studios with gigabit-speed Wi-Fi",
+                                    "I\u2019d like to find out if you have any available senior-friendly studio or shared apartments right now.",
+                                    "I\u2019d like to see what shared studio apartments are available for a September move-in."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a tour of a Starcity community home, press 2.",
+                            "fileID": "1fba7ce0e39c459cbd33ec2c0bc6b3e9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our tour coordination team.",
+                                        "fileID": "cdbe3dc1ea4e48fcb97724d1fed69322"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2797e1ed38a44a5b9ac7774c2a3712c3",
+                                "navigationGoals": [
+                                    "Schedule a visit to tour a Starcity community home.",
+                                    "Schedule a community tour of a Starcity apartment in San Francisco",
+                                    "Schedule an on-site community tour next week and request a VR walk-through link",
+                                    "I need to schedule a tour of the San Francisco community next week, preferably in the morning.",
+                                    "I want to arrange a guided tour of one of the Starcity community homes near my university."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "10ec7d5d0820454facbc91807407d6f3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For resident services and account support, press 2.",
+                "fileID": "f4bc011edd72422ab452e92a5551f548",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For maintenance requests or repairs, press 1.",
+                            "fileID": "09a5e39675964af38e4408ecfee706e3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our maintenance team.",
+                                        "fileID": "fe5005c7f9de424abddf0949809491c9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3237e2fe77a1436295eaff632c7c3ccc",
+                                "navigationGoals": [
+                                    "Report a leak and request a repair in my unit.",
+                                    "Submit a maintenance request for a repair issue in my unit",
+                                    "Log a maintenance ticket for my unresponsive smart thermostat",
+                                    "I\u2019d like to request a maintenance visit to fix the dripping faucet in my apartment.",
+                                    "I need to report a leaking shower in my apartment and schedule a repair appointment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, payments, or account questions, press 2.",
+                            "fileID": "de936a660b474ddb9dbe0f63bda2abd6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing department.",
+                                        "fileID": "225e2f19f61a487b8e9830aba2f839f5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9e23e2a1ae314a39a31aeb531459f9ed",
+                                "navigationGoals": [
+                                    "Verify my rent payment and discuss a billing question.",
+                                    "Ask questions about my rent bill and payment options",
+                                    "Check my latest rent charge and enable credit-card autopay",
+                                    "I have questions about my recent rent statement and need help understanding my bill.",
+                                    "I have a question about my latest rent invoice and would like to confirm the payment details."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "67635751dd6f42ed8142263301a67f89",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "20b2bf3d01334d0a96e79cd7b1c9b6cb",
+        "navigationGoals": null
+    },
+    "id": "f5bbfc886367420c800a1b759ebeeb5d",
+    "navigationGoals": null
+}

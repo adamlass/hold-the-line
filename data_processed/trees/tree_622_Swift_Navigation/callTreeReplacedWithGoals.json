@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Swift Navigation, based in San Francisco, providing dual-frequency RTK GNSS solutions for autonomous vehicles.",
+            "fileID": "a5829406f4e34ec8a950739420a8a1a6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our dual-frequency RTK GNSS solutions, press 1.",
+                "fileID": "57ff117fe4e54d3d8ba32872dc0e3515",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For specifications and integration details, press 1.",
+                            "fileID": "f949ad51c1e440979c519854f4d9541b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the technical details for you.",
+                                        "fileID": "1f6e955d7db044a3a2a3a50bde28cf51"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d6de58b928f04366b2e1a56b74e8bf70",
+                                "navigationGoals": [
+                                    "I need the technical specifications and integration guidelines for your dual-frequency RTK GNSS system.",
+                                    "I need the detailed integration specs for your dual-frequency GNSS unit to outfit my tactical drone.",
+                                    "Access the detailed technical datasheet and integration guidelines for Swift Navigation\u2019s dual-frequency RTK GNSS receiver.",
+                                    "I need the detailed technical and integration specifications for your dual-frequency RTK GNSS solution.",
+                                    "Could you send me the detailed technical specifications and integration instructions for your dual-frequency RTK GNSS modules?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing and quotes, press 2.",
+                            "fileID": "749ec7a2b88a4addb85779f29714d7b4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales department.",
+                                        "fileID": "feb8ea8b5b134664befc10be4690f1c2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e080ac2042b74258b0eb5574cf4afc33",
+                                "navigationGoals": [
+                                    "I want pricing details and a formal quote for the dual-frequency RTK GNSS solution.",
+                                    "I'd like a price quote for purchasing multiple GNSS modules for my veteran-led convoy project.",
+                                    "Obtain a customized pricing quote and volume discount for Swift Navigation\u2019s dual-frequency RTK GNSS modules.",
+                                    "I\u2019d like a pricing quote for your dual-frequency RTK GNSS system.",
+                                    "I\u2019d like to request a formal quote, including unit pricing and volume discounts, for your dual-frequency RTK GNSS receivers."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "55af9bb7aa2e4635a075958466de50ff",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and logistics services, press 2.",
+                "fileID": "84d72b1800184b7480a3505facc86ed4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For autonomous vehicle integration support, press 1.",
+                            "fileID": "76b682370ba54f6697c3f90ba77115a2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience; connecting you to an integration specialist.",
+                                        "fileID": "f8463aedc8074a17a494fb5c3d8d7920"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "234b970b8dc94f2f938e806c32fcee63",
+                                "navigationGoals": [
+                                    "I need assistance from a specialist to integrate your RTK GNSS into our autonomous vehicles.",
+                                    "I need technical assistance connecting your navigation system to our converted military supply vehicle.",
+                                    "Get remote technical support to troubleshoot integration of the RTK GNSS unit with our autonomous vehicle control system.",
+                                    "I need help integrating your GNSS system into my autonomous vehicle.",
+                                    "I need assistance setting up and calibrating your RTK GNSS system within my autonomous vehicle prototype."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For fleet tracking and logistics inquiries, press 2.",
+                            "fileID": "2d7653b61c5e4beaa181c9019c85ace2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our logistics support team.",
+                                        "fileID": "7ca6733242874b619331cb07616c84c6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3c783a2b5fff49a6800afb479428ea04",
+                                "navigationGoals": [
+                                    "I want to set up fleet tracking and logistics services using your RTK GNSS platform.",
+                                    "I need help setting up real-time fleet tracking for our vehicle logistics operation.",
+                                    "Set up fleet tracking and logistics monitoring using Swift Navigation\u2019s RTK GNSS platform for our vehicle fleet.",
+                                    "I want assistance setting up fleet tracking and logistics management.",
+                                    "I\u2019m looking for information on fleet tracking features and logistics support for deploying multiple GNSS units."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "340002c98e164b6084c5893b195ab057",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "318859a970d4431495af60f751ceacab",
+        "navigationGoals": null
+    },
+    "id": "a4faca94615142f097c336e6ea6ef3bf",
+    "navigationGoals": null
+}

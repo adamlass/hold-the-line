@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Mailgun, based in San Francisco, offering powerful APIs that let you send, receive, and track email effortlessly.",
+            "fileID": "30823ceb1a4548969a8a3d55d2010c82"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new account inquiries, press 1.",
+                "fileID": "1184f27fef9449068805899e96373539",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press 1.",
+                            "fileID": "c199b027153d4ff7b39cf505daa02e49",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "973c8b7135224db79e6911a8110df842"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a77df9f516614acfb76bdbc6ad71b7e5",
+                                "navigationGoals": [
+                                    "Speak with a sales rep about setting up a new Mailgun account for our team",
+                                    "I\u2019d like to speak with a sales representative about setting up an account for my veteran-run nonprofit.",
+                                    "Connect with a sales rep to discuss provisioning a new Mailgun API enterprise account.",
+                                    "I\u2019d like to speak with someone about setting up a new Mailgun account.",
+                                    "I\u2019d like to speak with a sales rep about setting up a new Mailgun account for our physics research group\u2019s newsletter."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For information on pricing and plans, press 2.",
+                            "fileID": "30efb73494b24164925e527292629c8d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we provide details on our pricing and plans.",
+                                        "fileID": "e4014ee854f64393b4e0719cabf41f60"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bcbbf35eeb5246cfb2d30c51d287c90f",
+                                "navigationGoals": [
+                                    "Get a detailed pricing breakdown to choose the right Mailgun subscription",
+                                    "I need details on your pricing plans and available nonprofit or veteran discounts.",
+                                    "Get a breakdown of Mailgun\u2019s pricing tiers and plan feature limits for high-volume email.",
+                                    "I need information on your available plans and their costs.",
+                                    "I want details on Mailgun\u2019s pricing tiers so I can pick the right plan for sending weekly lab reports."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "69616608ef3841d0b88047149105c845",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and account services, press 2.",
+                "fileID": "f868c41cf2ac41a29b9cf3a9194a6fed",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For API integration and technical assistance, press 1.",
+                            "fileID": "8da2e7cfb23e4ab2acd40a25ea6fc5b7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a technical support engineer.",
+                                        "fileID": "5e103e67125b4397b60eba7c53df9072"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "68c22c33ed3047be9b8659b286da41b5",
+                                "navigationGoals": [
+                                    "Connect with a technical engineer to integrate Mailgun\u2019s API into our application",
+                                    "I need technical assistance integrating the Mailgun API into my website.",
+                                    "Troubleshoot API integration errors with a technical support engineer.",
+                                    "I\u2019m having trouble integrating the email API and need technical help.",
+                                    "I need help integrating Mailgun\u2019s API with my Python script to automate email alerts for experiment results."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account management, press 2.",
+                            "fileID": "65b155e16665487cbd5f9ddae8385a16",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to the billing department.",
+                                        "fileID": "d56f6026072e41f79c49eb222752f794"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a66a1708a7544db782eabe1bbe0bbe8d",
+                                "navigationGoals": [
+                                    "Resolve a billing discrepancy on my latest Mailgun invoice",
+                                    "I want to resolve a billing issue and apply my veteran discount to my invoice.",
+                                    "Review my latest invoice details and update my billing payment method.",
+                                    "I have questions about my recent bill and need help understanding the charges.",
+                                    "I\u2019d like to update my billing info and review my current charges for our account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f5a341a0531c4ee6a78b71e8b16e6845",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "edeafb5da33f45a49161d833d76825a8",
+        "navigationGoals": null
+    },
+    "id": "5ca8666406d342939d20337c12cdf252",
+    "navigationGoals": null
+}

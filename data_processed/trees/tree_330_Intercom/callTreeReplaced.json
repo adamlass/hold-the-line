@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Intercom in San Francisco, your partner in modern sales, marketing, and support solutions.",
+            "fileID": "c2857ac332144a3aa17d42be29cf8542"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and marketing solutions, press 1.",
+                "fileID": "ccabf3cdc9db424bbdca25077f96d7bf",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product demos and free trials, press 1.",
+                            "fileID": "a3988d07e50241ac80d08f1d2521b359",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for product demonstrations.",
+                                        "fileID": "5276c7c253504f9484e206c6f93d956d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ca85762937c0428cb665b8d67526f53a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing and billing inquiries, press 2.",
+                            "fileID": "0eac26dd90ce438e9e5f9fe9abccca3f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and finance team.",
+                                        "fileID": "2d5f9fa973f64ccb96a8cd2a16f07ab7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64b9b147894743ebba4e558a99ba9559",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5b7802e2266b4e0d9180b006424981a4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and service, press 2.",
+                "fileID": "dc7d94b01e3547bb880525c22cc30555",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "84d9c89ec8c04d7bb5468682cd233858",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support specialists.",
+                                        "fileID": "f1be458a725e4644a83d60712ab249d7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "90f5e1e03cf0416e949727bfbe3d789f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account and subscription management, press 2.",
+                            "fileID": "63957b728dc44b9c8d678ac81ab4df88",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account services department.",
+                                        "fileID": "12af8146122a421999313fb1ecfd63db"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0a42bd913e0d48569d478fe60f45c028",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "74c36dfbb933458f978ce49119fe2753",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e955521ebeae45c988fa5ae3836b3316",
+        "navigationGoals": null
+    },
+    "id": "8701542125cf4d4c9f4668a1ad1aca1e",
+    "navigationGoals": null
+}

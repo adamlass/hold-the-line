@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Storenvy, your San Francisco-based marketplace to discover unique brands or build your free online store.",
+            "fileID": "9fb9e760bd5e4fa8a6abef2e3e5b5fb0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For shopping our curated selection of inspired goods, press 1.",
+                "fileID": "975853b440cb488cb0e41408248dfdd2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product inquiries and recommendations, press 1.",
+                            "fileID": "537c542756d640ccae500ded52699a87",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product specialist.",
+                                        "fileID": "1f0610d3bead427bbc2a97763c61eda7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "34d7dcc907b746d798ef9a483ecd0ef1",
+                                "navigationGoals": [
+                                    "Ask for product suggestions for a last-minute gift",
+                                    "I\u2019m looking for recommendations on rugged tactical backpacks for field use.",
+                                    "I\u2019m looking for detailed technical specs and compatibility info on a custom RGB mechanical keyboard with hot-swappable switches.",
+                                    "I\u2019m looking for a cozy handmade scarf and need some product recommendations.",
+                                    "Ask for advice on choosing a robust lab notebook for experimental notes"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For questions about an existing order or returns, press 2.",
+                            "fileID": "d55f3af76e9a4165882d7a1a95978f5a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order support team.",
+                                        "fileID": "503c91bce04a40eba493550f633f38fa"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b70e964564d54ee8ac50e85918ed0cd6",
+                                "navigationGoals": [
+                                    "Check my order status and initiate a return",
+                                    "I need to check the delivery status of my combat boots order and arrange a return if needed.",
+                                    "I want to track my recent order #12345 and initiate a return if it hasn\u2019t shipped on schedule.",
+                                    "I\u2019d like to check on my recent order and arrange a return.",
+                                    "Initiate a return for the lab coat that doesn't fit"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "98e4992c71f348d2bccb114461607eb4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To create or manage your free Storenvy store, press 2.",
+                "fileID": "759ae9e869934245a48e3956fe33de4c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To set up a new Storenvy store, press 1.",
+                            "fileID": "5e583f35ee5a4dc3963e6f6b1e9c6c41",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our onboarding team.",
+                                        "fileID": "807141aa8328421fab8bfec77fcb2bb9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b36e03692aa4438dacf9e3e8d5a743fd",
+                                "navigationGoals": [
+                                    "Set up a new online store quickly",
+                                    "I want to set up a new Storenvy store to sell custom military surplus gear.",
+                                    "I need to onboard a new Storenvy store, configure DNS records for my custom domain, and complete the setup workflow.",
+                                    "I need help setting up a new Storenvy store.",
+                                    "Create a shop for selling my physics-themed posters"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To manage your existing store and billing, press 2.",
+                            "fileID": "947218f03c104f73b3870fad046cc8b0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our merchant support.",
+                                        "fileID": "b2ac5ee91c34482294467e9efa9149d1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f70bf74837eb45769fa0471bac0bfe2d",
+                                "navigationGoals": [
+                                    "Update billing details for my existing store",
+                                    "I need to update my store\u2019s billing information and review my subscription plan.",
+                                    "I want to upgrade to the Pro plan, adjust my billing cycle, and update the payment method on file.",
+                                    "I want to update my store\u2019s billing and payment details.",
+                                    "Update the credit card on file for my existing store's billing"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "062136173c6a4d9b956786ce10c6a9af",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4a8ad6f7e44e4d0ba07af3bc490baf7b",
+        "navigationGoals": null
+    },
+    "id": "57c8304e421d486f937a4541e26417fe",
+    "navigationGoals": null
+}

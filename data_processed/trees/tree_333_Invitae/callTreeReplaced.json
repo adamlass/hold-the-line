@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Invitae in San Francisco, where genetic insights can change everything.",
+            "fileID": "85e47e14edd4449c939760a13b31147f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about test results and genetic counseling, press 1.",
+                "fileID": "2a34e1e3b0d64d668218667b23d46d4c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a genetic counseling specialist, press 1.",
+                            "fileID": "095f19a904e84eba8c47f18082002b40",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a genetic counseling specialist.",
+                                        "fileID": "4c3a945a2db047199db2fe9e76d4f3c2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "eb4c4c76da624df6bea96d232108a884",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For assistance with lab processing and technical support, press 2.",
+                            "fileID": "2b7a6f0f6833473b9bc6e3206dad83cf",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our lab processing support team.",
+                                        "fileID": "c83fa7b9ca694077b6fb943cb7ad2b62"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f4889c99eaad459aa52e85367c0a97f0",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7ecb3deb6dd54db894fa833fd6aeeaa3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For new test orders and account inquiries, press 2.",
+                "fileID": "4dbadda0046f49589236b2fd5c0ca329",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To place a new test order, press 1.",
+                            "fileID": "d0f1a34458b04f2e921f65dc7b2e2812",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to the new orders department.",
+                                        "fileID": "8a29555b339a49b7a85c1d09a1ff7a7e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7bb01e611bf14117b7808cad8a7130fb",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "20c622f1c1f74d108b04dd3035021393",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and account support team.",
+                                        "fileID": "ed5663331c9446949ebd5b484bc8f834"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bc39a3729a2b4a96a660a97f30a364ad",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ebc9860759a24055890e6b3d619aa64d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "161a628568d74fdba7262fdf3c155094",
+        "navigationGoals": null
+    },
+    "id": "2c62d9e9aa33479b8220a4d5c0e26888",
+    "navigationGoals": null
+}

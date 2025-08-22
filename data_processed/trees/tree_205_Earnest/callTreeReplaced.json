@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Earnest, where we combine innovative technology and personalized service to bring low interest loans to high potential people like you.",
+            "fileID": "c343dae3fd874587933e0fc3b764b9f4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you\u2019re an existing Earnest loan customer, press 1.",
+                "fileID": "9481713b63ce4efd9247d2259dce58a6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check your loan balance and due date, press 1.",
+                            "fileID": "e4771860a5b74291b5b0211d7e6acbeb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your account balance information.",
+                                        "fileID": "516ce0bef88f453e8cd3ea1b2deeca5e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "153c9981e5b24239b9d878dc7ac6cc45",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To make a payment or discuss payment options, press 2.",
+                            "fileID": "f99d62bc87d04f7189b24a913a20339a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our payment services team.",
+                                        "fileID": "15f105a371714620aec5a5af521922ae"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5baf48460dcb44339d735c78d7c9511f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f744016a89c64b80a5aff4a03d1b957f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you\u2019re looking to apply for a new low interest loan, press 2.",
+                "fileID": "7ad5c2db36ae42ddb5b44d942ff567d1",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our current interest rates and eligibility requirements, press 1.",
+                            "fileID": "9999903387774296b4f81ea644b7f265",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a specialist to discuss rates and eligibility.",
+                                        "fileID": "139a69693b0f4ea4af6273da850a1b4c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2cec18c0caed4d20aa9052ac1fb9fa9b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To start a new loan application with Earnest, press 2.",
+                            "fileID": "c2c2e02e522347e5a0a025e388e8607f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to begin your loan application.",
+                                        "fileID": "f852e2adcbb8435088de9c83da058207"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6a554ab077764c6f957f26df120bc522",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "77e66c382ef54005b42938c4521644e0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "fad55867d3ec45eda229bff2f9290102",
+        "navigationGoals": null
+    },
+    "id": "10d674d1eff04a358b45e2fa2253a6e7",
+    "navigationGoals": null
+}

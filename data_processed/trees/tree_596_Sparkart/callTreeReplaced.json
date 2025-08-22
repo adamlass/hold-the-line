@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Sparkart, your East Bay digital agency crafting beautiful interfaces, experiences, and products.",
+            "fileID": "c22addc1269945bd8135cc73a95e41b2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For design and user experience services, press 1.",
+                "fileID": "938a695d7e1b45f58eb42a1c19f6544a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss interface and visual design, press 1.",
+                            "fileID": "aee18379687f4aec81af825a4a0f79d7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our interface and visual design specialists.",
+                                        "fileID": "a6da62e23f60445daa4f32347ea21016"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6735fc2aab204e31ab314563e8d82a6e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To explore user research and experience strategy, press 2.",
+                            "fileID": "1bfaa87704434cf7967f8ec7bed3a392",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our UX research and strategy team.",
+                                        "fileID": "d2950ebb6b1d42aabecece144d933b2b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7e85e21fb6e14b62aca631154bb2e4f5",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "09a1781249974803a5c0c6dd0f5c88e8",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For development, product builds, and project management, press 2.",
+                "fileID": "9b2dd0cf53594c34970b74b0d060a92f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our web and mobile development engineers, press 1.",
+                            "fileID": "f7a3fbe5e6a64ee899f38dea63075ea2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our development team.",
+                                        "fileID": "afcfe8c175134e6aafd8940af96de4d0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "257816f268954ae797f67f5251d21be0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To connect with project management and delivery, press 2.",
+                            "fileID": "b0ea03cdc4ef45d28a4b64afc64467fc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our project management team.",
+                                        "fileID": "f5d55219d19e4d8bb04f4baf082017ad"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6b89b203fcaf4937bbdf1525245d511f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fb7a8681e4b540f9a238cfc62c849108",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "15da21b8d975478aa6c0c1a8f824b572",
+        "navigationGoals": null
+    },
+    "id": "1f76ffee893d466fb82c024d7f88189a",
+    "navigationGoals": null
+}

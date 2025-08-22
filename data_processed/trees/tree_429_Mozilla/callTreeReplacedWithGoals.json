@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Mozilla in San Francisco, where we keep the Internet open and accessible for everyone.",
+            "fileID": "95d9a2e021314ebbb08176914b03418e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For developer resources and support, press 1.",
+                "fileID": "6270a22de153478688b04a8df5d1199b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To get help with Firefox Developer Edition, press 1.",
+                            "fileID": "636be0985c224b51abfb7941b8452af7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a developer support specialist.",
+                                        "fileID": "8efe18d12e4c402e8c7ddd650f12d44c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0e3f3ffb195348709df5dff87c54cee6",
+                                "navigationGoals": [
+                                    "Fix a crash issue in Firefox Developer Edition with a support specialist",
+                                    "I\u2019m developing a veterans support website and need help with Firefox Developer Edition.",
+                                    "I need to debug an extension compatibility issue in my Firefox Developer Edition setup.",
+                                    "I need help setting up Firefox Developer Edition on my home computer.",
+                                    "I need help configuring Firefox Developer Edition to run my WebGL physics simulations smoothly."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To access MDN Web Docs and API references, press 2.",
+                            "fileID": "37a309a559f444ec9caef87fd7da5c5b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the documentation help desk.",
+                                        "fileID": "bffe64b3475040818e2093bc1bc36bd9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "adf8690f75e54d48ba7ee1c21166c2cf",
+                                "navigationGoals": [
+                                    "Retrieve the web authentication API reference from MDN Web Docs",
+                                    "I need to access MDN Web Docs for API references for my JavaScript project.",
+                                    "I have a question about the WebSockets API example on MDN Web Docs.",
+                                    "I want guidance using MDN Web Docs to learn basic web development.",
+                                    "I\u2019m looking for the MDN Web Docs reference on the WebGL API for 3D rendering in my physics project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "507eb618c0a54ce4bc20ef1491a3e0c9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For information about Mozilla\u2019s mission and career opportunities, press 2.",
+                "fileID": "5c4221e29f114ffeb530641da9d8b67e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our mission and values, press 1.",
+                            "fileID": "696fd9f2e96c4745b89fc81b43315c66",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our outreach team.",
+                                        "fileID": "74d555e5867e4c5fbebe60945c4ca896"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1d9c6c92ae1b42ea93ff507de3c6fc6e",
+                                "navigationGoals": [
+                                    "Get a concise overview of Mozilla\u2019s mission and values",
+                                    "I want to learn about Mozilla\u2019s mission and values.",
+                                    "I\u2019d like details on Mozilla\u2019s open-source governance framework and advocacy.",
+                                    "I\u2019d like to learn about Mozilla\u2019s mission and values and how I can support their work.",
+                                    "I\u2019d like to learn how Mozilla\u2019s mission supports open science and web standards for research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To explore career opportunities at Mozilla, press 2.",
+                            "fileID": "0e893cfd4cbb4d57807de11a9338dcac",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our recruiting department.",
+                                        "fileID": "86bddf5802d1482da66d93b589861286"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "816fa8091d2945a9bb455be7a7d0ebee",
+                                "navigationGoals": [
+                                    "Learn about current engineering job openings at Mozilla",
+                                    "As a veteran, I\u2019m interested in exploring career opportunities at Mozilla.",
+                                    "I want to inquire about the Senior JavaScript Engineer position on the Firefox performance team.",
+                                    "I\u2019m interested in exploring career opportunities at Mozilla, especially for someone my age.",
+                                    "I\u2019m interested in exploring internship opportunities at Mozilla\u2019s developer department."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1483be4c4d414baea23e3e977dc6465d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5f70e0c8dce74da1a5c7611ca22e9842",
+        "navigationGoals": null
+    },
+    "id": "b51b1d212c6d4c8dbf1c580163b86538",
+    "navigationGoals": null
+}

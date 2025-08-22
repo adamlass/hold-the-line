@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Quip in San Francisco, where we help teams work together faster and get more done.",
+            "fileID": "32968cb528ed4eb2adb93b5dad928705"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "f95fca326a844d1c9ff2b375a3eeebb9",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a live product demo, press 1.",
+                            "fileID": "8be19ee9fa6440509a13a5d2c233fd98",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product specialist.",
+                                        "fileID": "cb5a05c7b0314dc08b8662e7e6fd42c7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "65e0c16877bd478191acf7442dc191ee",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a live product demo to see how Quip can speed up our team\u2019s workflow.",
+                                    "I\u2019d like to schedule a live demo of Quip\u2019s collaboration tools to help coordinate my veteran support group.",
+                                    "Schedule a deep-dive demo of Quip\u2019s API integration and collaboration features.",
+                                    "I\u2019d like to schedule a live product demonstration so I can see how Quip works step by step.",
+                                    "I want a live demo of Quip\u2019s collaborative note-taking features for our physics research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing and licensing, press 2.",
+                            "fileID": "ac785bbf47594bd791a02b32f2c2f6df",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our pricing team.",
+                                        "fileID": "10bbcea17c5e464a98889063a52916dd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f71796b024e248669698cfe0285d39a9",
+                                "navigationGoals": [
+                                    "I need detailed pricing and licensing options to evaluate Quip for my department.",
+                                    "I need details on Quip\u2019s pricing tiers and whether there\u2019s a discount for military veterans.",
+                                    "Discuss enterprise licensing tiers and volume discount pricing for Quip deployment.",
+                                    "I need clear information on Quip\u2019s pricing tiers and licensing options.",
+                                    "I\u2019d like information about academic pricing and licensing options for students."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cb6c2fd851444de9b4bcb71b570615f3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "2c8759bbd51c4dbdb4dbc8d2da5ac790",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are an existing customer and need technical support, press 1.",
+                            "fileID": "adc7763302804fd9b5bd5d3a09a11d5a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "bfeb19c70d97424aa8c017192f509f5f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c7735ec55b744763a1889f4ea0a68266",
+                                "navigationGoals": [
+                                    "I\u2019m an existing customer experiencing a sync error and need technical support.",
+                                    "I\u2019m having trouble accessing our shared veteran outreach documents and need technical assistance.",
+                                    "Troubleshoot a failed API call in Quip's integration environment.",
+                                    "I\u2019m an existing user and need technical help setting up or troubleshooting the app.",
+                                    "I need technical support with syncing my lab report documents in Quip."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "06a5b8839d644846a9b2b6f67c91b25b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "5132e5fa3cbd4600bf0959383395a435"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0838f9d4177340b9866a53b344e987c6",
+                                "navigationGoals": [
+                                    "I have a billing inquiry: I need to review my latest invoice and update my payment method.",
+                                    "I want to review my latest invoice and update my payment method for my Quip subscription.",
+                                    "Review and adjust my Quip subscription billing and usage metrics.",
+                                    "I need help understanding my recent bill and the charges on my account.",
+                                    "I want to inquire about my billing statement and update our account payment method."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0eb16c73c91f48d5a8255d2227ce9466",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6d088be2842e401f8f90d412739eef97",
+        "navigationGoals": null
+    },
+    "id": "de84236483e342efb0b0a8556a06c63d",
+    "navigationGoals": null
+}

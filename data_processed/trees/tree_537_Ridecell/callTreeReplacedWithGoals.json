@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Ridecell in San Francisco, the world\u2019s most intelligent mobility platform.",
+            "fileID": "0341e28109e8485496caff21bb6e6b2e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales, partnership opportunities, and account setup, press 1.",
+                "fileID": "0e526384be6d4fd988851a6bf602566c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you\u2019re interested in fleet management solutions, press 1.",
+                            "fileID": "d37b8f85acbd4fd4a434376fed377dcc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a fleet management specialist.",
+                                        "fileID": "0dd8605e137a4e338a7d3114eadc22ec"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2237027abb0a456a9b4e0620b3c7c1c0",
+                                "navigationGoals": [
+                                    "I need to discuss setting up Ridecell\u2019s fleet management solution for our company vehicles.",
+                                    "I want to set up and manage a fleet for my veteran-focused transport service.",
+                                    "I need to discuss deployment architecture for Ridecell's fleet management across our electric scooter network.",
+                                    "I\u2019m calling to set up a small vehicle fleet for my senior center and need help with the account setup.",
+                                    "I want to set up a fleet management account for my university\u2019s autonomous drone research project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "If you\u2019d like information on pricing and custom quotes, press 2.",
+                            "fileID": "f4dbd5fe55cf4af6bef85cf5cc233778",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we route you to our pricing and quotes team.",
+                                        "fileID": "8c6c41569adf4cdcbd18b3a43d73ce92"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8a3d4be1914d47cf9e38ace0b7b9cd7a",
+                                "navigationGoals": [
+                                    "I\u2019d like to get a customized pricing quote for deploying Ridecell across our operations.",
+                                    "I\u2019d like pricing details and a custom quote for the fleet management solution I need.",
+                                    "I need a custom pricing quote for scaling our autonomous shuttle fleet with dynamic pricing capabilities.",
+                                    "I\u2019d like to get a cost estimate for your fleet management service tailored to a small operation.",
+                                    "I need a custom quote for using Ridecell\u2019s platform in our campus microtransit pilot study."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8ffa5ef5b4cd4b1692bd8a363ba8eb8b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and service inquiries, press 2.",
+                "fileID": "046e021c0a40400f8f2d60f7b7b3fc7e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with platform setup or operations, press 1.",
+                            "fileID": "3df4eac2c4c04c5fab5161daa1ca6225",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line while we forward you to technical support.",
+                                        "fileID": "53f04d85b57046f6828b268dfaf2b381"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "485eda5f5d3e4d96ad52ae788ee88197",
+                                "navigationGoals": [
+                                    "I need assistance configuring and launching our Ridecell platform for daily use.",
+                                    "I need help configuring and launching the Ridecell platform for my operations.",
+                                    "I need help resolving Kubernetes deployment errors during our Ridecell platform setup.",
+                                    "Could you guide me through logging into and using the platform step by step?",
+                                    "I need help with platform setup to monitor test vehicle operations."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "If you have questions about API integration or developer support, press 2.",
+                            "fileID": "d57a7aafd28548b8b879eff47d7ca192",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for holding, we\u2019ll connect you to our developer support team shortly.",
+                                        "fileID": "7f6ea90e3b3a426999b4deb10d4c231d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "425d07221510464e8ffa4e6fd83dee54",
+                                "navigationGoals": [
+                                    "I need support integrating the Ridecell API with our existing backend systems.",
+                                    "I need developer support to integrate our custom app with Ridecell\u2019s APIs.",
+                                    "I need developer assistance integrating Ridecell's API via OAuth2 for real-time telemetry ingestion.",
+                                    "I need assistance connecting your API to my scheduling software, as I\u2019m not very technical.",
+                                    "I need assistance integrating the Ridecell API into our research simulation pipeline."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3a995610b8624344a28c0c5912e17991",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f9a92dd930764338b5faa44ac3f275f8",
+        "navigationGoals": null
+    },
+    "id": "411b8eb4df00470298dee63a21407425",
+    "navigationGoals": null
+}

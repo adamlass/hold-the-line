@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to CallidusCloud in the East Bay, empowering your teams with our award-winning Lead to Money suite.",
+            "fileID": "99085d723edd42999c740b43b4bda799"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales, Marketing, or Finance inquiries, press 1.",
+                "fileID": "a82bc4c287a94d048afda58e7c69c6cb",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our Sales and Marketing team, press 1.",
+                            "fileID": "2e4ffb016df1473d8dc58ecd4e779cf2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Sales and Marketing experts.",
+                                        "fileID": "a4d1cbd9bf7b4858a731fb73c5b4a7d2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "12c525eaea774707a0634073d809d7ec",
+                                "navigationGoals": [
+                                    "I need to configure lead scoring and campaign reporting for our marketing team.",
+                                    "I want to schedule a demo of your marketing automation tool and ask about veteran pricing.",
+                                    "I need to configure the API integration for our marketing automation in your Sales and Marketing module",
+                                    "I need to book a demo for your sales and marketing solution.",
+                                    "Inquire about pricing and student discounts for the sales and marketing suite"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with our Finance specialists, press 2.",
+                            "fileID": "0aafa8f3e1bc4e36a909b823c97f02cc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Finance team.",
+                                        "fileID": "498d64e2e8fb428f9a0b8a1c6418c22b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8d71695c5fb647aabf1df4f2fdca0525",
+                                "navigationGoals": [
+                                    "I need to clarify our billing details and update the payment method.",
+                                    "I need to clarify the charges on my last invoice and request any veteran discounts I may qualify for.",
+                                    "I want to automate revenue recognition and billing workflows in the Finance suite",
+                                    "I have a question about a recent invoice I received.",
+                                    "Discuss billing details and payment options for a student license"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "75b444e322cf400a9841c24485675d16",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For HR or Legal support, press 2.",
+                "fileID": "49a6f86cb27b443b88410fed30f35301",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our HR representatives, press 1.",
+                            "fileID": "592c55e2c2d546f097a4d8651da4bf30",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our HR department.",
+                                        "fileID": "0655555dff844f78afcfc28a80546302"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1e9b985a315741db89305eade28369d8",
+                                "navigationGoals": [
+                                    "I need to onboard several new employees in the system and assign HR roles.",
+                                    "I\u2019m calling to inquire about job openings for veterans and learn how to apply.",
+                                    "Please help me provision SSO and role-based access for our HR team",
+                                    "I need help submitting my resume for a job opening.",
+                                    "Ask about internship or part-time opportunities in the HR department"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with our Legal advisors, press 2.",
+                            "fileID": "95a67cfa02484ece9381422c736eb51f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Legal team.",
+                                        "fileID": "15daa08a081d4dc19f99f2b607ef062f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b6bcab958fe943e3aac1650642a5ee02",
+                                "navigationGoals": [
+                                    "I need to review the contract terms and discuss data compliance clauses.",
+                                    "I have questions about the liability and compliance terms in your service agreement.",
+                                    "I need to review the data compliance SLA and API usage terms with your Legal team",
+                                    "I need clarification on the contract's legal terms.",
+                                    "Clarify licensing terms and data privacy policies with the legal team"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "97243ab5931241519e0ee7e3c82b00db",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ceb459e229e841f18c161ae4dcaf44a7",
+        "navigationGoals": null
+    },
+    "id": "6bb43739f69d4dd586d020093a3e3d7c",
+    "navigationGoals": null
+}

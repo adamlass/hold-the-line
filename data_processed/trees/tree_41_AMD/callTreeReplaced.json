@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling AMD in South Bay, your trusted partner in advanced semiconductor solutions.",
+            "fileID": "e14f3cd0f5d5463981e9d546ea9b98d4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For product information and sales, please press 1.",
+                "fileID": "03a82bfe1d984aa5b6657dd26109187c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing and availability, please press 1.",
+                            "fileID": "2492ee16fc7c45139cbb9c472be09acd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing and availability team.",
+                                        "fileID": "2e9e664f1dc24c1d8a73836afc7fb777"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "40d15a3d96674d7786af3af019ca2cd3",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For order status and tracking, please press 2.",
+                            "fileID": "efe54c50bb484005b95d2ae8dcf68b67",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to order status support.",
+                                        "fileID": "fbdab8a4bbbc4efd89b3b2007a409aa4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d97fc3384d3048b981a2699282f57d80",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f61f5d4ecf6d425fb4cb85288453b816",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and troubleshooting, please press 2.",
+                "fileID": "56e1e80f75014881becdb2bdcea67bdc",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For driver and software support, please press 1.",
+                            "fileID": "f241d7c88d4f404a9822c5708d60530a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our driver and software support team.",
+                                        "fileID": "678d2cafa2dc4633985fa14b67f200af"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4f8fb8e0cd1f4bf6b9fc238eb8b566f6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For hardware diagnostics and RMA services, please press 2.",
+                            "fileID": "8cec372100284a51815cb9b3adf4972c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to hardware diagnostics.",
+                                        "fileID": "644afd8bc66e49b9a25ba64a0ec30da0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7bacfada9b184aa686ea8be7549e15b7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f71d841524964d089620d10e1a5e97ca",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ff4875d44b144c4e84019e6696cb6fba",
+        "navigationGoals": null
+    },
+    "id": "b233e6f1e9fa41d89168c119c156b834",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Zenreach in San Francisco, where we give you superpowers that supercharge your business.",
+            "fileID": "3ec5ab73e55a482cb3dbaf5d8f63109c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new partnerships, press 1.",
+                "fileID": "0121d364a7ac487f93e3339080b55fe3",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a product demo and learn about features, press 1.",
+                            "fileID": "61466654eba64cb5b127e8a643e0509b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a product specialist for your demo.",
+                                        "fileID": "1de643e9d37c48a3be93a15358c0b4e8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c6ee8fd542794e6c9c5931de1217d5ea",
+                                "navigationGoals": [
+                                    "Schedule a quick demo with a specialist to review product features.",
+                                    "I want to schedule a product demo to see how Zenreach\u2019s features can help boost foot traffic to my veteran-owned caf\u00e9.",
+                                    "I need to schedule a deep-dive product demo to evaluate API integration capabilities.",
+                                    "Could you guide me through scheduling a live demo of your product?",
+                                    "I\u2019d like to schedule a product demo to explore Zenreach\u2019s features in depth."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To get information on pricing, plans and subscriptions, press 2.",
+                            "fileID": "88d7917e2d814bcf8cf8fc96647d1d98",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our pricing and plans team.",
+                                        "fileID": "269d80b709554ee9a54249f007fff669"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2ced96aced61493c818889a36ea278a0",
+                                "navigationGoals": [
+                                    "Get pricing and plan details to choose the right subscription.",
+                                    "I\u2019d like to get detailed pricing and subscription options so I can budget Zenreach for my veteran-run nonprofit.",
+                                    "I want detailed subscription pricing tiers and plan features for enterprise scaling.",
+                                    "Could you explain your pricing and subscription options to me?",
+                                    "I need information on Zenreach\u2019s pricing tiers and subscription plans."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d25316ffdf4f47998ddfaa6149c4b301",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and account services, press 2.",
+                "fileID": "d44dc3d5312e42e0ba7462fcc74dae78",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical troubleshooting and bug reports, press 1.",
+                            "fileID": "0c325301787d4449863aa5e2cb62f351",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support experts.",
+                                        "fileID": "cee67e973fd04529893e71d2f14a9b38"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "26746ac6789447bc99e950461a7dc19f",
+                                "navigationGoals": [
+                                    "Troubleshoot a technical error I\u2019m encountering in my account.",
+                                    "I\u2019m experiencing errors when I log into my account and need technical support to troubleshoot.",
+                                    "I\u2019m troubleshooting an OAuth authentication error in the SDK integration.",
+                                    "I\u2019m having trouble with the service\u2014could someone help me troubleshoot it?",
+                                    "I\u2019m having trouble with the platform loading and need technical troubleshooting."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "db66f6a0a9234a0e923834fc12aa21dc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our account services team.",
+                                        "fileID": "83e25598e673407aa91715a44c7be3f0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "11868d8273994fda8903b759ac768f46",
+                                "navigationGoals": [
+                                    "Resolve a billing issue and update my payment information.",
+                                    "I need to review my latest invoice and update my payment method on my Zenreach account.",
+                                    "I need to reconcile my invoice details and update our corporate billing credentials.",
+                                    "I\u2019d like help reviewing my billing statement and updating my account.",
+                                    "I want to update my billing details and request my latest invoice."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "13c5021c010c4321b7a6b1525601ac6c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "63b1dd6c1f634f2cb715b77ea4ecc505",
+        "navigationGoals": null
+    },
+    "id": "994e6fbe467b4a30be0be951dc7b5463",
+    "navigationGoals": null
+}

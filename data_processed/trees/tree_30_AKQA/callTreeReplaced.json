@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling AKQA San Francisco, where through the imaginative application of art and science we create a better future with you.",
+            "fileID": "5a4000bb81e24c69b699c775a6b9a144"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our marketing and creative services, press 1.",
+                "fileID": "169005bb43134feabbd3f2d7dd79d2d2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For creative campaign development and design, press 1.",
+                            "fileID": "966d46f0231549bfb976e47506283241",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to one of our creative specialists.",
+                                        "fileID": "bd76c1b8fd044bb0bac52ee0e15a50b6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "efb0b740b3f8480589980790b955eed0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For digital strategy and user experience solutions, press 2.",
+                            "fileID": "e8a09ce9fd22414faa2184ee84b61772",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our digital strategy team.",
+                                        "fileID": "66d0824188b8439bb26a072ed40465bd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5f58d3b54ca24ad5aab8e232e3795dac",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "27bba1f1903347f6a10e2950daff9c35",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For career opportunities and general inquiries, press 2.",
+                "fileID": "2ed4c6d0e4174d74b7aa4e539751d4e9",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about current job openings, press 1.",
+                            "fileID": "2b2d4774c4f64c039b2648b78019ec59",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our recruitment team.",
+                                        "fileID": "8bb4df65f46440648d0c8f8e14d2da86"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f0479c24fbf343298f27493b2ad33046",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For general questions about AKQA and our services, press 2.",
+                            "fileID": "6e9bc15b99ba4a5488dbd30e84c0344c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we route your call to our information desk.",
+                                        "fileID": "afa5b28244004e6485518d88e631cab1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9aafcd326a4e40f2881ac746c1aec731",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "78bc13b8acef459784599c983239d30c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c360c19cdea34f5091a4f07f9e00be0a",
+        "navigationGoals": null
+    },
+    "id": "aa234490621245ec83b2ff48e701e87d",
+    "navigationGoals": null
+}

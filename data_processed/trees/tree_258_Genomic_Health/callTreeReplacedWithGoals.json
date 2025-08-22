@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Genomic Health Peninsula, where we transform cancer treatment decisions with clinically actionable diagnostics.",
+            "fileID": "59ec4acc42dd443b908f5be9ea4282f4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our genomic diagnostic tests and patient support services, press '1'.",
+                "fileID": "739747fab3e24b43a5a6a75f0a3faf9f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To order a test kit or schedule specimen collection, press '1'.",
+                            "fileID": "26a34654aa1d44ed9d792f2cc05af1c9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a patient services representative.",
+                                        "fileID": "099931dc6ab54d789be92bb1d44c23d9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7389319cb5154b1a92b3578ca0be2ef2",
+                                "navigationGoals": [
+                                    "Request a test kit shipment and schedule specimen collection",
+                                    "I need to order a home genomic cancer test kit and schedule my specimen collection.",
+                                    "Order a next-generation sequencing test kit and schedule specimen collection",
+                                    "I need to order a genetic test kit and schedule my sample pickup.",
+                                    "I\u2019m a physics student collaborating on a study; I\u2019d like to order a genomic test kit and schedule specimen collection."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To inquire about test results or patient support resources, press '2'.",
+                            "fileID": "ad0b3d3956304f7d8252009357725026",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our patient support team.",
+                                        "fileID": "a6a80a88ff114883a6bef1e437e698bd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ff61833671834c219250ffe23c7b532c",
+                                "navigationGoals": [
+                                    "Check the status of my test results and access support resources",
+                                    "I need an update on my recent genomic test results and guidance on patient support resources.",
+                                    "Request detailed interpretation of my genomic diagnostic test results and patient support resources",
+                                    "I want to get my test results and find out about patient support services.",
+                                    "I need to review my recent genomic test results and learn about available patient support resources."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "16603b30ba2c4f6ab62c2ec6fe8eb963",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For healthcare professional services and research partnerships, press '2'.",
+                "fileID": "7fa11ca2ddde469bb1b50fd66b4b65b2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To place clinician orders and access clinical guidelines, press '1'.",
+                            "fileID": "909b0b40ca5a4715b13945309d4ddc5a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our clinician support team.",
+                                        "fileID": "392dfdce9f2f45be9345019d59f88337"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e539701538db43729b19a4d7a78329f3",
+                                "navigationGoals": [
+                                    "Submit clinician orders and review clinical guidelines",
+                                    "I need to place a clinician order for a patient\u2019s genomic diagnostic test and access the related clinical guidelines.",
+                                    "Place a clinician order for a targeted cancer panel and access the clinical guidelines",
+                                    "I need to help my doctor place an order and access the clinical testing guidelines.",
+                                    "I want to place an order for a clinician-level genomic test and access the clinical guidelines for my project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For research partnerships and trial collaborations, press '2'.",
+                            "fileID": "ec4e39f4f85946e3b06b541ad9531e5e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our research collaborations department.",
+                                        "fileID": "f6cb95ad5a884e2596f39970aa6fbdef"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2aaa9f6f5df346a3b423d0b13cfe0388",
+                                "navigationGoals": [
+                                    "Explore a partnership for a clinical research trial",
+                                    "I want to discuss a research partnership opportunity with the genetic oncology research team.",
+                                    "Initiate a research partnership for a breast cancer genomic trial collaboration",
+                                    "I'm looking for information on joining a research trial and collaborating on studies.",
+                                    "I\u2019m exploring research partnership opportunities in genomic diagnostics for my physics research."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5edf666d53e048e0923d08ff0b5607fa",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4ba29428329c40cca3d4770dbdf57252",
+        "navigationGoals": null
+    },
+    "id": "808f8c3d18ec42e28ce998bd8ec795b3",
+    "navigationGoals": null
+}

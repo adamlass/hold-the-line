@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling No Means No Worldwide in San Francisco, where we work to create a rape-free world.",
+            "fileID": "8aee2ba96d1b4463b62e91885245c0b0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our educational programs, press 1.",
+                "fileID": "060ed7775fbc4c909b3765b38d93816e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our elementary school curriculum, press 1.",
+                            "fileID": "0d27d3f0c3734cf9ae5a269565750e34",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our education team for elementary programs.",
+                                        "fileID": "ab87abf7487e4784b5b7f322f364b1f8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f138e70f43534fd6bd69d81512cfec3e",
+                                "navigationGoals": [
+                                    "I\u2019d like details on schedule and pricing for your elementary school curriculum",
+                                    "I\u2019d like to get information on your elementary school curriculum so I can propose it at our local military base school.",
+                                    "I need to speak with the elementary curriculum team to get API documentation for your e-learning modules.",
+                                    "I need details on your safety lessons for elementary-age children.",
+                                    "I'm interested in your elementary program\u2014could you send me the curriculum outline and explain the core learning objectives?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To hear about our self-defense workshops, press 2.",
+                            "fileID": "70f78d85788b4a798c53fe2045cde179",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our self-defense workshop coordinator.",
+                                        "fileID": "209ab6f18f66481fb61640e8ea2bf37a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aed9384f6ba840048114cbc4a15ed518",
+                                "navigationGoals": [
+                                    "I want to schedule a self-defense workshop for my team next month",
+                                    "I want to sign up for an upcoming self-defense workshop to sharpen my skills as a veteran.",
+                                    "I want to connect with the self-defense workshop coordinator to obtain the iCal feed or scheduling API for your upcoming sessions.",
+                                    "I\u2019d like information on how to enroll in a self-defense workshop.",
+                                    "I'd like to enroll in an upcoming self-defense workshop; can you tell me the schedule and techniques covered?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "45ff9738fab04b76b0d683e2633b86f8",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To find out how you can donate or volunteer, press 2.",
+                "fileID": "4577c0f1b39641e0a74a311ef54db4d7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To make a donation to support our mission, press 1.",
+                            "fileID": "de5a6103ebed4ebea7f0ce5ccd4d939e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your generosity. Please hold while we transfer you to our development team.",
+                                        "fileID": "c54e03c1dd994af0a95c2b711d921342"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1053020828fa4e9a839e49bc636743cf",
+                                "navigationGoals": [
+                                    "I\u2019d like to make a one-time donation today and get a tax receipt",
+                                    "I\u2019d like to make a donation to support No Means No Worldwide\u2019s programs.",
+                                    "I\u2019d like to set up a recurring donation via your online payment gateway (e.g., Stripe integration).",
+                                    "I want to make a donation to support your mission.",
+                                    "I want to make a one-time donation by credit card and receive a tax receipt for my contribution."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To inquire about volunteer opportunities, press 2.",
+                            "fileID": "30648fda18af4eed973789d61fa0c7bc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest in volunteering. Please hold while we connect you to our volunteer coordinator.",
+                                        "fileID": "4d77780033a144178c493e129a8a0819"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "71b0ed369e11473dab79b1855a1a826d",
+                                "navigationGoals": [
+                                    "I\u2019m looking for weekend volunteer opportunities at your San Francisco office",
+                                    "As an ex-military veteran, I\u2019m interested in volunteering with your organization and need details on how to get involved.",
+                                    "I\u2019m interested in volunteering as a developer\u2014can I discuss contributing to your open-source e-learning platform?",
+                                    "I\u2019d like to volunteer\u2014what roles are available?",
+                                    "I wish to volunteer\u2014please let me know what roles are available and what training is required."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6def4062dd9b4d908af6f1f644d69fae",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a64711f047ce40bb8843250190559692",
+        "navigationGoals": null
+    },
+    "id": "c55b2f87f65a442cbe55fec29de5ad10",
+    "navigationGoals": null
+}

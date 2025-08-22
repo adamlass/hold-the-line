@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Mashery, your API management partner powering digital transformation.",
+            "fileID": "ee4e2a6f9429421bbfa23cda8d584bed"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our sales and product team, press 1.",
+                "fileID": "f861b8e2583e498d8314fbf3c7807a42",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing and quote requests, press 1.",
+                            "fileID": "d7f8440878744a2c8a7f29e2576a58ca",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Mashery sales representative.",
+                                        "fileID": "6c73a85faa444ab79d9b9e3d5184a0ad"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1164e58c31634fca9fa5c0d50fe3b578",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For product demos and API trials, press 2.",
+                            "fileID": "e82a0c7e21a74d31bfc06b329fa3c818",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our demo specialist.",
+                                        "fileID": "59b300e466274ca4a2f6aa0b0a7a15c5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7561301d56f14c7b8724e09370f7da50",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "89e28696199a4f27b0e7fac771e10735",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and account services, press 2.",
+                "fileID": "360759c3f9ea4903a7ceb08b9a1af466",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and API performance issues, press 1.",
+                            "fileID": "467a1aa854624c31b069e89cba8a9488",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we route your call to our technical support team.",
+                                        "fileID": "27aba39da26b4592bbb0a36e3e8b4398"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c0253a8ff8814599ad78cfb2e8e415b4",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "4623e3f83eed499b894a99664398cd89",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our account services team.",
+                                        "fileID": "e91dffb914d64b84b073a1dd1fcdec48"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e2d50abb9778489f912f0e6ea8780f54",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c1d4d44a562e4d7c9f3746aa49c4fd28",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "782cde83ce664607acd4b6e0bff9d334",
+        "navigationGoals": null
+    },
+    "id": "8e23f7fe01db41479e9e21707e240aef",
+    "navigationGoals": null
+}

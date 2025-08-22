@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Remix in San Francisco, the platform for designing your city\u2019s transportation future.",
+            "fileID": "09045c029a584d92bcd9942066944ab1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and government partnership inquiries, press 1.",
+                "fileID": "50cb38a7005942a39ded9f979721335a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo of the Remix platform, press 1.",
+                            "fileID": "4b2d9170d4564b659e6eb9ecf2774fe9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product specialist.",
+                                        "fileID": "27721cec36a4465d80976ed34e510266"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0084792ed8624019a2ceff0e343fc54f",
+                                "navigationGoals": [
+                                    "I need to schedule a personalized demo of Remix\u2019s transportation planning tools.",
+                                    "Schedule a product demo of Remix\u2019s planning tools for a veterans\u2019 nonprofit I\u2019m involved with",
+                                    "Schedule a deep dive demo of Remix\u2019s network analysis and scenario modeling features",
+                                    "I need help setting up a time for a guided walkthrough of the Remix platform.",
+                                    "I\u2019d like to schedule a personalized walkthrough of Remix to evaluate its features for my urban transport modeling project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss government and transit agency partnerships, press 2.",
+                            "fileID": "522299496fd64aa49b9545ab2f0f1007",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our partnerships team.",
+                                        "fileID": "6ca0632c0184405dbee468bf9ab3105d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "318d5ff48ec3451c92001064a0edce67",
+                                "navigationGoals": [
+                                    "I want to discuss forming a government or transit agency partnership with Remix.",
+                                    "Learn how to set up a partnership between my city\u2019s transit agency and our veteran support program",
+                                    "Discuss forming a transit agency partnership for API integration and data sharing",
+                                    "I\u2019d like to discuss partnering my city\u2019s transit agency with Remix.",
+                                    "I\u2019m coordinating a city transit research project at my university and want to explore a partnership with Remix."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "80e3ce0334a8473f9a3bb58926d8546e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and account services, press 2.",
+                "fileID": "45b23292a3ac4b92a5992a1d1bb55d86",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with our transportation planning platform, press 1.",
+                            "fileID": "9d6d399fd95e424a912b27c5733c0893",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "df5967b5fa5c4111b439ccb1445aa9e7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "56879811ce7a48ff89f22d1009bb8cd5",
+                                "navigationGoals": [
+                                    "I\u2019m having trouble with the planning platform and need technical support.",
+                                    "Get help troubleshooting an error I\u2019m seeing in the Remix transportation planning platform",
+                                    "Troubleshoot an error in the route optimization algorithm within the planning platform",
+                                    "I\u2019m having trouble getting the planning tool to load and need technical assistance.",
+                                    "I\u2019m encountering an error importing GIS data into the platform and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account questions or billing assistance, press 2.",
+                            "fileID": "f78d25c2ef794c5195cf49c756c1e789",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we direct you to our account services team.",
+                                        "fileID": "08c07d09466a4dd28ba79dcee3b61bef"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e3ecc630249546d8a5275defaa549850",
+                                "navigationGoals": [
+                                    "I have a billing question about my Remix account.",
+                                    "Update my billing information and clarify recent charges on my Remix account",
+                                    "Clarify our usage-based pricing metrics and resolve a billing discrepancy",
+                                    "I have a question about my billing statement and need help with my account.",
+                                    "I need clarification on my Remix subscription invoice and assistance with billing options."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2dd7872e40d645fd85b7a00e6305dfb5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "cd960e41388a4aef9a1a46e2c1fc855a",
+        "navigationGoals": null
+    },
+    "id": "399d2e80712940ecb401489a70589b78",
+    "navigationGoals": null
+}

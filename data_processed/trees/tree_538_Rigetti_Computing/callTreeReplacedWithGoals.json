@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Rigetti Computing in the East Bay, your gateway to quantum cloud services.",
+            "fileID": "ac4b987620194a1c8b3a98050285f00b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For quantum cloud service support, press 1.",
+                "fileID": "816313bd3f6e42ea8e9e451c168be181",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account setup and onboarding, press 1.",
+                            "fileID": "aea39d0d8f744575a459f930af070914",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our onboarding team.",
+                                        "fileID": "a4bf92b97a8d44918bd506d2fb110c38"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "db8b7aff3539448caac809e0d20ebeb6",
+                                "navigationGoals": [
+                                    "I need to complete my quantum cloud account setup and get onboarding instructions.",
+                                    "I\u2019m a veteran researcher and need help onboarding to Rigetti\u2019s quantum cloud platform.",
+                                    "I need help provisioning and onboarding my new Rigetti quantum cloud account, including API key integration.",
+                                    "I need someone to guide me step-by-step through creating and activating my quantum cloud service account.",
+                                    "I need to set up my student account to access the quantum cloud platform."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical assistance, press 2.",
+                            "fileID": "f15e96fca055433baedfb81da37ecde8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a technical specialist.",
+                                        "fileID": "9ea612cc7f1a427a8367af60f4b02e25"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "94d1beba0a374f5881647d45b2e442e3",
+                                "navigationGoals": [
+                                    "I need urgent technical assistance with my quantum computing service.",
+                                    "I\u2019m encountering errors running my quantum algorithms and need a technical specialist.",
+                                    "I\u2019m experiencing quantum circuit execution errors on Rigetti\u2019s cloud platform and need technical troubleshooting.",
+                                    "I\u2019m having trouble connecting to my quantum service and need help troubleshooting the issue.",
+                                    "I'm encountering an error while running my quantum circuit and need technical assistance."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2ea4154c9c114d1d990c9dd6a7198415",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To learn more about our quantum computing solutions, press 2.",
+                "fileID": "1d6bcb466cca49d99dcfa2e301ad6faa",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you have questions about pricing, press 1.",
+                            "fileID": "9bfd8a2b6ae84d74b13cb111d128f468",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we gather pricing information for you.",
+                                        "fileID": "d1403cf937b042a9ae73b0e820073e2d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "98971070ecc14438ab7fa6b6566cc218",
+                                "navigationGoals": [
+                                    "I need detailed pricing information for Rigetti\u2019s quantum cloud offerings.",
+                                    "I\u2019d like detailed pricing for quantum compute time to budget my defense simulation.",
+                                    "I want a detailed pricing breakdown for Rigetti\u2019s quantum compute time, qubit usage, and API call costs.",
+                                    "I\u2019d like to understand how much these quantum computing services will cost me.",
+                                    "I want to understand the cost structure for running experiments on your quantum processors."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "If you want to speak with sales, press 2.",
+                            "fileID": "c7fd357a6d654fe1bec5de47f1cd4b14",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales representative.",
+                                        "fileID": "259a511372c245b1859ad525acad9510"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "55a53c2d147c4d16a416e5abaf6b12fd",
+                                "navigationGoals": [
+                                    "I want to connect with a sales representative about enterprise package options.",
+                                    "I want to speak with a sales rep about enterprise plans for mission-critical quantum projects.",
+                                    "I\u2019d like to speak with a sales rep about enterprise-level quantum computing service packages and SLAs.",
+                                    "I want to speak with a sales representative to discuss which quantum service plan is best for me.",
+                                    "I'd like to speak with someone about purchasing access or educational licensing options."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4daa7c0ddb354d8993420213cfff2369",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "50ba242019e242c1a39b951616c7e503",
+        "navigationGoals": null
+    },
+    "id": "791fc675552142fea8cd273e26bce1d8",
+    "navigationGoals": null
+}

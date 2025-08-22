@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Ceres Imaging in the East Bay, your partner for high-resolution spectral imagery services in agriculture.",
+            "fileID": "563c7e74dd7f4836b178753f22cf4341"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you would like to learn about our agricultural spectral imaging services or request a quote, press 1.",
+                "fileID": "c2fe9aebfafc4fabb5a9a09354ec0498",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a personalized imaging quote, press 1.",
+                            "fileID": "91db1ca4f06c4ff8809f3d55b01f392c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for choosing Ceres Imaging; please hold while we connect you to our sales team.",
+                                        "fileID": "339ff8dbb13a400d87269e27278eab35"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "35b8dfbb5f6a4ae28026246e15cd2350",
+                                "navigationGoals": [
+                                    "Get a personalized quote for high-resolution spectral imaging services on my farm",
+                                    "I\u2019m a veteran farmer looking to get a cost estimate for your crop imaging services.",
+                                    "I need a detailed quote for high-resolution multispectral imaging services with NDVI and crop-health analytics.",
+                                    "I need a personalized quote for agricultural spectral imaging on my property.",
+                                    "Obtain a personalized quote for multispectral imagery for my crop experiment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a site demonstration of our imaging solutions, press 2.",
+                            "fileID": "32841845599d401bb69b66cd7c54e0e8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a moment while we transfer you to a demonstration specialist.",
+                                        "fileID": "32706fbd4258472f9c0f2d2418772c99"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f134236d6d3f4ddba76871bb5fb3be78",
+                                "navigationGoals": [
+                                    "Schedule an on-site demonstration of Ceres Imaging\u2019s technology",
+                                    "I\u2019d like to schedule an on-farm demonstration of your spectral imaging technology.",
+                                    "I\u2019d like to schedule an on-site demonstration of your UAV-based hyperspectral imaging system over my fields.",
+                                    "I\u2019d like to schedule an on-site demonstration of your imaging services.",
+                                    "Schedule an on-site demonstration of your imaging system for my thesis research."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3d70141d4a494d4897c71dada961c9a4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an existing client and need assistance, press 2.",
+                "fileID": "912c66522fb84778a37aad0e5aab5fad",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For questions about your image delivery or account details, press 1.",
+                            "fileID": "764efdc88e884bcbbf255f658e210a9c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to customer service.",
+                                        "fileID": "03ef7cea40f44ebb9119efb639debfe9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a196fd3f5e8e435987500390b6d42fd5",
+                                "navigationGoals": [
+                                    "Check the status of my recent image delivery and billing",
+                                    "I need information about my recent image delivery and billing details.",
+                                    "I\u2019m an existing client\u2014please check the delivery schedule for my processed spectral datasets and review my account invoice.",
+                                    "I need to check my image delivery status and review my account details.",
+                                    "Inquire about the delivery status of my recent imaging order."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical assistance with processing or interpreting your spectral data, press 2.",
+                            "fileID": "04cad9852a244c8783337b8ce73b3024",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our technical support experts.",
+                                        "fileID": "4a9beb6a24f14dd7809f1a1799c7b3c5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4e541f25d51443efac73b90297201967",
+                                "navigationGoals": [
+                                    "Get technical help processing and interpreting my spectral data",
+                                    "I need technical help interpreting the spectral data we received.",
+                                    "I need technical support to calibrate, process, and interpret my raw spectral data into reflectance maps.",
+                                    "I need help processing and interpreting the spectral data I received.",
+                                    "Request technical support for processing and interpreting my spectral data."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c04c06cc5eea43fb82b5f7400f0aa797",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "766a64a9dc324370bfc1ce697ffdd9f4",
+        "navigationGoals": null
+    },
+    "id": "4a2d6910c68a409187f7cb77e72e4e97",
+    "navigationGoals": null
+}

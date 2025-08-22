@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Galvanize, the learning community for technology in San Francisco.",
+            "fileID": "b63e9c2b8ccf4735b935f1c6f8a3a03d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To inquire about admissions and program details, press 1.",
+                "fileID": "b4f5b5727b2e4e1c9cbcf84ece297baa",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our software engineering and data science courses, press 1.",
+                            "fileID": "d7a14662cca849fa95ff8e44be5eef2c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our program admissions team.",
+                                        "fileID": "959b899527f643c39d27c4fbeaccb702"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "99d29a65db66496ba1151a312f54198e",
+                                "navigationGoals": [
+                                    "Learn start dates and duration of the software engineering and data science programs",
+                                    "I\u2019d like to learn about the software engineering bootcamp schedule, prerequisites, and enrollment process for veterans.",
+                                    "I\u2019d like an overview of admissions requirements and the software engineering program curriculum.",
+                                    "I want to ask about part-time evening options for your software engineering course.",
+                                    "Ask about admission requirements and curriculum structure for the data science bootcamp"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For information on tuition, payment plans, and scholarships, press 2.",
+                            "fileID": "b825e72b2eec4096a14d7ed6e9acc4cd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our financial services department.",
+                                        "fileID": "df570926124740fa8f3abce352925087"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7799c24d4c814991a6a09039d021317b",
+                                "navigationGoals": [
+                                    "Find out available scholarship options and payment plan deadlines",
+                                    "I need information on tuition costs, payment plans, scholarships, and GI Bill benefits.",
+                                    "I need detailed tuition breakdown, payment plan options, and scholarship criteria.",
+                                    "I want information on senior tuition discounts and payment plan options.",
+                                    "Inquire about tuition costs, payment plans, and scholarship opportunities for the software engineering program"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "11e5eb84616a4dbdbbfe9a88d4b7e3dd",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For current student services and support, press 2.",
+                "fileID": "03c1a893752c4e29a4b7124146b61fd7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need assistance with your student account or classroom resources, press 1.",
+                            "fileID": "55405ae977ab4fe5b56f7b3e076f8b7f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our student support team.",
+                                        "fileID": "2d9ddc4889834c2687c89c0208ed7cc6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "595fe6aa83674a10a396c9ed9ebfbe72",
+                                "navigationGoals": [
+                                    "Resolve access issue with my student account to retrieve course materials",
+                                    "I\u2019m having trouble logging into my student portal and accessing my course materials.",
+                                    "I need to reset my student portal credentials and retrieve my classroom resources.",
+                                    "I need help accessing my student account to view my course materials.",
+                                    "Get assistance accessing my student portal and downloading course materials"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical help with our learning platform, press 2.",
+                            "fileID": "cab61cd61150487497684d6259dd13a4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "68d024edebc940a88279f994f3ffbb4a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "af00d65f1d4440d1a801ce5dffd7101c",
+                                "navigationGoals": [
+                                    "Fix playback errors on the online learning platform so I can resume my lessons",
+                                    "I need technical support for the online learning platform, such as troubleshooting video and code editor issues.",
+                                    "I\u2019m getting SSH authentication failures in the cloud lab VM and need technical assistance.",
+                                    "I\u2019m having trouble logging into the online learning platform.",
+                                    "Troubleshoot technical issues with the online learning platform environment"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "975df24d0e2a4463b7ab27f18ed56224",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c06eaddd8797408dbd0b43be2a49fc58",
+        "navigationGoals": null
+    },
+    "id": "6a99d2fe7f5147c8bc40c3b7a8c65e8c",
+    "navigationGoals": null
+}

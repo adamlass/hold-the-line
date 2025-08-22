@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to 15Five, empowering your team\u2019s performance and engagement through continuous feedback.",
+            "fileID": "3afc6cb60b5f4a6991dc045e6b6180d6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For support with 15Five features and account issues, please press 1.",
+                "fileID": "7149aa464cc34f1498d0c95c68ac057d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For assistance with performance reviews, check-ins, and engagement surveys, press 1.",
+                            "fileID": "046440bcef964872885833d12f03bc67",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "You\u2019ve reached our performance and engagement support team; please hold and we\u2019ll connect you to a specialist.",
+                                        "fileID": "4b4ecc55367e498a8e8d6b116dde7b48"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "324268a6475f4cbab4e7931177dade16",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support including integrations and troubleshooting, press 2.",
+                            "fileID": "228003c6c2154f848ce372efde87174c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our technical support team is here to help; please hold while we transfer your call.",
+                                        "fileID": "bf655ba65c8c4b338bd93fbc8b2f7319"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "05c505e6f0d14c99a3048690c10f6048",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "71f4e2a7adb2449bb001553a93a14b1e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To learn about our software, schedule a demo, or discuss pricing, please press 2.",
+                "fileID": "3e12644578a4419f8f84b099d472383f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a personalized demo of 15Five, press 1.",
+                            "fileID": "c0ceb6450adf45ca9603193f7ab706cc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest in a demo; please hold for a sales representative.",
+                                        "fileID": "073042e7d3134fcdbff6c88aa462d842"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8fee4efb2d44493c94da0155bb45dcc1",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For questions about pricing, plans, and contracts, press 2.",
+                            "fileID": "0e0cf557ad274a43bb2278c4fd76d1ae",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our sales team will be with you to discuss pricing and plans; please hold.",
+                                        "fileID": "cc341f4f43cb41bd93bed691b7be3ad5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fe3bad5905cd4e49959251bbed1c3a7e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7cb2baa6aa164622a0f76e5e8d5dde21",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8a5fcbb6406745c0a23749ff5468f4fb",
+        "navigationGoals": null
+    },
+    "id": "256a639c859f4073a8c523196339c580",
+    "navigationGoals": null
+}

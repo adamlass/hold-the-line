@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Say Media in San Francisco, where we power consumer media innovation through our Tempest publishing platform.",
+            "fileID": "1eb05d06859147cc8e6abea624a4adf9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our sales team, press 1.",
+                "fileID": "5079a319e186462680ed634db79fa5ac",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a platform demo and overview, press 1.",
+                            "fileID": "5be2189e16b94667bf1c411f37d3e36c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a Say Media sales representative for a Tempest demo.",
+                                        "fileID": "78bc0d2b41504b15ab60c78e30508243"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f1afeff3933743e48b81869567ec2d56",
+                                "navigationGoals": [
+                                    "I want to schedule a demo of the Tempest platform with a sales representative.",
+                                    "I want to schedule a demo of the Tempest platform to see how I could publish my veteran stories.",
+                                    "Schedule a deep-dive demo of the Tempest publishing platform, focusing on its CMS architecture and API integration capabilities.",
+                                    "I\u2019d like someone to walk me step-by-step through using the Tempest publishing platform features.",
+                                    "I'd like to schedule a comprehensive demo of the Tempest platform to evaluate its capabilities."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, subscription, and billing questions, press 2.",
+                            "fileID": "19621401a5df4cb1a7b4b55c79637328",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our pricing and subscription specialist.",
+                                        "fileID": "35e33f84ad9c4a9c835ac7f3c80a8c94"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cb094e4ee20d426390780dae9523619d",
+                                "navigationGoals": [
+                                    "I need detailed pricing and subscription options for the Tempest platform.",
+                                    "I need details on Tempest subscription plans and whether there\u2019s a discount for veterans.",
+                                    "Inquire about subscription tiers, API call quotas, and overage pricing for the Tempest enterprise plan.",
+                                    "I want to ask about the different subscription plans and pricing details for Tempest.",
+                                    "Could you provide me with the details on Tempest's subscription plans and pricing structure?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "52ec2a15a22744c0ac64477944d3affb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, press 2.",
+                "fileID": "90187502d0cd48b29fe4fa3b4b2c05c5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with Tempest, press 1.",
+                            "fileID": "485a6c6009b94d8d9b361b3423533e9f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our technical support team.",
+                                        "fileID": "1cf4d1f439c848ba8653e9c0298d7532"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5da00804692a4e90aa69db73daf8aebe",
+                                "navigationGoals": [
+                                    "I need help troubleshooting a technical issue with the Tempest platform.",
+                                    "I\u2019m having trouble logging into Tempest to upload my blog post; I need technical assistance.",
+                                    "Troubleshoot a 500 Internal Server Error in my Tempest API integration when pushing content, including OAuth token refresh issues.",
+                                    "I\u2019m having trouble with the platform\u2019s technical functions and need help resolving an issue.",
+                                    "I'm experiencing technical difficulties uploading content to Tempest and need support troubleshooting the issue."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "9692134c4f164d1497692e35f94348a2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing department.",
+                                        "fileID": "524d4f42c8da4e0eaccb07b22815d37c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2668a9fadb3f4d598070ea0e7355e5e4",
+                                "navigationGoals": [
+                                    "I want to review my billing statement and update my payment method.",
+                                    "I want to update my billing information and review recent charges on my account.",
+                                    "Update my credit card on file and obtain a detailed invoice with line-item breakdown of my Tempest usage charges.",
+                                    "I need assistance understanding my recent bill and how to update my payment information.",
+                                    "I want to review my latest invoice and confirm the status of my billing account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "87eab616b3fd4d53a1cda8aaa22a9403",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8b42b59d073a41b7b78d31a998621317",
+        "navigationGoals": null
+    },
+    "id": "9b4eab9cb7c04bb1bde7a79e08c5b0d5",
+    "navigationGoals": null
+}

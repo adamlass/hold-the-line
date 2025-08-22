@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to 2600Hz in San Francisco, where we're revolutionizing business communications.",
+            "fileID": "221ba3c7cc41403e9ab01e8cfe49c2c6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new account inquiries, press '1'.",
+                "fileID": "4789856329804bfaa2c446e72991dd89",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To connect with an account executive, press '1'.",
+                            "fileID": "5b728fe701d74b6ca8b83e821ed348af",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account executive.",
+                                        "fileID": "ab34e8d1cf9e488aabb81218e94b7cf8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5f616f6a2db94d80907df8e7f511aaf3",
+                                "navigationGoals": [
+                                    "Connect me with someone to set up a new business communications account.",
+                                    "I\u2019d like to speak with an account executive about setting up a new cloud phone system for my veteran-run nonprofit.",
+                                    "Discuss enterprise SIP trunk provisioning and licensing options with an account executive",
+                                    "I\u2019d like help setting up a new business phone account.",
+                                    "I\u2019d like to set up a new 2600Hz account for my university research lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For detailed pricing and plan options, press '2'.",
+                            "fileID": "32833ee466ef4a6f84d8db6c46eb0d89",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our pricing specialist.",
+                                        "fileID": "46a6755e2efa402ca65c418d74dc075b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2ba6d5e9b6174c929a546587b34d0d6c",
+                                "navigationGoals": [
+                                    "I need a detailed breakdown of your service plans and pricing.",
+                                    "I need detailed pricing and plan options to budget a small-team communications setup for my veteran business.",
+                                    "Get a detailed pricing breakdown for metered vs unlimited calling plans and bandwidth caps",
+                                    "I need someone to explain the available plans and pricing options.",
+                                    "Can you walk me through the pricing tiers and any available academic or student discounts?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "87db1366e3014b46954e104f257f13ec",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and troubleshooting, press '2'.",
+                "fileID": "d2470a098021433a93e5d5963cb418f7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For API integration and developer support, press '1'.",
+                            "fileID": "f22dd651ae374faaa18e3dc739d42a72",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a developer support engineer.",
+                                        "fileID": "fdc56700ff044dc8b1937b3407ccad5a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ca5e3c4f772242ef82be6134f2759eb8",
+                                "navigationGoals": [
+                                    "Help me integrate your API into our platform.",
+                                    "I want help integrating your telephony API with our veteran support chatbot platform.",
+                                    "Receive developer support for authenticating and provisioning resources via the 2600Hz REST API",
+                                    "I want guidance integrating the phone service API into my system.",
+                                    "I need help integrating your API into a Python script for our data-acquisition system."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For system status and general technical assistance, press '2'.",
+                            "fileID": "b64f36119f8849ec83a5adb398f939f3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our technical support team.",
+                                        "fileID": "3cc10c95f1a74996b7b7c5fc8f7d3c2d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f3e9ac4f024b42e59e5e383923851b78",
+                                "navigationGoals": [
+                                    "Check the current system status and assist with a technical issue.",
+                                    "I need to check my system status and resolve recent call quality and connectivity issues.",
+                                    "Check real-time system status and troubleshoot SIP registration and call quality issues",
+                                    "I\u2019d like to check my service status and get help fixing any issues.",
+                                    "Could you check the current system status and let me know if there are any ongoing service issues?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0eb7769edf5b4c5c9b291187a6cf981b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ea05d643dbfc47d0ae76e623267d2002",
+        "navigationGoals": null
+    },
+    "id": "d895a90b4c1b42d6a4b49f25c2df5ab5",
+    "navigationGoals": null
+}

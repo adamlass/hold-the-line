@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Coda, San Francisco\u2019s all-in-one productivity platform.",
+            "fileID": "144e3cb3390c4e7b80c667d4d428f3d3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For product information and demos, press 1.",
+                "fileID": "2a9da5cad468429a814346c9d2b29f48",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press 1.",
+                            "fileID": "ce37201a522442279b2ad8b2faf007aa",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to a sales representative.",
+                                        "fileID": "ebdd43f7e11743fb8955065e27cc17a8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0f2ec946731e4057985f11b3be459d07",
+                                "navigationGoals": [
+                                    "I\u2019d like to speak with a sales representative about enterprise pricing.",
+                                    "I want to speak with a sales rep about bundling Coda licenses for my veteran support organization.",
+                                    "I want to speak with a sales representative to explore enterprise licensing and integration options.",
+                                    "I need to speak with a sales representative to find out if Coda is right for me.",
+                                    "Discuss academic licensing and pricing with a sales representative"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a free product demo, press 2.",
+                            "fileID": "35730e5af8bd432fbd2b703baa1e7308",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we set up your product demo.",
+                                        "fileID": "5fcfef289f2740a5808cef3a2bc28e22"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f2895d1b2b12415e85cc681de6bff9a2",
+                                "navigationGoals": [
+                                    "I want to schedule a walkthrough demo of the platform.",
+                                    "I'd like to schedule a demo to see how Coda can streamline our veteran transition programs.",
+                                    "I\u2019d like to schedule a live demo focused on Coda\u2019s API and workflow automation capabilities.",
+                                    "I\u2019d like to schedule a free demo so someone can walk me through how Coda works.",
+                                    "Arrange a hands-on demo of Coda for organizing physics lab data"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "86b1ada19368485f8ead5104b3ea26ee",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing account support, press 2.",
+                "fileID": "6a51214848c9466288561b00bff36e4a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "aaa011c53b00463b8b3e1eb82ec4bd69",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "e0b88c449ca44e0aa7729d330d6983ff"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4f53f4c25d70409d9377a362c08ea2ab",
+                                "navigationGoals": [
+                                    "I need help troubleshooting a technical issue with my account.",
+                                    "I'm having trouble syncing my Coda docs\u2014need technical support to fix it.",
+                                    "I\u2019m encountering a sync conflict in my Coda docs and need technical troubleshooting assistance.",
+                                    "I\u2019m having trouble accessing my account and need technical support to help me log in.",
+                                    "Get technical support to resolve syncing errors in my physics project notebook"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "bf06e3be4ecf404dbceaee476f7f7125",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to billing support.",
+                                        "fileID": "ba64d896091b4815a331b62f21cc7838"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fb9be39c3bad4a45957327e3e149d2ff",
+                                "navigationGoals": [
+                                    "I have a question about a recent billing charge.",
+                                    "I need assistance with my billing\u2014they charged me twice this month.",
+                                    "I need to update my billing details and review my subscription charges.",
+                                    "I have questions about my latest bill and need help understanding the charges.",
+                                    "Clarify an unexpected charge on my student subscription with billing"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9c18581dfdb64a5c9266490e9da6803d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "cd8625cd237d4909a78ed9c2ef35f4d4",
+        "navigationGoals": null
+    },
+    "id": "118dcfaa45b9439185797dac9d0cdedf",
+    "navigationGoals": null
+}

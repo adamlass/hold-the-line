@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Verbal plus Visual in New York, where we craft considered e-commerce experiences for thoughtful brands.",
+            "fileID": "a5da4cea94ae425892738f444cd35087"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To discuss a new e-commerce project, press 1.",
+                "fileID": "cb814c3017f1422dbcc92bf1dee197b9",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a strategy consultation, press 1.",
+                            "fileID": "806c3b2259d04d908fb005b31be18f05",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our strategy team.",
+                                        "fileID": "97b749969a7c4eb889c0ae99d117c1d0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d1b2095e1025436cac0b015762224f53",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To request a quote or pricing information, press 2.",
+                            "fileID": "fc02c9b466fe40c8be94a20ea24dd6b0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing specialists.",
+                                        "fileID": "adc62fb5ba2649feaa2b1a68f2fa5f2b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2e131e5bad4c4ce2a6258fac33734a79",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e46c2c1bfdd248e5b55eec79bdd6f979",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support with an existing Verbal plus Visual project, press 2.",
+                "fileID": "9d57f63f1fa3434a892f19b6bf2b6fd9",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "154d1c91dbc04e7697c153fb2b9bc110",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "1c97bd2829c4484f9d7ccdf5ed4c3305"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "acb0ee7a77334e7e8b6c25ed5fd50894",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press 2.",
+                            "fileID": "202bb92e797f470ebf1d85866ad1a8d7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "467ce82e95bb475c86edcb0e34f9d744"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "393b78eed6e54e1a98236a767983d31c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "74c7d57def6f48b287e5e37f934ce3c6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "83055a838c864891926debb93fa66904",
+        "navigationGoals": null
+    },
+    "id": "f40beaf0d87d4ae59ebb968025a8d3e4",
+    "navigationGoals": null
+}

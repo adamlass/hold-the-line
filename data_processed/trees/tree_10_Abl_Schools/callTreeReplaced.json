@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Abl Schools in San Francisco, where we offer smart and flexible school scheduling solutions.",
+            "fileID": "c35f86f417c8411b99e3443caaea4edb"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new student enrollment and schedule planning, press 1.",
+                "fileID": "ab50d9148a874ed1bdd12aa1f6a63b56",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To enroll as a new student, press 1.",
+                            "fileID": "8a32708dd27342b7839c84b896898c21",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our enrollment team.",
+                                        "fileID": "9d9584619dc54b009c6b60503f58786b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dcf11011b7dd4b168afeeeea37fd128d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To customize your class schedule, press 2.",
+                            "fileID": "8a9e32ec98c64769aaa0cffea3f1ec14",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a scheduling specialist.",
+                                        "fileID": "3c7818e2b83940d19790cf42fc42e470"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1c5decf8c41d439081a6bcfe205fb33a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "05e29a42a43e4b95a3676e855d9474a6",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For student support and billing inquiries, press 2.",
+                "fileID": "1eb10fce13e8478298a8abd7468181ec",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing and payment inquiries, press 1.",
+                            "fileID": "1eb6c1a2575d4e01beffeb2231697f45",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "0161f6cc1f2b4725a1da988483ef7d9d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e38d41a0f7394dd390e2edb04a575af4",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical assistance and troubleshooting, press 2.",
+                            "fileID": "631fb90823414daeb550dd07daa0df38",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "4ab3fe3e3de44d5491075ce755da78f5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b78ed5ac79c24b159bc2d1a81da5f9e3",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ba03485f1f304f8cb7e800ad1ec72286",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "0b86cdec3c8e45a8804b0015bebcb347",
+        "navigationGoals": null
+    },
+    "id": "efa8a76095b7420ca25043424211a649",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling JustAnswer, the San Francisco-based healthcare service connecting you with verified medical experts.",
+            "fileID": "0a1e754328524194ba256d650b919226"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To ask a new medical question, press 1.",
+                "fileID": "ba50023adbe14a20a8d3a81717ce7e23",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For general health inquiries, press 1.",
+                            "fileID": "d5e87333b16049acaac0328a0ef6fe4a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a general health expert.",
+                                        "fileID": "7e22306079e44b5f9ade3a86ab4f39c8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5adcf76df7674752ba7cbb0416cf1db6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For mental wellness and counseling, press 2.",
+                            "fileID": "655fc5023207476cb427cc6c2416f734",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a mental health specialist.",
+                                        "fileID": "dc8cb49340e94794855e3eae0f7d413a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d4cc15a8f1d1415c98b4b02e9f0c5cf5",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2b48b4c945014d8aa74e5233e1a2fbcb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To manage or follow up on an existing question, press 2.",
+                "fileID": "fcd2b779a2c148af939185b49de3ef09",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check the status of your question, press 1.",
+                            "fileID": "53a29d90205f4a98bc47fc70e627713a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the details of your existing question.",
+                                        "fileID": "071860d19f3c436d88b24fcafd2857c7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a376c431cc18412cab8917d7275ef656",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To discuss billing or account information, press 2.",
+                            "fileID": "f0aff49708f34686a4870fa435281bae",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and account services team.",
+                                        "fileID": "8a12a92c49fc43aaaae6d8f34f20ab7c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "988fe69a576f4f6cb3230cd75e5f64ca",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4b81d06e717443d0b022e0460d238086",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b65573c1b3724f759a2c1a7ac7ec8a11",
+        "navigationGoals": null
+    },
+    "id": "ab4d6838c5f34f7d930f5a71fdd050b1",
+    "navigationGoals": null
+}

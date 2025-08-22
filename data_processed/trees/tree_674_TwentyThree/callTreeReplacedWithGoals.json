@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling TwentyThree, your partner in cutting-edge video marketing solutions.",
+            "fileID": "c7c1a8e3f7f34cae8ecb4e9055474804"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product demos, press 1.",
+                "fileID": "dfd427fb328f4e71baa3f2f31016f7aa",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a live video marketing demo, press 1.",
+                            "fileID": "3faa656312b14fb0989e5ee04229dff0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "You\u2019re being connected to a sales demo specialist. Please hold while we transfer your call.",
+                                        "fileID": "bce177af39884dcdba037b0ea8eea857"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "892849e5bc60489babb66d7bd94f2356",
+                                "navigationGoals": [
+                                    "Book a live demo of the video marketing platform for an upcoming product launch",
+                                    "I\u2019d like to schedule a live demo of your video marketing platform to support my veteran-led nonprofit outreach.",
+                                    "Schedule a live product demo to evaluate video API performance and analytics features",
+                                    "Please help me schedule a live demonstration of your video marketing platform.",
+                                    "Schedule a live walk-through of the video marketing platform to evaluate it for promoting my physics seminar series"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative about pricing and plans, press 2.",
+                            "fileID": "b14af8725a4a4784a09afd403669e27f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "f70bed14dda941808ef8b9e7601db1b4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d0a3763aa5144493828fd112cb90fab2",
+                                "navigationGoals": [
+                                    "Get detailed pricing options and plan comparisons for my marketing team",
+                                    "I need detailed pricing and plan information to budget for a marketing tool for my small veteran-owned business.",
+                                    "Discuss subscription plans, API call quotas, and enterprise licensing options",
+                                    "I need to understand the different subscription plans and pricing.",
+                                    "Ask about student-friendly subscription tiers and pricing options for your video hosting service"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2e9e95961c0e4224a73d47c9969e6bb2",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and account services, press 2.",
+                "fileID": "75dd5a2fc6be4d78b0fdefdd29b2bd5d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "b519d6224e2045b79dd02a5c847f62fb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "5c5e8f3a7cef44ef905d14444f9ef052"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d000f4e656944b1a984b06e9a43411ab",
+                                "navigationGoals": [
+                                    "Fix the video upload error I\u2019m encountering in my account",
+                                    "I\u2019m having trouble uploading videos to my account and need technical support to troubleshoot.",
+                                    "Troubleshoot video embed API errors and get assistance with webhook setup",
+                                    "I\u2019m having trouble uploading videos to my account and need help fixing it.",
+                                    "Get help troubleshooting playback issues with my uploaded lecture video"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, account inquiries, and assistance, press 2.",
+                            "fileID": "25f301635ed247878abcc7625461f037",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our customer success representative.",
+                                        "fileID": "2fa1a4da998041f9b58adeb89e8b5137"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "76841c405ee64ff68ca5bdac2278c0d5",
+                                "navigationGoals": [
+                                    "Update my payment method and clarify charges on my latest invoice",
+                                    "I want to review a billing discrepancy on my latest invoice for my marketing subscription.",
+                                    "Update billing information, request the latest invoice, and clarify overage charges",
+                                    "I\u2019d like to go over my billing statement and update my payment details.",
+                                    "Review a recent billing charge on my account and update my payment details"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "55686f6159b2473586585c2abcf77162",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5298391d814049d8b0c672c265b7bf8d",
+        "navigationGoals": null
+    },
+    "id": "c1f25d5371b642b5b8ff4e269a53e926",
+    "navigationGoals": null
+}

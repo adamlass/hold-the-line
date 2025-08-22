@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Skillz, based in San Francisco, the leading mobile eSports platform connecting gamers around the world.",
+            "fileID": "a71b98b28c5646a09af8dacad9707894"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for player support and account assistance.",
+                "fileID": "bbdb8fafea3d4e9abac63d75f070708e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for help with login or profile settings.",
+                            "fileID": "d1ea1e6f579441ecbe632b54b0a61b71",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience. Please hold while we connect you with a player support specialist.",
+                                        "fileID": "344d89e716b847048d23f786a227c0ba"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c2e9069d6394433a8600f4dbca652951",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for billing and payment inquiries.",
+                            "fileID": "008b94d4965c452bbf9321f1e002ed08",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our billing team is assisting other gamers. Please stay on the line and we'll be with you shortly.",
+                                        "fileID": "d3f5b194ad5741e295d9c06ff1fd3d10"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3b28b02938184a2286e76bea447498d6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "24df2137804449b99c675e0be8cdc6b2",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for tournaments and partnership opportunities.",
+                "fileID": "5e4b425009e749cd9cf1a73a3fe65b83",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to learn about organizing a Skillz tournament.",
+                            "fileID": "e91930aa58684c2182c2f4ead2d7d991",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One of our tournament experts will assist you shortly. Please hold.",
+                                        "fileID": "fdab77905f3d4a4fac1af580501b4142"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bfb5552630b24d7488b4859786a93804",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for partnership and sponsorship information.",
+                            "fileID": "3fdca31e9c8a49c9bb802d63c709ffca",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships team.",
+                                        "fileID": "bfa2ebef208e492dac514494af136334"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "92fcc6c3c777446f8eb5143f4f18eaf4",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "897aec24e8644bf18bfeff879ece5318",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "dfa4e84fb601420bb31e79170eb31431",
+        "navigationGoals": null
+    },
+    "id": "7f8e07ea62f04986be2cdc844cda9565",
+    "navigationGoals": null
+}

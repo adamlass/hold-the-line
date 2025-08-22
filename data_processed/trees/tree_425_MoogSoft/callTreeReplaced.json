@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling MoogSoft in San Francisco, home of an AI-driven AIOps platform that analyzes billions of events to help top enterprises avoid outages and accelerate digital transformation.",
+            "fileID": "c600639f0eed41c7843c4455fc4f5614"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support and service assurance, press 1.",
+                "fileID": "36ececf561aa470d8b4a304118477e44",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For incident management or outage resolution, press 1.",
+                            "fileID": "327bbe271d7748c884a8052d34ea4eaa",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you with our incident response team.",
+                                        "fileID": "f2794ea16aed489a8d552fe42d0114ed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d62bafbf3bbf4e58875ef776598c1fdf",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For platform setup, integrations, or AI configuration support, press 2.",
+                            "fileID": "b700e8143c374f638a6eb1486754818e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our integrations and configuration specialists.",
+                                        "fileID": "3d2dc847c7bb4f1dade0d6c5a1e20026"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4b241a3d491044a48e876fadcca36cca",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "92e86d5cd9a1439397f8a561938f74be",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales, licensing, or general inquiries, press 2.",
+                "fileID": "7a26242677974111a34627866910ca2c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For sales inquiries and pricing details, press 1.",
+                            "fileID": "b3dc929962eb419e8defbea21582bbe8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist.",
+                                        "fileID": "76775da6bc4c40ab9be86dc594239c95"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3c9d0ab999c14a8282a57b37673d3cce",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For partnership opportunities or media relations, press 2.",
+                            "fileID": "9e8646e2377c4d7cae5c41a7e1e72bc0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to our partnerships and communications team.",
+                                        "fileID": "1e81405b35954cffa3e1161c483fe2c2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "776352596bb34017bbd0ac6406d4d3d1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f759a1c3c392441a8fff6dab968ff103",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "183d782b814b43428bcdcba484207037",
+        "navigationGoals": null
+    },
+    "id": "cd1aa3f1d4c74304bb52396ab043b27e",
+    "navigationGoals": null
+}

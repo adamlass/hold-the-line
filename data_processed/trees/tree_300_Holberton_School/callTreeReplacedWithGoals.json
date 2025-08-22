@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Holberton School in San Francisco, where we empower tomorrow\u2019s software engineers through project-based learning.",
+            "fileID": "e8894f73d7174511930f57810aa8cfde"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our programs and curriculum, press '1'.",
+                "fileID": "0b9269ceb79d486a8005e80d57a3ec0e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For details on our immersive curriculum, project formats, and specialization tracks, press '1'.",
+                            "fileID": "579383d6146a4037b63da209dfd6ae47",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our curriculum specialists.",
+                                        "fileID": "4ef58ee952c94f638c812d6081f30207"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7e7ddc30a0134231a23945433e0ad3a3",
+                                "navigationGoals": [
+                                    "Quickly review the immersive curriculum\u2019s project formats and available specialization tracks.",
+                                    "I want to speak with a curriculum specialist about the specialization tracks and project formats.",
+                                    "I want technical details on the project-based curriculum, including the modular course architecture and specialization tracks.",
+                                    "I want someone to explain the program\u2019s specialization tracks and project formats.",
+                                    "I want to learn about the curriculum\u2019s immersive projects and specialization tracks."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about our mentoring, peer-learning approach, and career services, press '2'.",
+                            "fileID": "5e7df78a64b14400ac831cc56d8f33a9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our student support team.",
+                                        "fileID": "18bc87b4f7c2493fa0f466c00293ea69"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d8bb26f5bc7144f49d9e31414ed86815",
+                                "navigationGoals": [
+                                    "Understand the mentoring approach, peer-learning model, and career support services.",
+                                    "I\u2019d like to discuss the mentoring, peer-learning, and career services for veterans.",
+                                    "I need to understand the peer-learning framework, mentoring protocols, and career services pipeline.",
+                                    "I need information about the mentoring, peer-learning approach, and career services.",
+                                    "I want to understand the mentoring, peer-learning, and career support services."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ab084dad73ff46bf8c00f3b6a820681b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Admissions and Financial Aid, press '2'.",
+                "fileID": "b2a45019ad1f4083b616aa8eda3178f1",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on application requirements and deadlines, press '1'.",
+                            "fileID": "65b80a6a571040d7b6ad3a585951ab16",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to the admissions office.",
+                                        "fileID": "fc98121f69114109a8fd3adcca3a10f2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "eecc7bf3d9504a24ae94149fa0e9fa34",
+                                "navigationGoals": [
+                                    "Confirm the application requirements and upcoming admission deadlines.",
+                                    "I need information on the application requirements and deadlines to apply.",
+                                    "I need to review the admissions prerequisites, application workflow, and deadline schedule.",
+                                    "I need help understanding the application requirements and deadlines.",
+                                    "I\u2019m looking for details on application requirements and deadlines."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To hear about tuition, scholarships, and financing options, press '2'.",
+                            "fileID": "7d2ac89e261a44e9bce408466c3e7334",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our financial aid advisors.",
+                                        "fileID": "28cc63f7177d4ff28511853026b1dbc2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7f61906732e443f7b3de693d62d2f07b",
+                                "navigationGoals": [
+                                    "Explore tuition fees, scholarship opportunities, and financing options.",
+                                    "I\u2019d like details on tuition costs, veteran scholarships, and financing options.",
+                                    "I want to explore the tuition breakdown, scholarship grant criteria, and financing mechanisms.",
+                                    "I want to discuss tuition costs, scholarships, and financing options.",
+                                    "I\u2019d like information on tuition costs, scholarships, and financing options."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a8080429d8814044a5ea87a5ae759491",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "309d8b3ad0ff4b5e896adfa7dfc1b2ae",
+        "navigationGoals": null
+    },
+    "id": "79a4807aa26e49598b612d52e90d296e",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Udacity South Bay, your partner in online education and career advancement.",
+            "fileID": "a30c22e74b734c31b6a8263c5b3a6a10"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To hear our course offerings and enrollment options, press 1.",
+                "fileID": "e3dbe2d8b8a84bf9aa7c3ffd199b9126",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore programming and data science nanodegree programs, press 1.",
+                            "fileID": "0eb9cedfec724346be0a76b717844fcd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you with an enrollment advisor for our programming and data science courses.",
+                                        "fileID": "bf1cdb5e5820497c96ccafc5cc1974fb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "17c77ccd41b04c6f975f58c360ee1d16",
+                                "navigationGoals": [
+                                    "I need to speak with an advisor about enrolling in a programming and data science nanodegree.",
+                                    "I want to speak with an enrollment advisor about the programming and data science nanodegree to help me transition from the military into tech.",
+                                    "Connect me to an enrollment advisor to discuss programming and data science nanodegree offerings.",
+                                    "I want to speak with an enrollment advisor about joining a programming or data science nanodegree.",
+                                    "I\u2019d like to learn about enrolling in the data science nanodegree program and the next steps for registration."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about corporate training solutions and group pricing, press 2.",
+                            "fileID": "9277ccc8f7a14beaafaea8d4eb77451f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our corporate partnerships team.",
+                                        "fileID": "60f2c055ae584fb6a3c8037f1b01fd9d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8a77bb89eb124b9bb3539187d45e3d3e",
+                                "navigationGoals": [
+                                    "I want information on corporate training packages and group pricing options.",
+                                    "I\u2019m organizing a group training for fellow veterans and need corporate pricing details for Udacity courses.",
+                                    "I need details on enterprise licensing and group pricing for your corporate training solutions.",
+                                    "I\u2019d like information on corporate training solutions and group pricing.",
+                                    "I\u2019m organizing a physics club workshop and need details on group training packages and pricing."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6edf45b68e79413dbbfb2b4086dadad3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For help with your current courses, press 2.",
+                "fileID": "9cca778a72f4498f9512c2ebb943b314",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need technical support, press 1.",
+                            "fileID": "5056cf711d6b4ee385c43b7d90bc99e0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to technical support. Please stay on the line.",
+                                        "fileID": "bd65989710ce4fbca8c2a78f3db717f0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2af88ec0ef9f42adb9478f571a9cd241",
+                                "navigationGoals": [
+                                    "I\u2019m experiencing technical issues with my current course and need support.",
+                                    "I\u2019m experiencing technical issues accessing my current course materials.",
+                                    "Provide technical support to troubleshoot my development environment in my current course.",
+                                    "I need technical support for a problem accessing my current course.",
+                                    "I\u2019m having trouble loading my course materials in the online IDE and need technical assistance."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing or account inquiries, press 2.",
+                            "fileID": "11a59dda5e70428b951074d235c73f01",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "19207b67640348b6938167f2a6d4c8cf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "963c0c7e9937412b9d39ecd542743841",
+                                "navigationGoals": [
+                                    "I have a billing question about my account and need help updating my payment details.",
+                                    "I have a question about a recent charge on my Udacity account.",
+                                    "I want to review my billing statement and account charges for my ongoing courses.",
+                                    "I have a question about a charge on my billing or account.",
+                                    "I\u2019d like to review my payment history and update my billing information for my current Nanodegree."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "695b89e3323b4098a034a55290126065",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "78a14d79940049b69820e84fc5a32f3b",
+        "navigationGoals": null
+    },
+    "id": "daa66b7d028e44e5ab02e71348bae36f",
+    "navigationGoals": null
+}

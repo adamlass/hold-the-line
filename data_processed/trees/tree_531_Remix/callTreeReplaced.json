@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Remix in San Francisco, the platform for designing your city\u2019s transportation future.",
+            "fileID": "09045c029a584d92bcd9942066944ab1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and government partnership inquiries, press 1.",
+                "fileID": "50cb38a7005942a39ded9f979721335a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo of the Remix platform, press 1.",
+                            "fileID": "4b2d9170d4564b659e6eb9ecf2774fe9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product specialist.",
+                                        "fileID": "27721cec36a4465d80976ed34e510266"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0084792ed8624019a2ceff0e343fc54f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To discuss government and transit agency partnerships, press 2.",
+                            "fileID": "522299496fd64aa49b9545ab2f0f1007",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our partnerships team.",
+                                        "fileID": "6ca0632c0184405dbee468bf9ab3105d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "318d5ff48ec3451c92001064a0edce67",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "80e3ce0334a8473f9a3bb58926d8546e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and account services, press 2.",
+                "fileID": "45b23292a3ac4b92a5992a1d1bb55d86",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with our transportation planning platform, press 1.",
+                            "fileID": "9d6d399fd95e424a912b27c5733c0893",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "df5967b5fa5c4111b439ccb1445aa9e7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "56879811ce7a48ff89f22d1009bb8cd5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account questions or billing assistance, press 2.",
+                            "fileID": "f78d25c2ef794c5195cf49c756c1e789",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we direct you to our account services team.",
+                                        "fileID": "08c07d09466a4dd28ba79dcee3b61bef"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e3ecc630249546d8a5275defaa549850",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2dd7872e40d645fd85b7a00e6305dfb5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "cd960e41388a4aef9a1a46e2c1fc855a",
+        "navigationGoals": null
+    },
+    "id": "399d2e80712940ecb401489a70589b78",
+    "navigationGoals": null
+}

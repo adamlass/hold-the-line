@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Affirm, where you can pay for purchases in simple, fixed monthly payments.",
+            "fileID": "fe7ede3d881e4d2bbb02fefaaabe5637"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with payments or your account, press '1'.",
+                "fileID": "9fcb4e6ecd77455295fc1e75e98470b0",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To make a payment or review your balance, press '1'.",
+                            "fileID": "1eec2dfb1fb04f0e9e849b94f4b76fe9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a payments specialist.",
+                                        "fileID": "7fa9d8fbc7b74bb69883d40494c1cdd4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "78852d5091f74081a615d97d700ce62e",
+                                "navigationGoals": [
+                                    "Quickly make my monthly installment payment.",
+                                    "I need to make a payment on my current Affirm installment plan before my next paycheck.",
+                                    "I need to execute a payment transaction and retrieve my current balance status.",
+                                    "I need help checking my current balance and making my payment.",
+                                    "Check my outstanding balance and make my installment payment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To update your account information, press '2'.",
+                            "fileID": "05ba04d8c0b8412aa85f834d52e904e7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account services.",
+                                        "fileID": "a4ad26aa28164811a4a9fa22b65940a3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6ecc1f2c99684476b29fce2136a76a1d",
+                                "navigationGoals": [
+                                    "Update my mailing address in my Affirm profile.",
+                                    "I need to update the bank account details on my Affirm profile to use my VA benefits deposit.",
+                                    "I want to update my account credentials and synchronize my contact details.",
+                                    "I\u2019d like to update the bank account information on my Affirm profile.",
+                                    "Update my bank account details for automatic payments."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8c315f530ebf4e1f85fbcc4c26984f0f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For merchant partnerships or checkout support, press '2'.",
+                "fileID": "7746221da7074d7f91c929c884d8931e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are a merchant or retailer partner, press '1'.",
+                            "fileID": "e82b5d447ef448c08c200cdc92bc6f52",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our merchant partnerships team.",
+                                        "fileID": "60cb804d142743acaaf673a5efecb44d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "059161b6847d4748a42ac364a8439392",
+                                "navigationGoals": [
+                                    "Explore integrating Affirm payments into my store as a merchant.",
+                                    "I run a veteran-owned online store and want to sign up as an Affirm merchant partner.",
+                                    "I\u2019m looking to onboard as a merchant partner and get API integration support.",
+                                    "I want to learn how to sign my shop up to accept Affirm payments.",
+                                    "Inquire about partnering with Affirm as a merchant for my student-run lab equipment store."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help using Affirm at checkout, press '2'.",
+                            "fileID": "ac45e36cf57545d5b90ed7168e47e2dc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to checkout support.",
+                                        "fileID": "1f88a2aedaf840ba89893cfdf82aca6c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f13c0b1a124c47a083c40d8696799f55",
+                                "navigationGoals": [
+                                    "Resolve an error I encountered when selecting Affirm at checkout.",
+                                    "I'm at checkout and need help completing my purchase using Affirm.",
+                                    "I need help debugging the Affirm checkout flow\u2014my transaction keeps failing.",
+                                    "I\u2019m having trouble using Affirm at checkout and need assistance.",
+                                    "Get help applying Affirm at checkout on an online purchase of lab supplies."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "35e499d38339491196e6a43dfb740ee0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "dd961e34f656453793b362723e4df68b",
+        "navigationGoals": null
+    },
+    "id": "c0b783cab0d04656af17fa1decdd7eff",
+    "navigationGoals": null
+}

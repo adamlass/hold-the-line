@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to StubHub in San Francisco, the world\u2019s top destination for ticket buyers and sellers, where prices may be above or below face value.",
+            "fileID": "c1ae6a10b54242bebe0c2241ee64d400"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To buy tickets, press 1.",
+                "fileID": "a8fd8fe651404a92b247cd517afac5db",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For event search and seating options, press 1.",
+                            "fileID": "37d8816ce0344cdc82c76f3d29a6ae9b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line and we\u2019ll connect you to our ticketing specialists.",
+                                        "fileID": "44b15c4a5b92430bba294d8ba6e86099"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d1a8028c6a3247cdacd89cff9861ae79",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For order status and ticket codes, press 2.",
+                            "fileID": "fa767715c604423780821a62c118ce9d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we\u2019re connecting you to our order support team.",
+                                        "fileID": "fcff43a61cf34f4f8b0041e8d8af9ff7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f98c087024944599af5bef899b7eedc7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2d8587c8375a42bab9ab30a886a295de",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To sell tickets or manage your listings, press 2.",
+                "fileID": "67ba42436ecb462685f3fa2daea18d8b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To list new tickets for sale, press 1.",
+                            "fileID": "7031cdbf8a9c4763a86b6ec008c0729c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our seller services department.",
+                                        "fileID": "77fd751b2d9646a99962edd65dd4b276"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "749c4701cd524bb59756250e3276d377",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For seller dashboard and payout inquiries, press 2.",
+                            "fileID": "6ac6117dafc34d49a4766c325d9ac189",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please remain on the line while we connect you with seller support.",
+                                        "fileID": "d89f2596ac98418ca0ee89bebb15f3a2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e024ff7e4b1c47ce8df17d48d40ad469",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "64a3739c4cd74f21afae9d8403bc1cb7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4955a1a3518c44409a078720106e9c96",
+        "navigationGoals": null
+    },
+    "id": "895930ca2f72451482c6807fea899d67",
+    "navigationGoals": null
+}

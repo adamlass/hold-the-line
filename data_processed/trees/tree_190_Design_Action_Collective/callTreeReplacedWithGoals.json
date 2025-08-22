@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Design Action Collective in the East Bay, specializing in graphic design and visual communications for progressive non-profit and social change organizations.",
+            "fileID": "31a98423039d4c35a4bc3af851557f3d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new client inquiries and project proposals, press '1'.",
+                "fileID": "168f9137be6a40ffbd09328befb5cb5f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our graphic design and visual communication services, press '1'.",
+                            "fileID": "f46a5fc91748419dbf0489dce05e974c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a team member who can discuss our services.",
+                                        "fileID": "c54f701fb75147e69c3bb2ce66ed8a7f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "51c70a9924e840a7aee488efc7d8fa5f",
+                                "navigationGoals": [
+                                    "Learn about their graphic design and visual communication offerings",
+                                    "I want to learn about your graphic design services for creating a veterans outreach flyer.",
+                                    "I\u2019d like an overview of your visual communication and branding design capabilities for our nonprofit\u2019s digital campaign.",
+                                    "I\u2019d like someone to explain your graphic design and visual communication services to me.",
+                                    "I\u2019d like an overview of your graphic design and visual communication services for my student-led science outreach project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To submit a new project proposal or request a quote, press '2'.",
+                            "fileID": "3dfb4e7cbfd840198a04031dbe53aa13",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we forward your call to our proposals coordinator.",
+                                        "fileID": "bffb32a2a2b04ce7a1a47698404c686f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "82e14169037c44d5b692cf7d326ded07",
+                                "navigationGoals": [
+                                    "Request a quote for a new project proposal",
+                                    "I\u2019d like to request a quote for a logo and website redesign for my veteran support nonprofit.",
+                                    "I want to submit a project brief for a website UI redesign and get an initial cost estimate and timeline.",
+                                    "I want to request a quote for a new design project.",
+                                    "I want to submit a proposal and get a quote for designing a poster for our upcoming physics seminar."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5a02aff322404f6db2e0a192fc4b907a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing clients and ongoing project support, press '2'.",
+                "fileID": "e5c8f081d2dd460c9fb70ecb383d4bfd",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check the status of an ongoing project, press '1'.",
+                            "fileID": "cf8c14c8e148404a903d69777e501475",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your project details and connect you.",
+                                        "fileID": "b767879084a24bbc83e8af6bd088b3f3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "78ec1e1418e64c50ab804004bbf2082b",
+                                "navigationGoals": [
+                                    "Check the current status of my ongoing design project",
+                                    "I need an update on the brochure design project I have with you for my mentorship program.",
+                                    "I need a status update on the infographics deliverables and current project milestones.",
+                                    "I\u2019m calling to check the progress on my ongoing design project.",
+                                    "Can you update me on the status of our current design for the departmental outreach brochure?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak directly with your project manager, press '2'.",
+                            "fileID": "fd62ed2955474da0b56ad25190e76f7b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we put you through to your project manager.",
+                                        "fileID": "b7e5622f30904484bd8843093b17c8cb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cf2b9eee1b5141ba858037e8ba92a915",
+                                "navigationGoals": [
+                                    "Speak directly with my project manager for updates",
+                                    "I want to speak with my project manager about revisions to our event poster.",
+                                    "I\u2019d like to connect with my project manager to review the latest mockup revisions and style guide updates.",
+                                    "I need to speak directly with the project manager handling my work.",
+                                    "I need to speak with my project manager about revising the conference banner design we\u2019re working on."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d3cfa02663ab4bbc827a3c3d4dd836c6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6f71b75fd57c49ffadd7fd7bfe604c7a",
+        "navigationGoals": null
+    },
+    "id": "670589bfb87a436c8a176bbd611597f1",
+    "navigationGoals": null
+}

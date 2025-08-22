@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Townsquared, San Francisco's free local business community.",
+            "fileID": "cbb252609bd6431ba18d2dbaffd8234e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about partnering with other local businesses, press 1.",
+                "fileID": "c125727422e94d71977a87d0f7bdf55a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our community partnerships team, press 1.",
+                            "fileID": "2b4a7679eff840e0876fb623ae7ebd61",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our community partnerships team.",
+                                        "fileID": "fb800703ec52441e87781aca5504f695"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2e34f2ab8e454a10a4a06885c3209d74",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To explore our business resource library and case studies, press 2.",
+                            "fileID": "e090c72922984cf89d87e3c9876b4cd9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve our business resources.",
+                                        "fileID": "7da52dafb9964ffeb1a247d66e79ecc9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4f3a06f34238496c9b7a6e75bff74629",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "52e1b810481a4e28931625cfc108edf5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For neighborhood updates and local events, press 2.",
+                "fileID": "5f61a539d0f943fba32d2ada6b8979d0",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear about upcoming community events, press 1.",
+                            "fileID": "a59917d4d9a149c697c1a69f602368aa",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our events announcement line.",
+                                        "fileID": "6c4bc3902a0b453d91a0528fcd63ea72"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cfe10180a8bc4af0afd9be6bd61953a1",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with our newsletter team, press 2.",
+                            "fileID": "8eec6f04c3d1404498fd11c841f78628",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our newsletter team.",
+                                        "fileID": "4fc6d6a9ff65493284c702c75d54e115"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a021a635b8e54a12b5db1a292e1bf709",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3bfc90d1f26c4cecb7a5b755e4434dde",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ae097b6358694134a83438e51fbb6e8b",
+        "navigationGoals": null
+    },
+    "id": "55b040992ae54071adb45b1f88f75090",
+    "navigationGoals": null
+}

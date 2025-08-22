@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Algolia in San Francisco, the leading hosted search API provider connecting your users with lightning-fast, highly relevant results.",
+            "fileID": "c0c9031b14f645bcac51943216f51a0b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales, Pricing, and Account Inquiries, press 1.",
+                "fileID": "a537133cfa324a19a27d5cd93948cc35",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a Sales representative, press 1.",
+                            "fileID": "a8d9f0c98b2c491db0225e1bc9bb25ad",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Sales representative.",
+                                        "fileID": "10d51a5ba15d40e797f39aa5eb55fe81"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7bb5619e341c48da94db1f8b357c1694",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For Billing and Account Management, press 2.",
+                            "fileID": "870273c3e7e441a79d43694b3d74067d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Billing team.",
+                                        "fileID": "5ac05745027d48abb897c89a28c25e15"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a6df226c7166415686ebd64137d51a63",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "57971d945d8e4070ac19314b947c4fca",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technical Support and Developer Assistance, press 2.",
+                "fileID": "331c1424198a4517873136669d6b479c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For Technical Support, press 1.",
+                            "fileID": "0c87840eddaf4744b3d5157abc8864b2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Technical Support.",
+                                        "fileID": "ec9f3ec4d3fb4018a2afe4721c1737c7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ce10c7076d48429d8ebcf1bd0bbb40e9",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For Developer Resources and API Documentation, press 2.",
+                            "fileID": "f0db9eaac19544fda9db89d723eee8a3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Developer Resources team.",
+                                        "fileID": "62b8c582ce9f4c84bede447147090e15"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "020508102dc7436e989cadf3945afa31",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "edbbde1cac28467ab382344e3ce5d814",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ea3d61dc94d44c1faccc88cf67237832",
+        "navigationGoals": null
+    },
+    "id": "4b84ad2c281a4596a6075cccf4b8a703",
+    "navigationGoals": null
+}

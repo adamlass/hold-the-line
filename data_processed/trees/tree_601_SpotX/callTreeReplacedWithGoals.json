@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to SpotX, New York\u2019s trusted platform powering programmatic video for premium publishers and broadcasters.",
+            "fileID": "cc36358f337b4ea39f38ae99c7591fca"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and partnerships, press '1'.",
+                "fileID": "edf85d5fa3a24a22a2e985a7b4737538",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new business partnerships and demos, press '1'.",
+                            "fileID": "e4e8d65302964956bd2fb18fabf05151",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest. Please hold while we connect you with our Sales team.",
+                                        "fileID": "7308a31a3acd419885568037ca779c6e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "116e231d0dd54f0da4ff7b4213c7518d",
+                                "navigationGoals": [
+                                    "Schedule a demo for SpotX\u2019s programmatic video solution",
+                                    "I run a veteran nonprofit and would like a demo of your programmatic video ad solutions to explore a new partnership.",
+                                    "I\u2019d like to schedule a demo of SpotX\u2019s programmatic video API integration.",
+                                    "I\u2019d like a simple demonstration of your video platform and to discuss starting a new partnership.",
+                                    "Schedule a demo of SpotX\u2019s programmatic video platform for my university physics outreach project"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "If you are an existing partner, press '2'.",
+                            "fileID": "33ad43d3fa4644108c4f96f2f739a1fb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with your Partner Success Manager.",
+                                        "fileID": "abcdae984c48458c8b4f9552729786b0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2305f9e2b3fe47d2a0d3889e745596c4",
+                                "navigationGoals": [
+                                    "Review my current campaign performance with the Partner Success Manager",
+                                    "As an existing partner focused on veteran content, I need help optimizing our ad placements for better performance.",
+                                    "I\u2019m an existing partner and need to discuss optimizing our ad yield with my Partner Success Manager.",
+                                    "I\u2019m an existing partner and need to speak with my Partner Success Manager about some questions.",
+                                    "Review my existing partnership performance metrics and discuss optimization for my educational channel"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f7a80a49855d4621930d4f127d881a11",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, press '2'.",
+                "fileID": "35ea399b97c74bf185f4ee9e12128b30",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and platform assistance, press '1'.",
+                            "fileID": "b8e24d6dadc64696a693f74bfb7b8ed5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to Technical Support.",
+                                        "fileID": "64a403ec106d4d5a8697fb972e3c54bf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "44c921fac19f464d8e709a11b30a6542",
+                                "navigationGoals": [
+                                    "Resolve an ad tag integration issue on the SpotX platform",
+                                    "I\u2019m integrating your SDK into my veteran storytelling app and need assistance troubleshooting a playback error.",
+                                    "I\u2019m encountering an API authentication error in my SpotX integration and need technical assistance.",
+                                    "I need technical help using the platform\u2014I\u2019m having trouble uploading videos.",
+                                    "Troubleshoot an API integration error I\u2019m encountering while uploading lecture recordings"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries and account questions, press '2'.",
+                            "fileID": "2d2e00fdd8624cd6bbe507f6181dace3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. We\u2019ll connect you with our Billing department.",
+                                        "fileID": "0fb4e8536fb64fd6a9bb6eeead0d3f7d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "502506baa5d943e6ac0c9a99343f9bc7",
+                                "navigationGoals": [
+                                    "Clarify a recent billing charge and request my invoice",
+                                    "I want to review and dispute an unexpected charge on my account related to my billing statement.",
+                                    "I have questions about my latest invoice charges and want to update my payment method.",
+                                    "I have a billing question about an invoice I received.",
+                                    "Clarify the charges on my latest SpotX invoice and inquire about student billing options"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e0afa04d02ec4b36b103c3cd1cb1a35e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "60479496602c4ab6b6d0a8d27dd49295",
+        "navigationGoals": null
+    },
+    "id": "b3ceef1d915242ca865e3023b92d38b4",
+    "navigationGoals": null
+}

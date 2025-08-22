@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Virtusa South Bay, your IT recruiting agency delivering digital transformation expertise to Global 2000 companies.",
+            "fileID": "e7c04cc5328f4c3b94f30206f931bca7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a job seeker seeking IT and digital transformation roles, press 1.",
+                "fileID": "4568b0d3ce994ca093fb36f743929784",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit your resume and create a candidate profile, press 1.",
+                            "fileID": "f0b7c6d7eff94a9795798186c4002d9a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a recruitment specialist for resume submission.",
+                                        "fileID": "d2983f5689fe489fb2c8665686f489b7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "af63813c3bf74c6b9a98f0eedce2f9ea",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak directly with a recruiter about current job openings, press 2.",
+                            "fileID": "1152d0f602ec448fb8e90fc188d56d86",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a recruiter for job opportunity discussions.",
+                                        "fileID": "f6b6670bd9744221841518ecc4d4cc48"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9617fcdddfc64dd2aea50552ac1a3484",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "08fa28d0a667439cac57716010cd7b35",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a client seeking support or project services, press 2.",
+                "fileID": "f6ddfa8227824293a58471ed4476f577",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account support and service issues, press 1.",
+                            "fileID": "669686fec33c429e9dd5b94585424829",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your account service representative.",
+                                        "fileID": "17dcc01cc1684f6589ace12f11658638"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c17cd006bf5d4310b54b41a8df86a303",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To discuss a new digital transformation or IT outsourcing project, press 2.",
+                            "fileID": "50323dd8a9ce4a0db6965f2e0d30d86b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our solutions consultant for new project inquiries.",
+                                        "fileID": "66abcb473d0f4fc2bd1e2adf2fac81b8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "96da9bbddce14698ba6818e9857c8465",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "211a0cf8b3b74e529f057327bb9f3927",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e78e845df0d0475a92169d4699d15d45",
+        "navigationGoals": null
+    },
+    "id": "4a07a915c9ff4318a6e16961ee2c7650",
+    "navigationGoals": null
+}

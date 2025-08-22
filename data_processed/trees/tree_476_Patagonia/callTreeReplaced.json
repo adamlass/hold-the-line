@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Patagonia San Francisco, your destination for sustainable outdoor apparel and gear for climbing, surfing, skiing, fly fishing, and trail running.",
+            "fileID": "3523f9cd6eec4ec293496b9c3b22aa1b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For product information and gear recommendations, press 1.",
+                "fileID": "a23bbe8f9ab24d2998ba0372bcbc0adc",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a gear specialist, press 1.",
+                            "fileID": "dd3ea945c5544684934938522ba31b02",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a gear specialist.",
+                                        "fileID": "953de39a53db41c3b0a276ef3357a43d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ad7b484970e94a679e451b2764deed88",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn about new arrivals and seasonal collections, press 2.",
+                            "fileID": "55e5df99b11c41d6ae2384f5ee0c591b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our product team.",
+                                        "fileID": "5066f77200ce4c759cfa1128ce1b0f16"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8b17fb1d0e1a42468202c56295347928",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ca21dcb9d8634ccb8df8e244d259df1b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For order status, returns, and account support, press 2.",
+                "fileID": "c473f00e7c4447ceb08363aaaffedb14",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check your order status, press 1.",
+                            "fileID": "d7c23157a1924a72bfa3dec0cf287bad",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your order details.",
+                                        "fileID": "0bea23188f5e44e7b298e7d8ad77553a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f75adf4ebd8d4941bbd3ca86e5269c44",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For returns, exchanges, or warranty information, press 2.",
+                            "fileID": "4af93e9ae54f4b5ba98fee709e75e2c8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our customer care team.",
+                                        "fileID": "08c4f09f05974d13b40559731d91fd26"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a79e928a967842f281d6e0aed89d1839",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fa1338eb2e7149b58d0f69c7b9ada2c6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bd2f0a4ba97a4f46b36b7158d348c224",
+        "navigationGoals": null
+    },
+    "id": "8f2617ca97ec4ef5905141f5b6b8f18f",
+    "navigationGoals": null
+}

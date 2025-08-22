@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Hotwire, your San Francisco-based travel partner for low-rate flights, hotels, cars, and vacation packages.",
+            "fileID": "3c8149314f8f4b62b6b61ab9617aab80"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To make a new reservation, press 1.",
+                "fileID": "4e44193918064926a10e4780cf20058c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For flight reservations, press 1.",
+                            "fileID": "970167c9ec6a48c0a4cc6d7895e1907d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our flight reservations team.",
+                                        "fileID": "27696868360748b38df12f9eec7cb08f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ac37b5983bb746f2a7bf84b0a7963871",
+                                "navigationGoals": [
+                                    "Book a one-way flight from San Francisco to Chicago next Friday.",
+                                    "Book a veteran-discounted flight from San Francisco to Washington, D.C. next month.",
+                                    "Optimize a multi-city flight itinerary from SFO to JFK and LAX in August, comparing fare classes and seat maps before booking.",
+                                    "I\u2019d like to book a flight to visit my family.",
+                                    "Book a budget round-trip flight from San Francisco to Chicago for an upcoming physics conference."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For hotels, cars, and vacation package bookings, press 2.",
+                            "fileID": "6777f2f812c844edb79d0f35541399c5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to our hotel, car, and vacation package specialists.",
+                                        "fileID": "3e81090c21d945c0acdc01057889214f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e6c026b6dc254b38a729c89fc3645891",
+                                "navigationGoals": [
+                                    "Reserve a weekend vacation package in Miami with hotel and midsize car rental.",
+                                    "Reserve a hotel and car package near the VA hospital in Seattle for my upcoming appointment.",
+                                    "Bundle a downtown hotel stay with a mid-size car rental using dynamic packaging for my San Francisco trip.",
+                                    "I need to reserve a hotel room for my upcoming trip.",
+                                    "Reserve a budget hotel room and car rental near my university for a summer research stay."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "66c034b97fa34270bc67b4b57fdedb3b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To manage an existing booking or speak with customer care, press 2.",
+                "fileID": "f3956c7445434fd9a88c41a1e9abb7fe",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To modify or cancel your existing reservation, press 1.",
+                            "fileID": "cafb8a09a0944cb9bc4df952b49f1936",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a reservations specialist for modifications and cancellations.",
+                                        "fileID": "be285798fc544a91abc8754ab8036181"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "319c5b3d267147559341ad0559933d74",
+                                "navigationGoals": [
+                                    "Change the return date on my existing flight reservation to August 12th.",
+                                    "Change the date on my existing flight reservation to an earlier date.",
+                                    "Modify the outbound departure time and cancel the return segment on my existing flight reservation.",
+                                    "I want to change the dates on my existing reservation.",
+                                    "Modify the dates on my existing flight reservation due to a change in my lab schedule."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries or general customer support, press 2.",
+                            "fileID": "756ee48c3e7b456ca9ee111debb5c17e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our customer support team for billing and general assistance.",
+                                        "fileID": "dba735d849cc453ca0d9eb6ee9d69d1d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "804ac91079684d5d80292061ccfde66a",
+                                "navigationGoals": [
+                                    "Ask why I was charged a cancellation fee on my recent hotel booking.",
+                                    "Ask about an unexpected charge on my recent booking invoice.",
+                                    "Audit the invoice breakdown for ancillary fees and apply a promotional credit to my booking.",
+                                    "I need help understanding a billing charge on my account.",
+                                    "Resolve a billing discrepancy on my last reservation and receive confirmation of any refund."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6a1d2cb2185b4758b3ee1369bd092fb8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3e28bc6a59fd46ee8bff4d3f54027a54",
+        "navigationGoals": null
+    },
+    "id": "c5799e4198a540609f7b85aeb1fbeb30",
+    "navigationGoals": null
+}

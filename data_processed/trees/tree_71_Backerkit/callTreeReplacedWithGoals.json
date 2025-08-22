@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to BackerKit in San Francisco, your all-in-one partner for crowdfunding management, from surveys to shipping.",
+            "fileID": "fae541f64e704ca89feb2ad7296b0a0f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For help with surveys and backer communications, press 1.",
+                "fileID": "c075a2bc69254784ab78e24e55813d2d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For assistance creating and distributing backer surveys, press 1.",
+                            "fileID": "dd1685ea82cb4877b28ab75b78fdbc5c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our survey support team.",
+                                        "fileID": "392c11a2e5e84afa8fc1a3334491eba3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2aaed21105414b49b59a16edff5e92c0",
+                                "navigationGoals": [
+                                    "Set up and send a new backer survey quickly",
+                                    "I need to set up and launch a new backer survey for my project.",
+                                    "Configure a custom backer survey workflow and deploy it to my backer database.",
+                                    "I need help setting up and sending a survey to my backers.",
+                                    "I need to design and distribute a detailed backer survey to collect reward selections and shipping information."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help managing backer communications and survey responses, press 2.",
+                            "fileID": "5c009e1cc26b4f8b88e5073fdd6e96ee",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our backer communications specialists.",
+                                        "fileID": "e42b0d1d1e99464e9f0ac82cb1ae880a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "16a360471d1241d9a720c6f7d3a75d12",
+                                "navigationGoals": [
+                                    "Draft and send follow-up communications based on survey responses",
+                                    "I want to review incoming survey responses and manage follow-up messages to backers.",
+                                    "Automate backer communication pipelines and analyze incoming survey response metrics.",
+                                    "I need help reviewing survey replies and contacting my backers.",
+                                    "I\u2019d like advice on managing incoming survey responses and sending targeted follow-up messages to backers who haven\u2019t replied."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1c9272ac7c994d479c21e1ba31d968ad",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For shipping rate estimates and fulfillment support, press 2.",
+                "fileID": "ac47aa6192044b3f9de1a574d5f7392c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For shipping rate estimates and cost calculations, press 1.",
+                            "fileID": "cda4db2c917341cd97fa1292986b6d3f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our shipping specialists.",
+                                        "fileID": "bffc5273c4d44b88aaa961d44938960f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c0479dcb272e4a198c44c9c59ff83691",
+                                "navigationGoals": [
+                                    "Obtain shipping rate estimates for my crowdfunding rewards",
+                                    "I need detailed shipping cost estimates for sending rewards to different regions.",
+                                    "Compute accurate shipping rate estimates and generate cost breakdowns for global fulfillment.",
+                                    "I need help calculating shipping costs for sending my rewards.",
+                                    "Please help me estimate shipping costs for sending physics demonstration kits to backers in various regions."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For fulfillment assistance with packaging and order tracking, press 2.",
+                            "fileID": "6fd273ecbfa84d15b42ee7aa7c00bc72",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our fulfillment team.",
+                                        "fileID": "b8847649f7a349e29f12cf049624cfdb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "55500765c66d406c87e6cfbd33cd215f",
+                                "navigationGoals": [
+                                    "Arrange packaging details and get tracking information for fulfilled orders",
+                                    "I need assistance organizing packaging and tracking fulfillment of reward orders.",
+                                    "Set up batch packaging protocols and real-time order tracking in the fulfillment system.",
+                                    "I need help with packaging my orders and getting tracking numbers.",
+                                    "I need guidance on packaging and tracking shipments for delicate physics lab equipment during fulfillment."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d77b74db39ca40748d21bb3a0da3d8e7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a5216d68ca404f4cbc8426c73c0aca39",
+        "navigationGoals": null
+    },
+    "id": "10255c52a4b74c71a40df6c8396ad1e8",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Heap, the analytics platform that automatically captures every user interaction across web, mobile, and cloud.",
+            "fileID": "fdba9b686c5647089493c47695fd8560"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 to speak with our Sales team for pricing, demos, and tailored solutions.",
+                "fileID": "738967638a444df396789ae96ff44da3",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to schedule a live demo with our Solutions Engineering team.",
+                            "fileID": "25b461bd1e974b3e8e86c9c741d56541",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Solutions Engineer for your live demo.",
+                                        "fileID": "5ccac529458645f788193560948ef838"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4a1546ce5b5643d19e61073512ce5261",
+                                "navigationGoals": [
+                                    "Book a live demo with a Solutions Engineer to see Heap in action",
+                                    "Schedule a live demo with a solutions engineer to see how Heap can track engagement in my veteran mentorship program",
+                                    "Book a live demo with a Solutions Engineer to explore Heap's event taxonomy and data capture workflows.",
+                                    "I\u2019d like someone to show me a live demonstration of how Heap works so I can follow along easily.",
+                                    "I\u2019d like to schedule a live demo to see how Heap can analyze user interactions for my research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for pricing, licensing options, and subscription details.",
+                            "fileID": "6f2fc87c272b4649b1ef3529e62301b6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Sales team for pricing and subscription support.",
+                                        "fileID": "c09328806ed446cab5690f21d00e9fe9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b238437094f24606b4b407384f86e25e",
+                                "navigationGoals": [
+                                    "Obtain a breakdown of Heap's pricing tiers and subscription plans",
+                                    "Get pricing and subscription details for using Heap analytics in my nonprofit veteran outreach app",
+                                    "Request details on enterprise licensing tiers and subscription pricing models for Heap.",
+                                    "I need to review the different subscription plans and find out how much I\u2019ll pay each month.",
+                                    "I need details on subscription plans and pricing options suitable for a student research project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4237d6a1710f4f7e8a4d1e0f8036275d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for Customer Support and account assistance with your Heap integration.",
+                "fileID": "a4d5c933f574445d89dd92bcac26bf03",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for technical support with your web, mobile, or cloud data integrations.",
+                            "fileID": "40c7c299ea354eda98f7f0e6baf5b780",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Technical Support team.",
+                                        "fileID": "ed84ec602d014b45b7026e1e775311c2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "adf9cb8a5de743e18afe135407336fa5",
+                                "navigationGoals": [
+                                    "Fix a technical problem with my web or mobile data integration in Heap",
+                                    "Troubleshoot my Heap web integration to fix data collection for my veteran career portal",
+                                    "Troubleshoot my web SDK integration to resolve custom event tracking errors.",
+                                    "I need simple technical help installing Heap\u2019s tracking code on my site\u2014I\u2019m not very familiar with computers.",
+                                    "I\u2019m having trouble integrating Heap\u2019s tracking code into my web app for my physics experiment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for billing inquiries and account management assistance.",
+                            "fileID": "574619d5845a466085b31ba02a37e131",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Billing and Account Management team.",
+                                        "fileID": "6f412e8bd50f43a6a8955d4918b4dc7a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d8349081fe46424cac8c0bdd284aa1c9",
+                                "navigationGoals": [
+                                    "Clarify my recent invoice charges and update my billing information",
+                                    "Review my billing invoice and adjust my subscription tier for my veteran support dashboard",
+                                    "Update my billing payment method and get an itemized breakdown of my latest invoice.",
+                                    "I need to update my billing information on my account and check my latest invoice.",
+                                    "I need to update billing information and review my invoices for my student account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "54fa1561f39a4740a46d90b0cede62a9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "06f71ed543c342f69c659586d8552994",
+        "navigationGoals": null
+    },
+    "id": "55988e18935b40f3be23856a6ea0a244",
+    "navigationGoals": null
+}

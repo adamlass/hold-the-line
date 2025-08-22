@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to MessageBird in San Francisco, where we make customer communication simple.",
+            "fileID": "f57dd5621ec24deeb2f200afa1fa675f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and pre-sales inquiries, press 1.",
+                "fileID": "2d9af4b85b0a470893a6075213e7e169",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on plans and pricing, press 1.",
+                            "fileID": "53f85f4350694945823454e132e0e372",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist.",
+                                        "fileID": "9d7f32d26dd34d41886f4a39a1e9ec9e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a92911699c9e4710a8e2c45bed0c50fb",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For questions about your existing contract or billing, press 2.",
+                            "fileID": "ad0732c9089c4d9e83baea02be7fc1e8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we\u2019re connecting you to our billing team.",
+                                        "fileID": "3b7c7e155239494d9900410c0e7febd0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "44698d609314476daecba9b2521e3a33",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "36caeab9f4424ede9d20a0981545153e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and service, press 2.",
+                "fileID": "52673481bc3841ce90ff20d5f3126e02",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with setup and integration, press 1.",
+                            "fileID": "1129f3371f494a1db93861a94b718789",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line while we connect you with a technical support engineer.",
+                                        "fileID": "5673a7b36e0a4d5db724c93f2ce0ef9f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ec48d82d33954fe488ee3d7b520593e5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To report a service issue or outage, press 2.",
+                            "fileID": "ffd761740e9e486d9ca8e9dd400d14a1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we route you to our operations team.",
+                                        "fileID": "9396307b7ab8460ca9515d0958b4db4e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c96fa075496c435da6126f0fdb28f8a7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c33db4d5db9f4f2abac456c83bf9ca3f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "67cceb796f4f43b9991049cbbade1372",
+        "navigationGoals": null
+    },
+    "id": "9d8ec1a7cf2e4e0891d7eaaf8865f6c5",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Ninety Nine Designs, the global creative platform for custom graphic design based in the East Bay.",
+            "fileID": "c932356f6756419ea221377c04c4d0b2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To start a new design contest, press 1.",
+                "fileID": "61ecde55a0ab471a87065711fa9b8ae8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To launch a logo design contest, press 1.",
+                            "fileID": "c6dd508e356b40368ede56f07ec9bdb4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our contests team for logo design.",
+                                        "fileID": "ce3a86570abe4ddcbe652ef2c41c25dc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5132e0cb776640b280bc29b771951c52",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To launch a website or other design contest, press 2.",
+                            "fileID": "4963fe55928040f7beeda3d06ef01a5d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our contests team for websites and other projects.",
+                                        "fileID": "4d40ab980f9f4a738964edb927c8cb14"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "272b1ed48e084ab89e2ada7d11efe6d2",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "81b8566860144635ab6b3bcce24956e1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To hire a designer directly, press 2.",
+                "fileID": "01bc60d37843498a9cf67ed186560feb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hire a designer for logo work, press 1.",
+                            "fileID": "85b1623f2e6f47638c41b883d504bca5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our designer matching team for logo projects.",
+                                        "fileID": "78d3c69c11424abc8e1d44313dca9cd3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "87ff2576894841b1b9c8264b45191242",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To hire a designer for website or other design services, press 2.",
+                            "fileID": "e04773415b4c433b8aae858a7ed62c05",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our designer matching team for websites and other design services.",
+                                        "fileID": "2cb1cb34c57741e1a8e5f98c627f16c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e56074584abe4bf899af6b1622fd52cb",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "37ba85a52f3348ddb8694d2793c6b299",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6c55f2c1aa154c0b9a5003b265e44b79",
+        "navigationGoals": null
+    },
+    "id": "0221d8b283b542559a25f7017f570fe7",
+    "navigationGoals": null
+}

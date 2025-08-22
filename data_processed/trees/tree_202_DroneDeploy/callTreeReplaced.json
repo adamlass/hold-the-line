@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling DroneDeploy in San Francisco, the leading drone software platform for unlimited flying, mapping, and sharing.",
+            "fileID": "47816174886148d9b69f77ff0a4792d9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new account inquiries, press 1.",
+                "fileID": "2bd3d3695b8b4e2ebf9586c273c70430",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product demos and pricing information, press 1.",
+                            "fileID": "5a2c325e7af84abc97f7f010e707c699",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "058fa2b0671c4cb38e0b759be3e9c28a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "93b94711863a4c5f81a275b5ecdb6d51",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For trial setup and account activation, press 2.",
+                            "fileID": "23b0a099cb4f4b648291182ca35e2476",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our account setup team.",
+                                        "fileID": "59480e2ac42445358e36e81f50760afe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1810004958cc42b4af491d9eeafcf791",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d4d3ad3c04b748a09799d04edaa4e902",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and billing, press 2.",
+                "fileID": "f134362ee4764f12b1a0a5fbdd6eb67a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical troubleshooting and software issues, press 1.",
+                            "fileID": "4775b69bf8e2491d8c823aa1bddbf6b4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a technical support specialist.",
+                                        "fileID": "6986ed429a7b4b46b2aa7205677b517f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c06cb0a02311481a9622f5e46e791231",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing, payments, and invoice questions, press 2.",
+                            "fileID": "9bb5345e6e754d58b282eeae8037bcfa",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "7f4f68d9883a4b81a1d131b67098a23d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "87e712e76d28429cbc3849f82a7b8993",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f8b63631ee9d4acf8a70bbfb8c8f7d7f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "560e204800574467846fc0ae860ac299",
+        "navigationGoals": null
+    },
+    "id": "0948ffc0054641559b3e3c9a5b40fda1",
+    "navigationGoals": null
+}

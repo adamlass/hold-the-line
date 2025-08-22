@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling RingCentral Peninsula, the leading provider of cloud-based communications and collaboration solutions.",
+            "fileID": "c124395e7efb4d78ab1a2c03da4beb23"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new account information, press 1.",
+                "fileID": "b86da27c1005490ab59d6469a04019e8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a small business sales specialist, press 1.",
+                            "fileID": "cde77ee0c25e49f8bd6bcd46b463555a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a small business sales specialist.",
+                                        "fileID": "aae14ff4b48746f58c2bd6e50bc0885b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64b9bea4405246e3a5c8d4e6367ba857",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with an enterprise sales representative, press 2.",
+                            "fileID": "ed087358a85849d89c6c1a91a8318933",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an enterprise sales representative.",
+                                        "fileID": "edb70a88b7b44d3088d773ce1cb02290"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "07d4e0afa0464649821066464328dfa8",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "51fc14dbbab54adf8389a04351c86b9e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and customer care, press 2.",
+                "fileID": "ac6977ea20954867a13c9e4afcefb6d9",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support including video conferencing assistance, press 1.",
+                            "fileID": "7d48733a8bec47e7a7e8714f997f748b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "0ffd52e383724d159ddf3d1b8026cd63"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9999dac6da2047ef9b4b795a70e39444",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account management, press 2.",
+                            "fileID": "8c4c16e930444e7a934544e271934f75",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing and account management.",
+                                        "fileID": "878afa8dbea74a29bc1acffd47f4c03a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7f4bd84a35054ff3a5e62febc566ba96",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "753f66c569ed4fd3b3582214af707199",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8e15fd2b22a14624b61a032c57656280",
+        "navigationGoals": null
+    },
+    "id": "2da1af3b2aa541e4bb8f79c0da442e6f",
+    "navigationGoals": null
+}

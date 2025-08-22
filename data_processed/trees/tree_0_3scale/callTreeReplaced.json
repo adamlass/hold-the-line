@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling 3scale in San Francisco, your API management solution from Red Hat.",
+            "fileID": "e45a2970f0a2479f82b0e45c7e231a9e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For support options, press 1.",
+                "fileID": "83d5d75769844764aa8a8880ae86f4e7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For developer support and API integration help, press 1.",
+                            "fileID": "d195ee103f8c47ed9dbcc4f410c70e7e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our developer support team.",
+                                        "fileID": "4a254bd60c6041678dba71f68d6f6039"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3ee393f6df224bd9b252814f0e00117f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical troubleshooting and issue resolution, press 2.",
+                            "fileID": "f154b5ef6df043e585d51da24880cd5f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we\u2019re connecting you to technical troubleshooting.",
+                                        "fileID": "e6d38dffd16347708db981a40c630733"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f2d89892ba714c5798017daded6ce8ab",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ef16eb43e86e431d93e367c65d4e703d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales inquiries and pricing information, press 2.",
+                "fileID": "5b80c54980bd4ab89abe34e4c08aaa65",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For details on standard pricing plans, press 1.",
+                            "fileID": "2626776831bb43fe8b469de99640e596",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we gather our standard plan pricing.",
+                                        "fileID": "64c6f3d21ec84e3796abaea5fd759762"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ff947ac68eaa4308bfb57cc67bdc73db",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For enterprise solutions and custom quotes, press 2.",
+                            "fileID": "affc296efb6d4ddea23724d4abdc7319",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our enterprise sales team.",
+                                        "fileID": "936f049eba9144fdba9faef779d0b070"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6ac9a98c782f40768ba48ea5e823b2d1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3e4ecb18b07b47db96e96613d730067c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "61a8fd9dc09646718afb9d4584b2daf4",
+        "navigationGoals": null
+    },
+    "id": "131a0a8292ce44d1a74ab303faf4ca1c",
+    "navigationGoals": null
+}

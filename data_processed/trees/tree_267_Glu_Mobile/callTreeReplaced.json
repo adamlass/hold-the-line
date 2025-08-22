@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Glu Mobile, based in San Francisco and creator of the world\u2019s most engaging mobile games.",
+            "fileID": "68e0d0e4de4246afb70dfe5d418e60e7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For customer support and game assistance, press 1.",
+                "fileID": "ee8fd860ce814593a02b0019ecaa9292",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance, press 1.",
+                            "fileID": "ffeefd3ca0fd4f87bca26ffff9156701",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a technical specialist.",
+                                        "fileID": "883bd7ff04b441f0846e59508b9dcfb5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6926978c91574c43816335f0a646466f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press 2.",
+                            "fileID": "b488e92a6df746bc92bdf1c7d7c26f6d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing department.",
+                                        "fileID": "344cc965eded4599a6b08533a9f3afb0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dd970ccbeecb4bde8adee9075bc83ac7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a1acc1bf787042debcf09e66c5dd38fe",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For corporate and investor relations, press 2.",
+                "fileID": "05c5f9cafe7a4bf48be19323efee23aa",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For investor relations, press 1.",
+                            "fileID": "5014eb336d68440b8ce63be6108d68d8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our investor relations team.",
+                                        "fileID": "0383da44ee03465eb15a0f23822f39d6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3bf569c85f814b26a8cc489dc7789f9c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For media and press inquiries, press 2.",
+                            "fileID": "05292136a2934ae5ae5c22f2a029e021",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our media relations department.",
+                                        "fileID": "a3b2f9b1096c430f90257c09add2ec52"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b33dfb077e56482e983d318cbbc0cdb7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "667099a150ff4a99ac551489a2bb23e5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1503af93e8e04d99a7c826f6583ff344",
+        "navigationGoals": null
+    },
+    "id": "c9a2615ddbc8404aa6af61f9fc34c0f3",
+    "navigationGoals": null
+}

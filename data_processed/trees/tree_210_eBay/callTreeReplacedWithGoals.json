@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling eBay South Bay, where you can buy and sell electronics, cars, fashion apparel, and more.",
+            "fileID": "968a6cb4bd6c437591e41aacfb1a8af6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For help with buying items such as electronics, collectibles, and fashion, press 1.",
+                "fileID": "1e9bbfbd5c4d4244a41149122a48c3b7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For order status, tracking, and delivery inquiries, press 1.",
+                            "fileID": "d85263f50c9c4712ad3f6748a51202f9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to a buying specialist.",
+                                        "fileID": "d7d6da1be9394a0da22dc5ba8a2861ea"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9e27da65c9064f0c99b29d464b2826e3",
+                                "navigationGoals": [
+                                    "I need to check the delivery status of an order I placed for a smartphone last week.",
+                                    "Check the delivery status of the night-vision binoculars I ordered with my veteran discount.",
+                                    "Retrieve the shipment\u2019s tracking status and ETA for my recent electronics purchase.",
+                                    "I need help tracking the delivery status of my recent eBay purchase.",
+                                    "Check the shipping status and expected delivery date for the physics textbook I ordered last week."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For product search assistance, bidding questions, and general buying tips, press 2.",
+                            "fileID": "6ef1a4606e6d4034a11ce25b7a20c7e3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our buying support team.",
+                                        "fileID": "24548d5dd32242c58edfa1cc6d72c04d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "656a560e56684f53a7bec82f32174a85",
+                                "navigationGoals": [
+                                    "I\u2019m looking for advice on bidding strategy and help finding a refurbished MacBook Pro.",
+                                    "Get advice on bidding for a military surplus radio I want to purchase.",
+                                    "Optimize my search filters and set up max bid increments for a collectible auction.",
+                                    "I want assistance finding and bidding on a collectible item.",
+                                    "Get guidance on how to search for and place a competitive bid on a used oscilloscope."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1b2f351f7ab842fd93645d0eb8a9c045",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For selling, listing an item, or managing your seller account, press 2.",
+                "fileID": "a5e06813529e4bf493cbc1a974f340ee",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To create or edit your listings and set auction or Buy It Now options, press 1.",
+                            "fileID": "217e0e4295204f378e5622551333f25a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a selling specialist.",
+                                        "fileID": "fefb5de2b7e1440a9eefb45c046fdf95"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8c8406056d5e442bb28463a67508acbc",
+                                "navigationGoals": [
+                                    "I want to create a new auction listing for my used DSLR camera with a Buy It Now option.",
+                                    "List my retired field jacket as an auction item.",
+                                    "Configure a new eBay listing with auction format, reserve price, and sale duration.",
+                                    "I would like to create a new eBay listing for an item I want to sell.",
+                                    "Set up a new auction listing for my old lab equipment, including reserve price and shipping options."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For seller fees, payment disbursements, and account performance, press 2.",
+                            "fileID": "fb1cc658e2684722bcbc68258302b09a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience, a selling support representative will be with you shortly.",
+                                        "fileID": "79eb0b003f4849788c6b155f518b9e5a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4fd81709da7b4efebf0dbd2dbb9502f4",
+                                "navigationGoals": [
+                                    "I have questions about my recent seller fees and when my payout from last week will be disbursed.",
+                                    "Ask about seller fees and payment disbursement on my veteran memorabilia sale.",
+                                    "Review my recent seller fee breakdown, payout schedule, and account performance metrics.",
+                                    "I have questions about seller fees and when I will receive my payment.",
+                                    "Understand the fee breakdown and payment schedule for my recent sale of a particle physics textbook."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d68ad4621dbf4e73a8e8fa14926c1c47",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "46265080b6f24c8d9e82193ed0a473da",
+        "navigationGoals": null
+    },
+    "id": "db07fc3ecb0d46a9868911e8e66efb24",
+    "navigationGoals": null
+}

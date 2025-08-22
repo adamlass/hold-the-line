@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Thumbtack, your San Francisco-based service connecting you with local professionals for any project.",
+            "fileID": "04066c6d903548c78772fffcf33ebeba"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For help finding a professional, press 1.",
+                "fileID": "86ea08cbd8b54a86994616ca56f6f4dd",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For home improvement and repair services, press 1.",
+                            "fileID": "b14dbbd6ebe14f2b92b25025782d88a2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All our home improvement experts are currently assisting other customers. Please hold the line, and we will connect you shortly.",
+                                        "fileID": "62ce6226223f47329bf399bce1e07c71"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9736776a379f496380242b82b7988e03",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For cleaning and housekeeping services, press 2.",
+                            "fileID": "7009b38023af48079b90e3bdbd02218c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All our cleaning specialists are busy at the moment. Please stay on the line, and we will be with you soon.",
+                                        "fileID": "38bdcff418cf4d388b7604c13246bd6e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dce8bd8d422346a38c7fe828e1b6df68",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "705ac6c1959d4846991daedb53391e19",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a professional partner seeking support, press 2.",
+                "fileID": "8c499b48505148cb824bc068053cf3d8",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account setup or profile questions, press 1.",
+                            "fileID": "865da535fea64a82bb343b34be7330cf",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All account support agents are currently busy. Please hold, and the next available agent will assist you.",
+                                        "fileID": "2b2f806e67874ba682a70a66dafeb33c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "348c8177c20d4b32ac5c52cef17c5b1d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For payment, billing, or payout inquiries, press 2.",
+                            "fileID": "9a43d1526e2e460a9c549a733ff0326c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All billing specialists are assisting other partners. Please hold the line, and we\u2019ll be right with you.",
+                                        "fileID": "3c3b26916dad4a1d9123b11057337a43"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "49c8fe33f5664a6b8637678c0c5a2670",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "62741ff1f18d4572b87489b76d5f4f91",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "fda05c4f30a843c198bb9a574f279fb5",
+        "navigationGoals": null
+    },
+    "id": "8e7d4aaf1b0645f1916fd1409007d5fc",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Lob, the San Francisco-based software platform that brings intelligent automation to your offline business processes.",
+            "fileID": "a27ae31b75ab47a39e2ea5c65aad8539"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our sales team or request a demo, press 1.",
+                "fileID": "ed59064731274c2b8860e087bd74b3d7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a product demo, press 1.",
+                            "fileID": "f568a9d73c4942099e5d58f7e0982953",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for your demo.",
+                                        "fileID": "7c6366d77e724392b429a84ac1b7d9f7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "46da1dad3eaa44129de7b75436b1ebfc",
+                                "navigationGoals": [
+                                    "I\u2019d like to set up a live demo of your platform this week.",
+                                    "Schedule a demo to see how Lob\u2019s automation can streamline my veteran-run business mailings",
+                                    "Schedule a deep-dive demo of Lob\u2019s API-driven mail automation workflow",
+                                    "I\u2019d like to arrange a demo appointment so someone can walk me through how this works.",
+                                    "I\u2019d like to schedule a Lob demo to see how it can automate mailings for my university research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To get pricing information, press 2.",
+                            "fileID": "35f18efceb364253a74ee7273e3c9e29",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing specialists.",
+                                        "fileID": "a1973779d2db48ef81731aee8d3c1255"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c4a4d01b3c304097851f3fc7be3f2fa7",
+                                "navigationGoals": [
+                                    "Can you walk me through your subscription pricing tiers?",
+                                    "Get detailed pricing information for Lob\u2019s automated mailing services",
+                                    "Get a breakdown of Lob API usage tier pricing and overage fees",
+                                    "I need a clear breakdown of your pricing and payment options.",
+                                    "I need pricing details for using Lob\u2019s API to automate mailings for my physics experiments."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f99f9dc564ad48c395e0007c29a01342",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you\u2019re an existing customer and need support, press 2.",
+                "fileID": "15c556af603e46499e86fd073f4b3980",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "f785dbc5a2e5444cb5fdc8130b3b0fca",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "8257fb758c7b49d28a4fdc7538ee34ed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1538a2f3e3444825bbdb9179e652af96",
+                                "navigationGoals": [
+                                    "I need help troubleshooting an error in our Lob integration.",
+                                    "Troubleshoot a technical error I\u2019m seeing in our mailing API integration",
+                                    "Debug 401 authentication errors on Lob API calls",
+                                    "I\u2019m having trouble logging in and need technical help to access my account.",
+                                    "I\u2019m getting an error in my Lob API integration for sending lab result postcards and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "0992a7bbc6b44b23972cf8a84424421b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account management team.",
+                                        "fileID": "19c05600ac884fe1ae8c699a57982b52"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "56bfc2d9b34f4e8e8a64cdac1ee8262a",
+                                "navigationGoals": [
+                                    "I have a question about my invoice and account charges.",
+                                    "Resolve a billing discrepancy on my Lob account",
+                                    "Update billing information and review the latest Lob invoice",
+                                    "I want to review my latest bill and set up payment over the phone.",
+                                    "I want to update my billing information and review my recent invoices on my Lob account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7c72f72b9a5d46f5bff108a02a5c9366",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "970e185a6b354ee990b3d7cc4f1a6c07",
+        "navigationGoals": null
+    },
+    "id": "2e96871fb185494ab079789ba00c7530",
+    "navigationGoals": null
+}

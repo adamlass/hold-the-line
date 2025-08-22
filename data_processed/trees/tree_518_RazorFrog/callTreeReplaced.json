@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling RazorFrog in San Francisco, where we craft beautiful and functional WordPress websites.",
+            "fileID": "a7c9b4aefe6d46b793fc34c5a57b3453"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new project inquiries and consultations, press 1.",
+                "fileID": "a00ba8c8097d4be1aa9a10345215ddda",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team, press 1.",
+                            "fileID": "b892a7a02a29415aafb7c33896dc7014",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team. Your call is important to us.",
+                                        "fileID": "9e0edca4bf2343e59cf08660dbf85c60"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1fcde2a8c8a84496a7c4e404e9dd90d5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a project consultation, press 2.",
+                            "fileID": "ba279c5370174d96aa25550be78b7613",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we help schedule your consultation. We will be right with you.",
+                                        "fileID": "dbe5f1ca0fb94e49ad3a8544db439ab5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fe78767fb73e4f7bb8b76c939f6bfcda",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cd0d7715df8f4915a7aa5f104ea35fdc",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing client support and maintenance, press 2.",
+                "fileID": "c6a81a9583d147328af9752e7c1ea122",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support on your WordPress site, press 1.",
+                            "fileID": "48ed60ba3d53429b96a3ebbc479b9f24",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for technical support. Our WordPress experts will be with you shortly.",
+                                        "fileID": "278854d87645490da85a376d6a39333e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3246807032d44708aa1e131909de9110",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing questions and account information, press 2.",
+                            "fileID": "062f483abdfe4e8bbf7930844699cdc9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for billing and account services. A representative will be with you soon.",
+                                        "fileID": "ef9368fa3fde4259bfd46df2c3bbf4e8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "30ab9f6e2c2d4545a433d0fe75982167",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "754bc67d4498414d974c1c512e009af6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4bab7db901174722876aef1e6bdd94ee",
+        "navigationGoals": null
+    },
+    "id": "2d650ec75d9443ccbc4db34c2144374c",
+    "navigationGoals": null
+}

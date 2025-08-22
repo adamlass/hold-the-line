@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Proto.io, where you transform your ideas into inspiring user experiences in no time.",
+            "fileID": "e1d21ce5f67e4ce698ba7b8362bca619"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product demos, press 1.",
+                "fileID": "162cf94c067546d38ed5db54b81cf70e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a live demo of Proto.io, press 1.",
+                            "fileID": "3d7c694d307e498b9dce792590826ece",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo scheduling team.",
+                                        "fileID": "a913ed04e071450ab5020caa671249a9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "afcae4bbcd1a43758bb36d5eb83b1073",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing and licensing information, press 2.",
+                            "fileID": "b24a303d904e434bacdfabd62b37f9d9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales department.",
+                                        "fileID": "db03113b383c414dac61a14405987b54"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b3aea4d969a74c1c8c65ed6c638f65e8",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cf0750d418484ee7bb47ffe61be3139a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and customer service, press 2.",
+                "fileID": "dccbb1b77a844207b05c91351305e6bb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need technical support, press 1.",
+                            "fileID": "6f53c9789dc64ce4aa7d65146837cdc4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "1b6b02f855144a04819ec976aab5cd1b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d2eaa8f44c7045bbb4c8c578038b8c05",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press 2.",
+                            "fileID": "cf5924b8d97d4defad5cdd84b5e1d20b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our customer service specialists.",
+                                        "fileID": "99294298999b4314a0418a7a909622f4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "29ee2a1fd2614292855af3474cb1625f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "baeff300f8504036870b7455b3ed52af",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5368b799cf204dd49e07bef31ff3be91",
+        "navigationGoals": null
+    },
+    "id": "022e9e49a823419181ebb9f0175518b1",
+    "navigationGoals": null
+}

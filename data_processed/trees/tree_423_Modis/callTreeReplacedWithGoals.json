@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Modis in San Francisco, where we bridge the gap between IT and engineering talent.",
+            "fileID": "02fc57a4206a4aa58e0a174b4b1018bd"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For career opportunities and job openings, press 1.",
+                "fileID": "18d8318bba3e4183ad7a1e9d1820bfd6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For current IT and engineering job openings, press 1.",
+                            "fileID": "1068a1a617aa4104941447ea6ff58db1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the latest job openings for you.",
+                                        "fileID": "80f2d728e45541268910b4ec62cc7458"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7e9fb03ece424d42ae1941adebfbeb01",
+                                "navigationGoals": [
+                                    "Show me the latest IT and engineering positions available in San Francisco.",
+                                    "I\u2019m looking for current IT or engineering job openings suitable for a veteran.",
+                                    "Review open cloud infrastructure and DevOps engineer positions in San Francisco",
+                                    "Check the latest IT or engineering positions available",
+                                    "Review current entry-level IT or engineering positions in San Francisco that fit my physics background"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak directly with a Modis recruiter, press 2.",
+                            "fileID": "0ebcedf6214347edad6ce8c3e3742746",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruiter.",
+                                        "fileID": "ce47c08e8edb4154ad0b9d65211db855"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "745494ffa4fd40f584f7cede0214ba2a",
+                                "navigationGoals": [
+                                    "I\u2019d like to speak with a Modis recruiter about my job search.",
+                                    "I want to speak with a recruiter about veteran-friendly job opportunities.",
+                                    "Speak with a recruiter about my Java full-stack developer background",
+                                    "Talk with a recruiter about applying for a tech job",
+                                    "Connect with a recruiter to discuss application requirements for technical roles in engineering or IT"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2cf2e173e26148a0b7c4be550dbd191d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For employer services and staffing solutions, press 2.",
+                "fileID": "2487d70d4a0741df8e10ab5972ed1902",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For engineering staffing and project support, press 1.",
+                            "fileID": "f543c117d7df4c13801d87a25294e5c6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our engineering services team.",
+                                        "fileID": "6a6923bb4e03442581896d343bada427"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "90eda317b3fa4e2c9a4d9d9be8b85b90",
+                                "navigationGoals": [
+                                    "I need engineering staffing support for a project at my company.",
+                                    "I need engineering staffing support for my veteran-owned business.",
+                                    "Arrange contract embedded systems engineering support for our autonomous vehicle project",
+                                    "Ask about engineering staffing help for my small business",
+                                    "Arrange engineering staffing support for my university physics research project"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For IT workforce solutions and talent partnerships, press 2.",
+                            "fileID": "d3aa4cb46fc44a208671c14b8bbccd95",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our IT solutions specialist.",
+                                        "fileID": "a2b366f0a93a4054abeb1a154d9f3bd5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d75864a656264a0d8791deb6525576bf",
+                                "navigationGoals": [
+                                    "I want to discuss IT workforce solutions and talent partnerships for my team.",
+                                    "I\u2019m seeking IT workforce solutions and talent partnerships for my company.",
+                                    "Plan a scalable DevOps team for our cloud migration initiative",
+                                    "Discuss IT workforce solutions for my company",
+                                    "Explore IT talent partnerships to support data analysis and computing needs in my physics research"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0f372262ccdf4161a7a27353e9467186",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "04554479a2a647b0b4b14dc25a32e3ac",
+        "navigationGoals": null
+    },
+    "id": "34cd83b1d3af42519bfa5226d4193550",
+    "navigationGoals": null
+}

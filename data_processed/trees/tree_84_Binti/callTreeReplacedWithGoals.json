@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Binti, where we build software in the East Bay to match every child with the best foster family.",
+            "fileID": "c8aad56a52a044c2ac3a3c834b954d9c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our foster care software and partnership opportunities, press 1.",
+                "fileID": "4f9b656f2737447eb57b823884b01dca",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our child placement technology, press 1.",
+                            "fileID": "4f5c1dfb020d4971ad73e425ddb940ad",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a specialist in child placement technology.",
+                                        "fileID": "ee5b3f155eab44d8807e13a74981f185"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a87d0cff261d442e8455ea01ae64d616",
+                                "navigationGoals": [
+                                    "I need to schedule a demo of your child placement software and discuss integration options.",
+                                    "Find out how Binti\u2019s child placement technology works and how I can integrate it into my veteran support programs",
+                                    "I need the API docs and system architecture for your child-placement matching engine to evaluate integration with our case-management system.",
+                                    "I need someone to walk me through how your child placement technology works.",
+                                    "I\u2019d like to learn about the algorithmic framework behind your child-placement platform."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To connect with our community partnership team, press 2.",
+                            "fileID": "44daddf2f6744faa95d61ca1cb7e9853",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our community partnership team.",
+                                        "fileID": "ea62b6c170704cd69de4cc00f072ec19"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "852042b1b7844b3083404d6745690aba",
+                                "navigationGoals": [
+                                    "I want to speak with your community partnership team about collaborating on foster care initiatives.",
+                                    "Explore forming a community partnership between Binti and my veteran support organization",
+                                    "I\u2019d like to discuss data-sharing protocols and partnership standards with your community partnership team for a cross-agency integration.",
+                                    "I\u2019d like to find out how my community group can partner with you.",
+                                    "I\u2019m interested in exploring collaboration opportunities with your community partnership team."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1a514dcbd47645c79f1b8a485e3008a0",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are interested in becoming a foster parent or need support services, press 2.",
+                "fileID": "eb4ada68d36c419e9d4eef0d3515b07c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To find out how to become a foster parent, press 1.",
+                            "fileID": "b66d00fb68a9456b87105d0415483865",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our foster parent recruitment team.",
+                                        "fileID": "6d98f795ac544759a8053b9abd2a92dd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8ae35dd3289f43c6b5b6009a9b5222bd",
+                                "navigationGoals": [
+                                    "I\u2019m interested in becoming a foster parent and need details on eligibility and next steps.",
+                                    "Learn the steps I need to take to become a foster parent after my military service",
+                                    "I want details on your foster-parent recruitment platform\u2019s technical workflow and onboarding process, including authentication and data-security measures.",
+                                    "I need information on how to become a foster parent at my age.",
+                                    "I want to understand the requirements and steps to register as a foster parent."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For support services for current foster families, press 2.",
+                            "fileID": "d8f5593545354ad2a0855a35c132ed1d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to foster family support services.",
+                                        "fileID": "51e13c983b604e308558951044e277f1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "55ca26e156d145818395f33704807fa6",
+                                "navigationGoals": [
+                                    "I need information on support services for current foster families, like respite care and counseling.",
+                                    "Get support resources for my foster family as a veteran caregiver",
+                                    "I\u2019m looking for information on the support-services portal\u2019s API and webhook capabilities to automate resource notifications for foster families.",
+                                    "I\u2019m looking for support services for my current foster family situation.",
+                                    "I\u2019m seeking information on support services available to current foster families."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "697b7f56fbf14d7994f2ee2ebf3d6cc8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "92d6aa84999b4bc58ea1dd3a7b9ad532",
+        "navigationGoals": null
+    },
+    "id": "103e82d152074f25a88aefbf1ef6a738",
+    "navigationGoals": null
+}

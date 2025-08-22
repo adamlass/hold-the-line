@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Macy's San Francisco, your destination for buying pants online or in store.",
+            "fileID": "82a796193b614169abfc88c3a0491cf3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For questions about your orders or shipping, press 1.",
+                "fileID": "65d5b14e14a84f72a645412c8236b914",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For order status and tracking, press 1.",
+                            "fileID": "e6c72031039d470ea1df1f91020bf568",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an order specialist.",
+                                        "fileID": "6b7066564f5f4ef8b0e4a7c18053c9a0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a43a18dd72aa4af8b1f3f3171b926d0e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For shipping questions and delivery estimates, press 2.",
+                            "fileID": "f53637e6991546a39b2a612872ec5fb3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a shipping representative.",
+                                        "fileID": "7116d126814049979eeb5bf1e24f46a9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d4bd9588898c4b558bebeb97c74d726a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c2ae87940b86467cab037a133c3103fa",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For product and store information, press 2.",
+                "fileID": "cf53e010c1904d92b612bda2ef6f79e9",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product availability at our San Francisco store, press 1.",
+                            "fileID": "5018742dfcb3466caa8cab511401d944",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we check inventory at our San Francisco store.",
+                                        "fileID": "baee11fc56674fe098e156dbe3d7cc01"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2f27388cf509401aaff85160b96c4ecc",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For store hours and directions, press 2.",
+                            "fileID": "a0f407568816477ab1fdcea973f6a8c1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a store associate.",
+                                        "fileID": "65b84132609d48a7aa7384aa633c7eb2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "985cf7e43a3e4a1b9596f43dec0a556c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "faa8e45daf314f6b8d1659131ed1c9f9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a2b7cc98f019488d8fba3aa8099971b3",
+        "navigationGoals": null
+    },
+    "id": "547f3cb3b5b646228179f4fe4b406cd9",
+    "navigationGoals": null
+}

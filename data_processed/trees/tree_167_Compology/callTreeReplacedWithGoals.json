@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Compology in San Francisco, the only camera-based dumpster monitoring solution for waste, recycling and compost.",
+            "fileID": "0c1a624e73254b05b282b6bab7bd753d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For existing customers needing technical support or troubleshooting, press 1.",
+                "fileID": "58cca355ce4d4ee488841885bd0342bf",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for camera or sensor troubleshooting.",
+                            "fileID": "f765ca1e8b3a42ed9e4a09ae9357084d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical specialist.",
+                                        "fileID": "0bd7b9ebbcdf402ea4a3d101457803bc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "24af459cdfae46c1911cf8d4091fa6f4",
+                                "navigationGoals": [
+                                    "I need to troubleshoot our dumpster camera sensor\u2014it\u2019s not sending data.",
+                                    "I need help troubleshooting my on-site dumpster camera\u2014it\u2019s not sending any images.",
+                                    "Troubleshoot intermittent camera feed dropouts affecting fill-level detection on my dumpster monitoring system.",
+                                    "Please help me reset my dumpster camera\u2014I'm not getting any images.",
+                                    "I need help calibrating and troubleshooting my dumpster camera sensors; they\u2019re misaligned and not recording properly."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to report service outages or request urgent maintenance.",
+                            "fileID": "a23b7d1552454c80ac3c2135ef352f5a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to our maintenance team.",
+                                        "fileID": "a594c6e600a84a648ce20bcce4ddf40a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3ebd1a9f37b045ce89f622c5a8912ce9",
+                                "navigationGoals": [
+                                    "I need to report an outage on our compost bin camera and request immediate maintenance.",
+                                    "My dumpster sensors have stopped reporting\u2014I need urgent maintenance dispatched.",
+                                    "Report an urgent service outage: my sensor array has gone offline and needs immediate field maintenance.",
+                                    "I need urgent repair; my dumpster camera has stopped working.",
+                                    "I\u2019m experiencing a service outage\u2014my compost bin sensor has gone offline and needs immediate maintenance."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4cf4ae43b13f41b88c520f32b91515ad",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales, new account setup, or pricing information, press 2.",
+                "fileID": "8fd22b89a5214d6998f982feaa211c9b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for details on our monitoring plans and pricing.",
+                            "fileID": "4189c2dacd9741df8bbda3e3e2ae4650",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales representative.",
+                                        "fileID": "e2fee53cb98a4cdea61150366aca5719"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7cf0cb7047914c83a93c0a4a825238dc",
+                                "navigationGoals": [
+                                    "I want pricing details for adding two more dumpsters to our monitoring plan.",
+                                    "I\u2019d like to set up a new account and get pricing for my veteran-owned waste monitoring service.",
+                                    "Request detailed pricing and API integration options for an enterprise-level monitoring plan supporting 50+ units.",
+                                    "I want to understand your subscription plans and pricing for a new account.",
+                                    "I\u2019d like details on your monitoring plans and pricing for deploying multiple cameras across our university campus."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to speak with our government contracting department.",
+                            "fileID": "c0493e2ebd184f04a4f8b2055f844b70",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest; please hold while we transfer you to our GovTech team.",
+                                        "fileID": "0a606114c9344bf08f46be474b204b48"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "251b54e222ce46f4b7a11081a634ff2e",
+                                "navigationGoals": [
+                                    "I want to discuss government contracting options for our waste monitoring service.",
+                                    "I\u2019m a veteran nonprofit looking to explore government contracting options with your GovTech team.",
+                                    "Discuss FedRAMP compliance and GSA contract terms for deploying your sensor solution in a municipal government program.",
+                                    "I need to speak with someone about government contracts for waste monitoring.",
+                                    "I\u2019m exploring government contracting options to integrate Compology sensors into a state-funded waste management research project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "624816fcbbde49fc8598d266db04dfc7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "364c3e4e1ed44aeda5cdbed6016ba730",
+        "navigationGoals": null
+    },
+    "id": "1a3ef2f08a1f46618174e485c9004364",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Oath in San Francisco, a Verizon company helping you reach more than a billion people.",
+            "fileID": "798c6314a4de490282038952e94cf9d1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For advertising solutions, press 1.",
+                "fileID": "c19e78597fc84854986018a615dcc85a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a digital advertising specialist, press 1.",
+                            "fileID": "deb8b73149df49fca91d79b9cf0d239a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a digital advertising specialist.",
+                                        "fileID": "c1d6e12c5fe3496f9bf6f3219f954de8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5ad7abf63af843eb9262d69574b3195c",
+                                "navigationGoals": [
+                                    "I need a proposal and pricing for a targeted digital advertising campaign.",
+                                    "Get advice on creating a digital ad campaign for my veteran support charity",
+                                    "I need to connect with a digital ad specialist to optimize our display and native ad campaigns.",
+                                    "I need to speak with someone about setting up digital ads for my small store.",
+                                    "I need to discuss online ad strategies for promoting my physics outreach workshop."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about programmatic ad buying, press 2.",
+                            "fileID": "d29ebc1f2fc04c15ba92424bcd08bb34",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to programmatic buying services.",
+                                        "fileID": "b95addb730b048e6b7868a096e85886d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "256020eed7904869984787cb55ec3388",
+                                "navigationGoals": [
+                                    "I want to set up and automate programmatic ad buying for our next launch.",
+                                    "Learn about programmatic ad buying to optimize ads for my veteran job placement program",
+                                    "I want to discuss integrating a DSP for real-time bidding and programmatic ad buying.",
+                                    "I\u2019d like help understanding how automated (programmatic) ad buying for my business works.",
+                                    "I want to learn how automated ad bidding works for my project website."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2206d44835ec4f4fb5d05dfcc9f870f4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For marketing services, press 2.",
+                "fileID": "6d565625976e4e9abb0a59dc08ea3f88",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore brand partnerships, press 1.",
+                            "fileID": "cca11b8dcb49430f814f63089ca43ee4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our brand partnerships team.",
+                                        "fileID": "3943c39c3ea742e99aadeb02322fc03b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5d1c6a860fab4e23aa0d013acb619954",
+                                "navigationGoals": [
+                                    "I\u2019m looking to discuss potential co-marketing or brand partnership opportunities.",
+                                    "Discuss potential brand partnerships for my veteran mentorship initiative",
+                                    "I\u2019d like to explore co-marketing and brand partnership integrations.",
+                                    "I want to talk about partnering my community event with a well-known brand.",
+                                    "I'm looking to partner with relevant brands to sponsor my student-led physics journal."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To hear about campaign analytics and insights, press 2.",
+                            "fileID": "3fdf6e1c01b249b58369cc200e5610f2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the campaign analytics department.",
+                                        "fileID": "8661b829d4d943038771d4e056b1b89d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "719bfbb20ec8405f9304363664396d84",
+                                "navigationGoals": [
+                                    "I need detailed analytics and performance insights for my current marketing campaign.",
+                                    "Obtain campaign performance insights for our recent veteran outreach advertising",
+                                    "I need detailed analytics and performance insights for my latest marketing campaign.",
+                                    "I need someone to explain the results and insights from my ad campaign.",
+                                    "I'd like to review the performance metrics of my recent physics department ad campaign."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a4adda9ef88e462f928e2224f5140f44",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "edca7962cf9a491baaeed978966b8dcd",
+        "navigationGoals": null
+    },
+    "id": "34d3bd36cc8e4fe7aeb0cd7e6fcae9e9",
+    "navigationGoals": null
+}

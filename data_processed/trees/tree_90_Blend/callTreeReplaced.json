@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Blend, San Francisco\u2019s leading online platform for simple, transparent consumer loans.",
+            "fileID": "0798fbdef2254a37aa5d10a2301d5718"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To apply for a new loan, press 1.",
+                "fileID": "542c936012ab4eaeaaf496aaca5c9967",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start your loan application, press 1.",
+                            "fileID": "6f50b61650664b96844acc975b90a342",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a loan specialist.",
+                                        "fileID": "371c320427ba464e882dd4b0907c2a10"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d4eb31bc4ebd47b19dcd29db030ba96e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To check the status of your application, press 2.",
+                            "fileID": "4bdd352b57344c729512a86f1c60e43e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your application status.",
+                                        "fileID": "b586103e95564ae19037ca384a621896"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "073ade96b3b64eb6a68da22f4196761e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "87cd871a3b664d1da028d15f775a3c9b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing loan support and account questions, press 2.",
+                "fileID": "b19f34990fb141e8ad786552a849b55a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing and payment inquiries, press 1.",
+                            "fileID": "4f8e03c481454f78ba7c3f1e64db61ee",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing team.",
+                                        "fileID": "2b74bb457acd4cc18121283cccdabb0a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8e8495c579b146e0998c9827c9fa96b5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support, press 2.",
+                            "fileID": "fbe4110c652a48c3b103e29dd56dba22",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support.",
+                                        "fileID": "b454b9abb3784d02b310801edbecbc43"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "73b109a7df8444aa8a7d75644422bf53",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "908f0164d4b54fd5b6dbd825bca8e8a2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1d66638995da44b5b880daf7727447d1",
+        "navigationGoals": null
+    },
+    "id": "9dd55cb27f524c24b08b9d491e66cdc5",
+    "navigationGoals": null
+}

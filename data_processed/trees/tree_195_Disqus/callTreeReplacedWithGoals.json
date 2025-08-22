@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Disqus, based in San Francisco, helping publishers increase engagement and build loyal audiences.",
+            "fileID": "1a68087f384b4ae68d457438908972a2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for Sales and Partnerships to learn about our B2B solutions.",
+                "fileID": "88b2af054c1744fda04dd499d8b86168",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with our New Business Sales team.",
+                            "fileID": "78370015df6b418b915a6f743b144212",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to New Business Sales.",
+                                        "fileID": "81f05b8931c14993a5ae64f88aa5f150"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "42260f9c87a64874836539d0bafbd494",
+                                "navigationGoals": [
+                                    "Get pricing and sign-up details for a new enterprise Disqus solution",
+                                    "I'm interested in pricing and features for a new Disqus enterprise package for my veteran-focused publication.",
+                                    "I want to discuss enterprise API licensing and performance for a new B2B integration.",
+                                    "I\u2019d like to set up a new Disqus account for my community newsletter and learn about your business plans.",
+                                    "Inquire about enterprise plans and integration options for deploying Disqus on my university physics departmental website."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to follow up on your Existing Account.",
+                            "fileID": "f2357df5cde847828cdf8ed33165cbdf",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your Account Manager.",
+                                        "fileID": "fcee0932a31146cea490772389d5f53e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b93986d766744e9fb8322ac3990a36d6",
+                                "navigationGoals": [
+                                    "Explore options to upgrade our existing Disqus account",
+                                    "I want to upgrade my existing Disqus plan to support more moderation seats for my veteran community.",
+                                    "I want to review my existing account's API usage quotas and renewal options.",
+                                    "I need to review my current Disqus subscription and possibly change my plan.",
+                                    "Adjust my current academic subscription to add advanced moderation features and increase user seats."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3c1d5f6c0ac6409eb340334eb25c10ea",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for Customer Support.",
+                "fileID": "7c46b30e470247b6ac2769aa28d36b60",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for Technical Support with Disqus integration.",
+                            "fileID": "fa3474abc04a48e2a4c23c981aba38f5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Technical Support.",
+                                        "fileID": "de74e7a5ce23419a814080d13e679195"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "804044e444d24859a38fee92fc3be4d3",
+                                "navigationGoals": [
+                                    "Troubleshoot a Disqus integration error on our site",
+                                    "I need help fixing Disqus comments not appearing on my veteran resource website.",
+                                    "I want to troubleshoot Disqus embed JavaScript integration issues on my site.",
+                                    "I\u2019m having trouble with Disqus comments not showing on my personal blog and need technical help.",
+                                    "Troubleshoot Disqus embedding on my research blog so that MathJax-rendered equations display correctly."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for Billing and Account Inquiries.",
+                            "fileID": "c5e3fe7d48694d78a8cc48d49f1aa294",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Billing team.",
+                                        "fileID": "5227aaade4774a79bc085cc6424fbea7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "00ba9d4803e940568bf3dba8e1033e2c",
+                                "navigationGoals": [
+                                    "Obtain the latest invoice and update our payment method",
+                                    "I need to update the payment details on my Disqus account for my nonprofit veterans blog.",
+                                    "I want to resolve a billing discrepancy on my latest invoice and update my payment method.",
+                                    "I noticed an unfamiliar charge on my Disqus bill and want to clarify and fix it.",
+                                    "Review and obtain a detailed breakdown of my latest invoice and update the billing information for our department."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "28ea218e5cc142d5919aec5c39638c08",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9aa3ec9ca97e4db8894fea03182dee08",
+        "navigationGoals": null
+    },
+    "id": "34200f5a541b4a6d8f7e90ada93a23ba",
+    "navigationGoals": null
+}

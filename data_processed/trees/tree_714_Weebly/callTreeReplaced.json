@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Weebly in San Francisco, where we help you launch and grow your business every step of the way.",
+            "fileID": "740e03346a5f410eb62b9cc757b287a2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and new account inquiries, please press 1.",
+                "fileID": "06f05c2d8dff4522a9f10013c7de1da6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For website plans and pricing details, please press 1.",
+                            "fileID": "46b3b332de3b42efa7dbe305f17aeccb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All of our pricing experts are currently busy. Please hold, and we will connect you to Sales as soon as possible.",
+                                        "fileID": "2316365f7dca4c49b6a19c4931109d70"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4cf08287eec34d519499c6ec5f6402af",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For assistance setting up your first store or site, please press 2.",
+                            "fileID": "866a0026263746f084d56b884c8fcef7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience. An onboarding specialist will be with you shortly.",
+                                        "fileID": "f17e2ce87ea744aeb285cf0cd5883318"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bc663a0212284e5a982e706bc57f65fa",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "55e5a832309041f394b1f304ad28c5ab",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Customer Support and account services, please press 2.",
+                "fileID": "230ca305ffcb447297303de39d4c21d6",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, please press 1.",
+                            "fileID": "ee4fc297f89c4f9bbec31e51b4afa099",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All of our support agents are assisting other customers. Please hold, and we will connect you to technical support as soon as possible.",
+                                        "fileID": "d5a233bf56dd41f497e218f1b5d7873f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c8e7f8f9946c4fde99d8cc5b06e45a58",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and payment inquiries, please press 2.",
+                            "fileID": "1a4a0c1d8b21483598517b36039cc1b1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our billing specialists are busy right now. Please stay on the line, and we will be with you shortly.",
+                                        "fileID": "3bacf87d330b47baac4e6a48ad46a297"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6a5de911cc984ac7a7a5689992afe217",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "36179eaa412f43109c8214bc178fa6e1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bbc9719413ef41228633505b4f9d568d",
+        "navigationGoals": null
+    },
+    "id": "3dcec6b08ceb4f9192e4e05765ed6ad6",
+    "navigationGoals": null
+}

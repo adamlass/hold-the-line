@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Mattermost South Bay, your trusted partner for secure team collaboration and messaging under IT control.",
+            "fileID": "8ee7c9655deb4ed5a6224049f7807bae"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on cloud or self-managed deployments, press 1.",
+                "fileID": "9e373c662c484a1c8682d1e52acde887",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our cloud infrastructure deployment options, press 1.",
+                            "fileID": "417a105736444d50829804f153ce0356",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a cloud deployment specialist.",
+                                        "fileID": "89f57cb1ddff4f909d5517f9fd0bdd09"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cc3b5aba7aa040ffa77e2bf4e9fd70f7",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For on-premise solutions and licensing details, press 2.",
+                            "fileID": "d1070cace7634d4891f6b380c4d3a37c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an on-premise solutions expert.",
+                                        "fileID": "27ecc4553f564033a586ea80461ae2e9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d6a3d2853e6545aabead1fed9edd4ca9",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9d333aaf401843fa86399f9e811f749e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and maintenance options, press 2.",
+                "fileID": "a78f901581b2430280c7f8349a2d38a3",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reach technical support, press 1.",
+                            "fileID": "ea4da2142f2247df8fae907ec0c227bb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "4afb515672734ede871beef048d0ab2c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6cf6269bcef54a95a5e107da2d9a6863",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press 2.",
+                            "fileID": "e2a803c907054d84bdd3d9f10df55b72",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing and account services.",
+                                        "fileID": "6bc4a2d9ff434714a26e13960013dea3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aa770b243f984a3b8a135ff5223156bd",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a37a34658df342d999fa5079ae14fdf0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "eeae98a83b214bd4b79c9243c5d4894f",
+        "navigationGoals": null
+    },
+    "id": "62998a295ba64265a1e9c432d93e43ad",
+    "navigationGoals": null
+}

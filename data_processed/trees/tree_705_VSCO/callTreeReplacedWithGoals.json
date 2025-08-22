@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to VSCO, a photo company for creators, by creators, based in the East Bay.",
+            "fileID": "f411e1dc37924e2ba45c9aae5422edef"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For account and support options, press 1.",
+                "fileID": "43f61d7628784f4883b5d4f75054e87f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reset your password or update your account, press 1.",
+                            "fileID": "aacef827a9674d39adfb6eb67262fd66",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account support team.",
+                                        "fileID": "b1ab2d8c2b72426ababf32d942d9c43a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "58c94f8bafd942b899e50ed3fa91c4f9",
+                                "navigationGoals": [
+                                    "I need to reset my VSCO password right away.",
+                                    "I need to reset my VSCO account password.",
+                                    "Regenerate my account authentication to reset my password",
+                                    "I need help resetting my password so I can access my account.",
+                                    "I need to reset my VSCO account password."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help with uploading, editing, or saving your photos, press 2.",
+                            "fileID": "34779b35e0df4a1a9e01c8757b456231",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our photo assistance specialists.",
+                                        "fileID": "038a0d1544064626980ed92c9c177554"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8979ce1bd9424015924ba23e2b912396",
+                                "navigationGoals": [
+                                    "Show me how to efficiently upload and save my photos in VSCO.",
+                                    "I need assistance uploading and saving my latest photos.",
+                                    "Troubleshoot my photo upload workflow and confirm file sync status",
+                                    "I\u2019m having trouble uploading and saving my photos and need step-by-step assistance.",
+                                    "I\u2019m having trouble uploading my photos to VSCO."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e22b7089a36c46b988fdd004a15d0cc4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For membership plans and billing inquiries, press 2.",
+                "fileID": "e687668b12c04f3883e46b8842f3c048",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about VSCO membership features and pricing, press 1.",
+                            "fileID": "16c07d88f2774157b96931a351cbdbd2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve information on our membership plans.",
+                                        "fileID": "9378738310504996b07784c80b9148ed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b48c57f8c474486f9d77e1fa8273574b",
+                                "navigationGoals": [
+                                    "I want a quick overview of VSCO membership tiers and pricing.",
+                                    "I\u2019d like information on VSCO membership features and pricing.",
+                                    "Compare the specifications and pricing of VSCO membership tiers",
+                                    "I\u2019d like to learn about the different membership plans and what each one includes.",
+                                    "I\u2019d like to review VSCO membership features and pricing."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing questions, payment methods, or invoice requests, press 2.",
+                            "fileID": "ea2eb825e54843d483327ad405653e15",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "63ee0c98617b4ef592b90e164d28bf5b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b1beec507ae949339147201cc9b8ef8c",
+                                "navigationGoals": [
+                                    "I need to get an invoice for my recent VSCO subscription charge.",
+                                    "I need to update my payment method and get a copy of my invoice.",
+                                    "Obtain my latest invoice and update my credit card on file",
+                                    "I have a question about a recent billing charge and need help getting an invoice.",
+                                    "I need an itemized invoice for my recent VSCO billing."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7f80bb56eedc4a0e949e8940626ea960",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bafb017a30b44a148ebf06682e42246f",
+        "navigationGoals": null
+    },
+    "id": "21e7452c70db4ee7933d96adcb125da0",
+    "navigationGoals": null
+}

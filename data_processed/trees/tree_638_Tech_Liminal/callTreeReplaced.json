@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Tech Liminal, your East Bay development agency offering programming, marketing, strategy, and a bit of fun.",
+            "fileID": "657e91257ecc4b89bb5720582e07f059"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our services, press 1.",
+                "fileID": "897c1bfa2afb43aa8fcf5c8eaf53256b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For programming and development, press 1.",
+                            "fileID": "fadb4ea5cade466badc93607c79a1a54",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our development team.",
+                                        "fileID": "5c3ab19ea9cc46e19c562cf8d86a8b0e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ed55542b18c747dba0aa1a4aa773cb21",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For marketing and strategy, press 2.",
+                            "fileID": "47989604790e4a97a5d6d98a68de154d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our marketing strategists.",
+                                        "fileID": "4af4709789c949c4a2b0c977e7de37cb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "42b760c0b3d148e58b8f710f03067aa3",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4faf9f67d2584f63866eb186011ce868",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To speak with our team, press 2.",
+                "fileID": "5e62fef731f5424aa7bccdbadde23dc5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are an existing client needing support, press 1.",
+                            "fileID": "4578c533802049b297b20910e7aa9add",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we\u2019re connecting you to client support.",
+                                        "fileID": "4713e71a75844999816f8a6f4644f3a9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f93c860dcd364665a9aa707c8fc52ede",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For new project inquiries or consultations, press 2.",
+                            "fileID": "ed9c1e2eb55645a38a2c4f900dd07154",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest, please hold while we connect you to a project consultant.",
+                                        "fileID": "553f4462539a4c978a19ac0202d53140"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "12cdf353e15945dcb6493fe4f2851bed",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b6cacebb0d694d158d992d5780838b49",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1a6e61536a2b47d988835865155173be",
+        "navigationGoals": null
+    },
+    "id": "97649dba4ae2416f81f14b9f7281a020",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Quantcast in San Francisco, powering your brand\u2019s growth in the AI era.",
+            "fileID": "d3c786ba3e124e5599e9b26b58e7550f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our AI-powered marketing platform and services, press 1.",
+                "fileID": "f6a6da18724e47359a5d7902c1b7b809",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For audience measurement solutions, press 1.",
+                            "fileID": "16d6066a45ee4cfea032112e2c3381f6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an audience measurement specialist.",
+                                        "fileID": "541739f4f47244119696c05d8f032fb3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7d53839735604b14a4bbc62c7f649926",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a demo of our marketing intelligence platform, press 2.",
+                            "fileID": "55e8fa57c0284c02b69f265ee86a1ff6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo scheduling team.",
+                                        "fileID": "2d00b0d5752044219f3760b1dfae911a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5badb87fa2b04559a929d61b54bf3042",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3dbf36ae3c254f2da5b1e7ebb3265ec3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and billing inquiries, press 2.",
+                "fileID": "11beffb4935b4477a374a15e4e078506",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "744df68cebd54c6a8cd8c2830ffdf88b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "b2e87922cd39485582447940859cf887"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d65965d707f646b09cb3307e45745161",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "4be731a78a6f42bb987e1636cf097e68",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing and account services.",
+                                        "fileID": "f5da48ee2a2541a48680c6aecc4f6b09"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8bb3066d32134fe2a5139f72a00d5239",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9fb7cb0e6707477c9fe4d3a7dd5a38eb",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "44d3305059724cd394a9a0c9693039f3",
+        "navigationGoals": null
+    },
+    "id": "72c3e25604b640c09a633e6e2af99a30",
+    "navigationGoals": null
+}

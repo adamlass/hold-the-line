@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Hello and thank you for calling Quid, the San Francisco-based platform that connects you to the world\u2019s information at your fingertips.",
+            "fileID": "1dbcf5100d6944bf8e4bd0658ea2b5a9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our analytics and mapping solutions, press 1.",
+                "fileID": "902405964a764decabba0d9606ec9964",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a live product demonstration, press 1.",
+                            "fileID": "796d1258cc80471eb80632f3378dfd48",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demonstration team.",
+                                        "fileID": "05f5aaf16ed9424482e517a4e647791b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2a0b28f4c1014b1d916ef28c8b302408",
+                                "navigationGoals": [
+                                    "Schedule a product demonstration for your analytics and mapping platform",
+                                    "I\u2019d like a live demo of your analytics and mapping tools to see how they could support my veteran outreach program.",
+                                    "I want a live walkthrough of your geospatial analytics dashboard",
+                                    "I\u2019d like a live demonstration of your analytics and mapping platform.",
+                                    "I\u2019d like a live demo of Quid\u2019s analytics and mapping tools to explore research trend visualization."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative, press 2.",
+                            "fileID": "f36dd2c9392e496cb101767b470bc768",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a sales specialist.",
+                                        "fileID": "f623c5bab86f489bbed9f2b7beda32a4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "26cdfdd2eeeb492ca6cad5a5c4fef3d6",
+                                "navigationGoals": [
+                                    "Connect me with sales to go over pricing and subscription options",
+                                    "I want to talk to sales about subscription pricing for our veteran support nonprofit.",
+                                    "I need pricing details and licensing tiers for your mapping API",
+                                    "I want to speak with a sales representative about purchasing your analytics solution.",
+                                    "I need to discuss pricing and academic licensing options for Quid\u2019s mapping solution."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "73bd8a1a714c45819031738c8f7b526e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and troubleshooting, press 2.",
+                "fileID": "bc15ff2d17f9486fb0cc5a2883a39ee6",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account and billing inquiries, press 1.",
+                            "fileID": "59672160de24406199ace83c9d49eef7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "49ba8e123a614e0abb875773a3b1346c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "af670f4603df473faab0d69a0194bdd8",
+                                "navigationGoals": [
+                                    "Review my account billing details and charges",
+                                    "I have a question about a charge on my billing invoice for our veteran services account.",
+                                    "I want to clarify the overage fees on my latest usage invoice",
+                                    "I need help understanding my account charges and billing statement.",
+                                    "I need to update my billing information and request an invoice for my student account."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical assistance and system issues, press 2.",
+                            "fileID": "03e0895fc50246199d9f0449f216412a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our technical support team.",
+                                        "fileID": "d1a500297eb34dd6886ea33500af1fcb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4e922d5e5f8c4644b0eec452df94c49c",
+                                "navigationGoals": [
+                                    "Troubleshoot a technical issue I'm experiencing with the platform",
+                                    "I\u2019m experiencing login errors and need technical support for my account.",
+                                    "I need help debugging API authentication failures in my integration",
+                                    "I\u2019m having trouble with system errors and need technical support.",
+                                    "I\u2019m encountering an error when uploading my research data to the platform and need technical assistance."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "00b47010861f4e0f851d8a4c9c666ee5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3b82e9334c244038a57466155b31380f",
+        "navigationGoals": null
+    },
+    "id": "05218dd1ff754704915c4d6b41f72121",
+    "navigationGoals": null
+}

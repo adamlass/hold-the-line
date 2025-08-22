@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Leadspace in San Francisco, the audience management platform that helps you know your customers from every angle.",
+            "fileID": "ac9c795d45744f13a11af938b1022bbd"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product inquiries, press 1.",
+                "fileID": "307b9afa22414703a0b986ba64264796",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a product demo or consultation, press 1.",
+                            "fileID": "e881ba98183a492da08bae03bc7192c0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a product specialist.",
+                                        "fileID": "8bd71ceacb454b2a9a0b170ff16fea7a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a4fdbae4970344ca874ff018a6e5fcd7",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with an account executive, press 2.",
+                            "fileID": "fcfdc1b5ae16479ebf62d166312d1eff",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account executive.",
+                                        "fileID": "19837bbf9e7c49a5b709969910a398da"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9ef2566e05ef4cc196fd8f070593e8ac",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "98bd550551cc44868f8757d87ac2d109",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "79bd7b8d41864e64b491e6720fabe480",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "4e080f2d15db4de0bd9a3472a58f7b36",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with technical support.",
+                                        "fileID": "4aaf765319cb40e49ebe6ae10936c32e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e6bf08c2758442ba94c11e9d8a3302e5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "79e9720110394cdf97115427368f9c61",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing team.",
+                                        "fileID": "2215f03078cb4b8ab7429633ab55b25b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "55cadce53a544104ae631c998ba29c24",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a7cc624d245f4f35aaddd446e02fd8a1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "06e29fe157114391bb4fed9768740d1b",
+        "navigationGoals": null
+    },
+    "id": "f70af9facaca4a78bd5dab686e108635",
+    "navigationGoals": null
+}

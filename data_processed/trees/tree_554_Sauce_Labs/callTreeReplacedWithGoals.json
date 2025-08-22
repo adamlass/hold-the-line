@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Sauce Labs, ensuring your mobile apps and websites perform flawlessly across every browser and device.",
+            "fileID": "1ea9d98bcd2946a2b186060e446948c1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and account information, please press 1.",
+                "fileID": "3d5bf1e7b7a1430b9e93440f6ae3900d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a product demo, press 1.",
+                            "fileID": "96521b4a101a4391a202b37d69021d68",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for a demo.",
+                                        "fileID": "a45c5e0d57fc41c98514737242e02829"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8f3f5178fe754ae6bd1ded0c6dd36d93",
+                                "navigationGoals": [
+                                    "I need a live demo of the Sauce Labs platform scheduled immediately.",
+                                    "As an ex-military veteran, I\u2019d like to schedule a demo of your mobile and web testing platform.",
+                                    "Schedule a live demonstration of the Sauce Labs cross-browser mobile testing platform.",
+                                    "I\u2019d like someone to walk me through a live product demo.",
+                                    "I\u2019d like to schedule a demo of Sauce Labs to evaluate it for automating my physics research tests."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and invoice inquiries, press 2.",
+                            "fileID": "8e7e73962fd54ace883fe58deec38459",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "fb5134dbf38d4d3f92e4e3b3bae2a11f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "944513170a2646a09f67780e2d97fd62",
+                                "navigationGoals": [
+                                    "I need details and a copy of my latest invoice and payment status.",
+                                    "I\u2019m running a veteran-led team and need clarification on the charges in our latest invoice.",
+                                    "Request an itemized breakdown and clarification of last month\u2019s billing invoice for my Sauce Labs subscription.",
+                                    "I need help understanding the charges on my latest invoice.",
+                                    "I need a detailed invoice for my recent student subscription payment to Sauce Labs."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e8f66edf35c642f0bdaaa731028615af",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and troubleshooting, please press 2.",
+                "fileID": "533ee8dfd61a41cab49f709ee8b94fc6",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For test automation platform assistance, press 1.",
+                            "fileID": "9afb96b5dec54ccdac92f6e9a581f5ee",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support for automation issues.",
+                                        "fileID": "73644302d9e3441ba0c0da026bb7f612"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3765d688492c4da099885d3db55c7408",
+                                "navigationGoals": [
+                                    "I need urgent troubleshooting for my test automation integration.",
+                                    "I need help troubleshooting my automated test scripts on your platform.",
+                                    "Troubleshoot failures in my Selenium test automation suite running on the Sauce Labs platform.",
+                                    "Can someone guide me through setting up test automation on your platform?",
+                                    "I need help configuring the Sauce Labs test automation platform for my web-based physics simulation project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For login and account access help, press 2.",
+                            "fileID": "0318ee98cdc34850b94512f9964839b8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support team for account access assistance.",
+                                        "fileID": "e83387dc786e425b83c4d8693813c3a4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "67fdea4b45ee4f6a8759053a24e9c6db",
+                                "navigationGoals": [
+                                    "I need to reset my password and regain access to my account ASAP.",
+                                    "I\u2019m unable to log into my account and need support to reset my password.",
+                                    "Resolve my OAuth SSO login failure to regain access to the Sauce Labs dashboard.",
+                                    "I\u2019m having trouble logging into my account and need help accessing it.",
+                                    "I\u2019m unable to access my Sauce Labs account and need assistance recovering my login."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f530436632094879be704b5891d52e52",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ed699e057c1f4fedb2eafe717a25428d",
+        "navigationGoals": null
+    },
+    "id": "b7a42e7d84bf4dfaadc606ea0d9169a1",
+    "navigationGoals": null
+}

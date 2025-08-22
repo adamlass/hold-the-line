@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Chartboost, the leading mobile gaming audience platform based in San Francisco.",
+            "fileID": "29247e84f14647c291b32aeadad63a30"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for advertising solutions and campaign support.",
+                "fileID": "826b241a2b01450bbb15a12b24e4611a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for new advertising campaigns and sales inquiries.",
+                            "fileID": "084eabd964ab486392d70879032fd1dd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for new campaigns.",
+                                        "fileID": "375b92e276704f3794ff6d15a6611df8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2a562b03697e46f59332367a00101fa4",
+                                "navigationGoals": [
+                                    "Get pricing and launch a new mobile advertising campaign targeting casual gamers.",
+                                    "I need help planning and launching a new ad drive for my mobile game",
+                                    "I\u2019d like to launch a new programmatic ad campaign via Chartboost\u2019s DSP targeting high-DAU titles.",
+                                    "Help me start a new advertising campaign for my game.",
+                                    "I\u2019d like to set up a new Chartboost ad campaign for my mobile app and learn about pricing."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for account management and existing campaign support.",
+                            "fileID": "73a677459dab4454b214c68c15d1e0f9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your account manager.",
+                                        "fileID": "c52c660f90f5445d89299094cd83c5ed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5b7e83139ea64911a447285474560cd5",
+                                "navigationGoals": [
+                                    "Adjust the budget and targeting of my current campaign based on recent performance.",
+                                    "I want to review and optimize the performance of my current ad initiatives",
+                                    "I need to update my billing info and pull detailed KPI reports for my active campaigns.",
+                                    "I need to make changes to my existing ad campaign.",
+                                    "I want to review and adjust my existing Chartboost campaign performance and account settings."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c14ac79a46d840db8f6cd1f8501a9185",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for developer support and integrations.",
+                "fileID": "d85d1ea27ed64a10b1b44ba7d59bb7a8",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for technical support.",
+                            "fileID": "7fa75aa839064eb49168babf9ac2bddc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "b7833a17229447c9ac5b73318a0a5d22"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bdd1d7b1ad00489fb7e0c4035c29ebbc",
+                                "navigationGoals": [
+                                    "Fix an SDK error causing crashes in my Android game.",
+                                    "I\u2019m encountering SDK errors in my game and need technical assistance to resolve them",
+                                    "My iOS SDK integration is crashing with error code 0x8F\u2014can I get help debugging the callback?",
+                                    "Help me troubleshoot a technical issue with my Chartboost setup.",
+                                    "I\u2019m encountering an SDK error while integrating Chartboost and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to reach our integration team.",
+                            "fileID": "6a347a51a59844e688ceec44bcdbb8ff",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our integration specialists.",
+                                        "fileID": "90123207b4ed470caa3fb82de740b602"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "27df4821a2b144beb3d021e56ec4b414",
+                                "navigationGoals": [
+                                    "Obtain integration guidelines and sample code for the Chartboost Unity SDK.",
+                                    "I need assistance setting up server-side integration with Chartboost\u2019s APIs",
+                                    "I want to set up Chartboost Unity SDK integration and configure our server-to-server bid requests.",
+                                    "Guide me through integrating the Chartboost SDK into my app.",
+                                    "I need guidance on customizing the Chartboost integration for my game\u2019s engine."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "44a4ec0fdbb844c9b61f7c941c87c13f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "57971f23bb4e4ba58cad36779a180cd8",
+        "navigationGoals": null
+    },
+    "id": "d331d1defa034248976d0b791aaecfe1",
+    "navigationGoals": null
+}

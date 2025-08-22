@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling TaskRabbit, serving San Francisco with over 60,000 vetted Taskers ready to help you.",
+            "fileID": "054e383a2b684ca2958c7d38a8d807b0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To book a Tasker for your next job, press 1.",
+                "fileID": "e718700a509d45489f74333b0ab2f15a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For household and cleaning services, press 1.",
+                            "fileID": "47a241b127744b18b56367b8b411a918",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our household and cleaning specialists.",
+                                        "fileID": "3010c86812c8433a82c63daf18e720da"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8414fef63a004644b6e04d24fb40130c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For furniture assembly and handyman services, press 2.",
+                            "fileID": "22ceab7b19f84ae889c11c850d6cab5b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our furniture assembly and handyman experts.",
+                                        "fileID": "27a1523e8d33412196f2555ab0c283b2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a2af1f37e1fb4dbab42fd67d8ef6ff6a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ced82f754a7949b9bbdd04e36612fa7a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and existing tasks, press 2.",
+                "fileID": "4a513ffa2b5840d8ac5a5bfeb8a1e664",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with order status and billing inquiries, press 1.",
+                            "fileID": "5d5505534b72433bbcc85217360c2008",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and order status team.",
+                                        "fileID": "103430983d894ee892e36ed22c5ebd1c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c1cf9041e60c4429a3dcda56ca134bdb",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To cancel or modify an existing task, press 2.",
+                            "fileID": "4f988ad4102f4575ab767ca775f29287",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our task cancellation and modification team.",
+                                        "fileID": "de060345d85e430d935e3d6de70cc30d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1ba4ed2c59224b3883119bbb60a899a4",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f8ac42e8ae8642c2a522815571c7989e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1d0d66942821445a927bb63ff29e2483",
+        "navigationGoals": null
+    },
+    "id": "6d86a788f6b94416a9f508cb56135582",
+    "navigationGoals": null
+}

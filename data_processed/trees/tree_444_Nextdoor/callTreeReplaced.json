@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Nextdoor, the free private social network for your neighborhood community.",
+            "fileID": "b778536b6bc44f3b8b41a672797e3708"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For account and membership assistance, press 1.",
+                "fileID": "c2d5b30ff3904c449b6273e9001afda1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reset your password, press 1.",
+                            "fileID": "4df46b71900c47afa4ec86fce46e8c44",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a password support specialist.",
+                                        "fileID": "dfa4e23c329a4d249ccaf796f4d11801"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a382f4ddb08a47d9ac3d45d9a9151725",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To update your profile or settings, press 2.",
+                            "fileID": "b199b420f04343458901be512f9fe8df",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our profile management team.",
+                                        "fileID": "d4dfdbd9e663440d884e43b7b60730f2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a347078b066c4bf58651dcf4afb54c1c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f2d8590557c84b65b392889ed3828b2b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For community events and neighborhood support, press 2.",
+                "fileID": "545b2b0bb133416399c00ee498077401",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To report a safety concern or lost and found, press 1.",
+                            "fileID": "82d53cb44eb4459ea3b05bc8fbed6292",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the neighborhood services team.",
+                                        "fileID": "9ccf438200c64a249a04d5e65f7ba4ec"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aa306c978abe4044be2e7e8804b09147",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To join or start a neighborhood group, press 2.",
+                            "fileID": "e294d2a11fe544459cdb8cb52e1578a7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a community relations specialist.",
+                                        "fileID": "ee7c0aa6a6624851adf1cccbb052691d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a01acc9295ba4eeaa9da555a91a26e45",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "317cfdfa40d94522a070c77954c72431",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "31fdecbc5c8e4b50a4f801790641487b",
+        "navigationGoals": null
+    },
+    "id": "0012e9f07cba4acb864250d1f24f0dbe",
+    "navigationGoals": null
+}

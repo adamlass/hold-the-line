@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Industrial Light & Magic in San Francisco, the world\u2019s leading visual effects facility.",
+            "fileID": "d9353726cba843c49658c9290f2a2076"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For film and television visual effects services, press 1.",
+                "fileID": "81a818bc98ba4d27b0e919a54264b4ea",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new project consultations, press 1.",
+                            "fileID": "9122e593debd464e98bb51eab14f29aa",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you with one of our VFX supervisors.",
+                                        "fileID": "0b12cd592a5a4b01bcb4a6fef4091752"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ec7744a80a004f52ab3df262ee0c8bf7",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For existing project status updates, press 2.",
+                            "fileID": "29bbc63ae47a450fa8dc3e5e3bad084b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we retrieve your project details.",
+                                        "fileID": "570f7332ff85451d8d24e906cf2661b2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "af8b203ae6a64e42b0966af61c28ce2b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e337c9246dd9438eb664bcb236b464ba",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For commercial production and attraction services, press 2.",
+                "fileID": "02cac0a93d6546f8bf7a92ae90d45dee",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new commercial or attraction projects, press 1.",
+                            "fileID": "3a88e6290beb453b9ec59c6bb5ec88ca",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you with our creative services team.",
+                                        "fileID": "0fd267b654eb43039bd258bd9c96c9ee"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "16aa6425ab3441a5b22c1e8b5f84ba84",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support and post-production inquiries, press 2.",
+                            "fileID": "6f6ec63c139b4d1b9e8a27d161f6ce0a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you with our support specialists.",
+                                        "fileID": "82677d1cd1f94337aadf2388fc77ceb6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b1a4ad7ebe7c442db0c0f02b662438df",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e1f1de2c5bf2484fb1b68b53a7779b0a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1bb67c70d19f40e896ddfc87ea73900a",
+        "navigationGoals": null
+    },
+    "id": "fd3e451dadcd474aa059f25b615cb95e",
+    "navigationGoals": null
+}

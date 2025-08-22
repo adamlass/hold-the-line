@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to iHear Medical in the East Bay, where our high-quality, American-made hearing aids are affordably delivered to your door.",
+            "fileID": "9b24f3c3197a460aac276b01d3b0a602"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales, press 1.",
+                "fileID": "c43356ea234a4149866da3322f740a51",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new hearing aid orders, press 1.",
+                            "fileID": "a35e3dc7bcc745b0be4c72fbd3bb9eb1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for new orders.",
+                                        "fileID": "2877c82f8579462eb31f64634a62e34f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7eb062eed923421b87f221ceb665db41",
+                                "navigationGoals": [
+                                    "Place an order for a new set of hearing aids for home delivery.",
+                                    "Place a new order for hearing aids using my veteran benefits",
+                                    "Configure and place an order for a new Bluetooth-enabled digital hearing aid.",
+                                    "I\u2019d like to order a new pair of hearing aids and need help placing my order.",
+                                    "I\u2019d like to purchase a new pair of your American-made hearing aids."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For product information, press 2.",
+                            "fileID": "fd6c1cd0490e4f2e867f7a28aba70191",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a product specialist.",
+                                        "fileID": "edb70b4deef543599e0a6f259dc89386"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d0f11558ecbd48d995f976cd83017683",
+                                "navigationGoals": [
+                                    "Get concise details on the features and pricing of available hearing aid models.",
+                                    "Get detailed product specs and pricing for hearing aids",
+                                    "Get detailed technical specifications on your latest hearing aid models, including audio codec and wireless features.",
+                                    "I want to learn about the different hearing aid models and their features.",
+                                    "I need detailed specifications and performance data on your hearing aid models."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e8e163a656b84355916c8a9470fdc2eb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and warranty service, press 2.",
+                "fileID": "8016a603f3a94ed5b520d947c72aadca",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "fcdd9ff201a64b03afbf7c8311607a0c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "87a4f89caca242239541b62fea0073e0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4c2f3c02237647b78bd123636be7bf22",
+                                "navigationGoals": [
+                                    "Quickly troubleshoot a connectivity issue with my existing hearing aid.",
+                                    "Troubleshoot technical issues with my hearing aid connectivity",
+                                    "Troubleshoot a firmware update failure and Bluetooth pairing issue with my hearing aid.",
+                                    "My hearing aid isn\u2019t working properly and I need technical help troubleshooting it.",
+                                    "I\u2019m experiencing electronic issues with my hearing aid and need technical troubleshooting."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For warranty and repair service, press 2.",
+                            "fileID": "e0b288a042a74688808d48d7f25f6f8a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our warranty department.",
+                                        "fileID": "869b57f3051246879fe234c9904ee402"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64e50630cc254a84aea8276f46930da7",
+                                "navigationGoals": [
+                                    "Initiate a warranty repair for my malfunctioning hearing aid.",
+                                    "Initiate a warranty repair for my damaged hearing aid",
+                                    "Initiate a warranty claim and repair for my malfunctioning hearing aid and check coverage details.",
+                                    "I need to send my hearing aid in for repair under its warranty.",
+                                    "I want to arrange a warranty repair for my malfunctioning hearing aid."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "70176002016f47c781c3199074ac45e0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ed899e4edd4847ec9db8ca328c88fd29",
+        "navigationGoals": null
+    },
+    "id": "dd7d047912ac49e9ba906d92454994d2",
+    "navigationGoals": null
+}

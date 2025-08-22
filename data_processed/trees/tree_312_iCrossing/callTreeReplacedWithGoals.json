@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to iCrossing, the San Francisco marketing agency for the modern world.",
+            "fileID": "fbe6139348d54c9b81bc41b251dd88b7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our digital marketing and strategy services, press 1.",
+                "fileID": "15408908225a470e9424c0d464e21f46",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss our SEO and content marketing solutions, press 1.",
+                            "fileID": "2e6f8b978b15421ba58cefd8e606b7d5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an SEO and content marketing specialist.",
+                                        "fileID": "916266dc20574c798db9ca3366a362f0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9a0e989a80384fae81081942ad8bddec",
+                                "navigationGoals": [
+                                    "Get a quick SEO and content marketing action plan to improve our website\u2019s search rankings.",
+                                    "Improve my veteran-owned small business's search visibility to attract more local clients.",
+                                    "Request a technical SEO audit with content-gap analysis and backlink performance metrics",
+                                    "I\u2019m calling to get help improving my website\u2019s SEO and content marketing.",
+                                    "I\u2019d like to discuss SEO and content marketing strategies for my physics outreach blog."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about our social media and paid advertising services, press 2.",
+                            "fileID": "129c4c2781054f56b87c420c45af8391",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a social media and paid advertising expert.",
+                                        "fileID": "6ebdc61d763842db947a98922e27008e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bd62b8132d0e4f0e8d8fc6c46c1fc31a",
+                                "navigationGoals": [
+                                    "Outline a targeted social media and paid ads strategy for our upcoming product launch.",
+                                    "Set up targeted social media ad campaigns to raise awareness for my veteran advocacy nonprofit.",
+                                    "Set up a multi-channel paid advertising campaign with UTM tracking and ROI projections",
+                                    "I need to speak with someone about setting up and managing my social media and paid ads.",
+                                    "I want to learn about social media and paid advertising options to promote my student research group."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "504ee829d4b342b2b191a1116742d502",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For client support and account management, press 2.",
+                "fileID": "9a67e231c2af469dbffbb0631a676355",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reach your account manager directly, press 1.",
+                            "fileID": "2445f1443b1d409cb08c291d023b97a9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to your dedicated account manager.",
+                                        "fileID": "7dd70529824a4a2b96b856877ad338e7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "caf1a7801eef486b9f97c7b52d79a121",
+                                "navigationGoals": [
+                                    "Connect me to my account manager for a status update on our ongoing campaigns.",
+                                    "Review the status of my current marketing project with my dedicated account manager.",
+                                    "Connect with my dedicated account manager to review API integrations and campaign performance KPIs",
+                                    "I want to talk directly with my account manager about my ongoing projects.",
+                                    "I need to speak with my dedicated account manager about the status of my current marketing campaign."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and invoice inquiries, press 2.",
+                            "fileID": "883b735fdb06493982b717380682e6fd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing department.",
+                                        "fileID": "87048062d21b4395ae6bba96c350512f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d556a3896e0d4270b8a7f00b3b467bb9",
+                                "navigationGoals": [
+                                    "Clarify the charges and due date on my latest invoice with billing.",
+                                    "Clarify a charge on my latest retainer invoice for ongoing services.",
+                                    "Obtain an itemized billing report with line-item ad spend breakdown and reconcile invoice overage charges",
+                                    "I have a question about a recent invoice and need help with billing.",
+                                    "I have a question about a recent invoice and need help with billing details."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "366fd0e9bbdf4e5fbaddd6faf4e672af",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "81194f65719648a38123ca15b8edddbd",
+        "navigationGoals": null
+    },
+    "id": "d5503c7c3727480baa5b27fc3b71f7c7",
+    "navigationGoals": null
+}

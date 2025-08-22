@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Fond in San Francisco, where we help you attract, retain, and motivate your employees.",
+            "fileID": "79a9bd9172e94a72bb80942c053fd7d5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our employee rewards and recognition solutions, press 1.",
+                "fileID": "a7eee99f64f444968ef415fe81ba250d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized product demo with our team, press 1.",
+                            "fileID": "5c14f9f6132749bda5ded823220f0022",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for requesting a demo; please hold while we connect you with a Fond specialist.",
+                                        "fileID": "0f88c9391893434e86cb6d6a428db608"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cf9522e5cdc64868a9b52dbe765c04ad",
+                                "navigationGoals": [
+                                    "Schedule a personalized walkthrough of their employee recognition solution",
+                                    "I\u2019d like to schedule a personalized demo of Fond\u2019s employee recognition platform for our veteran support team.",
+                                    "Schedule a product demo to assess Fond\u2019s rewards API endpoints and integration workflow",
+                                    "I\u2019d like to book a live walkthrough of your employee reward service.",
+                                    "I\u2019d like to schedule a personalized demo to explore how Fond\u2019s recognition features could support our physics student group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For details on pricing plans and packages, press 2.",
+                            "fileID": "2f78b53a889a40699a26e80abc2f5be7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our sales team for pricing information.",
+                                        "fileID": "6466138580564529972d9f6733cf1e0b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ba23ceac981f48daa70263c9f5bbd48d",
+                                "navigationGoals": [
+                                    "Obtain detailed pricing information for their rewards packages",
+                                    "I need details on Fond\u2019s pricing options for a small nonprofit supporting veterans.",
+                                    "Get a comprehensive pricing matrix for Fond\u2019s recognition platform subscription tiers",
+                                    "I need to learn how much your reward program plans cost.",
+                                    "I need detailed pricing information on Fond\u2019s plans and any available academic or student discounts."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c79299e384f94149a7a99ed6acf42d90",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support or account assistance, press 2.",
+                "fileID": "432e409492d84731ac7358b4d75eb6db",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with your Fond platform, press 1.",
+                            "fileID": "ebac55bf8d964aa29fd46b64d221ebb8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to our support specialists; please hold.",
+                                        "fileID": "3d4185c893354e55b675ab3dad1bd06b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "da6b882523dd41f49559a4a51bf8a139",
+                                "navigationGoals": [
+                                    "Resolve a technical issue with the Fond platform",
+                                    "I\u2019m having trouble logging into my Fond account and need technical assistance.",
+                                    "Diagnose and resolve API authentication errors in my Fond implementation",
+                                    "I\u2019m having trouble logging into my account and need technical help.",
+                                    "I can\u2019t log into my Fond account and need technical assistance to access my rewards dashboard."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing or invoice inquiries, press 2.",
+                            "fileID": "c2774478e83b4ed4861b3108b12f73bb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our billing department will be with you shortly; please hold.",
+                                        "fileID": "6931e295e70c4461910f2acec57a00a7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3dd60628e6ab46b2a3875dd590975d5d",
+                                "navigationGoals": [
+                                    "Clarify a charge on my billing invoice",
+                                    "I have a question about a billing charge on my Fond invoice.",
+                                    "Reconcile our recent Fond billing statements and usage-based charges",
+                                    "I have questions about a recent bill or invoice for my account.",
+                                    "I\u2019d like to review a recent Fond invoice on my department\u2019s account and resolve a billing discrepancy."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "af1ee64dad7942a18d7a20475bf1af52",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "70121ca3ba5742678e21b22114dbf24d",
+        "navigationGoals": null
+    },
+    "id": "212eb3ebecb74eb88638c8a9c65571e5",
+    "navigationGoals": null
+}

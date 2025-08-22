@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Art dot com in the East Bay, your destination for art prints, custom framing, and home d\u00e9cor at great prices.",
+            "fileID": "c593b96eb60847d6b4e6661110ca56b8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for shopping art prints, framed art, and home d\u00e9cor items.",
+                "fileID": "5dd0feb6408449c2a63709292b490edb",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for art prints and home d\u00e9cor items.",
+                            "fileID": "2c63c0c69e8f494ebad04bc55cbf202d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our art prints and home d\u00e9cor specialists.",
+                                        "fileID": "d22103b99e9d404896b27ff2f23e6143"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "13df58991bd449158ab1a505674ff990",
+                                "navigationGoals": [
+                                    "Order a set of minimalist art prints for my office wall.",
+                                    "I\u2019m looking for a patriotic art print for my living room and want to apply my veteran discount.",
+                                    "I\u2019d like to order a high-resolution gicl\u00e9e print with ICC profile matching and explore Pantone-aligned home d\u00e9cor options.",
+                                    "I need help choosing an art print and matching d\u00e9cor piece for my living room.",
+                                    "I'd like to buy a physics-themed art print for my dorm room."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to browse original art and limited editions.",
+                            "fileID": "d14c1d7f17864c19866e2df8c50d704f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our original art and limited editions team.",
+                                        "fileID": "875fc1438cd74ab5ba7541d94104c466"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "25d2a61947e64fa6b67ad6ca2ce07d31",
+                                "navigationGoals": [
+                                    "Explore limited-edition original pieces from local artists.",
+                                    "I want to browse limited-edition artwork by veteran artists.",
+                                    "I want to browse limited-edition originals, check edition size data, and verify provenance certificates.",
+                                    "I\u2019d like information on purchasing a limited-edition artwork and its availability.",
+                                    "I'm looking to browse limited-edition original artwork for my apartment decor."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0482fe655112455ca485a2fe0baed1ec",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for custom framing and canvas transfer services.",
+                "fileID": "557ee8d3320f4b72aa247ef5d42fdf2c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to learn about our custom framing options.",
+                            "fileID": "dd0b894b6fb94f55af44316dfb8bd6dc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our custom framing experts.",
+                                        "fileID": "a74da1903b4a48e0ae8c219802b587ff"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6ca3352a7919419cac27dc97fa5ae543",
+                                "navigationGoals": [
+                                    "Get a quote and options for framing a 16\u00d720 award certificate.",
+                                    "I need custom framing for my military service medals display.",
+                                    "I need to discuss custom framing specs, including precise aperture dimensions and UV-protective glazing options.",
+                                    "I have a family photo I want framed and need guidance on frame styles and materials.",
+                                    "I need information on custom framing options for my research poster."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for canvas transfer services.",
+                            "fileID": "35d52790a2b34d0784e059cf1bd6d6ab",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our canvas transfer team.",
+                                        "fileID": "c8877d7425dc44df9bb5577a2bcf2e2b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0925538d95f24e87b00b62340a2d40a0",
+                                "navigationGoals": [
+                                    "Arrange a canvas transfer of a family portrait onto stretched canvas.",
+                                    "I want to transfer a group photo from my service onto canvas.",
+                                    "I\u2019m interested in canvas transfer services, specifically the substrate priming method and finishing varnish types.",
+                                    "I want to transfer an old photograph onto canvas and need details on the process and cost.",
+                                    "I'd like to have a lab group photo transferred onto canvas as a gift for my advisor."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "61dc48536e6f498d83e8e0198a320703",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "71005f7241b54d17a20024177cad307b",
+        "navigationGoals": null
+    },
+    "id": "90c4627e5dce468698058648c8e57b68",
+    "navigationGoals": null
+}

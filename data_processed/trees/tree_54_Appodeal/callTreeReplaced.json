@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Appodeal, your Publishers First Ad Monetization partner in San Francisco.",
+            "fileID": "2b61874da4a24438803ecf1ae0cc0008"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support and troubleshooting, press 1.",
+                "fileID": "6697ef64fe6f4f40a6f737b459b8a70c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For SDK integration assistance, press 1.",
+                            "fileID": "eee9948b6bb5416281309fe54a80ceb6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an integration specialist.",
+                                        "fileID": "514e4278114e427091d1339400731587"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3d28226af0c2461787b0b42e4bcdec08",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For ad performance and optimization guidance, press 2.",
+                            "fileID": "0c6ab38bb63f4019a15007fbff17e125",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an optimization expert.",
+                                        "fileID": "6c6dd5edba7f4ee987147b19177f6fcc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a1bc9c8dc1c5440b9ba00419f1f93af2",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5c583b89263f46f78360eb1a9280b0b0",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales inquiries and pricing, press 2.",
+                "fileID": "7349b44933c34675bf20213fa8767a58",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To set up a new account and learn about our plans, press 1.",
+                            "fileID": "27eb5590db9440aca7c36d7495c1cd41",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "6df2320662554c1aa504322f9af35c7b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "192d7a2e346b4889a2fd708695640ba9",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For custom marketplace solutions and partnership opportunities, press 2.",
+                            "fileID": "c849c05d4f22497fa2a838d81c3d65dd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships specialist.",
+                                        "fileID": "cf00a665ab9b412d87b07aed53462abf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0d20869fa71d4b1bb0b2a8223512c817",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d286506720c942fa9c8313cff9511a19",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "fac79ab6f5f947c3b66c5f4eb82f163d",
+        "navigationGoals": null
+    },
+    "id": "fa81d75dde1c44e5b5671bbe480d246f",
+    "navigationGoals": null
+}

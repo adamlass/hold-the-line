@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Optimizely in San Francisco, where we replace digital guesswork with evidence-based optimization.",
+            "fileID": "fe6b1359d94a4af9bc4fe915070b74d7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and pricing information, press 1.",
+                "fileID": "38b27d827ab04875ad2a9d35a327914e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative about enterprise plans, press 1.",
+                            "fileID": "8fc37885a35e4c1e9859442cf8023ab1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative. Your call is important to us.",
+                                        "fileID": "fb5781f754dc4118baade667a66bde03"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c559663740364c99a90c60169ffa3190",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To inquire about our testing platform integrations, press 2.",
+                            "fileID": "3c9ecdea5808480fa960dd8f50c782ff",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an integrations specialist. Thank you for your patience.",
+                                        "fileID": "29f9e2c48db34ef991ef71b9d509e81d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6f200c1b514c411ab42c346d6570caf6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8c058fe10f30404a844aae1e363d7282",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and account services, press 2.",
+                "fileID": "62e96a1722ae43dcb9abfcfc7906241c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To report an issue or get system assistance, press 1.",
+                            "fileID": "64dc49b225c842b5895ec779906e25a7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team. We appreciate your patience.",
+                                        "fileID": "3b543b89b4fb40fbb4a57ee328d910c4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "327867e7e380425ebe8e903dca01f73c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "fa75116bb565467eb6f8e8302114ef23",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for an account services representative. We will be right with you.",
+                                        "fileID": "9a9fe8578eac44898eadde25f979208b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "871781c8cd5c43738116878f69687f4a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5bd5d4b5dc62489aab0449719f52e947",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "187f083b7c874b08b62294bf1b7f533b",
+        "navigationGoals": null
+    },
+    "id": "2b5b98dde9494a988cce64d611e65bba",
+    "navigationGoals": null
+}

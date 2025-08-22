@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Juniper Square in San Francisco, your all-in-one real estate investment management solution.",
+            "fileID": "c2b0050cf88f436f8ffa7375ec419faf"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For investor services, press 1.",
+                "fileID": "32cfb1e5f9514326807bcbb594a0310f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To access your investor portal or reset your password, press 1.",
+                            "fileID": "361afa47f8f34e199d6fdd82bcd55924",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our investor portal support team.",
+                                        "fileID": "1714135bc26f448790495ff0eaca6f46"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9ed9d36eefa74a96bd6e661dbe2eb8e4",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For automated investor reporting and statements, press 2.",
+                            "fileID": "c18a94f8caad4b718ee447afcd1dc3ce",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your reporting details.",
+                                        "fileID": "a2aee01cf1a84e8d88efd1724bc5edd4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c1ebbd7becf641dda2ba45405e5405e9",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "72e38e8919364e73b3cca6769ac3006b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For fund manager and sponsor support, press 2.",
+                "fileID": "8a3fe993123b47eea2127530ad522c2d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For CRM and compliance assistance, press 1.",
+                            "fileID": "0dc9c8dcb4a8402ca1e7bd3cf9bfeea1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our CRM and compliance specialists.",
+                                        "fileID": "f9a73bfeb2f047b8bb7ce7f176fd1cab"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3ec70ab5559049d998a142481c6181e0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For data room access and closing services, press 2.",
+                            "fileID": "3f2a3a0dc7fd46be96ff4f1d91461eec",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our closing and data room team.",
+                                        "fileID": "f59fc72cd5814fa09349ba8b63c9fd9a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "930f42bf2e0442d081ef30013cef7012",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ae65c990d2a4414bbc85a8834738d0bf",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ba8f955c0ccf43efa6592e123c1a0da9",
+        "navigationGoals": null
+    },
+    "id": "17761439c95d4898835d475540048d6f",
+    "navigationGoals": null
+}

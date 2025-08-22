@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling BloomThat, the premier flower delivery service in San Francisco.",
+            "fileID": "4910becf48db444b9fa46c9d779d032f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To place a new flower order, press 1.",
+                "fileID": "a3b6d5ea1daa4ca09d080d9b31862744",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For same-day delivery options, press 1.",
+                            "fileID": "948e457c1d6145159873e79875ee18ad",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we prepare your same-day delivery order.",
+                                        "fileID": "17495cee63654744914b8bb58a35d840"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "75adcb96352448e494e638dbcfbda187",
+                                "navigationGoals": [
+                                    "Order a same-day flower bouquet for a client meeting today",
+                                    "Place a same-day flower delivery for a memorial service honoring a fallen comrade.",
+                                    "Initiate a same-day flower delivery order with specific bouquet specs and obtain tracking confirmation.",
+                                    "Send a bouquet for same-day delivery to my granddaughter",
+                                    "I\u2019d like to place a same-day order for a small congratulatory bouquet for my lab partner\u2019s PhD defense."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For corporate or event orders, press 2.",
+                            "fileID": "10ddf40c841f4969bb4dd24f40074cc7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our corporate sales team.",
+                                        "fileID": "afc7c895e4f442ed9cb85ddd8a834786"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2da67954845e49c1be50636b3fbbc672",
+                                "navigationGoals": [
+                                    "Set up a corporate floral arrangement for next week\u2019s event",
+                                    "Arrange corporate centerpieces for a Veterans Day luncheon at my local VFW hall.",
+                                    "Request a corporate event floral order quote, including bulk pricing and delivery timeline.",
+                                    "Place a large flower order for my community center\u2019s upcoming event",
+                                    "I need to arrange multiple floral centerpieces for our physics department seminar next week."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8d9f16813d0149dca174bd25ee491147",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For order status or customer support, press 2.",
+                "fileID": "5b51aee57b5642dfaf78ceb42224dd50",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check your order status, press 1.",
+                            "fileID": "23831437f588484ba57e554701251054",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your order information.",
+                                        "fileID": "4a5df1e3b1154d97856106e5d6cb0d7b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "86a59115987343dfb84f981c8960aa9c",
+                                "navigationGoals": [
+                                    "Check the status of my flower delivery placed this morning",
+                                    "Check the delivery status of the bouquet I ordered for my platoon leader\u2019s retirement ceremony.",
+                                    "Query the system for real-time order status and ETA for my recent purchase.",
+                                    "Check the delivery status of the flowers I ordered yesterday",
+                                    "I want to check the delivery status of the bouquet I ordered yesterday for my professor\u2019s birthday."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a customer service representative, press 2.",
+                            "fileID": "8480c2f1619f479da1debae386bc08e0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to customer service.",
+                                        "fileID": "08c179d8efee418badb59c9fb99b7563"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f90cecc396db447fb5985baf56c5702b",
+                                "navigationGoals": [
+                                    "Speak with a representative about an issue with my recent order",
+                                    "Speak with a representative to modify the delivery time on my event order after a schedule change.",
+                                    "Connect to a live agent to modify delivery details and resolve an order discrepancy.",
+                                    "Speak with someone to update the delivery address on my order",
+                                    "I need to speak with someone about a billing discrepancy on my last flower order."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3b4120fbd1a14ec0a8f132a70d325c1b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f53a8da90f6340009e39b8e03a7ce586",
+        "navigationGoals": null
+    },
+    "id": "18a5c99f7bf94c1d88152037e819dbbc",
+    "navigationGoals": null
+}

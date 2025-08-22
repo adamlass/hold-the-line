@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Pusher in San Francisco, powering real-time apps with hosted APIs and less code.",
+            "fileID": "d23370d016b5425c8230ad9bb77f05ea"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new account inquiries, press 1.",
+                "fileID": "074b4f5946d746c7a9b425e8d6d27939",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss pricing and plans, press 1.",
+                            "fileID": "fe25ffe212d148eb96615a02079b8743",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our sales team to discuss pricing and plans.",
+                                        "fileID": "e7a35fcdb2d143f79f2528a925920e6f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "617fb075ef8e43c497e8b5f651633e93",
+                                "navigationGoals": [
+                                    "Discuss pricing and plan options for a new Pusher account",
+                                    "Get pricing details for Pusher plans to integrate real-time features into my veteran assistance app.",
+                                    "I need detailed pricing info on your hosted real-time API plans, including throughput limits and billing metrics.",
+                                    "Could you explain the pricing tiers and what each plan includes?",
+                                    "I\u2019m comparing Pusher pricing tiers to find the best plan for integrating real-time data streams into my lab\u2019s visualization tool."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a live product demo, press 2.",
+                            "fileID": "08168108b8204ef784a4d0f4f01678c0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to schedule a live product demo.",
+                                        "fileID": "4f9d78eec93e46e586f33d594e500f91"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "db6e77102acc45a4bd174d472b618047",
+                                "navigationGoals": [
+                                    "Schedule a live product demo of Pusher\u2019s real-time API",
+                                    "Schedule a live Pusher demo to evaluate its real-time API for my veterans peer-support platform.",
+                                    "I'd like to schedule a live demo of your real-time API integration, covering WebSocket and event push features.",
+                                    "I'd like to arrange a live walkthrough of your service so I can understand how it works.",
+                                    "I\u2019d like to schedule a live demo of Pusher\u2019s real-time APIs to evaluate its suitability for a collaborative physics simulation project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3fee4aef821d435480f2141e4d313077",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and API assistance, press 2.",
+                "fileID": "cb93583f3d944dc9956dd6f110f2dc62",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need developer support, press 1.",
+                            "fileID": "bbee33a13eaa4c7bb85a6dd97974e5eb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our developer support specialists.",
+                                        "fileID": "c97b78ffab2f43e790dc3dc74ca3c67f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8e3fecaffcda4a81b594437ee7845e4a",
+                                "navigationGoals": [
+                                    "Get developer support for integrating Pusher\u2019s API",
+                                    "Get developer support to resolve API integration errors in my veteran resource app.",
+                                    "Help me troubleshoot my Pusher Node.js integration; I'm hitting authentication errors on presence channels.",
+                                    "I need assistance from a developer support specialist to help with my API integration.",
+                                    "I need developer support troubleshooting my Python implementation of Pusher channels for a research data dashboard."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For system status and incident updates, press 2.",
+                            "fileID": "7ede95f5fa45437e862059c6e1bd2f7f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our system status desk.",
+                                        "fileID": "862b32f019f042999c865ba637f0dcd3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cc7ce47b109045f9a4039d1a6693e495",
+                                "navigationGoals": [
+                                    "Check current system status and any active incidents",
+                                    "Check if there\u2019s a system outage impacting my veteran support app\u2019s real-time notifications.",
+                                    "Check the current system status and any active incidents affecting the real-time API endpoints.",
+                                    "I'd like to check if there are any current service interruptions or maintenance ongoing.",
+                                    "I\u2019d like to get the current system status and any incident reports, as I rely on Pusher streams for my ongoing experiment."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "39cefd7504184acf99fe8f5c9841742d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ed04dd582601479791ae78e6f2eba7de",
+        "navigationGoals": null
+    },
+    "id": "2138c2a0c25b4f308dd844dee91ba715",
+    "navigationGoals": null
+}

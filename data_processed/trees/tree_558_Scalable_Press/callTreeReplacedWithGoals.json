@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Scalable Press in San Francisco, where automation reinvents mass customization and makes ordering customized goods easy.",
+            "fileID": "19976196e2a748aa8cd5ae9f20d0e837"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For existing customer support, press 1.",
+                "fileID": "4c173142b9754f4d9aa9fc4b65018da1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check your order status, press 1.",
+                            "fileID": "8f74510a5b9e4d03b8854ca0d7a3885d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an order status specialist.",
+                                        "fileID": "93bd9b816bfa493cb236b847b3ea721c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bbca07f27efd422d9c997387df9c11b7",
+                                "navigationGoals": [
+                                    "I need the delivery status and estimated arrival date for my recent order.",
+                                    "Confirm the delivery date for my custom unit commemorative T-shirts",
+                                    "Query the fulfillment status of my order #1024 to verify its current production stage",
+                                    "I\u2019m an older customer and would like help checking the delivery status of my recent custom mug order.",
+                                    "I\u2019d like to check the delivery status of my recent custom lab component order."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To report an issue with your order, press 2.",
+                            "fileID": "f6e797004a1d4804b77aa0796842a1ef",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a support agent.",
+                                        "fileID": "743f0e00162d4713ac7dcb2465351591"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "93229448c1c74dd8801d7855dad0ad5f",
+                                "navigationGoals": [
+                                    "I want to report a damaged item from my last order and arrange a replacement.",
+                                    "Report a printing error on the custom platoon T-shirts I just received",
+                                    "Report a defect in my recent print order #1024 and initiate a replacement workflow",
+                                    "As a senior, I need to report that the custom T-shirt I received arrived damaged.",
+                                    "I need to report an issue with my delivered custom physics model\u2014it arrived damaged."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9cc0e5b31ce3454b907c6ea9c4987c51",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For new orders and pricing, press 2.",
+                "fileID": "06168dc218f0432c961649d83410cd46",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a custom product quote, press 1.",
+                            "fileID": "aa47699a3c714e498b54a2fd6e8e2f12",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our quoting team.",
+                                        "fileID": "54780812cb7348ebb792687e446f0ff6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b1bfbba6dc544b92a69d903469d2a753",
+                                "navigationGoals": [
+                                    "I\u2019m looking for a price quote on 100 custom logo t-shirts with full-color printing.",
+                                    "Request a quote for 150 custom morale patches featuring my unit insignia",
+                                    "Request a detailed API-enabled quote for a custom batch of branded merchandise",
+                                    "I\u2019d like a price quote for 100 personalized greeting cards and some guidance on the options.",
+                                    "I want a price quote for a bespoke optical bench component for my experiments."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative, press 2.",
+                            "fileID": "dce9a37f6c4e440ebe6dca2b75f1a811",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "1da8bf717ec146e9aaabb4ad492f11a8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "54c6ad530a9c406988876953643df081",
+                                "navigationGoals": [
+                                    "I\u2019d like to discuss bulk pricing options for custom hoodies with a sales representative.",
+                                    "Speak with a sales rep about bulk ordering custom veterans\u2019 reunion T-shirts",
+                                    "Connect me to a sales engineer to discuss volume pricing and integration options",
+                                    "I want to speak with someone about placing a bulk order for 50 custom hoodies for a family event.",
+                                    "I\u2019d like to speak with a representative about bulk pricing for academic orders."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "87d70f853991497299969492e7170c07",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c2c7b30f021a436ba9b2d4613029aced",
+        "navigationGoals": null
+    },
+    "id": "935f2380e2e348a6ac8203e4dbd6d5e0",
+    "navigationGoals": null
+}

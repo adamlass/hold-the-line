@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Imgur in San Francisco, where millions share and enjoy billions of cat GIFs.",
+            "fileID": "19c81b7236d94e93aa380f997282af5e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For customer support and account services, press 1.",
+                "fileID": "5bc3fb424fd04df4b4e595a03234004f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account login, password resets, and profile settings, press 1.",
+                            "fileID": "21feb0396ada48e6b38949d2f6483b0e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line and a support representative will be with you shortly.",
+                                        "fileID": "e7381354777e48feba1e886061864183"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8291e43a8b554778974d74d3f312106d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For questions about uploading, deleting, or managing your images, press 2.",
+                            "fileID": "7e77a3dfdb35466cba0d31ca155a65d1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our upload support team.",
+                                        "fileID": "0cd57cf18b9544539c547522868566c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f4805c9f272146bc9a00bf8d8f767cd9",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "59ce096781a342ff9cfbf79fd202c532",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For business inquiries, advertising, or partnerships, press 2.",
+                "fileID": "cfd74ed5e10040e4a8546671fa138428",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For advertising opportunities and sponsored content, press 1.",
+                            "fileID": "e2568a406a1b419f9782b507880bc65d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our advertising department.",
+                                        "fileID": "6a9e73026017464e8bb419382c42d51f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6d0fad88ce72459aa6ceb7dfaaca3d87",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For API access and developer partnerships, press 2.",
+                            "fileID": "8ec053d2c4d0419c92704d01650c44a8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our developer relations team.",
+                                        "fileID": "2e53f5e655c04654b69084cf46ada6ee"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f3ee1f931f7b4e4eae9e3e4897a941ff",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e3ed32fcbdce4e749c7ccc8dc1e38fa1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "92c6f3d490af413a83dca7a1f265d5f7",
+        "navigationGoals": null
+    },
+    "id": "672194eb53174a47835a6b4db80f2bc9",
+    "navigationGoals": null
+}

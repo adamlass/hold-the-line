@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Comfy in the East Bay, where we connect people, places, and systems to drive employee satisfaction and optimize space utilization.",
+            "fileID": "7c3c323979a84e99bf5f959ebfca2ce8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with workspace comfort and environment controls, press 1.",
+                "fileID": "5f9ba17bd6324a6cb67924a033c60319",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a workspace comfort specialist, press 1.",
+                            "fileID": "548f58aab1954b32b65c666c5daec9f6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a workspace comfort specialist.",
+                                        "fileID": "c3d860c89d274e348486892e30184062"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f634097f432e4213be0b4c5ea0c30d47",
+                                "navigationGoals": [
+                                    "I\u2019d like to talk to someone about adjusting my office\u2019s temperature and lighting.",
+                                    "I need to speak with someone about adjusting the lighting and temperature controls near my desk for my comfort.",
+                                    "Optimize my workspace climate by recalibrating the smart thermostat and humidity controls",
+                                    "I need help adjusting the temperature and fan settings in my office",
+                                    "I need help adjusting the temperature in my office to maintain optimal study conditions."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To report an issue with your office environment, press 2.",
+                            "fileID": "639f08f1f6744929b526a985309c538c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Your request to report an office environment issue is important to us. Please hold for the next available agent.",
+                                        "fileID": "5c4c4c3295314d6797d15f7105556a65"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3f31eece5f5947ce9c7a8f168732c7e5",
+                                "navigationGoals": [
+                                    "I need to report that the air conditioning in my workspace isn\u2019t working properly.",
+                                    "I want to report that the air vent by my workspace isn't working and it's causing me discomfort.",
+                                    "Report a fault in my office air-quality sensor that\u2019s triggering false high CO\u2082 alerts",
+                                    "I need to report that my office heater isn't working",
+                                    "I want to report a noisy vent that's causing drafts near my desk."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8d6af87048074bb9bac07f75d59a083e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For information on space utilization analytics and building efficiency, press 2.",
+                "fileID": "1668932909f747e2a0823aa6b714cd03",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a utilization report, press 1.",
+                            "fileID": "7d886f494bef4d7e8bff4d060f754cb8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we prepare your utilization report request.",
+                                        "fileID": "20f27315aff84a4c90ff8a22bd4d0e2e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b496e04819a4408b985d5b454967f2d5",
+                                "navigationGoals": [
+                                    "I want to access this month\u2019s space usage data for our East Bay office.",
+                                    "I'd like to request a utilization report for our unit's shared workspace usage over the last month.",
+                                    "Request a detailed occupancy heatmap export for my department\u2019s space utilization analytics",
+                                    "I\u2019d like to request a monthly space utilization report for our conference rooms",
+                                    "I'd like to request a space utilization report for our physics lab from last month."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about our building efficiency solutions, press 2.",
+                            "fileID": "3ba6c15c9b8142319af3dc5ae7f21138",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a building efficiency expert.",
+                                        "fileID": "77c01a3d20ce4ed0b8788f425bd4dc8f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0bac81fb7b1b46c8a9824e19cc24e334",
+                                "navigationGoals": [
+                                    "I\u2019m looking for ways to improve my building\u2019s energy efficiency.",
+                                    "I need to talk with an expert about energy-efficient HVAC and lighting solutions for my office area.",
+                                    "Discuss implementing demand-controlled ventilation and energy efficiency strategies for the building",
+                                    "I want information on options to improve our building\u2019s energy efficiency",
+                                    "I'm interested in learning about energy-saving building efficiency solutions for our study spaces."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "98d9923ee74e45c4b61c9c101aca561d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "96155c765e624286a451e94ab68c5471",
+        "navigationGoals": null
+    },
+    "id": "3fd930df50454b60a3640821aaf4b207",
+    "navigationGoals": null
+}

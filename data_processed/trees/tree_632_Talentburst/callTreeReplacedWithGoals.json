@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to TalentBurst in San Francisco, your partner in staffing, managed services, and vendor management solutions\u2014call today!",
+            "fileID": "d0607b46b4f248ada731a98bc82cd85d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For our Staffing Solutions, press 1.",
+                "fileID": "70c7a0f2157646fdbfb1e9a307f56167",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For permanent placement services, press 1.",
+                            "fileID": "d7467cde5361413e83750d15014922cb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our permanent placement specialists.",
+                                        "fileID": "3a3304bffd12461185210491c3ba7be4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e365857dcdf443b09ec6bc164f73a693",
+                                "navigationGoals": [
+                                    "I need to hire a permanent software engineer and want to speak with your placement specialist.",
+                                    "I\u2019m looking to secure a full-time, permanent position leveraging my leadership experience in logistics.",
+                                    "Initiate a full-time hire requisition for a senior Java engineer with compensation benchmarking details",
+                                    "I need help speaking with someone about permanent job placement.",
+                                    "I\u2019m exploring full-time placement as a junior physicist in an applied research facility."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For contract and temporary staffing, press 2.",
+                            "fileID": "403bc9f5df094491b4dc8010b93e2e75",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our contract and temporary staffing team.",
+                                        "fileID": "d1303a1749f14e599f03e0a1ccc54f29"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4533010485db40e8be51a5c6b6136d75",
+                                "navigationGoals": [
+                                    "I have an urgent need for a three-month IT contractor and need to connect with your temporary staffing team.",
+                                    "I need assistance finding short-term or contract roles in operations while I transition to civilian work.",
+                                    "Onboard a 6-month contract cybersecurity analyst and review the SOW and onboarding workflow",
+                                    "I need information on temporary or contract staffing opportunities.",
+                                    "I need a six-month contract role helping with experimental data analysis in a physics lab."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ed729e8950d74bb995bb8ff681ff0d02",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For our MSP and VMS solutions, press 2.",
+                "fileID": "1871598a67a54a9f8beac5868ebaf373",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For Managed Services Provider inquiries, press 1.",
+                            "fileID": "4f88b20402604723816179934d2436c0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our managed services provider team.",
+                                        "fileID": "17382303c19640588297a21e6bd2b4f5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ceae13b8e0984d5ba66fb0e8286a389b",
+                                "navigationGoals": [
+                                    "I\u2019d like details on your managed services offerings and SLAs for our network infrastructure.",
+                                    "I\u2019d like to learn about TalentBurst\u2019s managed services solutions to support my veteran-owned IT consulting firm.",
+                                    "Evaluate your MSP solution\u2019s SLA uptime guarantees and its integration with my AWS environment",
+                                    "I want to learn more about their managed services provider solutions.",
+                                    "I\u2019d like to learn about managed IT services for our university\u2019s physics computing cluster."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For Vendor Management System support, press 2.",
+                            "fileID": "f5cf79a95bce4525bc687dc7702f266e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our vendor management support team.",
+                                        "fileID": "3c0d66bd80a449c482db32901715dfdf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a389f0bc3caa4405b117786208539cec",
+                                "navigationGoals": [
+                                    "I need assistance accessing the vendor management portal to onboard a new supplier.",
+                                    "I\u2019m having trouble accessing the vendor management system to manage my subcontractor bids.",
+                                    "Troubleshoot VMS API integration with my procurement platform to automate purchase order workflows",
+                                    "I need assistance with support for the vendor management system.",
+                                    "I\u2019m having trouble accessing the vendor portal to update my contract and credentials."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4d810d95300a46c5ad3947af0d129311",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9f1f5f2677fb4b70a1f1f2eb84eeb0c6",
+        "navigationGoals": null
+    },
+    "id": "a9542b524e764ad2a00c5a96c3c0ef3b",
+    "navigationGoals": null
+}

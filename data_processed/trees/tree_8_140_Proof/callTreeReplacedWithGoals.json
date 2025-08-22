@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to 140 Proof in San Francisco, delivering the most precise way to advertise in mobile apps.",
+            "fileID": "cd7fc199949b4bbba0d16fb721f6e079"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To launch or manage your advertising campaigns, press 1.",
+                "fileID": "5773cf61a25742cf901e2eaa8f5c4713",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start a new campaign, press 1.",
+                            "fileID": "0456395495914ff3a1c8cae3beb2e025",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you with a campaign specialist.",
+                                        "fileID": "9a935e3e56a347aa8942374053c35512"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4bb43393d573492bb8d36f9ff2954cd3",
+                                "navigationGoals": [
+                                    "I\u2019d like to set up a new mobile ad campaign.",
+                                    "I\u2019m a veteran launching my first mobile ad campaign to promote my small business.",
+                                    "I need to launch a new programmatic mobile ad campaign with RTB and custom DSP parameters.",
+                                    "I need help setting up a new mobile advertising campaign.",
+                                    "I want to start a new mobile ad campaign to promote my physics tutoring service to undergraduates."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To adjust your campaign\u2019s targeting and optimization, press 2.",
+                            "fileID": "05cc32b1065a494fa262af41b0ac8ef1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you with a targeting expert.",
+                                        "fileID": "73686d141baf4fca8c6962fc9a63dabb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e3b5a00a00d8448fa112932a693fea42",
+                                "navigationGoals": [
+                                    "I need to adjust my campaign\u2019s targeting settings.",
+                                    "I need to refine my campaign\u2019s audience to better reach fellow veterans and military families on mobile apps.",
+                                    "I want to tweak my existing campaign\u2019s geotargeting, frequency capping, and bid optimization settings.",
+                                    "I want to update my ad\u2019s targeting and optimization settings.",
+                                    "I need to adjust my campaign\u2019s targeting to reach students in my university\u2019s physics department and optimize for workshop sign-ups."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1f9c6553986047d5ac2e78aeba73ef9e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account support and other inquiries, press 2.",
+                "fileID": "999006c7e6234cea8822b0c878fd40bb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with technical support, press 1.",
+                            "fileID": "87a6d7f035504d9f8e98489def1836fa",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you with technical support.",
+                                        "fileID": "c07e587ab68d4b9c9b68f32a8d5abf4e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dfb04598e8ff4cafa9dd040337ffee6a",
+                                "navigationGoals": [
+                                    "I\u2019m experiencing an error in the ad platform and need technical help.",
+                                    "I\u2019m having trouble accessing my campaign dashboard and need technical help to get it working again.",
+                                    "I\u2019m encountering errors with the 140 Proof SDK integration in our app and need technical debugging assistance.",
+                                    "I\u2019m having trouble accessing my ad account and need technical support.",
+                                    "I\u2019m encountering errors integrating the advertising SDK and need technical support to resolve my tracking issues."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and invoice questions, press 2.",
+                            "fileID": "37a66ebc2d2e433eb1c1b85266ef857e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you with our billing department.",
+                                        "fileID": "a446cc724cd34368b9f1193663263f7f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c9428640ea5446369f2c1fd320b35dce",
+                                "navigationGoals": [
+                                    "I have a question about a recent invoice charge.",
+                                    "I have a billing question about a recent charge on my advertising account.",
+                                    "I need to review and reconcile the line-item charges on my latest invoice and update our billing info.",
+                                    "I have a question about a charge on my billing invoice.",
+                                    "I have a question about last month\u2019s ad spend and need a detailed breakdown of the invoice charges."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "57553f6bb1684fc1a738936b26ec4d45",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f895d58e2ec547739887717f1c5b1667",
+        "navigationGoals": null
+    },
+    "id": "514c67dbd10d498faebe358030510130",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling AdStage, the San Francisco-based closed-loop reporting and automation platform for paid media campaigns.",
+            "fileID": "c143c9cb429849dab68db2ccffb30af1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales, demos, and new business inquiries, press 1.",
+                "fileID": "6c15102d26bb4ceabf4ff4dc815c38ba",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a demo or learn about our platform features, press 1.",
+                            "fileID": "0d783432b17d4c48b18c496c501e05d7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist for your demo request.",
+                                        "fileID": "ffef4c4caece4b0d915b37deb5d66d07"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "76651acabace42399b1dcfb57a6a4597",
+                                "navigationGoals": [
+                                    "Schedule a walkthrough of AdStage\u2019s reporting and automation features for my paid media campaigns.",
+                                    "Schedule a product demo to evaluate AdStage for my veteran-owned marketing startup",
+                                    "Schedule a walkthrough of AdStage\u2019s API-driven paid-media reporting dashboard.",
+                                    "I\u2019d like to set up a guided demo of your platform so I can learn how it works.",
+                                    "I\u2019d like to schedule a demo of AdStage\u2019s reporting tools for my lab\u2019s paid media analysis."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For partner programs and integrations, press 2.",
+                            "fileID": "ce4536c271e6407e8047e77c09f990c3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships team.",
+                                        "fileID": "235276f9e1cc4e3c83f9fde1702225f9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c4a535c8abc741e790745fbb1229d6b0",
+                                "navigationGoals": [
+                                    "Get details on integrating AdStage with our existing partner tools.",
+                                    "Inquire about joining the AdStage partner program and integrating Google Ads for my veteran-led agency",
+                                    "Discuss partner integration options and access to the AdStage API sandbox.",
+                                    "I\u2019m interested in joining your partner program and integrating my existing tools.",
+                                    "I want to explore integrating AdStage\u2019s API with our department\u2019s data platform."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e5058080965f4b2799b18de537374e97",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and account management, press 2.",
+                "fileID": "05b51b4bc8194bcc9b1ff4f8e1d9680c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "de675f2520a34f6684a583ad23e92b87",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "6b01c6b035a4457f93ff6964a8b6ab2c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5cfe8b831d65420681710e5c85e90601",
+                                "navigationGoals": [
+                                    "Resolve a technical issue with my campaign reporting dashboard.",
+                                    "Get technical support to fix Facebook Ads data not syncing in my AdStage dashboard",
+                                    "Troubleshoot an OAuth authentication error in my AdStage data connectors.",
+                                    "I\u2019m having trouble accessing my account and need technical help to fix it.",
+                                    "I need help troubleshooting errors when I pull campaign metrics via the AdStage API."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, subscription, or invoice questions, press 2.",
+                            "fileID": "a436fafc025f425d8be0ce38d7edcbf9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "fd6750363f2d49908813c0c2a98eae90"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1fa7d9ae8317495b858c2c9cd8d14b67",
+                                "navigationGoals": [
+                                    "Clarify a charge on my latest invoice and update my billing information.",
+                                    "Request an itemized invoice for last month\u2019s charges and adjust my subscription plan for my veteran-run agency",
+                                    "Review my latest invoice details and upgrade my subscription tier.",
+                                    "I need assistance understanding my latest invoice and subscription charges.",
+                                    "I need to upgrade my billing plan so I can access more historical data for my research."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "72dc638bc8394d1bb79858da80d0d20a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6021c268d6d04360bc3a3671bd0d829f",
+        "navigationGoals": null
+    },
+    "id": "6271378ee95b493b8a11229950691bb8",
+    "navigationGoals": null
+}

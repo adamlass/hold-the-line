@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Hoodline, your source for the latest neighborhood news in San Francisco.",
+            "fileID": "dfad4647522d47fb9976b54a857d8086"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For neighborhood news and story highlights, press 1.",
+                "fileID": "bcca72644125409ea4155e4433d0d541",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For today\u2019s top headlines, press 1.",
+                            "fileID": "8b30df8984764596a53a93b195abab65",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our News Desk.",
+                                        "fileID": "825e8e54fa874b1095d58212e4a85de3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "56229ec69ab14d8394d42bcb9623f7d0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For upcoming local events and community gatherings, press 2.",
+                            "fileID": "98f24d1d181f417e8e941d60ed2365ab",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Events Team.",
+                                        "fileID": "cf44aca03ca843c5b2cc14c755fee4e2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2ab35eba22f345fdb1d86c5118dc5709",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4b539daa8d3e4dc7b077236a8bd5cfec",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For advertising and partnership inquiries, press 2.",
+                "fileID": "c659e7ee801d4e28a1ec52e104e3afb7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For advertising opportunities, press 1.",
+                            "fileID": "32663b2bf87f4286b57b418a31cc55a3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Advertising Sales team.",
+                                        "fileID": "93e4038437e44597b33fe05dd731492b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8293717fc68a48e8abbbb144f9d7942c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For partnership and community relations, press 2.",
+                            "fileID": "ba47cf622229428d97fce9be697829b7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Partnerships team.",
+                                        "fileID": "e8395080de064d5891897b147b71ca76"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "18f7a8eaf9fb4de092c2da89eb035925",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "74f0ff716899411b8b8c8a37bd90c572",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c9d6bce59843469d85afb6224637090a",
+        "navigationGoals": null
+    },
+    "id": "9feefb03293144639f390cdff749df94",
+    "navigationGoals": null
+}

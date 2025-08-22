@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to CloudFabrix in the East Bay, delivering outcomes-driven AIOps for agile, efficient, and analytics-driven IT.",
+            "fileID": "5a66176c28cd46d0a8016e0d2b5823e5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1 to learn about our AIOps platform and schedule a demo.",
+                "fileID": "fc33c0d9eba44454ace2cc9200bfb981",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo of our AIOps platform, press 1.",
+                            "fileID": "89633cfcd59142a3be772f88e44f4ec1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our Sales Engineering team for your personalized CloudFabrix demo.",
+                                        "fileID": "5901cbbebd54454c9a50a6ed03d1b90b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "34d9e9b0c70a4e01b8ae45fb8ac73591",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To request pricing and licensing details, press 2.",
+                            "fileID": "a785ef4707d947ab9d700bc89b97b35a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our pricing specialist to discuss licensing options.",
+                                        "fileID": "ebbe51eabb8f4dae97e9da461cbfffa6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b6a6005334fe41109f955553a0dada26",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9f4ed95216f84dcb90cd672724d47d3a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and account assistance, press 2 to reach our technical support and billing teams.",
+                "fileID": "6f5a49871c5e4ed9a3796ac3b26ca1e4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a technical support specialist, press 1.",
+                            "fileID": "caedeec5a67a4004856ae80d418d7312",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a Technical Support specialist at CloudFabrix.",
+                                        "fileID": "a7307ac1f26d4f4086d3f8ead3cebf67"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1fb3c9ea4d7540fab18c223004bde924",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "d09a55fc13eb4e51bf413403de2b04ac",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our Billing and Accounts department.",
+                                        "fileID": "4831cf7fa97c40fd972fea1dfcc5f710"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f7797fb30a8c4771a75af494901217df",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1e713ba4558b4f0390b83793a776955b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2c4fdd25877f494598e94fdeeb3c0f70",
+        "navigationGoals": null
+    },
+    "id": "f0e15adeefae4223870b9b8d5f063554",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Lyte in San Francisco, your trusted source for genuine fan-returned event tickets.",
+            "fileID": "312d1574386e4c338cc86218442c8527"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new ticket purchases or to browse available events, press 1.",
+                "fileID": "b4dd3386e48c4bdcb74e9230ef8981e6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To search and buy tickets for concerts, sports, and theater, press 1.",
+                            "fileID": "9c5c95dee06c430b9436e368438d80d7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our ticket sales team.",
+                                        "fileID": "f8e6e26e66474f5ab983afe3238c91e2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bd505c04e2ed46a5a19dc943d8729a61",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For bulk orders, corporate sales, or special packages, press 2.",
+                            "fileID": "5ba38ef7e72145c48e136d7e5839dc4c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our group sales specialists.",
+                                        "fileID": "6237c59418e2407097247fe0c4f8a097"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ad20cb5353c9405394cfdca7b71bbbd8",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c1a4dd0f1a5b488fbef0f175651f205c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For assistance with existing orders or ticket support, press 2.",
+                "fileID": "a38f6b313b17411692833883bd6401fd",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To review or modify an existing order, press 1.",
+                            "fileID": "bef1ac7cce9d431792ebcfd425e1b45f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our customer care team.",
+                                        "fileID": "03d67892c0a04a2cbbe70459be6162bf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6d8ebcb8fc084b658620687463c25873",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To request a refund or report an issue with your tickets, press 2.",
+                            "fileID": "97f117bc6b6a408e86497e379557ffc0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our refunds department.",
+                                        "fileID": "bbe44d7d77bb44fd89ff50ff6b48949f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0470ff6504fa43a9960be268197f8390",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "12b9a9c3c6904425959025aac3639441",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ece063e401404dbbaf701ffebd6eec9e",
+        "navigationGoals": null
+    },
+    "id": "a23fc35f219e46ce82438ed608540ccb",
+    "navigationGoals": null
+}

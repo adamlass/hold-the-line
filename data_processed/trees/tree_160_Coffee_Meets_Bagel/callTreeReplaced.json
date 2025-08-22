@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Coffee Meets Bagel in San Francisco, where you can meet your everything bagel today.",
+            "fileID": "8063803e7da34e9db08cf849bd30d21b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For customer support, press 1.",
+                "fileID": "bb2e01813065492f99cd092b6eb17834",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account and billing inquiries, press 1.",
+                            "fileID": "8cdf43ff83a94a798efab2f7174c8018",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account support.",
+                                        "fileID": "6139a14ccc2d44f3b25fa43a013a9f98"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "002c2b2829fa47319afdba5f48bd6e56",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical assistance with the Coffee Meets Bagel app, press 2.",
+                            "fileID": "c79d99a68e144d79993b64f6945e22a4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Your technical support specialist will be with you shortly, please hold.",
+                                        "fileID": "23c786ffa69a424f98c3b4442b3469c0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fe0765d325454405b47370dfa2b0b646",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a8f148ccbecf495293fec9c2b9128542",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For matchmaking and dating services, press 2.",
+                "fileID": "6b9b55897e354eea920d969d0038a01d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For personalized date recommendations, press 1.",
+                            "fileID": "fa748d42e99742639c34d220574d5d44",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "We are preparing your personalized date suggestions, please hold.",
+                                        "fileID": "ef2c92bd4e5f4562b699adcfb7ce8b20"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b2b151f8b32041a595dc34434b2ecf84",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For local San Francisco events and meet-ups, press 2.",
+                            "fileID": "72c9431c3d19475e8ff7226b8addaac4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Fetching the latest event details for you, please hold.",
+                                        "fileID": "27717605f0404e929def021cc78f0c97"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0ba1e2df83bf43a4bb9f06d5ab5093da",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "63b9ac8789e04d099e1c035c36122e5b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8f634865f40e4e849ee4909e9f839521",
+        "navigationGoals": null
+    },
+    "id": "8804c2d2fd784db58c29e9334e0078f6",
+    "navigationGoals": null
+}

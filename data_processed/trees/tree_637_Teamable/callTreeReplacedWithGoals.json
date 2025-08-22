@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Teamable in San Francisco, where our employee referral program can drive up to forty percent of your hiring pipeline.",
+            "fileID": "1b92fb83545b419c84a96c0a98854d10"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and to request a demo of Teamable's referral solution, press 1.",
+                "fileID": "0a0568029624418c8613fba882f4a518",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo of Teamable, press 1.",
+                            "fileID": "6ee4a853513547d4ba49654b71a0a064",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Teamable product specialist.",
+                                        "fileID": "cd52c9bc333a4231ba74daa1c1c14b0e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "507deed73a1a4f9d99d1f13392ca9d61",
+                                "navigationGoals": [
+                                    "Schedule a quick, personalized demo of Teamable's referral platform",
+                                    "I\u2019d like to set up a personalized demo of your employee referral platform to help me recruit fellow veterans.",
+                                    "Schedule a deep-dive demo of Teamable's employee referral platform.",
+                                    "I need help scheduling a personalized demo of your employee referral platform.",
+                                    "I\u2019d like to book a personalized demo of Teamable\u2019s referral platform for my physics student organization."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing and licensing details, press 2.",
+                            "fileID": "3ba950c93fec48efb7f8240c9a767cc8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing team.",
+                                        "fileID": "2b339f12e63f41a2aee8a598e1a8508c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "11c77bbcc80f4f69978ac0437427ea04",
+                                "navigationGoals": [
+                                    "Get detailed pricing and licensing information for Teamable",
+                                    "I need detailed pricing and licensing information for your referral software as I plan my nonprofit\u2019s hiring budget.",
+                                    "Obtain detailed pricing tiers and licensing info for Teamable's referral solution.",
+                                    "I\u2019d like to get pricing and licensing information for your referral solution.",
+                                    "I need detailed pricing and licensing information for Teamable for our student research group."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6089262bb9734aa2af0121fa2814c4d1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and account inquiries, press 2.",
+                "fileID": "4f653ce15dfb4f66884862e52a2c74d3",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance with the Teamable platform, press 1.",
+                            "fileID": "e68ed1f5a6f64285b5c830924898bc2b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "52844eaa58ef4174997b21c903f1d7c2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d5148170e47840f6ab26038c540e287b",
+                                "navigationGoals": [
+                                    "Fix a technical issue I'm having with the Teamable platform",
+                                    "I\u2019m having trouble accessing my Teamable dashboard and need technical support to troubleshoot my login.",
+                                    "Resolve technical integration issues with the Teamable API.",
+                                    "I\u2019m having technical issues with the Teamable platform and need assistance.",
+                                    "I\u2019m encountering an error when importing contacts into Teamable and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press 2.",
+                            "fileID": "e7b73042972e4e3a948455f798391247",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your account management team.",
+                                        "fileID": "4d52a586bc6b45579f38f2fe8665b5e6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "17d7927b92074d209e77b2fd98c2752e",
+                                "navigationGoals": [
+                                    "Resolve a billing question on my Teamable account",
+                                    "I need to review my current invoice and billing details for my Teamable account.",
+                                    "Clarify billing charges and account management settings on my Teamable account.",
+                                    "I have a billing question about my account and need someone to explain my invoice.",
+                                    "I want to review my Teamable account billing statement and update the payment method."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2c52f4df5797436aba02e6acf089762e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9b88804bffd148588938e6e474a32ac8",
+        "navigationGoals": null
+    },
+    "id": "aa83f848456240d39bd0f9daa5452a4f",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Code Nation in San Francisco, providing students in under-resourced high schools with the skills and connections needed for careers in technology.",
+            "fileID": "e9cda5bb6ddc44918df6d2c205f10e44"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our student coding programs and course offerings, press 1.",
+                "fileID": "541e93307b2e4c03a589587c50152e49",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear details about our curriculum and classroom experiences, press 1.",
+                            "fileID": "ef1b4c296cfe49229673187d4eb076a1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our curriculum team.",
+                                        "fileID": "95af8b8e42514e4d8efc6511a62209b3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "51ffc5183c22443182d94e32f03a82f7",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To find out how your school can enroll students in our programs, press 2.",
+                            "fileID": "a9baabbb70a343d993e0ce738fdf79e6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our enrollment support staff.",
+                                        "fileID": "9951e11ef38a4f52a3be5597049c38b4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aeea677f762f45fe9f8b3bb1ccf861df",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ffb2790f971f45ffa4ecbc58d1c1b98a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To explore partnership opportunities and ways to support Code Nation, press 2.",
+                "fileID": "730b3ca5c29943b7ad5eabfe43f9d57b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss corporate partnership and sponsorship opportunities, press 1.",
+                            "fileID": "8756a23d87734fbe8bad56001d1188ff",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our partnerships team.",
+                                        "fileID": "917ef10beb874d38a2a46acceb40bc04"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3f3388414e9e4e438250f1f262c5ba66",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn about volunteer and mentoring opportunities, press 2.",
+                            "fileID": "009becdc58d3471b9b7b0cc299126896",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our volunteer coordinator.",
+                                        "fileID": "668d2004c82a482ba4e2e295c30f43ea"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e354d0b6c5b346aa9dc8b9fbe69f9fc5",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9d6caf77ba1643ffa7864000d0b15e65",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "10690ae0e26f4feaaff52575605f45d9",
+        "navigationGoals": null
+    },
+    "id": "c97d6380fc2149a08cbd9a0e254709ad",
+    "navigationGoals": null
+}

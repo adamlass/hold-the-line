@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to MasterClass, where you can learn from the world\u2019s greatest minds.",
+            "fileID": "f1c1beec2fca41c98b23d9201e49c385"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our classes and instructors, press 1.",
+                "fileID": "aaf88c0dbd744d089a357a6e5128535e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For featured classes and top instructors, press 1.",
+                            "fileID": "fb617eb830b84e96ba32130a071ef1b9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a course specialist.",
+                                        "fileID": "a7073f73a8e64c81be8b19a4646a8908"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "66a91105a69c4555beec54f1e54cfb8c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For course categories and subject areas, press 2.",
+                            "fileID": "195ff0d5924f45ae89b02d63f75ee577",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a subject expert.",
+                                        "fileID": "66f9d10546a346cc86ff7f9688be9140"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "41b406c8f7fd4f65807e886cb4dff9ab",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bb4b444bb9b84a1db3262a159f9c7251",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For membership, billing, or technical support, press 2.",
+                "fileID": "93c0085dbe2346beb031532e9cf7bfd7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing and membership inquiries, press 1.",
+                            "fileID": "602809f1a7054e208cf2d457159b1aa6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing and membership department.",
+                                        "fileID": "8f685ea2a61c43f981532b13a64b4e5b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8132891ce4be44709612ac4e6f7480d6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support and site assistance, press 2.",
+                            "fileID": "c848f3eec6614de6b4b397b847474a98",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "d99fd99985604f77b000f3be8ef61c5f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b10eec8c1642434aa886bd9f81bb48aa",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "20867e3f0d694ee2954cfa0eda8a63e0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8429b88400e945389e221963cf62ef91",
+        "navigationGoals": null
+    },
+    "id": "051088dd59a1447190ae8c6fc5ee286e",
+    "navigationGoals": null
+}

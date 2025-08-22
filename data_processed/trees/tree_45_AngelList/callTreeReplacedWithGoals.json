@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to AngelList, where the world meets startups.",
+            "fileID": "5d8b6f0325ae4ead85642e5fe3ff1578"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For venture fundraising and investor matchmaking, press '1'.",
+                "fileID": "3d124f532e47440e963b869f31b5ce13",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For raising capital and startup funding assistance, press '1'.",
+                            "fileID": "7d0e0fbe59824184ae8789c04d7fea29",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a fundraising specialist.",
+                                        "fileID": "9c70cf7cad0e43c2a549b1cb996f52eb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f93be193911d48ea8d2c4af2d7c0bce4",
+                                "navigationGoals": [
+                                    "Get matched with investors for my startup\u2019s next funding round",
+                                    "I need help raising seed funding for my veteran-led startup.",
+                                    "I need to connect with a venture capital specialist to optimize our cap table for a Series A funding round.",
+                                    "I need help finding investors to raise funds for my small venture.",
+                                    "I want to talk to a specialist about securing venture funding for my physics-based startup project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For learning how to invest in startups on our platform, press '2'.",
+                            "fileID": "cb4738f8a463485fabb2fcce6d50c0af",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with an investment consultant.",
+                                        "fileID": "742428715bb74a168b53d6fd3a6cd18a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "727c2af5780e4840932af148b25e144b",
+                                "navigationGoals": [
+                                    "Learn how to set up and fund my investor account on AngelList",
+                                    "I want to learn how to invest my savings in early-stage startups on AngelList.",
+                                    "I want to discuss the mechanics of equity crowdfunding with an investment consultant on your platform.",
+                                    "I\u2019d like guidance on investing some retirement savings into startups.",
+                                    "I\u2019d like guidance on how to invest a small amount in early-stage startups through this platform."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d9bf3220325f41f088c953372fe4f1ad",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For talent acquisition and recruiting solutions, press '2'.",
+                "fileID": "e173356267a94e0d83142d9c1671aa97",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For employer services and posting job opportunities, press '1'.",
+                            "fileID": "1059bfc62c4c414baf553d6702ea60ce",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our recruiting team.",
+                                        "fileID": "d83f458b3f514ba782900da8abc60676"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5cf886f0e354493d95c9121f6ce1b966",
+                                "navigationGoals": [
+                                    "Post a job opening and streamline recruiting candidates for my team",
+                                    "I\u2019d like to post job openings to recruit tech talent for my business.",
+                                    "Connect me with your talent acquisition team to post our developer openings and set up an ATS integration.",
+                                    "I need assistance posting a job opening for my small business.",
+                                    "I need to post a job listing to recruit a research assistant for my experimental physics team."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For job seeker support and career opportunities, press '2'.",
+                            "fileID": "b078f9d75c674bb99d9f4ead77ee87cd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a career advisor.",
+                                        "fileID": "5ded9335782b490cb43da25636b2053c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e13be808712e44bfaac05c72b90f4755",
+                                "navigationGoals": [
+                                    "Receive personalized career advice and startup job leads",
+                                    "I\u2019m looking for startup job opportunities that suit my military background.",
+                                    "I'd like to speak with a career advisor about matching with technical roles and fine-tuning my resume for startups.",
+                                    "I\u2019m seeking career advice to find a suitable new position.",
+                                    "I\u2019m seeking advice on career opportunities and internships in tech startups as a physics student."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ae72cb92c421457c98e797b0a24677fc",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d1e239e2b2594e1ebe6c81020251c29b",
+        "navigationGoals": null
+    },
+    "id": "36bd5dc11d2a43b396b8ba073b0383b7",
+    "navigationGoals": null
+}

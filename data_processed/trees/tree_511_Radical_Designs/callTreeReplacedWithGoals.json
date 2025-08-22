@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Radical Designs in the East Bay, your web development cooperative empowering non-profit and grassroots social change organizations.",
+            "fileID": "ec15b0967f4f41a3833f6dd3904eb2cf"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To inquire about new projects and proposals, press 1.",
+                "fileID": "4f3e1533a88248d6bd129e76f240ce1c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For an overview of our custom web development services, press 1.",
+                            "fileID": "5f28e186cb26437e8b304875803f9ae9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our service coordinator.",
+                                        "fileID": "748370a4737f41e8967fa7e85234d562"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "33c8911255684adcb678f130ea7338b5",
+                                "navigationGoals": [
+                                    "Discuss a proposal and get cost and timeline for a new nonprofit website build",
+                                    "I\u2019m looking to commission a new website for my veteran support nonprofit and need information on how to start a proposal.",
+                                    "I\u2019d like an overview of your custom web dev stack and a proposal outline for a new project integrating React and Node services.",
+                                    "I\u2019d like information on starting a new website project for my local senior center.",
+                                    "I'd like to discuss a proposal for a new website for our student-led physics outreach program."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss an existing project or request support, press 2.",
+                            "fileID": "b5ba1a8826d94016ab35a4add75e8bc0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with your project manager.",
+                                        "fileID": "1c22197f451e42619ffb0fa1540b5004"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0b584e37befa478bafa8377d0bc7f494",
+                                "navigationGoals": [
+                                    "Get technical support to update content on our current site",
+                                    "I need technical assistance on the website Radical Designs built for my veteran outreach program\u2014some features aren\u2019t working.",
+                                    "I need support on my current site\u2019s REST API endpoints\u2014they\u2019re returning 500 errors after the latest deployment.",
+                                    "I need assistance with updates on our existing website\u2014I\u2019m having trouble editing the event calendar.",
+                                    "I need support updating content on our existing physics club website."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0364cff902d94ee1a052af6aa00c99e4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For cooperative membership, partnerships, and general administration, press 2.",
+                "fileID": "ddcc7a12741141a892a1a57204d2e106",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about joining our co-operative or collaborating on social change initiatives, press 1.",
+                            "fileID": "05fb098ec2bf43549c4d86943514602e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our community outreach team.",
+                                        "fileID": "772320df957e4c8195968a9e0c88ff8b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5c0891c1ad49415790b97df6134fdda1",
+                                "navigationGoals": [
+                                    "Find out how to join the co-operative or partner on social change projects",
+                                    "I want to join Radical Designs as a veteran-led partner in your cooperative to collaborate on social change projects.",
+                                    "I\u2019m exploring membership\u2014interested in joining your co-op as a collaborator on open-source CMS integrations.",
+                                    "I want to learn how my nonprofit can join your cooperative and collaborate on projects.",
+                                    "I'm interested in joining the cooperative to partner on social change web projects through my university physics society."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, invoices, or accounting questions, press 2.",
+                            "fileID": "8acec3a217484170ab17677ecdd19803",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our finance department.",
+                                        "fileID": "b240cc64b89844f9a4589f0b6fc6019d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1e525745126d4b1894b7d033b4731d28",
+                                "navigationGoals": [
+                                    "Clarify a discrepancy on our latest invoice and update billing details",
+                                    "I have a question about an invoice for the website you developed for my veteran assistance organization.",
+                                    "I need the invoice details for last month\u2019s development work and to set up automated ACH billing.",
+                                    "I\u2019m calling about my invoice; I need help understanding the charges for our website maintenance.",
+                                    "I have a question about the invoice for our physics outreach website project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3c6b32e83dca421ba43dac5bd8296cde",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "dd14d2de8e0244a9a96137a1dde48992",
+        "navigationGoals": null
+    },
+    "id": "8840ee1f0c4e4126ae292fc6fdcffc23",
+    "navigationGoals": null
+}

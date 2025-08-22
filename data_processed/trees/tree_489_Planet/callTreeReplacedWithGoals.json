@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Planet in San Francisco, delivering daily satellite imagery insights for better decision-making worldwide.",
+            "fileID": "b9c1b93d59b44bd9b21935154a225fe3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and pricing inquiries, press 1.",
+                "fileID": "d6b772bfed7e4d18879223a8693e209f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a custom quote or learn about our subscription plans, press 1.",
+                            "fileID": "69eb543383fe47bc8bda73175eddbb02",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for your custom quote.",
+                                        "fileID": "ed6820ea30b54024ab07a4b39e2f57c2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "29ac78ebba95456da08fe0c319772630",
+                                "navigationGoals": [
+                                    "Get a tailored subscription quote for Planet\u2019s satellite imagery service.",
+                                    "I need a custom pricing quote for a monthly subscription to Planet\u2019s satellite imagery for my defense research project.",
+                                    "Request a custom pricing proposal for a monthly PlanetScope subscription with 3 m resolution and NDVI analytics add-on",
+                                    "I need someone to explain the different subscription plans and provide me with a custom quote.",
+                                    "I need a custom quote for a subscription plan to access daily satellite imagery for my research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss enterprise solutions and volume licensing options, press 2.",
+                            "fileID": "267452b9dae049afaac00750ec5850ed",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with an enterprise solutions specialist.",
+                                        "fileID": "3439c4e1144b4040bfc6ebbade3f206d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a09ed02857b9407dad70765f4eb02e6b",
+                                "navigationGoals": [
+                                    "Discuss enterprise volume licensing options for large-scale imagery access.",
+                                    "I'd like to discuss enterprise volume licensing options for large-scale imagery use in my organization's surveillance systems.",
+                                    "Explore enterprise volume-licensing options for delivering 1,000 daily satellite images across multiple global projects",
+                                    "I\u2019d like information on enterprise licensing options for a larger volume purchase.",
+                                    "I want to discuss enterprise licensing and volume discounts for a university research department."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0716383e987845d79f40036364d733a5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and data access assistance, press 2.",
+                "fileID": "b72659e9aedf4ecda4c2e275ec71a94d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with the Planet imagery API, press 1.",
+                            "fileID": "15dc2daddcd549bf9af497a121f549f2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our technical support team for API assistance.",
+                                        "fileID": "9bc89cc1e5f747b99ec4ca43c8b4989b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "098ba3dabc0f4345aea28995a1ff2dda",
+                                "navigationGoals": [
+                                    "Troubleshoot and resolve an issue with the Planet imagery API.",
+                                    "I\u2019m having trouble authenticating requests to the Planet imagery API and need help accessing data.",
+                                    "Troubleshoot OAuth authentication failures when querying the Planet Data API for NDVI mosaics",
+                                    "I\u2019m not very tech-savvy and need help using the API to download satellite images.",
+                                    "I need technical support troubleshooting the Planet imagery API to fetch satellite data programmatically."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For integration support and onboarding guidance, press 2.",
+                            "fileID": "fedc88443ef0466eb0b3b82e271ae6ca",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our onboarding specialists for integration support.",
+                                        "fileID": "2f9a1035d71a4d2588fb32e1d3423c9c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2fd5f35922d949629e98a1784b4753ef",
+                                "navigationGoals": [
+                                    "Obtain integration onboarding support for Planet imagery in our systems.",
+                                    "I need onboarding guidance to integrate Planet\u2019s imagery into our GIS platform for mission planning.",
+                                    "Get assistance integrating the Planet API into our AWS data pipeline and configuring webhook callbacks",
+                                    "I need step-by-step guidance to integrate the imagery service into my system.",
+                                    "I need onboarding guidance on integrating Planet imagery into my data analysis workflow."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "27dcd20acfe74f509388290ffe7d861f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4cdf2d02fec9424b914cd136c259a554",
+        "navigationGoals": null
+    },
+    "id": "8d809051dbe147d19321954b5eccd254",
+    "navigationGoals": null
+}

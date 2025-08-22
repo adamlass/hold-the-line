@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Hustle in San Francisco, where we help drive action through peer-to-peer texting.",
+            "fileID": "c92170be38814277ac295088f00619c9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "816cab5b28c846d58271c1fdd25c6702",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo of our texting platform, press 1.",
+                            "fileID": "6c6bd2c22a704d5194a80b4574ee16b6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line while we connect you to our demo scheduling team.",
+                                        "fileID": "9e8fed493d114360a4355645a03260d4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cd9006a6656743febccc8ed57661ca04",
+                                "navigationGoals": [
+                                    "I need to schedule a personalized demo of your peer-to-peer texting platform.",
+                                    "Schedule a personalized demo of the platform to plan a veteran outreach texting campaign.",
+                                    "Schedule a technical demo of the peer-to-peer texting platform to review API integration and feature set.",
+                                    "I need to set up a personal demo so someone can walk me through the texting platform.",
+                                    "Schedule a demo to see how Hustle can help recruit research participants via peer-to-peer texting."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To talk to a sales representative about pricing and plans, press 2.",
+                            "fileID": "c2fd996fcac443b486cea0b77d24fa2a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold and we\u2019ll connect you to a sales representative.",
+                                        "fileID": "b855b02bdc594ad681db6fec4bf6d4c0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "97e09e1c5d05497b98c71ded31120fed",
+                                "navigationGoals": [
+                                    "I want to speak with someone about your pricing tiers and plan options.",
+                                    "Talk to a sales representative about pricing and plans suitable for a veteran support initiative.",
+                                    "Discuss pricing tiers and plan details for the texting service to calculate cost per message and scalability.",
+                                    "I want to talk to someone about pricing and subscription plans.",
+                                    "Discuss pricing plans and student discounts for using the texting platform in my research project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e88e89ebd1f043778d1d24c6edbc405a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, press 2.",
+                "fileID": "bdc1f3a458c3479895d52a44a9a8bc52",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "92babad5bd6d46dbb9c6bab9cf28eca3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our technical support team.",
+                                        "fileID": "a7a96742d5924fc382544561baa5403d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8ea33b9d75714767a03e05d8b1c3bf26",
+                                "navigationGoals": [
+                                    "I\u2019m having an error sending messages and need help troubleshooting the platform.",
+                                    "Get technical assistance troubleshooting issues sending group texts through the platform.",
+                                    "Troubleshoot API webhook failures in my peer-to-peer texting integration and get technical support.",
+                                    "I\u2019m having trouble with the platform and need technical troubleshooting help.",
+                                    "Troubleshoot an authentication error when integrating Hustle\u2019s API with my survey script."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "e42a41cddcf6426483d8bd40368ac6c3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "d68f71ca855d4b13885d21c2d9d81915"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3f02d19010384f5bb4ee847e8c62aae9",
+                                "navigationGoals": [
+                                    "I\u2019d like to review my latest invoice and clarify a charge on my account.",
+                                    "Inquire about recent billing charges on my account.",
+                                    "Clarify unexpected billing charges and review usage metrics on my account invoice.",
+                                    "I have questions about my bill and need help with my account charges.",
+                                    "Clarify my upcoming invoice date and update my billing information."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7e331ec41c1845c9a98aaad208dab9d2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "fc3a6f7d99154154a395c412dc3ab6bd",
+        "navigationGoals": null
+    },
+    "id": "74daa0b53fcd4aa89767b2238fffd4ef",
+    "navigationGoals": null
+}

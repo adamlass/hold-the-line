@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Teespring, your San Francisco-based custom merchandise platform.",
+            "fileID": "9d9453b8d1994fdcac21efbd4d8939b7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with an existing order, press 1.",
+                "fileID": "c25b73db066147b78d3ca541f3a3775f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For order status and tracking, press 1.",
+                            "fileID": "60c322c08b414f0692d35b04c1afc3b5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an order specialist.",
+                                        "fileID": "9981df0abfd0477780190d63b01500f2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1e4c3ad739494d4ea2fa8d9b7a242f59",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For returns and exchanges, press 2.",
+                            "fileID": "e92414a2f9d94578a7bcc5546042fea1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our returns department.",
+                                        "fileID": "f0b98828e1454d7097119ccedea82a68"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "af97eb8b4c5246f9bc0fe5fcf09c6348",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5000da7c491a418684f35442cb4726ef",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For campaign creation and billing support, press 2.",
+                "fileID": "6892129c55db41538a8bad5ad8099f71",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To create or manage your campaign, press 1.",
+                            "fileID": "452467e60ac74a528b0eaf3eb4bdb5d0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a campaign specialist.",
+                                        "fileID": "68a0051a4b5644648970d22bfc0f1a78"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ed91de85886d4f1fad8756a3533267c0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and payment inquiries, press 2.",
+                            "fileID": "09f43d7244c2455a90852e89f3cd7e34",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "098c30964dc94bcb9df0f5d4ae029cbb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d1f3f7ee85614923acd95505b7cbae55",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9a907e0b9c484bac975342b1d55af0b2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b6293f4c3dce483b964654a27142d8bb",
+        "navigationGoals": null
+    },
+    "id": "bce0390207b2435ba934b49b1c18177c",
+    "navigationGoals": null
+}

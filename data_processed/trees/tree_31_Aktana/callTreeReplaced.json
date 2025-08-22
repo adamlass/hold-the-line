@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Aktana in San Francisco, where our AI empowers life science sales and marketing teams to support physicians.",
+            "fileID": "b7264416f9e942618337cb852fe67a86"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To reach our Sales Support team, press 1.",
+                "fileID": "0f8ade37e40145da96244e05d9538571",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for a product demonstration and AI solution overview.",
+                            "fileID": "fdb13d36f0fc4d0db72306a3cf811639",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Sales specialist for your product demonstration.",
+                                        "fileID": "4b32a74949d248128486c10364b16833"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "11f4362e21de46cd84da6ff165d7f857",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for technical assistance with the Aktana platform.",
+                            "fileID": "c89cd700c8c74416a239e65a24e22726",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support for the Aktana platform.",
+                                        "fileID": "c51838e6608c4946b61c5c5608e41f00"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "decc8aedafde47ffa3729570192974f3",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8bbde06b2be44c2d904adcf32e2a6c97",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To reach our Marketing Support team, press 2.",
+                "fileID": "47a75f5658984e12a6af672167ce4514",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for campaign planning and analytical insights.",
+                            "fileID": "3c1fa26ac7b0443390ac723c6b9dda9b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our marketing analytics team.",
+                                        "fileID": "e5d842a54c7e4b0fa8e49548d0a05743"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "986521c9a44d49ab912b1419ab43904a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for training resources and onboarding support.",
+                            "fileID": "fdaed56cd007445a892335a3c3da0607",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our training and onboarding team.",
+                                        "fileID": "f1f0092de82947a4a7eec1855b181bee"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9db395d87dc149319cba708655fdbac8",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "04964a18b10543ff9311c4ade3fa6d7f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "51fa66ac446d497494ca3162107f91f3",
+        "navigationGoals": null
+    },
+    "id": "5e3fb0b600ca477eb28cf76426f66bc1",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Namely in San Francisco, where we empower HR teams to transform company culture through data-driven decisions.",
+            "fileID": "98ff4c7eb05f4fa3bc9a249e5561a3ed"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our HR software solutions, press 1.",
+                "fileID": "a76f81e709c145d89ed38adeb8a69c6d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized product demo, press 1.",
+                            "fileID": "9e3b6c6d50b84b8aad117d206f8e2d4a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo scheduling team.",
+                                        "fileID": "77399d0e9ab94ff5b428166a72eea669"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e8b4b6a74f9441f1b541e0549e11a051",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing details and benefits package options, press 2.",
+                            "fileID": "379bab3ebf73413a80d2b5695845e330",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our pricing specialists.",
+                                        "fileID": "c121fbba84c3445884b583c0fa844baa"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e0e314fdedb5408daabb8b691de0580f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d93e9d3849dc4a0ab73aa478cf1859e0",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and account services, press 2.",
+                "fileID": "24e63174e8ac4596ac30353fde062c3a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "c4abd6c33ef248c0b823032288c8c177",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we route your call to technical support.",
+                                        "fileID": "c7039f874a33443f994a6b37af3bfceb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a9757603157f42a7a100b8b39b638cf4",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing, invoices, and subscription management, press 2.",
+                            "fileID": "3142441a1578434bb70b54f3a2d77e9e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "7fce2784dbdc4a289972af077911b043"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64b9586c6773413885fe7a4789c58ec2",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "32fcef5562af4d5ba61f76db27fb2b0e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4270c603f7aa4666964dad228fe9808e",
+        "navigationGoals": null
+    },
+    "id": "fb1dd0b8f5d345ee941b69924fd76c04",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Rithm School in San Francisco, where our mission is to help you become an exceptional developer.",
+            "fileID": "5391eb5d1c4e4599bb08a093c7193236"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our admissions team and learn about enrollment, press 1.",
+                "fileID": "4c7e93e5fc4e4adbab9421e0becc3a51",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For details on the application process and prerequisites, press 1.",
+                            "fileID": "e8344d51a9234e15bb2edccace4b7f11",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All of our enrollment advisors are currently assisting other callers. Please hold and we will connect you shortly.",
+                                        "fileID": "17e88f322e914c3faaa9bfb0640eb837"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b8e49d0bc2a547caad6c4fe291ed60ad",
+                                "navigationGoals": [
+                                    "I need to speak with admissions to clarify the application prerequisites.",
+                                    "I want to speak with admissions to discuss applying and how my military experience meets the prerequisite requirements",
+                                    "Clarify the technical prerequisites and step-by-step application timeline for the full-stack program",
+                                    "I need help understanding the application requirements and prerequisites for enrollment.",
+                                    "I\u2019d like to speak with admissions to clarify course prerequisites and start my application"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For information on tuition, scholarships, and financing options, press 2.",
+                            "fileID": "c358607a81f6455184312feccfa54d25",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our financial aid specialists are busy at the moment. Please stay on the line and we will be with you soon.",
+                                        "fileID": "afeed341640d4aa1a9fdf25b412641cd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "171d3b6755864be89c2f230a69a21159",
+                                "navigationGoals": [
+                                    "I want details on tuition fees, scholarships, and payment plans.",
+                                    "I need information on tuition, veteran scholarships, GI Bill benefits, and financing options",
+                                    "Get a detailed breakdown of tuition fees, available scholarships, and financing plans",
+                                    "I need details on tuition fees and possible scholarships or financing options.",
+                                    "I need details on tuition costs and scholarship opportunities"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2494989d3af0484eb6da5b6b2a32814b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For assistance with current student services, press 2.",
+                "fileID": "8050259bb4b04c5dab912a704e6335fc",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To inquire about class schedules and curriculum updates, press 1.",
+                            "fileID": "e23add6ffbd74054b8dfab379af2a875",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our student support team.",
+                                        "fileID": "80dd54a6e5eb46efaf033e2cfbd5490d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "637b0433fedb4c7c9ca3f561bbcb15f8",
+                                "navigationGoals": [
+                                    "I need to get the upcoming class schedule and curriculum updates as a current student.",
+                                    "I\u2019d like to get the latest class schedules and curriculum updates and ask about veteran accommodations",
+                                    "Retrieve the upcoming cohort\u2019s class schedule and any recent curriculum revisions",
+                                    "I want to review the upcoming class schedules and any curriculum updates.",
+                                    "I want to check my class schedule and any recent curriculum updates"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For career services and job placement support, press 2.",
+                            "fileID": "d2813642068e46adbbf7354e123c1e82",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience. Connecting you to our career services advisor now.",
+                                        "fileID": "797caf16d8f8494aa2f1bb1bca314c95"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1fdf66b8799f44fcba18cf8d4d1a0172",
+                                "navigationGoals": [
+                                    "I want to connect with career services to discuss job placement opportunities.",
+                                    "I\u2019m looking to connect with a career services advisor for job placement support tailored to veterans",
+                                    "Connect with a career services advisor to discuss job placement statistics and recruiting partnerships",
+                                    "I\u2019m looking for information on career services and job placement assistance after graduation.",
+                                    "I\u2019m seeking career support and job placement advice"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d70e96178dc341c5b25eae7f66686d57",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "20ea066f63484ab59176ffc8b15ad9f1",
+        "navigationGoals": null
+    },
+    "id": "be7c644afe0d47a68b16f467682dd657",
+    "navigationGoals": null
+}

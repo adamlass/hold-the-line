@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Tradecraft in San Francisco, where we train smart people to succeed in traction roles at high-growth startups.",
+            "fileID": "add59f89442b4441963a04c47233a630"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For prospective students and program information, press 1.",
+                "fileID": "236b2446ef8843a5aded7614b72093a4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our curriculum and courses, press 1.",
+                            "fileID": "3fcbada552a248cf8a3e6dcf00850c5d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our curriculum specialist.",
+                                        "fileID": "496fb47548da4cda871c0f1e112b20a6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6ed47b98f6574bc5a2384c6bbabe8d53",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with an admissions advisor, press 2.",
+                            "fileID": "8a4516100d6644ab81903da5de3599c1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an admissions advisor.",
+                                        "fileID": "3bc0d0b4dc5c43ea9eba3331cd07d878"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8df8c8549fad44fe975bb9bd27b924f2",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4effb9b1ebc54ceebc425b2c4f60d999",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For current students and alumni services, press 2.",
+                "fileID": "75e1b3e470bf49899b1910751c977bb8",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For course schedules and student support, press 1.",
+                            "fileID": "f8b693839e35452da21ac3b6baa318cf",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the student support team.",
+                                        "fileID": "42e7dbb548d54bbf920843504585844f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "59bcdc6740b346a3a0ce24c854246e30",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For alumni networking and mentorship programs, press 2.",
+                            "fileID": "70cd329ee2f2457f806ca093df448c49",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the alumni relations coordinator.",
+                                        "fileID": "b18a86eeafcd48ee9efc4173ad1fe8c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f9c22afddfc24c7cb521c2b8317ac388",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f37b1e3aaa104e58865ea52be9ec737f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "14215e5dcad64667accf21319aa5c947",
+        "navigationGoals": null
+    },
+    "id": "d8847c890edc4ef69d74ce34b423ac3b",
+    "navigationGoals": null
+}

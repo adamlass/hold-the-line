@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Leanplum in San Francisco, helping mobile marketers drive stronger customer relationships.",
+            "fileID": "a27d606243d34ef3b035b15e6f89655d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for Sales and Product Information.",
+                "fileID": "526a558aa8e64c11a8da77bc8ddcd0a8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with our Sales Team.",
+                            "fileID": "5a53d343ca87457e9c9a01fbd43c169b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "d43c36eab9ad48c98a28a879bc2efa98"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "28082386593e4648bb56862504a22a03",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 to learn about our Mobile Marketing Platform.",
+                            "fileID": "c47afa15b770457bb11d66a03a8b9090",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product specialist.",
+                                        "fileID": "954fffd042be4451bf5868fa2fc0793f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c6177bbf19774bae9e060cefc7e1600a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3a551a631dfe4f79853c09c95f96ca0e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for Customer Support and Account Services.",
+                "fileID": "42186b2afa9f4b919f5de0afbb823c92",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for Technical Support.",
+                            "fileID": "d2ce3263bc12414f90668a4cf3efbf98",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "d640b84654dc4fa6a3c85c35dc5bdda3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3d76f43722824ca7ad2f6d90cfe37527",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for Account and Billing Inquiries.",
+                            "fileID": "711e31c982c641fa9bede08b8a4810a7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing team.",
+                                        "fileID": "6e46f41a33624e788f5ac7c7f01d9e04"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f11e219c67ef4ff2be98ae91e1169f68",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bda4c260c2d646dab8831ab4ddeffd29",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ef760708472243e284b9a9c14a98bd0d",
+        "navigationGoals": null
+    },
+    "id": "8bbd820a6e404ea1ae4af95e9b57ed19",
+    "navigationGoals": null
+}

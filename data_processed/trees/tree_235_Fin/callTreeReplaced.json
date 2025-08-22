@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Fin in San Francisco, where we help you reclaim your time and focus on what matters most.",
+            "fileID": "1d1a3139430f412fbbe895a0c5e9f644"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For support with your Fin tools, press 1.",
+                "fileID": "354fb143809e4bc6b86cb93d06a3589b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For assistance with setup and integration, press 1.",
+                            "fileID": "8ee601ed7dc44db89c6177bdd2f7f0ff",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Fin specialist for setup and integration.",
+                                        "fileID": "b23bbbc65e59474d9c3d0367785e4589"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "62c6a0496c614b6cb17934fea6c74f10",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For troubleshooting and bug reports, press 2.",
+                            "fileID": "b5f7ceb939944e4f97bd26f974afdc56",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Fin support engineer for troubleshooting and bug reporting.",
+                                        "fileID": "c5942860350140ceb1fdcdcc2d6ccd09"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ebdc1e4ba5dd43fca48357cdff6336a9",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d665f6de3e854bdb86464f97001e627c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To learn about our productivity solutions, press 2.",
+                "fileID": "7ffc927358734a2da6269035aec14cf3",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a walkthrough of key features, press 1.",
+                            "fileID": "1525d0e5df0c4895831a573364fba6a1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our Fin product team for a feature overview.",
+                                        "fileID": "87a3074444a34575babec9c0cc8f997e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ceabb63f2f9f4c67bd04093ee2c10bce",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To discuss enterprise pricing and plans, press 2.",
+                            "fileID": "1360c38c36ba4cb0b8c166fe11eb75b3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our Fin sales team for pricing and plan details.",
+                                        "fileID": "778b6719bcdf470a97cb4ef5bda5fedf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f79fa77f0a294f1bbb3cd15baa6560f9",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "32daf93ffff4417ea5bd5680a7ca8352",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "421a27d8b14642d2acb946e2c8247ef6",
+        "navigationGoals": null
+    },
+    "id": "a355f9b74a7b43e786ecfe7dd23d4bf9",
+    "navigationGoals": null
+}

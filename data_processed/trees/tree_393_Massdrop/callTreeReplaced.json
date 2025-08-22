@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Massdrop in San Francisco, where members collaborate to shape, learn about, and shop exclusive products.",
+            "fileID": "af2bf9866e604d97ad68a1f66a7c4147"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For product drops and ordering, press 1.",
+                "fileID": "ba2ac72c36d04884a08963706041c826",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To browse our current member-driven product drops, press 1.",
+                            "fileID": "e5ea71ec49d84ff8860ac23f0c5655a1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our product drops team.",
+                                        "fileID": "35ba4f1f504e4aa2a09db3dbea632ee5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5db38199d7d847168e538ea0591e8c51",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To place an order or track a current purchase, press 2.",
+                            "fileID": "4cfe8c743e0c4fa098019a2c0314b14b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order management team.",
+                                        "fileID": "0586b215a8ab41dfa66c7b908aca6622"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "302b1781a6fe4105b0a0e99f24eb17d2",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "534f8e9e876e44029af1266477244f16",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For community forums and account support, press 2.",
+                "fileID": "97a06202807a401d8ec5d070507dc9c1",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To connect with fellow members in our community forums, press 1.",
+                            "fileID": "a39b1b6232f84d0dbdb4119c7594d460",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our community team.",
+                                        "fileID": "bec0bacca4054f11a7693375c4ec3710"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9e6b6c5bf9724eeeae9cc6e774564e94",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account or technical support, press 2.",
+                            "fileID": "08a25e18edeb4d8b9fc3e58e576d951e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support team.",
+                                        "fileID": "a1187ea759a049c1b7a43715cd368499"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8f0fee7d422447458e4b5c2a86811a39",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7635ae0eb90d4ccda49e76a00eea37c1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3f381725cafa4b518345e9fd071f3970",
+        "navigationGoals": null
+    },
+    "id": "d2c250ec291b450a88671a78fc04845e",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to HackerOne in San Francisco, trusted by Fortune 500 and Forbes Global 1000 companies to secure their critical applications.",
+            "fileID": "16feae479c9f405f8884fa012c6f1569"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an existing customer seeking security support, press 1.",
+                "fileID": "f83fe63326e04d64b7a511410232c7f4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with an ongoing vulnerability report, press 1.",
+                            "fileID": "61d0c5ba5eed48febcaec7c308083df8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to one of our security specialists.",
+                                        "fileID": "20d1d446e11042ae89667e9582a8a989"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d7d18fd1fd2b4a5cbd5fcfcf73bcfb73",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing, invoices, and account questions, press 2.",
+                            "fileID": "ccf00aa3f85d4ed9bad03e74371bc0d9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and account team.",
+                                        "fileID": "3b5d9eede7dd4098bb27ab1fa29cc47c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9ab707abd6ab4e708cde879b7f2cb7cf",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c4675f812e5647e7af1bb9864462271e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you would like to learn about our platform or start a vulnerability disclosure or bug bounty program, press 2.",
+                "fileID": "56fdd19a5f2c4d88997967dfe5bad4a1",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a live demo of the HackerOne platform, press 1.",
+                            "fileID": "5e7401cbc3c945be957977fc5a6f7a57",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our sales team for a demo.",
+                                        "fileID": "1332acd8dc274165a8359ef7ce016fcb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "38311c239d364b8187908295d63ca7ae",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn more about our bug bounty and vulnerability disclosure solutions, press 2.",
+                            "fileID": "b9b1dbe88e5d423c92125104f3aa31e8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a solutions engineer.",
+                                        "fileID": "b90e0ca04f7046578349fe426ec6a5bf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fa58c8a794c146ef90d4c5b4ac8ac179",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fedd0700ef6b422bba0e9bb1537384fa",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b03c4e1823e14c119c8700651aede410",
+        "navigationGoals": null
+    },
+    "id": "df1e350d2251411da00ea25d889aae5d",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Jumpshot, delivering digital intelligence from within the Internet\u2019s most valuable walled gardens.",
+            "fileID": "879c8b36ff684a6480b657cc59d70399"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new business inquiries, press 1.",
+                "fileID": "85c0e5c3f955432eb747988a4043966e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product demonstrations and feature overviews, press 1.",
+                            "fileID": "87b41760526940418ff9ff6f79d621c2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line and we\u2019ll connect you with a sales engineer shortly.",
+                                        "fileID": "e649bd4223f84597bbb0fd24b4275c55"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "013b594d31ca45f98f47b4ad8e46a571",
+                                "navigationGoals": [
+                                    "Connect with a sales engineer for a rapid product demo.",
+                                    "As a veteran entrepreneur exploring analytics, I want a live demo of Jumpshot\u2019s digital intelligence features.",
+                                    "I\u2019d like to schedule a detailed product demo focusing on your API data ingestion and analytics tool.",
+                                    "I\u2019d like someone to walk me through a live demonstration of your product features, please.",
+                                    "I\u2019d like a walkthrough of the platform\u2019s key features relevant to my research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, licensing, and package options, press 2.",
+                            "fileID": "88c2441f55fd4bd5b42d5ee91c6fbcf8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we transfer you to our pricing specialists.",
+                                        "fileID": "19e4ff5e4f1a47fa8a2ab9982be98772"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0cba0cb621604f819034b32481f06d4e",
+                                "navigationGoals": [
+                                    "Get detailed pricing and licensing information for our planned purchase.",
+                                    "I need detailed pricing and licensing info for small-scale use supporting veteran programs.",
+                                    "I need information on your enterprise licensing tiers, pricing models, and volume discount options.",
+                                    "Could you explain your pricing plans and how much it would cost for my small organization?",
+                                    "I\u2019d like details on academic pricing and licensing options for student use."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d669043379554305a2f265b247b8ea1a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "941f69f7515f4595b577380472faf008",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For implementation and onboarding support, press 1.",
+                            "fileID": "205e218037c4492bbf65493cf5aa75c4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line; we are connecting you to our onboarding support team.",
+                                        "fileID": "72decdcc029e48d98a82bdce4b36a81d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0f52c0932494469488e1f8b9df00dfa4",
+                                "navigationGoals": [
+                                    "Arrange immediate onboarding assistance to set up the platform.",
+                                    "I need assistance onboarding and integrating Jumpshot\u2019s platform with my veteran outreach initiatives.",
+                                    "I need onboarding support to integrate your API into our data pipeline with secure authentication.",
+                                    "I need help setting up my new account and getting started with your service.",
+                                    "I need help configuring the platform for my university lab\u2019s onboarding."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For troubleshooting and technical issues, press 2.",
+                            "fileID": "140b2f620d8b4627bd2cc0e77026e0b8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we transfer you to a technical support representative.",
+                                        "fileID": "deb81b0ddd9d44b188e43e56d61f76a6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ca566d07ba984000bfd8fdfd660a7003",
+                                "navigationGoals": [
+                                    "Resolve a technical issue by speaking with a support representative.",
+                                    "I\u2019m unable to access my Jumpshot dashboard; please help me troubleshoot the login issue.",
+                                    "I\u2019m experiencing 502 errors when calling your API endpoints and need technical troubleshooting.",
+                                    "I\u2019m having trouble logging in and need technical assistance to fix the error I\u2019m seeing.",
+                                    "I\u2019m facing an API integration error and need technical support."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "847fc4fd9d8549f6a29817cbbeeb0f1c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "529d049ddfbb40a694a4cfafc3c0a33b",
+        "navigationGoals": null
+    },
+    "id": "58be422de61048b39ec0e5b22e3f34ff",
+    "navigationGoals": null
+}

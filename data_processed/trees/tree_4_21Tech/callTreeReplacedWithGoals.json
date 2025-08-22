@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to 21Tech, the East Bay leader in Infor EAM enterprise asset management.",
+            "fileID": "d682261ece234d9c98a0e40301d73d87"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new project inquiries, press 1.",
+                "fileID": "f4c74817f32546ec91e640944115d8d4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a public sector asset management consultation, press 1.",
+                            "fileID": "d956feffdb2f483bb173b8a3f56bc449",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our public sector consultation team.",
+                                        "fileID": "908104a1c1804286a08268439eda1680"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "69089c25394f436aa718f626feae9d96",
+                                "navigationGoals": [
+                                    "I need to schedule a public-sector asset management consultation.",
+                                    "Schedule a public\u2010sector asset management consultation for our municipal infrastructure project.",
+                                    "Schedule a public sector Infor EAM implementation scoping session",
+                                    "I need to schedule a public sector asset management consultation for our community center.",
+                                    "I\u2019d like to schedule a public\u2010sector consultation to optimize tracking of our university lab equipment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about financial system integration, press 2.",
+                            "fileID": "721bd7050046453cac723b9b16d90573",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our financial integration specialists.",
+                                        "fileID": "4b029a5c7ec24284baa76d0754c1a843"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0ae8973f66184375a0b29e1c722ae29c",
+                                "navigationGoals": [
+                                    "I want to discuss integrating our financial systems with your EAM platform.",
+                                    "Get details on integrating our Infor EAM system with our financial software for a veteran support program.",
+                                    "Discuss API-based financial module integration for Infor EAM",
+                                    "I\u2019d like some information on integrating our asset system with our accounting software.",
+                                    "I want to learn how to integrate our department\u2019s financial system with Infor EAM."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "56c1ba15dcbb41219728fd3f618d9a1d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and system maintenance, press 2.",
+                "fileID": "c1057af8802945698e39d349f79d4268",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For ongoing maintenance and system updates, press 1.",
+                            "fileID": "800cbdbb57b64ad08876a02d5d2ec461",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our maintenance and updates team.",
+                                        "fileID": "5f2dd3a723be4dcfb10ef0976d825a08"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "748208e3456040cba11c3fe193dd0c50",
+                                "navigationGoals": [
+                                    "Please help me arrange ongoing system maintenance and updates.",
+                                    "Arrange routine maintenance and software updates for our enterprise asset management platform.",
+                                    "Set up patch management and system update schedule for our EAM instance",
+                                    "I want to arrange the next system update and maintenance check for our installation.",
+                                    "I need to arrange ongoing maintenance and software updates for our lab\u2019s asset management platform."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For troubleshooting and support tickets, press 2.",
+                            "fileID": "463cab264f934d2fbaf33cc100d2631f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our support and troubleshooting desk.",
+                                        "fileID": "bb894e36d1ea46a0b90e5f1030ce2326"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "921c327d8ba04e86bdc9687f55204e3d",
+                                "navigationGoals": [
+                                    "I need to open a support ticket to troubleshoot an issue.",
+                                    "Report a software issue and open a troubleshooting ticket for our asset management system.",
+                                    "Submit a high-priority support ticket for Infor EAM system errors",
+                                    "I\u2019m having an error and need help opening a support ticket.",
+                                    "I\u2019m seeking assistance to troubleshoot an error and open a support ticket for our asset management system."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "255159dfe13c4b428c245f5d2a334056",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4dc4b25aa90c4bd383ae3705d0197fdc",
+        "navigationGoals": null
+    },
+    "id": "df7d7d11dfb940be950267f825886d24",
+    "navigationGoals": null
+}

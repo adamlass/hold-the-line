@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Eatsa in San Francisco, where we deliver a magical dining experience faster and more efficiently.",
+            "fileID": "46338f89f8094678a6bbd608cb77345a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For ordering options and to manage your pickup, press 1.",
+                "fileID": "89bef065282c4e049b2a088d6d2e8b38",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To place a new order, press 1.",
+                            "fileID": "4850e5e7dc8e42b7b81d8f914f779665",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment while we connect you to a friendly ordering specialist.",
+                                        "fileID": "e0e5886277ed44bf9f08b82db571aa44"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c49b90778991408eacae2f8af7f0c44e",
+                                "navigationGoals": [
+                                    "Quickly place a lunch order for pickup today",
+                                    "Place a new pickup order for a high-protein grain bowl with extra chicken and a side salad",
+                                    "I want to instantiate a new order transaction and receive an itemized confirmation for pickup in San Francisco.",
+                                    "I\u2019d like help placing a new pickup order at Eatsa \u2013 I\u2019m not very familiar with the menu system.",
+                                    "I\u2019d like to place a new pickup order for the quinoa bowl at 12:30 PM."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing order, press 2.",
+                            "fileID": "db7ba0804e0b49eb882f7886bc27a274",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment while we retrieve your order status.",
+                                        "fileID": "37151e6ccc6e46ac96b368eb407e94ea"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f3ce6cb7178d490d8f6c75b57bfc8037",
+                                "navigationGoals": [
+                                    "Find out when my existing order will be ready",
+                                    "Check when my lunch pickup order will be ready",
+                                    "I need to query the status of my existing order by referencing my order ID.",
+                                    "Could you check the status of my existing order and let me know when it will be ready?",
+                                    "Could you check the status of my existing order #10234?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2e7be4f2011d425b91897783f6eb18ba",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For information on our restaurant technology platform and partnership opportunities, press 2.",
+                "fileID": "f0d2a0a973b54af1b828285cdb323488",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our partnership team, press 1.",
+                            "fileID": "71521a439b5b40fc81036b6ac35ca26f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our partnerships manager.",
+                                        "fileID": "89a20e751d1e4ec69aba019013e62fb5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6fff8f012a674b4f87fcdedefb28fc06",
+                                "navigationGoals": [
+                                    "Discuss integrating Eatsa\u2019s automation into my restaurant chain",
+                                    "Discuss partnering with Eatsa to offer meal discounts for veterans in San Francisco",
+                                    "I'm interested in discussing API integration and partnership opportunities on your restaurant technology platform.",
+                                    "I\u2019m interested in partnering with your restaurant technology at my own caf\u00e9 and need someone to explain the process.",
+                                    "I\u2019m exploring how to partner my campus caf\u00e9 with your automated ordering platform."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support, press 2.",
+                            "fileID": "1d4abbd6273f4510b8532fdcc69e11c0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while our technical team assists you.",
+                                        "fileID": "d25819a3c0e84dfc848f97a379147370"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "180cc229227440eeb89ba96136840a59",
+                                "navigationGoals": [
+                                    "Troubleshoot our API connection to Eatsa\u2019s ordering system",
+                                    "Get help fixing an app error so I can apply my veteran discount to my order",
+                                    "I need technical support troubleshooting the cloud-based ordering kiosk integration.",
+                                    "I\u2019m having trouble using your ordering kiosk and would like technical assistance to get it working.",
+                                    "I need help debugging my integration with your online ordering API for a research project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fa2d96f5f58e4e1d82457e04ef86c561",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5ec8e8eda76d4ec8b4094d3bc18f00a3",
+        "navigationGoals": null
+    },
+    "id": "7eb4e691bf45402c808f27f89bfb063c",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Vevo, the world's leading all-premium music video and entertainment platform.",
+            "fileID": "6011f7e6f00843d597b824dbaf9ea145"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For advertiser solutions and campaign support, press 1.",
+                "fileID": "de1410f3c0e44a8f808d9da8071ae743",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our advertising products and reach 25 billion viewers monthly, press 1.",
+                            "fileID": "dcb9d628522c442dbb14e4196ee88dc5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line. An advertising specialist will be with you shortly. Enjoy the latest music videos while you wait.",
+                                        "fileID": "409f4dd7ba9448a3b6c53a22c0555c77"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "58bd22b11a214a879e625ffc126b5a75",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For assistance with campaign analytics and performance reporting, press 2.",
+                            "fileID": "185f76de360a4f32a0eaca55238985fe",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Your call is important to us. A campaign analyst will join your call soon. Thank you for your patience.",
+                                        "fileID": "abbc2680b16c4c968ca03b3f4cdcdf73"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "11d4ae1a45ed4c9a8fd7c9080bcb7c92",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5de29ce2ed974a8fb73a0262064afb4c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For artist and label inquiries, press 2.",
+                "fileID": "75f50c6e4569482d896fe7cf60ea37d0",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit music videos or discuss content partnerships, press 1.",
+                            "fileID": "47322b2671d34f30b33b44642309b335",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our content partnerships team. We appreciate your interest in teaming up with Vevo.",
+                                        "fileID": "7eb382008b7547e29c6d7495dc99a617"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "92c6a3cbc29d487297f9f731f3d55d5d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For royalty payments and revenue questions, press 2.",
+                            "fileID": "5af176e232a84df5af34ea72831ec0ef",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. Our revenue support team will be with you shortly.",
+                                        "fileID": "7175baa2a64b4b888be0684a04c05318"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d5590a139eab412c83c58d0181a45b64",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a7f8fea81c75431d9cf86b9b49d4bf2b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "427c175d628247cf9873ad2196385e1e",
+        "navigationGoals": null
+    },
+    "id": "122d296392b24649833a1ce3c4fd628a",
+    "navigationGoals": null
+}

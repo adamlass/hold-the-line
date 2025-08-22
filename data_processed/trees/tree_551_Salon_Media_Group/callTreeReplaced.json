@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Salon Media Group, your San Francisco source for consumer news.",
+            "fileID": "d3fd95423eee4c63aa26b93a0881d1e1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For editorial and news inquiries, press 1.",
+                "fileID": "44dc34036db745cfb1ff7462a807a4a8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit a news tip, press 1.",
+                            "fileID": "be318638b8bc4ff291f0c922fbb4653c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our editorial team.",
+                                        "fileID": "d715261d056c45bfa5572b6afcace850"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "08d96fd7e4d84711b7d33a76644a6eed",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For press credentials and interview requests, press 2.",
+                            "fileID": "a41c06df2f5d4dfeb5b756c99c9b4f63",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer your call to our press office.",
+                                        "fileID": "b94aaa731d15408381f20e17bda4d13a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "de6e13131b4b4529bf23c3a9b4a17d2b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a7f98f525e0d4584b3cc8bc53ebdbba3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For advertising and partnership opportunities, press 2.",
+                "fileID": "4da983bca28f42d6a99ea960b4b32e84",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our advertising sales team, press 1.",
+                            "fileID": "b003941ae60b45c69c40b32260d3f6c8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to advertising sales.",
+                                        "fileID": "dc65756ab350443480f60c2778280918"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0f67986d53d54d7c9e4531714b4caa81",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For sponsorship and partnership inquiries, press 2.",
+                            "fileID": "7be15e5f94fe4784ac20ca941e4ee4fb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships team.",
+                                        "fileID": "f2085b3a15274cecb93cba59db7c0828"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a25ae2c606274c48be6fbb4a60db3b4b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0e8f0618125c4840bd79f43ecf82f0ba",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d2086abaccf64b8d96b216eab42dfbad",
+        "navigationGoals": null
+    },
+    "id": "1b01e42d73df41c5b402290049815efc",
+    "navigationGoals": null
+}

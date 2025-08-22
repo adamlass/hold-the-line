@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to WayUp in New York, where your career starts by connecting college students and recent graduates with leading employers.",
+            "fileID": "72b7598c11bb476ca901e020edca993e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a college student or recent graduate seeking job or internship opportunities, press 1.",
+                "fileID": "dbe3cdd53ef74961b0c9cd868a14f715",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore current internships and entry-level openings, press 1.",
+                            "fileID": "be3280e3912d4368996235a4fd8faf52",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our job opportunities portal.",
+                                        "fileID": "7ca6af80c4dd4eefbc67729ab4f9208c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "298f3723a1284258b48b429ccca6c4d3",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For resume tips, interview prep, and career resources, press 2.",
+                            "fileID": "9bf7b7c9b53b4442b529282bee91b932",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to a career services specialist.",
+                                        "fileID": "67aefa4ea030458f8d964a7a2caa6c72"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c23514041f7648048e51ca945676eddd",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6f7abf8864864e2fb6afaf743d4b2b24",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an employer looking to recruit top college talent, press 2.",
+                "fileID": "5ea4151924364e1ab10fa8805fe1fb77",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To post a new job or internship opportunity, press 1.",
+                            "fileID": "3a444bca508647dc90cd9bd6e0c8851b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our employer services team.",
+                                        "fileID": "efad29e563aa4d0ca5114bd4681da86e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "291402f18cbf49768254a449da037379",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For information on our talent acquisition solutions and pricing, press 2.",
+                            "fileID": "2f00bf602a194300ad2005b49a97cfd1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to a talent acquisition consultant.",
+                                        "fileID": "eea6a5b465be4d29802833f93a132c83"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "339972b14a0848a4b951def5d7f2ddcf",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "81381ea48e79495bacabf2b74cc83722",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5e475417e6b8452b985614ed23c103cc",
+        "navigationGoals": null
+    },
+    "id": "1600e19f09e14be7be99c76e2020bb72",
+    "navigationGoals": null
+}

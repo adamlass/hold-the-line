@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Sauce Labs, ensuring your mobile apps and websites perform flawlessly across every browser and device.",
+            "fileID": "1ea9d98bcd2946a2b186060e446948c1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and account information, please press 1.",
+                "fileID": "3d5bf1e7b7a1430b9e93440f6ae3900d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a product demo, press 1.",
+                            "fileID": "96521b4a101a4391a202b37d69021d68",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for a demo.",
+                                        "fileID": "a45c5e0d57fc41c98514737242e02829"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8f3f5178fe754ae6bd1ded0c6dd36d93",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and invoice inquiries, press 2.",
+                            "fileID": "8e7e73962fd54ace883fe58deec38459",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "fb5134dbf38d4d3f92e4e3b3bae2a11f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "944513170a2646a09f67780e2d97fd62",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e8f66edf35c642f0bdaaa731028615af",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and troubleshooting, please press 2.",
+                "fileID": "533ee8dfd61a41cab49f709ee8b94fc6",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For test automation platform assistance, press 1.",
+                            "fileID": "9afb96b5dec54ccdac92f6e9a581f5ee",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support for automation issues.",
+                                        "fileID": "73644302d9e3441ba0c0da026bb7f612"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3765d688492c4da099885d3db55c7408",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For login and account access help, press 2.",
+                            "fileID": "0318ee98cdc34850b94512f9964839b8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support team for account access assistance.",
+                                        "fileID": "e83387dc786e425b83c4d8693813c3a4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "67fdea4b45ee4f6a8759053a24e9c6db",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f530436632094879be704b5891d52e52",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ed699e057c1f4fedb2eafe717a25428d",
+        "navigationGoals": null
+    },
+    "id": "b7a42e7d84bf4dfaadc606ea0d9169a1",
+    "navigationGoals": null
+}

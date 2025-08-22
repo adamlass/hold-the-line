@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Slalom Consulting in San Francisco, where we help you solve business challenges and build for the future with advisory, experience, technology, and analytics.",
+            "fileID": "e230da0e26ed481891849bc150a47ef6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Business Services, including advisory and customer experience, press 1.",
+                "fileID": "f8067a9dadbc4b5886113e22b38e12ee",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For Business Advisory, press 1.",
+                            "fileID": "e94d7604a37e43458696a55d5aa89ef4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Business Advisory team.",
+                                        "fileID": "7e9dda73d5944c6ebe6bcfd40c72f6f0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8cedad683264459184def7613cde9947",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For Customer Experience and Marketing, press 2.",
+                            "fileID": "8f048dc786514d0299fe69b55df42eae",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Customer Experience and Marketing specialists.",
+                                        "fileID": "64239529a48149e0a333f18a6070916a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ce328ad4ff3e474c9d1df53b77df3a51",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6ad310eecce447e29110f4a044d408f9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technology Services, including software development and analytics, press 2.",
+                "fileID": "2499bc9b14bc40429c6a5cefa23b71de",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For Technology Implementation and Software Development, press 1.",
+                            "fileID": "a0e293a68f4a4932a9f027d76f17cdcb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Technology Implementation and Software Development team.",
+                                        "fileID": "a9f8277b9b5b40389491719ba5225a77"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9117300de0144b24bd29ebe71e6e635c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For Analytics and Data Insights, press 2.",
+                            "fileID": "25bc0945d9484ee9954a6e8d99adac0f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Analytics and Data Insights team.",
+                                        "fileID": "dcce056faa02403c87cbc89bf847f42c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b7ee08b16f414ab2bc094727712f3072",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a8b07655e8d740ee89235eedae35b3a9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ccdff85a4fdf4c348415ac931ec38356",
+        "navigationGoals": null
+    },
+    "id": "0d5d1943df7e4a1f8480b839a1825af7",
+    "navigationGoals": null
+}

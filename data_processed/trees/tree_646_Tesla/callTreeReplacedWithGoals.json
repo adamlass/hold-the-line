@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Tesla South Bay, your destination for electric vehicles and sustainable energy solutions.",
+            "fileID": "1ce66cbec56c45a883fb39cd3727808e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new electric vehicle sales and to schedule a test drive, press 1.",
+                "fileID": "057ee6f1872f41b1964cb4080bd7c873",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on our Tesla models and current pricing, press 1.",
+                            "fileID": "d743f71b90c5412aaac41df870bbe152",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a vehicle information specialist.",
+                                        "fileID": "e1beeaab8d9a4014aa6cb0342806fb0f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "78223c49bec544009feea5c7d99a1a48",
+                                "navigationGoals": [
+                                    "I want to schedule a test drive for a Tesla and get current pricing information.",
+                                    "I\u2019d like to schedule a test drive for a Model 3 and learn about any veteran discounts.",
+                                    "I\u2019d like detailed pricing and performance specs for the Dual Motor Model Y and to schedule a test drive.",
+                                    "I want to learn about Tesla models and schedule a test drive.",
+                                    "I\u2019d like to learn about the battery capacity and efficiency of the Model 3 and schedule a test drive this Friday afternoon."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For vehicle service, maintenance, or repair appointments, press 2.",
+                            "fileID": "f5afe640b31042d288ddf5bf67868b9b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our service department.",
+                                        "fileID": "fb7b5b3cfe8342e9b10bdb87886c8da1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "397c3442a4e74eab9f51797faf1aebef",
+                                "navigationGoals": [
+                                    "I need to book a service appointment for my Tesla for maintenance.",
+                                    "I need to book a maintenance appointment for my Model Y and ask about a courtesy loaner car.",
+                                    "I need to book a service appointment for my Model 3 to perform a firmware update and brake pad inspection.",
+                                    "I need to book a maintenance appointment for my Tesla vehicle.",
+                                    "I need to book a service appointment for my Model X to diagnose an intermittent suspension noise."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6a8a7b234a034114960bbac39625551d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For solar products, installations, and energy services, press 2.",
+                "fileID": "1ed96c0047d149239f60efe6125d6fe3",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For residential solar panel installations and system design, press 1.",
+                            "fileID": "756962434ef249c6a5fac6ee361f15b6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our solar sales team.",
+                                        "fileID": "a1dbf03ecdde4ee983a8f41e2063ff1d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3e431a130201491b8a7a6490a4ac0868",
+                                "navigationGoals": [
+                                    "I\u2019d like to arrange a residential solar panel installation and discuss system design.",
+                                    "I want a quote for residential solar panel installation and information on veteran pricing.",
+                                    "I want a custom system design and quote for a 7 kW residential solar array with integrated Powerwall.",
+                                    "I'm interested in installing solar panels at home and need system design information.",
+                                    "I\u2019m interested in designing a 5 kW residential solar panel system and want an installation estimate based on south-facing roof orientation."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For solar panel repairs, monitoring, or technical support, press 2.",
+                            "fileID": "29860ed59f714567acf8ec12d5c7d7a0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our solar service team.",
+                                        "fileID": "bb3ea4195a02402fa848eef24d9950d5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fd05726e6b3345ec8435aa1bbc0a9c58",
+                                "navigationGoals": [
+                                    "I need to schedule a repair appointment and technical support for my existing solar panels.",
+                                    "I\u2019m experiencing issues with my home solar system monitoring and need technical support.",
+                                    "I need diagnostic support for my solar inverter\u2019s grid communication error and to arrange a service visit.",
+                                    "I'm having issues with my solar panels and need repair support.",
+                                    "My home solar inverter is displaying error code F001; I need technical support to troubleshoot and repair the system."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c2ce2318334b47df949c782259cad1a0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "88d3bfc110a6477c987b19eb15d7833e",
+        "navigationGoals": null
+    },
+    "id": "35cabd7abdd249578fc3899d545097b4",
+    "navigationGoals": null
+}

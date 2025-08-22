@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Mattermark in San Francisco, where we help you research the companies and employees who matter most.",
+            "fileID": "c626bb315b074208b2493fd1fc052320"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For product information and platform demos, press 1.",
+                "fileID": "9386c4c5790246bab9cc33c43c5cd6e2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our data coverage and features, press 1.",
+                            "fileID": "6e911d45e46d494baac361d7f4744c3e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product specialist for data coverage and features.",
+                                        "fileID": "19b96881849c4f1a8912e04b1139df5b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b5c96699771347c89b4c62c439d9e4cd",
+                                "navigationGoals": [
+                                    "Get detailed information on Mattermark\u2019s data coverage and feature set.",
+                                    "I\u2019d like to learn if your platform includes veteran-owned companies in its data coverage and how to filter for them.",
+                                    "Review the platform\u2019s data coverage metrics and feature specifications",
+                                    "I need someone to explain what company data you cover and how the features work.",
+                                    "I want to discuss with a specialist which data sets and metrics the platform covers, especially for early-stage biotech firms."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a live demo of our platform, press 2.",
+                            "fileID": "b45b1cd63a5c464ba4caf939cef97413",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a team member to schedule your live demo.",
+                                        "fileID": "502718356c68472c8d758637dd5207f7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dc8225be4ab943c2bd66694a3715b109",
+                                "navigationGoals": [
+                                    "Schedule a live demo of the Mattermark platform.",
+                                    "I want to set up a live walkthrough of the platform to see how I can track defense-sector startups\u2019 growth metrics.",
+                                    "Schedule a live walkthrough of the Mattermark analytics platform",
+                                    "I\u2019d like to set up a live demo so someone can walk me through the platform.",
+                                    "I\u2019d like to book a live walkthrough of Mattermark to see how it can help me track startup growth for my thesis."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "32789dc87a844cb5a9f943824d23d3bc",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account management and support, press 2.",
+                "fileID": "e1b28d1319e043d4bac98f254b802b7d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing and subscription inquiries, press 1.",
+                            "fileID": "60a9ac855629409b92d73e801b290bd8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "656258eabc194b6b86ce0dd56db38605"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "34b6ccda0bb740f4bf052cdb57f61b52",
+                                "navigationGoals": [
+                                    "Clarify billing charges and update my subscription plan.",
+                                    "I need an invoice for my latest subscription payment for veteran business expense reimbursement.",
+                                    "Clarify details on my subscription billing and plan options",
+                                    "I have questions about my billing and subscription charges.",
+                                    "I need information on student/academic pricing and want to switch my subscription to the discounted plan."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support, press 2.",
+                            "fileID": "61cdb63a47f84f9491f26b8034af80a1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support.",
+                                        "fileID": "6b496015665a4ebea8494a6e98ae0198"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9105c8385af648fb914290c24351d65c",
+                                "navigationGoals": [
+                                    "Troubleshoot technical issues accessing the Mattermark platform.",
+                                    "I\u2019m getting errors when I try to download the CSV export of company data.",
+                                    "Troubleshoot an API integration error with the platform",
+                                    "I\u2019m having trouble logging in and need technical support.",
+                                    "I\u2019m having trouble exporting my research data to CSV and need technical assistance."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a768a871ba5049e9b64d34422b03405b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "511767f116954b65a5dceba8ca773e3b",
+        "navigationGoals": null
+    },
+    "id": "682d1cba052040919ec0a52e14d44db3",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Armory, your partner for enterprise continuous deployment.",
+            "fileID": "c6b1d76fd4da4927b8f577958307a202"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "05b781d75d314b54a1b3ad9131a581cb",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To get pricing, plans, and licensing details, press 1.",
+                            "fileID": "ac6ba01020374880a6b881861aeed3bc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist for pricing and licensing information.",
+                                        "fileID": "e043eae4261c41e5bdfdc096e0e1cc78"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a69553dc085d4fafb925e89d5a8da8ba",
+                                "navigationGoals": [
+                                    "Get an enterprise pricing breakdown and licensing options",
+                                    "Find out how much Armory licenses cost so I can plan my veteran-led team\u2019s budget",
+                                    "Get a breakdown of enterprise pricing tiers and license models.",
+                                    "I need someone to explain the cost and licensing options for your enterprise deployment service.",
+                                    "I\u2019d like detailed pricing and licensing information for Armory\u2019s enterprise edition."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a product demo or start a free trial, press 2.",
+                            "fileID": "c36b0d7e1b9241f090cfcfcc913fae67",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we will transfer you to our solutions engineering team for your demo request.",
+                                        "fileID": "e983aa22c1084fb8b856cb9feddaa9f5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0c38a98def514f6e8cd4c456aeb9a19a",
+                                "navigationGoals": [
+                                    "Schedule a live product demo to evaluate Armory\u2019s CD solution",
+                                    "Arrange a live demo to evaluate how Armory fits my veteran-led startup\u2019s deployment workflow",
+                                    "Schedule a live Armory CD demo and initiate a trial environment.",
+                                    "I\u2019d like to schedule a live demo or start a free trial to see how the product works.",
+                                    "I want to arrange a product demo and start a free trial of your deployment solution."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ab8de36b02844f96beeff43e3f42ff73",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and developer resources, press 2.",
+                "fileID": "8b6e8f6bdbc84ee8a8b17c2f5c0317dd",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need technical support or troubleshooting assistance, press 1.",
+                            "fileID": "5ead3fd3b3d34b7e91f5419e67b61cbe",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support engineer.",
+                                        "fileID": "09204dab366649898cd125625cad12f3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "61b398ec8ede4911b097eeea9e8fa36c",
+                                "navigationGoals": [
+                                    "Connect with a support engineer to quickly fix a deployment issue",
+                                    "Get help resolving a Spinnaker deployment failure I\u2019m encountering",
+                                    "Connect with a support engineer to debug my CI/CD pipeline error.",
+                                    "I need help troubleshooting an issue with my deployment software.",
+                                    "I need assistance troubleshooting a deployment issue with your platform."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For documentation, community forums, and open source contributions, press 2.",
+                            "fileID": "cd16506e178846f49bad260435cd2dfa",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we direct you to our developer portal resources.",
+                                        "fileID": "738b48c8c5a14724b027bfb3d08e5d8e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "485b4ede477c414ab3f235dbcdcb7268",
+                                "navigationGoals": [
+                                    "Access the developer portal for docs and open-source resources",
+                                    "Access documentation and community forums to learn best practices and contribute to the open source project",
+                                    "Access the developer portal for API docs, community forums, and open-source contributions.",
+                                    "I\u2019m looking for user guides or community resources to learn more about using your software.",
+                                    "I\u2019m looking for documentation and community resources for developer support."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d82a18da2ffc4bd5b1e1df2b3adedf2a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ae0eea0be1b049859b3836330f599490",
+        "navigationGoals": null
+    },
+    "id": "6dbf665ee665405b8c9730e937b7418b",
+    "navigationGoals": null
+}

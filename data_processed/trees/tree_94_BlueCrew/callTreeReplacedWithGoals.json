@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to BlueCrew, the San Francisco-based staffing platform that connects you to job opportunities straight from your phone.",
+            "fileID": "b54dde2f7d8d4a35a3bd532a2022d02c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a worker looking for shifts, press '1'.",
+                "fileID": "f45aa7f0e7224b7d95a647910777e43e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To create or update your profile and start receiving shift offers, press '1'.",
+                            "fileID": "0ecbe95228344dd686e7763e65e5bbeb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our team to assist with your profile setup.",
+                                        "fileID": "3defc47e3dca478cbdd3646d51742877"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2672432037e640a69b28ff3a08183489",
+                                "navigationGoals": [
+                                    "I need to complete my worker profile setup so I can start receiving shift offers immediately.",
+                                    "I need help completing my worker profile so I can start receiving shift offers.",
+                                    "I need to configure my worker profile with my skills and availability to start receiving shift notifications.",
+                                    "I need help filling out my BlueCrew profile so I can start getting shift offers.",
+                                    "I want to complete my BlueCrew profile to start getting shift offers"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a support specialist about your account, press '2'.",
+                            "fileID": "9a7f3562a59749ff898ee81e360005ab",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a support specialist.",
+                                        "fileID": "e0229d56f6b647648710a207cbd57c6a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e51c9f0676194cb89e333647997842c9",
+                                "navigationGoals": [
+                                    "I\u2019m having trouble logging in; I need a support agent to fix my account access ASAP.",
+                                    "I want to speak with someone about a payment issue\u2014my last shift payout hasn\u2019t arrived.",
+                                    "I\u2019m experiencing a 2FA login error; I need support to troubleshoot my account access.",
+                                    "I\u2019d like to speak with someone about an issue I\u2019m having with my worker account.",
+                                    "I need help updating my account information"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "675d6cb486e44b479ff482b254b30204",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an employer in need of staff, press '2'.",
+                "fileID": "7fa4792554044f4ea780d8594af4f77f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To post a new job or shift, press '1'.",
+                            "fileID": "3fa52b915db94d8a9a7d65c39c08c8e1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our employer services team to post your job.",
+                                        "fileID": "b2d3bbbc7003437dbc5888ee8ccfa541"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1dc46dc7053f485488bd9a78326ddeab",
+                                "navigationGoals": [
+                                    "I want to create and publish a new job opening for next week\u2019s staffing.",
+                                    "I\u2019d like to post a security guard shift schedule for my veteran-owned business this weekend.",
+                                    "I want to publish a new shift posting with role specs and schedule parameters in my employer dashboard.",
+                                    "I want assistance creating a new job listing to find staff for my business.",
+                                    "I\u2019d like to post a new weekend physics tutoring shift"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with our sales team about staffing solutions, press '2'.",
+                            "fileID": "b63ea45b05b049c8bf94fa308ea1c653",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales representative.",
+                                        "fileID": "d2f9a74019be465f9928fa1abd758ab3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "27e5c669a2724c8988356737317f5cdb",
+                                "navigationGoals": [
+                                    "I\u2019d like to talk to sales about scalable staffing packages and pricing for my business.",
+                                    "I need to talk with a sales rep about arranging regular staffing solutions for my growing team.",
+                                    "I\u2019d like to discuss API-based staffing integration and enterprise pricing options with sales.",
+                                    "I need to talk to a sales representative about staffing solutions.",
+                                    "I want to discuss staffing packages for lab assistants with a sales rep"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b85b39a17b974d038a9be8a536ad330d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "55e901c5cf4f48b3a7c199c369be7314",
+        "navigationGoals": null
+    },
+    "id": "350edc682069457bb43cc4b39888ef09",
+    "navigationGoals": null
+}

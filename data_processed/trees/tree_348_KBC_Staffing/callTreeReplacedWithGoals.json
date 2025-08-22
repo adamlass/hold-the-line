@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to KBC Staffing in the East Bay offering temporary, temp to perm, and direct hire staffing solutions.",
+            "fileID": "8a393038d6dd48f1aa385dd501ce8711"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are seeking job opportunities, press 1.",
+                "fileID": "35f3f50e21f54b41a64e5f94df4dbe46",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For temporary placements, press 1.",
+                            "fileID": "a239adb0ff4c4b1c9ca3efd77aae5451",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a temporary staffing specialist.",
+                                        "fileID": "4938bd41e820491584c0dd3230def889"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "737ff85bd3fe4f5b8633b1f178333e95",
+                                "navigationGoals": [
+                                    "Find a temporary office coordinator assignment in the East Bay ASAP.",
+                                    "I need a temporary job placement to bridge the gap while I transition back to civilian life.",
+                                    "Find a temporary contract as a backend developer",
+                                    "I\u2019m an older job seeker looking for a short-term temp assignment to stay active.",
+                                    "I\u2019d like to find a short-term lab assistant position in a physics research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For temp-to-perm and direct hire positions, press 2.",
+                            "fileID": "267a3c842f004fcda8a6ca31dc59d855",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a recruitment consultant for temp to perm and direct hire opportunities.",
+                                        "fileID": "1b4c3cce291646b8af7972b7c3ed15f9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "69393f0c25ca4f8893bcc057e2eedf5c",
+                                "navigationGoals": [
+                                    "Explore temp-to-perm or direct hire project management opportunities.",
+                                    "I want to explore temp-to-perm or direct hire roles that match my military logistics background.",
+                                    "Apply for a temp-to-perm DevOps engineer role",
+                                    "I\u2019d like help finding a temp-to-perm or direct-hire position in administration.",
+                                    "I\u2019m interested in a temp-to-perm research assistant role in a physics lab."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a762664e999f49bba26834b8fe1dbab4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an employer seeking staffing solutions, press 2.",
+                "fileID": "6e62b7741925482da33c0954b27f2556",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For temporary staffing services, press 1.",
+                            "fileID": "ca6c255582bd4d2bad22a91a6243d24b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with an employer services representative for temporary staffing.",
+                                        "fileID": "4445213a16a1422d96c7f5b4011d20a0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d0b7e335b40f4a57bcbd564b6812ad2b",
+                                "navigationGoals": [
+                                    "Set up temporary administrative staffing for my team immediately.",
+                                    "I run a veteran-owned small business and need temporary staff to fill a short-term project.",
+                                    "Provision a short-term team of cloud infrastructure specialists",
+                                    "I need to hire temporary staff to cover shifts at my small business.",
+                                    "I need to hire a temporary lab technician to support my upcoming experiments."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For temp-to-perm and direct hire solutions, press 2.",
+                            "fileID": "7a615e926f364aa0a3b33e599a7d5313",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with an employer services representative for permanent and temp to perm placements.",
+                                        "fileID": "9e0e5accff954089be9a90743d1b9c16"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c4711412115e44199bca50e2bd603bf8",
+                                "navigationGoals": [
+                                    "Discuss permanent and temp-to-perm hiring needs for our department.",
+                                    "I\u2019m looking to hire permanent and temp-to-perm employees for my company\u2019s open positions.",
+                                    "Recruit a permanent Java systems engineer through direct hire",
+                                    "I want to discuss bringing on permanent employees, possibly starting them as temps first.",
+                                    "I\u2019m looking to recruit a permanent physics lab coordinator through a temp-to-perm placement."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "720aea50f6bc46aa9aa35d636dae6eba",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c150e675e3204db3a9392d1eae1d481a",
+        "navigationGoals": null
+    },
+    "id": "4efd01339c1144859ce78ce25167b335",
+    "navigationGoals": null
+}

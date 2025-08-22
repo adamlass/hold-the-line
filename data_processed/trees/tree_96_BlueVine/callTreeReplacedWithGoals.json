@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to BlueVine Peninsula, where we empower small businesses with flexible financing solutions.",
+            "fileID": "2fa6c2cbd04c4e45ab14871a2cea92c1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our flexible lines of credit, press 1.",
+                "fileID": "524542e816384b6dbbb9705619d66cd9",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start a new line of credit application, press 1.",
+                            "fileID": "73b07cdb3b6f49a6a4780ad27749e17f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a credit specialist.",
+                                        "fileID": "041c2b40cbb941bca618b607a1e43e15"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8fa27a9b0dd747779fff702c1fbb3345",
+                                "navigationGoals": [
+                                    "Apply for a new small-business line of credit",
+                                    "I want to apply for a new line of credit to buy equipment for my veteran-owned landscaping business.",
+                                    "I want to initiate a new revolving line of credit application with automated underwriting.",
+                                    "I\u2019d like to open a new line of credit for my small business.",
+                                    "I want to apply for a new business line of credit."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about financing your invoices in advance, press 2.",
+                            "fileID": "daa55415422b43edb2a8198097b63bc1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to our invoice financing team.",
+                                        "fileID": "1328975d5ebb4661a2ff04e8082aa0f3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ba079679470b4821bae0cc75f5084cb3",
+                                "navigationGoals": [
+                                    "Get details on financing outstanding invoices",
+                                    "I need to finance outstanding invoices for my small contracting company.",
+                                    "Can you explain your invoice financing solution, including advance rates and fee structure?",
+                                    "I want to learn about getting advance funding on my outstanding invoices.",
+                                    "I need information on advancing funds against my outstanding invoices."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "68ff1457d2ae44a8ac0ed322cc599ce8",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an existing customer and require assistance, press 2.",
+                "fileID": "02c78d1392f847488282936008699acc",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account balance inquiries and payments, press 1.",
+                            "fileID": "99dd416cd9a24a5e809c1c6e947da9ff",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with an account services representative.",
+                                        "fileID": "16b5a4b7ffec41269b9d5acb7d85f6ea"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f30b376d91c644309e1d489a524bca6c",
+                                "navigationGoals": [
+                                    "Check my account balance and make a payment",
+                                    "I\u2019d like to check my account balance and make a payment on my current line of credit.",
+                                    "I need to review my current account balance and schedule a payment transaction.",
+                                    "I need to check my account balance and make a payment.",
+                                    "I'd like to check my account balance and make a payment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help with our online portal and technical support, press 2.",
+                            "fileID": "845f841cb64d408fbf45a8a9e905443c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you now with our technical support team, please hold.",
+                                        "fileID": "1f0c96540039449e98219ccad2ca0407"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d4413fcebfc843268cb51d0edb80d444",
+                                "navigationGoals": [
+                                    "Troubleshoot access to the online portal",
+                                    "I need help accessing the online portal to review my account activity.",
+                                    "I\u2019m experiencing an authentication error on the online portal and need technical support.",
+                                    "I\u2019m having trouble accessing the online portal and need help.",
+                                    "I'm having trouble logging into the online portal and need technical help."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ece57c76684b41fd921c0d42c2c0a5aa",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d542a41a66e940a69afdda47efb64d48",
+        "navigationGoals": null
+    },
+    "id": "bfad1886618c40acb9d4368a85284bd5",
+    "navigationGoals": null
+}

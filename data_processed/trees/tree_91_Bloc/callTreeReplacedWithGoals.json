@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Bloc, San Francisco\u2019s original online coding bootcamp for career-minded adults.",
+            "fileID": "7091220646e446d78e4c58b31187e08d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To explore our software development bootcamp, press 1.",
+                "fileID": "454c9c3b0062441fa48f851130bc792b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a detailed software curriculum overview, press 1.",
+                            "fileID": "62c5597062a74075be17b5e7bdd1a25b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a detailed software curriculum overview. An expert will be with you shortly.",
+                                        "fileID": "328423393eda407f97b146f91a5ee9d9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6bced2ddc0074316a45cb34fb0a57338",
+                                "navigationGoals": [
+                                    "I need a quick overview of the software development curriculum.",
+                                    "I want to review the software bootcamp\u2019s full curriculum outline to see how it aligns with my background.",
+                                    "Retrieve a comprehensive module outline for the full-stack engineering program, including tech stacks and project workflows.",
+                                    "Could you walk me through the software development course modules in detail?",
+                                    "Find out which programming languages and core topics the software development course covers."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with an admissions advisor for software development, press 2.",
+                            "fileID": "09d49845f2a0404dba050ec289218b3b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to a software admissions advisor.",
+                                        "fileID": "18a243fc7fad4a218ee308268609a8fe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bc38a6c1c5ee4773b133ba8206dffb61",
+                                "navigationGoals": [
+                                    "I want to speak with a software admissions advisor about enrollment details.",
+                                    "I\u2019d like to speak with a software admissions advisor about financing options, including using my GI Bill benefits.",
+                                    "Connect with a software admissions advisor to review enrollment criteria, prerequisites, and tuition options for the dev bootcamp.",
+                                    "I\u2019d like to speak with an advisor about enrolling in the software development bootcamp.",
+                                    "Connect with an admissions advisor to discuss eligibility, tuition plans, and transitioning from a physics background into software."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cf406c0d59684b4eb4dc0f4f68c1174c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To learn about our design bootcamp, press 2.",
+                "fileID": "074f37a9c59741d5ba480a697a3c2d18",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a detailed design curriculum overview, press 1.",
+                            "fileID": "415304986cc842cc839116da4de9d21b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a detailed design curriculum overview. A specialist will be with you shortly.",
+                                        "fileID": "aed5ed6f96294e57b8987826383bd7da"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e12595fef21c42a7a6ee3947c05697ee",
+                                "navigationGoals": [
+                                    "I\u2019m looking for a concise breakdown of the design bootcamp curriculum.",
+                                    "I want an in\u2010depth overview of the design bootcamp curriculum to understand the core skills and projects covered.",
+                                    "Obtain a detailed syllabus breakdown for the UX/UI design bootcamp, covering tool workflows and project deliverables.",
+                                    "Could you describe the classes and timeline for the design bootcamp?",
+                                    "Understand the design bootcamp syllabus, especially design tools and UX/UI fundamentals."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with an admissions advisor for design programs, press 2.",
+                            "fileID": "5c49d395bb9b40ea9b025a18d002aa13",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to a design admissions advisor.",
+                                        "fileID": "a46bb8a8753a4a3f938b8d38911893c7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9db286bc426548c4b9739326850df8b5",
+                                "navigationGoals": [
+                                    "I\u2019d like to talk to a design admissions advisor about entry requirements.",
+                                    "I\u2019d like to connect with a design admissions specialist to discuss veteran tuition support and enrollment steps.",
+                                    "Speak with a design admissions specialist to clarify portfolio requirements, cohort schedules, and start dates.",
+                                    "I need to talk to someone about applying to the design program.",
+                                    "Talk to a design admissions counselor about portfolio requirements and scheduling flexibility."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "940ec54d15144863885d3343caad33a8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "61bb6cbffca9423f9bc022b02fc8bffe",
+        "navigationGoals": null
+    },
+    "id": "7f070f86b3a44de798987d9d49dcdea1",
+    "navigationGoals": null
+}

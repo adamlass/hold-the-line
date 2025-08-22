@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Scal.io in San Francisco, where we handcraft software solutions.",
+            "fileID": "7b10af82dc3b436db5211fc35cc135a6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn more about our custom software development services, press 1.",
+                "fileID": "fc9c4445b246403385aca893db525ee7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss a new project or schedule a consultation, press 1.",
+                            "fileID": "9631b1ed4196478487b0fbdff804c637",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our project consultation team. We appreciate your patience.",
+                                        "fileID": "44a5c34266dd42dfb69658f68a3e4efc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "06a9d5bf811f4d398de977f5bc7f6ce3",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To request a quote or review our portfolio, press 2.",
+                            "fileID": "c172ba10d87746508d8997571b9f9e42",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our quotes department. Your call is important to us.",
+                                        "fileID": "180c4eab592d441dbb6fe4f9ade33a1f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e745e379d91f4bc296246899156c9728",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0ecdec99bd9b452ca9c4b0f1ee8981d5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support with an existing project or to report an issue, press 2.",
+                "fileID": "f95b306a5f1347d696d3cd95a4c22958",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To report a bug or technical issue, press 1.",
+                            "fileID": "d8120631ea28483d87f2c8261a03f0f0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support specialists.",
+                                        "fileID": "4f6094a539c1498f8d577f8c3723992d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "63267fd5ecf6463e9a581dd91732769b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For updates on your current development project, press 2.",
+                            "fileID": "6731060d14d14d1f976ff9137814c268",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to your project manager.",
+                                        "fileID": "799f8f7a28cf4203905befad424cbadf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3d3ee6d16d464ca39a104c0dba035951",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "062e12144faa4017b85faacd0481ad1d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bbf52e0635e14cad95640baa309a4a95",
+        "navigationGoals": null
+    },
+    "id": "634b2eb15e8a44c3871aa1cc6985cb12",
+    "navigationGoals": null
+}

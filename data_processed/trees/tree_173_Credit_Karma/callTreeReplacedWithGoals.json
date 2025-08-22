@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Credit Karma in San Francisco, your partner in personal finance and credit monitoring.",
+            "fileID": "a126023fc0c0427ba70c9ab4e9c7fd8e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for credit score and account management.",
+                "fileID": "c6fab18ac4644606a0689bfdb7f2ef3d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for your credit score and report.",
+                            "fileID": "f738dd5cd46040bc91b9a2611e818384",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a credit score specialist.",
+                                        "fileID": "9917117f7cff4e948c345418a58a11d2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "00bdf7c9643243c89ce8601d4749221f",
+                                "navigationGoals": [
+                                    "Check my current credit score and get a summary of recent changes.",
+                                    "I want to check my credit score and report, and learn how to improve it using veteran-specific resources.",
+                                    "I\u2019d like to analyze my current credit score components and optimize my credit utilization ratio.",
+                                    "I need help understanding a recent drop in my credit score.",
+                                    "I want to review my latest credit report and understand the factors affecting my credit score."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for account settings and security.",
+                            "fileID": "0c6b7f6fa42c44d49b0b8b193954aca4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with an account security representative.",
+                                        "fileID": "f8121d4bc37349ffb668c972fbab121e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "deaa1612d59b42bfad56e8c1b1c874c0",
+                                "navigationGoals": [
+                                    "Set up two-factor authentication on my Credit Karma account.",
+                                    "I need to update my account security settings, including enabling two-factor authentication.",
+                                    "I want to enable multi-factor authentication on my account and review recent security logs.",
+                                    "I need assistance setting up two-factor authentication on my account.",
+                                    "I need to set up two-factor authentication on my account for added security."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c41075a43d5349389043cf8e914c36a6",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for loan services and credit offers.",
+                "fileID": "b75a154b48304bfeb5b0f81ed612d80a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to explore personal loan options.",
+                            "fileID": "ab223aebb2784456bb6c8a74e4fca8c4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a loan specialist.",
+                                        "fileID": "bfb19167250c4f2dabf3d95c16387136"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ff5f5332a87f43888abbb2309851936e",
+                                "navigationGoals": [
+                                    "Compare personal loan rates and terms for a $10,000 loan.",
+                                    "I want to explore personal loan options, especially any veterans discount or consolidation offers.",
+                                    "I want to compare personal loan APRs and amortization options for a mid-size loan.",
+                                    "I\u2019d like information on personal loan options and their interest rates.",
+                                    "I\u2019m interested in comparing personal loan rates for a $3,000 loan to cover my tuition."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to inquire about credit card offers.",
+                            "fileID": "40fc3a80f3e64b3d8bd017d9d9277801",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a credit card specialist.",
+                                        "fileID": "2cb6b4d86ec34be18cbce72d3371ce88"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "276ef6c6465d45beb6b74bddf4b9dcfb",
+                                "navigationGoals": [
+                                    "Find and compare cash-back credit card offers.",
+                                    "I\u2019m looking for credit card offers with veteran benefits, like no annual fee or special rewards.",
+                                    "I want to evaluate credit card offers with tech-focused rewards and compare APRs.",
+                                    "I want to compare credit card offers to find the best one for me.",
+                                    "I\u2019d like to explore credit card offers tailored for students with cash-back benefits."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "943435e94b334e88a552be5289ec25d4",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d48c255271844c599ea68bb0b51acc60",
+        "navigationGoals": null
+    },
+    "id": "0cda6797537f472ea7d6d37fcefcfd29",
+    "navigationGoals": null
+}

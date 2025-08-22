@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling MyFitnessPal in San Francisco, your free online calorie counter and diet plan solution.",
+            "fileID": "8c22f6faeb7f4f65b9398c2a4e18dee7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For account support and login help, press 1.",
+                "fileID": "1ccbb019545f4f8c9539faba913521e1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reset your password, press 1.",
+                            "fileID": "08d6a628d19743b393a4e9c35ecd10c7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account specialist for password assistance.",
+                                        "fileID": "1ed538445ad5464ba9e95f732d5c4538"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "94d1b6a7fe0e45079e27316e3a35ce4b",
+                                "navigationGoals": [
+                                    "I forgot my MyFitnessPal password and need to reset it right away.",
+                                    "Reset my password so I can log back into my MyFitnessPal account.",
+                                    "Reset my MyFitnessPal account password using the secure authentication workflow.",
+                                    "I need assistance resetting my MyFitnessPal password.",
+                                    "I need to reset my MyFitnessPal account password so I can log in again."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To update your account settings, press 2.",
+                            "fileID": "6575423ac66e427aa0518f1c3a924aa5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account specialist for settings assistance.",
+                                        "fileID": "05497b7485994caba710de7aa19729d4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c1cf414269a049269a32528e3bf30cce",
+                                "navigationGoals": [
+                                    "I need to update my account settings, like changing my email address.",
+                                    "Update my daily calorie target and profile details.",
+                                    "Modify my MyFitnessPal profile preferences and synchronization settings.",
+                                    "I\u2019d like to update my account settings on my MyFitnessPal account.",
+                                    "I want to update my account settings, specifically to switch my measurements to metric units."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "993d5c375d1841c9b086ff3482778cda",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For nutrition facts and diet plan guidance, press 2.",
+                "fileID": "a637009476744163b509603ae56b24bf",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To look up nutrition facts for any food, press 1.",
+                            "fileID": "5fd8916d0c0b439fbfd31fa82e03b44e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the nutritional information for you.",
+                                        "fileID": "cd9f2b92b80d4fb2b14e60f6f0c1cb27"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "80d2e4ce93484be39ddeed977cd43342",
+                                "navigationGoals": [
+                                    "I want to look up the nutrition facts for a specific food item.",
+                                    "Look up nutrition facts for an MRE field ration.",
+                                    "Retrieve the macronutrient breakdown for a specific food item from the nutrition database.",
+                                    "I want to look up the nutrition information for a specific food item.",
+                                    "Could you provide the nutrition facts for quinoa so I can record it accurately?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To explore our personalized diet plans, press 2.",
+                            "fileID": "4fe71d7a412f4db2aa5f6f9615c0fd29",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a nutrition advisor.",
+                                        "fileID": "1b5aafe47e4745d2836b773c93d95ebe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a713fcd55f3b453f9e9abbf21690a512",
+                                "navigationGoals": [
+                                    "I\u2019d like to connect with a nutrition advisor for a personalized diet plan.",
+                                    "Get a personalized diet plan recommendation from a nutrition advisor.",
+                                    "Review tailored diet plan recommendations based on my fitness metrics.",
+                                    "I\u2019d like help setting up a personalized diet plan.",
+                                    "I\u2019d like to discuss personalized diet plans to optimize my energy for my study routine."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "85aa36be6d954308970d920e3558658a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "eb437a082cf5485785955d0a1dba23a9",
+        "navigationGoals": null
+    },
+    "id": "ac9fcb03d6ce4f3893f123c4b29c8bd5",
+    "navigationGoals": null
+}

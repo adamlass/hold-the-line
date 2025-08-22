@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to StubHub in San Francisco, the world\u2019s top destination for ticket buyers and sellers, where prices may be above or below face value.",
+            "fileID": "c1ae6a10b54242bebe0c2241ee64d400"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To buy tickets, press 1.",
+                "fileID": "a8fd8fe651404a92b247cd517afac5db",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For event search and seating options, press 1.",
+                            "fileID": "37d8816ce0344cdc82c76f3d29a6ae9b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line and we\u2019ll connect you to our ticketing specialists.",
+                                        "fileID": "44b15c4a5b92430bba294d8ba6e86099"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d1a8028c6a3247cdacd89cff9861ae79",
+                                "navigationGoals": [
+                                    "Find and secure the best available seats for next week\u2019s show",
+                                    "Help me find and buy two veteran-discounted tickets in the lower deck for the next Giants home game.",
+                                    "Query event inventory and reserve two floor-level tickets for next Friday\u2019s concert, with real-time price comparison.",
+                                    "I need help finding and buying accessible aisle seats for an upcoming concert.",
+                                    "I\u2019d like to purchase two tickets for the April physics lecture at Davies Symphony Hall."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For order status and ticket codes, press 2.",
+                            "fileID": "fa767715c604423780821a62c118ce9d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we\u2019re connecting you to our order support team.",
+                                        "fileID": "fcff43a61cf34f4f8b0041e8d8af9ff7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f98c087024944599af5bef899b7eedc7",
+                                "navigationGoals": [
+                                    "Check the status of my recent ticket order and retrieve the access codes",
+                                    "I need to check the status of my order for the Warriors game and get my digital ticket code.",
+                                    "Retrieve my recent order metadata and resend the mobile ticket barcodes for last night\u2019s arena purchase.",
+                                    "I\u2019d like to check the status of my recent ticket order and get the entry codes.",
+                                    "I need to check my order status and retrieve the ticket codes for the upcoming quantum mechanics conference."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2d8587c8375a42bab9ab30a886a295de",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To sell tickets or manage your listings, press 2.",
+                "fileID": "67ba42436ecb462685f3fa2daea18d8b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To list new tickets for sale, press 1.",
+                            "fileID": "7031cdbf8a9c4763a86b6ec008c0729c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our seller services department.",
+                                        "fileID": "77fd751b2d9646a99962edd65dd4b276"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "749c4701cd524bb59756250e3276d377",
+                                "navigationGoals": [
+                                    "List my extra tickets for sale for the upcoming game",
+                                    "I want to list my extra pair of concert tickets for sale.",
+                                    "Upload a new listing for four playoff game tickets using dynamic pricing algorithms at 10% below face value.",
+                                    "I want assistance listing two event tickets I\u2019m selling.",
+                                    "I want to list two extra tickets for the astrophysics outreach event next month."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For seller dashboard and payout inquiries, press 2.",
+                            "fileID": "6ac6117dafc34d49a4766c325d9ac189",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please remain on the line while we connect you with seller support.",
+                                        "fileID": "d89f2596ac98418ca0ee89bebb15f3a2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e024ff7e4b1c47ce8df17d48d40ad469",
+                                "navigationGoals": [
+                                    "Confirm that my seller payout has been processed and view my dashboard details",
+                                    "I need to check my seller payout and bank deposit timing for my recent ticket sale.",
+                                    "Access my seller dashboard to review recent sales metrics and initiate an ACH payout to my bank account.",
+                                    "I need to find out when I\u2019ll receive my payout for sold tickets.",
+                                    "I\u2019d like to access my seller dashboard to see the payout details for the particle physics workshop tickets I sold."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "64a3739c4cd74f21afae9d8403bc1cb7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4955a1a3518c44409a078720106e9c96",
+        "navigationGoals": null
+    },
+    "id": "895930ca2f72451482c6807fea899d67",
+    "navigationGoals": null
+}

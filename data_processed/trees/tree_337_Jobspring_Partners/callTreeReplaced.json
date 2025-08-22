@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Jobspring Partners in San Francisco, your tech talent recruitment specialists.",
+            "fileID": "8f252f63deb74a7591e7a52bcc7305e6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an IT professional seeking new opportunities, press 1.",
+                "fileID": "e0da13a19ec747ab84e8e4b8edb5cecc",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To browse our current IT job openings, press 1.",
+                            "fileID": "17f88e09e3cb46cc9efc508145e43563",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a moment while we retrieve our latest IT job openings.",
+                                        "fileID": "a4557f84324b43c9a4eed973c015fc2e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d0aa233e98ed46a5b41a65350d1e1627",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak directly with a recruiter about your resume, press 2.",
+                            "fileID": "9f16b1679dfb42c4977cdf637f7921e1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruiter to discuss your resume.",
+                                        "fileID": "6a26b0b0a2bb4339bbf8e2f381767797"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d9da1369e94e47498037a54516099bd8",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "03c37fdcbbb642efa69b04e9230812c6",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an employer looking to hire IT talent, press 2.",
+                "fileID": "ddacc7baf06b492b83833a801aea043f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss your company\u2019s IT staffing needs, press 1.",
+                            "fileID": "64b1d4a428114c4caaf64f14803d29c4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to one of our staffing consultants.",
+                                        "fileID": "189a2f0227844f5c9b40196725061a0d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4f31637b93d54687987a5fcc3d935ced",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn about our placement process and fees, press 2.",
+                            "fileID": "4abdc903ac7f4efabe7c97db73925f0a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our client services team to explain the placement process.",
+                                        "fileID": "cb6b2aac890d4a269f6540b40d278626"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b6311c78d88e4a41a86a19493e42f478",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "53da7d030ccf44b9ac3457410a48eda0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "01c6937e5d2e4e1b962345a9c7aa4d1b",
+        "navigationGoals": null
+    },
+    "id": "4cbb3e0f470749b3afdd0fbcaa9a7c04",
+    "navigationGoals": null
+}

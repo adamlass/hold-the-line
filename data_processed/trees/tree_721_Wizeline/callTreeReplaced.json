@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Wizeline, your global product development partner based in San Francisco.",
+            "fileID": "ea5df23621d44f87ba80033d1820a757"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For our services and solutions, press 1.",
+                "fileID": "dc6731236f394c60993cec380c36e61a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For design and user experience services, press 1.",
+                            "fileID": "1d689f25bfe744f5abce4e1482b0a294",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our design experts.",
+                                        "fileID": "f98d5a0edb934708801eb0b73ba35aa9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "57d123ca7f1348ee9f7b38c7bfa3534b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For engineering and technology development, press 2.",
+                            "fileID": "ed3269d35b8d4045937348c3053d35c8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our engineering team.",
+                                        "fileID": "b0e1c03d1a70430e8150266def990841"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e7d76ceabb5f4686b157b3e2015c788f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c6a722ece18344758db83b2e4bbe3e43",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and support inquiries, press 2.",
+                "fileID": "e97c4fe44285462fb37be7601e011f53",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team about new projects, press 1.",
+                            "fileID": "e63ebaf270ff41b49f39c76d91f3bd2d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales representative.",
+                                        "fileID": "8eaddf4feb27418f8c432b682d0fbe73"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "02dc01661a7b4cf78cede51d496dc637",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support and existing projects, press 2.",
+                            "fileID": "7ef9c39ac7a14049b3e23f22c1e5a09c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support team.",
+                                        "fileID": "8d9ca7c4ebc24e2d9215a2ab484b7b48"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "052d15747e6f4ddfa3a32a1ff1f2dc52",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "92476b9976244a54836c436984e1c76c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "0aa3c99c05ed4462bfdad17160618959",
+        "navigationGoals": null
+    },
+    "id": "30c37f443b6d46b39b725225acac0cce",
+    "navigationGoals": null
+}

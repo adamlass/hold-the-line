@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Netflix South Bay, your gateway to movies and TV shows on any device.",
+            "fileID": "1d0667d5cc0a47d68e16e96d6542bda9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For account and billing assistance, press 1.",
+                "fileID": "f488fe267c8b4b7da3315db9cc5462f7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For subscription and plan options, press 1.",
+                            "fileID": "b270394a2a434da0abaabe65e45d20c9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a subscription specialist.",
+                                        "fileID": "eb1a661227be46fd9dd32ef2349ded49"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d638bdc0cac1424fbacdab66e197f8c7",
+                                "navigationGoals": [
+                                    "Upgrade my plan to Premium with Ultra HD and four simultaneous streams",
+                                    "I want to switch my plan from Basic to Premium and apply the military discount.",
+                                    "I want to review available subscription tiers and upgrade to the plan with the highest streaming bitrate.",
+                                    "I\u2019d like to switch to a cheaper Netflix plan",
+                                    "I\u2019d like to review my current subscription plan and explore any available student pricing options."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For payment and billing questions, press 2.",
+                            "fileID": "7ca53b5fec284767b4d09509f7d8232a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "1a5d6042efa547a88acad48df68b49ed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "637770d9559545ba81d0111f439f723f",
+                                "navigationGoals": [
+                                    "Clarify a double charge on my latest Netflix bill",
+                                    "I need to update my expired credit card so my next subscription payment goes through.",
+                                    "I need to update my payment method and reconcile a recent billing discrepancy on my account.",
+                                    "I need help understanding an unexpected charge on my account",
+                                    "I need to update my payment method and clarify an unexpected billing charge on my account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e965a172de8f4f4b90a9514e80a0541a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and streaming help, press 2.",
+                "fileID": "c1d7ab4d690a48baaf2c06e684e6ebfb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are experiencing streaming or playback issues, press 1.",
+                            "fileID": "52729e4230fa49499ac120d1f5ee79b1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a streaming support agent.",
+                                        "fileID": "d3e1de06594647c3b4c6937e8ba65520"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b5ef5d027d7449b0b2e549793c451fb5",
+                                "navigationGoals": [
+                                    "Resolve constant buffering issues when streaming shows on my laptop",
+                                    "My shows keep buffering on my tablet and I need streaming help.",
+                                    "I\u2019m experiencing frequent buffering and resolution drops during playback\u2014looking for network diagnostics and streaming troubleshooting.",
+                                    "My show keeps buffering and won\u2019t play properly",
+                                    "I\u2019m experiencing repeated buffering and playback interruptions on my laptop and need help troubleshooting."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For device setup and compatibility questions, press 2.",
+                            "fileID": "90acd0f4717c4e38a43740f5959bd9ac",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support for device setup.",
+                                        "fileID": "6f92afada4564c319f2da82b641dbcf0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ca81434d9b7943878c02e9585de5068e",
+                                "navigationGoals": [
+                                    "Help me install Netflix on my new Roku streaming stick",
+                                    "I just bought an Amazon Fire Stick and need help setting up Netflix on it.",
+                                    "I need help configuring Netflix on my new device and ensuring proper codec compatibility.",
+                                    "I need assistance setting up Netflix on my new TV",
+                                    "I need guidance setting up Netflix on my new smart TV and confirming it\u2019s fully compatible."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e5c2c7f8f8f743bc9ee085e32feb6c51",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b559468f46e84379af9cef2651774f9d",
+        "navigationGoals": null
+    },
+    "id": "0e7147a02d4140888351f3d35bbb2918",
+    "navigationGoals": null
+}

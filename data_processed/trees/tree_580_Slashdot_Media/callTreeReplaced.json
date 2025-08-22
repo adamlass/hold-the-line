@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Slashdot Media, the global leader in professional technology communities.",
+            "fileID": "0776ef8ac5d3430a9c3201c50fe59f4e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For community and editorial support, press 1.",
+                "fileID": "ee149fb192274dcabf336706ca64d710",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our editorial team, press 1.",
+                            "fileID": "23441f81324a4f4faea3b1703811913e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our editorial specialists.",
+                                        "fileID": "9fcdf10449d64817a42f499076749a91"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7d741d015da745cc958fbe9a11966342",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To reach account and subscription support, press 2.",
+                            "fileID": "aa59e8a490e84e1789b3e75d2f621f92",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account support team.",
+                                        "fileID": "0358e2ee831c4332a667efdc96d33253"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "57e92a35c0504c8093c0d201637ffb1c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "db6f2afa8dea4f1dbe3936ffc0654103",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For advertising and partnership inquiries, press 2.",
+                "fileID": "f2e464cbab6043afbfad8742eedcb301",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss advertising opportunities, press 1.",
+                            "fileID": "0c5d957b10d9440398db8d4773577b47",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our advertising sales team.",
+                                        "fileID": "cd179e0dbf55450fbac1303da0ad284c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bd0ef4f460444ffe800614980733bad2",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To inquire about media partnerships, press 2.",
+                            "fileID": "ba91b4ebd4704dfdad126a1e00848133",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships department.",
+                                        "fileID": "38009a49432f43bd88ee2cb5c00191d4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6b54461a9450444f9a987b6ba9421c65",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "079bfd4952b649d4bab814ca70c8ce54",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5db0e46f5ee34bc99b5580ba0daa3f2e",
+        "navigationGoals": null
+    },
+    "id": "ee4432acf0384ed29180060cf003705f",
+    "navigationGoals": null
+}

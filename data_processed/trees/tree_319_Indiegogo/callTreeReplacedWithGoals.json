@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Indiegogo in San Francisco, your gateway to groundbreaking tech and design innovations.",
+            "fileID": "1e6ec49f83eb4eae88522e5a63367d95"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To discover new products or manage your orders, press 1.",
+                "fileID": "f29453d890aa4f3ea82293f221ee628b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To browse our curated tech and design innovations, press 1.",
+                            "fileID": "a5c551f9db3049158e233eed0e62f8c5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product discovery specialist.",
+                                        "fileID": "fd17e03923564ecd8b0dda7e2412ad11"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7dfa1f62626143d5ba753be1c40a876d",
+                                "navigationGoals": [
+                                    "Find details on the newest productivity gadget launching soon",
+                                    "I want to browse new assistive tech gadgets for disabled veterans.",
+                                    "I want to consult with a product discovery specialist about emerging IoT prototypes and hardware accelerators.",
+                                    "Please help me browse your latest tech and design projects.",
+                                    "I\u2019m looking to discover cutting-edge lab equipment prototypes."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To track your order or check shipping status, press 2.",
+                            "fileID": "14a7b245233f499eb1b89f3465a08dd4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to order support.",
+                                        "fileID": "ba46249bb947473d92968dabecfde546"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e5b7a4b39f124154b0e1d48262ac6d58",
+                                "navigationGoals": [
+                                    "Check the shipping status of my recent order",
+                                    "I need to check the shipping status of a tactical headset I funded.",
+                                    "I need to retrieve the tracking ID and ETA for my microcontroller development kit order.",
+                                    "I\u2019d like to track the shipping status of my recent order.",
+                                    "I need the latest shipping update on my ordered oscilloscope module."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "279d47d411bb475f9e00d149240a4fb5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To launch a campaign or get creator support, press 2.",
+                "fileID": "3b7478628b7f43b89c13e8e9409ae901",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start a new crowdfunding campaign, press 1.",
+                            "fileID": "f5ff9d68dd194a089cd70dab6941dbd8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our campaign launch team.",
+                                        "fileID": "ee2799b3bdc94c9db2dfebec410384df"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "88cc7381700e4972a83c7edb345ce931",
+                                "navigationGoals": [
+                                    "Set up a new crowdfunding campaign for my smart-home prototype",
+                                    "I\u2019m looking to launch a crowdfunding campaign for my veteran-led outdoor therapy program.",
+                                    "I want to launch a new crowdfunding campaign for my open-source robotics platform.",
+                                    "I want to start a new crowdfunding campaign and need guidance.",
+                                    "I\u2019d like to start a crowdfunding campaign for my novel sensor design."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account, billing, or campaign questions, press 2.",
+                            "fileID": "96561fcc3a844dce8f3e652205270cf7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to creator support.",
+                                        "fileID": "4e82b4e6402c4259b751905bed27bc50"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8c1b8612fe724d34873dc43bb053cdf8",
+                                "navigationGoals": [
+                                    "Resolve a billing issue on my active campaign",
+                                    "I need help updating billing details and budget info on my veterans housing project campaign.",
+                                    "I need assistance adjusting billing settings and API usage limits on my creator account.",
+                                    "I have questions about billing and my campaign account.",
+                                    "I have a billing question about campaign fees before I launch a project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f8c179d0a52745a2b69ad8c6905ee3b5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8ceb82905f8242dbb3f160511b2f3927",
+        "navigationGoals": null
+    },
+    "id": "2679f4e667b04a3aac62861f32f8a485",
+    "navigationGoals": null
+}

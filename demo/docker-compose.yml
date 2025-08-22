@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  whisper-demo:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: whisper-titans-demo
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount the training data directory from the host
+      # The app expects data at ../data/trainings, so we mount to /data/trainings
+      - ./data:/data
+      # Optional: mount for logs
+      - ./logs:/app/logs
+    environment:
+      - FLASK_ENV=production
+      - PYTHONUNBUFFERED=1
+    networks:
+      - whisper-net
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.whisper-demo.rule=Host(`holdtheline.ai`)"
+      - "traefik.http.services.whisper-demo.loadbalancer.server.port=8000"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    # Resource limits for Raspberry Pi 4 (optional, adjust based on your Pi's RAM)
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+        reservations:
+          memory: 512M
+
+  # Optional: Nginx reverse proxy for better performance and SSL termination
+  nginx:
+    image: nginx:alpine
+    container_name: whisper-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+      - ./nginx-cache:/var/cache/nginx
+    depends_on:
+      - whisper-demo
+    networks:
+      - whisper-net
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  whisper-net:
+    driver: bridge

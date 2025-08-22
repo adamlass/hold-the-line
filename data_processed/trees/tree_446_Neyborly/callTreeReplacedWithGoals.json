@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Neyborly, San Francisco's vibrant coworking and event space.",
+            "fileID": "c9760b2a0475434883fe2bb1b93d8c5f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To reserve a venue for an event, meeting, party, or popup, press 1.",
+                "fileID": "37e7d8afa9954da7a43aa521963aa273",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing and availability, press 1.",
+                            "fileID": "a1f602b178bb4a08b2ceb2547a19c41f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to pricing and availability information.",
+                                        "fileID": "8c12915689ee469a90079d46796a2bfe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "36e87801afa4476ebb2c99693f314b79",
+                                "navigationGoals": [
+                                    "Find out rates and availability for renting an event space.",
+                                    "I\u2019d like pricing and availability to reserve a meeting space for my local veterans support group.",
+                                    "Retrieve pricing and availability for booking an event venue",
+                                    "I want to know pricing and open dates for booking a room for a family gathering.",
+                                    "Check rental rates and available dates for booking the event venue."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with our event team, press 2.",
+                            "fileID": "92c29ddd02c04445801bed8dbdc75e4c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our event team.",
+                                        "fileID": "9cd988da87b34d86b92b9ff65cc63191"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9d2be04ce9994dc59cea3ceba0c5f63d",
+                                "navigationGoals": [
+                                    "Speak with an event coordinator to plan a private gathering.",
+                                    "I need to speak with your event team about hosting a fundraising event for veterans.",
+                                    "Connect me to the event coordination team to discuss event logistics",
+                                    "I need to talk with someone about planning an event at your venue.",
+                                    "Speak with the events team about customizing and reserving a space for my event."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "117e21a9025e43dbb8cd4dff7d1bd4bd",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For coworking membership details and workspace options, press 2.",
+                "fileID": "c81221dbdbb947249748b0ed2509f3af",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For membership plans and rates, press 1.",
+                            "fileID": "cd73dc235b454689a566b6bb4811fb50",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to membership plan details.",
+                                        "fileID": "78fd7976235a403f9f4f4b22067e2685"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7e3dc9bf365540168b1631461a8ad338",
+                                "navigationGoals": [
+                                    "Get details on membership plans and pricing for coworking.",
+                                    "I want details on your coworking membership plans and rates, including any veteran discounts.",
+                                    "Obtain details on coworking membership tiers and rate structures",
+                                    "I\u2019d like information on coworking membership plans and their costs.",
+                                    "Review coworking membership tiers, pricing, and included benefits."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a tour of our workspace, press 2.",
+                            "fileID": "04930dea1bc04b688cef06e2be455587",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we arrange your workspace tour.",
+                                        "fileID": "7a07ae373bbf4a618c287c61a602e3d4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "255b562562d740e48b87247278b88361",
+                                "navigationGoals": [
+                                    "Schedule a tour of the coworking workspace.",
+                                    "I\u2019d like to schedule a tour of your workspace to see if it meets my needs as a veteran.",
+                                    "Schedule a workspace site tour",
+                                    "I\u2019d like to arrange an in-person tour of the workspace.",
+                                    "Schedule an in-person tour of Neyborly\u2019s coworking workspace."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3c5495fa4c364260a0f8ab0eddb2519c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b2e8e8b3e72a4ead9e48be100e841e09",
+        "navigationGoals": null
+    },
+    "id": "1179895fabc345e98a08d01bada37172",
+    "navigationGoals": null
+}

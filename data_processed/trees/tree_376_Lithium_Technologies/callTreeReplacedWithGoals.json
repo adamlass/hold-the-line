@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Lithium Technologies in San Francisco, your partner in engaging retail consumers at every point of the buyer\u2019s journey.",
+            "fileID": "c0609bbda2e24f899c3054b98d713f11"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an existing client and need technical assistance or account support, press 1.",
+                "fileID": "c0d1aef20a8446f283d4bef46a88f871",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with our engagement platform, press 1.",
+                            "fileID": "63cb20d6c7ea46c3b68dd8234c439e86",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience; a technical support specialist will be with you shortly.",
+                                        "fileID": "f2c93fcfbb4f4d78a43cb67b44d8c246"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9fcedc41bd834be0a861faa741a66464",
+                                "navigationGoals": [
+                                    "I need help resolving an integration error on our engagement platform dashboard.",
+                                    "I need help fixing an error in my engagement widget on our website.",
+                                    "Troubleshoot OAuth2 token refresh failure in the engagement platform API.",
+                                    "I need help troubleshooting an issue on my engagement platform.",
+                                    "I need help troubleshooting an error in my engagement platform metrics."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "8185d0bba70c4c15b476c3959d057b23",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience; an account specialist will be with you momentarily.",
+                                        "fileID": "54b530d2e9bc4e3c803af60194925836"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5807644d18ca4e95a76fd1e651320fb7",
+                                "navigationGoals": [
+                                    "I\u2019d like to review my last invoice and upgrade our support plan.",
+                                    "I have questions about unexpected fees on my recent invoice.",
+                                    "Clarify unexpected overage charges on our monthly account invoice.",
+                                    "I need assistance understanding and paying my latest invoice.",
+                                    "I need to update my department's billing information and clarify the charges on our last invoice."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c11e280c1d054941811451ca22e04a25",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are interested in our e-commerce engagement solutions or wish to speak with a sales representative, press 2.",
+                "fileID": "7ca3c4aa376741e8a14ce6bfdae13692",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative about our services, press 1.",
+                            "fileID": "abbcb234638e4fda9779e2c7528e16ea",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please; a sales representative will be with you shortly.",
+                                        "fileID": "190b7c98db584c87af4dffb1ab71e5cf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f08c0adaeb844b56b1ae47e3f119da57",
+                                "navigationGoals": [
+                                    "I want to get pricing details and options for your e-commerce engagement solution.",
+                                    "I'd like to speak with a sales rep about pricing for your e-commerce solutions.",
+                                    "Discuss pricing and integration of your e-commerce personalization API.",
+                                    "I\u2019d like to speak with someone about purchasing your engagement solution.",
+                                    "I'm evaluating your e-commerce engagement solution for our campus bookstore and want to discuss options."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a product demo or webinar, press 2.",
+                            "fileID": "fb3270f2af03443c9b4f85bc6a78722a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we arrange your demo; we appreciate your interest.",
+                                        "fileID": "09b3d8e6354c439bb8924dbc033960ed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ea63e8b6d5e94e5ea06217b2f4df7a5d",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a live demo of your community engagement tool.",
+                                    "I want to schedule a demo of your latest engagement platform features.",
+                                    "Schedule a technical deep-dive demo of your GraphQL analytics plugin.",
+                                    "I want to schedule a live demo or webinar of your product.",
+                                    "I'd like to schedule a product demo for academia-specific features of your engagement platform."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "651e970dc7724c47b58cf673a1ea2ad3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "82d3ee2827304a88a26f6d5a0597b597",
+        "navigationGoals": null
+    },
+    "id": "eac97030e2e246c286c1486773af5b29",
+    "navigationGoals": null
+}

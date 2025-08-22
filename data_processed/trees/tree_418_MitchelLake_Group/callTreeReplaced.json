@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling the MitchelLake Group in San Francisco, your partner in executive search, consulting, and on-site recruitment solutions.",
+            "fileID": "60212bd964784d61ae043e2211defed5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For executive search and consulting services, press 1.",
+                "fileID": "dc916ed4b3814943a277192f730541c5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For candidate placement and leadership searches, press 1.",
+                            "fileID": "dbf96c3707594ac380aa9e9cb9aa59cc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an executive search specialist.",
+                                        "fileID": "6f39ef6544bc4bdcbbcc479116a6e2d0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b22d44073aa14225ae5e398759b2f1aa",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For talent strategy consulting and advisory, press 2.",
+                            "fileID": "51ae44ac4a9a479591126cdb068e5151",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our consulting team.",
+                                        "fileID": "c1336c7fc7fd4313a25b189400f4d990"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ad9b071f367f49ce9beb4b6bac0a5d1b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ead6d34923384fa1b4b0f3f5aa536ba7",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For on-site recruitment and staffing solutions, press 2.",
+                "fileID": "fd13fb8c842b4f5dbffa7eda7f9eb04e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For project-based on-site recruiting support, press 1.",
+                            "fileID": "6d2367bcd67049a4ae29df849b43bdf9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our on-site recruitment team.",
+                                        "fileID": "1e728120b9a04e0897be33680f665f3f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2f33d4c2240a4183bd9c1fbbd8c5afbc",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technology innovation talent solutions, press 2.",
+                            "fileID": "20293226538144b0b7194580107c615e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to a technology talent solutions specialist.",
+                                        "fileID": "cf1f11a9b23c4359a7ae7a4917ea395e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e5c67c30fa364631b3442eea619e95dc",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2d64e135b26244f3bd59b766a791c412",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "455bfcf1aa8c453bb85e10a57b517b57",
+        "navigationGoals": null
+    },
+    "id": "7a72dbf9fbcd416d8e92d6c1013fa224",
+    "navigationGoals": null
+}

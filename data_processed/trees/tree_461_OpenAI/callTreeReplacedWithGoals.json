@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to OpenAI in San Francisco, where we\u2019re discovering and enacting the path to safe artificial general intelligence.",
+            "fileID": "b5a59a7824944874b2df34cfe28e53de"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For research and partnership inquiries, press 1.",
+                "fileID": "18a8c7badeee45b491183101d772fb18",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our latest AI research breakthroughs, press 1.",
+                            "fileID": "92fb3e051bba4b5aa13e6c5e914772b1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our research team.",
+                                        "fileID": "b1f91580dcfb48b3840676dec1d6f15e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "504e531fe49643bbaa73ea798b77dcd3",
+                                "navigationGoals": [
+                                    "I need a concise update on OpenAI\u2019s latest AI research breakthroughs.",
+                                    "Learn about OpenAI\u2019s current research on AI-driven mental health support for veterans",
+                                    "I\u2019d like an in-depth briefing on OpenAI\u2019s latest model architectures and research methodologies.",
+                                    "I\u2019d like someone to explain OpenAI\u2019s latest research findings to me.",
+                                    "Ask for an overview of OpenAI\u2019s newest research relevant to physics simulations"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss partnership opportunities with OpenAI, press 2.",
+                            "fileID": "556f79145bc940b8bd798930ca6aedff",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships department.",
+                                        "fileID": "e0e20f1e40794edfbe90971f6cd45e18"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0c3a99fb3bbd417398e7903166ae432a",
+                                "navigationGoals": [
+                                    "I\u2019d like to explore a partnership opportunity between my company and OpenAI.",
+                                    "Explore partnering with OpenAI to build AI tools for veteran reintegration programs",
+                                    "I want to explore a strategic partnership to integrate OpenAI\u2019s models into our enterprise AI roadmap.",
+                                    "I want to speak with someone about partnering my organization with OpenAI.",
+                                    "Explore a potential collaboration between my university lab and OpenAI"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "73a117d448eb4040aa8fcdc9da0586f0",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For API services and developer support, press 2.",
+                "fileID": "ef8eb64ce86943d4924dd682de8ba1dd",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For API access, pricing, and billing questions, press 1.",
+                            "fileID": "0fe19883f0a14ff0a8a1a3b995629b9b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our API support specialists.",
+                                        "fileID": "b1a1398fe96143a49bede3c83efcc4ab"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "90382a56c003411e8830fb7977e733c5",
+                                "navigationGoals": [
+                                    "I need details on OpenAI API pricing tiers and how to adjust my subscription.",
+                                    "Obtain API pricing and sign-up details to develop a PTSD support chatbot",
+                                    "I need details on API access tiers, rate limits, and enterprise billing structures.",
+                                    "I need help understanding OpenAI API pricing and billing.",
+                                    "Inquire about student pricing and access tiers for the OpenAI API"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical troubleshooting and integration assistance, press 2.",
+                            "fileID": "57adf0a5121a4382afb3be702e0d832b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "7c521bcd458f41a08675e8293d777213"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2143006e70444eadbed5bbd792f31d16",
+                                "navigationGoals": [
+                                    "I\u2019m encountering errors integrating the OpenAI API and need technical assistance.",
+                                    "Get help troubleshooting integration of the OpenAI API into my veteran assistance app",
+                                    "I'm troubleshooting OAuth token errors in my Python integration and need technical support.",
+                                    "I\u2019m having trouble setting up the API and need technical assistance.",
+                                    "Request assistance integrating the OpenAI API into my physics data analysis code"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ae57eb61aef440f0be1b62a25bf606ab",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bd7d96cf089d49cdbf09badfedb073ea",
+        "navigationGoals": null
+    },
+    "id": "baa5d7b37c18424da5c97473fd04a28b",
+    "navigationGoals": null
+}

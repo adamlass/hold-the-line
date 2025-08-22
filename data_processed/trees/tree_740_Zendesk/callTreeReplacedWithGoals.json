@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Zendesk, the cloud-based customer service platform trusted by over 200,000 organizations worldwide.",
+            "fileID": "e079ba95518a4696a2ad75d4735a8004"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and pricing information, press 1.",
+                "fileID": "7949fcf222334389bdbb52e4c19515b4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To inquire about purchasing a new subscription, press 1.",
+                            "fileID": "ee539dbdc736414e9c4ab0fa42bab4f2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "13c8199e461e48c99b25711f336e7206"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c2a1a9e8de2742af9a10d3726184f39d",
+                                "navigationGoals": [
+                                    "Obtain a quote and purchase a new Zendesk subscription for my team.",
+                                    "Ask about pricing and veteran discounts for a new Zendesk subscription",
+                                    "I want to compare subscription tiers and get enterprise pricing details for a new Zendesk plan.",
+                                    "I\u2019d like to purchase a new Zendesk subscription and understand the pricing options.",
+                                    "I\u2019d like to explore subscription options for a personal student plan to manage my lab inquiries next semester."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "e8bc99dea6014b3394a2a548a762736d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "bdfe23fb49334ab9884e9b06d421a69e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "02ae3a2686a149a3a538490bc29c44f1",
+                                "navigationGoals": [
+                                    "Clarify unexpected charges on my latest Zendesk invoice.",
+                                    "Review my billing statement and inquire about applying a military discount",
+                                    "I need to review my recent invoice charges and update my billing payment method.",
+                                    "I have questions about my recent bill and need help with my account\u2019s billing details.",
+                                    "I have questions about my current billing statement and need to verify the charges on my account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4ea5d0eb5bcb45998f1f3c85f6a66a0e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and troubleshooting, press 2.",
+                "fileID": "cdd2f3e1622e482699f87301f04a97a7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are experiencing issues with ticket submission, press 1.",
+                            "fileID": "80359bdb5cd2426a93fbbb76ab69726e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "08d9fd6584dd48b28872d4ab076c4cbe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a3cf19ee69d84b40bce55fa0ab760b7e",
+                                "navigationGoals": [
+                                    "Troubleshoot why tickets won\u2019t submit in my Zendesk account.",
+                                    "Resolve an error I'm getting when submitting support tickets",
+                                    "I'm encountering a 400 Bad Request error when submitting tickets via the API and need troubleshooting.",
+                                    "I\u2019m unable to submit a support ticket and need assistance with the ticket submission process.",
+                                    "I\u2019m experiencing issues submitting new support tickets and need assistance troubleshooting the error."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For integration and API assistance, press 2.",
+                            "fileID": "1092c702d28746538c74ee3ab400c627",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our integrations specialist.",
+                                        "fileID": "99895d1128124f1c80f5d43a00dd3e10"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "272e8aab20f1465680d98c1a21c9bc98",
+                                "navigationGoals": [
+                                    "Configure Zendesk API integration with our internal tools.",
+                                    "Set up Zendesk API integration with my existing veteran support system",
+                                    "I need help configuring OAuth authentication and webhook integrations for the Zendesk API.",
+                                    "I need help configuring Zendesk\u2019s integration and API for my system.",
+                                    "I need help integrating the Zendesk API with our laboratory management software for automated ticket tracking."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4bf73baf09aa450b95fd94d0c2af8d8c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "455730d219a24f349dfe593d13b98ff9",
+        "navigationGoals": null
+    },
+    "id": "2c827fe61e8942b58b0c43cb4886011a",
+    "navigationGoals": null
+}

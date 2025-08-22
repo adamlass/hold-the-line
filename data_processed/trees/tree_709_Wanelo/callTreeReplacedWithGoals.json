@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Wanelo in San Francisco, where we bring you all the best stores in one place.",
+            "fileID": "db374604aa1e40ff9772ba06379d6c32"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For browsing our curated stores, press 1.",
+                "fileID": "a843469ea7bf476a9c67b44a9f827ce8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear today's top deals and featured stores, press 1.",
+                            "fileID": "b2de26a45b1040d5b131ec392b35b758",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the latest featured deals for you.",
+                                        "fileID": "f3ee06f18170477fbb66d76a0579dade"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "36fc71d0c8614b78b893be03214ee3f9",
+                                "navigationGoals": [
+                                    "Quickly view today\u2019s top featured deals",
+                                    "Find today's featured promotions, especially veteran discounts",
+                                    "Fetch today\u2019s featured deals from Wanelo\u2019s curated store feed.",
+                                    "I\u2019d like to hear about the current special offers and discounts you\u2019re featuring.",
+                                    "I\u2019d like to hear today\u2019s highlighted promotions."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To search for a specific store by name, press 2.",
+                            "fileID": "0cc3c843f2e942aabcdf80074f376ad1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we set up your store search.",
+                                        "fileID": "65dbc7e44cf2405793d2924dfbf77b60"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b5880bd6005c407095e37bc1b7feed1c",
+                                "navigationGoals": [
+                                    "Locate the Nike store by name",
+                                    "Search for a store selling tactical gear",
+                                    "Perform a name-based store query for a specific retailer in Wanelo.",
+                                    "I\u2019m trying to find a store named Green Valley Grocery in your directory.",
+                                    "Please locate the store named Quantum Lab Supplies."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "73b0384f5e454a6ba1a592ed9d6c901c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account and support services, press 2.",
+                "fileID": "3400a9f8a48244a0868c4918faa02abc",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with your account and orders, press 1.",
+                            "fileID": "9c47b02167ce452f9fa90a38038c6b96",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for holding. We will connect you to an account specialist shortly.",
+                                        "fileID": "1a8f0a20158f4219b907cf0096485611"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "609b4487ee74469fba37e0d72d8bfd3c",
+                                "navigationGoals": [
+                                    "Check the status of my recent order",
+                                    "Discuss an issue with my recent order and account details",
+                                    "Connect with an account specialist to troubleshoot my login and order status.",
+                                    "I need help checking on the delivery status of my most recent order.",
+                                    "I want to check the status of my recent order."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support, press 2.",
+                            "fileID": "914edcf965604ca98020c6d1604869d0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please remain on the line while we connect you to technical support.",
+                                        "fileID": "96541e531b78477092ed7a609e451484"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bb538bcc93124875b334d59f10698de9",
+                                "navigationGoals": [
+                                    "Fix a login issue with my account",
+                                    "Resolve a technical problem with my account login",
+                                    "Get technical assistance for the app\u2019s connectivity or API error.",
+                                    "I\u2019m having trouble logging into the app and need technical assistance.",
+                                    "I need help troubleshooting the app crashing when I browse deals."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bd381a61cf1a43e8914fd2e9b7b7b8b2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "58282da0da6548b1b6b1c4ca71357008",
+        "navigationGoals": null
+    },
+    "id": "8bd8c78d848e4a68884c34326887f8ba",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Slalom Consulting in San Francisco, where we help you solve business challenges and build for the future with advisory, experience, technology, and analytics.",
+            "fileID": "e230da0e26ed481891849bc150a47ef6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Business Services, including advisory and customer experience, press 1.",
+                "fileID": "f8067a9dadbc4b5886113e22b38e12ee",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For Business Advisory, press 1.",
+                            "fileID": "e94d7604a37e43458696a55d5aa89ef4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Business Advisory team.",
+                                        "fileID": "7e9dda73d5944c6ebe6bcfd40c72f6f0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8cedad683264459184def7613cde9947",
+                                "navigationGoals": [
+                                    "I need guidance on optimizing our organizational strategy",
+                                    "I need strategic advice on scaling my veteran-owned consulting business.",
+                                    "I want to discuss designing an agile operating model and change management for our digital transformation roadmap.",
+                                    "I want advice on refining my business plan for my family-run shop.",
+                                    "I need strategic advice on commercializing my lab's new solar cell prototype."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For Customer Experience and Marketing, press 2.",
+                            "fileID": "8f048dc786514d0299fe69b55df42eae",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Customer Experience and Marketing specialists.",
+                                        "fileID": "64239529a48149e0a333f18a6070916a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ce328ad4ff3e474c9d1df53b77df3a51",
+                                "navigationGoals": [
+                                    "I want to improve our online customer journey to increase engagement",
+                                    "I want help developing a marketing strategy for my nonprofit veteran support organization.",
+                                    "I need to explore implementing a personalization engine and micro-segmentation to optimize our customer journeys.",
+                                    "I need help creating a simple marketing strategy to attract more local customers.",
+                                    "I want help promoting our university physics club's outreach event."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6ad310eecce447e29110f4a044d408f9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technology Services, including software development and analytics, press 2.",
+                "fileID": "2499bc9b14bc40429c6a5cefa23b71de",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For Technology Implementation and Software Development, press 1.",
+                            "fileID": "a0e293a68f4a4932a9f027d76f17cdcb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Technology Implementation and Software Development team.",
+                                        "fileID": "a9f8277b9b5b40389491719ba5225a77"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9117300de0144b24bd29ebe71e6e635c",
+                                "navigationGoals": [
+                                    "I need to set up a new mobile app development project",
+                                    "I need assistance building a job-matching app for veterans transitioning to civilian careers.",
+                                    "I want to plan a cloud-native microservices architecture with CI/CD for our new platform.",
+                                    "I\u2019d like assistance choosing and installing a basic software system for my appointments.",
+                                    "I need assistance building software to run my particle simulation experiments."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For Analytics and Data Insights, press 2.",
+                            "fileID": "25bc0945d9484ee9954a6e8d99adac0f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Analytics and Data Insights team.",
+                                        "fileID": "dcce056faa02403c87cbc89bf847f42c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b7ee08b16f414ab2bc094727712f3072",
+                                "navigationGoals": [
+                                    "I need help analyzing customer churn trends in our sales data",
+                                    "I\u2019m looking for data insights on veteran employment trends to measure my program\u2019s impact.",
+                                    "I need help setting up a real-time data pipeline with predictive analytics and ML ops integration.",
+                                    "Please help me understand my recent sales data and generate easy-to-read reports.",
+                                    "I need support analyzing the large dataset from my accelerator experiment."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a8b07655e8d740ee89235eedae35b3a9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ccdff85a4fdf4c348415ac931ec38356",
+        "navigationGoals": null
+    },
+    "id": "0d5d1943df7e4a1f8480b839a1825af7",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to GrowthX in San Francisco, where we deliver capital, talent, and know-how to help your company grow.",
+            "fileID": "3ee1e3d7d467498b90f75bc7d57275f3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our venture capital team, press 1.",
+                "fileID": "aac862729fc74345a3f33cc7adcc2e72",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new investment opportunities, press 1.",
+                            "fileID": "26d98964e1d94e56afa7e1c105f58457",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our new investments team. An associate will be with you shortly.",
+                                        "fileID": "daba26191e8d4a58bc73176624770d97"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f5ae5056cb9f4903b1f459d7b7ee7d31",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For support with your existing GrowthX investments, press 2.",
+                            "fileID": "5f9c6d4aa1a145e2a3b6ebd37e2eecea",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our portfolio support team. Thank you for your patience.",
+                                        "fileID": "d1a85b7f37b7474c80bfde5020ce70f8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5c2830b3fbb44e998f7d2a33bfd0b604",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "92054945b0404d7892015b0fbf3eb830",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To learn about our educational programs and talent development services, press 2.",
+                "fileID": "9091f8881f724e77bbead08f4a607f51",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on our public training programs and workshops, press 1.",
+                            "fileID": "5aad75bd0bbd4797812406a95f6e4d62",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our education and training team. We\u2019ll be right with you.",
+                                        "fileID": "74dc362fa5b54d89a672e8ce54aecb15"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "260d6c8f579e4d64881812699ec2e9a9",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For corporate training solutions and talent development, press 2.",
+                            "fileID": "36051e3c57fa48169e7edb142013c2c4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our corporate talent services team. Your call is important to us.",
+                                        "fileID": "acc2fc592b0141bfbbeb1b51b4e3083a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "336f228ddae44dc29056d1ce1fdee4a6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1fcedb0656714b3e91cdcb98eefc2e75",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "fbcc360c2e5942aaba5f1f4a3d6f44d5",
+        "navigationGoals": null
+    },
+    "id": "e1b7b23904ae4a948b3043acae9a7c32",
+    "navigationGoals": null
+}

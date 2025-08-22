@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to ASUS South Bay, your local destination for cutting-edge ASUS notebook support.",
+            "fileID": "5f81005da4074006a0346fd06782c814"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support and repairs, press 1.",
+                "fileID": "814b9abe6cd84e5694da60588895f942",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For software troubleshooting, press 1.",
+                            "fileID": "048c1e75db844bffb30dae8458ccd0a4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our software support team.",
+                                        "fileID": "c2c56478f89348a883cb9709d05f3eed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "43862d781ce64060bb813e0ba93bfc59",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For hardware diagnostics and repairs, press 2.",
+                            "fileID": "e625f8b558bf4958a83a492b1a0bb16a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our hardware repair specialists.",
+                                        "fileID": "86bbbe2310d947e8a219526364263cef"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "45072c2f1fc24010bf7454d7311797a7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6ae30bf222e24322be0fd84f190f17dc",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales, availability, and product information, press 2.",
+                "fileID": "4b7b3f389c0d431886b6d3a016679653",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To place an order or check product availability, press 1.",
+                            "fileID": "1c8f30a8fcb14726a22e72a43b921387",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales representatives.",
+                                        "fileID": "190523c9c841413cbf46fa3950614f63"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f2edc8de4c0d4b22a8951659650d2282",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For warranty information and service plans, press 2.",
+                            "fileID": "62987c82b2d54213aeedb3097f4caee8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our warranty service department.",
+                                        "fileID": "8442cf35f4554ee09da51891e201f9f8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "afc87600a50a47ec80bab255b4e0b3b5",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "79502519eb504b0caeee1c00381ccd1b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "844c97daf56a45b6826b8f5095c90c3c",
+        "navigationGoals": null
+    },
+    "id": "224dbcdac35742299f3d829ed573dba2",
+    "navigationGoals": null
+}

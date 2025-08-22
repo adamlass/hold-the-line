@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to ClassPass, the all-access membership granting you unlimited fitness studio classes worldwide.",
+            "fileID": "f7094ea070434ea29ca32f70f7b4db7c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To book or manage your fitness classes, press 1.",
+                "fileID": "4e4c4b5ec7df4fd18d3c160c8a220624",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a new class, press 1.",
+                            "fileID": "4a9bdc2f55c1437a93e55a26c8a4a268",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our class scheduling team.",
+                                        "fileID": "d3b795ebc144421ab07b12aec68333c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "eb31c3ac8ce14c90b64a1b6adae358d0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For membership and account inquiries, press 2.",
+                            "fileID": "ccafae34ed394870a135971402b5f5f5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a membership specialist.",
+                                        "fileID": "374232deb54e4a0b986e736767bd665e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5492cc5985ff4c02b8566b2c382108dd",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bbe83bd1aca34e0cab7755574c49f194",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For studio owner inquiries and technical support, press 2.",
+                "fileID": "b9fc54a11c5c4736814fae90b9465521",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are a studio owner interested in joining ClassPass, press 1.",
+                            "fileID": "ebc436c91aaf4f51884ec19989d7c5f9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our partnerships team.",
+                                        "fileID": "4a8b6e4363e345699b21c5c93e80482b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4775750b158c462d821fdbd191ffc6cf",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support with our platform, press 2.",
+                            "fileID": "32f49767ed29432d9177dba45f8f86fc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support.",
+                                        "fileID": "7f3f71dfa5264837b9798ebe8ab5f1c7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c787ed7a84ac495da3900ec3b6b926ec",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "806963d6d7e149c49fdbb64b2e447bef",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7f84ffa14af5497498419b373a2fbe13",
+        "navigationGoals": null
+    },
+    "id": "a335e661434343bea683d42bb6b11217",
+    "navigationGoals": null
+}

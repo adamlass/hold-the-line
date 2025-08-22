@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Vitagene in San Francisco, where we use your DNA to build a personalized health plan.",
+            "fileID": "c24d2034fbf74e428f3ac9efcd829f72"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our DNA health plans and testing options, press 1.",
+                "fileID": "0284aed99f414a859995f79410443a8e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on ordering a DNA kit, press 1.",
+                            "fileID": "d51819e6626e4983898abd15ba6f2fa4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our DNA testing support team.",
+                                        "fileID": "a07423d24d2b4251b27252a00e310bc7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9d868d32dcce49f88c86e1a75d8501d0",
+                                "navigationGoals": [
+                                    "Order a DNA testing kit.",
+                                    "I want to order a DNA testing kit to begin a personalized health plan tailored to my military-related health concerns.",
+                                    "I\u2019d like to compare your at-home DNA kit specifications and place an order.",
+                                    "I need help ordering a DNA test kit.",
+                                    "I\u2019d like to order a DNA kit to collect my sample for a personalized health analysis."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check your test status or view your results, press 2.",
+                            "fileID": "f4b5049cfe724e4a9573ddd76516d301",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your test results.",
+                                        "fileID": "51168cf9d98a4eb9a2a0ab3863050a91"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7aa89d39c306408b8996ac97d26817fb",
+                                "navigationGoals": [
+                                    "Get an update on my DNA test status and access the results.",
+                                    "I need to check the status of my DNA test and view my results.",
+                                    "I need to check the processing status of my genotype sample and access my variant report.",
+                                    "I\u2019d like to check if my DNA test results are available.",
+                                    "I want to check the status of my submitted DNA test and view my results."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "102e11e1e896443585002d4091836d6b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For help with your existing plan or to speak with a specialist, press 2.",
+                "fileID": "11657fd91f7348d4a596d23f401c58f7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To review your personalized health report, press 1.",
+                            "fileID": "a7c8426a046444cc84860b1101e2171b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we fetch your personalized health report.",
+                                        "fileID": "19f9ae95892844b8b528d89e59c3baa9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "eb6e2568969146c29cd97926f6fefe95",
+                                "navigationGoals": [
+                                    "Open my existing personalized health report.",
+                                    "I'd like to review my personalized health report for recommendations on fitness and wellness after service.",
+                                    "I want to review my personalized health recommendations based on my genomic profile.",
+                                    "Please help me review my personalized health report.",
+                                    "I need to review the detailed personalized health report from my existing DNA plan."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a consultation with a health advisor, press 2.",
+                            "fileID": "886fbe939dda43fe8b7583c98fa9c910",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a health advisor.",
+                                        "fileID": "6837609bb83944f2adf115e9d938ae16"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4624d12f400245338182bc195ea3574b",
+                                "navigationGoals": [
+                                    "Schedule a session with a health advisor.",
+                                    "I'm looking to schedule a consultation with a health advisor to adapt my genetic-based plan to my veteran lifestyle.",
+                                    "I\u2019d like to book a consultation with a health advisor to discuss my genetic data.",
+                                    "I want to schedule a consultation with a health advisor.",
+                                    "I\u2019d like to schedule a consultation with a health advisor to discuss my plan."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ced46df94c934cb59135f83b7e4bf24e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "67676bfdc9984e5b8dbe67b7a3e92e97",
+        "navigationGoals": null
+    },
+    "id": "557ef7887e53496193d687e66c1a0be8",
+    "navigationGoals": null
+}

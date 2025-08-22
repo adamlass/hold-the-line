@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Webflow, the San Francisco platform empowering you to visually design, build, and launch responsive websites with clean, semantic code.",
+            "fileID": "71c529cd40764c4ab2ad45f2e30564c8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new customer inquiries, press 1.",
+                "fileID": "7f7738bd6cf54a2cb21ef7415c315d54",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team, press 1.",
+                            "fileID": "115b087b22ff4f0fa89b6465287f334c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist.",
+                                        "fileID": "e294ae9f1c0f4d17b11e7a76b82a6032"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "26e3688f48354ea1b96c289edcd1de3a",
+                                "navigationGoals": [
+                                    "Schedule a demo of Webflow\u2019s features for my team",
+                                    "I\u2019d like to speak with a sales specialist about setting up a new team subscription and see if I qualify for a veteran discount.",
+                                    "Connect me with sales to evaluate Webflow\u2019s enterprise API and script integration capabilities.",
+                                    "I need to speak with a sales specialist about building my first website.",
+                                    "Inquire about academic licensing options and student discounts for Webflow plans."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To request detailed pricing information, press 2.",
+                            "fileID": "da7a874e3f12464584d82fade5611907",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing department.",
+                                        "fileID": "82c8b32f6c0c4b06bbc736f4f8f5e681"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a76f7b2e31544446a41136c3bc89ef8b",
+                                "navigationGoals": [
+                                    "Get a detailed price breakdown for an enterprise plan",
+                                    "I need a detailed breakdown of pricing for the Pro and Team plans, including monthly versus yearly rates and any veteran rates.",
+                                    "Get me a detailed breakdown of pricing tiers, including seat-based and feature-add-on costs.",
+                                    "I\u2019d like detailed pricing information for a personal website plan.",
+                                    "Obtain a detailed breakdown of pricing tiers and overage fees for my student project site."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a590b47a9b2b421baace3ce63cb74878",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support or account management, press 2.",
+                "fileID": "536d17b53982446ba3a91190d891f180",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "9b0f3b14e5fd4bc8b9d7877ec2af4e29",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "99ea313265ab43dfa03d9e3340036b35"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cf58004a89e140e58b5f87f23a04994f",
+                                "navigationGoals": [
+                                    "Resolve an issue with my site not loading custom code",
+                                    "I\u2019m having trouble with my site\u2019s layout\u2014my CSS isn\u2019t publishing correctly\u2014and need technical support to troubleshoot.",
+                                    "Assist me with debugging a 500 error from the Webflow CMS API on my production site.",
+                                    "I need technical support because I can\u2019t upload photos to my site.",
+                                    "Troubleshoot an issue embedding LaTeX-rendered equations into my Webflow page."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press 2.",
+                            "fileID": "c2cd3b616e4b436fa2c89a1e4cc1f4c7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account services.",
+                                        "fileID": "d606733970d847b0a91fffd51c14424e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "52335ba1e6e74f17a52b50543a277209",
+                                "navigationGoals": [
+                                    "Clarify charges on my latest invoice and update my payment method",
+                                    "I want to update my payment method, review past invoices, and make sure my veteran discount is applied to my account.",
+                                    "Help me update my payment method, adjust seat count, and download my invoice history.",
+                                    "I have a question about my billing statement and need to update my payment method.",
+                                    "Update my billing details and clarify a recent subscription charge."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1560a285f5494c0f87ba82ef78ef61cf",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6461efee852d44cc90507886258cd438",
+        "navigationGoals": null
+    },
+    "id": "b49a624e03144a5db954886b721ea71c",
+    "navigationGoals": null
+}

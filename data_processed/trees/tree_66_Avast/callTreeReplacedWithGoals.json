@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Avast, your trusted security partner.",
+            "fileID": "4d83714f6193417d85a9ccd84a4af5c3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For help with Avast Antivirus products, press 1.",
+                "fileID": "e6e9f38267cb4db48ae93b6be550eabb",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need assistance installing, updating, or scanning with Avast Antivirus, press 1.",
+                            "fileID": "5e24d0663fb44fa7909135af19f315dc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an antivirus specialist.",
+                                        "fileID": "f51da7f285244d57b15c13fcfe7a42d4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6a8e5ee3cddb42169d99e9ebd2faffde",
+                                "navigationGoals": [
+                                    "I need to update my Avast Antivirus and run a quick system scan.",
+                                    "I need help installing Avast Antivirus and running a full system scan on my laptop.",
+                                    "I need to configure Avast Antivirus to download the latest virus-definition signatures and schedule a full-system deep scan.",
+                                    "I\u2019m having trouble updating my Avast antivirus and would like someone to guide me through running a scan.",
+                                    "I\u2019m struggling to update my antivirus definitions and run a complete system scan on my workstation."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For subscription management and billing questions about Avast Antivirus, press 2.",
+                            "fileID": "bdc85fb42a234e54a69f6f44448ad2a9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "ce6da51ab63245f6a403968fcb8aaa1c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "94587b7a49cd43f283f55716dbda77ab",
+                                "navigationGoals": [
+                                    "I\u2019d like to review my Avast subscription status and update my billing information.",
+                                    "I want to review my Avast subscription charges and renew my plan.",
+                                    "I\u2019d like to update my Avast Antivirus subscription payment method and retrieve my most recent billing invoice.",
+                                    "I noticed a charge for Avast on my bank statement and need help reviewing my subscription payment details.",
+                                    "I\u2019d like to update my payment details and verify the renewal date for my Avast subscription."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f494aa941b934a23a2e8da9bca92deec",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support with Avast SecureLine VPN and privacy services, press 2.",
+                "fileID": "91cbd0c56f5c4ebebfa4e94599c6e47b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help setting up or troubleshooting Avast SecureLine VPN, press 1.",
+                            "fileID": "0a4e700f3fe94666b3637c66252b75ac",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a VPN support specialist.",
+                                        "fileID": "ce60df81dd8a4492865c5517730f0268"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6e87d4de03b34036b36b34904a4ea104",
+                                "navigationGoals": [
+                                    "Please help me set up and troubleshoot Avast SecureLine VPN on my device.",
+                                    "I need assistance setting up Avast SecureLine VPN on my phone before I travel.",
+                                    "I\u2019m experiencing connection failures with Avast SecureLine VPN on my laptop\u2014please help me troubleshoot the OpenVPN protocol settings.",
+                                    "I just bought Avast SecureLine VPN and need assistance installing and configuring it on my computer.",
+                                    "I need guidance setting up Avast SecureLine VPN on my laptop to securely connect to my lab network."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account and privacy inquiries regarding our VPN services, press 2.",
+                            "fileID": "fe0042a9b0a44b079a28a9732ef14c5d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our privacy support team.",
+                                        "fileID": "89236d6624944e08ac4b1eb682d8750f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5e486db9c43c405d930407437135f64c",
+                                "navigationGoals": [
+                                    "I have questions about how Avast SecureLine VPN handles my account data and privacy.",
+                                    "I\u2019d like to understand what connection data Avast SecureLine VPN collects and how it\u2019s used.",
+                                    "I want to confirm Avast SecureLine\u2019s no-logs policy and request deletion of my VPN usage metadata under GDPR.",
+                                    "I want to understand what personal data Avast SecureLine VPN collects and how it\u2019s used.",
+                                    "I have questions about how my VPN usage data is stored and protected under Avast\u2019s privacy policy."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b8ef70c2cf8f40a68148fff7ec950e05",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2c183cf06deb47f1a574c43626e7e492",
+        "navigationGoals": null
+    },
+    "id": "4edcf319fd1e4d32a0b17a2f37c8c5d1",
+    "navigationGoals": null
+}

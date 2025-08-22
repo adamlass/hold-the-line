@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Performance Horizon, your San Francisco-based SaaS partner management platform.",
+            "fileID": "68c5f6c14d6b4dffa8b3068415519590"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our sales team about forming and growing partnerships, press 1.",
+                "fileID": "781f1f9b6a5e4947a9c5118655c196ef",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new partner onboarding and setup assistance, press 1.",
+                            "fileID": "e48e668d40734794939f86a1b627ee1c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partner onboarding team.",
+                                        "fileID": "d1f66dfcc92c45f0ba39a55a500f997c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cf920a1dedf541d1b5b8c7fdefda8fa5",
+                                "navigationGoals": [
+                                    "I need to complete setup of our new partner account in your system as quickly as possible.",
+                                    "I need help setting up my new partner account in your system.",
+                                    "I need help configuring the Performance Horizon API endpoints for our new partner onboarding.",
+                                    "I need help setting up my new partner account\u2014I\u2019m not sure how to get started.",
+                                    "I need assistance setting up my new partner account."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, licensing, and contract inquiries, press 2.",
+                            "fileID": "077accb24f604ce992c7821025added0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for pricing and licensing details.",
+                                        "fileID": "0c87099f55e145b7986b509d6d7603d3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4662fbe32043419f9a828a8d0da48ee0",
+                                "navigationGoals": [
+                                    "I\u2019m looking for an updated pricing quote and licensing options for our team.",
+                                    "I have questions about your subscription pricing and license terms for my business.",
+                                    "I\u2019d like to review enterprise SLA terms and get a quote on seat-based licensing for our upcoming contract.",
+                                    "Could someone explain the pricing and licensing options before I move forward?",
+                                    "I have questions about pricing plans and license terms."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fc026164f6074b4596f2efc9a9e8fa92",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, press 2.",
+                "fileID": "015da6dfae454914a3785fae1f602ced",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are an existing partner needing technical support, press 1.",
+                            "fileID": "489b00b878464b0cad44826d1b411c9a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "b3ede70534fd4a89b4f2a7b19268d90e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ea73d6fc1ffc475eb94fecb1f4b0a51d",
+                                "navigationGoals": [
+                                    "My API integration with your platform is failing; I need help troubleshooting it right away.",
+                                    "I\u2019m an existing partner experiencing integration errors and need technical assistance.",
+                                    "I\u2019m experiencing webhook 400 errors in my integration and need technical support to debug.",
+                                    "I\u2019m having trouble with the software and need technical assistance to fix it.",
+                                    "As an existing partner, I\u2019m facing a technical issue and need support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account management questions, press 2.",
+                            "fileID": "b86cec8e22164d62985400a559018242",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and account management team.",
+                                        "fileID": "17cc21133c9c4122a37be14ea947c60e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "59d85a5783db4d0fa5b2cf09c2f91c78",
+                                "navigationGoals": [
+                                    "I need to update our billing details and review last month\u2019s invoice promptly.",
+                                    "I need to update my billing information and review my latest invoice.",
+                                    "I want to update my billing payment method and retrieve the latest invoice for our account.",
+                                    "I have a question about a recent charge on my account and need help with billing.",
+                                    "I want to update my billing details and review my recent invoices."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0ffd800aecdf421b8805a77985341d5f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "91220dc0dd6842feba74a2b1294ed873",
+        "navigationGoals": null
+    },
+    "id": "142680a405d74b01beec39404e93f80c",
+    "navigationGoals": null
+}

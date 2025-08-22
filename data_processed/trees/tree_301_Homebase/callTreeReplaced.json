@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Homebase, the San Francisco-based solution for free employee scheduling, timesheets, time clocks, and hiring support.",
+            "fileID": "0224babd802848abb7c576eb687f5443"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with scheduling, timesheets, or time clock questions, press '1'.",
+                "fileID": "abd729295a13403896f0878c372bab07",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help creating or adjusting your employee schedule, press '1'.",
+                            "fileID": "d1aa301033ae4c519d919de61f571d9c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a scheduling specialist.",
+                                        "fileID": "3fa3594ebcae4172bd89dee8e95c139e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "76e6fecf272d48d2a8cf1a9ec3de3a99",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For questions about timesheet entries or clock-in issues, press '2'.",
+                            "fileID": "16dede0d5ce148bba57e02fa530a3193",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a timekeeping expert.",
+                                        "fileID": "7034b7f6ee434b6ab47e934c9eddc1e3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e478c61f73a540719c48df60512cfe28",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "12b20a90e6ad490fbf285f7f5a103880",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For help with hiring, recruiting, or onboarding new staff, press '2'.",
+                "fileID": "24c82feedfd24933968e4c8826abcc6a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For posting job openings and tracking applicants, press '1'.",
+                            "fileID": "ada1ac2fd0c942bcb423b68aa6f0c86b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our recruitment team.",
+                                        "fileID": "13c7073f56ea4801be77896e09e38489"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "deb182201d774510abce6d8d04e899af",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For onboarding guidance and hiring process support, press '2'.",
+                            "fileID": "44f7b5ed53b3427dbcba766ef2fed6d7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we route your call to our hiring support specialists.",
+                                        "fileID": "12d33a4d523743c1b975c18aa96c58f7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f8ef413b29f94a2cad424120fa1c5484",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e73c7e17650f4cb8802000b9bb323172",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e1d2aaf03d80478b88aca13cfec809f9",
+        "navigationGoals": null
+    },
+    "id": "045afcc21d8d4cd1a4395b3f66df622a",
+    "navigationGoals": null
+}

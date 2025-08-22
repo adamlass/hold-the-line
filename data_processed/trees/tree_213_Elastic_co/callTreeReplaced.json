@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Elastic.co in San Francisco, the leader in B2B developer tools for search and analytics.",
+            "fileID": "f72d741653a24e3b9bb31d636999cb33"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To explore a 14-day free trial of our services, press '1'.",
+                "fileID": "ef9382448b9c4f5c9d98d3a827ed60a2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start a trial of our Elasticsearch Service, press '1'.",
+                            "fileID": "94da2eb44f914a5f900a55575d04ddc1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we activate your Elasticsearch Service trial.",
+                                        "fileID": "687ae61bf84448f686c028fb8d4b74bb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "86eac3254f5f44fc950480561b5db6e3",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For a trial of our App Search or Site Search Service, press '2'.",
+                            "fileID": "5057d60c0e3446878b653db4dc7fefaa",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we activate your App Search or Site Search trial.",
+                                        "fileID": "0e9286a754df4dc0bd771e1edf655285"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "99d785e9e97c48af9755141b12a74aa2",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b25933b8c73848eeaf6a5f95396e2766",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and support, press '2'.",
+                "fileID": "1f6e924cd4e34b26888d2f91e1e5e2af",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales specialist, press '1'.",
+                            "fileID": "08249b1c9f274f30a367d98ef08e9117",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "70445040ba8249d9bb7ff2134a62db4d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "76490a5c7a644fe79ba63f4e6b63c81e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To connect with technical support, press '2'.",
+                            "fileID": "725e4a62b97843a4b0c2c129495c4545",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "00f51cc0037a4b579c96dbf3fb498ed9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a125fd20b9ab4c818e88eebc44c20cf2",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "04697b8f4ebd442d80478de12a071b6b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a14d44cea49a4bbc9b7b49e6632c69ec",
+        "navigationGoals": null
+    },
+    "id": "74c62b5f76764e19b5ad9bf5804b24a1",
+    "navigationGoals": null
+}

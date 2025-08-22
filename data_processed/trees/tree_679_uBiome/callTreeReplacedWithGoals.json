@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to uBiome, the San Francisco-based biotechnology leader in human microbiome sequencing.",
+            "fileID": "fb460a3a92e4419fa5595526370c4c7e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For questions about test kits and orders, press 1.",
+                "fileID": "44f97c302dfd492c8e5655124257a440",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To place a new test kit order, press 1.",
+                            "fileID": "b80a014515294d9cb8a484d33ac64268",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our kit ordering team.",
+                                        "fileID": "3051c866586b4c6486e92c31fda609f9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6108c8e4f6b5423b8f79eb0aedbf14a3",
+                                "navigationGoals": [
+                                    "I need to place a new uBiome microbiome test kit order quickly.",
+                                    "Order a new microbiome test kit to evaluate my gut health after returning from deployment",
+                                    "Place a new microbiome sequencing kit order with expedited shipping and confirm sample collection protocol.",
+                                    "I want to order a new at-home microbiome sampling kit.",
+                                    "I\u2019d like to place an order for a new microbiome sampling kit."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing order, press 2.",
+                            "fileID": "e9b73caf864f4bcaa2d32aed58e0c5ed",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your order status information.",
+                                        "fileID": "ae15d93b7bd143fda1df75a89a071a45"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a6a509727ab14d038d56a36c112f925f",
+                                "navigationGoals": [
+                                    "I want to check the current status of my existing test kit order.",
+                                    "Check on the delivery status of the microbiome kit I ordered last week",
+                                    "Retrieve the current tracking details and status of my existing uBiome test kit order.",
+                                    "I want to check if my kit has been shipped.",
+                                    "I\u2019d like to check the delivery status of the microbiome sampling kit I already ordered."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0b7cd7076f1f4a7d9055e3ea1798c9bb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For assistance with your test results and lab reports, press 2.",
+                "fileID": "215d3197628a4ec18685240f964df341",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss your microbiome test results, press 1.",
+                            "fileID": "fc790a6492874640824d6cb1e5ef7aad",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a results specialist.",
+                                        "fileID": "3ce374236ddd4ed1a824d55207e39109"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ad90f1f787174989accb127109e5193c",
+                                "navigationGoals": [
+                                    "I\u2019d like to discuss my microbiome test results with a specialist.",
+                                    "Discuss my microbiome test results to understand how they might relate to my stress and digestion",
+                                    "Connect with a specialist to review the bioinformatic analysis and interpretation of my microbiome test results.",
+                                    "I\u2019d like to talk through what my microbiome results mean.",
+                                    "I\u2019d like to review and discuss the details of my microbiome sequencing results."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support with your account or reports, press 2.",
+                            "fileID": "ad89d85a89114400af18f27956216579",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support.",
+                                        "fileID": "bacbdcbbead84301b015d49fe130f0b5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "41520cc282804294b7653a82ba772543",
+                                "navigationGoals": [
+                                    "I\u2019m having trouble accessing my test report online and need technical support.",
+                                    "Get help logging in and downloading my lab report from the uBiome account",
+                                    "Get technical support for accessing my account dashboard and downloading my lab report PDFs.",
+                                    "I need help resetting my account password to view my lab report.",
+                                    "I\u2019m unable to access my uBiome account to retrieve my lab reports; I need technical assistance."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a9ae80fbd101453c8e09221e26d8d1f2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9e33e6799720405ca9908cd354d654c9",
+        "navigationGoals": null
+    },
+    "id": "10d32d36afe84aaeb921b6d6c1fccd60",
+    "navigationGoals": null
+}

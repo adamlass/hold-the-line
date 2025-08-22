@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Vidado in the East Bay, the enterprise-grade solution for digitizing and enriching data at the scale and speed modern businesses demand.",
+            "fileID": "52817b7557b1401796b054ba00c3af1f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our digitization solutions, press 1.",
+                "fileID": "fdef233cdfbb4fd4b940feb1a6eba0a4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore document and image digitization, press 1.",
+                            "fileID": "fca1532082d74b7abd1cae89539232e0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a document digitization specialist.",
+                                        "fileID": "e9142de648c44f1282a2a833620e55da"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a66ab9563c314c90a7aacc6b20937d75",
+                                "navigationGoals": [
+                                    "Get a quote and timeline for digitizing our archived legal files.",
+                                    "I need to digitize my military service records.",
+                                    "I need to discuss setting up a high-throughput document digitization workflow with OCR optimization.",
+                                    "I need help digitizing my old family photos and handwritten letters.",
+                                    "I need to digitize my handwritten physics lab notebooks and research diagrams."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about our data enrichment and AI services, press 2.",
+                            "fileID": "0e083ddaba534b6fae5cfacb9fe61212",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a data enrichment specialist.",
+                                        "fileID": "e8d19de38ef647629b8dbcef70b9e073"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2cc9cc7feec5420d8b5e05e8956008f3",
+                                "navigationGoals": [
+                                    "Discuss AI-powered data enrichment solutions for our customer records.",
+                                    "I want to enrich and tag metadata on my scanned deployment logs.",
+                                    "I want to get details on your AI-driven data enrichment APIs and integration options.",
+                                    "I want to use your AI service to extract and organize text from my scanned documents.",
+                                    "I\u2019d like to apply your AI enrichment to extract metadata from my scanned astrophysics graphs."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "64f82e9abf8a48899ad54c188c475066",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For assistance with current projects and support, press 2.",
+                "fileID": "3c271206babd4f499027c3745fdf55b7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "be7f1c318dc8475eb47683682fdb9ac8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "4b378bdbc14440fc9495af0c45c3c429"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d6c04e755ede408cb0950d2f2c1c77f1",
+                                "navigationGoals": [
+                                    "Resolve an API integration error with the document upload process.",
+                                    "I\u2019m getting errors uploading my scans and need technical support.",
+                                    "I'm troubleshooting errors in the SDK integration and need technical support for debugging API calls.",
+                                    "I'm having trouble uploading my scanned files\u2014can you help me troubleshoot?",
+                                    "I\u2019m having OCR errors on my scanned circuit schematics and need technical troubleshooting."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing project, press 2.",
+                            "fileID": "1beff562f64c42f38ce83001482b2039",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we check the status of your project.",
+                                        "fileID": "37e26591eb3b440ea4d1bba963a671dc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c0b04ea3c02c45cca0d50c016d144d06",
+                                "navigationGoals": [
+                                    "Check the status of my ongoing document digitization project.",
+                                    "I\u2019d like a status update on my ongoing service record digitization project.",
+                                    "Please provide the latest status and ETA for my ongoing digitization project.",
+                                    "I'd like to check the status of my ongoing document digitization project.",
+                                    "I want an update on the status and timeline of my ongoing lab notebook digitization project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f1acf3c359db4bec825c097121b114b1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "44a066dffc754a07b3b2def72703cd45",
+        "navigationGoals": null
+    },
+    "id": "73e9b81d8006455bbc6eacfb3d63d477",
+    "navigationGoals": null
+}

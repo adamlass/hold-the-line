@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Broadly in the East Bay, where we help your business shine online.",
+            "fileID": "ddfb9f9d571a408fbcdf4bb151543d2f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and onboarding, press 1.",
+                "fileID": "80fcd85646be4a06a544dc4b75884eab",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press 1.",
+                            "fileID": "d9a5e3b12bcd4d5facc954cd23702a24",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "db2e3c43c45746e795870a3a1d694927"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "370122a5afa94a5ab8173b8e7344804e",
+                                "navigationGoals": [
+                                    "Discuss pricing and sign-up options with a sales representative",
+                                    "I\u2019m a veteran-owned business owner and want to speak with someone about service packages and pricing.",
+                                    "I want to explore API endpoints and pricing tiers for your review management solution.",
+                                    "Can someone walk me through signing up for your service?",
+                                    "Discuss pricing and onboarding options for my physics tutoring business website"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a free product demo, press 2.",
+                            "fileID": "6c7c22fb6f1545d68f01548cb2a7b01a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our demo scheduling team.",
+                                        "fileID": "68586170f0a84afeb25193528e15b413"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3602396ae52847ca851aacdb7b475b84",
+                                "navigationGoals": [
+                                    "Schedule a free demo of the Broadly platform",
+                                    "As a small veteran-run business, I\u2019d like to schedule a free demo of your online review platform.",
+                                    "I\u2019d like to book a walk-through demo of your platform\u2019s feature set.",
+                                    "I\u2019d like to set up a free demo of your online tool.",
+                                    "Schedule a demo to see how Broadly can improve online reviews for my tutoring service"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3c2a7bfbe492485a90d2cbde37b3c30b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, press 2.",
+                "fileID": "bf924756fc1c4db8b36e9371b270cfe1",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with our online review platform, press 1.",
+                            "fileID": "ffc6046ef4c043c5af69925d52970a25",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "a2f0641ad52a4b2896febc4008282fad"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fbda84feeab8475c89b462b1c65f6576",
+                                "navigationGoals": [
+                                    "Get technical help troubleshooting the online review system",
+                                    "I need technical help setting up and managing review requests on my site.",
+                                    "I\u2019m experiencing latency errors with the review submission API and need troubleshooting.",
+                                    "I\u2019m having trouble logging in to my reviews account.",
+                                    "Troubleshoot integration issues with Broadly\u2019s review platform on my tutoring site"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help managing your account or billing questions, press 2.",
+                            "fileID": "788f342c5fdf48eb9887a7850aa4588c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our account support team.",
+                                        "fileID": "89abae0fd8fb44f2a4c7af696676687a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2211ac6673a943bb8290a5fd4536313d",
+                                "navigationGoals": [
+                                    "Resolve a billing question on my account",
+                                    "I\u2019d like assistance reviewing my invoice and updating my billing information.",
+                                    "I need to update my payment method and review my subscription invoice details.",
+                                    "I need help understanding my latest invoice.",
+                                    "Inquire about my account billing and update the payment method for my business subscription"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "131e123e97f742f893305a2aa2b4387f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5321a20eb4f5441081fe9e442816863b",
+        "navigationGoals": null
+    },
+    "id": "e8ddbe8ff84e46dcacf9b4e12cce1242",
+    "navigationGoals": null
+}

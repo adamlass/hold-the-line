@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Syapse in San Francisco, your partner in delivering precision medicine programs for personalized cancer care.",
+            "fileID": "398df8f606f6439d8b31e5c41140bbf9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For program consulting and sales, press 1.",
+                "fileID": "809b1de005884837a70c220cef185ac5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our program design specialists, press 1.",
+                            "fileID": "2a20c1dd44c64837ac2375e0ef3986c4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a program design specialist.",
+                                        "fileID": "094570130744448cb5a8725fe8b1f823"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dd8897eee82840a58df7205bc0369183",
+                                "navigationGoals": [
+                                    "Speak with a specialist to optimize our precision medicine program design",
+                                    "I need to discuss designing a personalized cancer treatment plan.",
+                                    "I need to consult on integrating Syapse\u2019s decision-support algorithms into our EHR.",
+                                    "I need help from a specialist to design a personalized cancer care program.",
+                                    "Consult with a specialist to design a customized precision medicine program for my cancer research project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a personalized demonstration of our precision medicine platform, press 2.",
+                            "fileID": "23c5ff05bcea4f1b9c73ed27bbcc31b5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. We\u2019re routing your call for a product demonstration.",
+                                        "fileID": "34c315a3850e4ffb9f9d972f5cfe3237"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f5d32721bc5c4420b4c6c4d20c1906a5",
+                                "navigationGoals": [
+                                    "Schedule a personalized demo of the Syapse precision medicine platform",
+                                    "I want to schedule a live demo of your precision medicine platform.",
+                                    "I\u2019d like to schedule a demo of the Syapse precision medicine platform\u2019s analytics dashboard.",
+                                    "I\u2019d like to schedule a demonstration of your precision medicine platform.",
+                                    "Schedule a personalized demonstration of the Syapse precision medicine platform for my lab."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a248cd0dc0374ecbaff272392b4cc792",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and training, press 2.",
+                "fileID": "c6831357b37946568d265f19b8da3365",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with your Syapse platform, press 1.",
+                            "fileID": "b653d74a22ce4f25a084cb2bdad39496",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "5c68c952d2304d48a78fa3a8a141b9bc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2cd7890ae88145628917e4ac5f9ce813",
+                                "navigationGoals": [
+                                    "Troubleshoot an urgent technical issue with the Syapse platform",
+                                    "I\u2019m having trouble accessing my Syapse portal and need technical support.",
+                                    "I need help resolving a data ingestion error in the Syapse API for genomic reporting.",
+                                    "I\u2019m having trouble with my Syapse platform and need technical support.",
+                                    "Get technical support to resolve an error while uploading my genomic data into the Syapse system."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For training resources and educational materials, press 2.",
+                            "fileID": "823e14474e93474db753fea3550998f5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our training team.",
+                                        "fileID": "989ce21bc89343bf99b4ccab333d957f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f3950cdc172e437a9987b5d928136aee",
+                                "navigationGoals": [
+                                    "Obtain training resources to quickly onboard my team to Syapse",
+                                    "I\u2019d like training materials to better understand my precision medicine results.",
+                                    "I want access to training modules on variant interpretation in Syapse.",
+                                    "I\u2019d like to speak with someone about training and educational resources for using the Syapse platform.",
+                                    "Access training materials or tutorials to learn how to operate Syapse\u2019s platform features."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6c76a2b79a1a43ebafb0cbb4a4229965",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "0e21acaee9bc4f6fb4a4f856446554f8",
+        "navigationGoals": null
+    },
+    "id": "704fde6dc54d42bcb5bddc1be39d8208",
+    "navigationGoals": null
+}

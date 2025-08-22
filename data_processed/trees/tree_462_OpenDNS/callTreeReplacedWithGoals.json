@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling OpenDNS, based in San Francisco, where we deliver security beyond the firewall.",
+            "fileID": "dd086749091543b9bf1486ce954e0c44"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our DNS-based security solutions, press '1'.",
+                "fileID": "c0341bc3599f41f4accbd9fa19e71d73",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with Sales about product demos and pricing, press '1'.",
+                            "fileID": "cae6aba75ff24378ae5c26dec7b7b290",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Sales team for demos and pricing.",
+                                        "fileID": "2b43cd61f7c3438d83bd2b42ef27ef74"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1642e0cba9d84c568604f6ce7fce800d",
+                                "navigationGoals": [
+                                    "Arrange a product demo and discuss pricing for the DNS security solution",
+                                    "I\u2019d like a demo of your DNS security solution, pricing details, and to ask if you offer any veteran discounts.",
+                                    "Schedule a product demo and get pricing for your DNS-layer security solution.",
+                                    "I need someone to walk me through the cost and a demo of your DNS security service.",
+                                    "I\u2019d like to schedule a demo and get pricing details for your DNS security solution for academic use."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For details on enterprise deployment and integration services, press '2'.",
+                            "fileID": "c108b34c0ce84343bd952f825a7c8830",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Deployment Services specialists.",
+                                        "fileID": "56f4ac01cc2849a484d786fba63d81ab"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "788d7a879d664038aa4ff065e2a37679",
+                                "navigationGoals": [
+                                    "Clarify enterprise deployment options and integration timeline for OpenDNS",
+                                    "I need to discuss deployment and integration options for your DNS security at our veteran support center.",
+                                    "Discuss enterprise deployment architecture and API integration services for OpenDNS.",
+                                    "I\u2019d like help planning and integrating your DNS security solution into my network.",
+                                    "I need information on how to integrate OpenDNS into our university\u2019s network infrastructure."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bc1505b67a214249b8214019af63f3b3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support with an existing service or technical assistance, press '2'.",
+                "fileID": "2f4a4ccb38a14973828a31c35b6abe65",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press '1'.",
+                            "fileID": "62e935e1ad59479bb1ba8ac359f0ef06",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Technical Support.",
+                                        "fileID": "9946fcf35d944d2ebb5ddbe60989c230"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8a8e8bffafa141828adb2db231268338",
+                                "navigationGoals": [
+                                    "Troubleshoot an ongoing DNS resolution issue with technical support",
+                                    "I\u2019m having trouble with my OpenDNS policies not applying across our office network and need technical help.",
+                                    "Troubleshoot resolution failures on my existing OpenDNS service.",
+                                    "I\u2019m having trouble with my existing DNS service and need technical support.",
+                                    "I\u2019m experiencing DNS filtering issues in my lab and need technical troubleshooting."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press '2'.",
+                            "fileID": "f739d5761a084a0699027138ad804523",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the Billing department.",
+                                        "fileID": "7842ffdb1e584ff780f47eba0d597676"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fe58ef0d52fb4c7fa9330ce240fb2714",
+                                "navigationGoals": [
+                                    "Review recent invoice charges and update billing information",
+                                    "I want to review my latest invoice and update the payment method on my account.",
+                                    "Review my OpenDNS account billing statement and update the payment method.",
+                                    "I need assistance understanding my account charges and billing details.",
+                                    "I have questions about my account charges and eligibility for an academic discount."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0fbf354ca0cb4888832c4d04142b7a80",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "54780266f19343c8825f009acb5276b6",
+        "navigationGoals": null
+    },
+    "id": "85d0c4d3b7a244c2a3415a99ddf12ae2",
+    "navigationGoals": null
+}

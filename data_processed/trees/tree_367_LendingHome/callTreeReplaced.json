@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to LendingHome, reliable home financing tailored to you.",
+            "fileID": "dd511a15a28744139b7c2db56d4162ee"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new home loan services, including pre-approval and refinancing, press 1.",
+                "fileID": "545ab7367af04e0bab0cbd269c1166b7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start a new mortgage application or check your pre-qualification status, press 1.",
+                            "fileID": "9b177888f0204846909452f687e9ae71",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pre-qualification team.",
+                                        "fileID": "a7a07df824724ca6837b968b2d524513"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "365908ff8b6940579c7301c97fd6ff30",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn about refinancing your existing mortgage, press 2.",
+                            "fileID": "c4f6214a2a234965a7db0fb5a26a48cb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our refinancing specialists.",
+                                        "fileID": "6d53a0e93c2c4dccaf0b3ecc768c1a0b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "54408240d8384cf1957e776b5f3cc557",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "753b404dfdf94c498028fa3222c359e3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing loan support and account services, press 2.",
+                "fileID": "56141b9ebfaf417b86d0f5bcef54f65c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For payment options, account balance, or billing questions, press 1.",
+                            "fileID": "62ea0b5bffbd4ad39295a19221c2507b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account services department.",
+                                        "fileID": "3282cab0051a435687038538901407ea"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6dcfe24253c8481cb9440f53f8c5f64a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with a customer support representative, press 2.",
+                            "fileID": "235d212e18644d368b57b77a980b7a6d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a customer support representative.",
+                                        "fileID": "b57453651cbd42c0a1cbe4acce597f44"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7e1f28a66d444c93a2d67683456ad26e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0c36f9f8bb174e1ab9873e75a82edfab",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a672277a9e044624b117a5ed4582d6b7",
+        "navigationGoals": null
+    },
+    "id": "12798db90377454b8e625bfedf63f6a5",
+    "navigationGoals": null
+}

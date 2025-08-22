@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to 23andMe in South Bay, offering you over 125 personalized ancestry, health, and trait reports.",
+            "fileID": "ebef9df727ae4c2b9115875c73e9211c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For ancestry insights and heritage reports, press 1.",
+                "fileID": "75c165191cd74a0684fe656f3ea91803",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a genetic counselor about your ancestry results, press 1.",
+                            "fileID": "d732d9c569944833a52f456b3eba7dc3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a genetic counseling specialist.",
+                                        "fileID": "ba1c1ff47ea3459da8621eaa4e77f2b2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "19cc429305ef4300b52ffc931ac7b286",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For assistance with your DNA kit or sample collection, press 2.",
+                            "fileID": "91ed7888aa58431da474213ff7ea126a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sample support team.",
+                                        "fileID": "40d4986890fd42be93314002195bb9f2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b95f0e3bd88542dd907220f753be6eb9",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "701ed1c07d0f401e9e6070ca83060a8e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For health and trait report inquiries, press 2.",
+                "fileID": "9edd44bee7794efd818858a9b82f2bde",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss your health report findings with a genetic counselor, press 1.",
+                            "fileID": "a99757eed3f941a58073649c45fe42ab",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a health counseling specialist.",
+                                        "fileID": "e05a594e2f4e4753b2e5402ef755c8d0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a063002c02ab4c9fb0390a1621eefba7",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For help interpreting your trait reports, press 2.",
+                            "fileID": "13d89fb3a09c4165865ef02e3d9b9bf0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our traits support team.",
+                                        "fileID": "4e8b208524474beb9f0adc7cf52ab7da"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f61e25a818ea4155bb5ebef766e1151d",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "be3fdd3c059b4a238b597988888b4746",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6163c682343f4c2281ddf0e3a98f702c",
+        "navigationGoals": null
+    },
+    "id": "c25016cc1d6f48558f1c85d17bab06ac",
+    "navigationGoals": null
+}

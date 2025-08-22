@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Wizeline, your global product development partner based in San Francisco.",
+            "fileID": "ea5df23621d44f87ba80033d1820a757"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For our services and solutions, press 1.",
+                "fileID": "dc6731236f394c60993cec380c36e61a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For design and user experience services, press 1.",
+                            "fileID": "1d689f25bfe744f5abce4e1482b0a294",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our design experts.",
+                                        "fileID": "f98d5a0edb934708801eb0b73ba35aa9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "57d123ca7f1348ee9f7b38c7bfa3534b",
+                                "navigationGoals": [
+                                    "Get a fast quote and timeline for revamping our app's user experience.",
+                                    "I want to consult on designing a user-friendly dashboard for a veteran resource app.",
+                                    "I need a UX review and prototyping strategy for our mobile interface.",
+                                    "I need help making my website look nicer and easier to read.",
+                                    "I\u2019d like to consult on improving the user interface of my physics lab management app."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For engineering and technology development, press 2.",
+                            "fileID": "ed3269d35b8d4045937348c3053d35c8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our engineering team.",
+                                        "fileID": "b0e1c03d1a70430e8150266def990841"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e7d76ceabb5f4686b157b3e2015c788f",
+                                "navigationGoals": [
+                                    "Check feasibility and estimated delivery date for integrating a new payment API.",
+                                    "I need to speak with engineering about building a mobile platform for veteran support.",
+                                    "I\u2019d like to discuss building a scalable microservices backend on AWS.",
+                                    "I\u2019d like assistance setting up a simple mobile app for my small business.",
+                                    "I need help setting up the backend infrastructure for processing my experimental data."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c6a722ece18344758db83b2e4bbe3e43",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and support inquiries, press 2.",
+                "fileID": "e97c4fe44285462fb37be7601e011f53",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team about new projects, press 1.",
+                            "fileID": "e63ebaf270ff41b49f39c76d91f3bd2d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales representative.",
+                                        "fileID": "8eaddf4feb27418f8c432b682d0fbe73"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "02dc01661a7b4cf78cede51d496dc637",
+                                "navigationGoals": [
+                                    "Discuss pricing and contract terms for an upcoming development project.",
+                                    "I'm looking to discuss a partnership for developing a veteran employment portal.",
+                                    "I want a cost estimate for developing an AI-powered analytics dashboard.",
+                                    "I want to get a price quote for starting a new online project.",
+                                    "I\u2019m looking for a proposal and quote to develop an educational physics simulation platform."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support and existing projects, press 2.",
+                            "fileID": "7ef9c39ac7a14049b3e23f22c1e5a09c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support team.",
+                                        "fileID": "8d9ca7c4ebc24e2d9215a2ab484b7b48"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "052d15747e6f4ddfa3a32a1ff1f2dc52",
+                                "navigationGoals": [
+                                    "Troubleshoot a critical bug in our current production environment.",
+                                    "I need technical support to fix issues in my existing veteran assistance website.",
+                                    "I need troubleshooting assistance with our current Kubernetes deployment.",
+                                    "I\u2019m having trouble with my current website and need technical support.",
+                                    "I need technical support for the custom data analysis code you delivered last month."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "92476b9976244a54836c436984e1c76c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "0aa3c99c05ed4462bfdad17160618959",
+        "navigationGoals": null
+    },
+    "id": "30c37f443b6d46b39b725225acac0cce",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Percolate, the leading content marketing platform for the world's largest brands.",
+            "fileID": "768d6ab5057547d6ab598e7e32e87018"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and product information, press 1.",
+                "fileID": "8ed9f0db04f6417f97be56f7d175cb78",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product demonstrations and trial access, press 1.",
+                            "fileID": "fdae348ed0504b51ba6192ec47af55ac",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Sales team for a product demonstration.",
+                                        "fileID": "622837a6cd824226a1a9bb3c209db762"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8c1691ab946b4df2844e4aa2babe2e8c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing, licensing, and contract questions, press 2.",
+                            "fileID": "27bf1adf43564e1bb75527b3657e5407",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a Sales representative for pricing and licensing details.",
+                                        "fileID": "750901f31ffc44e8ab9e15c069b8d68e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f82377aaa64b42db842c879ffac005c2",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "391238de5aa441c2b1bb19f7ea07f10d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Customer Support and account inquiries, press 2.",
+                "fileID": "266d838ae8394f2eb81d02fdfa4ab03c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting assistance, press 1.",
+                            "fileID": "c091788d68644c2aab9809009b6b0529",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Technical Support specialist.",
+                                        "fileID": "bc2cea17bd4341d59139cd5bca2c74c4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "85654bf618c24949bbc27af350fae353",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing, invoices, and account management, press 2.",
+                            "fileID": "bbb9e91c85ed49aa8780e194a35648da",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer your call to our Account Services team.",
+                                        "fileID": "4c18ca2e2a3d43a0ab838e4796039957"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "354e32bd5c684301ade8430854f38687",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7cdad90e122c4faab0c4efc955a3cc0b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "72a95b7598d54cd989536ddc5b86728d",
+        "navigationGoals": null
+    },
+    "id": "05926aa80d53458684ece6d29c58d595",
+    "navigationGoals": null
+}

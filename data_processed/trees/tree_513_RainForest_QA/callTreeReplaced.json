@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Rainforest QA in San Francisco, where we\u2019re rethinking quality assurance for modern continuous delivery.",
+            "fileID": "287441d0cd2949319e75531f702b317b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press '1'.",
+                "fileID": "03918b34ae0e413ba4955c949e726583",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product demos and trial accounts, press '1'.",
+                            "fileID": "4a4a746cc80f45629b8c860fee6bc29b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our product demos team at Rainforest QA.",
+                                        "fileID": "94c9b1fc98c14c3cb6146b576812ea74"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4d97a47b12e5479ba75f8362f82dd25c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and licensing inquiries, press '2'.",
+                            "fileID": "318ad804d0954b70b006de6cf660cb42",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and licensing department.",
+                                        "fileID": "0c99250ad5d744a8bbd0b059ba0af6bb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8f9edd8b819f462da10767dfe95f0c0b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "593f8458ac784eca941c4aebae3a8b31",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and account services, press '2'.",
+                "fileID": "3625441d455d4bc0916bb34e27d466a2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press '1'.",
+                            "fileID": "82132edf3c28406aa4bcac1df8bcad45",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Rainforest QA technical support.",
+                                        "fileID": "99e5979aa52344d1b19f7ba0105213d4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "68269bc59d5340ebb6852926d3ace22d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account and subscription management, press '2'.",
+                            "fileID": "f3376332c0334944b41623dc56e1b99a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account services team.",
+                                        "fileID": "1ff980c8e8a8454080fc458f8e9ecbd4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "18d50a99027a4ba4bb3a8ecae30be0a1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8ddb3ea1ce5f4e3daf2cf35ab83b4c63",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "17b5740edf5d40589d7e854b0f59de5b",
+        "navigationGoals": null
+    },
+    "id": "1bed6a04d1e54d0abc843633a9ecba01",
+    "navigationGoals": null
+}

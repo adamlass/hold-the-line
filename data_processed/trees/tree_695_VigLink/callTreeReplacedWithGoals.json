@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to VigLink in San Francisco, where content-driven commerce meets leverage, insight, and automation.",
+            "fileID": "2e11c4e0153f46ca92e378b5fbdf42f0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our platform, press 1.",
+                "fileID": "e900499f4d0c4b1ca5ff0f210e787593",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a demo or speak with our sales team, press 1.",
+                            "fileID": "ef055b49f3a14766998bbbdc740ecfec",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "5440924733c74b70982b7991461322b0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f6ca08a913d54d13a4295906dd82a044",
+                                "navigationGoals": [
+                                    "Schedule a demo with a sales rep to evaluate the platform.",
+                                    "I run a veteran-focused blog and want to schedule a demo to see how VigLink can help monetize my content.",
+                                    "I\u2019d like to set up a technical demo of VigLink\u2019s API integration and discuss its system capabilities.",
+                                    "I\u2019d like to schedule a demo with a sales representative to understand how this platform works.",
+                                    "I\u2019d like to schedule a demo to explore how VigLink\u2019s platform can help me monetize my physics blog with affiliate links."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about pricing and subscription plans, press 2.",
+                            "fileID": "fe96a613bfb344eda4d2ca3814e6ad4f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our pricing specialists.",
+                                        "fileID": "684effe0a0b547db9895a4413ca73af0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "291d8c715ec146e1b43f87fe4f1ca4a0",
+                                "navigationGoals": [
+                                    "Obtain detailed pricing and subscription plan information.",
+                                    "I need to review subscription plans and pricing to choose the best option for my small business.",
+                                    "I need a detailed breakdown of VigLink\u2019s subscription tiers, pricing model, and volume discount structure.",
+                                    "I need details on subscription plans and pricing so I can pick the right option.",
+                                    "I need detailed information about the pricing plans and subscription options for student or academic use."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fe8ed268912d491991fb75d9d857f4c3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and account services, press 2.",
+                "fileID": "d25bebd3c9d0435eaa9626e8457b67fb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "78c588f3924b4786b78f166292150c96",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "964269738b504d508f29e130480cb582"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dcb3e12dcce64a9687218083602acb1e",
+                                "navigationGoals": [
+                                    "Resolve a technical issue with my account.",
+                                    "My integration with VigLink isn't working on my website and I need technical assistance to fix it.",
+                                    "I\u2019m experiencing an SDK authentication error with my integration and need technical support to troubleshoot.",
+                                    "I\u2019m experiencing technical issues with my account and need help troubleshooting.",
+                                    "I\u2019m experiencing an issue integrating the VigLink script into my experimental physics website and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries or account updates, press 2.",
+                            "fileID": "54ded59d4c274b4ebcb1886afc76ac18",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "32b31a8d949b4813bde4ebba1a270e7f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bd163f6bc36d46eb9ba7de54da4efaba",
+                                "navigationGoals": [
+                                    "Update billing information and review my latest invoice.",
+                                    "I want to update my account's billing information and check on a recent charge.",
+                                    "I want to update my payment method on file and obtain the latest invoice for our account.",
+                                    "I want to review my billing statement and update my payment method.",
+                                    "I want to update my payment method and review my most recent invoice for my VigLink account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "da529d4fd6364b21b566f4f824668c2c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bebb8fec603e4cdd8d0bf1697f45d292",
+        "navigationGoals": null
+    },
+    "id": "2522405c45374e6d9212ca51c1339555",
+    "navigationGoals": null
+}

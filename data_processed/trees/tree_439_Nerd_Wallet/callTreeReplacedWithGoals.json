@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling NerdWallet, your guide to smarter financial decisions.",
+            "fileID": "ccb5f419e158479da574eab25da60dee"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For credit cards and credit score services, press 1.",
+                "fileID": "69df5db414504362a5b2d2592d8d9f36",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a credit card specialist, press 1.",
+                            "fileID": "9236be172ddd4b50a4292c66a04bcf06",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a credit card specialist.",
+                                        "fileID": "b49cf7196cac453394c76acb3cb324ae"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2368fb4cd0494b5297e148902dc61cd7",
+                                "navigationGoals": [
+                                    "Find the best rewards credit card for frequent business travel",
+                                    "I'm looking for a low-fee credit card option geared toward veterans.",
+                                    "I want to review detailed APR calculations and rewards algorithm with a credit card specialist.",
+                                    "I need help speaking with a credit card specialist to find the best card and understand its fees.",
+                                    "Review and compare student-friendly credit card options with low APR and travel rewards."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To get help improving your credit score, press 2.",
+                            "fileID": "35d7e96ac8fa498ebe2f891a141bf4a6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our credit score support team.",
+                                        "fileID": "9e94b0dcb0f54bbbb51884277442d62b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d5b24db566a747ffaa18ff6890424d5e",
+                                "navigationGoals": [
+                                    "Get guidance on improving my credit score quickly",
+                                    "I need advice on rebuilding my credit score after my service.",
+                                    "I want to analyze my credit utilization ratio and dispute report anomalies to boost my FICO score.",
+                                    "I\u2019d like assistance improving my credit score and understanding what steps to take.",
+                                    "Get tips to improve my credit score before applying for campus housing."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "430f4676fa2e46d087972ccb444acbff",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For mortgage and home loan assistance, press 2.",
+                "fileID": "f6c030c4e51d4557988d3b81d0e4e352",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore mortgage options, press 1.",
+                            "fileID": "7eb94418b82042c9a8dd1ac46fed3eb4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our mortgage consultants.",
+                                        "fileID": "b318761800e84a0c8e3da3d8fb0830cc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e5f008f4017d45af8049f6334bb47a0a",
+                                "navigationGoals": [
+                                    "Compare mortgage plans and interest rates for a new home",
+                                    "I'd like to explore mortgage programs for former military members.",
+                                    "I want to run a comparative rate analysis for fixed vs adjustable-rate mortgages with a consultant.",
+                                    "I want to explore mortgage options and learn about different home loan rates.",
+                                    "Explore first-time mortgage options to buy a small condo."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing home loan application, press 2.",
+                            "fileID": "8ca2466b0d2e4ceaae514ceaadc22b3b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, retrieving your home loan application details.",
+                                        "fileID": "cddf4b13fa5b4af08542b5683c774eab"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0b9b4093ae3f4e1c8167497d8e13458d",
+                                "navigationGoals": [
+                                    "Get an update on the status of my home loan application",
+                                    "I want to check the current status of my home loan application.",
+                                    "I want to retrieve the current processing status and underwriter feedback on my home loan application.",
+                                    "I\u2019d like to check the status of my existing home loan application.",
+                                    "Check the current status of my home loan application."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "39027f9c52ba42398110e963ae9f1ee9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9162bee2bb1e47d6a89ef16055783489",
+        "navigationGoals": null
+    },
+    "id": "9b1302fa423440b9a17140eee00c0d95",
+    "navigationGoals": null
+}

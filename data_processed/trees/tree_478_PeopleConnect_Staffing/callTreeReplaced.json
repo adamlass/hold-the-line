@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling PeopleConnect Staffing in San Francisco, where we connect promising companies with the talented professionals who drive success.",
+            "fileID": "d59fe4ab7d5d437eb625f9f070fb2097"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our Recruitment Team, please press 1.",
+                "fileID": "321a4dd488834648b8dbd8862e091a84",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are a company looking to hire top talent, press 1.",
+                            "fileID": "698a84061378440b96782c53393182ff",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a recruitment specialist.",
+                                        "fileID": "bbd55ad5d2904cb4926cd626262961b1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d59b55fa3a094b03911231c47e99ee34",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "If you are a professional seeking career opportunities, press 2.",
+                            "fileID": "b3a01aea49994020b30762bdb3097223",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our talent advisors.",
+                                        "fileID": "739a3c562ff34d288522e71e5ff349be"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "02f889aa053a4f799211c04924013ee0",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a0f64eab821f447683c16f809b44a021",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For inquiries about existing placements and account status, press 2.",
+                "fileID": "a0138586f30b4cf5bf7058baafa73648",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss your current recruitment project, press 1.",
+                            "fileID": "c5d786b36891490b8db78135fa80ff75",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to your project coordinator.",
+                                        "fileID": "74f09f98968b4eaba94df4ec57c46469"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b3a817550cf7403ba4c2ff5d7ed9dd07",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing, invoices, or administrative support, press 2.",
+                            "fileID": "600c4ae034ed4cb998b08db53912bfbb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line and we will connect you to our support team shortly.",
+                                        "fileID": "ba71e5f19ea547c5a51792cb42b96767"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "157b6d2849894a8b93ad410e08d61717",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c33bf37c45d74804a07a5a0866d3fc7f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6a76d5ec32e142a8ab53951e99a39030",
+        "navigationGoals": null
+    },
+    "id": "51299026c33e4519baf83820f02c8776",
+    "navigationGoals": null
+}

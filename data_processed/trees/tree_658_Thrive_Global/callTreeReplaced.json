@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Thrive Global in San Francisco, where we end stress and burnout with science-based well-being solutions.",
+            "fileID": "4eeb040512f54b03b07f57642fe550c8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our individual well-being resources and digital products, press 1.",
+                "fileID": "6d71fa2f442044b0b556dfdff3fbf0f4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To subscribe to Thrive Global's personal resilience programs, press 1.",
+                            "fileID": "2cc46c62ab174e04a7a922176ea02687",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our subscription team.",
+                                        "fileID": "2ef50edd3a594cb599fadd68f40e7632"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0d861880eeae4e388d8b31f77d311959",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To inquire about our mental health and mindfulness course offerings, press 2.",
+                            "fileID": "3711c9ad297548ccbc9e7128cc6166cb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our course enrollment specialists.",
+                                        "fileID": "f08b444d72c24ebba9cefc616606d6c2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aa7d01e7c57344efb0f809af93643623",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1b45fe6227b74dba8f2f3708cdf503cf",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For corporate and enterprise solutions to enhance employee performance, press 2.",
+                "fileID": "96e1c73e2eab462eaffc899e2a19806e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss customized corporate training and workshops, press 1.",
+                            "fileID": "c90c0dc12b0d40a1babed314a1827fe0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our corporate training team.",
+                                        "fileID": "44df6f3f626543739338d5be2bf36fab"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "db75490de0d6400cbd2714ce73d37e3f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with a consulting representative about enterprise wellness solutions, press 2.",
+                            "fileID": "f1ac99fa50ce4d5aae7453231a21df96",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our corporate consulting specialists.",
+                                        "fileID": "240bc752382d454aa1739090780d9016"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d1934e560c6e42e1bc2aaf08c0771e28",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "38b28a2506984c789efca4109cfb318e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e796c563057e41909e0da21b881ef91f",
+        "navigationGoals": null
+    },
+    "id": "f773362dd73c42759adb5ad74b284bcc",
+    "navigationGoals": null
+}

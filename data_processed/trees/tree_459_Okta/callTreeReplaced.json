@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Okta, the Identity Cloud experts in San Francisco, ensuring secure connections between people and technology.",
+            "fileID": "980fc2fef0d34774a8d636d900daafdd"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales inquiries, product demos, and pricing details, press 1.",
+                "fileID": "cde0c0f706f845e1b3047f8ddca22ff4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press 1.",
+                            "fileID": "2fd9e4af4b9a4854be884996c1d99654",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest in Okta. Please hold while we connect you to a sales representative.",
+                                        "fileID": "b5b0d94a46864bd0a35b30e5a4e5178f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "be723c01354e498bb8cb0f25b60577c9",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To request a product demonstration and personalized walkthrough, press 2.",
+                            "fileID": "b80255873ffc451ea4972a6e8bc2c5d7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. Our specialists will be with you shortly to schedule your demo.",
+                                        "fileID": "cf07e870498c48e896145aad84570ed6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0cd52bd3812d46318079aa8733428d8c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c09dc9965e0b495b97dcf2c00a0fc94c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For service status or technical support, press 2.",
+                "fileID": "74000b6aecec46cb99a9ab515cdb9d0b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For current service status and incident reports, press 1.",
+                            "fileID": "2aecf4e4f85f4ff4961284a9b1a5c920",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold to receive the latest service status from our network operations center.",
+                                        "fileID": "5d9acbce6b5548808ddd8fd3f000eac8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dbf4400eb1e14076821549de69ebb23d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support and troubleshooting assistance, press 2.",
+                            "fileID": "6e86a1d34c164ec389235b1f95eb7085",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support engineer.",
+                                        "fileID": "d13faf8ad399451aa1d7605f6f182eb1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "43b91ce22587439e88eb4ad90b8b11a9",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "de409fa0a2a94118a235ebafe8e7f6fc",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "be856310d701408a8134d21110dfa0cd",
+        "navigationGoals": null
+    },
+    "id": "5b4508f8f8e643859c45f1ffabec678b",
+    "navigationGoals": null
+}

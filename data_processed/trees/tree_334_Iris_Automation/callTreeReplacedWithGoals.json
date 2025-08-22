@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Iris Automation in San Francisco, pioneers of safer drones with advanced collision avoidance.",
+            "fileID": "647a2f015944491eb2f92cc8ac1cfb7d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "9ebd3308e29c4c669c460bb495ffd3e8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For consumer drone offerings, press 1.",
+                            "fileID": "b90c01d2eb61487488ce9e03280f01a3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our consumer sales team.",
+                                        "fileID": "a0d6eea78978456f9193b73465becbbd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "156a8c2aa6344c698be52956f3c9f859",
+                                "navigationGoals": [
+                                    "I want pricing and availability for a consumer collision-avoidance drone.",
+                                    "Ask about pricing and veteran discounts on a consumer drone model",
+                                    "Obtain a detailed spec sheet and pricing for Iris consumer UAVs with advanced collision-avoidance features",
+                                    "I\u2019d like simple information on a consumer drone model that\u2019s easy for me to fly and its price",
+                                    "Inquire about pricing and specifications of a consumer drone suitable for physics demonstrations"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For enterprise drone solutions, press 2.",
+                            "fileID": "1315b07e96fd4ef69abc25be95e2ddd9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our enterprise solutions team.",
+                                        "fileID": "a63471bbf2264878bafd592e434d69f2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "761d6fc2bacf4270a9f1fedcccc90f65",
+                                "navigationGoals": [
+                                    "I want details on enterprise drone integration and volume discounts.",
+                                    "Inquire about enterprise drone packages suitable for a veteran-led search-and-rescue business",
+                                    "Discuss enterprise UAV fleet integration, API access, and bulk licensing costs",
+                                    "I need details on your enterprise drone packages and help understanding how they\u2019d work for my community center",
+                                    "Discuss enterprise drone package options for a university research project in atmospheric studies"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0b1638927af846888f65c32f17032691",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and service, press 2.",
+                "fileID": "c34711008b5f43aca0116716df737194",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "6f2d2d36c2f2473b81c731635dd2ea5f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "11275496fe3d4e0993e4ad0eec59e1ff"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0cb7ea2bbb764a64a0d901bceb816b71",
+                                "navigationGoals": [
+                                    "I want help troubleshooting my drone\u2019s collision-avoidance sensors.",
+                                    "Get help troubleshooting my drone\u2019s collision avoidance system",
+                                    "Troubleshoot SDK connection errors in my UAV\u2019s collision-avoidance module",
+                                    "I\u2019m having trouble connecting my drone to the app and need step-by-step technical help",
+                                    "Get assistance troubleshooting sensor calibration issues on my recently acquired drone"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For warranty claims and repairs, press 2.",
+                            "fileID": "ebe92c6115434f50b64a4a4793ab7262",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our warranty and repairs department.",
+                                        "fileID": "c755cadced234cfc80770bfe0a2c644a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8c9ec224fe5844d29e7e8bcf2ef9ac37",
+                                "navigationGoals": [
+                                    "I want to file a warranty claim to repair my damaged drone.",
+                                    "Initiate a warranty repair request for a damaged drone under warranty",
+                                    "File a warranty claim and schedule repair for a faulty obstacle-detection sensor on my UAV",
+                                    "My drone stopped working under warranty and I want to file a repair claim and learn the repair timeline",
+                                    "File a warranty repair request for a drone damaged during lab testing"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0fc2d158bad44614bcf336cd4e243404",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "48784611165d4b39b072f68b61c70206",
+        "navigationGoals": null
+    },
+    "id": "1f7ced16a2e743c6aadb5501f81628be",
+    "navigationGoals": null
+}

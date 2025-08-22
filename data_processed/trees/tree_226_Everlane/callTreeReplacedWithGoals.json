@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Everlane in San Francisco, where we deliver exceptional quality, ethical manufacturing, and radical transparency.",
+            "fileID": "f0d5b60a9c9d46208d90113b61112fe7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For order and returns support, press 1.",
+                "fileID": "c01971145858466a9315359df11d5db2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For order status and tracking updates, press 1.",
+                            "fileID": "babfbbd573c44b16897df64cffd3525e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an order specialist.",
+                                        "fileID": "25a6d6fb21e34651a8bd4580cdeeaaec"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bfb3f7cbea0a4581bca0bfe7f732eadf",
+                                "navigationGoals": [
+                                    "Get current status and tracking details for my recent Everlane order.",
+                                    "I need to track the delivery status of the veteran discount jacket I ordered.",
+                                    "I need the real-time tracking data and ETA for my recent Everlane order using the tracking number.",
+                                    "I\u2019d like to check the delivery status of my recent order.",
+                                    "I\u2019d like an update on the shipping status and tracking number for my recent Everlane order."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For returns and exchanges, press 2.",
+                            "fileID": "aad7d47feb5c47cfaaba0823d100ceea",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to returns and exchanges support.",
+                                        "fileID": "7ad04d6e853740f4a1e0ed18eb4fa2a3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bbd734bb0fc64c8f98b25b40ce6245d1",
+                                "navigationGoals": [
+                                    "Arrange a return or exchange for a recently purchased item.",
+                                    "I want to exchange the field pants I bought with the veteran discount for a larger size.",
+                                    "I want to initiate an RMA for my order and get a prepaid return label to exchange for a different size.",
+                                    "I need to return a jacket I bought and exchange it for a larger size.",
+                                    "I need to initiate a return for the merino sweater I bought and exchange it for a smaller size."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ceacb27191a2447790c05be3f4c578d2",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To learn about our products and sustainability practices, press 2.",
+                "fileID": "63793b36637b4c3f9d00c3113aed5231",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our sustainable materials and latest collections, press 1.",
+                            "fileID": "bc7dfd43a4af45a3aac877939d3a5458",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our product information team.",
+                                        "fileID": "6059790223bf424ba38d32e87eb7c17f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6a23d6db2ec34da7be831eff3d59a58a",
+                                "navigationGoals": [
+                                    "Learn about Everlane\u2019s sustainable materials and see their latest collection.",
+                                    "I\u2019m looking for information on your new sustainable cotton shirt and its available sizes.",
+                                    "I\u2019m looking for detailed specs on your new recycled nylon collection, including material composition and lifecycle analysis.",
+                                    "I want information on the eco-friendly materials in your latest collection.",
+                                    "I\u2019m calling to learn about the sustainable materials used in your latest collection."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To hear about our ethical factories and transparency reports, press 2.",
+                            "fileID": "244ddca3c37a4846b234093fa1657db0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sustainability and transparency experts.",
+                                        "fileID": "41075e69b4564d9db42a2b30d67074fb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5bc5936690ef4d2c930ea09b59494e9e",
+                                "navigationGoals": [
+                                    "Access Everlane\u2019s factory ethics information and transparency reports.",
+                                    "I want to review your ethical factory practices and transparency reports.",
+                                    "I need access to your factory audit reports and supply chain compliance data for your ethical manufacturing process.",
+                                    "I\u2019d like to learn about your factory practices and access your transparency reports.",
+                                    "I\u2019d like details on your ethical factory partners and how to access your most recent transparency report."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d9b64f66b6954bb396bbd1a709e23dd1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "aaf7d7150ecd482d96dfd4d90b1d08e7",
+        "navigationGoals": null
+    },
+    "id": "e100148063cc48f48e575d8ccbb2ff5e",
+    "navigationGoals": null
+}

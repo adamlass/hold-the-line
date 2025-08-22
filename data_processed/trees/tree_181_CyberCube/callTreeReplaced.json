@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to CyberCube in San Francisco, delivering data-driven cyber analytics for the insurance industry.",
+            "fileID": "5fa7221002e146038e3139832514de6a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For policyholder support and incident reporting, press 1.",
+                "fileID": "48e0ad1bb0b84c9aad37d2338185f793",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To report a suspected cyber incident, press 1.",
+                            "fileID": "d191fd42d3244b9e8249bfa5614c447d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our incident response team.",
+                                        "fileID": "93ec481168cc426e9206effb2d59292c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "532dc061bad6421f919af0d95f417137",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For existing claim updates and support, press 2.",
+                            "fileID": "4a0774a29fc748efbbd2a9f3cfa4cf55",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our claims support specialist.",
+                                        "fileID": "460452a4059444d3872bf04091204b8a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a4af25baf6cd483996d641d433e5f786",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "40f5d6421f8a421081aa61d08775554a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales, new business inquiries, and product information, press 2.",
+                "fileID": "168a58a8dfea42fc9c647792d71fcf8d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a demonstration of our analytics platform, press 1.",
+                            "fileID": "84de0dc934494e09a568d41ea7ff25c6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we prepare your analytics demo.",
+                                        "fileID": "5d671412bc1b4317814467f9aabb4a43"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0b312d913f1e42228eb448753d1601f5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative, press 2.",
+                            "fileID": "603db173ec584c84964b275e851b8d01",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold as we connect you to our sales team.",
+                                        "fileID": "0b945a34e9a345518c18403c031a8ff9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1e128114486b4b0c826d52591dce6e1b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b31748add6104dad8a57d509b05ec06d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "30e9361b08cb46a4ac2e109e3960cd6d",
+        "navigationGoals": null
+    },
+    "id": "20e80356676a4318ad90d87d1afbf9f3",
+    "navigationGoals": null
+}

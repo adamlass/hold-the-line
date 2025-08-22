@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Postman, the complete API development environment used by over six million developers worldwide.",
+            "fileID": "e3f3d7dd6ec14fa8aed964a5a2bc8585"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and account information, press 1.",
+                "fileID": "71dc686f1de44687b5e92dc82b277b7c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To set up a new Postman account, press 1.",
+                            "fileID": "63c174a75c4b4aaea45d289e32ca7b13",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales specialist for new accounts. Thank you for your patience.",
+                                        "fileID": "76eaa082841b47b49ece317c610f4d9a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "48c5fee748ff4950829d6b89cb0b30b3",
+                                "navigationGoals": [
+                                    "I need to quickly set up a new Postman account for my team.",
+                                    "I\u2019m a veteran transitioning into tech; I need help setting up a new Postman account.",
+                                    "I need to set up a new Postman Enterprise account and discuss subscription options.",
+                                    "I need help creating a new Postman account.",
+                                    "I\u2019d like to open a new Postman account to test API workflows for my physics research project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, upgrades, or account management on existing plans, press 2.",
+                            "fileID": "1bd88b9fea324951857926c55a69c03f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing department. We appreciate your patience.",
+                                        "fileID": "f6e156f7817f488090e6d8d200a38c4c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "12e7dcfd41c94a5da5577e9d3c01076d",
+                                "navigationGoals": [
+                                    "I want to upgrade my existing Postman plan and review my latest invoice.",
+                                    "I want to update my current Postman plan, apply any veteran discount, and manage my billing.",
+                                    "I want to upgrade my existing Postman Team plan and review my billing cycle.",
+                                    "I want to check and pay my existing Postman subscription bill.",
+                                    "I need to upgrade my existing Postman plan to the professional tier and update my billing details."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4745d2d088f4451999329da2be0f1560",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and developer assistance, press 2.",
+                "fileID": "6c803cde80944b95a6c0339b3df7e03c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help troubleshooting API requests, press 1.",
+                            "fileID": "2822e6bbd6874016ae0980d2a0a4523c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support engineer. We\u2019ll be with you shortly.",
+                                        "fileID": "9ef7366e36394b03bb30bd6d8e1f2dc0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "111a15bee3074831aff2129641d9a620",
+                                "navigationGoals": [
+                                    "I\u2019m getting errors on my API requests and need help troubleshooting them.",
+                                    "I\u2019m having issues troubleshooting API requests in Postman and need technical support.",
+                                    "I'm troubleshooting a 401 Unauthorized error in my API calls and need technical guidance.",
+                                    "I'm having trouble with an API request and need technical assistance.",
+                                    "I\u2019m having trouble with an API call that\u2019s returning errors when I try to fetch my experiment data\u2014can I get help troubleshooting?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For product feedback or feature requests, press 2.",
+                            "fileID": "dfd7d1f982334f928c0b8ba348108ad6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we forward your request to our product team. We value your feedback.",
+                                        "fileID": "4ba88a071ae74011a77f732b50ac87a1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5c237254dae143648ff9106f9bb86ead",
+                                "navigationGoals": [
+                                    "I\u2019d like to submit feedback and request a new feature in Postman.",
+                                    "I\u2019d like to provide feedback and request a new collaboration feature in Postman.",
+                                    "I'd like to submit a request for a bulk OpenAPI import feature in Postman.",
+                                    "I\u2019d like to request a feature for larger text to make Postman easier to read.",
+                                    "I want to suggest a feature for real-time visualization of API response metrics to support data analysis in my simulations."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "af159acfb9f8482a9a92e1bbddfd9183",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "780841b9dd4d41c0959b5d87ca17de5b",
+        "navigationGoals": null
+    },
+    "id": "6c4d78efb1674efab248b158b42cd5e1",
+    "navigationGoals": null
+}

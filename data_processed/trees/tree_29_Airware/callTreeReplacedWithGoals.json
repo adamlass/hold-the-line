@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Airware, the world\u2019s number one enterprise drone analytics company based in San Francisco.",
+            "fileID": "13761198c643436f8e68f9b27d349dc2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our drone analytics solutions, press 1.",
+                "fileID": "e8b9b9afef6d462db53259a8e0f5249d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team, press 1.",
+                            "fileID": "7c56b0c4e2b546c8bfb4304e62a19b39",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "ac8e24e6c0ed4b2684ae8cf1cab02332"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "143ad661f3064a21a69e88da4f3e2030",
+                                "navigationGoals": [
+                                    "I need pricing details and integration options for your enterprise drone analytics platform.",
+                                    "Talk to a sales rep about purchasing a drone analytics package for my security consulting business.",
+                                    "Request a detailed quote for the enterprise drone telemetry analytics platform, including API integration specs and licensing tiers",
+                                    "I\u2019d like to speak with someone about pricing and contract details for your drone analytics service.",
+                                    "Inquire about student or academic pricing for using your drone analytics platform in my physics research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a live product demonstration, press 2.",
+                            "fileID": "bd5739b8b6af4887aefb7bd21790f5d4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a demo specialist.",
+                                        "fileID": "6e0449f124dc479ba0a53eded54d52bb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0191662cc9564713bf87d6752db23796",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a live demonstration of your drone analytics system for our team.",
+                                    "Schedule a live demo of the drone analytics platform for search-and-rescue operations.",
+                                    "Schedule a deep-dive demo of the real-time flight analytics dashboard and anomaly-detection features",
+                                    "I need to arrange a live demonstration of your drone analytics platform.",
+                                    "Set up a live demonstration of your drone analytics solution for evaluation in my research work."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9807ef69f7764ed18a4a951795b2012f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and account services, press 2.",
+                "fileID": "f5cff409fef741d0945e40200e108bdc",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and software assistance, press 1.",
+                            "fileID": "3001b8d245624e5782f7b30171a6180f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "db0e7f8d833645029bf18af5c73720e1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dc1fdc2ee7be4257b8f4ee49bd499628",
+                                "navigationGoals": [
+                                    "Our drone analytics software is failing to upload data\u2014please connect me with tech support to resolve it.",
+                                    "Get technical support to resolve software integration issues with my mapping tools.",
+                                    "Troubleshoot Python SDK integration with your drone data ingestion API and resolve authentication errors",
+                                    "I require help troubleshooting my drone analytics software.",
+                                    "Get technical support to fix an error I encounter when uploading flight data to the analytics software."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries and account management, press 2.",
+                            "fileID": "81d19c6e797941ba870b1ba5591b268c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "1a5b2dd465c74956beb39c147f9af05d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1850165260ae4810a1e9b2c50cdc511f",
+                                "navigationGoals": [
+                                    "I need to review and pay our latest invoice and update our billing information.",
+                                    "Discuss a billing discrepancy on my account after upgrading my service plan.",
+                                    "Review and adjust my enterprise subscription plan, plus reconcile last month\u2019s pro-rata billing statements",
+                                    "I have questions about my bill and need assistance with my account payment.",
+                                    "Request an itemized invoice and explain recent charges on my analytics subscription."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "eb59ec167b744034bbfec9c0fff6e603",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "0bcac7b1f1c143bca9c27d28bd6ae00a",
+        "navigationGoals": null
+    },
+    "id": "ec1f377f8fc54cada9454b1f8e673264",
+    "navigationGoals": null
+}

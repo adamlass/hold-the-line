@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to PeopleGrove in San Francisco, reimagining mentorship for today\u2019s students and professionals.",
+            "fileID": "52b359c120224a6ea185bb3859ec71f6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a student or professional seeking mentorship, press 1.",
+                "fileID": "978d419ffd184f6291baf874edc4bf48",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn how to create your mentee profile and find suitable mentors, press 1.",
+                            "fileID": "76f5da6530f34361a6ba06e074708c19",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our mentee services team.",
+                                        "fileID": "8a7e6841b4ef46ef8422d3349cb5c003"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8b446b9d58ae4c3fbddb81b5071fc39c",
+                                "navigationGoals": [
+                                    "Help me set up my mentee profile and connect with a mentor quickly.",
+                                    "I need help setting up my mentee profile and finding a mentor for my civilian career transition.",
+                                    "I need to configure my mentee profile and use advanced filters to find a software engineering mentor",
+                                    "I need help setting up my mentee profile and finding a suitable mentor.",
+                                    "Help me set up my mentee profile so I can connect with a physics mentor"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To explore mentorship opportunities as a mentor and learn about eligibility, press 2.",
+                            "fileID": "27028d2eee5f4e02afe0727538b306e9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our mentor recruitment team.",
+                                        "fileID": "4ff59fe623af4be0955d37e270ef93bd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a3bab45b5cbe46329940691cff28ec66",
+                                "navigationGoals": [
+                                    "Tell me the eligibility criteria and process to join as a mentor.",
+                                    "I want to sign up as a mentor to support fellow veterans entering civilian workplaces.",
+                                    "I want to review mentor eligibility guidelines and register as a mentor specializing in data science",
+                                    "I\u2019d like information on how I can volunteer as a mentor and what qualifications are required.",
+                                    "I\u2019d like to sign up as a mentor and find out if I\u2019m eligible"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0eade2bc3ac545b6abb7411efcc790a8",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you represent an institution or partner interested in enterprise solutions, press 2.",
+                "fileID": "051ae8fb260a40669d4305e3f78a567a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on our college partnership programs and offerings, press 1.",
+                            "fileID": "39ff2b8a1a0a4c87bfdd03857921c283",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships team.",
+                                        "fileID": "9da707106527460eb34927c89352325c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c00a4647c3ce4cf98190e656d72d3cbb",
+                                "navigationGoals": [
+                                    "Provide me details on college partnership options for our institution.",
+                                    "I\u2019m calling on behalf of my veteran support organization to discuss partnering with your college programs.",
+                                    "I need information on enterprise integration for our university partnership, including API and SSO setup",
+                                    "I\u2019m calling on behalf of my community center to learn about your college partnership offerings.",
+                                    "I want information on your college partnership programs for my physics department"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical assistance with the PeopleGrove platform, press 2.",
+                            "fileID": "73675586d4b348b790d2e190af1ba870",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "a6670723a6d64b9ca4deca3ab62aa382"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "460244d006ed48ba9a641d59a1b93c8a",
+                                "navigationGoals": [
+                                    "I need urgent technical support for the PeopleGrove platform.",
+                                    "I\u2019m having trouble accessing my PeopleGrove account and need technical assistance.",
+                                    "I need technical assistance resolving OAuth login errors and token refresh failures on the PeopleGrove platform",
+                                    "I\u2019m having trouble accessing the PeopleGrove platform and need technical assistance.",
+                                    "I need technical assistance navigating the PeopleGrove mentorship platform"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3d595e318a3e4cbdbcc503f2ecc54c72",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c0a23e04fa5e41d485184f467bd01c1e",
+        "navigationGoals": null
+    },
+    "id": "8fdf0d91bbdb4f9d8f00356cf19b7673",
+    "navigationGoals": null
+}

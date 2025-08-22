@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Bexi, your scalable and hassle-free design partner in the East Bay.",
+            "fileID": "551ffebbe4924df982b1707d7d8b8c3e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our flexible pricing packages, press 1.",
+                "fileID": "4371af1d1e4e4356a0f1dad83ec1bb43",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear details of our subscription plans, press 1.",
+                            "fileID": "085d8527074849278df3314503ffeac2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our subscription specialist.",
+                                        "fileID": "b1fe7710f0054ec4886388d811263e94"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4915f187db264286b19beeb7ae4fe413",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with a pricing specialist, press 2.",
+                            "fileID": "b3eaa635c27740079a2985cac5021018",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a pricing specialist.",
+                                        "fileID": "4030ad8bda174a3b94b064df9137c2c7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2efd345b4f4a48a7843308c29d2a5fd0",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9dac179ad2f34ed191441e62b0ac36bd",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For on-demand project fulfillment and new design requests, press 2.",
+                "fileID": "0acb7df9cf72426786514dae5e408ecf",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit a new design project, press 1.",
+                            "fileID": "3d630dfc0e6e4d4bbdf8db08573854cc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our project intake team.",
+                                        "fileID": "1fc067adcca24c8784887a236966bd50"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "17fd459bebb949a38fb65e648683abb1",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing project, press 2.",
+                            "fileID": "4e4d964da83f494ea18afc4e9933ff1f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your project status.",
+                                        "fileID": "69c3a1069d2a4b52ba87ca603b547ab2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c9c30c7f5be64915afb813267a4a2686",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4d8c8a2c2afe4e1381cdf414bd0d8232",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "0c8029e5c13441ee8fd14f3372205868",
+        "navigationGoals": null
+    },
+    "id": "bc43a8b41f6b4de19e462b10928e6c99",
+    "navigationGoals": null
+}

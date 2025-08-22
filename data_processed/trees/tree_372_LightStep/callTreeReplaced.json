@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling LightStep in San Francisco, where you can observe modern applications with confidence and diagnose anomalies at scale.",
+            "fileID": "c1a7733b1f7147ed9d188986b91690f5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and pricing inquiries, press 1.",
+                "fileID": "6a3021e9fc284a16bd48bc0edae18b59",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information about our pricing plans and licensing, press 1.",
+                            "fileID": "d1ef1b8b4add46d9ad3402ac56d27ca2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a LightStep sales representative.",
+                                        "fileID": "c0176db0a3f44f4e9ba4e0c06ec7eb35"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4c3fc604a254433e8ec43315ef92c7d4",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a live product demonstration or technical consultation, press 2.",
+                            "fileID": "5adb6ca02c6f4f3ebed048e61f5df59f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we arrange your demonstration with a LightStep specialist.",
+                                        "fileID": "06eefcaac8014283afe060f0dc5b8c19"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "897dba683b07441b9ae01303a9297bd8",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cd519aadeeb645ccbc19c741a6b4eeb8",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and troubleshooting, press 2.",
+                "fileID": "57d1e516820c4733bdab411d14829685",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are experiencing issues with your LightStep account or service, press 1.",
+                            "fileID": "e6b6f1f503ae4ad79d770f820533f750",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support team.",
+                                        "fileID": "b881a0d2ae69455a9728474135dd08ee"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e388ed4d83844991b934ec6ae91212ee",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For developer resources, API information, and integrations, press 2.",
+                            "fileID": "240de148148c424498aec8c1050f848c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our engineering team.",
+                                        "fileID": "a239e9210df14528ab5c2d71bb98a366"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "29fd038e675f4d9a8c6dcf28d6e984c9",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0cfb7ca30a404a0ca2481615c66c5025",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "22ba4622b8ac4347ac81ab1bde91f74a",
+        "navigationGoals": null
+    },
+    "id": "dc64ec2582de42d380191741230abb80",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Chartio, based in San Francisco and your partner in cloud-based data exploration and analytics.",
+            "fileID": "c6cb6f55fca446dfbbd8acdf573ecbf4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "df4adeb40ed9440da4c714e09d8eb5bc",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a free demo of our interactive dashboards, press 1.",
+                            "fileID": "4dec8132ef284b1c8990473599423c91",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo scheduling team.",
+                                        "fileID": "7c735a8538994dc7954d0af5b05aa7fe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7cf155ec9d3d43d4b68096f1e6c0b691",
+                                "navigationGoals": [
+                                    "Schedule a demo of the interactive dashboards for my team.",
+                                    "I\u2019d like to schedule a demo to see how Chartio can help me analyze veteran program data.",
+                                    "Arrange a live walkthrough of Chartio's dashboard & data visualization features.",
+                                    "I\u2019d like to schedule a free demo to see how your dashboards work.",
+                                    "Arrange a demo of Chartio\u2019s dashboards to visualize my physics lab data"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative, press 2.",
+                            "fileID": "5ae5790a81214ef680b64646cb507e90",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales representative.",
+                                        "fileID": "ee24ba5e12314981818343cc9e34a18a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b2baa272e84d4fb2bfa9157e2dd9a1ba",
+                                "navigationGoals": [
+                                    "Connect me with a sales rep to discuss pricing plans.",
+                                    "I need to speak with someone about pricing and veteran discount options for our nonprofit.",
+                                    "Discuss enterprise licensing and API integration options with a sales representative.",
+                                    "I need to speak with a sales representative about purchasing options.",
+                                    "Discuss academic discount options for Chartio licenses for my research group"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f16224a7298046d0b52ea6f95b853818",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and troubleshooting, press 2.",
+                "fileID": "0fd0000b12d34f53a656638f5ba0dc90",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need assistance with your charts or dashboards, press 1.",
+                            "fileID": "a73f3e080fab437fa99bc13326cc27db",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "90edde8c962e45d5955dd6c92c8c378d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c4b6b42a5bfa4364b45d7523d24926ba",
+                                "navigationGoals": [
+                                    "Resolve a technical issue with my dashboard charts right away.",
+                                    "I\u2019m having trouble adjusting filters on my veteran outreach dashboard and need technical assistance.",
+                                    "Troubleshoot a data refresh failure causing dashboard rendering errors.",
+                                    "I\u2019m having trouble with my dashboard charts and need technical assistance.",
+                                    "Resolve an issue with my experiment results dashboard not loading"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account or billing inquiries, press 2.",
+                            "fileID": "85a5b95206ad482c91e2695fbd30a2d7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "b44a3ca2e1904b028a4cc8658cf5d196"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2940efbaa5c543da9f44bab7662ee945",
+                                "navigationGoals": [
+                                    "Get clarification on my account billing and invoices.",
+                                    "I want to clarify a billing charge and confirm my veteran discount was applied.",
+                                    "Resolve a discrepancy in my subscription invoice and clarify billing cycle.",
+                                    "I want to inquire about my billing statement and update my payment information.",
+                                    "Check billing charges and payment options for my student subscription"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "dd6409b247034b7eb316ed328785aed9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "35e87b09d5a24f588425d9b81ac0eb39",
+        "navigationGoals": null
+    },
+    "id": "2b0ef06e55e64ec69f273c96d73b953b",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to General Assembly San Francisco, where we prepare you and your business for the fast-paced world of technology.",
+            "fileID": "d95df7dbae2b4a09b929c0ef1aac1ead"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To explore our upcoming tech and design courses, press 1.",
+                "fileID": "031aeb5e61004868a05a4b60e7d61f27",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with an admissions advisor, press 1.",
+                            "fileID": "82263f38c3ab48369cbdd2bfeb322e6e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to an admissions advisor. Please hold.",
+                                        "fileID": "3a76af00ea11460e844c195a9424951a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "022e0e2f3b904612aced3b81260281d0",
+                                "navigationGoals": [
+                                    "I need to speak with an admissions advisor about enrolling in a tech or design course.",
+                                    "I want to speak with an admissions advisor about leveraging my veteran education benefits for an upcoming software engineering bootcamp.",
+                                    "Discuss program prerequisites and technical skill requirements with an admissions advisor.",
+                                    "Please connect me to someone who can help me enroll in a tech course.",
+                                    "I want to speak with an admissions advisor about course prerequisites and how your tech and design programs fit my physics background."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To hear about upcoming class schedules and tuition fees, press 2.",
+                            "fileID": "0f0e168c903b4571a3ce846bcf4942cf",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the upcoming class schedules and tuition details.",
+                                        "fileID": "379c907ba0bd4c048ef65beba28de74c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3a8b6137991c40c6b2357f919de6ef1a",
+                                "navigationGoals": [
+                                    "I want details on upcoming class schedules and tuition fees.",
+                                    "I need the schedule and cost details for your next part-time UX design course under the GI Bill.",
+                                    "Get the upcoming schedule and detailed tuition breakdown for the UX Design course.",
+                                    "I\u2019d like assistance finding out when the next classes start and how much they cost.",
+                                    "I\u2019d like information on upcoming class dates and tuition costs for your tech and design courses."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e8501bb320ea47ad863edeb52f71bf7f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For corporate training solutions and team upskilling, press 2.",
+                "fileID": "9f00bb0dcd7a4ba58360f4adb172b27a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss a custom curriculum for your organization, press 1.",
+                            "fileID": "6df57ba50e5948bcbed2782f0c598f2a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you with our corporate training team. Please hold.",
+                                        "fileID": "a8446b833ceb41889ca2e14d312d7239"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e6bb2047cb6d4b38a8fa39f5174a054a",
+                                "navigationGoals": [
+                                    "I'm looking to develop a custom corporate training program for my team.",
+                                    "I'd like to set up a custom corporate training for my nonprofit veteran outreach team.",
+                                    "Design a bespoke corporate training curriculum for our engineering team.",
+                                    "I need help designing a custom training program for my small community group.",
+                                    "I\u2019m interested in creating a tailored training program for my research group\u2014can I discuss a custom curriculum?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For information on group rates and partnership opportunities, press 2.",
+                            "fileID": "6f719913637249ad8c23ae7817016bd8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships specialist.",
+                                        "fileID": "21777b300dee43c28de6d3094a1bd14f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "07f308f2cc4c48a2acaa49c36d0bd8d9",
+                                "navigationGoals": [
+                                    "I need information on group rates and partnership options for corporate training.",
+                                    "I'm interested in group pricing or partnerships for organizing a career transition workshop for veterans.",
+                                    "Obtain information on group pricing tiers and partnership frameworks for enterprise training.",
+                                    "Could you tell me about group discounts and partnership options for seniors?",
+                                    "I\u2019d like details on group discounts and partnership opportunities for our physics study team."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f2cc685c33d44515845b34eef46c4c03",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "95633c84bb5e4a7db3d2ba5ee64bfeb6",
+        "navigationGoals": null
+    },
+    "id": "f12d2dc0da1c4da3a053a40bcc49ab5b",
+    "navigationGoals": null
+}

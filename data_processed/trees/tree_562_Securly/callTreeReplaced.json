@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Securly South Bay, your cloud-based web filtering and parental control solution.",
+            "fileID": "5338a41e657a4defb7a889147ad0dce6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Customer Support, press '1'.",
+                "fileID": "7b9b6dc2d6e048049f68030df95c8b89",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance with setup or network issues, press '1'.",
+                            "fileID": "54db90c19d6140f98423cf2216a298a8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Technical Support.",
+                                        "fileID": "276a0c4a73794e2f8e5f40cc82256a1b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c413e599689c4bc79c61b6194182b5a1",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account, billing, and Parent Portal inquiries, press '2'.",
+                            "fileID": "6838b811f22f43969824872cf9acb105",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Billing and Account Support.",
+                                        "fileID": "da7324b832464e6c88dd2f34d5d49944"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e8101d1e7d7346759b01ed446b632846",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "855a728204594c34a1ab3aaf6954e8eb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Sales and Product Information, press '2'.",
+                "fileID": "47423f374db04ad889cc7174dadf699f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about setup and deployment in schools or homes, press '1'.",
+                            "fileID": "c30be824da1246b2a794a4ae228a57b9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our Deployment Specialists.",
+                                        "fileID": "9298fb3b52944a80a0f1ac12ced81d4c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "197de8ab519a4c309b13cb7560abf91b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For live demo scheduling and feature overview, press '2'.",
+                            "fileID": "4f7af9519d474dadaab608162d0fc470",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our Sales team for a demo.",
+                                        "fileID": "8c18bcddb17a4c72bda03e07b38c7067"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fc526f722e11496aa126b89f94c22a26",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8cd2fafa471640fca65de8936e1a5237",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "77006a27155349f5b7473f80bae3ec73",
+        "navigationGoals": null
+    },
+    "id": "947e7b5c4f884a24901eaf3166fa7edc",
+    "navigationGoals": null
+}

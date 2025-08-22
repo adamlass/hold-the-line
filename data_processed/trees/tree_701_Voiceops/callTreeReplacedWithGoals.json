@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Voiceops in San Francisco, your source for coachable insights to improve your sales conversations.",
+            "fileID": "8aa874b598e04e9f8f0fecef94dd0013"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "66e479b436be4f1086e92de98e1d5207",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a product demo or to schedule a trial, press 1.",
+                            "fileID": "faf85cf3c8da42f99f468ec6e6775e92",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo team.",
+                                        "fileID": "5c40277bf87b415f98d941e7c2b557c9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "76ef50d3630348b2b6a5109f2703b7f3",
+                                "navigationGoals": [
+                                    "Schedule a quick product demo to evaluate features for my team",
+                                    "I\u2019m an ex-military veteran running a small consulting firm; I\u2019d like to schedule a demo of your call coaching platform.",
+                                    "Schedule a hands-on demo of the VoiceOps call-coaching platform with API integration details.",
+                                    "I\u2019d like to arrange a walkthrough of the software so I can try it out.",
+                                    "Schedule a demo to evaluate VoiceOps for analyzing my study group discussions"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative, press 2.",
+                            "fileID": "1c90f96fcba84be996746a6ffeebd498",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "4e06a313e5674c978ea13e2549374996"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c402a37b315c44a8babfb3a628fe693d",
+                                "navigationGoals": [
+                                    "Discuss pricing and package options with a sales representative",
+                                    "As a veteran entrepreneur, I need to speak with a sales rep about pricing options and potential veteran discounts.",
+                                    "Connect with a sales representative to discuss enterprise licensing and volume pricing options.",
+                                    "I need to speak with someone about purchasing and pricing details.",
+                                    "Speak with a sales representative to ask about student or academic pricing options"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2e2e3dfd88c543f38cd9c3029e1d4595",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and billing inquiries, press 2.",
+                "fileID": "3f62647b70df4d0f9d196197197864de",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "66e190db8bcb4f499950adfc4cb66db5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "fd1383fd05734bb8adad1ea355a21f80"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "519983814a174600af12084c84312e07",
+                                "navigationGoals": [
+                                    "Troubleshoot an urgent technical issue with the platform",
+                                    "I\u2019m having trouble accessing my call analytics dashboard and need technical support to troubleshoot.",
+                                    "Get technical support to troubleshoot the 503 error on my VoiceOps webhook integration.",
+                                    "I\u2019m experiencing an issue with the software and need help troubleshooting.",
+                                    "Troubleshoot an error preventing my call recordings from uploading"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account management, press 2.",
+                            "fileID": "2d0c1d2fcb2446e29e9eb904dd578e43",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "16ba89edc1fe467ca09c7a97036fc8c4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "05b0d3089f3f42b19afcf56060745d3a",
+                                "navigationGoals": [
+                                    "Update our account\u2019s billing information and payment method",
+                                    "I have a billing question\u2014I need to review my latest invoice and update my payment method.",
+                                    "Review and update my subscription billing details, and clarify charges for the premium analytics module.",
+                                    "I have a question about my invoice and need assistance with my bill.",
+                                    "Request a refund or clarification on a trial subscription charge"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "77b000359c744f069be6f66705dc99fe",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7b73be111d4e41dc9e8fc12bca6b8b98",
+        "navigationGoals": null
+    },
+    "id": "ab5f57d929e2495e88a687d24216a3ab",
+    "navigationGoals": null
+}

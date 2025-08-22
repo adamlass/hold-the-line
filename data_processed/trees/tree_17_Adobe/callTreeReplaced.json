@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Adobe in San Francisco, where we empower you to create, deliver, and optimize digital experiences.",
+            "fileID": "39f386f81a034cbf8edcc2fecf9df435"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for Creative Cloud plans and design solutions.",
+                "fileID": "4b5e66779b534bfe8789c98585bc95b6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for Creative Cloud plans and pricing.",
+                            "fileID": "611b22b927c24475b6ce1b8c4e475638",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a specialist in Creative Cloud plans and pricing.",
+                                        "fileID": "6ab9c4e96170451c9b71435e6c9412c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8733df441f0b49f9b63bccaa0ebf3b0c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for technical support with our design applications.",
+                            "fileID": "9973ce5aea31407bba24f556f24c6148",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. We\u2019re connecting you to Adobe design application support.",
+                                        "fileID": "31df9a280d7d471dac168447401c6841"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "404438ca6d634968b8d8e67fb4bc0a81",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ef23ff68e1264dde9ea677fcdab43105",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for marketing tools and enterprise account support.",
+                "fileID": "03e99708f5274aa29796a35d4dc897af",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for Adobe Experience Cloud digital marketing tools.",
+                            "fileID": "354632376d694688961ee0c5f5ca0cb5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our digital marketing solutions team.",
+                                        "fileID": "880917a5e04c48aa96156a3e4d33abb6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "473c8285b05343edafe62d0946c66c62",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for enterprise account and licensing support.",
+                            "fileID": "0f22dc80bc004b4ba57b5e5a34938031",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to enterprise account services.",
+                                        "fileID": "86ab4c2a6a8a477eb71ad5b7dbf2a5fb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3c33f9a562374506a1adde9794b3a900",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "52178b542b6d4eccbe66d974f28375cb",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "660b7f8b643849ca9291a164b38b88c7",
+        "navigationGoals": null
+    },
+    "id": "c4dd66a056124049a795548305cbc6f2",
+    "navigationGoals": null
+}

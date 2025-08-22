@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Anomali on the Peninsula, your trusted threat intelligence platform.",
+            "fileID": "ec1d49f5124348cbb455ca6e70f281ea"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support and incident response, press 1.",
+                "fileID": "30ceb1fdc4d84f06969938af9c817fec",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To report a new security incident, press 1.",
+                            "fileID": "7d1dc67d23f14213b64314e8d7315d58",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our incident response team.",
+                                        "fileID": "35074eeb905b40c4962c986e769ec12e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0491279b49e749708b616b8b26495267",
+                                "navigationGoals": [
+                                    "I need to report a critical security breach we just discovered on our network.",
+                                    "I need to report a suspected security breach our team has just uncovered.",
+                                    "Log a new security breach with Indicators of Compromise for incident response review",
+                                    "Please help me report a new security incident to your incident response team.",
+                                    "I need to report a suspected security breach on our lab network."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help with platform access or account issues, press 2.",
+                            "fileID": "300405b473d94903a375e638b7cd97e8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support specialists.",
+                                        "fileID": "ece0f2b6ab1f46eab9dea712ee842501"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b395b123c3d841838265ecd53d785407",
+                                "navigationGoals": [
+                                    "I\u2019m locked out of my Anomali account and need to regain access immediately.",
+                                    "I\u2019m locked out of my Anomali account and need help resetting my access.",
+                                    "Troubleshoot an SSO authentication error blocking access to the threat intelligence dashboard",
+                                    "I can\u2019t log into my Anomali platform and need assistance accessing my account.",
+                                    "I can\u2019t access my Anomali account and need help resetting my password."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a9e9799334d54c099dd9dc234bf6c487",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and product inquiries, press 2.",
+                "fileID": "02787e4c6ed747c693a6d572d55819fb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a product demonstration, press 1.",
+                            "fileID": "9a530804393649f3baf346349eb32dd0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a product specialist.",
+                                        "fileID": "4115abf686d840b0b7c4c7dd9906b610"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6dbd2c7892c643d6a0f55e08617a0719",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a live demonstration of your platform for my security team.",
+                                    "I\u2019d like to schedule a product demonstration of the threat intelligence platform.",
+                                    "Book a technical demo focused on API integration and threat feed ingestion workflows",
+                                    "I want to schedule a demo of the Anomali platform to learn how it works.",
+                                    "I\u2019d like to schedule a demonstration of the Anomali platform for our research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, licensing, or billing inquiries, press 2.",
+                            "fileID": "becef6dc20374148b2d5797836edb5c1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing and licensing department.",
+                                        "fileID": "01fd4276dc3f47a29fd107aefc3fdd74"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c99a0dda4f854cafbe018a66d5d263ab",
+                                "navigationGoals": [
+                                    "I want to get detailed pricing and licensing options for about 50 endpoints.",
+                                    "I need detailed pricing and licensing information for an enterprise subscription.",
+                                    "Get detailed subscription tier, seat-based licensing, and billing cycle information",
+                                    "I have questions about my billing and licensing fees and need help understanding them.",
+                                    "I have questions about licensing costs for an academic subscription."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ef91836e8d394bc2a86d3b79e533a130",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "fc8287160298457ebf33d190d4676809",
+        "navigationGoals": null
+    },
+    "id": "05b7c4a180e94ddd8079d7e919274ce3",
+    "navigationGoals": null
+}

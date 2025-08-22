@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Premier Talent Partners, your modern-day matchmakers in San Francisco.",
+            "fileID": "53ce09450e4a46bfbbb8edef36e18214"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a company seeking talented professionals, press 1.",
+                "fileID": "6b53a5fb7278412a87bdd891614b0c51",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a staffing specialist, press 1.",
+                            "fileID": "f0ba83c06c9442778db4eaccbb8060b5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to one of our staffing specialists.",
+                                        "fileID": "2ee854a321c346a4bfe89f342e5e4e09"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2b93e43c4d634ae7a8228a89aa237646",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a consultation for your hiring needs, press 2.",
+                            "fileID": "d5694a7ea0f649b2bacecbb3ff9a2d73",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we are transferring you to our consultation team.",
+                                        "fileID": "cfecbdcbc95c4e6c9b934dd7fa48cb56"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1040f650297d45c18e95b61551e4429b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a05ffc838a994d01be33cb7ebebe7bec",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a job seeker looking for opportunities, press 2.",
+                "fileID": "fdd9dc14a774486fab413ec5644fc0de",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about current job openings, press 1.",
+                            "fileID": "4d681d0f6fc8464e939eedeaf5183cb0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you, please hold while we fetch the latest job listings for you.",
+                                        "fileID": "cde326144c744971a4d24d1d5821b20a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d23fc670b8154f77a5503c87762439aa",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To submit your resume for consideration, press 2.",
+                            "fileID": "6bc3f665a6bf4e4ab30cbd92ff1338f3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our candidate intake team.",
+                                        "fileID": "553b7dd235fe429aac6dbea9142a5e9d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4f250a9a8b3749358d9cdf4f11c08141",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fbc0d98898984a41aed104ccd4a8d9dd",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3d3f68c1664c4a448017756a8a608a51",
+        "navigationGoals": null
+    },
+    "id": "a10d45dfab9a414ba1d0a2d31dd79180",
+    "navigationGoals": null
+}

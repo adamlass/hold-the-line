@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to TEKsystems in San Francisco, where we're building tomorrow's workforce today.",
+            "fileID": "4614037aa103436e97ece6dd95fbd7e7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a job seeker looking to build your career, press 1.",
+                "fileID": "e1cf3426d5674304b94f81fee51c0ce7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our recruitment team, press 1.",
+                            "fileID": "2889c6fc3c7f445aa3da8d1c48a6d4a9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to one of our recruiters.",
+                                        "fileID": "ce1c16f4cb3744019526cadf29cbb9b0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bf5b45c0ba1a489384636e3c37d13646",
+                                "navigationGoals": [
+                                    "Connect me to a recruiter to explore current job openings.",
+                                    "I want to speak with a recruiter about tech roles tailored for veterans in San Francisco.",
+                                    "Connect with a recruiter to explore full-stack development opportunities in your San Francisco office.",
+                                    "I need to speak with a recruiter about tech job opportunities and any accommodations I might need.",
+                                    "I\u2019d like to speak with a recruiter about internship opportunities in computational physics."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check the status of your application, press 2.",
+                            "fileID": "faf07bc26cbe44d5864af1b834185d72",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your application status.",
+                                        "fileID": "7e97747d48c54dc1a2ea72091be51ce8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e4a98b5968cb4a3bbf7ec97d1362eaf1",
+                                "navigationGoals": [
+                                    "Check the current status of my submitted job application.",
+                                    "I need to check the status of my application for the veteran tech training program.",
+                                    "Check the status of my application for the microservices engineer role.",
+                                    "I want to check the status of my recent job application.",
+                                    "I want to check the status of my application for the research assistant position."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d41aff488d4543669cc5cb099efb535f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a company seeking tech talent, press 2.",
+                "fileID": "4bd8e88211104f49ac2b71e0c5ca7a85",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss tailored staffing solutions, press 1.",
+                            "fileID": "908898016d604332a72105f07462919b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a staffing specialist.",
+                                        "fileID": "a78a50ab726449f896ac7540600f3695"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7836e9797a094da6bf1ddfe76edacf98",
+                                "navigationGoals": [
+                                    "Speak with a staffing specialist about tailored tech hiring solutions.",
+                                    "I\u2019m calling to discuss customized staffing solutions for my veteran-owned tech startup.",
+                                    "Discuss tailored staffing solutions for our DevOps automation project.",
+                                    "I need to discuss tailored IT staffing solutions for my small business.",
+                                    "I\u2019d like to discuss staffing options for my student-led quantum simulation project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "58cf58e243c445ee898adee4fbfc20d4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "8d9bb3cb376949d889e1ee38972c0d70"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0690412ba09841c2a60f1f32ae3c56a3",
+                                "navigationGoals": [
+                                    "Clarify a recent invoice and billing details for our account.",
+                                    "I have a question about the invoice on my company\u2019s staffing services account.",
+                                    "Review billing details and get an itemized breakdown of last month\u2019s contractor invoices.",
+                                    "I have a question about a recent invoice and need to speak with billing.",
+                                    "I need information on billing for our group's recent staffing services."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a883a39bdd674c389a866c5a827a5274",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e5371aa5dc2b4a9bb4e12faeb7c72699",
+        "navigationGoals": null
+    },
+    "id": "1f08f43f1a3647358b28e5fc54775555",
+    "navigationGoals": null
+}

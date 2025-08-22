@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Visby in San Francisco, pioneers in industrial light field technology.",
+            "fileID": "07d8e5f3bed648f9a8e161a4db7964e8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "5e6d1648c6b7431f94e6fe691c58e3d9",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product demonstrations and technical specifications, press 1.",
+                            "fileID": "04673c7d3a834dcbbd76b48189c3c775",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our product specialist.",
+                                        "fileID": "0bda5369e9e24cbc9b943d84f0c2ac36"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9bd2a7768c1b40c0bc6ba7e9e64e1726",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing details and custom quotes, press 2.",
+                            "fileID": "ca5ebaf4d66540378e42c04d2a98b418",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for a quote.",
+                                        "fileID": "7536a44326a341abb5132254c024a96b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dfb031c216c74e18b9e86ba1b834206c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1a4a77555f9c4fe09eb1d2a0542a7e3f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and service, press 2.",
+                "fileID": "43b6b3e199b74d95ad36d9d1d29fc2bc",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "1b8f32b08c8f4075b41416bad10999ad",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "543542674b4843498b56c933a8568567"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "59b5c8f280914c26bad8a737f99bd290",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For repair services and maintenance agreements, press 2.",
+                            "fileID": "c3a3d716312844f7b73c09602777b70e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our repair and maintenance department.",
+                                        "fileID": "e4ffd2b9841041b99ee0e61562b36c31"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e1da412eb5eb4f3aa6c46bc7a0c2f21a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0816f13d3db742ce9c4749e8fbf5d4ff",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b7b0b16da1004332952980b2efcf56ae",
+        "navigationGoals": null
+    },
+    "id": "29473bdee87442c98963e19d7e4f1fc2",
+    "navigationGoals": null
+}

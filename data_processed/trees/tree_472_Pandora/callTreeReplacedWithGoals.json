@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Pandora East Bay\u2014start listening for free as every station evolves with your taste.",
+            "fileID": "e58adf74468e409ab6a72bcc7f4017f3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To discover new music stations, press 1.",
+                "fileID": "9b6cf35b6f494e0e8ce92a93ace992f7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To create a custom station, press 1.",
+                            "fileID": "47e4277551f8487a9f04fe9b59bb7241",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our station creation specialist.",
+                                        "fileID": "36d848a694d04f2dbcc24785a961bd4d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dad135c9e44642e2b082fa680a574e05",
+                                "navigationGoals": [
+                                    "Create a custom station based on my favorite artists.",
+                                    "I want to set up a custom station with calming and motivational tunes to help me unwind after workouts",
+                                    "Create a new station seeded with my favorite track's acoustic fingerprint.",
+                                    "I want help creating a new custom station that plays my favorite oldies.",
+                                    "I want to create a custom Pandora station that blends experimental electronica with classical pieces for my study sessions."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To explore trending genres, press 2.",
+                            "fileID": "37cfcd716bf942fcb735956a5828dccb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we curate the latest trending genres for you.",
+                                        "fileID": "c3740a069c5b444e82aaa75770765a7b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "19214192e73e435bbacde5692e57666d",
+                                "navigationGoals": [
+                                    "Get a quick list of the top trending music genres right now.",
+                                    "I\u2019d like to explore the most popular genres right now to find new music I might enjoy",
+                                    "Explore and subscribe to the latest trending genre channels.",
+                                    "I\u2019d like to explore today\u2019s trending music genres.",
+                                    "I\u2019d like to explore the current trending genres, especially ambient and lo-fi beats to help me focus on physics problems."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a7afaf49e6f846ebbbde270676c67b0b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account and support options, press 2.",
+                "fileID": "35ec4ee227b541169b47479398ad7782",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For subscription and billing inquiries, press 1.",
+                            "fileID": "315e556c40d44e1f9e00e6d67ce5a5ef",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our subscription support team.",
+                                        "fileID": "360eba377d7b41eaa3164411fd68ce66"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c038498b128b497ab0ba5abdaeea24f6",
+                                "navigationGoals": [
+                                    "Switch my subscription plan from monthly to annual billing.",
+                                    "I need to check if I can apply my veteran discount to my premium subscription",
+                                    "Review my billing details and upgrade my subscription plan.",
+                                    "I need assistance reviewing my subscription bill and updating my payment information.",
+                                    "I need assistance switching to a student-discount subscription plan and clarifying the billing cycle."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support, press 2.",
+                            "fileID": "4bf1d777a29c4db795238a8054e31528",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "e0c0c86b5cca4976b15839f6652ed9f4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "20eec669584c4d34be100008e0070560",
+                                "navigationGoals": [
+                                    "Fix the app freezing issue during playback.",
+                                    "I\u2019m having trouble streaming music on my app and need technical assistance",
+                                    "Resolve playback buffering by clearing cache and resetting the stream.",
+                                    "I\u2019m having trouble playing music in the app and need technical support.",
+                                    "I\u2019m experiencing playback glitches on the mobile app and need technical support to fix the streaming issues."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bec295f08c7a4f45a96536f2c7baaab7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9f7ba6e4d0a14053aef06fe8cf47bc61",
+        "navigationGoals": null
+    },
+    "id": "106c973aa905496aacfcd3fe4fb896ba",
+    "navigationGoals": null
+}

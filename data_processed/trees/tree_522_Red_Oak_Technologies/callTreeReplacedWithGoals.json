@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Red Oak Technologies, South Bay\u2019s premier recruiting agency serving companies from startups to Fortune 500s.",
+            "fileID": "aa432e7038bf490daf16b13dea80beb5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a job seeker looking for new career opportunities, press 1.",
+                "fileID": "7e4f22876a0b4b9f834edc16d25d3c05",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak directly with a recruiter about current openings, press 1.",
+                            "fileID": "cb229da40d7c4725aa8577eb12837792",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All of our recruiters are currently assisting other candidates. Please hold and we will connect you as soon as possible.",
+                                        "fileID": "08e745cc68184fe2b7c5b42166312fa3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "81363e8817be4cb5be2917b540bd5eb5",
+                                "navigationGoals": [
+                                    "Connect me with a recruiter to discuss current job openings.",
+                                    "I need to speak with a recruiter about current job openings that match my military experience.",
+                                    "I want to sync with a recruiter to explore active software engineering openings.",
+                                    "I need someone to help me talk to a recruiter about current job openings.",
+                                    "I\u2019d like to speak with a recruiter about current physics research internships in Silicon Valley startups."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To submit your resume and portfolio for consideration, press 2.",
+                            "fileID": "4bc1ef69ef564eb8a1bc721369593227",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our resume intake team. One of our specialists will be with you shortly.",
+                                        "fileID": "17656225562843d79e79f12832d11b6a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "69e26243265b476fa54ce0ed183a77ab",
+                                "navigationGoals": [
+                                    "Submit my resume and portfolio for consideration.",
+                                    "I want to submit my resume and portfolio for consideration for veteran-focused roles.",
+                                    "I need to provision my resume and GitHub portfolio for evaluation.",
+                                    "I want to send in my resume and portfolio for job consideration.",
+                                    "I want to submit my CV and sample research projects for consideration for theoretical physics positions."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c3ee30e0c75740d6b5506ffb8713dc72",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an employer seeking expert staffing solutions, press 2.",
+                "fileID": "c08647947cdb45db9d07a5e3ba9891dd",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a client services representative about your hiring needs, press 1.",
+                            "fileID": "c6e15e269e9040e993465672cec66242",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All of our client advisors are currently busy. Please hold and the next available representative will assist you shortly.",
+                                        "fileID": "0ff1af9e12c848c79355e863125225d4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d8080811d6c24902bc373d7183138291",
+                                "navigationGoals": [
+                                    "Speak with a client services representative about our company\u2019s hiring needs.",
+                                    "I\u2019m a veteran-owned business owner and would like to discuss my hiring needs with a staffing specialist.",
+                                    "I\u2019m an employer seeking to engage a client services specialist to scope our staffing requirements.",
+                                    "I need to speak with a staffing consultant about hiring for my company.",
+                                    "I need to discuss staffing a research assistant in experimental physics for my university lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For details on our customized recruiting solutions and service packages, press 2.",
+                            "fileID": "8b17697741524020b49c0825170e3452",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve information on our services. A solutions specialist will be with you momentarily.",
+                                        "fileID": "3f68180bd3814e0da880a51f5c0d4a32"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4fd99d6a8d3b42b380ae7bd369e4b4df",
+                                "navigationGoals": [
+                                    "Get details on your customized recruiting solutions and service packages.",
+                                    "I need details on your customized recruiting solutions and service packages for my veteran-led company.",
+                                    "I\u2019d like to retrieve detailed specs on your modular recruiting solutions and service-tier offerings.",
+                                    "I want information on your recruiting services and packages.",
+                                    "I\u2019d like details on your customized recruiting packages for hiring specialized physicists for a new lab project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fb239a7ecc284a02b1bc465f95d405a7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a670b832502b4b42848ab55bdf8477b7",
+        "navigationGoals": null
+    },
+    "id": "94fa2e556e2d40128fb0abba0bb1a432",
+    "navigationGoals": null
+}

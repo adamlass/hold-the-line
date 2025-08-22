@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Zazzle, Peninsula\u2019s premier online marketplace to shop or customize your favorite products.",
+            "fileID": "67c8279ecfa64a5fb182790f06711fce"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For order support and account inquiries, press 1.",
+                "fileID": "af36cb7ab0b74417b2b782f6ce16dcca",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For updates on your order status and shipment tracking, press 1.",
+                            "fileID": "beb114dbde9d41429c3847b21e9cc91a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an order tracking specialist.",
+                                        "fileID": "d5e5774eb4fd486cb900ff3bd656cfb1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5300098d6474469fbb25d1c1a15904d5",
+                                "navigationGoals": [
+                                    "Check the current delivery status and expected arrival date for my recent order.",
+                                    "Check the delivery status of my custom unit patch order.",
+                                    "I want to retrieve the live shipment tracking data and carrier details for my recent Zazzle order.",
+                                    "I need help checking the delivery date for the personalized photo calendar I ordered.",
+                                    "I\u2019d like to track my order for the custom periodic table poster I purchased."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For returns, exchanges, and refund questions, press 2.",
+                            "fileID": "78997ee256cd4ae98cfb4a32c4d834b7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a returns and refunds specialist.",
+                                        "fileID": "b359c564a5134ac19639d255eff7567e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "45173bff7fa84674bd9c066bb4863dde",
+                                "navigationGoals": [
+                                    "Start a return and get a refund for a defective item I received.",
+                                    "Start a return and refund for the commemorative dog tags I received with errors.",
+                                    "I need to initiate a return for a defective print and process a refund for my purchase.",
+                                    "I\u2019d like to return a personalized mug that arrived chipped and get a refund.",
+                                    "I need to exchange a custom-printed physics department hoodie because the size is incorrect."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "241be5a41a0f468ba79327a24c9961f4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For help designing products, customizing templates, or artwork support, press 2.",
+                "fileID": "ca123eb8a7a240119223c6ecec681efe",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For assistance with our online design tools, press 1.",
+                            "fileID": "d4f4552f6e724646b9e8a86dced24ff4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a design tools specialist.",
+                                        "fileID": "7313c09fecfe497991b0fc50129906f1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c4e349f08e2a4f9c94a3698ef21befb6",
+                                "navigationGoals": [
+                                    "Get step-by-step help using the online design tool to add my logo to a product.",
+                                    "Get assistance using the web design tool to create a veteran reunion T-shirt.",
+                                    "I want step-by-step assistance using Zazzle\u2019s online design editor to modify vector layers and typography.",
+                                    "I need step-by-step help using the online tool to design a custom birthday card.",
+                                    "I need help using the online design tool to create a lab report cover template."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For uploading artwork files and format guidelines, press 2.",
+                            "fileID": "a87cc170f2054a5182f69be810430916",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a file preparation specialist.",
+                                        "fileID": "daa027c4fcd54903b57f641258ce4226"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4fcec53f15f34102abb7765a8268be0c",
+                                "navigationGoals": [
+                                    "Find out how to format and upload my artwork file to meet Zazzle\u2019s requirements.",
+                                    "Ask about file format requirements to upload my unit insignia for engraving.",
+                                    "I need technical guidelines on uploading my artwork files\u2014specifically file formats, DPI settings, bleed margins, and color profiles.",
+                                    "I want to know how to upload my own image for a canvas print and ensure it meets the file requirements.",
+                                    "I want to know the file requirements for uploading my vector diagram for a class poster."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d75cee3dcef340bdb3b6d4d02e2731ba",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "593942955a774b039827df63ffa0247d",
+        "navigationGoals": null
+    },
+    "id": "fdb2d4f09c30413ea1e41a5b5a1d211e",
+    "navigationGoals": null
+}

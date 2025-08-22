@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling ThousandEyes in San Francisco, where we help your business gain visibility into every network you rely on.",
+            "fileID": "8d7f411deeb04508bc3be94662c9cdad"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our Sales team about enterprise network monitoring solutions, press 1.",
+                "fileID": "ccb57023e2a94a51bd393babc97af6fa",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a live product demo or trial access, press 1.",
+                            "fileID": "77cdf672b9c24f788ab1ef61029c82fa",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a demo specialist.",
+                                        "fileID": "a743d837cd0047ba92c868386f7bcce1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b9fcdd42f73d4897a042a66c0c75b872",
+                                "navigationGoals": [
+                                    "I need to set up a trial of the ThousandEyes network monitoring platform.",
+                                    "I\u2019d like to set up a live trial of your network monitoring solution.",
+                                    "I\u2019d like to schedule a live demo and trial of ThousandEyes to evaluate its network performance monitoring across our multi-cloud infrastructure.",
+                                    "I\u2019d like someone to guide me through a trial demo of your network monitoring service.",
+                                    "As a physics grad student, I'd like to schedule a live demo or trial access for ThousandEyes for my research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing details and volume licensing inquiries, press 2.",
+                            "fileID": "d87e66cbff1640578f86b8fab41c9824",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our sales desk for pricing information.",
+                                        "fileID": "eeeb1360a41b48d08cefdd29361b90ba"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c1780ffb0b804ea4b0f0e40530f9d152",
+                                "navigationGoals": [
+                                    "I want to review pricing plans and volume licensing options.",
+                                    "I need detailed pricing and volume licensing information for our organization.",
+                                    "I need detailed pricing and volume licensing options for monitoring over 500 endpoints with API integration.",
+                                    "I need detailed pricing information for purchasing multiple network monitoring licenses.",
+                                    "I'm exploring academic pricing and volume licensing options for ThousandEyes for our physics department lab."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9dfdd7f7024b4170a6244177c2e2a7fa",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technical Support and network performance assistance, press 2.",
+                "fileID": "b14eb9778cf74210a56d536f25213c4e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help troubleshooting network issues or outages, press 1.",
+                            "fileID": "fd637ac0f5084c549d238d91c8563236",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Technical Support engineer.",
+                                        "fileID": "f170e86978a34b198c102063295d0f68"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0b277c5722664148b927fba0a3f39c25",
+                                "navigationGoals": [
+                                    "I need assistance troubleshooting a current network outage.",
+                                    "I\u2019m having a network outage and need technical support to troubleshoot it.",
+                                    "I need technical support troubleshooting packet loss and latency spikes in our WAN tests.",
+                                    "I\u2019m experiencing a network outage and need technical support to troubleshoot.",
+                                    "I need to troubleshoot network outages affecting my remote lab experiments and speak with a technical support engineer."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing questions, press 2.",
+                            "fileID": "a33d78dc07c84c7c9610ca2a055ef3bc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "ad4b4602b2b14d8ab7bd9817159c9882"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8b852083d7064da9ab1f3912c5e8a71b",
+                                "navigationGoals": [
+                                    "I need clarification on recent invoice charges and billing details.",
+                                    "I have questions about my current invoice and need help with billing.",
+                                    "I have a billing inquiry about our subscription renewal invoice and usage overage charges.",
+                                    "I have a question about my account billing and invoice details.",
+                                    "I have a billing question regarding my ThousandEyes student account and need to update my payment details."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cc6901a4c0cd4485b4737d8845099f65",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b0d371fbe10e45afb4a1f91eb45617e3",
+        "navigationGoals": null
+    },
+    "id": "cfcc68e4235a4907ab9748461a80a614",
+    "navigationGoals": null
+}

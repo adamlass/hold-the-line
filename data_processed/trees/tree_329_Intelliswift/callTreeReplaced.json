@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Intelliswift, South Bay\u2019s premier IT recruiting and solutions company.",
+            "fileID": "b709e0b109af4d039169e313f42eba05"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our recruitment team about staffing and job opportunities, press 1.",
+                "fileID": "f78d4a3d24994ccd9f2a7113c2255406",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss job opportunities and candidate placement, press 1.",
+                            "fileID": "a629d120e16a45319a1db32d8f7c2a9c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruitment specialist.",
+                                        "fileID": "55495aeddb224f8688f10ce2c0fa5897"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9cb26204105d4bf78e95f095f520474a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "If you\u2019re an employer seeking top IT professionals, press 2.",
+                            "fileID": "114f926dc9f64c23b01eed5c76823f6f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our employer services team.",
+                                        "fileID": "7af39338bb4948cf8b3233d8087fafbc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4d5617f26bb146a58bab4c6f97c85c83",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f9a1681b38fc4c9e9f297d965ba7ff7c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For enterprise application development, cloud services or big data consulting, press 2.",
+                "fileID": "1f01e32f4b6a432cbf4ff73862023889",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For enterprise application development services, press 1.",
+                            "fileID": "287c56cef10547a2ba4ce831ef54cd6a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an enterprise applications consultant.",
+                                        "fileID": "e2214a2e43174db589fc5488f5b6c3b8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fdc73688d6644d7b8918ab4a77006e20",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For cloud computing, big data or business intelligence solutions, press 2.",
+                            "fileID": "3473de34258741e6b764c058b96ae7fa",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a cloud and big data specialist.",
+                                        "fileID": "1b95f2983b7142c6ad85c9d1cfff5da7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "47781859562448cbbe670b16b809abe6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "31cae89d81d9478394183653d34c028f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d9b975b938894bc9b2150143ea34266d",
+        "navigationGoals": null
+    },
+    "id": "4c3649dbd9f047719acfcaccc4de09c8",
+    "navigationGoals": null
+}

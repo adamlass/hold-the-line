@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Qualys Peninsula, where we help you automate auditing, compliance, and protection for your IT systems and web applications.",
+            "fileID": "22e9e729d6964f9cb94e5cb3d44b7314"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support and system status, press 1.",
+                "fileID": "7ffff252f57d4699a868bb1b4cedd26b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For vulnerability scanning support, press 1.",
+                            "fileID": "3e96ce698ed2426bb00560e014a2b5dc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a vulnerability scanning specialist.",
+                                        "fileID": "bebeb4f5cdb046018ac860efa740062a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "07b4911757464160b377084150f2116e",
+                                "navigationGoals": [
+                                    "I need help troubleshooting errors in my recent vulnerability scan results.",
+                                    "I need help interpreting the results of a network vulnerability scan on my servers.",
+                                    "Diagnose a failure in my vulnerability scanning engine on our network",
+                                    "I need someone to guide me step-by-step through running a vulnerability scan on my computer.",
+                                    "I need help tuning the vulnerability scanner to detect issues on our physics lab\u2019s server."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For web application security support, press 2.",
+                            "fileID": "9f594bbe81614bf1aa456baf29fb2d8e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a web application security specialist.",
+                                        "fileID": "ea0aa55f888a469c8fcd2923ca4f897b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e40ba23214084b7190521d7962d12476",
+                                "navigationGoals": [
+                                    "I want guidance configuring web application security settings for my app.",
+                                    "I\u2019d like assistance configuring a web application security scan for my new portal.",
+                                    "Configure WAF rules to resolve false positives in a web app security scan",
+                                    "I\u2019d like help setting up protection for my small website against security threats.",
+                                    "Help me configure web application security checks for my research group\u2019s website."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e832e1ee41e24805b6eb01eddcfada9c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales, billing, and new account inquiries, press 2.",
+                "fileID": "cd56689dbabf476f8de8b540870d7bfb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about auditing and compliance automation solutions, press 1.",
+                            "fileID": "9b4a5933fdc34fd399dd16f19eb0109d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our sales team specializing in auditing and compliance automation.",
+                                        "fileID": "42f33eb75aea4d1da64cb4ee23a23173"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "42b3072425474cfdaa4bd4f6b8a13558",
+                                "navigationGoals": [
+                                    "I\u2019d like to learn about your auditing and compliance automation offerings.",
+                                    "I want details on pricing and contract options for your auditing and compliance automation solution.",
+                                    "Get pricing and API integration details for compliance audit automation",
+                                    "I want to learn about tools that automate compliance and auditing checks for my systems.",
+                                    "I\u2019d like a quote and demo for automating compliance auditing on our lab infrastructure."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, invoices, and account questions, press 2.",
+                            "fileID": "145000cdedb0415cb02ae216c4da1147",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing and accounting department.",
+                                        "fileID": "1b5f3f88601b4b46a5ee2c32ade76002"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5eed83d9f0aa4503ad41abaa9cd56ce7",
+                                "navigationGoals": [
+                                    "I need to review my latest invoice and clarify some billing charges.",
+                                    "I need to review my recent invoices and update my payment information.",
+                                    "Request an itemized breakdown of my latest invoice",
+                                    "I have a question about my latest invoice and need assistance understanding my bill.",
+                                    "I need clarification on my recent charge and a copy of the latest invoice for our student account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fe8e2ed13ccf417faf8d01bfc09af899",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "aecca53cef0f43989dcc2499ed08d30b",
+        "navigationGoals": null
+    },
+    "id": "9648933027bb42adbf65a2e17a5494d5",
+    "navigationGoals": null
+}

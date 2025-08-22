@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Syllable dot A I, South Bay\u2019s leader in AI-powered healthcare communication.",
+            "fileID": "632a314827104c61a2d37480c187a418"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support, press 1.",
+                "fileID": "8bd5cda77e2144599c280d445cd55b02",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with our AI and API integration, press 1.",
+                            "fileID": "0d3ea48a37794035b525f2249844927c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our integration specialists are assisting other customers right now. Please hold and we will connect you shortly.",
+                                        "fileID": "07e4e4db56a940a5bd823a76405f6d5e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3b3fb511fd424ee48ffb7cd1758b1470",
+                                "navigationGoals": [
+                                    "Help finalize integration of Syllable AI's API with our clinical management system.",
+                                    "I need help configuring your API to pull veteran health records into my system.",
+                                    "I need an integration specialist to help troubleshoot API authentication errors in your AI platform.",
+                                    "Please help me set up your AI messaging API with my appointment system\u2014I\u2019m not very tech-savvy.",
+                                    "I need help integrating Syllable AI\u2019s messaging API into my campus research project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "If you are experiencing system outages or performance issues, press 2.",
+                            "fileID": "88057f34b53d487489f52234eb656a2c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "We apologize for the inconvenience. Please hold and a support engineer will be with you shortly.",
+                                        "fileID": "3c8175e8e5514877845499a60f2c2514"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "57aa26dd55f247359f0d0a6fe7443315",
+                                "navigationGoals": [
+                                    "Resolve the intermittent system latency and downtime we've been experiencing.",
+                                    "I\u2019m experiencing errors and slow performance when sending patient messages.",
+                                    "I\u2019m experiencing intermittent service outages and performance degradation\u2014can I get the incident status?",
+                                    "My messaging service seems down; I can\u2019t send or receive any messages.",
+                                    "I\u2019d like to report intermittent API downtime and discuss recent performance issues."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bf6e58ea3099499caec851bca0bd1c43",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales or partnership inquiries, press 2.",
+                "fileID": "faa64a9405ac4f7f9ace71e4b97084dd",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on our AI-driven healthcare messaging solutions, press 1.",
+                            "fileID": "6113f623bf4a4425b4f44da66bb11de2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold and one of our sales representatives will be with you momentarily.",
+                                        "fileID": "0bd232fcc7104901a5f9a82fe884641a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a22a8f886e6c45d39304133c5939eef2",
+                                "navigationGoals": [
+                                    "Get a quote and overview of your AI-powered messaging platform for patient outreach.",
+                                    "I\u2019d like more information on your AI-driven healthcare messaging service and its pricing.",
+                                    "I\u2019d like detailed pricing and technical specs for your AI-driven healthcare messaging solution.",
+                                    "I\u2019d like information on your healthcare messaging service, including pricing and features.",
+                                    "I\u2019m exploring how Syllable\u2019s AI messaging can optimize appointment reminders at our university health center."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For partnership opportunities or custom enterprise solutions, press 2.",
+                            "fileID": "e481e56c16ad4d45b1eda16f57581f4d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold and our business development team will be right with you.",
+                                        "fileID": "4950c121f61f4f8caa04f2d779a06c67"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6ab1e5d49cfe4488a1a5ef589e27deef",
+                                "navigationGoals": [
+                                    "Explore an enterprise partnership for a custom AI communication solution.",
+                                    "I\u2019m exploring a custom enterprise partnership for my veteran outreach program.",
+                                    "I\u2019m exploring a custom enterprise partnership to integrate your AI communication platform into our systems.",
+                                    "I\u2019m interested in exploring a custom enterprise partnership for my hospital network.",
+                                    "I want to discuss a pilot collaboration or custom solution with Syllable AI for my physics lab."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2cfb8e71f8a14bde9d8b630281634d70",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "41bc17ee89f6457ebffcd812c7e993c0",
+        "navigationGoals": null
+    },
+    "id": "e46c6cab00a140589ee49205d50a9d4c",
+    "navigationGoals": null
+}

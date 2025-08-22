@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling GoodData in San Francisco, where we deliver advanced analytics and actionable insights at the moment of action.",
+            "fileID": "6d99dac5600a4afc9ab41a2659c8b77c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and pricing, press 1.",
+                "fileID": "bba4272d03d54672b9c840b4a1136522",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing and licensing questions, press 1.",
+                            "fileID": "e6a9dfe99d974c7697ee327bd74cdfe8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a sales specialist who can assist with pricing and licensing.",
+                                        "fileID": "5cdd6769ae924a2da777bf29fe360be2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b9f01ba48d254c0ea8af58b07b5b3d9f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For product demonstrations and feature overviews, press 2.",
+                            "fileID": "79df74972d2e4e56871add319a5eab31",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to a product specialist for a demo.",
+                                        "fileID": "11db7e5a0cb74f239db175646281f998"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bc80f08eb41645d986a38425b3546cbe",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7ca201685d7944bb9dc77e9c2edd10ae",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, press 2.",
+                "fileID": "d2d7db735bab49d1981100005808e58e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "0a8fe97644554de1af7c68ede4a814a5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our technical support team.",
+                                        "fileID": "ea9c30b27e8f40fcaf55898394944773"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "faa456c5d734471789521ac57c1470bd",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account, billing, or subscription inquiries, press 2.",
+                            "fileID": "f943f670a70f4ee9918324720f83d024",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our customer care team.",
+                                        "fileID": "550e657a21e24c30b556a5646989604d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "341c4f9737f141b0af10cc3f7c9135d4",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2d10cc0c6e5440bda9b24dcd3ba232bf",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "70eab05d5866420eb367a58061d3adcf",
+        "navigationGoals": null
+    },
+    "id": "48beb4b5c50c486180a0b871cccb87ac",
+    "navigationGoals": null
+}

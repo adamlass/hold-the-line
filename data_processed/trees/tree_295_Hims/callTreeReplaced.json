@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Hims, the men's wellness brand bringing science-backed solutions from San Francisco to you.",
+            "fileID": "197ba77dac764667b3fb1c705baaa883"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new orders and product inquiries, press 1.",
+                "fileID": "9a290e1ce1e34d0e8e8b45606f65adba",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For details on our wellness products and scientific approach, press 1.",
+                            "fileID": "5d69aec5c650438a8f82430f1befb877",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve information about our wellness solutions.",
+                                        "fileID": "362a82b88b5142d9af16fcb2bb91a20b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a4c6a9e9a24749febafc502401fd8268",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with a Hims product specialist, press 2.",
+                            "fileID": "6b0e45f52f9744e3aa78828f771547ff",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Hims product specialist.",
+                                        "fileID": "478a4929a53f41f5b01cca551274818b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "452c47f6d70f4bf1867c2785ab0fb5aa",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "80e9aa7ba3db4a4a8b8fd84fea9f5fb5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For prescription refills and account support, press 2.",
+                "fileID": "4d28f261443d4f3eae861718afc5ce65",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check the status of your prescription refill, press 1.",
+                            "fileID": "bdeb8e2f37dc474f8d7b3ee3bc9b1469",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we look up your prescription refill details.",
+                                        "fileID": "00cc4ad57b7e45428eb2a5b164f4fcc1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b321e85364864b699f372d33200dedb5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing, subscription, and account questions, press 2.",
+                            "fileID": "a3c85be8840444e288237bdb8f427130",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account support team.",
+                                        "fileID": "6be62c073bd24b99bf0aac4230aea202"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c660dc20fa614c24989d4df3ac6f611c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c6e27f0d9f7249d8ab5f8d220ee06d0f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "24aee3ffa0874491ae7f6d538492b757",
+        "navigationGoals": null
+    },
+    "id": "e2f4c1838fee46e3945428f730685bcd",
+    "navigationGoals": null
+}

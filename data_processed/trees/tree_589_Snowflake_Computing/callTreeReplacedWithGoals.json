@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Snowflake Computing, the Peninsula\u2019s only cloud data warehouse for all your data and all your users.",
+            "fileID": "523e1db2afda45a3b7b2e6727d6c2d5e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To talk to our Sales department and learn about our cloud data warehouse solutions, press 1.",
+                "fileID": "e36f9d3a6fee4a3ea0fa23bf665c0f56",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a product demonstration, press 1.",
+                            "fileID": "87b715247b21409985eb3eea294e3f84",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Sales representative for your demo request.",
+                                        "fileID": "5d7f65bbe250409f818878652b712202"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6bb413ad28be48bb8611ab3c4b305e58",
+                                "navigationGoals": [
+                                    "I need to schedule a live demo of your cloud data warehouse solution.",
+                                    "I\u2019d like to schedule a product demo to evaluate Snowflake\u2019s secure data warehousing for my veteran outreach program.",
+                                    "Schedule a demo of Snowflake\u2019s elastic data warehouse with a focus on real-time streaming ingestion.",
+                                    "I want someone to walk me through a live demo of Snowflake\u2019s data warehouse.",
+                                    "Schedule a demo of Snowflake\u2019s cloud warehouse to evaluate handling of large physics datasets"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing and billing questions, press 2.",
+                            "fileID": "01f5e3f6a90b4a88be258565f4eb3c47",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Sales representative for pricing and billing assistance.",
+                                        "fileID": "e621449a99cb4483b35eb913818931b1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ee11f89686a04f82897b679e53a709e9",
+                                "navigationGoals": [
+                                    "I\u2019d like to get a detailed pricing and billing breakdown for your platform.",
+                                    "I need to discuss pricing and billing options to budget Snowflake services for my nonprofit veterans\u2019 organization.",
+                                    "Get clarification on Snowflake\u2019s billing model, specifically compute versus storage cost breakdowns.",
+                                    "I have questions about my invoice and need help with pricing details.",
+                                    "Get detailed pricing and billing information for a student research subscription"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7dcfd66d2ee648678e42c2c3cb405f02",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technical Support and assistance with your Snowflake account, press 2.",
+                "fileID": "1f950b057d6e4a11b0bcee2c1a2574e3",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account setup and onboarding assistance, press 1.",
+                            "fileID": "9d8e486bef6c47c49f9f7eb711c59fc8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Onboarding team.",
+                                        "fileID": "651e4759c2204a909f030cbd6cf57ae5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5c1385c075c542fdb13c8749604e788e",
+                                "navigationGoals": [
+                                    "I need help setting up a new Snowflake account and getting onboarded.",
+                                    "I need help with account setup and onboarding so I can start using Snowflake for our data migration.",
+                                    "Help me set up a new Snowflake account and configure single sign-on integration.",
+                                    "I need assistance getting my new Snowflake account set up.",
+                                    "Receive guidance on setting up my Snowflake account for a university project"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To report a service issue or ask technical questions, press 2.",
+                            "fileID": "7a22c72b4ee0485e971e0c352a283b52",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Technical Support.",
+                                        "fileID": "e9c04242e5f149c782843313726d2443"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8f6b212cad1c4b8c847017534d385771",
+                                "navigationGoals": [
+                                    "I\u2019m having a technical issue with my Snowflake service and need immediate support.",
+                                    "I want to report a technical issue and get support for the query failures I\u2019m encountering in my Snowflake account.",
+                                    "Troubleshoot a warehouse startup error and diagnose query performance failures.",
+                                    "I\u2019m having technical problems with Snowflake and need support.",
+                                    "Report a data load error and troubleshoot query performance issues"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c0300abf650d40a7892c34495db0854e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d06ab09487ef40d7aceccc72bd87b526",
+        "navigationGoals": null
+    },
+    "id": "6633c00b90174d05ad0badf9ce009706",
+    "navigationGoals": null
+}

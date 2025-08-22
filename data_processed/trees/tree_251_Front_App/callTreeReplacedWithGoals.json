@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Front in San Francisco, where we reinvent the inbox so teams can accomplish more together.",
+            "fileID": "3cc548334ac9456c8cea7d85734e6d72"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "8a9a99358e7f46f3a9c24dc65c456b94",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a free product demo with our specialists, press 1.",
+                            "fileID": "0dfc7c15d1c34b818c04e4dcc4d57ac5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product specialist.",
+                                        "fileID": "2ea78d897eec4d30af2e740e917e1e7d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "118fbdb313b64feb8a694c485769a51b",
+                                "navigationGoals": [
+                                    "I want to arrange a demo of the Front inbox solution.",
+                                    "I\u2019d like to schedule a free demo to evaluate Front\u2019s inbox solution for my team.",
+                                    "Schedule a product demo focusing on API integrations and collaborative inbox workflow.",
+                                    "I\u2019d like to schedule a live demo so someone can walk me through using the product.",
+                                    "I\u2019d like to schedule a demo of Front to see how it could help manage my research group\u2019s inbox."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For questions about pricing and subscription plans, press 2.",
+                            "fileID": "a4e50a85610e4ffc9ae0b0d76d5fce7d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing team.",
+                                        "fileID": "c370e91be4114fc5be74cfe20d18245d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d60023204be6415f9eae2a137713f722",
+                                "navigationGoals": [
+                                    "I need current pricing details for subscription plans.",
+                                    "I want to review Front\u2019s pricing and subscription options for our organization.",
+                                    "Inquire about subscription tiers, usage-based pricing, and enterprise licensing options.",
+                                    "I need help understanding the available subscription plans and their costs.",
+                                    "I need details on subscription plans and whether there\u2019s an academic or student discount."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "34d1a013646049c392fcc0ff86e8a056",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and billing, press 2.",
+                "fileID": "389b9fdc7a0c4ecb8a998900311150f3",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss billing questions or invoices, press 1.",
+                            "fileID": "e8d92cb7e9ac4215826d0c6ae968ff12",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "752ac9aa1eab4167aba9abd9790e90ef"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2629eae41724452d8047f5446aabebc5",
+                                "navigationGoals": [
+                                    "I need clarification and a copy of my latest invoice.",
+                                    "I need to inquire about a recent billing charge on my invoice.",
+                                    "Investigate a discrepancy in my invoice and clarify a billing charge.",
+                                    "I want to ask about a recent invoice and clarify a charge on my bill.",
+                                    "I have a question about a recent invoice and want to clarify a billing charge."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "If you need technical support or help troubleshooting, press 2.",
+                            "fileID": "2bde430810e94eb2b9a936075c3487c4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "5cc4653903a741febb2d25f1b87ce772"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "759c5387cf8c47709629c32447c0e0e7",
+                                "navigationGoals": [
+                                    "I need help troubleshooting a technical issue with Front.",
+                                    "I\u2019m having trouble with Front\u2019s interface and need technical assistance.",
+                                    "Troubleshoot an API authentication error in our email routing setup.",
+                                    "I\u2019m having trouble with the app and need technical support to fix an issue.",
+                                    "I\u2019m having trouble connecting my Gmail account to Front and need technical assistance."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cb2fc56345fd4c9b9ce08aa627863162",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b4a2a0c5cd1a4f349d309a92ba5da1c2",
+        "navigationGoals": null
+    },
+    "id": "936f730dd8b14093b4a972e9a0f70941",
+    "navigationGoals": null
+}

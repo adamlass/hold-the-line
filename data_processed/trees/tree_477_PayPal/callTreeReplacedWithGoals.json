@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling PayPal South Bay, the faster, safer way to send money, make payments, and manage your account.",
+            "fileID": "ae11d5ae49ff4c0594863c6b49a6788b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with personal accounts, press 1.",
+                "fileID": "96a41598b84a4824840b3c40ea647893",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To send or request money, press 1.",
+                            "fileID": "0dc0dcefac604101aacaf323728a04d2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a specialist in sending and requesting money. Your call is important to us.",
+                                        "fileID": "2688b4a14e5846d8858e8ba21a4d2e24"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f2d606c07a0e44308deaf6c6319cf52b",
+                                "navigationGoals": [
+                                    "I need to send a reimbursement request to a colleague for shared expenses.",
+                                    "I need to send money to my landlord for rent.",
+                                    "I need to send a $150 instant P2P transfer to a friend in Europe and lock in the current exchange rate.",
+                                    "I need help sending money to my granddaughter using my personal PayPal account.",
+                                    "I need to request reimbursement from my lab partner for shared equipment costs."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account security and support, press 2.",
+                            "fileID": "924f991f871e4ec99cdcf3668af03445",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a security specialist. Your call is important to us.",
+                                        "fileID": "3e94d5cfa17d42e3bd25fb9844040541"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "40888a064522486ea89731a994cd2f08",
+                                "navigationGoals": [
+                                    "I want to enable two-factor authentication on my account to secure it immediately.",
+                                    "I suspect someone accessed my account without permission; I need help securing it.",
+                                    "I want to set up FIDO2 hardware security keys for my PayPal account to enforce MFA.",
+                                    "I forgot my password and need help updating my account\u2019s security settings.",
+                                    "I want to enable two-factor authentication on my PayPal account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f261ed8cd76741f6ab8477d93d8ca453",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For merchant services and business solutions, press 2.",
+                "fileID": "7b1b9299e1d248399cd559009c741220",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To set up or manage your merchant account, press 1.",
+                            "fileID": "83a2587671ce4f1cb2d686f9ea6996dc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a merchant account advisor. Your call is important to us.",
+                                        "fileID": "e7259429d81045acb155023d5dafc70d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "218863bd13b541829e0dffa08397e637",
+                                "navigationGoals": [
+                                    "Help me set up a PayPal business account for my consulting firm.",
+                                    "I am starting a veteran-owned small business and want to set up a PayPal merchant account.",
+                                    "I'd like to upgrade my business account to PayPal Pro, enable advanced merchant features, and adjust my transaction limits.",
+                                    "I want to set up a merchant account for my home crafts business.",
+                                    "I\u2019d like to open a merchant account to sell my custom physics lab kits online."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For payment integration and developer support, press 2.",
+                            "fileID": "407ffdea2e06486f9d285b789f1ffd13",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our integration support team. Your call is important to us.",
+                                        "fileID": "af2ca880dcbf4812a11a8dcdbe0be004"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "34ef5299a5754d1ab06ab5ab3d8f35e7",
+                                "navigationGoals": [
+                                    "Assist me in integrating the PayPal checkout API into my website.",
+                                    "I need assistance integrating PayPal payments into my new business website.",
+                                    "I need to obtain OAuth client credentials for the v2 Orders API and configure webhooks in my sandbox environment.",
+                                    "I need assistance connecting PayPal to my website for payment integration.",
+                                    "I need assistance integrating PayPal payments into my physics simulation app."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0ff69b6003e4424480796a6ca11da179",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a79c02bc584e4af09a35150944b5ad72",
+        "navigationGoals": null
+    },
+    "id": "0fe4d97a31654559bdff6aebd0eb5595",
+    "navigationGoals": null
+}

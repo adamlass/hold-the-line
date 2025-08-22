@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Scion Staffing, your premier temporary and executive staffing partner in San Francisco.",
+            "fileID": "be5726544efe43f79b44002f6c1a3627"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a job seeker looking for temporary or permanent positions, press '1'.",
+                "fileID": "c324ae5575ab4494b0bd54a7f1a514cf",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For temporary staffing opportunities, press '1'.",
+                            "fileID": "9a9360d2fbdd4108a2e826b0d628b567",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a temporary staffing specialist.",
+                                        "fileID": "a866683106894078bdffd2ffad77959c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dc95f800b6d441aaa8dc101bd864d996",
+                                "navigationGoals": [
+                                    "I need a short-term project management role starting next week, please connect me to a temporary staffing specialist.",
+                                    "Find temporary assignments in San Francisco that match my veteran skill set",
+                                    "I\u2019m looking to secure a 6-month contract role as a front-end engineer (React) in the Bay Area.",
+                                    "I need help finding temporary, part-time work to supplement my retirement income.",
+                                    "I need help finding a temporary laboratory technician position in San Francisco this summer."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For executive search and career placement, press '2'.",
+                            "fileID": "c4a71a6e430945d59cac1c5ef963a596",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an executive search consultant.",
+                                        "fileID": "245202624cdf4091830952caaefa999d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e35bf0a6e324445eb50c4efb0c19fa95",
+                                "navigationGoals": [
+                                    "I\u2019m looking for a director-level operations position in finance\u2014connect me to an executive search consultant.",
+                                    "Explore permanent executive career opportunities tailored for veterans",
+                                    "I want to explore executive-level product management opportunities through your career placement service.",
+                                    "I\u2019m interested in exploring senior executive job opportunities in my field.",
+                                    "I\u2019m looking to secure a permanent research associate role with clear advancement opportunities in a tech or R&D firm."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bd2b823f955347f591c264880ec007f8",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an employer seeking to hire contract staff or executive leadership, press '2'.",
+                "fileID": "805c79e61b124074953db2e383d11230",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For contract staffing and temporary workforce solutions, press '1'.",
+                            "fileID": "5ffc2fa0ac9b4d5b980a4bbb064d7c03",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our contract staffing team.",
+                                        "fileID": "0fb13f0ad4724ac6acf73c6810cf9c43"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f959e87adc734408b74afedf43d9f99a",
+                                "navigationGoals": [
+                                    "I need to hire several contract IT analysts for an upcoming two-month project; please put me through to the contract staffing team.",
+                                    "Hire contract staff for my veteran-owned small business",
+                                    "I need to onboard contract DevOps engineers for a quarterly cloud migration project.",
+                                    "I need to hire temporary support staff for my small business.",
+                                    "I need to hire a contract lab assistant to support my physics research project next month."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For executive recruitment and leadership search services, press '2'.",
+                            "fileID": "fe37e23e17d9425387c993080862abbc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our executive recruitment department.",
+                                        "fileID": "d982afd614be43e19c625eef014c4f5f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7419d36d12f94a759cefaf14f0ea95f0",
+                                "navigationGoals": [
+                                    "I need to recruit a new CTO for my company\u2014connect me to your executive recruitment department.",
+                                    "Connect with executive recruitment services to fill leadership roles at my veteran-owned company",
+                                    "I\u2019m seeking an executive recruitment partner to identify a VP of Engineering for our scale-up.",
+                                    "I\u2019m looking to recruit an executive leader to manage my company\u2019s operations.",
+                                    "I want to recruit a senior research scientist to lead a new physics initiative in my department."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8c21e4e41ab64d11a6db1bcdbf68a6b3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a18608c8120a474aacbad1ce2e8e35b8",
+        "navigationGoals": null
+    },
+    "id": "9582adc88cfa4f57a7f2b7031e81f409",
+    "navigationGoals": null
+}

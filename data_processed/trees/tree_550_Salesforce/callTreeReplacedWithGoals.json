@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Salesforce, the world\u2019s number one CRM platform based in San Francisco.",
+            "fileID": "f05e28e367a64a6bb1a3bc717745be9a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales inquiries and product demos, press '1'.",
+                "fileID": "ed0385f9cfbd4a6d9d88f12dfbfcb3f8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press '1'.",
+                            "fileID": "837623554587499e840efab94e6934e4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Salesforce sales representative. Your call is important to us.",
+                                        "fileID": "7a82a17ad5f948d4a66ebaf17f036b4a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b4462379c364432f9f49084994f36176",
+                                "navigationGoals": [
+                                    "Schedule a quick Salesforce product demo with a sales representative",
+                                    "I\u2019d like to speak with a sales rep about using Salesforce to manage client leads for my veteran-owned security firm.",
+                                    "Schedule a technical demo of the Sales Cloud REST API integration with a sales engineer.",
+                                    "I\u2019d like a product demo and need to speak with a sales representative to understand the features.",
+                                    "I need to schedule a demo of Salesforce to see how it can help manage my research data workflow."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To request pricing information and consultation, press '2'.",
+                            "fileID": "5f108e7331aa47b2bccfdf3235716502",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience. We are connecting you to our pricing and consultation team.",
+                                        "fileID": "1ebf64f1cea840b1b78454c2e41dc2af"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f34e0e1b0c0441428817ccd31c45b406",
+                                "navigationGoals": [
+                                    "Obtain detailed pricing information and a brief consultation",
+                                    "I need pricing details and guidance on which Salesforce subscription would suit my nonprofit veteran support organization.",
+                                    "Obtain a detailed quote for 500 Salesforce Enterprise Edition licenses and consult on volume discounts.",
+                                    "I need detailed pricing information and advice on which Salesforce plan would suit me best.",
+                                    "I'm looking for detailed pricing and consultation on an academic license of Salesforce for my physics projects."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ebac392259f24b27a3744f26dfbfd763",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technical Support, press '2'.",
+                "fileID": "5a46a4af0ab144ecae2d066cf271d01b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are an existing customer and need technical assistance, press '1'.",
+                            "fileID": "6dc2f605181243fcb596a4182140f4e7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to a Salesforce support engineer. Thank you for holding.",
+                                        "fileID": "0b1d4a8346ff47c7baf160a920870884"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5e1f7e0953a94cc6bb745af4e00f5e65",
+                                "navigationGoals": [
+                                    "Resolve a technical issue with my existing Salesforce account",
+                                    "I\u2019m an existing customer and need technical assistance migrating our veteran outreach data into Salesforce.",
+                                    "Get assistance troubleshooting OAuth token expiration errors in our Salesforce sandbox integration.",
+                                    "I\u2019m an existing customer having trouble logging into my account and need technical support.",
+                                    "I'm experiencing issues importing experimental data into Salesforce and need technical support to troubleshoot the integration."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To contact your account manager, press '2'.",
+                            "fileID": "6fb8e6808ee44051addcb104dbca9dcf",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line as we connect you to your dedicated account manager.",
+                                        "fileID": "bf5501b7d0b544f8b255c99e2a17a6e8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cabb2f8d831b4cb4a784290cf5b6003d",
+                                "navigationGoals": [
+                                    "Connect with my dedicated Salesforce account manager",
+                                    "I want to speak with my account manager to adjust our service level agreement for our veteran employment program.",
+                                    "Connect me to my dedicated account manager to discuss contract renewal timelines and usage analytics.",
+                                    "I want to speak with my dedicated account manager about my current subscription and get some guidance.",
+                                    "I'd like to speak with my Salesforce account manager about renewing and adjusting our subscription plan."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "043fa6a0896e428994a8e4173943bb78",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "661e82c812ac439a9898e263d1763f96",
+        "navigationGoals": null
+    },
+    "id": "abedf07fdff843569fa3cbd8b24bb2df",
+    "navigationGoals": null
+}

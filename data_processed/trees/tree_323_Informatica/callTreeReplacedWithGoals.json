@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Informatica Peninsula, the world's leader in enterprise cloud data management.",
+            "fileID": "bb9e11e72beb493c9a208f91c1c842b9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "83934f0f453042f78a2e55bfd3356c17",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new customer inquiries and demos, press 1.",
+                            "fileID": "f67682acd1f449a4aa40af51216fb781",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales specialist who will be happy to discuss Informatica's cloud data solutions.",
+                                        "fileID": "3a65493433604367bcca3d5c9fce7209"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4ce591068216465caef1b40ee2d8ec90",
+                                "navigationGoals": [
+                                    "I\u2019d like to set up a demo of your cloud data management platform for our team.",
+                                    "Schedule a demo and get pricing details for Informatica\u2019s cloud data platform.",
+                                    "I'd like to schedule a deep-dive demo of your cloud data integration platform, focusing on API connectors and latency benchmarks.",
+                                    "I\u2019d like someone to explain and demo your cloud data platform for me.",
+                                    "Request a demo of the cloud data management platform and ask about academic pricing for student research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For existing customer upgrades and renewals, press 2.",
+                            "fileID": "281a1351187f45af96bbb699c0147fc5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our renewals team for assistance with upgrades and licenses.",
+                                        "fileID": "17ba1c541a354634b09e1f5faa9d5618"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6cc810cbe65d47ec8b27c4658650df41",
+                                "navigationGoals": [
+                                    "We need to renew our current Informatica subscription and explore upgrading our license tier.",
+                                    "Upgrade my existing cloud data management subscription and renew my license.",
+                                    "I need to upgrade our existing enterprise license to include high-availability clustering and discuss renewal pricing.",
+                                    "I need help renewing my subscription and exploring upgrade options.",
+                                    "Renew our university\u2019s Informatica license and upgrade to include additional data integration connectors."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ffce5087f0894363aa37f0fc6c37cbe3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and customer service, press 2.",
+                "fileID": "1d39572cb40f4cff81d7055ff18fb7f4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "47063477f60946f58467a00da9759e75",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support engineer for enterprise cloud data management.",
+                                        "fileID": "477e154bc89e47f8a1e8dc807c4ef85a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "659a683b337344e0a29aedfeb94b77c7",
+                                "navigationGoals": [
+                                    "Our ETL jobs are failing in the cloud; I need troubleshooting assistance.",
+                                    "Get help resolving a technical error in my enterprise cloud integration setup.",
+                                    "I'm troubleshooting a job failure in my Informatica Cloud mapping task\u2014need assistance diagnosing error code DM_1002.",
+                                    "I\u2019m having trouble with my data workflows and need technical support.",
+                                    "Troubleshoot a failed ETL job in Informatica Cloud that\u2019s causing data synchronization errors."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing support, press 2.",
+                            "fileID": "195df8b8fd12467eac786dbefd9f3d9c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing and account management team.",
+                                        "fileID": "b9f76b4f384a4daa9ad436b9b1945ad2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2fdecb2b652a4a918ed9589025e291ea",
+                                "navigationGoals": [
+                                    "I need to review our last invoice and update our billing details.",
+                                    "Clarify my billing statement and request an updated invoice.",
+                                    "I want to review our latest monthly invoice for the cloud data management service and update our billing method to a purchase order.",
+                                    "I have questions about my bill and need help managing my account.",
+                                    "Clarify a billing discrepancy on our recent invoice and update the payment method for our research group."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "032d7310b7c348edab546424b15c0615",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "96da4d4e84b34360a00fbb76bb149c17",
+        "navigationGoals": null
+    },
+    "id": "92c8e15f4c7143d49659ea85ec7ff247",
+    "navigationGoals": null
+}

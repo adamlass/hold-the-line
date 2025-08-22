@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Autodesk in North Bay, where we help you imagine, design, and make a better world.",
+            "fileID": "e059ea96b68d440795a8c07c380aec22"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new sales inquiries, licensing and pricing information, or product demonstrations, press 1.",
+                "fileID": "938b11b3e4884bd19bbf0245a7792eb8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For licensing and pricing information, press 1.",
+                            "fileID": "01fa9c4287734905a0133385effe6613",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our licensing and pricing team.",
+                                        "fileID": "d9a3a2e75e6249edb9cf244fef7f4ea6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f7b5057fc1f5460ba7fd195d89359fdb",
+                                "navigationGoals": [
+                                    "Get a detailed quote and setup options for adding five new AutoCAD seats to my existing license.",
+                                    "I want pricing details and to check if I qualify for a veteran discount on Autodesk software",
+                                    "Get a detailed breakdown of subscription licensing tiers and pricing for Autodesk\u2019s product suite.",
+                                    "I need help understanding the cost to renew or upgrade my software license.",
+                                    "I need information on student licensing and pricing for Autodesk software for my physics projects."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a product demonstration, press 2.",
+                            "fileID": "69479d19f62f49f88a9e1a298ed7d7a4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product demonstration specialist.",
+                                        "fileID": "9443be2f6c6244cab6884e143a4675fe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bff9325f904d4536ad57c8ef4f76ebcd",
+                                "navigationGoals": [
+                                    "Arrange a concise, live walkthrough of the latest Inventor features for my engineering team.",
+                                    "I\u2019d like to schedule a demo of Fusion 360 to evaluate it for designing prosthetic parts",
+                                    "Schedule a live demo of Autodesk Revit\u2019s generative design and parametric modeling features.",
+                                    "I\u2019d like to schedule a demonstration of the product so I can see how it works.",
+                                    "I\u2019d like to schedule a demo of Fusion 360 to see how it can support my lab equipment design."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "25968a0d002a486c947f0895b22eb3ca",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support or training resources, press 2.",
+                "fileID": "63bce64eca634cb58e48730d225fb215",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "8dd126e5800c4a7792c595c137409007",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "0d9c69cc15e1467daa280d68676a8993"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8790df187dd64e3489a14f33ee3cbf00",
+                                "navigationGoals": [
+                                    "Resolve a recurring installation error I\u2019m encountering with Revit on my desktop.",
+                                    "I need help troubleshooting an error that\u2019s preventing AutoCAD from launching on my computer",
+                                    "Troubleshoot a C# .NET plug-in loading error in AutoCAD 2022 on Windows 10.",
+                                    "I\u2019m having trouble with the software and need technical support to fix it.",
+                                    "I\u2019m having trouble installing AutoCAD and need technical support to resolve it."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For training and learning resources, press 2.",
+                            "fileID": "1edc19b846a74a82b079fcc673d30c71",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our training and learning resources team.",
+                                        "fileID": "d8446e7b12d1463cb09ebdf2d70cdea2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e2dfd4816ac04138885c4f8f8464b1ad",
+                                "navigationGoals": [
+                                    "Locate and enroll in a fast-track online training course for Fusion 360 basics.",
+                                    "I want to access beginner-level AutoCAD training modules to support my transition to a civilian engineering role",
+                                    "Access advanced Dynamo scripting tutorials for automating Revit design workflows.",
+                                    "I want to find and sign up for beginner-friendly training materials or classes.",
+                                    "I\u2019m looking for training materials or tutorials on Autodesk Inventor for my coursework."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f036d7e611e24e38a1f55952282fbfaf",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3db07ca0f56c420082c571b2a6b5233f",
+        "navigationGoals": null
+    },
+    "id": "2c3309ee73164d798f4d929414eb81b1",
+    "navigationGoals": null
+}

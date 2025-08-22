@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Swrve, headquartered in San Francisco and recognized as a leader in mobile marketing platforms by Gartner.",
+            "fileID": "be885120010b449ca9bcaed0f6a8487a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information on our mobile marketing platform, press 1.",
+                "fileID": "0abbf4a6e94c49f785d8d715a50d4f54",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative about our Gartner-recognized platform, press 1.",
+                            "fileID": "42f9421b66a44122a4248c6c835536fb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "e00d831f3aff48ebb1c17fb12d3245da"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b1bb65b25ed4496e9eb55ac4cadf7fc9",
+                                "navigationGoals": [
+                                    "Talk to a sales representative about pricing and platform features.",
+                                    "Get detailed product info and pricing to evaluate Swrve for my veteran-owned business",
+                                    "Discuss enterprise licensing tiers and API integration specifics for the Swrve mobile marketing platform with a sales rep",
+                                    "I need to speak with someone about the cost and features of your mobile marketing platform.",
+                                    "Inquire about Swrve\u2019s mobile marketing features and pricing for my physics research app"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To request a personalized demo or trial, press 2.",
+                            "fileID": "545b909f95e242eb9673b006be2eacd7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we arrange your demo request.",
+                                        "fileID": "fde0a51dda4c498eb085fe26571c64fb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a063e925c12348cab9951a2f06629777",
+                                "navigationGoals": [
+                                    "Request a personalized demo of the mobile marketing platform.",
+                                    "Schedule a personalized demo to see how Swrve can support my veteran outreach campaign",
+                                    "Schedule a hands-on sandbox trial and personalized walkthrough of your platform\u2019s SDK features",
+                                    "I\u2019d like to arrange a personalized demo or trial so I can see how the platform works.",
+                                    "Arrange a personalized trial to test Swrve\u2019s analytics on my experiment data"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f7ee7edfff284ea2859e55a3f0fa1ed3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer and technical support, press 2.",
+                "fileID": "b55045b9fb1440b3a591e854a71c7320",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and assistance with our platform, press 1.",
+                            "fileID": "6f102a62c1bf42c786bd68901ac1c351",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "27ee40c82a2648ddb4bc84403a339b0c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dcc6a9a289b04e9a868ffe10cbd9fbe5",
+                                "navigationGoals": [
+                                    "Connect with technical support to troubleshoot a platform issue.",
+                                    "Resolve technical issues integrating Swrve's SDK into my app",
+                                    "Troubleshoot an SDK integration error and get technical support guidance",
+                                    "I\u2019m having trouble with the software and need technical assistance to get it running.",
+                                    "Troubleshoot SDK integration for event tracking in my physics experiment app"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "fdaddb63f18c48e185cf95b6bb6801df",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "dd6e48c66340418ab003e4fb5e761ad8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6ccab5320a36488aa8ee737639535c6a",
+                                "navigationGoals": [
+                                    "Inquire about a billing charge on my account.",
+                                    "Review my billing statement and update my account payment details",
+                                    "Resolve a billing discrepancy on my monthly subscription invoice and clarify account charges",
+                                    "I have questions about my invoice and need help with billing and account charges.",
+                                    "Verify and understand the billing charges on my student Swrve subscription"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "57dc8bccdd4b477db2e095e1e3a7975d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d4ee3a4da4704675a9cc5a35ccdab0e2",
+        "navigationGoals": null
+    },
+    "id": "a25b68c359b34363a54eab0fac4b432c",
+    "navigationGoals": null
+}

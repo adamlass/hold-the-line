@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Affinity, the San Francisco-based leader in AI-driven relationship intelligence.",
+            "fileID": "33b59c623c184bfea758abeea10b15fb"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our sales team and learn about our CRM solutions, press 1.",
+                "fileID": "0eb8828f4aea4bba8110e90d6cd26b1d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo, press 1.",
+                            "fileID": "743592d283f54e5490fddebbce2166ab",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a demo specialist.",
+                                        "fileID": "abf5d2c4962b47178acc52c4e785997e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ee78423b4ad74f36b71f7b053f0d2574",
+                                "navigationGoals": [
+                                    "I need to schedule a personalized CRM demo as soon as possible",
+                                    "I need to schedule a personalized demo of your CRM to help me manage contacts for my veterans nonprofit.",
+                                    "I\u2019d like to schedule a personalized walkthrough of your AI-powered CRM platform with a demo specialist.",
+                                    "I\u2019d like to schedule a one-on-one demo of your CRM and have someone walk me through the features slowly.",
+                                    "I\u2019d like to schedule a demo of your CRM to see how it can help me manage my physics research collaborations."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss enterprise pricing and plans, press 2.",
+                            "fileID": "486ff0303bf947f983a6fc370550dc76",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a pricing consultant.",
+                                        "fileID": "08dee44fea9e48b1a2e696ecd3c16b86"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6368144c6b6e4295b4c6f0a5eb5b7732",
+                                "navigationGoals": [
+                                    "I\u2019d like a detailed discussion on enterprise pricing and plan options",
+                                    "I\u2019d like to discuss enterprise pricing plans for your CRM to support my organization\u2019s growing outreach.",
+                                    "I need to review enterprise-tier pricing structures and licensing options for your relationship intelligence solution.",
+                                    "I need to discuss enterprise-level pricing options and plan details for my organization.",
+                                    "I need details on enterprise pricing for a campus\u2010wide license for our university physics lab."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a409657f3d6540c0a869556c020b7f7f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "bfed275ea8e94cfd91d931ddcb5cf95d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support inquiries, press 1.",
+                            "fileID": "6172db5fdc8d42f1a890d89c82dd85ec",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "569e846f2cdf478183e38cb394576a31"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4c70bfa9b0fb456aa20151ab3ce324f7",
+                                "navigationGoals": [
+                                    "I need prompt technical support for the platform",
+                                    "I\u2019m having trouble with the CRM\u2019s email integration and need technical support to get it working.",
+                                    "I\u2019m experiencing API integration errors with the AI relationship intelligence service and need technical support.",
+                                    "I can\u2019t log into my account and need technical support to help me fix the issue.",
+                                    "I\u2019m running into an error integrating your CRM API with my data\u2010analysis pipeline and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "8a8b4f700fa64efcab13785dd2e1f70a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "31bb6516003446f9bdedb9770766425f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1ca456671a4147af82f9083a23a3ed17",
+                                "navigationGoals": [
+                                    "I have billing and account questions about my subscription",
+                                    "I need help updating our subscription billing information and understanding the latest invoice charges.",
+                                    "I want to clarify my subscription billing cycle and invoice charges for my CRM account.",
+                                    "I have a question about my latest invoice and need help understanding the charges.",
+                                    "I have a question about a recent billing charge on my student subscription account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a9b1dee39e634d838bbdadde680d5e3b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "687f623ebf3643e382bcbabb8f58e6c4",
+        "navigationGoals": null
+    },
+    "id": "ed8c09a097174d59b5bcdf2ed3b0900b",
+    "navigationGoals": null
+}

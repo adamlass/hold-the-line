@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling DIY, the safe online community where kids discover new passions, level up their skills, and connect with fearless geeks.",
+            "fileID": "8de4c6d4554d4320a184c36e2759402a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our courses and workshops, press 1.",
+                "fileID": "872105a77aa54958904b333caea157da",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore our coding and robotics classes, press 1.",
+                            "fileID": "d5c3b2545b8f49469785b5beeaa31543",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our coding and robotics team. One moment please.",
+                                        "fileID": "64b3ffb7b540441282252d43947c113c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "87d6993f628145989438c08b8b8a2c47",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To hear about our art and design workshops, press 2.",
+                            "fileID": "e4d7b735c78143e89af6bfbff54e333f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our art and design workshop coordinators. One moment please.",
+                                        "fileID": "294d28e3e97f4f1b86503d2a9c89f343"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "88bad8ee63f34208af8aeec6b70a3cd3",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "662a50d07d584b82ac0141bc19603540",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To manage your account or membership details, press 2.",
+                "fileID": "28f566c469ea41e1993b149247dbe9a7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To update your membership information, press 1.",
+                            "fileID": "c1f35a3dea0e4027b45739b99d9abf02",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your membership details. One moment please.",
+                                        "fileID": "07c05c01546942319c43e71a76be9d8d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6ad71e9ca4ba4bb4b2f0e09c0558aeb1",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To get technical support, press 2.",
+                            "fileID": "c4e2613d99f04d469bd7e58628b6683d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support. One moment please.",
+                                        "fileID": "a67f584ebb804a64b4cd6495dce69aeb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ba19caaa00ca4c2e92615881d40a5833",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cd19600de93f45a5bc2efec6d4b198aa",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "830f19d3286e4f8e830e415c21166d1c",
+        "navigationGoals": null
+    },
+    "id": "010c2effa7d44977a556227aa84685d7",
+    "navigationGoals": null
+}

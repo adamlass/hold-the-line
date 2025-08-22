@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Woopra, the San Francisco-based customer analytics platform.",
+            "fileID": "df2f05561faa4b6cb3b63382a04792cf"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn more about our product features and pricing, press '1'.",
+                "fileID": "6b0fa83e158840bea98a9663f3332cd0",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo, press '1'.",
+                            "fileID": "5f19d3f85cd041b28f6a1c49aedff142",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Sales team to arrange your demo.",
+                                        "fileID": "53d29fafafd94a81be0330a216ae545f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d754aa6384e54ba4853868907877c8bf",
+                                "navigationGoals": [
+                                    "Schedule a personalized Woopra demo",
+                                    "I\u2019d like to schedule a personalized demo of your analytics platform to see how it can track my veteran service organization\u2019s outreach efforts.",
+                                    "I'd like to schedule a personalized demo to explore Woopra's API integration and real-time analytics features.",
+                                    "I\u2019d like to schedule a one-on-one demo to walk me through the platform features.",
+                                    "Schedule a product demo to evaluate Woopra\u2019s analytics for my physics research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, billing, or account setup inquiries, press '2'.",
+                            "fileID": "4f60fa647c634dd08cebd37211ae0974",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Billing department.",
+                                        "fileID": "b20fb5561f9b405a9d7a0d0c0e26e6a6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "874f0ded8f964fdd9f638bbc16d82744",
+                                "navigationGoals": [
+                                    "Get details on Woopra pricing and billing",
+                                    "I need to set up an account and get details on subscription pricing for monitoring our veteran fundraising campaigns.",
+                                    "I need to discuss enterprise volume-based pricing tiers and set up consolidated billing for our account.",
+                                    "I need help reviewing my bill and updating my payment information.",
+                                    "Get information on student pricing, billing options, and account setup."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2da7148c8c5e4bb3a552a34b1b150a92",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and services, press '2'.",
+                "fileID": "25a8c4e727dd4fe6ba6de530e3c86512",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For Technical Support, press '1'.",
+                            "fileID": "664ae5417271453985a76361a7e36e84",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Technical Support.",
+                                        "fileID": "e462d8c57bdf41c2be421c765c2b62c4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3e05253a0ddb49aea19d5454ce6a0c99",
+                                "navigationGoals": [
+                                    "Troubleshoot a technical issue in Woopra",
+                                    "I\u2019m experiencing integration issues with your SDK on my nonprofit\u2019s site that tracks veteran support requests\u2014I need technical assistance.",
+                                    "I'm experiencing missing event data in my API ingestion pipeline and need technical support to troubleshoot.",
+                                    "I\u2019m having trouble logging in and need technical assistance.",
+                                    "Troubleshoot an error preventing my experiment data from displaying in the dashboard."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For Professional Services and implementation assistance, press '2'.",
+                            "fileID": "fc79bfc4a9ee466a97f157efe13c99af",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Professional Services team.",
+                                        "fileID": "ed2babdb3d6946b5abb9b3a71ade86f4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5a2d55e59a9947ab8cd17cfe8e66f4b5",
+                                "navigationGoals": [
+                                    "Arrange professional services for Woopra implementation",
+                                    "I want professional services help to implement advanced event tracking for my veteran wellness program.",
+                                    "I'd like professional services assistance to configure custom dashboards and set up data connectors for our marketing stack.",
+                                    "I need guidance on setting up and customizing the analytics for my website.",
+                                    "Discuss customization and integration of Woopra with our lab\u2019s data systems."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5f441594a3314cc880ce1c3469ed80d4",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "56555ca731ca439c9aee80eaeb44947c",
+        "navigationGoals": null
+    },
+    "id": "a676359744484d15af36681528ef2383",
+    "navigationGoals": null
+}

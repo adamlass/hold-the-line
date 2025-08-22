@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Udemy, the global marketplace for learning and teaching online.",
+            "fileID": "84b4891deacf440c9b992db6500ac150"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For learner support and course information, press 1.",
+                "fileID": "cfb0def0222a47f085d3a2e67f8b79dc",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To get help choosing a course or accessing your learning materials, press 1.",
+                            "fileID": "509b9b0575994b158c570f34ae50f5c6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a course enrollment specialist.",
+                                        "fileID": "3c999f5860d14473a0be545758de1aef"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "397f5d103a5b4f69b007aa8e8287340a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support with our learning platform, press 2.",
+                            "fileID": "97ba83a1b18d4e4b824c1ba1ff993606",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "6b87c57f2fab49ceba9c906518a13091"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7379d0ae8cb44f3da7529e4e4b8f70b3",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ad59c24c0a0145deaedec71008c5cc29",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For instructor services and partnerships, press 2.",
+                "fileID": "3dcb64abf06a48fea992e412bb35ef07",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn how to become an instructor on Udemy, press 1.",
+                            "fileID": "bde4fa3d57df4362886086817afb8f79",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our instructor outreach team.",
+                                        "fileID": "8cccd3c8a1fb40cd916ac57470af3732"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c8ac252849034cb9baf0ce426f121365",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical assistance with your instructor account, press 2.",
+                            "fileID": "fa0932be15e4481fbc33d3ed2dd2c141",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to instructor technical support.",
+                                        "fileID": "30db2bd3cd4f42b3a4849c18fcb8e969"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4c6b1bba48c44af0a8ca6542299c1f68",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "62ce3a791d75446d885e24e174242a23",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a42a66417a974002adb9d87e522687a3",
+        "navigationGoals": null
+    },
+    "id": "5a239a2fe9af4855b3d33d2d7a254d66",
+    "navigationGoals": null
+}

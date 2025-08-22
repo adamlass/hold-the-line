@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Datadog in San Francisco, where you can see inside any stack, any app, at any scale, anywhere.",
+            "fileID": "648e9481b3c1446c947f18dc6266d32d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for technical support and troubleshooting.",
+                "fileID": "c7c5ddfe79ee4a75ae9b50e205d4b9e2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for infrastructure monitoring and log issues.",
+                            "fileID": "874ef5e9f5f34e7b956563e6525ddbd1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to an infrastructure monitoring specialist. Please hold.",
+                                        "fileID": "940ca13ad99a46ff92d2c0b8ad92c6c2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7a5e54cfc95f41f5843923c572534980",
+                                "navigationGoals": [
+                                    "I need to investigate missing log data for our production servers.",
+                                    "Set up real-time infrastructure monitoring alerts for my mission-critical servers.",
+                                    "Debug missing log ingestion from my Kubernetes nodes in the infrastructure monitoring dashboard",
+                                    "I can\u2019t see my server logs in the monitoring tool\u2014please help me fix my infrastructure alerts.",
+                                    "I need help resolving missing CPU usage metrics in my cluster\u2019s infrastructure logs"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for application performance monitoring and analytics.",
+                            "fileID": "a0652e5cc46947a3a34fdbd48b52141f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to an APM and analytics expert. Please hold.",
+                                        "fileID": "36cc59a09d6946c1a55bfa0bee7f9cb5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fe6c4cf73ef341c5affea9128756743b",
+                                "navigationGoals": [
+                                    "I need help analyzing recent latency spikes in our application.",
+                                    "Analyze application performance logs to pinpoint and resolve latency issues before deployment.",
+                                    "Analyze sudden latency spikes in my Java microservices using APM trace data",
+                                    "My application\u2019s response times look off\u2014could you assist me in viewing its performance metrics?",
+                                    "I want assistance setting up application performance monitoring for my data analysis pipeline"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "957f73ba11764d35a2eeb72d39a78eeb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for sales, billing, and account information.",
+                "fileID": "fa22c915a84047118779f8e763ce8fa5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with our sales team about new purchases and upgrades.",
+                            "fileID": "7f25548a28b74a40a85f1cdca5c63e46",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to our sales department. Please hold.",
+                                        "fileID": "5fe021e25e344dc2b7debad3eef15fb6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "10a103682e47451487377a01682a8629",
+                                "navigationGoals": [
+                                    "I\u2019d like to discuss upgrading our subscription to add more hosts.",
+                                    "Discuss upgrading our plan to add more host licenses for an upcoming operation.",
+                                    "Discuss pricing and features to upgrade our account to Enterprise tier for 500 hosts",
+                                    "I\u2019d like to upgrade my plan to add more hosts\u2014can someone help me with a new purchase?",
+                                    "I\u2019d like to upgrade our Datadog plan to cover more hosts for my research group"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for billing inquiries and account management.",
+                            "fileID": "50999f62543f4bf1b5005d0d1cac15dc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to our billing and account team. Please hold.",
+                                        "fileID": "ae7518193c694e97b447a9ea8e0a08de"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a7e1a81b00a5462d9104fadf1d234c12",
+                                "navigationGoals": [
+                                    "I need to clarify unexpected charges on our latest invoice.",
+                                    "Clarify charges on my recent invoice and update our payment method.",
+                                    "Investigate unexpected log-ingestion overage charges on last month\u2019s invoice",
+                                    "I need help understanding my latest invoice and when my subscription renews.",
+                                    "I have a question about the charges on last month\u2019s Datadog invoice for my account"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1c14c7f77ce64daf95d5c262178d18a3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b1c3387f54c34dd6a2d55232763d4c54",
+        "navigationGoals": null
+    },
+    "id": "0223ca1cc2f5449794c6075dce8a0045",
+    "navigationGoals": null
+}

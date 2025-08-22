@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Voxbone in San Francisco, your partner for hyper-local voice and messaging services across 9,000 area codes in over 60 countries.",
+            "fileID": "d643499947274fdf86a1719236001490"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our on-demand local numbers and sign up for service, press 1.",
+                "fileID": "fb77539fd4ad4d249dc0ff04d256453c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For details on our global voice and messaging features, press 1.",
+                            "fileID": "ec31265651da4e57884e20ecca1b9270",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to a sales specialist for product features. Please hold.",
+                                        "fileID": "79fec390b42b46248f518045793d5193"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8304d3c9d23d49039d1c20e9a12e6130",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing, billing, and account setup, press 2.",
+                            "fileID": "ddcde724098541babccd9329f88ff966",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to a billing representative. Please hold.",
+                                        "fileID": "86e01c3f8fd14a2586367e19b46b4381"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "61ef9fc7fdfd4d848f8a664586a38c55",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8f36de154cdc4fdbab82696cad6f4499",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support or to manage your existing service, press 2.",
+                "fileID": "75129f6495ee47fcae2e8a37f9c3a823",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with technical support about voice or messaging issues, press 1.",
+                            "fileID": "1066f773f8be497e8fd95b6b6a89b943",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to technical support. Please hold.",
+                                        "fileID": "82218767f3c64d148dc2ea1004f69917"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "91b8b0b777a84d0bac33afe6e77aac10",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account updates, number management, or service modifications, press 2.",
+                            "fileID": "20a98bbc5c754d4899489adda3bc00db",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to an account specialist. Please hold.",
+                                        "fileID": "c22e7637cbe94a2b8567cef9d09b7164"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dbeb0d7a31bf4585b9f2759e7707af6f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "89ab3ae288504b9f909c7b803d1dfa99",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "debca8bb95f04ddc81dafc0c30ec85fa",
+        "navigationGoals": null
+    },
+    "id": "c764bd7bcb6549df8de340f10c32c63d",
+    "navigationGoals": null
+}

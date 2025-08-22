@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hold The Line - Episode Replay</title>
+    
+    <!-- Favicon Links -->
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+    <link rel="manifest" href="/static/site.webmanifest">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- File Selection Screen -->
+    <div id="fileSelectionScreen" class="screen active">
+        <div class="container">
+            <h1 class="title">🤖 Hold The Line - Episode Replay</h1>
+            <div class="file-list scrollable" id="fileList">
+                <div class="loading">Loading files...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sample Step Selection Screen -->
+    <div id="sampleStepScreen" class="screen">
+        <div class="container">
+            <div class="header">
+                <button class="back-button" onclick="showFileSelection()">← Back</button>
+                <h2 class="subtitle" id="selectedFolderName"></h2>
+            </div>
+            
+            <div class="section-header">
+                <h3 class="section-title">Select Sample Step</h3>
+                <p class="section-description">Sorted by highest success rate</p>
+            </div>
+            
+            <div class="sample-step-list" id="sampleStepList">
+                <div class="loading">Loading sample steps...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Episode Selection Screen -->
+    <div id="episodeSelectionScreen" class="screen">
+        <div class="container">
+            <div class="header">
+                <button class="back-button" onclick="showSampleSteps()">← Back</button>
+                <h2 class="subtitle"><span id="selectedFileName"></span> - Step <span id="selectedStepNum"></span></h2>
+            </div>
+            
+            <div class="statistics" id="statistics"></div>
+            
+            <div class="filter-controls">
+                <button class="filter-btn active" onclick="filterEpisodes('all')">All Episodes</button>
+                <button class="filter-btn" onclick="filterEpisodes('success')">Successful Only</button>
+                <button class="filter-btn" onclick="filterEpisodes('failed')">Failed Only</button>
+            </div>
+            
+            <div class="episode-grid" id="episodeGrid">
+                <div class="loading">Loading episodes...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Playback Screen -->
+    <div id="playbackScreen" class="screen">
+        <div class="playback-container">
+            <!-- Back button in upper left -->
+            <button class="back-btn-top" onclick="stopPlayback()">
+                ← Back to Episodes
+            </button>
+            
+            <!-- Reward Indicator -->
+            <div class="reward-indicator" id="rewardIndicator">
+                <div class="reward-value">0</div>
+                <div class="reward-label">Total Reward</div>
+            </div>
+            
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div class="progress-bar interactive" id="progressBar">
+                    <div class="progress-fill" id="progressFill"></div>
+                    <div class="progress-handle" id="progressHandle"></div>
+                </div>
+                <div class="progress-text" id="progressText">0 / 0</div>
+            </div>
+            
+            <!-- Episode Metadata -->
+            <div class="episode-metadata" id="episodeMetadata">
+                <div class="metadata-label">USER GOAL</div>
+                <div class="user-goal-text" id="userGoal">Loading...</div>
+                <div class="metadata-footer" id="callTreeId">Loading...</div>
+            </div>
+            
+            <!-- Main Display Area -->
+            <div class="display-area" id="displayArea">
+                <div class="display-track" id="displayTrack"></div>
+                <div class="reward-animations" id="rewardAnimations"></div>
+            </div>
+            
+            <!-- Playback Controls -->
+            <div class="playback-controls">
+                <button class="control-btn primary" onclick="togglePlayPause()" id="playPauseBtn">
+                    <span class="icon">⏸</span> Pause
+                </button>
+                <button class="control-btn" onclick="rewindPlayback()">
+                    <span class="icon">⏮</span> Rewind
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-content">
+            <div class="spinner"></div>
+            <p class="loading-text" id="loadingText">Loading...</p>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

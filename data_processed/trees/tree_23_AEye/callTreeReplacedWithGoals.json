@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling AEye, the East Bay\u2019s pioneer in artificial perception and creator of iDAR, our intelligent data collection system for autonomous transportation.",
+            "fileID": "d0d99e34875e4d28b1ec9b9b9bac8690"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information about iDAR and our perception hardware, press 1.",
+                "fileID": "3292f58d833540f799e710ba42ade658",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a demonstration and discuss deployment options, press 1.",
+                            "fileID": "8d42485eac1c4b3fa15b7bce94c95176",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a product specialist.",
+                                        "fileID": "aa68f1d856204cafa0a5b5fd36cea2b0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "45d0462e26fe43afb2de6a824bb55b64",
+                                "navigationGoals": [
+                                    "I need to schedule a demonstration of iDAR and review deployment options and costs.",
+                                    "Arrange a demonstration of iDAR for my autonomous convoy project and discuss deployment options.",
+                                    "Schedule a live demonstration of the iDAR perception system and review deployment architecture for our autonomous fleet.",
+                                    "I\u2019d like to schedule a demonstration of the iDAR system and discuss how to deploy it.",
+                                    "I\u2019d like to schedule a demonstration of the iDAR perception system for my lab research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak directly with a sales representative, press 2.",
+                            "fileID": "d82e481628d04de496ab1c5b62ea5339",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer your call to our sales team.",
+                                        "fileID": "62113d213e7649feb5a201015f39b3d7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "66f873a24fcf46d9af2824feeddc9328",
+                                "navigationGoals": [
+                                    "I want to speak with a sales rep about ordering iDAR units and delivery timelines.",
+                                    "Speak with a sales representative about pricing and financing for bulk iDAR units for my defense logistics startup.",
+                                    "Obtain detailed pricing, licensing, and bulk purchase options for AEye\u2019s iDAR sensors.",
+                                    "I want to speak with a sales representative about purchasing iDAR.",
+                                    "I need information on academic pricing and licensing for AEye\u2019s iDAR hardware."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4ec8b208db244d70b439c2618359ee14",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and service assistance, press 2.",
+                "fileID": "4a3045c442834ed08cfc6dd62d436c63",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with installation and system setup, press 1.",
+                            "fileID": "9b248405a9654e968fabe37225d13f8f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we\u2019re connecting you to technical support.",
+                                        "fileID": "56f76c0890da42d0bc26b9daba0c1e28"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "881c7899175d4fe284be857b870ba929",
+                                "navigationGoals": [
+                                    "I need help installing and configuring our new iDAR system.",
+                                    "Get step-by-step guidance to install iDAR hardware on my test vehicle in the field.",
+                                    "Get assistance configuring the iDAR unit, integrating it with our vehicle\u2019s CAN bus, and performing initial calibration.",
+                                    "I\u2019m having trouble installing my iDAR hardware and need step-by-step setup help.",
+                                    "I need assistance installing and configuring the iDAR unit on our autonomous vehicle platform."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For troubleshooting, maintenance, and repairs, press 2.",
+                            "fileID": "a519ddfe242f4b888f94c6e8552acb54",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we route your call to our support engineers.",
+                                        "fileID": "99553f295b554b24808a881fbfaa4cd1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "14508c47015a48ffb0b53f027e8153c2",
+                                "navigationGoals": [
+                                    "I need troubleshooting support for a malfunctioning iDAR sensor.",
+                                    "Troubleshoot calibration issues and schedule maintenance for my deployed iDAR sensors.",
+                                    "Diagnose intermittent point-cloud dropouts on our iDAR array and troubleshoot sensor hardware issues.",
+                                    "I need assistance troubleshooting and repairing my iDAR unit.",
+                                    "I\u2019m encountering sensor errors with my iDAR system and need troubleshooting and repair support."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "472843e2a2234a6eb1807725129bc7e1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "689e46ca63ca43c7b0b65e4f4fce921f",
+        "navigationGoals": null
+    },
+    "id": "ecd9d2f57cd9477e8fde7747d2087237",
+    "navigationGoals": null
+}

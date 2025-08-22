@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Addepar in South Bay, the first performance reporting platform that connects your financial goals with real world actionable insights.",
+            "fileID": "673a929b56844fc89617ddbaa6309e3c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For client support and account inquiries, press 1.",
+                "fileID": "711acadf15024905ada2e0eeeecd897b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance with the platform, press 1.",
+                            "fileID": "248ca06429184f2c8abe62b9012eebef",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "622ac16b18db46cdb8d82853e242d0f5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0ce8d7728fab43eca4414ebaa52189fd",
+                                "navigationGoals": [
+                                    "Resolve a login issue preventing me from accessing my dashboard",
+                                    "I\u2019m getting a loading error when I try to view my portfolio breakdown and need technical help resolving it.",
+                                    "Troubleshoot my REST API integration returning a 403 Forbidden error when requesting account data.",
+                                    "I forgot my password and need help logging into my account.",
+                                    "I need assistance resolving a data import error when uploading my portfolio CSV to Addepar."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, account updates, or statements, press 2.",
+                            "fileID": "2a47dc4f9ad046279d999ea032711577",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to billing and account services.",
+                                        "fileID": "6ea6743c5ebe40d3b17e726993dff5fc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "34915c0e9234496b82d0121324b823f6",
+                                "navigationGoals": [
+                                    "Update my payment method and retrieve my latest account statement",
+                                    "I need to update my mailing address on my monthly statement and clarify the fees from last billing cycle.",
+                                    "Retrieve last quarter\u2019s subscription invoice PDF and update my payment card on file.",
+                                    "I\u2019d like to understand a fee on my last statement and update my billing address.",
+                                    "I\u2019d like to update my payment method and access my recent billing statement."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a8f18937156e460393085ee1ba02fef7",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and new account services, press 2.",
+                "fileID": "320555a747a24dabb7fdab24f627b128",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product demonstrations and platform overviews, press 1.",
+                            "fileID": "8054f2ab5ff8449cb6a344821304e36b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales specialists for a demonstration.",
+                                        "fileID": "a6cb12d16c7443088ec75b57a82eaa62"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6455219e6e7641d7ad3694b36deee2d2",
+                                "navigationGoals": [
+                                    "Arrange a concise demo of the platform\u2019s core features for my team",
+                                    "I\u2019d like a walkthrough of the platform\u2019s dashboard features and how to set up performance alerts.",
+                                    "Schedule a technical demo of the portfolio analytics dashboard and API capabilities.",
+                                    "I want to schedule a simple demo to learn how the platform works.",
+                                    "I\u2019d like to schedule a demonstration of the portfolio analytics features."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, licensing, or contract inquiries, press 2.",
+                            "fileID": "4b4992e500cd4f7eaf1629dbac87b96b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for pricing details.",
+                                        "fileID": "740ba7270b8642baa650d5bc7f6dc367"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b1883ca726284e59ae97a73d797f826e",
+                                "navigationGoals": [
+                                    "Obtain a clear breakdown of pricing tiers and contract terms",
+                                    "I want details on subscription pricing and contract terms before upgrading my account plan.",
+                                    "Get a detailed breakdown of enterprise licensing tiers and per-user API call volume pricing.",
+                                    "I need information on pricing plans and licensing options.",
+                                    "Could you provide the licensing tiers and pricing details for an academic research account?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "54f6ae36f7b240a3a142fb42360ea696",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "912c13ad832c42b5b3f731c83ea8d668",
+        "navigationGoals": null
+    },
+    "id": "cf0c818a43d24f7ab1923c9844b9e97f",
+    "navigationGoals": null
+}

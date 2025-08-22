@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Brightidea, based in San Francisco, the leading enterprise idea management software that crowdsources tomorrow\u2019s innovations today.",
+            "fileID": "74af8ff2cd9f4a8cbe79b1d7f7de9484"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and information on Brightidea\u2019s enterprise solutions, press 1.",
+                "fileID": "682756abe7f04e9a85288f21274d32eb",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss pricing and licensing options, press 1.",
+                            "fileID": "21a72c4bcfa24e51b01761d7fd66211a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "7f1b2bdd2b83492d9a0ffb2594f3abe9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d78fd5e9bdee4cf3a2db17e9b9c1f37b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a demo of Brightidea\u2019s innovation platform, press 2.",
+                            "fileID": "2cc8658b83264eba8d46b19627dc1a6a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we route your demo request.",
+                                        "fileID": "824ae4e0ee7447eda923e680e0d261dc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4a8aa48d85ec4e13a46f3e5028677ffa",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5f02267b78f446d7b7a0d74bbed4e246",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing customer support and technical assistance, press 2.",
+                "fileID": "9bb6c407aeb54a77b1a14dba2c08ba7f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "1f8e708eae96419c955e5b38723e2543",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical specialist.",
+                                        "fileID": "d7ea606cdc8346ee8606bd23e27fcb27"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2c386cdc715e4f5fb6a3506233362685",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account management or billing inquiries, press 2.",
+                            "fileID": "d27d579c6ac44786ad7e8412c7648c7b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please as we transfer you to our account services team.",
+                                        "fileID": "fbe83477509440b885496ebaa55cf367"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "964428ae732b4072bff847462bb2fa73",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7d1d5993070448108abd8106c94937f0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "fb8efc16ea404660b743aecfdd0d9469",
+        "navigationGoals": null
+    },
+    "id": "73cd6129610141eb81a7dfc9f2d76530",
+    "navigationGoals": null
+}

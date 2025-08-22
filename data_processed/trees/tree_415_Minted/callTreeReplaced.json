@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Minted in San Francisco, where we specialize in high-quality custom cards and invitations guaranteed to delight.",
+            "fileID": "76707b542359429ab97062b6a91a01a9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with orders, shipping, or tracking, press 1.",
+                "fileID": "02ebeb256dec408789a8dcd5bb542add",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To track your order or check shipping status, press 1.",
+                            "fileID": "140be5269b5c478b88a8242570b80144",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our order support team, who will assist you shortly.",
+                                        "fileID": "22ef49441feb4893a3743850e28185f1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f8dbba8e5ca54be58a3faa8ab6abac6d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To discuss returns, exchanges, or our satisfaction guarantee, press 2.",
+                            "fileID": "d06293b7fabc407cad26d8b8e827d9cd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we are transferring you to our returns and satisfaction guarantee specialists.",
+                                        "fileID": "282cf57e8548459a8264a6dd10ac7399"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aef70149f47a4103b2ea3be59efeb360",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b342e90045694d6d9c7cc8e9ace61f1b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For help with design customization and product inquiries, press 2.",
+                "fileID": "d8c22f6d8d8241298daeb3274df88f8d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help customizing a holiday card, wedding invitation, or other design, press 1.",
+                            "fileID": "0c78bbf21cb54c138513c87bb032780f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience, connecting you now with our design specialists.",
+                                        "fileID": "0d1583d5b96a4bf3839feac9f561eec8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a45764e72a7642979e1c1fe8ec6202cd",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For information about our fine paper stock, printing methods, or designer community, press 2.",
+                            "fileID": "54bfb31d234140dcbe4a66e82b3f70d4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Your call is important, please hold for our product information team.",
+                                        "fileID": "b2fdc0c786b84bc48d04b1f10e289c69"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0b65208915c34c0a905a914de8a506ba",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "30bcc9d9f43747ac8bb4cf1868686f56",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d67d68b6847b416f9e084dbc3b148ca6",
+        "navigationGoals": null
+    },
+    "id": "49504a76cf674f499ea7a87359fd529a",
+    "navigationGoals": null
+}

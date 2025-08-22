@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Joy, the free San Francisco\u2013based wedding website and app that does more.",
+            "fileID": "e51276c400d74676894313727dfc2f0f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press '1' for customer support, including technical assistance and account help.",
+                "fileID": "c2fd21b0b6c948a2bbfba046b95d2206",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press '1' for technical support and troubleshooting.",
+                            "fileID": "6fcf07e628e6449e88537009003213bc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for choosing technical support. Please hold while we connect you to a Joy technical specialist.",
+                                        "fileID": "ad06bf584f9f44ec8aec5ca431f2c851"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e1d4486b2bec4fd0b90a0d64d73249db",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press '2' for account and billing inquiries.",
+                            "fileID": "3c2b23c1ddac48b08547a54f2cf37156",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for contacting account services. Please hold while we connect you with our billing and account representative.",
+                                        "fileID": "0c58ba7e30d84d79ad9b634581695f46"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cfc9e243300e434f9dcde4b75d97d2e7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c573da70edb34158ae4b9d4bcf7e9c58",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press '2' for information about our wedding planning features and premium upgrades.",
+                "fileID": "ddad59b47cff4fe38c2bbbbd3d5db4f5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press '1' for a guided demo of our premium wedding planning tools.",
+                            "fileID": "a69b2b16ae7f499f8b5ad9ae9c67be59",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest in our premium offerings. Please hold while we connect you to a Joy wedding specialist.",
+                                        "fileID": "2010629a4563436293294f03bc17bba3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c4e9ff942f934848a067c5b8e522f187",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press '2' for partnership and vendor inquiries.",
+                            "fileID": "6903b217be464a46b2c840ab52553eae",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your partnership inquiry. Please hold while we connect you with our vendor relations team.",
+                                        "fileID": "736c145277b84ef3918a66b440a283dc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "76a3313453ad4792925d8719569e5381",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "78512e50843642bdb7c2bf5a363be133",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "485e9faa8646444c867ab0a845d61501",
+        "navigationGoals": null
+    },
+    "id": "d19ea8234dbb4968816c8a61f0fef5dc",
+    "navigationGoals": null
+}

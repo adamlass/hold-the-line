@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling WePay, your integrated payments partner on the Peninsula, where we help you grow revenue without friction or fraud.",
+            "fileID": "31c7f2b244e3473f8f1bbf36e0845dac"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For partner support and account services, press 1.",
+                "fileID": "b99c479550c44a38b7c77384da87c071",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For transaction troubleshooting and disputes, press 1.",
+                            "fileID": "acca36456cc848fb80f8f07d4a61db66",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a support specialist for transaction issues.",
+                                        "fileID": "6d2fcb66de70408fbccf8b0f7a06ad97"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ccc967137b2648b4954fedc668a589cc",
+                                "navigationGoals": [
+                                    "I need to resolve a recent payment dispute on my account.",
+                                    "I need help disputing a recent payment on my WePay merchant account.",
+                                    "Initiate a fraud review and dispute resolution for a failed API transaction chargeback.",
+                                    "I need to dispute a recent transaction on my account.",
+                                    "I need help disputing an unauthorized payment on our physics club\u2019s WePay account."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account settings and compliance inquiries, press 2.",
+                            "fileID": "de783ad0756745abacd447441a273ec8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our account management team.",
+                                        "fileID": "7dc219f8b9f94fc1b074cd5e1afd1523"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ca97a691e54b4787aeed8aad5af51bec",
+                                "navigationGoals": [
+                                    "I need to update my account settings to meet compliance requirements.",
+                                    "I\u2019d like to update my account settings and verify my veteran-owned business compliance.",
+                                    "Update my account\u2019s webhook callback URL and verify PCI compliance status.",
+                                    "I want help updating my account compliance documents.",
+                                    "I want to update the compliance and tax details on my WePay account for our student funding."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "648e06137bf340eba3d0380c247b39a1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales inquiries and new integrations, press 2.",
+                "fileID": "ed178c77af524c64b528c385702921d8",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing and product information, press 1.",
+                            "fileID": "8ffe9d42b27342d39c7a3aa41e33fa79",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales information desk.",
+                                        "fileID": "d4a9b8a764284a0e910042e2130314d3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "18a965fce5a44ac39831011b84e09848",
+                                "navigationGoals": [
+                                    "I need clear pricing details for your payment services.",
+                                    "I\u2019m seeking details on WePay\u2019s pricing and transaction fees for my small veteran-run store.",
+                                    "Get a detailed breakdown of volume-based pricing tiers and API feature specs.",
+                                    "I'm calling to ask about WePay's pricing plans.",
+                                    "Could you explain the pricing plans for integrating WePay into my research project\u2019s website?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative about a new integration, press 2.",
+                            "fileID": "c90ba005426a45008f1bf2e20a699379",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "dd4918c3510a40b2bb92773bd7d31097"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9bffe595e1b94898b74090558fd48833",
+                                "navigationGoals": [
+                                    "I need to speak with someone about integrating WePay into our platform.",
+                                    "I want to speak with someone about integrating WePay\u2019s API into my custom sales platform.",
+                                    "Discuss architecting a custom WePay OAuth integration for my e-commerce platform.",
+                                    "I need assistance integrating WePay into my website.",
+                                    "I\u2019d like to speak with a sales rep about setting up a new WePay integration for our physics seminar ticket sales."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1fbd35f2a78e40c0a3aaf1199dc99f73",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a2e5ab366dd44a33a23ba146e872725f",
+        "navigationGoals": null
+    },
+    "id": "e9f7b54f1e6542ed87aa008878bde06c",
+    "navigationGoals": null
+}

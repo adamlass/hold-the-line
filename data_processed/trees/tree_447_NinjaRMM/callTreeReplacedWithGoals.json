@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to NinjaRMM, where we turbocharge your IT stack with the best remote monitoring and management platform.",
+            "fileID": "1b9d100132bd4d18a19ba03605d73147"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for sales and new account inquiries, including demos and pricing.",
+                "fileID": "897748e372384e718785a4fe35c89855",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to schedule a demo of our RMM platform.",
+                            "fileID": "4dbe6171cf694c8d8d9c7a217db40f38",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist to arrange your personalized demo.",
+                                        "fileID": "f027c33792bd4d4fa6f6434799e770e6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2c35d63de1c247849c5eff82b6adabef",
+                                "navigationGoals": [
+                                    "Schedule a personalized NinjaRMM demo at the earliest available time",
+                                    "I\u2019d like to arrange a personalized NinjaRMM demo to see how it could support my veteran outreach programs.",
+                                    "Schedule a hands-on demo of NinjaRMM with a focus on API integrations and custom alerting workflows.",
+                                    "Could you help me arrange a personal walkthrough of your monitoring software?",
+                                    "I\u2019d like to schedule a personalized demo of NinjaRMM to see how it can monitor my university lab computers."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for pricing, plans, and purchase options.",
+                            "fileID": "e0171e3c22044b6a882425168c6f5347",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to our sales team to discuss pricing and plans.",
+                                        "fileID": "fec59948c9584a358f0f88aee0350bdd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "20edd831dcbf4a838a1adc8261a6f88b",
+                                "navigationGoals": [
+                                    "Get a detailed quote on NinjaRMM plans, features, and pricing",
+                                    "I need to review pricing options and veteran discount plans before upgrading my NinjaRMM subscription.",
+                                    "Get a detailed breakdown of NinjaRMM\u2019s pricing tiers, licensing models, and cost per managed endpoint.",
+                                    "I need an explanation of your subscription plans and associated costs.",
+                                    "I need information on student or academic pricing plans and purchase options for NinjaRMM."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cb990d54fe5d4ebc8280c52b3c034479",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for technical support and account assistance.",
+                "fileID": "fdf1c17dca76461bacf86bb71a61e6a4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for technical support and troubleshooting.",
+                            "fileID": "ea8fd0402dec47d788b66d35e6ad74e2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to our technical support team. Please hold while we assist you.",
+                                        "fileID": "c51b2ca26d1c41188b981d9f165245d2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b176968a5a5e472481a52ce9bbcdef2d",
+                                "navigationGoals": [
+                                    "Troubleshoot a remote monitoring agent error on my endpoints",
+                                    "I\u2019m experiencing errors deploying the NinjaRMM agent on my network and need technical assistance.",
+                                    "Troubleshoot intermittent offline status of remote agents and resolve last-check-in failures on my devices.",
+                                    "I'm having trouble with the software and need step-by-step technical support.",
+                                    "I\u2019m having trouble installing the monitoring agent on my department\u2019s Linux server and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for billing, licensing, and account questions.",
+                            "fileID": "18205469d8874d6b85d7272fdd38f33a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing and account services team.",
+                                        "fileID": "54138a13d8a344f9952db21f145d2886"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "661fb97eaf94453c83974df8bf11655b",
+                                "navigationGoals": [
+                                    "Resolve a billing discrepancy on my account and update my payment method",
+                                    "I want to update my billing details, review my license, and apply any available veteran discount.",
+                                    "Clarify my subscription\u2019s billing cycle and add extra endpoint licenses with prorated billing adjustments.",
+                                    "I have questions about my invoice and renewing my license.",
+                                    "I need to discuss our current education licensing and billing details, and apply any student discounts."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4f3a82dcb5004ce6b74353eb02971085",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "36adb5ba9ba14e19ac2c66589edb6599",
+        "navigationGoals": null
+    },
+    "id": "26659bfa9ddb40e690b20b2f9bbb2cfb",
+    "navigationGoals": null
+}

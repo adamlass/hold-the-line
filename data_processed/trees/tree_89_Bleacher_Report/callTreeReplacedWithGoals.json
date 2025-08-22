@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Bleacher Report in San Francisco, your home for the latest sports news, highlights, and analysis.",
+            "fileID": "bbda069f8da1418e97705ef31c592301"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For professional sports coverage, please press 1.",
+                "fileID": "76d1ca7e2e0642c5bd534290a1873faf",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For NFL, NBA, MLB, and NHL news, please press 1.",
+                            "fileID": "5fd8499ce0af485cb29a6964a9107d29",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our professional leagues desk.",
+                                        "fileID": "8876cdf6b4b94deca29b952473f75ea3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f56ad13122e4471daaeb6d207a333d9f",
+                                "navigationGoals": [
+                                    "I need the final score from last night's NHL playoff game.",
+                                    "I need the latest NFL team injury reports and game highlights.",
+                                    "Enable my REST API client to pull live NFL and NBA score updates.",
+                                    "I want yesterday\u2019s NFL game final score.",
+                                    "I need the current win-loss records and run differential stats for all MLB teams."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For MMA, NASCAR, and other pro sports updates, please press 2.",
+                            "fileID": "d40402c14b6c413c925a0612a74ade6c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our combat and motor sports specialists.",
+                                        "fileID": "b815dae021224676ab5060126e5273a3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a87ac6c255834a5ab5e3722b5143fda9",
+                                "navigationGoals": [
+                                    "Can you give me the fight card details for the upcoming UFC event?",
+                                    "I want last night\u2019s UFC fight results and expert analysis.",
+                                    "Set up WebSocket streams for live MMA events and NASCAR race telemetry.",
+                                    "I need details on the next NASCAR race schedule.",
+                                    "Can you give me last weekend\u2019s NASCAR Cup Series finishing order and average lap times?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "691b307ee09e45eeb8c128a6a17cd106",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For college sports coverage and fantasy leagues, please press 2.",
+                "fileID": "1b37316c18d94be19a00b06ddd825094",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For college football and basketball news, please press 1.",
+                            "fileID": "f0bb4b17f4e64152b0743db2b534f00e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our college sports desk.",
+                                        "fileID": "5a294bff0f3647dbb3ebf1be2c013a17"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "faa5339b99e8421d9649224df9352f67",
+                                "navigationGoals": [
+                                    "What's the tip-off time for tomorrow's Duke vs. UNC college basketball game?",
+                                    "I\u2019m looking for the current college basketball top-25 rankings.",
+                                    "Export the JSON schedule of all college football and basketball games.",
+                                    "What was the final score of last night\u2019s college basketball game?",
+                                    "I\u2019d like the latest SEC college football standings and average points per game."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For fantasy sports support and standings, please press 2.",
+                            "fileID": "088b452375b645c0be2f8c7a8181173d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our fantasy sports team.",
+                                        "fileID": "23ee69b8facc4dc083ca89b690da3b29"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6b6e1e681a7e4b4682d12991e57d969e",
+                                "navigationGoals": [
+                                    "Update my fantasy football roster and let me know my current standing.",
+                                    "Please check my fantasy football league standings for this week.",
+                                    "Grant API access to programmatically manage my fantasy league roster and scoring rules.",
+                                    "Check my fantasy football team\u2019s standings this week.",
+                                    "I want to check my fantasy football league standings and projected points for the upcoming week."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e0605825751c41239752e9cf43684564",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7740738a93764098bc8541140cd6b691",
+        "navigationGoals": null
+    },
+    "id": "eb7744ab53ef471e9673d935ac4f6a0c",
+    "navigationGoals": null
+}

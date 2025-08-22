@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Mesosphere in San Francisco, where we automate hybrid cloud infrastructures to power AI-driven IoT and data applications.",
+            "fileID": "05feb998bb4447a4b0909acec69402f8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our hybrid cloud automation solutions and pricing, press 1.",
+                "fileID": "f354c964cb1746e9a02131a0e0668ee1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a live demo of our AI-driven infrastructure platform, press 1.",
+                            "fileID": "e9ecc2f6a4cc43c5a20c52d7f78aac8f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a product specialist as we connect your call.",
+                                        "fileID": "2a281a54c5c246139b45eb12f5c8b2c6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "76fea24c588b45058f0abf74018c90e5",
+                                "navigationGoals": [
+                                    "Schedule a live demo of Mesosphere\u2019s AI-driven infrastructure platform.",
+                                    "I\u2019d like to book a live demo of your AI-driven hybrid cloud platform for my veteran-led IoT project.",
+                                    "Schedule a hands-on demo of their AI-driven hybrid-cloud automation platform.",
+                                    "I\u2019d like to schedule a live demo of your AI-driven infrastructure platform to see how it works.",
+                                    "Schedule a demonstration of the AI-driven cloud platform and get fee details for a lab research project"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, licensing, and partnership inquiries, press 2.",
+                            "fileID": "168b0c97e98543f4aef2896b0e8acf59",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold to speak with a sales representative.",
+                                        "fileID": "759ea42d20cd441893a780fb7065a8b5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "59d6864e88ad451495eb9ed682b8c307",
+                                "navigationGoals": [
+                                    "Obtain detailed pricing, licensing, and partnership information from sales.",
+                                    "I need details on licensing fees and partnership deals for a veteran-owned hybrid cloud startup.",
+                                    "Get detailed pricing, enterprise licensing terms, and partnership options for their hybrid-cloud solutions.",
+                                    "I want to ask about pricing, licensing options, and possible partnership plans for your hybrid cloud services.",
+                                    "Inquire about academic licensing terms and partnership opportunities for integrating the platform into my coursework"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9a9e89b70d374023a137788b0961b539",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and developer assistance, press 2.",
+                "fileID": "d37372898c7648f8a82ffb12fbfc791c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with your existing hybrid cloud environment, press 1.",
+                            "fileID": "2b753532b0574d869f42896329e80e6f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support engineer.",
+                                        "fileID": "64c0a152c69e4268835651b6e2b3f4f2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ae684e1bebb24e89803b6bc5b8d049fd",
+                                "navigationGoals": [
+                                    "Resolve a connectivity issue in our existing hybrid cloud environment with technical support.",
+                                    "I\u2019m troubleshooting my existing hybrid cloud setup and need to speak with a technical engineer.",
+                                    "Connect with a technical support engineer to troubleshoot my live hybrid-cloud environment.",
+                                    "I need technical support to troubleshoot issues with my existing hybrid cloud environment.",
+                                    "Troubleshoot connection errors in my current hybrid cloud setup used for physics simulations"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For developer resources and IoT integration support, press 2.",
+                            "fileID": "a5a08905e81847daa218df3c2789c431",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our developer support team.",
+                                        "fileID": "46c7b8def7dc4f908f754fefa29acfcf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "28d0f3f92ed3434eb960bfaf8b0a31b4",
+                                "navigationGoals": [
+                                    "Access developer resources and IoT integration support for Mesosphere\u2019s platform.",
+                                    "I want developer guidance on integrating battlefield-grade sensors into your IoT cloud services.",
+                                    "Access developer resources and IoT integration support using their SDK and APIs.",
+                                    "I\u2019m looking for developer assistance to integrate IoT sensors into my hybrid cloud setup.",
+                                    "Obtain developer guides and IoT integration support to connect experimental sensors to the cloud infrastructure"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b4bb1dc7de8b4c0fa008a5e54c187d68",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5699b64e16d94e9fad9e25d71c8f3207",
+        "navigationGoals": null
+    },
+    "id": "dca5358df0764f268c74c27d3f6264c7",
+    "navigationGoals": null
+}

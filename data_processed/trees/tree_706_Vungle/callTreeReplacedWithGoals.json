@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Vungle in San Francisco, the leading in-app video advertising platform for performance marketers.",
+            "fileID": "7f571e52f9444494b84a10bfc27884c5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new partnership inquiries, press 1.",
+                "fileID": "a185d316ea444244976917755af134a0",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press 1.",
+                            "fileID": "2a56ab2e3dd44db698bf389e9db35632",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "aa9c289f1b1c4e3e861f21047024bda6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6ed3b82c5adf4380b4cde1ec57547daf",
+                                "navigationGoals": [
+                                    "I need to discuss a new partnership opportunity and speak with a sales representative.",
+                                    "I need to speak with someone about partnering with Vungle for my app\u2019s ad campaigns.",
+                                    "I want to speak with a sales rep about customizing Vungle\u2019s API integration and enterprise pricing.",
+                                    "I\u2019d like to speak with someone about setting up a new advertising partnership.",
+                                    "Inquire about ad packages and partnership options for my physics blog"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To request a product demo or pricing details, press 2.",
+                            "fileID": "cf60f08b10f94034841d485db8f8f613",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we are connecting you to our demo team.",
+                                        "fileID": "74c2efb96f7a4b30b5c056cea5eec1f9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "30e7f033f1bd45e5889d743a690aa76c",
+                                "navigationGoals": [
+                                    "I want to schedule a product demo and get pricing details for Vungle's platform.",
+                                    "I want a demo of your video advertising platform and information on pricing options.",
+                                    "I'd like to schedule a product demo to review the SDK feature set and get detailed pricing tiers.",
+                                    "I want to see a demo of your platform and get pricing details.",
+                                    "Schedule a demo of the Vungle platform and get detailed pricing"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "687c7468ecb943baaf40d8aa7ab2608e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and account management, press 2.",
+                "fileID": "74d29f7890af4875b9611b7de1b53060",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reach technical support, press 1.",
+                            "fileID": "fdc360b754ce4055b4de9cbbf2e28aff",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line while we connect you to technical support.",
+                                        "fileID": "3a96dbf5db4341bd8a6cbfe4f9706b62"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0008ebdce02d49ab9f2819443273a378",
+                                "navigationGoals": [
+                                    "I\u2019m having an SDK integration issue and need technical support to resolve it.",
+                                    "I\u2019m having trouble integrating your SDK into my app and need technical assistance.",
+                                    "I need technical support to troubleshoot SDK integration errors and crash logs in our app.",
+                                    "I\u2019m having trouble with the app on my phone and need technical support.",
+                                    "Troubleshoot an SDK integration issue in my physics research app"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and invoice inquiries, press 2.",
+                            "fileID": "75f3b6c2d8cb476286dba5c35d0f584c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for holding, we will connect you to our billing department shortly.",
+                                        "fileID": "aed3a6313099460995d275bf5df14381"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9f4dc8dca2744de98108054cfd22efbe",
+                                "navigationGoals": [
+                                    "I need an updated invoice and clarification on my recent ad billing charges.",
+                                    "I have a question about my recent invoice and billing charges.",
+                                    "I'm calling to review my latest invoices and set up automated billing alerts.",
+                                    "I need help understanding my invoice and billing charges.",
+                                    "Clarify a billing charge on my recent Vungle invoice"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a2c380c165a641c681fe7c69e1d1d0e6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "cb881214935b4b988d703c3acbce5f1b",
+        "navigationGoals": null
+    },
+    "id": "4e9f9a4519594398a2c0b4495ae77bbc",
+    "navigationGoals": null
+}

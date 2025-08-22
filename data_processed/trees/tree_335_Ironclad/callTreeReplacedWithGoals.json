@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Ironclad, the San Francisco-based contract management platform.",
+            "fileID": "486562197dcb45ffa999b9917f1a59a2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new account inquiries, press '1'.",
+                "fileID": "38d4c7b4cf1b43a39f1cd9b1dc9067be",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product demos and free trials, press '1'.",
+                            "fileID": "97d4eba3778440818ad61711f27a5673",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our sales team for a product demo.",
+                                        "fileID": "71062fca43a24581817158bba6134a6a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f9feeb09c82f43279c3b3c2bb979a523",
+                                "navigationGoals": [
+                                    "I\u2019d like a quick live demo of the AI-powered contract review tool.",
+                                    "Schedule a product demo to evaluate Ironclad for my veteran-led contracting firm.",
+                                    "I\u2019d like to schedule a technical walkthrough of Ironclad\u2019s API integration and feature workflows.",
+                                    "Could someone walk me through the software features in a live demo?",
+                                    "I\u2019d like to schedule a walkthrough of Ironclad\u2019s features so I can see how it fits my lab\u2019s workflow."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing and licensing information, press '2'.",
+                            "fileID": "3b7a1458a2d04b8b888391cf2e7cfdf8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our sales specialists for pricing and licensing information.",
+                                        "fileID": "0e3ed5e86ef34e829f3b272fbd6b5113"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d0e68127a7734c7bb99ec517e4941646",
+                                "navigationGoals": [
+                                    "I need a detailed quote for a 20-user enterprise license and any volume discounts.",
+                                    "Get detailed pricing and licensing information for using Ironclad in my nonprofit veteran outreach program.",
+                                    "I need detailed pricing on enterprise seat licenses, volume discounts, and licensing tiers.",
+                                    "I need help understanding the service pricing and available license options.",
+                                    "I need information on academic or student licensing rates for Ironclad before I make any recommendations."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b838f21ee41047dfa605fe4f193af6a4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and service, press '2'.",
+                "fileID": "1fee64d9db774f76a772b8baadac5a1a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press '1'.",
+                            "fileID": "799588b7473d4bac9700dc7697762805",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our technical support team.",
+                                        "fileID": "737a93046a0b44f0a5fb660e0a3823f3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f4294bd8207544ffb46889d6be5f259e",
+                                "navigationGoals": [
+                                    "I\u2019m getting an upload error when importing contracts and need technical help.",
+                                    "Troubleshoot a login issue and get technical support accessing my Ironclad account.",
+                                    "I\u2019m encountering an OAuth token error when integrating Ironclad\u2019s API and need troubleshooting assistance.",
+                                    "I\u2019m having trouble using the platform and need technical support.",
+                                    "I\u2019m getting an error when I try to upload my lab\u2019s confidentiality agreement\u2014can I get technical assistance?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For contract administration and renewals, press '2'.",
+                            "fileID": "97d9ff5faab1416e9913694ea4090de6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our contract services representative.",
+                                        "fileID": "77a9a1cf78c74496a6f482ce7bd532c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a9d47a08dd534c56a9af465b9a908378",
+                                "navigationGoals": [
+                                    "I want to confirm and process my upcoming contract renewal and adjust our user count.",
+                                    "Renew and review the terms of my existing Ironclad contract.",
+                                    "I want to renew our annual subscription, amend contract terms, and add additional user seats.",
+                                    "I\u2019d like to renew my contract and confirm the renewal fees.",
+                                    "I want to renew and update our existing contract management agreement for my department\u2019s research projects."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "40b8e8c7a6b54cc2ab0090f185f55830",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f56af51f913e41fdb7ed3dbc90518eb1",
+        "navigationGoals": null
+    },
+    "id": "9e6c1d0321de46258381c04fd3c74c64",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Walmart Labs South Bay, where a single line of code can change the way the world shops and drive a smarter future.",
+            "fileID": "c53edbecb6e6412fbee2aa4df5933364"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For career opportunities, press 1.",
+                "fileID": "99447920d3db476293358264f144ba02",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about current software engineering openings, press 1.",
+                            "fileID": "865c62cb2eb542ae9f402ec49db2a674",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you with our recruiting team.",
+                                        "fileID": "65ef4cd1633b4a1a97825b86c4810809"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5f14fb28482d494b91b653ce44b7a8fa",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To explore our internship programs in e-commerce technology, press 2.",
+                            "fileID": "8c1342fac8674676ac068ae7ac4be10a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you with our internship coordinator.",
+                                        "fileID": "da20b6e0894c4cb7ad09dbf0b6182497"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "39d44cd37b5d444fa1baf05baab77959",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0669b6ddd9fa45b98316379149201caa",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technology and vendor partnerships, press 2.",
+                "fileID": "a771267c348b4590bf3c8a4af5a1d031",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss API integration and developer tools, press 1.",
+                            "fileID": "f0c17386b9db4e2987c29199247ea2af",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our partnerships team.",
+                                        "fileID": "eb5bf44eaaaf41d893b03771a5a9ea5d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4ebe4ac639db485b8ad21d2d34378d3a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For logistics and supply chain technology partnerships, press 2.",
+                            "fileID": "51c238be51e94556b6aeda75560c07a3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you with our supply chain specialists.",
+                                        "fileID": "cda73e6eb4984b1eb9b70cab0f31869c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8ce258f091f44d66a83f9d6a4388b196",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3708d7add6834441be90a2eecee2eb0f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ac5f0ffc4ca64a46bab7113f7aae9daf",
+        "navigationGoals": null
+    },
+    "id": "0e2c6762decd490a8355af404e113076",
+    "navigationGoals": null
+}

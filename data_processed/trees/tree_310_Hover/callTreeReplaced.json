@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Hover, your San Francisco-based mobile platform for generating accurate, customizable 3D building models from smartphone photos.",
+            "fileID": "ab5bd6067b26438991cb7e7816c63d11"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales, product demonstrations, and pricing information, press 1.",
+                "fileID": "1b13d1b5a6ef4a9f85c6600ac9392efe",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a live product demo or discuss pricing details, press 1.",
+                            "fileID": "ae010c50d6ef4ee9a3b8013b43615708",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our sales and demo specialists.",
+                                        "fileID": "1c7f0f7f75554225864cf08f0f0ede97"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6ea53d99fa8040c6a8a35b50ed82394c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To set up your account and start capturing your first property, press 2.",
+                            "fileID": "ac868f87aed541018dce60e7d4c184e0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our onboarding team.",
+                                        "fileID": "42e709defe164b248a66b76b7819fe35"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "920ee697b17b4e6a8092a05d7fea6e31",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "66036800f50c476fad1c1dd7eb134fd5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support, billing, and account inquiries, press 2.",
+                "fileID": "19a1946190a74053880d504347fc0eb9",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need technical support or assistance with the mobile app, press 1.",
+                            "fileID": "5b3a8d55ec334296b3a20864132ee71e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with technical support.",
+                                        "fileID": "031937f484474d5a87138098ef17ba23"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9ed8634f68af4814b5cfa9994e299322",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing questions and account management, press 2.",
+                            "fileID": "c80ae446d2de46edb87f90800438763a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing department.",
+                                        "fileID": "5d9e93096f75402e80cf6281fe00efd3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "253c266ee4664f3caaba3e01610b83e6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c0566a1b879849f996f00038908dadb8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "42c9a8f6ff4e429fa7fecf6f3d7d5b25",
+        "navigationGoals": null
+    },
+    "id": "aa5c63a6be5d42dabe66919fc806645f",
+    "navigationGoals": null
+}

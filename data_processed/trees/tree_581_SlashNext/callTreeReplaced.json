@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling SlashNext in the East Bay, the security company protecting you with cloud-based, real-time phishing detection.",
+            "fileID": "6b5ff1ad085243bcbd29921911b0d66c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on SlashNext products, press 1.",
+                "fileID": "9393c91f307240cdbfdf47b2382fbc0d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn how our cloud-based phishing detection works, press 1.",
+                            "fileID": "df498a157410465f8bcc6c335372416b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product specialist who can explain our real-time phishing detection technology.",
+                                        "fileID": "4b6fe76b052f4c94aa63e8e0361c490d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9eb3d6200a0f4e4fa51adb94731d2cfa",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing, licensing, and billing inquiries, press 2.",
+                            "fileID": "be059e2845c44a929a9152a2f055d77b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "806767b2dbd040dc908b9c957150bdbc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2b3156bcbbed420f9b4151483a499049",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5d42549b816446d3ab2f634478f5f8eb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and troubleshooting, press 2.",
+                "fileID": "3ca4ffa6ee1d40eb8aaa5373ba3eaec8",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help integrating SlashNext with your firewall, press 1.",
+                            "fileID": "92d35cafec34419eae7a209a09108dad",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a firewall integration specialist.",
+                                        "fileID": "b07eb0e5e352489f8c244d9adce8abe3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5bbd2c368ae34ff993927f40d587842f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For DNS configuration and advanced setup assistance, press 2.",
+                            "fileID": "51e46d1780b94b53aaff3cc3751955fa",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our DNS integration support team.",
+                                        "fileID": "1cd3c6d07ab1479ca05cf8a1a4a78adb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dd4c0f7ebf854af79c6a840ab1b36bdc",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3f3c4d95290549c385c32c3bccb64a02",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "47e955ef5e8d4f79a89949c3eebac72e",
+        "navigationGoals": null
+    },
+    "id": "04641c2507bd491f965ca243ca6058c1",
+    "navigationGoals": null
+}

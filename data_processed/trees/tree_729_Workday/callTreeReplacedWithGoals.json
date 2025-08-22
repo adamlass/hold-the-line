@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Workday in San Francisco, your cloud partner for SaaS-based human resources and financial management solutions.",
+            "fileID": "bd4113f99a6247b0ad2eb699cd45c77b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our human resources solutions and employee engagement tools, press 1.",
+                "fileID": "b1445790985e419f9434c5c679ce9543",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with an HR solutions specialist, press 1.",
+                            "fileID": "3990768ad43e40ffaa238549165b4a0f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an HR solutions specialist.",
+                                        "fileID": "00924c2b91254b5994695737eab00a03"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1a2f8657893a447a8e890d62722f7ca2",
+                                "navigationGoals": [
+                                    "I need to discuss improving team engagement using your HR solutions.",
+                                    "I want to talk to HR about veteran hiring programs and workplace accommodations.",
+                                    "I want to review HRAPI integration for real-time employee engagement analytics with an HR solutions specialist.",
+                                    "I need step-by-step guidance from an HR specialist on how to update my emergency contact information in the employee portal.",
+                                    "I\u2019d like to schedule a demo of your HR employee engagement tools."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a financial management specialist, press 2.",
+                            "fileID": "1c81b0ca9171473ca3cd8c266cdf5c26",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a financial management specialist.",
+                                        "fileID": "4aff6bb98ccf495bb005beb90fe3aba9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0d27550d56ed40eaacd5912a763c6a08",
+                                "navigationGoals": [
+                                    "I want to review your financial management and reporting features for our quarterly close.",
+                                    "I need help rolling over my military Thrift Savings Plan into my company retirement account.",
+                                    "I need guidance on configuring the Workday Financials ledger and budgeting modules with a finance specialist.",
+                                    "I want help enrolling in direct deposit and viewing my retirement account statements through the financial management system.",
+                                    "I want to discuss financial reporting and budget planning modules with a specialist."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f659dbf070be4e398dd9411786bd8bb6",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, payroll, and benefits assistance, press 2.",
+                "fileID": "d22c2c18f9c9431da97d51e3b0f03b50",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For employee benefits, engagement, and payroll questions, press 1.",
+                            "fileID": "8bc88586d5dd4cf7a99cfd0707383b88",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our employee benefits team.",
+                                        "fileID": "62e3221f85fd4f34b4739eabf6d05527"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "06809e8afe584f67bca88ad2212802a1",
+                                "navigationGoals": [
+                                    "I need help setting up benefits enrollment for new hires.",
+                                    "I have questions about adding my VA healthcare benefits to the company health plan.",
+                                    "I have discrepancies in payroll processing and need help troubleshooting benefits enrollment workflows.",
+                                    "I need to ask the benefits team how to add my spouse to my health insurance plan and understand my coverage details.",
+                                    "I need information on enrolling in benefits and managing payroll deductions for my student stipend."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support and system issues, press 2.",
+                            "fileID": "46d6f2441d9f4ebf928ea3fc7d19d76c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "7b4a9b35b6334036856ffe46954d086b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1f52793aec464b34b198a4f14446b2eb",
+                                "navigationGoals": [
+                                    "I'm experiencing errors accessing the system and need technical support.",
+                                    "I\u2019m locked out of my Workday account and need assistance resetting my password.",
+                                    "I\u2019m encountering a SAML SSO authentication error in Workday and need technical support.",
+                                    "I\u2019m locked out of my Workday account and need assistance resetting my password to regain access.",
+                                    "I\u2019m experiencing an error submitting expense reports and need technical support."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "58fa9df5b7584014bd1c6806e5bf6a4e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a3d3a950511f46e7bd44a1dcff88c106",
+        "navigationGoals": null
+    },
+    "id": "a419f4fb72944450a32fe7d2919fe8f9",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Automattic in San Francisco, where we're passionate about making the web a better place with WordPress.",
+            "fileID": "866c72d93b63401da13638e73422a543"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and Partnership inquiries, press 1.",
+                "fileID": "a18f90097f0b48469a8686ab2977266d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with our Enterprise Sales team.",
+                            "fileID": "c6677425978945c290fd292239c90317",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Enterprise Sales team; your call is important to us.",
+                                        "fileID": "78e5281429d4466f9b022737861d196f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3bbe14a3935742d5a35a5568aa127876",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 to learn about our Integration and Partnership programs.",
+                            "fileID": "b189f70e957c4aa783471e8f7ef2867a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our Partnership and Integration specialists.",
+                                        "fileID": "1723df6588f24aaa99eed35defb8469b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e9bc0bece40842058b7386c2a5578491",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cac8d40d25ce43819dfc4b44a757b8c5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technical Support and Developer Tools assistance, press 2.",
+                "fileID": "d282fa4cf59b46f0b475dc5a4d727398",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for WordPress.com Hosting support.",
+                            "fileID": "9880f43d3fa24a49a5bf6f4e8dff1fc9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our WordPress.com Hosting support team; we\u2019ll be with you shortly.",
+                                        "fileID": "a565e7b421b745259b37b359af5da469"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5d3d91f3a2c64839a8180e46834eb2dc",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for Developer Tools and API support.",
+                            "fileID": "2909947474a74c0da840b275a4ad0f36",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience; connecting you to our Developer Tools support now.",
+                                        "fileID": "234b8914553346f2847e03c9dee0cccb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "20446c70b73a4040a96b63ab6641c52d",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9f9d260b6fee45279d1ba4564f9e8274",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "25e8c6ea0cc5424896d8045093bdb33a",
+        "navigationGoals": null
+    },
+    "id": "eafbe02bade6429c822ec029b65c5c68",
+    "navigationGoals": null
+}

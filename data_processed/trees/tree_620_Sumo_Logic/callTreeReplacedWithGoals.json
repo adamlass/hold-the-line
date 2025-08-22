@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Sumo Logic, Peninsula\u2019s secure, cloud-based service for logs and metrics management providing real-time analytics and insights.",
+            "fileID": "00de8430753f4adfbf41c1208c8be7ac"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales inquiries and product demonstrations, press 1.",
+                "fileID": "6d42d0eb1bc246a880f29ebb9c3f9089",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a personalized demo of our cloud analytics platform, press 1.",
+                            "fileID": "cfa0ad9433944423ac0e4ecfbbdb1d41",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist for your demo.",
+                                        "fileID": "f4c698c1a064421e80e7cd2d88edb030"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "47240020008b424e88e57183f9108f4b",
+                                "navigationGoals": [
+                                    "I want to schedule a personalized demo of the Sumo Logic analytics platform.",
+                                    "I\u2019d like to schedule a personalized demo of the cloud analytics platform to see how it could support our team\u2019s log and metric monitoring needs.",
+                                    "I\u2019d like to schedule a live demo of your cloud-based log analytics platform to evaluate integration with our infrastructure.",
+                                    "Could someone please walk me through a demo of your analytics platform?",
+                                    "I\u2019d like to arrange a detailed demo of your analytics platform to see how it handles large experimental log data."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For questions about billing, contracts, or existing accounts, press 2.",
+                            "fileID": "8914d0812b654a3c878dae6d801ab87e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing and account team.",
+                                        "fileID": "30860515fc154c6dbc0900fc1d98664b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ee874d3909d44c96a112a368fc519e5c",
+                                "navigationGoals": [
+                                    "I need to resolve a billing question and review my contract terms.",
+                                    "I need to discuss billing and contract renewal details for our existing Sumo Logic subscription.",
+                                    "I need to review my current subscription billing details and discuss contract renewal options.",
+                                    "I need help figuring out my latest invoice and account charges.",
+                                    "I have a question about the invoice I received for my student research subscription."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ae9e0e0385884c43865061f29ecd7563",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and customer service, press 2.",
+                "fileID": "ca7ef5893d2e43ad90a0dc7ddf77bb10",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance with logs, metrics, or platform issues, press 1.",
+                            "fileID": "66bbeee5a9dd4cf686fe0ee131c0e431",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support engineer.",
+                                        "fileID": "41c4448e269b42eea0fdfef769e63a5d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c2d6b03290804aaa90e0ad7b940f323f",
+                                "navigationGoals": [
+                                    "I need technical support to troubleshoot an issue with my logs and metrics.",
+                                    "I\u2019m running into errors when uploading log files and need help troubleshooting the ingestion process.",
+                                    "I\u2019m experiencing errors ingesting log data and need help troubleshooting the ingestion pipeline.",
+                                    "I can\u2019t see my data in the portal and need technical assistance.",
+                                    "I\u2019m encountering errors when uploading my simulation logs and need technical assistance."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help with user access, portal settings, or account configuration, press 2.",
+                            "fileID": "ef44d1093dbe4a2490cee12e881e5ac5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our access and account support team.",
+                                        "fileID": "bec74ed4f2444d658719d7bc787d1606"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "72a51fc01bce49dfa7d1091b72e51214",
+                                "navigationGoals": [
+                                    "I need assistance updating my user access and portal configuration.",
+                                    "I need to update user permissions and configure portal access for new team members on our account.",
+                                    "I need to reset multi-factor authentication on my admin account and configure role-based access controls.",
+                                    "I forgot my password and can\u2019t log in\u2014please help me.",
+                                    "I need to reset my portal access and configure permissions for my collaborator on our project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9b364901cdda4bf4801f7ae876e874f8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "66a8eb42fe984f83b6251c0f3db66cdc",
+        "navigationGoals": null
+    },
+    "id": "5245a89bf3ed4fca98d469ed2f445321",
+    "navigationGoals": null
+}

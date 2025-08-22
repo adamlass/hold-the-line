@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Clara Analytics, your AI-driven partner in reducing workers' compensation medical costs.",
+            "fileID": "5a298b53079c420389321e2ddf16de4e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our AI-driven workers\u2019 compensation cost reduction platform, press '1'.",
+                "fileID": "b7badc2f1b43468a9c6bbf947b0f671d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo of our AI platform, press '1'.",
+                            "fileID": "b4cca13505454ca598c1451d5f9c9b60",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a product specialist.",
+                                        "fileID": "79e005ba5c3b4961acf47aea7c0c17e1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b32ad133f8e548149d096e4e8a98d9a4",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To discuss enterprise licensing and partnerships, press '2'.",
+                            "fileID": "6debdf82e3814cf998937e1b6930f89c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we are transferring you to our partnerships team.",
+                                        "fileID": "a16e390f9d644afd908600a33c00128c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5ea2f6eeabf149d6815bc5bb62b65fea",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "38287020c2694799aaabfb5fe1fb36cf",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support or account services, press '2'.",
+                "fileID": "8e0f9af504fd415fbc494c496ff585b3",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To get technical support or report an issue, press '1'.",
+                            "fileID": "54bad6c9a7704bb2a58f1f8bf3f1bd17",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with technical support.",
+                                        "fileID": "701d0c8584394cc7853ad4d2d55a0be4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "84d250a918bb48da82c50fde8ab8f0a1",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing questions and account management, press '2'.",
+                            "fileID": "d1e1ae03a3ff45b1a555ce42596868e6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Your call is important to us, please hold to speak with our billing department.",
+                                        "fileID": "0fc1ca6647a743b8a821dd39946df0ca"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f73eb5bdf8ea49daa6968384ecce8b67",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0ff546343ddc434ead1d098eea5141b3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9f9f56043e25461b8f9c1e13a6e995f9",
+        "navigationGoals": null
+    },
+    "id": "8ffa0123b4e4494d96352ecf2408b915",
+    "navigationGoals": null
+}

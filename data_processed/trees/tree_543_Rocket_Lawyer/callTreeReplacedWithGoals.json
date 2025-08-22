@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Rocket Lawyer in San Francisco, where legal is made simple.",
+            "fileID": "9f44f4ed55af485d8a7e21253377d10a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for new customer inquiries and sales.",
+                "fileID": "8eddeac6065a4a9d843b7abea2e08e96",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 if you need help with business formation and incorporation documents.",
+                            "fileID": "b9401889486d4d0aa4d0f0720567a381",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist for business formation.",
+                                        "fileID": "86b39487d91e4c97a9935f7ebc34f1fc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "059c1574869445389d59c8a2be7357de",
+                                "navigationGoals": [
+                                    "I need to set up and file my company incorporation documents quickly.",
+                                    "I want to set up an LLC for my veteran-owned security business.",
+                                    "I\u2019d like to initiate an LLC formation and e-file the articles of organization.",
+                                    "I want to start a new business and need help with the incorporation paperwork.",
+                                    "I want to incorporate my physics consulting side project as an LLC."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for contract drafting and review services.",
+                            "fileID": "a0e14b63623f4e3e8cc1da2321a9f057",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist for contract services.",
+                                        "fileID": "5e6cc77940d943afb792ad58451df5fc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3861090169754fb5b75636ef3119fcfd",
+                                "navigationGoals": [
+                                    "I need a tailored contract drafted and reviewed ASAP.",
+                                    "I need a contract reviewed for a consulting agreement with a private client.",
+                                    "I need to purchase a custom NDA draft with automated e-signature integration.",
+                                    "I need someone to draft or review a contract for me.",
+                                    "I need an NDA drafted for a collaboration on my research project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9e4b8918b6e14b57b84bb146e2c85281",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for existing client support.",
+                "fileID": "272033c3c907488490f9fa5c4019dc59",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for billing and account questions.",
+                            "fileID": "d39a46f18b4e41d1b38cef07c4417c1b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account representative.",
+                                        "fileID": "9ce0dd1d242a47d9bb66b569c88625ae"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "10c0be3347e44c83a4c1479d3238aff8",
+                                "navigationGoals": [
+                                    "I need a clear explanation of a recent charge on my account.",
+                                    "I have a question about a charge I saw on my account last month.",
+                                    "I want to review my subscription invoice, dispute a charge, and update my payment method.",
+                                    "I'm having trouble with my account billing and need assistance.",
+                                    "I have a question about my Rocket Lawyer subscription invoice."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for technical support with your documents.",
+                            "fileID": "82fed2570cd7424793c13383f8a11222",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "75af7f66e6db48dbb314cd74c86383b3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c6eca2fa22d24325b01f4401440f6784",
+                                "navigationGoals": [
+                                    "I need help resolving a formatting error in my legal document.",
+                                    "I'm having trouble uploading my incorporation paperwork.",
+                                    "I\u2019m experiencing a document rendering error in the DOCX template and need technical assistance.",
+                                    "I can't access or edit my legal documents online and need technical help.",
+                                    "I\u2019m having trouble uploading and formatting my incorporation documents in the online editor."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1396f43bac884fafb208426126c8ec3d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2de9527009634f339d91c6af95bae0a4",
+        "navigationGoals": null
+    },
+    "id": "c70d1268422740e6beab33f550b02d39",
+    "navigationGoals": null
+}

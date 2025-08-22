@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to June Oven, your expert in smart convection ovens based in San Francisco.",
+            "fileID": "ed2beb4d60d646cda7fa77efc293a4d2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "2270055571714450888acd59e97d81fb",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on our smart convection oven features, press 1.",
+                            "fileID": "3f4e3740db2941eb99390adf075f45bf",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "8ebaa84469d8474596228b799ae396fb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "145beb40c795428594264d12d2346028",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To place a new order or inquire about pricing, press 2.",
+                            "fileID": "9cfaab8e680c4e7c8832e5580a7a81a9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our orders team.",
+                                        "fileID": "0b1ac23269d44ab484e6a3e99f2e8afa"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6b4bcafdd0ff43e39239066861a70562",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2cbe49d7e3f44a9dae6a48135b837cd9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and troubleshooting, press 2.",
+                "fileID": "fcf5fb85bebe4dac8c47a5fb55a1ddaf",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For troubleshooting and setup assistance, press 1.",
+                            "fileID": "0b1ff94eb9944f4fadb3e4a825b0d948",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a support specialist.",
+                                        "fileID": "8b13373706824bc49bd45017f88a85b1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6e23035ba7ad428e92c84de1691da5d0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For warranty claims and repairs, press 2.",
+                            "fileID": "42e1b18aa68849fcae65aaaedb21f2a4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our repair department.",
+                                        "fileID": "8d0ccf2e64054aeb9fce007c5d247f4d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bc1ca559775f4c2a8701b1b71918ac58",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5ea8793bbda34973963fea20e20cbc94",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2f69644744314cdaa3d77eb792d57c01",
+        "navigationGoals": null
+    },
+    "id": "35740af3d77f49a08675ec7800c7995a",
+    "navigationGoals": null
+}

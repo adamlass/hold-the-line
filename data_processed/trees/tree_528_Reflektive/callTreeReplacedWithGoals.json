@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Reflektive in San Francisco, where we help you engage employees and build a thriving culture.",
+            "fileID": "a69ef978e6744d7184363f527f023907"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for sales and demos of our employee engagement platform.",
+                "fileID": "899fdc00c5c641cf8e0d60046619f007",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to schedule a live product demo.",
+                            "fileID": "ab75f87813924ce288392bbeb5527224",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. We\u2019re connecting you to our demo scheduling team.",
+                                        "fileID": "25b9df0502ec4f10a2ab4269617dced8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "db8067f700f94d5589ae64537441328e",
+                                "navigationGoals": [
+                                    "I need to schedule a live walkthrough of your platform for our HR team.",
+                                    "I\u2019d like to schedule a live demo to see how this platform can help manage my veteran support team.",
+                                    "Schedule a live demo highlighting Reflektive\u2019s API integration and performance analytics.",
+                                    "I\u2019d like to schedule a live walkthrough of your employee engagement platform.",
+                                    "I\u2019d like to arrange a live demo of your employee engagement platform for our student organization."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to request a personalized sales quote.",
+                            "fileID": "3e697b852cf44c8bac48d41622257963",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. We\u2019re connecting you to our sales team.",
+                                        "fileID": "4528284c5db8469da098e5fddd561fd3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2e83f523f9c44b83b2c26672f2a55ac8",
+                                "navigationGoals": [
+                                    "I\u2019d like to get a tailored quote for 50 user licenses.",
+                                    "I need a personalized sales quote so I can budget this engagement tool for our veteran transition program.",
+                                    "Request a tailored pricing quote for 500 users including premium API access.",
+                                    "I need a personalized price quote for your engagement software.",
+                                    "I need a customized pricing quote for a Reflektive subscription."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "50647df8fa9c47aba8afa81b656a482d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for customer support and account services.",
+                "fileID": "aea0ac9981a748aabd1dc4a71e742aad",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for technical support.",
+                            "fileID": "e61c77b400e644fd9bafe48007e1598e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. We\u2019re connecting you to a support specialist.",
+                                        "fileID": "e621583c4bc144d0aa1d6bf458027989"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "63d437da51fb41a997fcdde9d7970b73",
+                                "navigationGoals": [
+                                    "I\u2019m having trouble syncing employee data and need immediate technical support.",
+                                    "I\u2019m having technical issues logging into my account and need help troubleshooting.",
+                                    "Troubleshoot our single sign-on integration error with the Reflektive feedback API.",
+                                    "I\u2019m having trouble with my account login and need technical assistance.",
+                                    "I\u2019m unable to access my Reflektive trial account and need technical help."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for billing and subscription inquiries.",
+                            "fileID": "a73fda73281f4f8f90966e0f2f6fac89",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. We\u2019re connecting you to our billing department.",
+                                        "fileID": "33d2200bd9724d6b9835dba93fb488ec"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4b1a090651c64d5b9caafa8e4b1af4fc",
+                                "navigationGoals": [
+                                    "I want to update my payment method and confirm my upcoming renewal date.",
+                                    "I have a question about my subscription billing and need assistance.",
+                                    "Add 200 seats to our enterprise plan and get a prorated billing breakdown.",
+                                    "I have questions about my bill and want to renew my subscription.",
+                                    "I have a question about billing charges on my Reflektive subscription."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ec3a6e8c1aee4edf95af7cb21eccf75d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "fb15fa3b84f04b96a8ee8d6f94c21da4",
+        "navigationGoals": null
+    },
+    "id": "31329521266a4718a58f9039ea15aa90",
+    "navigationGoals": null
+}

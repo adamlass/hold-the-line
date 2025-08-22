@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Imperva, your trusted partner in protecting your data and applications on-premises and in the cloud.",
+            "fileID": "0bdaac36f145414f9458bd7a3a10d2f9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales inquiries, press 1.",
+                "fileID": "5578d779e6124186b0ae20cecc9cf09a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For on-premises data and application security solutions, press 1.",
+                            "fileID": "d2ffe53c7a4e40d586e9914fc9f5dd5c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist for on-premises solutions.",
+                                        "fileID": "0f386aee9627428db6b3d0878986a089"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7b6ed57b0bb7485dad7ca653b43baf82",
+                                "navigationGoals": [
+                                    "Get a quote and schedule a demo for an on-premises application security solution.",
+                                    "I\u2019d like a quote to install your data security system on my own servers and check if I qualify for a veteran discount.",
+                                    "Discuss licensing options and deployment architecture for an on-premises data security appliance",
+                                    "I\u2019d like to speak with someone about buying an on-premises data protection system; I\u2019m not very tech-savvy and need guidance.",
+                                    "I need pricing and performance details for an on-premises data security appliance for my research lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For cloud-based security solutions, press 2.",
+                            "fileID": "b9210d11c42c4efca616a0a21a127f6c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist for cloud services.",
+                                        "fileID": "43f0c3476d8542dba5f77ae96f0194bd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bb34f9ce1adb41999e4700bf5a783727",
+                                "navigationGoals": [
+                                    "Request pricing and trial details for a cloud-based security service.",
+                                    "I need details on your cloud security service and want to see if there\u2019s a special rate for veterans.",
+                                    "Get pricing details and integration guidance for a cloud-native application security solution",
+                                    "I need to ask about cloud security plans and get pricing details.",
+                                    "I need a quote for a cloud-based web application firewall for my student project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "24484840953d49b59f0c7ec25a56b761",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, press 2.",
+                "fileID": "3034b888fd604bbca0efe501f4ae6a21",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "905353e0c3c14f458d7e8734313734fe",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "3afd9a3e78874cc7840541a7896b2613"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a7e288cef58b4e69823acf701133b890",
+                                "navigationGoals": [
+                                    "Troubleshoot and resolve a technical issue with my security console.",
+                                    "I\u2019m unable to access my security event logs and need technical assistance to retrieve them.",
+                                    "Troubleshoot a misconfiguration in my web application firewall policy causing false positives",
+                                    "I\u2019m having trouble with my security software and need technical help.",
+                                    "I\u2019m encountering errors installing the Imperva agent on my local server and need technical assistance."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account assistance, press 2.",
+                            "fileID": "969b1fbd0ca940b2b8adc72f95e742d3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing and account services.",
+                                        "fileID": "a3dc5af1e3294a68a275d69ee218abac"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ef8625eed94f4c29ab8085c7f25a7760",
+                                "navigationGoals": [
+                                    "Obtain my latest invoice and update my billing information.",
+                                    "I have a question about my latest invoice and want to apply my veteran billing credit.",
+                                    "Obtain my latest invoice and update payment information for my security service subscription",
+                                    "I need assistance understanding a charge on my bill and updating my payment information.",
+                                    "I need help understanding the charges on my latest billing statement."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "897ed50e62024aa3b3debbea606097c4",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "71609916d36043d0917ec05a93f5c92a",
+        "navigationGoals": null
+    },
+    "id": "ef34a3c007c64e4380017ea286619c4d",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Zoosk, the leading online dating service connecting over 40 million singles worldwide with three million messages sent every day.",
+            "fileID": "ddb082022f8f4ae892d66d78e999b804"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For account setup and login options, press 1.",
+                "fileID": "5bd218770a6349f39f7be54298b93048",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To create a new Zoosk account and start matching, press 1.",
+                            "fileID": "51cb647c712847c594d3bda7ba11cc36",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account creation team.",
+                                        "fileID": "27facbb87c01478586c97e48cd7a674a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5799cdbabd7e46dd8d14bdda23b53a6d",
+                                "navigationGoals": [
+                                    "Set up a new Zoosk account quickly",
+                                    "I want to create a new Zoosk account that highlights my veteran background.",
+                                    "I need to provision a new Zoosk account and configure my matchmaking preferences.",
+                                    "I\u2019d like help creating a new Zoosk account so I can start matching.",
+                                    "I\u2019d like to set up a new Zoosk account so I can start matching."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To log in to your existing account, press 2.",
+                            "fileID": "8dcd02f77d614cb09a15e62822c2853c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account support.",
+                                        "fileID": "ea80048bcdf647c1a0ccd2dfbeda4cbc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "729dc112be2a4152b4462f7908208573",
+                                "navigationGoals": [
+                                    "Resolve an issue logging into my existing Zoosk account",
+                                    "I need help logging into my existing Zoosk account so I can access my matches.",
+                                    "I need assistance authenticating my credentials and debugging my login session.",
+                                    "I need assistance logging into my existing Zoosk account.",
+                                    "I need help logging into my existing Zoosk account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "124a643fe2e94f6d9e98f9016aab73af",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For help with messaging features or dating tips, press 2.",
+                "fileID": "bdda8c26ff374851a0d454a08357f581",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For assistance with sending messages to your matches, press 1.",
+                            "fileID": "7d5cac30e4964defa6d10389a2e4c594",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our messaging support team.",
+                                        "fileID": "e8476a8959994d978f0f76662ded4d41"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7ad74001203f476380b5cf2d3bafcd9b",
+                                "navigationGoals": [
+                                    "Get help sending a message to one of my matches",
+                                    "I need assistance sending messages to my matches as a former service member.",
+                                    "I\u2019m troubleshooting message transmission failures on my Zoosk account.",
+                                    "I want help sending a message to someone I\u2019ve matched with.",
+                                    "I\u2019m looking for assistance with sending messages to my matches."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For advice on optimizing your profile and dating success, press 2.",
+                            "fileID": "321b8de98f5a435ba312fba8b1f44def",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our dating experts.",
+                                        "fileID": "585566b31390460cac6c040f304ebdb4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "320d6a3f75dd4faab9900bdd6de579b9",
+                                "navigationGoals": [
+                                    "Receive expert tips to optimize my dating profile",
+                                    "I want expert tips on improving my profile to showcase my military experience and attract compatible partners.",
+                                    "I want to optimize my profile metadata to improve Zoosk\u2019s matching algorithm performance.",
+                                    "I\u2019d like advice on improving my profile to get better matches.",
+                                    "I\u2019d like expert tips on optimizing my profile for better dating results."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "60719b557a454741b705296b7d944eed",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "cd39ecf975db441faa0d954dac628b52",
+        "navigationGoals": null
+    },
+    "id": "6b86be198f31421b856b7eac6f0f05c8",
+    "navigationGoals": null
+}

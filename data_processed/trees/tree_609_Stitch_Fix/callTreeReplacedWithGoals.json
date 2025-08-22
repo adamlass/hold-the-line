@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Stitch Fix, your inclusive personal styling service based in San Francisco.",
+            "fileID": "0fab46c06d3f41bfb94f0dcacf3b3530"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For personalized styling assistance, press '1'.",
+                "fileID": "a8437b21430649a3a15fd94acc30b1e8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For personalized outfit recommendations across all sizes and budgets, press '1'.",
+                            "fileID": "bcaa859f139a41938d225dd233c3497b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a personal stylist.",
+                                        "fileID": "e1df1db8c58442769c5a0cbb6aedf134"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b2bc2da10b2b4aaa943ab74eb184f994",
+                                "navigationGoals": [
+                                    "I need quick outfit recommendations for an upcoming business trip.",
+                                    "Help me choose civilian-style outfits that suit my veteran build and preferences.",
+                                    "I want to calibrate my style profile parameters with a personal stylist before my next fix.",
+                                    "I\u2019d like help from a stylist to choose some comfortable outfits that suit my size and budget.",
+                                    "I\u2019d like styling help to pick affordable, lab-friendly outfits for my physics courses."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For questions about your latest fix or delivery status, press '2'.",
+                            "fileID": "de31f0bd3ba74c498a92fe02c7e0a43f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our delivery support team.",
+                                        "fileID": "fede9c694177476ebf2dccedea293be6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2f49f77a10ee45ffb629e3ba980da342",
+                                "navigationGoals": [
+                                    "I want to check when my latest order will arrive.",
+                                    "Find out when my most recent order will arrive.",
+                                    "I need to check the real-time tracking telemetry for my current fix shipment.",
+                                    "I\u2019d like to check on the delivery status of my most recent order.",
+                                    "I need an update on the delivery status of my current Stitch Fix order."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "73a29f2e7449421da9f930944357cecd",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account and billing support, press '2'.",
+                "fileID": "dd3044641fd8461aa9ac649a36f90294",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account management, such as updating your profile, press '1'.",
+                            "fileID": "c834f502927641e488df8c0ab9eb2a5a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account services.",
+                                        "fileID": "25a3cb4dabfc43b3955fe0a925e9086d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9c386893a2de48978ff7c93b8d53700c",
+                                "navigationGoals": [
+                                    "I need to update my style profile with my new measurements.",
+                                    "Update my profile measurements and style preferences after a recent weight change.",
+                                    "I want to update my account\u2019s style metadata and measurement parameters.",
+                                    "I need to update my account details, such as my mailing address and style preferences.",
+                                    "I want to update my profile with new measurements and style preferences."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing issues, refunds, and payment inquiries, press '2'.",
+                            "fileID": "93914417ef2f4e809117a3957437f85a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "a5275ef35432443c9c51fa90bfa978a5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5ac18508e2874b38a48b0bf3d1690b20",
+                                "navigationGoals": [
+                                    "I need to resolve a billing charge from my last fix.",
+                                    "Request a refund for the jacket I returned last week.",
+                                    "I need to audit my last invoice and request a billing adjustment for my recent order.",
+                                    "I have a billing question about a refund or charge on my recent order.",
+                                    "I\u2019d like to inquire about a billing discrepancy on my last fix and request a refund."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7a6c7ddae4ad4246a7e8f4201ce0a1a1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a0d4eed6b14a4612a10ecb58d97e373a",
+        "navigationGoals": null
+    },
+    "id": "c5ecfd241c7c4d2393ec398a85a9eeda",
+    "navigationGoals": null
+}

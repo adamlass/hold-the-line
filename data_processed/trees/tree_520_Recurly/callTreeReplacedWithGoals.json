@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Recurly in San Francisco, the subscription management platform delivering unrivaled results to smart brands worldwide.",
+            "fileID": "7b09a1e045814684a4d8de562cee90dd"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and New Subscriptions, press 1.",
+                "fileID": "82807c9763774f579fd5b1d8d2c5fde4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about pricing, plans, and billing options, press 1.",
+                            "fileID": "e29f63668f8d4f37a25c949db8dd45d6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Sales team for pricing and plans.",
+                                        "fileID": "899d3163f5a8448bb0b4f5ad324d3275"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c84439ec32d94c5dbc7dcbfb9b7c6d53",
+                                "navigationGoals": [
+                                    "Get detailed pricing for the right subscription tier.",
+                                    "I\u2019d like to learn about pricing tiers and any veteran discounts for new subscriptions.",
+                                    "I want to review the pricing tiers and overage fees for the enterprise subscription.",
+                                    "I\u2019d like to understand your subscription plans, what features each includes, and how much they cost per month.",
+                                    "I\u2019d like to understand academic and student pricing tiers and plan features for managing subscriptions for my physics research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a product demonstration, press 2.",
+                            "fileID": "a999df6e5dee4508a8e2a0701a2e720b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a product specialist.",
+                                        "fileID": "5093a26a7c8347f783b05842c1fb4284"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bfb72bf74c4d4b4db6f62fef26bacd84",
+                                "navigationGoals": [
+                                    "Schedule a live product demo this week.",
+                                    "I want to schedule a product demo to see how Recurly fits my veteran-owned business needs.",
+                                    "I need to schedule a live demo to explore the API integration and webhook capabilities.",
+                                    "I need to schedule a live demonstration so I can see how your service works before signing up.",
+                                    "I want to schedule a demo to see how Recurly handles billing workflows for our lab\u2019s recurring software tools."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fc561cac23474b16a25708508aecdaf9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Customer Support and Account Services, press 2.",
+                "fileID": "6f58a7eaa9994e97a30edde521196fe4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "22aa5470fdb245be94bb26005273282d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our Technical Support team.",
+                                        "fileID": "a63a3b52c76b4c8e8b48176303184275"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d5619de27335476181f76650b1e86e54",
+                                "navigationGoals": [
+                                    "Troubleshoot a recent API integration error.",
+                                    "I need technical assistance with integrating Recurly\u2019s API on my website.",
+                                    "I\u2019m troubleshooting OAuth authentication errors in my Recurly API integration.",
+                                    "I\u2019m having trouble with the software and need technical support to troubleshoot an error on my account.",
+                                    "I\u2019m encountering an authentication error integrating Recurly\u2019s API with our data acquisition system and need technical troubleshooting."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "d9b6a2a252a3407eb1007492fda5b69b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our Account Services department.",
+                                        "fileID": "80489dfe202845e7b2b62bff4927781e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2e93b4d0773e47109f9ff910b29ffd09",
+                                "navigationGoals": [
+                                    "Update my payment method and clarify a billing charge.",
+                                    "I need to update my account\u2019s payment method and billing information.",
+                                    "I need to update my payment method and reconcile my usage-based billing records.",
+                                    "I need help reviewing my account and understanding the details of my latest bill.",
+                                    "I need to update our lab\u2019s billing details and review the latest invoices on our subscription account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3e6a4306cd9a4fa595169a7b77660937",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9eb5312fbc3247d3ab267f15c9e2f049",
+        "navigationGoals": null
+    },
+    "id": "1a53df4fe2474b4595a4889353fc3b79",
+    "navigationGoals": null
+}

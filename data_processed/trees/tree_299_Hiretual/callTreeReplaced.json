@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Hiretual in South Bay, where AI accelerates your talent acquisition.",
+            "fileID": "a1419a2236b14be99e2365032d6106eb"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new customer inquiries, press 1.",
+                "fileID": "2273680879234a6e86b9302bb8aa68d2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a solutions consultant about sourcing candidates with AI, press 1.",
+                            "fileID": "ff38fa29c2764c89942ff71fd2f77d7d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a solutions consultant.",
+                                        "fileID": "e0cf3290196e44bf94120a5a7542f09a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1f14bb4dbbb84a2fb253a3a7675012ad",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a live demo of our AI sourcing platform, press 2.",
+                            "fileID": "c1ab7a47afda48e58ee7340ec28ca2b9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we schedule your demo.",
+                                        "fileID": "b4ba3ea77404403093fc84247dfb5577"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "23fac407ca914c77aa693b0abba8eed1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5da8972c2f7f4a90b1c3c458b9dba574",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and existing account assistance, press 2.",
+                "fileID": "007808eb4d2149719ac54602768b674e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "80ced8ab97cc4f64b539e4598dab96a3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a support specialist.",
+                                        "fileID": "6d4ed38e76034968a60f4fa521e5a8e1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "69ba6b8b8ec548e584ae26970695d8a8",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "411c9d2afc23496795ceb8940729315e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing team.",
+                                        "fileID": "b878891e300243828ca5bd64fb00276e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3ddc70620b064a75b570e6fd0f19d949",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9816debc5cc24213ba1c1be3c557ef65",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ffc775f2995947c5815e3b0789a2f0c1",
+        "navigationGoals": null
+    },
+    "id": "07c1bea023674db8a212f7029dcca5cf",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Upgrade in San Francisco, where checking your personal loan rate won\u2019t affect your credit score.",
+            "fileID": "197e544aaa2a49309c9397c14ec68aa8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new loan options and rate estimates, press 1.",
+                "fileID": "abc80d499c814ad581951526d9047f7d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to see your personalized rate quote.",
+                            "fileID": "90860d49f6864f05af8b9f17f78fa399",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your rate estimate.",
+                                        "fileID": "7cb95d3c9d7d4b8db9e5598448e2d36a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6fbbe34f58a0455aa52035c5ed5150ea",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 to begin your loan application.",
+                            "fileID": "3dfe3dbfc34040d6af2debb8a8598214",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a loan application specialist.",
+                                        "fileID": "1946432dde6e4dabaafc8a5eff974469"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e675be7eeb5748b3bbed810b8c0dd6fb",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c684823ba766412ab2e9d313c964805d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing account management and support, press 2.",
+                "fileID": "cceece971aaa44d6b2b4eabbbfafd041",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to make a payment or view your balance.",
+                            "fileID": "0ecee0013f9d4d12bac4bf3793f28136",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the payments team.",
+                                        "fileID": "0956b6ee74a0446782986d2800ccf9be"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f9788dd776c14a228e27df82d0c1e326",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for customer service and loan inquiries.",
+                            "fileID": "c4bd840ac18746e18e067872243928d2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a representative.",
+                                        "fileID": "898775eeebdb45c7ad077654c577cb24"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "30067f14718741729a53511a54037643",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4cd975c2b0ba466b90f0199a39a028b4",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f36f7e0278fa474c8d1063197b6733b6",
+        "navigationGoals": null
+    },
+    "id": "62ce77cc58214e43a09e9358e944a91b",
+    "navigationGoals": null
+}

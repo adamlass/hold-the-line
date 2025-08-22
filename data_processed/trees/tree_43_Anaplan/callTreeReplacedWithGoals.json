@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Anaplan, where connected planning accelerates your business decisions.",
+            "fileID": "ae19ab39cf854be9b8d2bf4c4d6aba98"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product demonstrations, press 1.",
+                "fileID": "b0226fb547d24dac991103a165e87502",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press 1.",
+                            "fileID": "1e56ea8d758d44bba17bbbde02d8c99d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "de92ae5405c74a0696cc46b94504efe2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1b8210f570634c40bac6c80b4e311065",
+                                "navigationGoals": [
+                                    "Get a quick overview of enterprise pricing tiers",
+                                    "I need to speak with a sales representative about Anaplan solutions for my veteran-owned logistics startup.",
+                                    "I need to speak with a sales representative to discuss enterprise licensing tiers and API quota limits.",
+                                    "I\u2019d like to speak with a sales representative to understand your planning solution better.",
+                                    "I\u2019d like to speak with a sales representative about academic pricing and group licensing for my university physics lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a product demonstration, press 2.",
+                            "fileID": "a424412f61624aadbc9459c3a1d210b3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we schedule your product demonstration.",
+                                        "fileID": "8334d1029f4e48d4ba8d7e5b0a9c091b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8913356ce8a6476fb4ebeb836f8189c1",
+                                "navigationGoals": [
+                                    "Book a live demonstration of the Anaplan platform for next week",
+                                    "I\u2019d like to schedule a demo of Anaplan for my small business planning team.",
+                                    "I want to schedule a product demonstration focused on Anaplan\u2019s predictive analytics API integration.",
+                                    "I need to schedule a live demonstration of the product so someone can walk me through it.",
+                                    "I want to schedule a product demo focused on using Anaplan for managing lab resources and experiment planning."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7e9c912e9d6d4f8da56a56a03a9d29d4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "4ae7d7d653eb4574b5e1b0545708366c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "8e1688c915784fe89b5ed9f45eae4a8b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "f06f9f947c1f4e3688d95185d8ea83fa"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1475c504ef4d44db838681f5b8e7f7a7",
+                                "navigationGoals": [
+                                    "Troubleshoot a failing data import in my planning model",
+                                    "I\u2019m a former service member using Anaplan and need help troubleshooting a technical issue.",
+                                    "I need technical support to troubleshoot REST API authentication failures in my CI/CD pipeline.",
+                                    "I\u2019m having trouble with the software and need to connect with technical support for help.",
+                                    "I need technical support configuring the API to import my experimental data sets into Anaplan."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "4ebd5d3d54264e5992b88e97d872a2fb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "526a353c0b5f44949736d17f867c8f01"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "29ff1fee082848c3a8e69584bd734390",
+                                "navigationGoals": [
+                                    "Verify and update my monthly subscription invoice details",
+                                    "I have a question about my Anaplan subscription billing as a veteran small business owner.",
+                                    "I have questions about my invoice and usage-based billing for data storage overages.",
+                                    "I have questions about my recent bill and need to speak to someone in billing about my account charges.",
+                                    "I have a question about my student subscription invoice and need to update my billing information."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9872948cf9ad46d1b38dc8f43733bb18",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "99603e0349d441fcb6019822574768eb",
+        "navigationGoals": null
+    },
+    "id": "6b924bcccfdc427882ce2bc174ef7293",
+    "navigationGoals": null
+}

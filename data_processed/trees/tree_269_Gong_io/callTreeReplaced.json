@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Gong, the AI-powered conversation intelligence platform for sales teams.",
+            "fileID": "a33930257550438aa110a512c46f6ef8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our sales team and learn about our solutions, press 1.",
+                "fileID": "957a93d38c29456097761aa7ca7504ed",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a live demo with a sales specialist, press 1.",
+                            "fileID": "b0e2a4b6e8b14ca9b1be80e5444f4769",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist for your demo.",
+                                        "fileID": "123e537035b9435b9244d3da82eff3a6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6679ae826e5e4162a25bd799a071550e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For information about pricing and subscription options, press 2.",
+                            "fileID": "4c1188c265b14b539df55970c990f52d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our pricing team.",
+                                        "fileID": "a269f0504574463bb8f4fd428c3e9d6f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4237f5f6c9264d37997a3d8c6d5baa29",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b94c9d7725d741a48d47fec01f49ea8c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are already a Gong customer and need assistance, press 2.",
+                "fileID": "c7509d495d9647d1923e9c39e1388bc8",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "43dbb48cc6cd43ccba8157a26ce3eeef",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with technical support.",
+                                        "fileID": "2d305e0f54f747e39696cc50f97d679a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b80f3e1cbfa741b49ace5a3ff1aad4da",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing questions and account management, press 2.",
+                            "fileID": "96084833e448415b9b765a4b27e04be1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "23d3898558f34796818924526431c705"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f5cd6f711d5741219c6db603b82228b5",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "df833c5af7754cd1ad27032d9e5684cd",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f22b2ffa627e4c498cd5abda863c42df",
+        "navigationGoals": null
+    },
+    "id": "54607a13867846eba4c7e2009b2613a1",
+    "navigationGoals": null
+}

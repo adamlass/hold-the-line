@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Mode Analytics in San Francisco, where we turn data into decisions.",
+            "fileID": "ee09330bb3704389864b9bea843639f7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For billing and account inquiries, press 1.",
+                "fileID": "fb1ff12fb00a4898bb975f4cfd6470ab",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For questions about invoices and billing, press 1.",
+                            "fileID": "c7297b1b90d64024a6c64078af791103",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing specialists.",
+                                        "fileID": "6bdc981c4faa42bbb5f0ef0435e0997b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7fba251f1c85416389ee243de647d915",
+                                "navigationGoals": [
+                                    "I need clarification on a charge from last month\u2019s invoice and a corrected billing statement.",
+                                    "I need to dispute a charge on my latest invoice.",
+                                    "I need to reconcile unexpected line-item fees on my latest invoice.",
+                                    "I\u2019d like someone to explain my latest invoice charges to me.",
+                                    "I\u2019d like to question a billing discrepancy I noticed on my recent student plan invoice."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For changes to your subscription or account settings, press 2.",
+                            "fileID": "a87c5b1b18b14fa79c4e32f734ac1f43",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account management team.",
+                                        "fileID": "11cefc9ed75e470e8af59726f00ad869"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8c5cc1e958ce42e69f7baebfca5ed7fc",
+                                "navigationGoals": [
+                                    "I want to upgrade my subscription plan and update my billing information.",
+                                    "I want to change my subscription plan and update my payment method.",
+                                    "I want to adjust my account\u2019s user-seat allocation and subscription tier.",
+                                    "I need to change my subscription plan and payment details.",
+                                    "I want to update my account to the annual student subscription package."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "44fd623b97074ee8beef3c96ada14a64",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and report assistance, press 2.",
+                "fileID": "477a72278e154ed1a4c1dc9a64de21e4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with creating reports and dashboards, press 1.",
+                            "fileID": "fc850ad35624400cb4a1417efab111fe",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our reporting support team.",
+                                        "fileID": "4d7a9f48c6c1489897b3467f96a4384c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5238423069784561b68225352cbd4725",
+                                "navigationGoals": [
+                                    "I need help building a custom dashboard that shows our monthly sales metrics.",
+                                    "I need help creating a custom dashboard for tracking my unit\u2019s readiness metrics.",
+                                    "I need help debugging a SQL-based chart in my dashboard report.",
+                                    "I want step-by-step help setting up a new report in Mode Analytics.",
+                                    "I need assistance designing a report dashboard to visualize my physics lab data."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For data integration and API support, press 2.",
+                            "fileID": "fb1f157f4ad242c5a1f7bdd421b32039",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our API support specialists.",
+                                        "fileID": "7a83b3651d1b44ffa89de5e506867a57"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ac3c9d72f2a946beb3051df8e03b56d8",
+                                "navigationGoals": [
+                                    "I need guidance setting up the Mode Analytics API to pull data from our Redshift warehouse.",
+                                    "I\u2019m looking for assistance configuring the Mode Analytics API to integrate with our mission data feed.",
+                                    "I need assistance configuring the Mode API endpoint for real-time data ingestion.",
+                                    "I need assistance connecting Mode to my data source using the API.",
+                                    "I need support setting up the API to pull data from our simulation database."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7ec266dcbfa14a269e0ee0e034e81b2a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d071976de8c7456b915a6a19a9aa674f",
+        "navigationGoals": null
+    },
+    "id": "9e7338f08c61406da645e8a95f7f80eb",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Qualia, redefining real estate transactions in San Francisco.",
+            "fileID": "0c3ace90f9e6432ab5e8be8f880f159e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you\u2019re a new client looking to learn about Qualia\u2019s platform, press 1.",
+                "fileID": "f2517211efc14127b150967bdeff7e92",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a demo of our transaction software, press 1.",
+                            "fileID": "203c71981b25430ba04bd29b30a99832",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo scheduling team.",
+                                        "fileID": "8c982463229248758c45e9427c5602f1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0ea792f5c8b6439f85a7d6457846efbf",
+                                "navigationGoals": [
+                                    "I need to schedule a live walkthrough of the transaction platform.",
+                                    "I\u2019d like to book a demo of Qualia\u2019s transaction platform.",
+                                    "Schedule a live demo of your transaction software with an API integration walkthrough",
+                                    "I\u2019d like to schedule a software demo so I can learn how Qualia works.",
+                                    "I\u2019d like to set up a demonstration of your transaction software\u2019s functionality."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss contract options and pricing details, press 2.",
+                            "fileID": "6889e4d20a2b429ca55e328ffecc3577",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing and contracts specialists.",
+                                        "fileID": "3d91018afdba4e1c8f62fb3fe3461a72"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c1824667ab6a44d88882fb07d0af4189",
+                                "navigationGoals": [
+                                    "I want to review pricing plans and contract terms before signing up.",
+                                    "I need to go over contract options and pricing for your service.",
+                                    "Discuss contract SLAs and pricing structure for your enterprise plans",
+                                    "I need information on contract options and pricing before I decide.",
+                                    "I\u2019d like to get details on your pricing models and contractual agreements."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "805d22aaa5b344c69077892b8e2cca9b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you\u2019re an existing client in need of assistance, press 2.",
+                "fileID": "bf1927af3e834184baab375ea8615dfd",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "49e19aa67a0c4230b9f85b7287ac9a9f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support team.",
+                                        "fileID": "3d76a17032ca497cad0d54adb702b84d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5839756e95b74e0b9003814300eeeffb",
+                                "navigationGoals": [
+                                    "I\u2019m experiencing a software issue and need technical support.",
+                                    "I\u2019m an existing client and need help with a technical issue.",
+                                    "Troubleshoot authentication errors on my API calls",
+                                    "I\u2019m an existing client and need help troubleshooting a technical issue.",
+                                    "I need support resolving a technical issue I encountered with the platform."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries or account updates, press 2.",
+                            "fileID": "ba2d157222884e939c7a1ab32fa62b4b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account services department.",
+                                        "fileID": "e1f291d9b1df4c898bc3cd9f81f17ed0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8abc2b40971a4bc7b34b635e3b56cecc",
+                                "navigationGoals": [
+                                    "I need to update my billing details and review my latest invoice.",
+                                    "I want to update my billing information and review my invoices.",
+                                    "Update my billing details and retrieve my latest invoice",
+                                    "I\u2019m calling to review my bill and update my account details.",
+                                    "I need to review and update my billing information for my account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9764d337309f4871ba559d9b66a0a1ee",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a9e15ec763704fb1b8e2ad350c8f8aff",
+        "navigationGoals": null
+    },
+    "id": "2e5aa4f70d7645f3ba1db33190f06d99",
+    "navigationGoals": null
+}

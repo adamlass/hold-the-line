@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Woebot Labs, your twenty-four-seven mental health companion with a side of dorky jokes.",
+            "fileID": "dd39d3540daf43b58c49b2e3683e2978"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To explore mood-boosting strategies and chat with Woebot, press 1.",
+                "fileID": "971ee7c89c3b4809845e3fc618be4517",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start a new mood conversation with Woebot, press 1.",
+                            "fileID": "6ee5bd335c894766a033aa45485ca047",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Woebot for a helpful chat.",
+                                        "fileID": "19f71df104ab454fb631a80dbe85eff8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fba7e41ad34145ea84d078ddef25c208",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To review your mood history and track your progress, press 2.",
+                            "fileID": "8d50392557bf4b83ae8863bb6c8f2c63",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, retrieving your mood history now.",
+                                        "fileID": "554747ab93a448ecabd4b7fb2b9e259e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d3fdea6467544bdf8df3415a3d4abb66",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3869dc6403e84959aa3b21e4f1ee8c32",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account management, billing, or technical assistance, press 2.",
+                "fileID": "14fb3c8ed3f7432d8c335347c0c33463",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account and billing inquiries, press 1.",
+                            "fileID": "eb4f1a8ffbf54ecaba52a6c244d53c1d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Hang tight while we connect you to our account support team.",
+                                        "fileID": "88de53ecfe494c9999e9910464dd6788"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2b430f8514394cfab334e193877a9268",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support and app issues, press 2.",
+                            "fileID": "777f33e4c82747cd95ca27c4bef8251f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "c620ef016ae64cf89c3b43adda6e9117"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9064c37a34e14d1494007480bd1bc3fe",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0247e05a59a642ec976c6c5a81a7bcc6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a0ce7937dc244c9cb73b81fa2c2ecaad",
+        "navigationGoals": null
+    },
+    "id": "19a4137eb1234901bfc856222e794d11",
+    "navigationGoals": null
+}

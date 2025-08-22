@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Marqeta, the East Bay card issuing platform inspiring new possibilities for the world's most innovative companies.",
+            "fileID": "30b12a92f52b4dfa8568aac8cad3190e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our merchant services, press 1.",
+                "fileID": "f541062ae7b34026ad1abb4e2d3dd0c1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our merchant services integration and features, press 1.",
+                            "fileID": "e2d6a2714c6944c49b849fba96e72de6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our merchant services specialist.",
+                                        "fileID": "a9f88fd445f647c6945ea6ea5c7b14b5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bde9113dc7644f2a82b68e7b3b4be27f",
+                                "navigationGoals": [
+                                    "I need a quick overview of how to integrate your merchant services features into our platform.",
+                                    "Integrate Marqeta\u2019s merchant services into my veteran-owned small business and learn about all the integration features.",
+                                    "I want to review the API endpoints and callback configuration for your merchant services integration.",
+                                    "I need someone to explain how to integrate Marqeta\u2019s merchant services into my online store, step by step.",
+                                    "I\u2019d like a detailed overview of how to integrate your merchant services platform with my student-run lab\u2019s online payment system."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative about merchant services, press 2.",
+                            "fileID": "fcece288169e4d988122cbf5e1b217c7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales representative.",
+                                        "fileID": "fa37d7369e9d4d199c8889113a95fc01"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "883c220b4e254d159753b895a0bb15cd",
+                                "navigationGoals": [
+                                    "I\u2019d like to discuss pricing and contract options with a merchant services sales representative.",
+                                    "Discuss pricing and onboarding for merchant services with a sales representative for my veteran-run startup.",
+                                    "I\u2019d like to explore pricing models and volume discount options for Marqeta\u2019s merchant services.",
+                                    "I\u2019d like to discuss pricing and account setup options for merchant services before I commit.",
+                                    "I want to speak with someone about pricing and contract options for implementing merchant services in my startup."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "de6d2f650e604d68b0b3cabfbf67b1d2",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For details on our virtual card solutions, press 2.",
+                "fileID": "061a7a613e0e458685b34868175f5e0e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our virtual card capabilities, press 1.",
+                            "fileID": "ab3d57dc13fa4ede9b070e98b7c504f4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our virtual card specialist.",
+                                        "fileID": "d0a2e28afaf747039eabaa7e3a72fe9d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "47f68abff2564c568be935d78649aaee",
+                                "navigationGoals": [
+                                    "I want details on your virtual card API capabilities for automated expense management.",
+                                    "Understand how Marqeta\u2019s virtual card solution can streamline spending for my remote team.",
+                                    "I need to understand the tokenization workflow and encryption standards for your virtual card solution.",
+                                    "I want to learn how to generate and use virtual cards for secure purchases.",
+                                    "Can you explain the virtual card API features and how they could support my research expense management?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a support specialist about virtual cards, press 2.",
+                            "fileID": "9d88b1bcab8b4a968e8424be7cf6db06",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a virtual card support specialist.",
+                                        "fileID": "1026ed3df384446fae00edf8e29e66ae"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f6bf2dacdbbc486fbe64aa7ef587cde3",
+                                "navigationGoals": [
+                                    "I\u2019m experiencing an issue with our virtual cards and need technical support.",
+                                    "Resolve an issue with my virtual cards\u2014my transactions are being declined and need support.",
+                                    "I need assistance troubleshooting a declined virtual card transaction error in my test environment.",
+                                    "I\u2019m having trouble accessing my virtual card details and need help retrieving them.",
+                                    "I\u2019m experiencing errors when creating virtual cards in the sandbox environment and need troubleshooting assistance."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8e0c03faed0945018c200ddbba190770",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "92517490558b4cdc8bbde28436709016",
+        "navigationGoals": null
+    },
+    "id": "7818b60ecefb42cf88023c644cfce200",
+    "navigationGoals": null
+}

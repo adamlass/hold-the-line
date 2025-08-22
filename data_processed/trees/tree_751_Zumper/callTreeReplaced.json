@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Zumper, San Francisco\u2019s premier service for finding and applying to millions of apartments.",
+            "fileID": "d16230fb072e4d069cc2e1df49fb5227"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To search apartment listings, press 1.",
+                "fileID": "13c7b4becee74bf1b1fa7f3711be2b6c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To browse available units by neighborhood, press 1.",
+                            "fileID": "af977d625dda4fd4b28334f1cfd4b84d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an apartment search specialist.",
+                                        "fileID": "5da424acd6a94d6dbcbfa2d21d60ce24"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4ff1a7cd382f426385d76afd5b889f9f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To apply for an apartment or check your application status, press 2.",
+                            "fileID": "43647d49a58145e08f25a70b2c51859f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our application support team.",
+                                        "fileID": "af337f29dd26450b8c465dd82a674f4c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64977da0715e45a881943ff70a57f4ae",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fe167451c3324e7eb5a85645b15cae76",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To manage your rental property listing, press 2.",
+                "fileID": "8f5cf4ae40654637b5a06b40bd202d0a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To list a new rental property, press 1.",
+                            "fileID": "04d84e164e3746bbb8ee260174174b70",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our landlord services department.",
+                                        "fileID": "865bbb2204af45878656ad1176db55fc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2ee3bee5127243278a38d4700477f506",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To update or review an existing listing, press 2.",
+                            "fileID": "ae2bb23694aa4b6e9c55789c792e5885",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your listing management team.",
+                                        "fileID": "e43df6cb535c45b1be19faa4454bd8a7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2fe631b0ece14e20a057f090ef79baf5",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1ed7763d028547c9802864c66921475e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8036c17d355343f4955a5c6879cb1472",
+        "navigationGoals": null
+    },
+    "id": "44c0463fc53c40e4974b0108faf604d0",
+    "navigationGoals": null
+}

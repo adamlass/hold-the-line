@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to 8tracks in San Francisco, the best place to make and discover playlists.",
+            "fileID": "3130d5bd4fba4c3cb05f5db9faa8e5e2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For help creating a new playlist, press 1.",
+                "fileID": "b83722d140e34881be33e7b89835d560",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To choose a theme or mood for your playlist, press 1.",
+                            "fileID": "3859c0fc004646298d87ad55d6bc7d2e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a playlist theming specialist.",
+                                        "fileID": "43315b7b74714afd88bbea4603f9c9e5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7add812eb07447e785a5c9fa76be575b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To upload your own tracks to a playlist, press 2.",
+                            "fileID": "564c587b986545ccb4a47583d0f6bd1c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our upload team.",
+                                        "fileID": "2005833240254bcc80e014b991deb7d7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "665c90b5f2aa4a1e8ea2428a3d084aea",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e1c13e9b64394cf1bc84939f131364c0",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To discover new playlists, press 2.",
+                "fileID": "ff43efccd16d4c88954f773189445490",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore trending playlists, press 1.",
+                            "fileID": "6c06aed06d4b4788967b33e39483b420",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our trending playlists team.",
+                                        "fileID": "12bcfd3741154a13b9646086ce293cc7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "341bedaf46a344cb915093bf5f9b5e25",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For personalized playlist recommendations, press 2.",
+                            "fileID": "bc4aa3960e25440e83ceeed50ea891b3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our recommendations team.",
+                                        "fileID": "f275793690944100b0f742d3e2f8f3b8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "26dda8eede644a1d91082942124c173c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "24a51a975ff5480fbda56e247ac5e020",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "258c6d8cdf024e7f81b8a9379f4a9017",
+        "navigationGoals": null
+    },
+    "id": "7aded6aa04694164af87a7deb96a6c8d",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling The RealReal, your premier destination for authentic luxury consignment.",
+            "fileID": "4a10b93be1c54aada683d09124988c8b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To begin consigning your luxury items, press 1.",
+                "fileID": "44b7d2bc12554069a98ee867b0a99609",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a free shipping kit for your consignment, press 1.",
+                            "fileID": "849d6a7bb0c943f5969d436ecd1bd5cb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our shipping kit team.",
+                                        "fileID": "faa8c54049454a969884cbee9c681e6d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "be1a5cf876ac483ea2963ec28dbaa902",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To find a drop-off location near you, press 2.",
+                            "fileID": "883c1bc87dea4f2ba7e9ba07e6397a24",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our location services team.",
+                                        "fileID": "1bea9462ed4c43d5a31b9da94c0aa503"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ec9e12e62fa34064bce109809fbed72a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "79ac655c3ffe42789546be8ef9f56220",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For questions about purchases or order status, press 2.",
+                "fileID": "c7e01333fd8c473d950b42881a86f45c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check the status of an existing order, press 1.",
+                            "fileID": "8c96a97bcc1c4acd865effd079fdef36",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order status team.",
+                                        "fileID": "9183517cdc8b427f8fb82447bc3927d4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f1735dd602cf4113a447aecda5bbfd81",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To initiate a return or exchange, press 2.",
+                            "fileID": "41a10760cb6d42c4a1ef00e66423dd5b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our returns department.",
+                                        "fileID": "04c237b3bc924d208dd17d238b489151"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6608e7663a5e4c4881b1dc68baefb786",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0519751c2ee1485f930e6c35dae2a5e6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b7ce2649f4c54dff9c040ef459efc133",
+        "navigationGoals": null
+    },
+    "id": "1f72adef200147e2b43af248d92a3582",
+    "navigationGoals": null
+}

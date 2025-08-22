@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Expensify, headquartered in San Francisco, automating every step of your expense reporting process.",
+            "fileID": "3ea8353045194b06b8d03e5f64df34d4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with your account or Expensify features, press 1.",
+                "fileID": "6d2477b1cf9846c9ab835a2ecada84d5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with receipt scanning and capture, press 1.",
+                            "fileID": "2ef6c495cc6f4222a0bb3b6dd10dc741",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a specialist for receipt scanning support.",
+                                        "fileID": "67460612564847628f6c2332f73c109a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "527948f091ff4109a5c12d09634562e0",
+                                "navigationGoals": [
+                                    "I\u2019m having trouble uploading my receipts through the app.",
+                                    "I need help scanning and uploading my deployment expense receipts using the Expensify app.",
+                                    "Fix OCR errors in receipt scanning workflow.",
+                                    "I need help scanning a paper receipt using the app.",
+                                    "I need help scanning multiple lab receipts using Expensify\u2019s mobile app."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For questions about reimbursement status or payout schedules, press 2.",
+                            "fileID": "768b6413d5594ae6812315de1121a693",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your reimbursement information.",
+                                        "fileID": "c7b5fdbc5d764f62bba8ff2361501a87"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5d7098c88db946dfba88d1475fb5bf76",
+                                "navigationGoals": [
+                                    "I want to check when I\u2019ll get reimbursed for my last expenses.",
+                                    "I want to check the status of my reimbursement for my submitted expenses.",
+                                    "Check my reimbursement status and upcoming payout schedule.",
+                                    "I want to check when my reimbursement payment will arrive.",
+                                    "I want to check the reimbursement status for my recent conference travel expenses."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "711d63f0489d4f5ebbd4a30d49c4d37b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For expense report submission and integrations, press 2.",
+                "fileID": "cb3a4bcd16654b0d918a7906739b29b1",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit a new expense report, press 1.",
+                            "fileID": "7ef6363694e544488c1b33766e31e64e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we guide you through submitting your expense report.",
+                                        "fileID": "6449a1b8ce9e4307ad8a6c18c7843a7d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "956271ee98b54743a7aa7509ca51e205",
+                                "navigationGoals": [
+                                    "I need to submit a new expense report ASAP.",
+                                    "I need to submit a new expense report for my recent training travel.",
+                                    "Submit a new expense report with multiple receipts.",
+                                    "I need step-by-step assistance to file a new expense report.",
+                                    "I\u2019d like to submit a new expense report for my physics lab supply purchases."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For integration setup or API support, press 2.",
+                            "fileID": "ef05c74a3215403192bdd772b5369fde",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our integrations team.",
+                                        "fileID": "78ae26c475ca4a5ebe63638fabda0c3d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dd484b2f344e49b0b4c0b865426166c1",
+                                "navigationGoals": [
+                                    "I need to set up Expensify\u2019s integration with our accounting system.",
+                                    "I need assistance setting up Expensify integration with my unit\u2019s accounting system.",
+                                    "Configure an API integration and generate API credentials.",
+                                    "I need help connecting Expensify to my accounting software.",
+                                    "I need assistance setting up the API integration with my research group\u2019s accounting software."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c7ceaca7435e4ef88a349f28cf705e6f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e147e2ea4d744280848c95e07de14f10",
+        "navigationGoals": null
+    },
+    "id": "615567a3902348ecaf3bc6da1208cf0d",
+    "navigationGoals": null
+}

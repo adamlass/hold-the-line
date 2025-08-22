@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Birst, an Infor company in San Francisco, where we deliver smart, connected, and scalable networked business analytics.",
+            "fileID": "cdef51a7f5124dd9b4c067cd016d5675"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and inquiries about our networked analytics platform, press 1.",
+                "fileID": "347b32289c7b483f90302976e24d9fab",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a live demonstration or product tour of the Birst platform, press 1.",
+                            "fileID": "5febafc1d16644d6b89e2411aadba7cc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for a demonstration.",
+                                        "fileID": "5e7b20d5e7f84dd685d68a0b9d404411"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "44d451ec1525464991bb18f815614ffa",
+                                "navigationGoals": [
+                                    "I'd like to arrange a live demonstration of the Birst analytics platform.",
+                                    "I\u2019d like a live demonstration of the Birst analytics platform to see how it could support our veteran outreach operations.",
+                                    "I\u2019d like to schedule a live walkthrough of Birst\u2019s networked analytics architecture and API integration.",
+                                    "I\u2019m not comfortable with new software. Could someone walk me through a live demo of your analytics platform step by step?",
+                                    "I\u2019d like to schedule a walkthrough of the Birst platform to see how I can analyze my lab data"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, licensing, and billing information, press 2.",
+                            "fileID": "202ee97069ad46efbc4b237ffff056d0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "43d046d47c394029b26e4b62826e9f76"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f9e79102e072489d995eb6f9b4f6d4ab",
+                                "navigationGoals": [
+                                    "I need to review pricing and billing options for our Birst subscription.",
+                                    "I need detailed information on pricing and licensing so I can budget for our veteran support program\u2019s analytics tools.",
+                                    "I need details on the enterprise subscription licensing tiers, pricing structure, and billing cycle.",
+                                    "I need simple details on how much your service costs, what the plans include, and how I can pay my bill.",
+                                    "I need details on student and academic pricing plans for Birst licenses"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e6ad77d08569431aa6a3adb27ac61e47",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "985ae93542c243b5b1f810863130bdc4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting assistance, press 1.",
+                            "fileID": "0cbd61f1844b4d36afc46e69a6310792",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "efce45874c97407ea2ce89db99a78f8c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "92def633102748faa9ed393c4e7a53b7",
+                                "navigationGoals": [
+                                    "I'm experiencing an error with my Birst dashboard and need technical support.",
+                                    "I\u2019m experiencing errors in my analytics dashboard and need technical troubleshooting help.",
+                                    "I\u2019m seeing data connector errors in my ETL pipeline and need help troubleshooting the cloud warehouse integration.",
+                                    "I can\u2019t log into my account and need help resetting my password or troubleshooting access.",
+                                    "I\u2019m encountering an error when linking my research database\u2014can you help troubleshoot?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For training resources and documentation, press 2.",
+                            "fileID": "06fcd2c05a084101a941be57c966b82e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our training and documentation team.",
+                                        "fileID": "86817253780749c7b093921b15426ce0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b347d5ee310c4df0813c67192853cb8d",
+                                "navigationGoals": [
+                                    "I want to access training resources and documentation for the Birst platform.",
+                                    "I want access to training resources and documentation to get my team up to speed on using Birst effectively.",
+                                    "I want access to the advanced developer documentation and training modules on network data modeling in Birst.",
+                                    "I\u2019d like easy-to-follow guides or tutorials to help me learn how to use your analytics tool.",
+                                    "I want to access tutorials or user guides for building analytic reports"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "85ebf221745a44bfa867725c7c3abc9d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "145f76b1da8247d1b2918c91b74d9383",
+        "navigationGoals": null
+    },
+    "id": "e5cf5e73d9fe4afead29af51d817ce46",
+    "navigationGoals": null
+}

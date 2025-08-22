@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to DataFox in San Francisco, your partner for AI-powered account data and custom scoring.",
+            "fileID": "b558ecd528e44b07824d12e8fa746228"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "eb162b866bf141528bf9cc2ae0512fd0",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a live product demo, press 1.",
+                            "fileID": "3e7648f9e63f41ca930ef4418a629bff",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest in a demo. Please hold while we connect you to a product specialist.",
+                                        "fileID": "2e265bb32586486a8970c3c3fdf5a6bf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "983c4134fef84df6afe6533107781fb6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To discuss pricing and licensing, press 2.",
+                            "fileID": "b289a40f82514492866fe4077bd223eb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your pricing inquiry. Please hold while we connect you to a sales representative.",
+                                        "fileID": "9c95b43b221948f39d54562b3689c535"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e33a14159bbd460aa28398c540d937cb",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f95db7d0b54f4443ad8a12ad4b460f1c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and account services, press 2.",
+                "fileID": "715a99342f7a4d639ae9fbb111d43569",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "b69866398a9942d59440056131a017d5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "We\u2019re transferring you to technical support. Please hold for the next available agent.",
+                                        "fileID": "6b3dfc23b98c4d3186f012ecbe67e268"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "08fcf4a0c1b6435bb49a521af9b7456a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press 2.",
+                            "fileID": "9eda52b4df4c4518be0693507527bee1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "We\u2019ll connect you with our billing team. Please hold for an account services representative.",
+                                        "fileID": "75b1f3de80cd48f1bafa4a497a61f493"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9282c11906084cc2a2f4ab4ca7fc7ab7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c79eed39bfcd4b6788138b6442626de3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "88307c2c515f47428a3ee74020e0e647",
+        "navigationGoals": null
+    },
+    "id": "27a1842a8ce9443c8a484e67039f5428",
+    "navigationGoals": null
+}

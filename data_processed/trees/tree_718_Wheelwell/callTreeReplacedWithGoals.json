@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Wheelwell, San Francisco\u2019s premier marketplace for automotive parts and services.",
+            "fileID": "d5dbca4b94a7401f999941c12be3ed20"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For parts purchases and inquiries, press 1.",
+                "fileID": "a7d91331bc7a4562a70552c6d587a657",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new aftermarket parts, press 1.",
+                            "fileID": "4397153739c144b79c0e53435c4f1ec1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our parts specialist.",
+                                        "fileID": "a73d5c5d30fe422a91c18f25de111db0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7530dd4e5c3d40a2807cebc9437e0488",
+                                "navigationGoals": [
+                                    "I want to order a set of new aftermarket alloy wheels for my sedan.",
+                                    "I need to purchase new aftermarket brake pads for my truck and ask about veteran discounts.",
+                                    "Purchase new aftermarket coilover suspension with adjustable damping for my 2020 Mustang GT.",
+                                    "I need help ordering a new brake pad kit for my 2012 Honda and having it shipped to my home.",
+                                    "I\u2019d like to order a new set of high-performance aftermarket brake pads for my project car."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For certified used parts, press 2.",
+                            "fileID": "320c7e6ff11b44d08ad7291bd5f95833",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our used parts department.",
+                                        "fileID": "40b9eff8b56e4e738664747c662d8ff5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "630eb391c4fc4f9a9d9cb2ca28dd2456",
+                                "navigationGoals": [
+                                    "I need to purchase a certified used transmission for my SUV.",
+                                    "I want to buy a certified used starter motor for my SUV and check its warranty details.",
+                                    "Check availability and warranty details on a certified used turbocharger for a 2016 Subaru WRX.",
+                                    "I\u2019d like to buy a certified used alternator for my car at a lower cost and make sure it comes with a warranty.",
+                                    "I\u2019m looking for a certified used turbocharger that fits a 2015 Subaru WRX."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a5cf84d220804f5da08eae2967e235e2",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For service bookings and appointments, press 2.",
+                "fileID": "7c12a945ba5d4f19b47566fdd28bdc84",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a service appointment, press 1.",
+                            "fileID": "0c2582ae13ae485e981a01f976d3f438",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we schedule your service appointment.",
+                                        "fileID": "1527d24354024ae7a0267aa8f393b3e2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3f4d09524d2046d396b01b6cf24410ae",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a service appointment for an oil change and tire rotation this afternoon.",
+                                    "I\u2019d like to schedule a maintenance service appointment for an oil change next Tuesday morning.",
+                                    "Schedule a 30k-mile maintenance appointment including oil change, brake fluid flush, and ECU calibration.",
+                                    "I want to schedule an oil change appointment next Saturday and ask if you offer senior shuttle service.",
+                                    "I need to schedule a service appointment for an oil change and safety inspection next Wednesday."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To locate a local mechanic or service center, press 2.",
+                            "fileID": "fd90b449cbec4943867b5d00d313c13f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a local service provider.",
+                                        "fileID": "9aebdd72e56d413995265bd1eb2f5206"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "287bf7c34d494beca88aabafc0f1bb0f",
+                                "navigationGoals": [
+                                    "I\u2019m looking for the closest certified service center for a brake inspection.",
+                                    "I\u2019m looking for a nearby service center that can handle heavy-duty vehicles.",
+                                    "Locate an ASE-certified local mechanic for a diagnostic scan and engine tuning.",
+                                    "I\u2019m looking for the nearest garage that can inspect my brakes and give me a ride home afterward.",
+                                    "I want to find a nearby certified service center for a wheel alignment this week."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "388829c1346a4fce9c55482841ee66e6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ef6d5845408a49f3a44eb0d07ffd24be",
+        "navigationGoals": null
+    },
+    "id": "55ffa51c29e8464fa9276dee95720e7d",
+    "navigationGoals": null
+}

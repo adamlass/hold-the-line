@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Stratim, the San Francisco\u2013based leader in intelligent fleet operations technology.",
+            "fileID": "564aa6bb87344075ba082964b560907c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support with your fleet management platform, press 1.",
+                "fileID": "e513deb98f894404b93aeb60e2dd85db",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For software troubleshooting and bug reporting, press 1.",
+                            "fileID": "42451a7a16e04fcc9e301a105828e77e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a software support specialist.",
+                                        "fileID": "83c67d0c3fef4298842907053d9882a5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f21c09e9b97e43f4a84cb5c0faba7b0b",
+                                "navigationGoals": [
+                                    "I need help resolving a persistent dashboard error in the fleet management software.",
+                                    "My fleet management dashboard is freezing when I assign routes and I need software support.",
+                                    "Report a 500 error in the API when syncing telemetry data and get help debugging it.",
+                                    "My fleet management app keeps crashing when I try to view vehicle details; I need help troubleshooting the software.",
+                                    "Troubleshoot a data visualization glitch in the fleet management software."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For hardware integrations and API assistance, press 2.",
+                            "fileID": "b149e9c1581746deb840fd9999257d97",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our integrations team.",
+                                        "fileID": "61b6024c8b254a7aa9055eb151c2bd3f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5542ea5efe23453fa029d5374c82a601",
+                                "navigationGoals": [
+                                    "I want assistance configuring the API to integrate our onboard hardware with your platform.",
+                                    "I need assistance integrating my vehicle telematics devices with your API.",
+                                    "Integrate CAN bus sensors with the telematics gateway hardware and configure the API data stream.",
+                                    "I\u2019m trying to connect my new GPS tracker to Stratim\u2019s platform but don\u2019t know how to set up the API; please assist.",
+                                    "Configure the API for integrating custom GPS hardware with the platform."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "04642a1c539b48159d9317bf57024ef9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales, pricing, and new customer inquiries, press 2.",
+                "fileID": "7b8dbcc2849249fcabef71669009dd6a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a demo or discuss pricing plans, press 1.",
+                            "fileID": "5631cc640c0d4a2c841ff0177a5bb9fe",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "429df3e5f2a7445a8e13371d4569ee6f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2fbdd570bfd540da904ab5e062a9d275",
+                                "navigationGoals": [
+                                    "I'd like to schedule a product demo and get detailed pricing options for my team.",
+                                    "I'd like to schedule a demo and get pricing details for your platform.",
+                                    "Schedule a demo of the fleet analytics module and get pricing for a 50-vehicle subscription plan.",
+                                    "I\u2019d like to schedule a live demo of your fleet management system and learn about subscription pricing.",
+                                    "Schedule a live demo and discuss subscription pricing for academic use."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For partnership opportunities and enterprise solutions, press 2.",
+                            "fileID": "023528419c674428a1cae37a73b1c987",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our partnerships department.",
+                                        "fileID": "40ceacd39b9247ab9c9b47151051a550"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d7388cb194ef42cc84388e67d77405a3",
+                                "navigationGoals": [
+                                    "I'm interested in exploring an enterprise partnership and large-scale deployment solutions.",
+                                    "I want to discuss an enterprise partnership to deploy your system across our veteran-run logistics network.",
+                                    "Explore an OEM partnership to integrate Stratim\u2019s enterprise telematics platform into our fleet management solution.",
+                                    "I\u2019m interested in enterprise partnership options to customize your fleet solution for my delivery business.",
+                                    "Inquire about a research partnership to integrate my optimization algorithms into the platform."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5cd6402d20d64749b8b2032be6d567f8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9b180f1cbfb540e1b8105ede0aee2fef",
+        "navigationGoals": null
+    },
+    "id": "5968a755edcf4a0b896b1cec03c2afd6",
+    "navigationGoals": null
+}

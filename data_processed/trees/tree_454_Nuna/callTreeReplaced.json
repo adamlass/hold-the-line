@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Nuna, your partner in making healthcare more affordable through data analytics.",
+            "fileID": "670fbb2469154b90b19977aacb7d0da6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new client inquiries and product information, press 1.",
+                "fileID": "7dcc574661ed421189b2959e10b50307",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a product demo and solution overview, press 1.",
+                            "fileID": "6a6128b6888c478e99f462be7ca0990f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our solutions specialist.",
+                                        "fileID": "703cc04210c146d086d4577ec03f174d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c4d0ecbb13ce481d8ec96703d504180f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For partnership opportunities and strategic alliances, press 2.",
+                            "fileID": "4e5b6e5aef754e3e969b4e1e02134019",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships team.",
+                                        "fileID": "ff468c6fab314afa8d5d4c4202071e33"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1478a7f58bf84a33aed878eeedd1b894",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "af33166d12a4486ca6cc39745f19db35",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing client support and account services, press 2.",
+                "fileID": "1789c3863c1c4b6cb1ac0602b904d9b7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and platform assistance, press 1.",
+                            "fileID": "4283e6f34a7741d0b8eb7264c94a48ad",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "fa4105534b5b4b7c8ebcf1e3488f4a24"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "950b715a6cd64d3fb57baac54f687170",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries and account management, press 2.",
+                            "fileID": "3b9f2e2dc7cc46c49c447ab197486db3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "026f8e87674f42bc98e70f9c899a193d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "94bf0b21bab04014ba7294e50fc69d9c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b6e4aba003b14051a97b7d3576470c14",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1c51a903c0544cd9b8d7e42d1471761b",
+        "navigationGoals": null
+    },
+    "id": "041bc19111f54988bc1b979342ba35e1",
+    "navigationGoals": null
+}

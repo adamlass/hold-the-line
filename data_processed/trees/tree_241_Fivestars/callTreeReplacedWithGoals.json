@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Fivestars, San Francisco\u2019s leading loyalty and rewards platform for local businesses.",
+            "fileID": "4f59832bcb2e410c9c61a6754a859fa1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and partnership opportunities, please press '1'.",
+                "fileID": "b9fe1d5df1c843aca315e11aa05a816f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press '1'.",
+                            "fileID": "4ef7f75410ec4872bc709c332c0543dc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "afecdf64744c42a5ab21557ce0022a76"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6961377c5aea42a6ae0ead0ad4a504bb",
+                                "navigationGoals": [
+                                    "I need to speak with a sales rep to discuss partnership opportunities and pricing.",
+                                    "I run a veteran-owned small business and want to discuss partnership opportunities with Fivestars.",
+                                    "Connect me to a sales rep to discuss API integration options and partnership pricing.",
+                                    "I want information on partnering with Fivestars for my local store.",
+                                    "I\u2019d like to explore partnering my student-run coffee kiosk with Fivestars."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To request a product demo, press '2'.",
+                            "fileID": "483cab7b61884fbbb6edc8bde6572066",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a demo specialist.",
+                                        "fileID": "a1e6a1a9b7954d349894ad1f7bada409"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "facd1f2bee604eae94617545b5a4d1e2",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a demo of your loyalty and rewards platform.",
+                                    "I\u2019d like to schedule a hands-on demo of the Fivestars loyalty platform for my veteran-led store.",
+                                    "Set up a product demo to explore the platform's feature set and REST API workflows.",
+                                    "I\u2019d like to schedule a demonstration of how Fivestars works.",
+                                    "I want to schedule a walkthrough of the platform for my campus bookstore team."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8263c16f3231409498ec4b9c540f465d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support or questions about your rewards program, please press '2'.",
+                "fileID": "ddde38c4e627460a8ca91273ac029d72",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For questions about your rewards program account, press '1'.",
+                            "fileID": "d7282cf242c04fae84ad7dfac6d0dddb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a rewards specialist.",
+                                        "fileID": "13c79a216cbf49608ff38d6152852c04"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f8c09297a4ca4928b10ce1afb87a71f3",
+                                "navigationGoals": [
+                                    "I need help reviewing my rewards points balance and redemption options.",
+                                    "I need help checking my Fivestars rewards point balance and recent redemptions.",
+                                    "I need to review my rewards account's transaction log and current point balance.",
+                                    "I need to update my email address on my rewards account.",
+                                    "I need to clarify how my current reward points are applied and when they expire."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical assistance or troubleshooting, press '2'.",
+                            "fileID": "e0854c75e79d4f0a8e2e5a46ac0b4b98",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "79b889e39c49471590c11dec1daf6a0d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3c3ced25d071426ebab224de7f123dd5",
+                                "navigationGoals": [
+                                    "I\u2019m having trouble logging into my account and need technical support.",
+                                    "I\u2019m having trouble logging into the Fivestars app and need technical assistance.",
+                                    "Help me troubleshoot an API authentication error in the mobile SDK.",
+                                    "I\u2019m having login trouble and need help resetting my password.",
+                                    "I\u2019m having trouble integrating Fivestars with our POS system and need technical assistance."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "735771110dea46ad8a38de9b77d3fab6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "003b7ddeef15432abd0d4daebe6e26a9",
+        "navigationGoals": null
+    },
+    "id": "0e3812466eb14d888dfab4c4fc495182",
+    "navigationGoals": null
+}

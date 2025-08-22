@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling MuleSoft in San Francisco, the leader in cloud and on-premise application integration.",
+            "fileID": "fff0e0e5098b447ebc01e8d1c1c5429a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 to speak with our Sales team about connecting your SaaS and enterprise applications.",
+                "fileID": "86415553d8df4ca49c9e2f7f895b1a6d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to learn more about Mule ESB.",
+                            "fileID": "57785560f5034e4281635e42553671bc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Sales representative specializing in Mule ESB.",
+                                        "fileID": "c13918d1af0442db96fed795f5e47dc2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5be109baad7c46d2b4ae592960430b23",
+                                "navigationGoals": [
+                                    "Discuss licensing and implementation timeline for integrating our on-premise and SaaS apps with Mule ESB.",
+                                    "I want pricing and licensing details for Mule ESB to integrate our veteran services system.",
+                                    "Discuss Mule ESB licensing and integration for our hybrid SaaS/on-prem architecture",
+                                    "I need to speak with someone who can help me use your enterprise service bus to connect my applications.",
+                                    "I\u2019m interested in purchasing Mule ESB for my university lab project to integrate experimental sensor data with our cloud services\u2014could you connect me with Sales for pricing and licensing?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to learn more about CloudHub.",
+                            "fileID": "7407e088255b4aa88d110845ca9bd8d2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Sales representative specializing in CloudHub.",
+                                        "fileID": "d0284a81f3a04702994fbc8d6bc5b5f2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "63df425fb3b240afa711f9130d1caea6",
+                                "navigationGoals": [
+                                    "Get a quote and migration plan for moving our integrations to CloudHub.",
+                                    "I want to learn how to use CloudHub to host my veteran support portal.",
+                                    "Inquire about CloudHub PaaS pricing and API gateway capabilities",
+                                    "I\u2019d like information on moving my integrations to your cloud platform and how it works.",
+                                    "I\u2019d like to learn how CloudHub can support my physics data pipeline for running simulations and what subscription options are available."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f91356ca02f2461fb7343409268b6ba9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for Customer Support and technical assistance.",
+                "fileID": "3fa60c99d3ff460d92376ebf0c65a85d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for help with deployment and configuration.",
+                            "fileID": "704e5eca2187496481730317580f050b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Your call is important to us, please hold for a technical support engineer.",
+                                        "fileID": "e4fb407bf7d84753baee9d7c70be1374"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a0b5e3972e794b428bab43bfc1d86b38",
+                                "navigationGoals": [
+                                    "Walk me through setting up and configuring my MuleSoft deployment.",
+                                    "I need help deploying and configuring MuleSoft connectors on my server.",
+                                    "Get technical support configuring and deploying Mule runtime in our environment",
+                                    "I need technical support to help me deploy and configure my applications.",
+                                    "I need help setting up and configuring Mule ESB on our department\u2019s server cluster for my graduate research project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for troubleshooting and maintenance queries.",
+                            "fileID": "f77c9b69eae545268b4153d8afd4bc79",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Your call is important to us, please hold for our maintenance support team.",
+                                        "fileID": "07eaf85101624bd8bc045323de971edb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1253f211d5e24deda04e3da5a7b73c2f",
+                                "navigationGoals": [
+                                    "Help me identify and resolve errors in my production integration flows.",
+                                    "I need assistance troubleshooting and maintaining my live MuleSoft integration environment.",
+                                    "Troubleshoot performance bottlenecks and schedule maintenance for our integration flows",
+                                    "I need help with troubleshooting and maintaining my current system setup.",
+                                    "I\u2019m encountering errors in my Mule ESB flows in production and need troubleshooting and maintenance support to resolve them."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0ea941892c9f4208b60aa49566a3a6a5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "afb2daaaa8064c65a84e7bed04483fb0",
+        "navigationGoals": null
+    },
+    "id": "364e0d51ad2143e7b9d2039dcfbd4eee",
+    "navigationGoals": null
+}

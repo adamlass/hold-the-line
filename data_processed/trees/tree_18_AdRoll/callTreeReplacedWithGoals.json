@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling AdRoll, based in San Francisco, the Growth Platform that unites display, social, and email advertising to drive more revenue with less effort.",
+            "fileID": "8dd4f8ad1be6475b87188be71da84b84"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For help with your existing AdRoll campaigns and account support, press 1.",
+                "fileID": "20f476e119e9460d9d47e11ee7e41a05",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account questions and billing, press 1.",
+                            "fileID": "1d321913711d47718b4f6386fc346f42",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to an account specialist.",
+                                        "fileID": "6a0b6f176bb04fb2a4686c09fb4e8204"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "35ab56bade174db3a48bae7b1c6967fc",
+                                "navigationGoals": [
+                                    "I need to update my billing details and get clarification on last month\u2019s invoice.",
+                                    "I need clarification on unexpected charges in my latest AdRoll invoice.",
+                                    "Review my invoicing details and update my payment method.",
+                                    "I need help understanding my recent invoice",
+                                    "I would like to review and update my billing account information."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support with your display, social, or email campaigns, press 2.",
+                            "fileID": "4b1ce10f82e2449cbb2349e4cea6dbfd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "17589a7ee1fb44b6bed49ff05a756690"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "df92395df0b84b68aca300e0d59d0cc5",
+                                "navigationGoals": [
+                                    "I want help diagnosing why my email campaign isn\u2019t recording conversions.",
+                                    "I\u2019m experiencing issues with my display ads not tracking properly and need technical assistance.",
+                                    "Resolve pixel tracking errors in my display ad campaign.",
+                                    "I need assistance troubleshooting why my ads aren\u2019t displaying properly",
+                                    "I need technical support troubleshooting my ad campaign analytics."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9c904755b9c54f5abea4879ce77743c1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you\u2019re interested in starting advertising with AdRoll, press 2.",
+                "fileID": "60c73c5e25b04e6580f2c12c8f3d9e1d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on AdRoll\u2019s advertising solutions and demos, press 1.",
+                            "fileID": "48df33bf463949e0a7bbc8ec6a07a85b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. We\u2019ll connect you to our sales team for solutions and demo scheduling.",
+                                        "fileID": "11afbd0af6f1492ca7e584611a02b937"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0af8cf0dfc814c2a938aa8a86ceee6a7",
+                                "navigationGoals": [
+                                    "I\u2019m exploring your advertising platform and want to schedule a demo.",
+                                    "I\u2019d like to schedule a demo of AdRoll\u2019s advertising solutions for my veteran-owned small business.",
+                                    "Request a demo of AdRoll\u2019s cross-channel ad orchestration platform.",
+                                    "I\u2019d like an overview of AdRoll\u2019s advertising solutions and to schedule a demo",
+                                    "I want to schedule a demonstration of your advertising solutions."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, plans, and package details, press 2.",
+                            "fileID": "88fb8bae601b408482bee530423efb08",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. We\u2019ll connect you to a sales representative for pricing and plan details.",
+                                        "fileID": "b5f536792fb64290876f5151aa98c8e0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "025a8d74ade24230ab4c3be9b79f5b66",
+                                "navigationGoals": [
+                                    "I\u2019d like to review AdRoll\u2019s pricing tiers and select the right plan for our next campaign.",
+                                    "I want to learn about AdRoll\u2019s pricing plans and any available veteran discounts.",
+                                    "Obtain a granular pricing breakdown for AdRoll\u2019s subscription plans.",
+                                    "I\u2019d like information on pricing and available plan options",
+                                    "I would like detailed pricing and plan options for new campaigns."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8a241ff211f246d48b514d0ec94e09aa",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2235bc4f2986404092a9fbd233a6ad8c",
+        "navigationGoals": null
+    },
+    "id": "46afc81cb28c4d45a6586095d0c56bb3",
+    "navigationGoals": null
+}

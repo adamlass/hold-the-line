@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Matterport in San Francisco, where we capture real-world spaces as immersive 3D experiences.",
+            "fileID": "4e54ad1801704e30a568f10f20ef0e12"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "7feb3d4437874c7c8c6c303049bae595",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To inquire about pricing and subscription options, press 1.",
+                            "fileID": "dd40a6f657234cc68f1b1ef9d82ce39b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "5e82e7f87a8848d78dda3d9778bc4101"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c3e23701b0ef431abdc769924d9fab33",
+                                "navigationGoals": [
+                                    "Get a quote for Matterport subscription plans",
+                                    "I need subscription pricing details for digitizing spaces for my veteran nonprofit.",
+                                    "Clarify pricing structure and licensing fees for Matterport subscriptions",
+                                    "Could you explain your subscription prices and what each plan includes?",
+                                    "Inquire about subscription plans and student discounts for using Matterport in my lab research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a live product demonstration, press 2.",
+                            "fileID": "73180e6d8f2e4712986699cd90c4c371",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo scheduling team.",
+                                        "fileID": "1ced97633db747fea3a6c6da5445965a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "263dd5bde2a8454f93435e0118156fd4",
+                                "navigationGoals": [
+                                    "Schedule a live demonstration of Matterport\u2019s 3D capture system",
+                                    "I\u2019d like to schedule a live demo to see how Matterport captures my old barracks for a museum project.",
+                                    "Schedule a live hands-on demo of Matterport\u2019s 3D capture solution",
+                                    "I\u2019d like to schedule a live demonstration of your 3D scanning system.",
+                                    "Schedule a live product demonstration to see how Matterport can model experimental setups."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e39989e8c2a7460cab9fccbf3815ccd9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and account services, press 2.",
+                "fileID": "cf13d8cae25c46268f902d2a9abd00ed",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with 3D capture workflows or troubleshooting, press 1.",
+                            "fileID": "978a61e8222847d58fce61f27bc4b290",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "923962f98fc847a0867cf9c955b30827"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "583e84efc9f64efd868fa8b16fca9d8b",
+                                "navigationGoals": [
+                                    "Troubleshoot my Matterport 3D capture workflow",
+                                    "I\u2019m having issues with my 3D capture workflow and need technical assistance to troubleshoot my scans.",
+                                    "Troubleshoot mesh stitching failures in my 3D scan workflow",
+                                    "I need help troubleshooting my 3D capture \u2013 the app isn\u2019t connecting to the camera.",
+                                    "Troubleshoot issues with my 3D capture workflow \u2013 scans of my lab equipment are not aligning correctly."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing support, press 2.",
+                            "fileID": "4fd7782e753143dc82efc1b7d8762b64",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account services.",
+                                        "fileID": "22bbb380ef4d41eeb5539af51e6d2fc5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "62e6db79682644b2a178723b3a395119",
+                                "navigationGoals": [
+                                    "Update billing information and payment method on my account",
+                                    "I need to update my billing information on my account and review my latest invoice.",
+                                    "Update my account\u2019s billing info and review recent invoices",
+                                    "I need assistance understanding my latest invoice and making a payment.",
+                                    "Manage my account billing \u2013 update payment method and check my current subscription status."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9132274ad5084d7aac01623a64b609a4",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "eb3ac356ecac4fc886b86ae98fb584cc",
+        "navigationGoals": null
+    },
+    "id": "31f3dbffffe040bdb5cc84505e863ad0",
+    "navigationGoals": null
+}

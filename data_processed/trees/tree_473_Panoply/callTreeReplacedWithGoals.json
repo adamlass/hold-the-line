@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Panoply, your San Francisco-based AI-powered cloud data warehouse that automates data collection, modeling, and scaling.",
+            "fileID": "021e836988c34a0bb6d33253cec58cb4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an existing customer needing technical assistance, please press 1.",
+                "fileID": "02011fa6cb794932aca4346381634cfc",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with data integration and connectors, press 1.",
+                            "fileID": "28d850d207cf43f5b4d3254386ec0d79",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an integration specialist.",
+                                        "fileID": "c72f5417618e475eb64be7251666d2d8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7b80ec7fb4674981a81a18e7f14b70a9",
+                                "navigationGoals": [
+                                    "Troubleshoot and configure a new Salesforce data connector in my Panoply account",
+                                    "I need to connect our legacy mission logs database to Panoply and configure the integration.",
+                                    "I need help configuring a custom data connector for ingesting Salesforce events into Panoply.",
+                                    "I\u2019d like help linking my customer data from Excel into Panoply.",
+                                    "I need help connecting my lab\u2019s PostgreSQL database to Panoply to import experiment results."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For assistance with performance tuning or scaling, press 2.",
+                            "fileID": "5b2f8451b818414d998045350c5eff78",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a performance tuning expert.",
+                                        "fileID": "8f0bc011712e491a9e8cb0319b86e918"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7d71c61b03ab4a5d824d82742157d894",
+                                "navigationGoals": [
+                                    "Optimize query performance and scale up my warehouse to handle increased analytics workloads",
+                                    "I'm looking to tune my warehouse's performance to handle increasing data from training operations.",
+                                    "I\u2019d like guidance on tuning resource allocation to optimize query performance on my large datasets.",
+                                    "My reports are running very slowly; I need someone to help speed up performance.",
+                                    "I need guidance on optimizing Panoply to handle large-scale physics simulation datasets efficiently."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ebbb1ba7ecfd449799cda17ab59b3bb2",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are interested in sales or new account inquiries, please press 2.",
+                "fileID": "97b3df2f00e840209a16ddfc488c1520",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on pricing and packages, press 1.",
+                            "fileID": "7f05f4a79aee4144994870638a9b297a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One of our sales consultants will be with you shortly to discuss pricing options.",
+                                        "fileID": "e88589376b5048a18d703aeef55d2395"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0d21111e9b324545a7a9c76302361776",
+                                "navigationGoals": [
+                                    "Get detailed pricing and package options for a 20TB cloud data warehouse",
+                                    "I want to review your pricing plans and see if there\u2019s a nonprofit or veteran rate.",
+                                    "I\u2019m looking for detailed pricing info on your enterprise plan with unlimited API calls and data retention.",
+                                    "Can you explain the monthly cost and package options for your service?",
+                                    "I\u2019d like detailed pricing and package options to see if Panoply fits my student research budget."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a personalized demo of our AI data warehouse, press 2.",
+                            "fileID": "6868b3d371fa4eedafb2f63cf26beb3e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an AI solutions specialist for your demo.",
+                                        "fileID": "4d8e3e2274b041afaa3af75c6b684cf7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ed07a9ebbd024cbaa9ac30fb3527f6c4",
+                                "navigationGoals": [
+                                    "Schedule a personalized demo of Panoply\u2019s AI-powered data automation features",
+                                    "I'd like to book a tailored demo of your AI analytics for my veteran service organization.",
+                                    "I want to schedule a personalized demo focusing on your AI-driven data modeling features.",
+                                    "I\u2019d like to schedule a personalized walkthrough of your AI data warehouse.",
+                                    "I want to book a personalized demo of Panoply\u2019s AI-driven data modeling features for my thesis."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c93e85515bb9458ea9fb0cafafa1b759",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "dac1da9000664299a4374bcb310c351c",
+        "navigationGoals": null
+    },
+    "id": "c1c190a3df03495f853ec117f9c51b6d",
+    "navigationGoals": null
+}

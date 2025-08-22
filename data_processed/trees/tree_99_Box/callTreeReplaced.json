@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Box Peninsula, where we transform content management from simple file sharing to custom app solutions.",
+            "fileID": "c8e9eb1d3bdd4fc2a6418e0403dd8c0e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To explore our offerings, press 1.",
+                "fileID": "c7f2750b4465411f90f392336778edca",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For details on secure file sharing, press 1.",
+                            "fileID": "c4820cde80ed46769cad7d6f46ad5742",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a file sharing specialist.",
+                                        "fileID": "9857adf737d148769bd30e55cb663e9a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4a16399e493a43b38cab22cd60ff5c1b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For guidance on building custom content applications, press 2.",
+                            "fileID": "a500127329da47f192366d360b1f8b31",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a custom apps consultant.",
+                                        "fileID": "e62ea960704b43b2876b3d8f42618881"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "eed73ea296ad428ab2a4eca408c3e609",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "885732f5aae14d838fb27c196bafecb4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, press 2.",
+                "fileID": "8ca1f036977e4b44840ffe7b379ddb38",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance, press 1.",
+                            "fileID": "3801986524454a7795740ef3c4d5a41f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "f283c927389847c1a76da2967d1806f0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bd0ec75f0f124f4b8dd531e1c6b81158",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "ffca95188cc045f5b65a903153acea20",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "5fa4da01ba2b4edb9850ee1a6b6eec80"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "65822508c9634794b1d09ae1a674ed98",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "84c48abf02f04043a51a6310dc09e9ec",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2e40e31968b548498e10c5df93a9600d",
+        "navigationGoals": null
+    },
+    "id": "8d8e0c8815df4e31a2881df378a7f4e8",
+    "navigationGoals": null
+}

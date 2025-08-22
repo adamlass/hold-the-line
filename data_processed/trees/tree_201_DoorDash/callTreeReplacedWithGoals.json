@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling DoorDash San Francisco, delivering good flavors and vibes to your door.",
+            "fileID": "8a56fd3fad974ef2967ca1305c4f3dbf"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To place a new order, press '1'.",
+                "fileID": "b2b5019316df488592fcf35f8c2b43c5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To browse restaurants by cuisine, press '1'.",
+                            "fileID": "6a96c3fb70c04dafbac9e02dbc55cfa1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our ordering specialist.",
+                                        "fileID": "46e17739f1de4014829df2f0d7c6313b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "81237802be164517a181dd481d8dace3",
+                                "navigationGoals": [
+                                    "I need to place a new order by browsing nearby Mexican restaurants.",
+                                    "I need to set up a new dinner order tonight.",
+                                    "Start a new food order and filter available restaurants by cuisine.",
+                                    "I\u2019d like to place a new order and browse Italian restaurants near me.",
+                                    "I\u2019d like to browse available cuisines and place a new DoorDash order in San Francisco."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To reorder your past favorites, press '2'.",
+                            "fileID": "7554af7fde754032af45a293eb2fbbc4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your past orders.",
+                                        "fileID": "e040b7da261046dd8be7d6287607c663"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d334dff858894a17b7bb1ce26b4d3ffa",
+                                "navigationGoals": [
+                                    "Reorder my usual coffee and croissant combo from earlier this week.",
+                                    "I\u2019d like to reorder the same meal I had last week.",
+                                    "Reorder my last delivery from my order history.",
+                                    "I want to reorder the same meal I had last Tuesday.",
+                                    "I want to reorder one of my past favorite meals."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ee1303044ce54bc9852fe2753485df6b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing order support or account questions, press '2'.",
+                "fileID": "ea7e009582554af99ef5df0c8b7d27b2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To track your delivery, press '1'.",
+                            "fileID": "43bb6628420e44dea1d797895bd6c13e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your delivery status.",
+                                        "fileID": "e96dfde7a5fb4df8bb89346de084ce1d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2c41b78c44e440bcae474b1d10a5692d",
+                                "navigationGoals": [
+                                    "Check the delivery status of my current order.",
+                                    "Can you tell me the status of my current delivery?",
+                                    "Check the real-time delivery status and ETA of my current order.",
+                                    "Could you tell me when my current delivery will arrive?",
+                                    "I need to check the current delivery status of my order."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To report an issue or ask a question, press '2'.",
+                            "fileID": "d712574fb5074ddd94d98a7b83e595e2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a support representative.",
+                                        "fileID": "493dba3807e7400384407238eb00812c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b0545502c6f0424091844b140581799d",
+                                "navigationGoals": [
+                                    "Report that my recent order is missing an item and request assistance.",
+                                    "I want to report a missing item in my recent order.",
+                                    "Report an issue with my existing order and connect to support.",
+                                    "I need to report that my recent delivery arrived cold and ask for help.",
+                                    "I have an issue with my recent order and need to speak with support."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6f2c7edad2bf4692a424ac05d6ca7081",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2a3fa2b42f8d43d0aaa3a759bd4b892b",
+        "navigationGoals": null
+    },
+    "id": "b43a4f383c364ce9893b677513090b0a",
+    "navigationGoals": null
+}

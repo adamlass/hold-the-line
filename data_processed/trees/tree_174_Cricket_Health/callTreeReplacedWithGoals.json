@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Cricket Health in San Francisco, where we empower kidney patients to take charge of their health.",
+            "fileID": "ab2c9c81528c489686d64c684aa2d2ab"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a new patient and would like information on our kidney care program, press 1.",
+                "fileID": "516df3c2048d42e5a942c652624d6c5b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For program details and eligibility requirements, press 1.",
+                            "fileID": "933b0651b2084f3dab3a04699a5abced",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our program information team.",
+                                        "fileID": "e955f4d5f504473faca4da66f4ec5908"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ee9c7884605140b0a79d47aa447dfd06",
+                                "navigationGoals": [
+                                    "I want to check if I qualify and get more info on the kidney care program.",
+                                    "I\u2019m interested in learning about your kidney care program and whether I\u2019m eligible to join as a new patient.",
+                                    "Retrieve comprehensive eligibility criteria and protocol details for the kidney care program.",
+                                    "I\u2019d like to find out if I qualify for your kidney care program.",
+                                    "I want to find out the eligibility requirements for the kidney care program."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a new patient coordinator, press 2.",
+                            "fileID": "a654df13ab474f84ba9a8191ff812230",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to a new patient coordinator.",
+                                        "fileID": "a2efe0ae329a4001bbfa50f414ff809e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9515e61f7eb24a33b85a92fccbe7b31c",
+                                "navigationGoals": [
+                                    "I\u2019d like to speak with a new patient coordinator to begin enrollment.",
+                                    "I\u2019d like to speak with a new patient coordinator to help me enroll and understand the next steps.",
+                                    "Connect with a new patient coordinator to initiate onboarding and discuss care plan configuration.",
+                                    "I want to speak directly with a new patient coordinator.",
+                                    "I need to speak with a new patient coordinator to begin enrollment."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "05f87fae1e7342318fe6f3aad305c802",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an existing patient or need support with your care, press 2.",
+                "fileID": "86d7b5dc861a4eb285f0af50e0d518d7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For appointment scheduling and telehealth visits, press 1.",
+                            "fileID": "c9f87736291148f790ea20f378176224",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold as we connect you to our scheduling department.",
+                                        "fileID": "289f56864f6a4b518167758f64a12696"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e03170f6251a43f7854963518029f971",
+                                "navigationGoals": [
+                                    "I need to schedule or change my next appointment or telehealth visit.",
+                                    "I need to schedule a follow-up telehealth appointment with my kidney care team.",
+                                    "Schedule a telehealth nephrology appointment and sync it with my digital calendar.",
+                                    "I need to schedule or change a telehealth appointment.",
+                                    "I want to schedule a telehealth appointment for my next kidney care visit."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, insurance, and payment questions, press 2.",
+                            "fileID": "6a450c2ae6d148f4a34ff0e99b94a2df",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to billing and insurance support.",
+                                        "fileID": "53de8000ea9b4ff0b8d5c555f2ac1d22"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c13d96afe6734efd8380e7c16d665768",
+                                "navigationGoals": [
+                                    "I have questions about my billing or insurance payment.",
+                                    "I have questions about my billing statements and what my insurance will cover for treatment.",
+                                    "Obtain billing reconciliation and insurance coverage details for my recent treatment invoice.",
+                                    "I have a question about my bill and insurance coverage.",
+                                    "I have questions about my billing statement and insurance coverage."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ca563a86c7dd41e3963ba819ab6e7f6f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b1920af1b94349b2be83f651c29737f2",
+        "navigationGoals": null
+    },
+    "id": "32a98cc45dbe451389ae9e73a5b09fcb",
+    "navigationGoals": null
+}

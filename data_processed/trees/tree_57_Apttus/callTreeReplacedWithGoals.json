@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Apttus Peninsula, the leader in quote-to-cash software for e-commerce, CPQ, contract, and revenue management.",
+            "fileID": "2b1242fb71c14ac3bbda481a2e4330d2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales, product information, and new customer inquiries, press 1.",
+                "fileID": "c6c11ec954a94ef6b7c5ecac697ea6bb",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a product demonstration of our Quote-to-Cash solution, press 1.",
+                            "fileID": "0eafd91cda1242bd87b4e0f25e7938e9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our product demonstration team.",
+                                        "fileID": "607867b288ca42cbbff0199c37e7ee9f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "39b62d1b399246eabcc747025aa6d4bb",
+                                "navigationGoals": [
+                                    "Schedule a live demonstration of the Quote-to-Cash solution.",
+                                    "I\u2019m a veteran-owned small business owner looking for a live demo of your Quote-to-Cash solution to see how it fits our workflow.",
+                                    "I want to see a live demo of your Quote-to-Cash CPQ solution.",
+                                    "I\u2019d like a step-by-step demo of your quote-to-cash solution, please.",
+                                    "I\u2019d like to schedule a live demonstration of your Quote-to-Cash software to explore its configure-price-quote features."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing quotations or CPQ questions, press 2.",
+                            "fileID": "1b313608348e4c1eb5d20f068f764797",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing specialist.",
+                                        "fileID": "59296b30f6144c05baa5851afc484ac4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9403c9fa11e449a0bec2db4b96c0a64d",
+                                "navigationGoals": [
+                                    "Obtain a detailed pricing quote for the CPQ product.",
+                                    "I need a detailed pricing quote for CPQ licenses and want to know if veteran discounts are available.",
+                                    "I need detailed pricing tiers for enterprise licensing of your CPQ modules.",
+                                    "Could you provide a detailed price quote and explain the CPQ costs?",
+                                    "I need a detailed pricing quote for the CPQ module, including any academic or student licensing options."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4713cef857174367a0aad12d5084ac6f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, contract management, and billing inquiries, press 2.",
+                "fileID": "92979e9fb59e4f9cb73ba6a639650a77",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "4d68848706a644fb8f2b2f6f733d7401",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support.",
+                                        "fileID": "3a85cebd9840447ea963b83152d78577"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0d125956db714ed4be48a239939a7b3e",
+                                "navigationGoals": [
+                                    "Troubleshoot a technical issue with my CPQ implementation.",
+                                    "I\u2019m having trouble generating quotes in the CPQ system and need technical support to fix the error.",
+                                    "I\u2019m experiencing a 500 error in the CPQ API integration and need technical assistance.",
+                                    "I\u2019m having trouble using the system and need technical support to fix it.",
+                                    "I\u2019m encountering an error when uploading my product configuration and need help troubleshooting it."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For contract renewals and billing inquiries, press 2.",
+                            "fileID": "47c99abab17143d785e5e2bb6a4f4bfd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our contracts and billing team.",
+                                        "fileID": "93c342af72e4419aac705a3a5265412b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "089f843f4d9c45849bd236ff3c758580",
+                                "navigationGoals": [
+                                    "Renew my contract and review upcoming billing charges.",
+                                    "I\u2019d like to renew our annual contract and update our billing information for the next subscription period.",
+                                    "I want to renew my contract and review the updated billing and invoicing terms.",
+                                    "Please help me renew my contract and clarify my billing charges.",
+                                    "I want to verify my subscription renewal date and understand the billing charges on my account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2dcc65118d294b219d8124a65999fae6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c36d37e691a345a19ea43867376179f0",
+        "navigationGoals": null
+    },
+    "id": "ade2fa35043748239bbb04cddc3ad45a",
+    "navigationGoals": null
+}

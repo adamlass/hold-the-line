@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling enSilo, protecting your organization with a unified endpoint security platform that stops malware before and after infection.",
+            "fileID": "13eb45c53d9540f080b30bb8cfa5ff08"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "e2f8f47569b7482ca3eb92dc0ba8d3ae",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new customer inquiries and demos, press 1.",
+                            "fileID": "49b9921f00cb4196869f90864ac9bdf5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All of our sales representatives are currently assisting other customers. Please hold, and we will connect you shortly.",
+                                        "fileID": "2e52be859636426b91b804f80bc1ed7d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "77e5c662de224896ab8b2d3c8a1df3ea",
+                                "navigationGoals": [
+                                    "Schedule a demo of the enSilo endpoint security platform for my organization",
+                                    "I\u2019d like to schedule a demo of your endpoint security platform.",
+                                    "I want to schedule a new-customer demo of enSilo\u2019s unified endpoint security platform and review its technical specs.",
+                                    "I\u2019d like to set up a demo of your endpoint security platform.",
+                                    "I\u2019d like to schedule a demo of your endpoint security solution and receive product details to evaluate it in our physics research lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For existing quotes or order status, press 2.",
+                            "fileID": "157ce259fb7e4859911884c9d6f59607",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our order management team.",
+                                        "fileID": "67f9190e7ef64b7abe14a80e1f58a250"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "91a8a350b1b64f3ba25232409dd906fa",
+                                "navigationGoals": [
+                                    "Check the status of my existing quote or order for enSilo solutions",
+                                    "I need to check the status of a quote I received for enSilo services.",
+                                    "I need to check the status of my existing order for endpoint security licenses.",
+                                    "I need an update on the status of a quote I requested.",
+                                    "I need an update on the status of my existing quote for a campus-wide security deployment."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "66654be7e62942d1a57d27bd3a3a1cab",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and customer service, press 2.",
+                "fileID": "c5c39754b1c5417d91084d29e6df2a80",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "43a93b892af64b1e9dc7fe777385ab79",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "3ab7a4121d5d40b9ab2ab3edf5ecbf03"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b8087fb79f814972bdd2d27e403cab05",
+                                "navigationGoals": [
+                                    "Troubleshoot a technical issue with the enSilo endpoint agent on my devices",
+                                    "I\u2019m having trouble installing the enSilo agent on my system and need troubleshooting help.",
+                                    "I\u2019m troubleshooting a failed agent deployment on my endpoints and need technical assistance.",
+                                    "I\u2019m having trouble installing the software and need help.",
+                                    "I\u2019m experiencing an installation error with the endpoint agent on my workstation and need technical assistance."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "58ca43a33e3943a18cb3afa5664b59cb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our account management and billing team.",
+                                        "fileID": "7314290d0c21487c902787bc0fd77e45"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f829aa0d014f4925a38c8f516531183d",
+                                "navigationGoals": [
+                                    "Resolve a billing question and update payment details on my enSilo account",
+                                    "I want to update the billing information on my enSilo account.",
+                                    "I have questions about my latest endpoint protection subscription invoice and billing details.",
+                                    "I need assistance updating my billing information on my account.",
+                                    "I have a billing question regarding the recent invoice charges on my security platform subscription."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4620255582da4dc2974026d163bccb25",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5e5d7e3e5d8a44c9b32e3fa062472df7",
+        "navigationGoals": null
+    },
+    "id": "84d262ba748e434f81f2438bbdaceb52",
+    "navigationGoals": null
+}

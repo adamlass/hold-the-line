@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Woebot Labs, your twenty-four-seven mental health companion with a side of dorky jokes.",
+            "fileID": "dd39d3540daf43b58c49b2e3683e2978"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To explore mood-boosting strategies and chat with Woebot, press 1.",
+                "fileID": "971ee7c89c3b4809845e3fc618be4517",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start a new mood conversation with Woebot, press 1.",
+                            "fileID": "6ee5bd335c894766a033aa45485ca047",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Woebot for a helpful chat.",
+                                        "fileID": "19f71df104ab454fb631a80dbe85eff8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fba7e41ad34145ea84d078ddef25c208",
+                                "navigationGoals": [
+                                    "Start a brief mood-boosting chat with Woebot.",
+                                    "I need coping strategies from Woebot to deal with deployment-related stress and insomnia.",
+                                    "Initiate a new Woebot session to apply cognitive-behavioral strategies for mood enhancement",
+                                    "I\u2019d like to start a mood-boosting chat with Woebot.",
+                                    "I want to discuss strategies for managing my exam-related stress with Woebot."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To review your mood history and track your progress, press 2.",
+                            "fileID": "8d50392557bf4b83ae8863bb6c8f2c63",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, retrieving your mood history now.",
+                                        "fileID": "554747ab93a448ecabd4b7fb2b9e259e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d3fdea6467544bdf8df3415a3d4abb66",
+                                "navigationGoals": [
+                                    "Review my recent mood history.",
+                                    "I want to review my past mood entries to see how my anxiety has changed over the last month.",
+                                    "Retrieve my recent mood history and analyze trends over the past weeks",
+                                    "I want to review my past mood entries.",
+                                    "I\u2019d like to review my recent mood entries to analyze my emotional trends."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3869dc6403e84959aa3b21e4f1ee8c32",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account management, billing, or technical assistance, press 2.",
+                "fileID": "14fb3c8ed3f7432d8c335347c0c33463",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account and billing inquiries, press 1.",
+                            "fileID": "eb4f1a8ffbf54ecaba52a6c244d53c1d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Hang tight while we connect you to our account support team.",
+                                        "fileID": "88de53ecfe494c9999e9910464dd6788"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2b430f8514394cfab334e193877a9268",
+                                "navigationGoals": [
+                                    "Inquire about my subscription billing details.",
+                                    "I need to update my payment details and check why I was charged twice for my monthly subscription.",
+                                    "Modify my account payment details and confirm my subscription billing schedule",
+                                    "I need help with my billing or payment details.",
+                                    "I need to update my subscription payment details and verify my billing information."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support and app issues, press 2.",
+                            "fileID": "777f33e4c82747cd95ca27c4bef8251f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "c620ef016ae64cf89c3b43adda6e9117"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9064c37a34e14d1494007480bd1bc3fe",
+                                "navigationGoals": [
+                                    "Get help with a login error in the app.",
+                                    "I'm having trouble with the app crashing when I try to start a new chat\u2014please help fix it.",
+                                    "Diagnose and resolve the app\u2019s synchronization error when loading chat data",
+                                    "I\u2019m having trouble with the app and need technical support.",
+                                    "The Woebot app keeps crashing on my phone; I need technical assistance to fix it."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0247e05a59a642ec976c6c5a81a7bcc6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a0ce7937dc244c9cb73b81fa2c2ecaad",
+        "navigationGoals": null
+    },
+    "id": "19a4137eb1234901bfc856222e794d11",
+    "navigationGoals": null
+}

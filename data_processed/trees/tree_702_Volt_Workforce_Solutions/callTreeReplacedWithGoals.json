@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Volt Workforce Solutions in South Bay, your partner in recruiting and workforce management.",
+            "fileID": "db8a1b9909fb421bb041b91511e94859"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a job seeker looking for opportunities, press 1.",
+                "fileID": "ef3ab5d8353543899ba49ac74eada4b0",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a recruiter about current openings, press 1.",
+                            "fileID": "6b320e0cbb3c42f58639f382c622a8ee",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruiter.",
+                                        "fileID": "8e77a1ade03e404b9e3ef27c2071f82b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b3a0c4958e2e4bcdaf31e74969932550",
+                                "navigationGoals": [
+                                    "I need to speak with a recruiter about current job openings in South Bay",
+                                    "I\u2019d like to speak with a recruiter about current job openings for veterans.",
+                                    "Connect me with a technical recruiter to discuss current software engineering openings and their requirements.",
+                                    "I\u2019d like to speak with someone about any current job openings I might qualify for.",
+                                    "I\u2019d like to speak with a recruiter about available research assistant or lab technician positions."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about submitting your resume online, press 2.",
+                            "fileID": "af54724f3982448daa3523bc034d34a0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we direct you to our resume submission team.",
+                                        "fileID": "c200b335b944404b8acace8e3f42e77f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "33656556703d4051883b93753d9c1da5",
+                                "navigationGoals": [
+                                    "I want instructions on how to submit my resume online",
+                                    "I need instructions on how to submit my resume online.",
+                                    "Inquire about the ATS resume upload process, including supported file formats and API integration.",
+                                    "I need assistance learning how to upload my resume online.",
+                                    "I want to learn how to submit my CV online for physics internship opportunities."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b04fba0904064c1c87eae6b7d78f4ca4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an employer seeking staffing solutions or workforce management support, press 2.",
+                "fileID": "617a9855d1c74250a2dace6411a1196b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss contingent staffing solutions for your business, press 1.",
+                            "fileID": "84ab5925fd0b416992bb995dbe95fe95",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our staffing solutions consultant.",
+                                        "fileID": "f53bea6082e54bffb3098ed96436c40c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2a847abd5ffe4c56a049f44d8e141d06",
+                                "navigationGoals": [
+                                    "I need to discuss contingent staffing solutions for my business",
+                                    "I want to discuss contingent staffing solutions for my veteran-owned small business.",
+                                    "Consult on contingent IT contractor staffing solutions to scale our DevOps team.",
+                                    "I want to talk to a consultant about hiring temporary or contract workers for my business.",
+                                    "I need to discuss temporary staffing solutions for hiring research assistants on my project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To explore workforce outsourcing and managed services, press 2.",
+                            "fileID": "5dc915f0bdfe45d4ad90d6a2521362c0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our outsourcing services specialist.",
+                                        "fileID": "cfcb7459d4444cf592e7f19a9f49cd30"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a0f5fdfd1d5d4dd0a2ef1d253ac14d1f",
+                                "navigationGoals": [
+                                    "I\u2019m looking to learn about your workforce outsourcing and managed services",
+                                    "I\u2019m looking to explore workforce outsourcing and managed services for my company.",
+                                    "Explore outsourcing managed services for our cloud infrastructure and workforce automation.",
+                                    "I\u2019m interested in outsourcing workforce management and would like more information on those services.",
+                                    "I\u2019m interested in exploring outsourced lab services and managed support for my physics experiments."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "050d4ff68d8e416d843d91e2b4c9356c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ad2b1c97de734c479fee54fce906e293",
+        "navigationGoals": null
+    },
+    "id": "30d17f65177c4c8991ad99b9763563e9",
+    "navigationGoals": null
+}

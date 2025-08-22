@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Gigster, San Francisco\u2019s smart development service combining top developers, designers, and AI.",
+            "fileID": "8ae1f751fe95406983aed3d78ee6e1f4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and project inquiries, press 1.",
+                "fileID": "065e5c37af7a48318c8b21b9120287e1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn more about our AI-driven development services, press 1.",
+                            "fileID": "010526107bfb4710b327d1c607b3c1d3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist.",
+                                        "fileID": "4a573e38e9564a6da9212196476397e2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aa520b43a9f34694970d139a31be5e07",
+                                "navigationGoals": [
+                                    "Learn about Gigster\u2019s AI-driven development services and pricing",
+                                    "I want to learn about your AI development services and pricing for a veteran resource app.",
+                                    "Get detailed info and pricing on your AI-driven development platform and ML integration capabilities",
+                                    "I\u2019d like to learn about your AI-based development services and pricing.",
+                                    "Learn about AI-driven development options for optimizing my physics research simulations."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss your upcoming project with our team, press 2.",
+                            "fileID": "81d4b9a3fa354cde97b626c10b15ac90",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to a project specialist.",
+                                        "fileID": "8cc8ba2b75bc4944ad38644668d1562a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fe0212f1fc1a485bbad862b66ec5eb4e",
+                                "navigationGoals": [
+                                    "Discuss details and next steps for my upcoming project",
+                                    "I'd like to discuss my upcoming project\u2014a platform to match veterans with job opportunities\u2014and clarify next steps.",
+                                    "Schedule a consultation to review technical scope, architecture, and timeline for my next development sprint",
+                                    "I need to discuss the requirements for my upcoming project with a specialist.",
+                                    "Discuss requirements and timeline for building a data analysis tool for my lab experiments."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6c956f1d9dfd48b286f33f308a6c2763",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and account management, press 2.",
+                "fileID": "e9347e9e2a354975a5a5bd904282cfdd",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To get a status update on your current project, press 1.",
+                            "fileID": "79eaad697d70429f80fdda9808d37b0b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your project details.",
+                                        "fileID": "2a35e1c5a44a4d30b05bdb339ab78491"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1754d4f2ee514fa5acda930fd0a6526c",
+                                "navigationGoals": [
+                                    "Get a current progress update on my active project",
+                                    "Can you give me a status update on the veteran support chatbot you\u2019re building for me?",
+                                    "Request a status update on my current project's sprint progress, deliverables, and remaining backlog",
+                                    "I want a status update on the project you\u2019re currently working on for me.",
+                                    "Get a progress update on my current visualization module project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For troubleshooting or urgent assistance, press 2.",
+                            "fileID": "f1e6df5f443b496f837e31db6ff6ce27",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line; a support engineer will assist you shortly.",
+                                        "fileID": "00d9eafb71864547bf1f90ee33326b96"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "45066de8bf8942369edbcfb92afc2a57",
+                                "navigationGoals": [
+                                    "Troubleshoot an urgent technical issue with my service",
+                                    "I\u2019m experiencing errors in the AI integration on my current project and need urgent technical assistance.",
+                                    "Report a critical production issue and get urgent troubleshooting from a support engineer",
+                                    "I\u2019m experiencing a technical issue and need urgent troubleshooting help.",
+                                    "Resolve urgent errors in my deployed physics simulation code."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5d041b47b5fa46c9950e50cb911cea10",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d7bdc4182ef84656b700c08d88056910",
+        "navigationGoals": null
+    },
+    "id": "898d1967be894683b3b0ca4eff53aa04",
+    "navigationGoals": null
+}

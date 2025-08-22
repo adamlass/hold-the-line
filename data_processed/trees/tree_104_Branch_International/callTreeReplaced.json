@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Branch International, the smartphone credit solution for emerging markets.",
+            "fileID": "f71283a9c15749eeb101f7a034502264"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For questions about your existing loan or account, please press 1.",
+                "fileID": "83aecb434ae04e3e8fa0e91363e1f750",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear your outstanding balance and due dates, please press 1.",
+                            "fileID": "92bf3d330c5646c09403df5a1533f8b3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your account details.",
+                                        "fileID": "92fed1b9367e4ba7bf5fef03cd34cb21"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ff4fbc76cdf54db7a7b69145780cb5e3",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "If you need assistance making a payment, please press 2.",
+                            "fileID": "73aeebf6067446d5b3c14cb617d68310",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a payment specialist.",
+                                        "fileID": "13ab69090c754784a9a66d083e42e6fe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "973daa0aa20e4ad39c47c6436254e778",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "afcab7d7a8d84248819c232e7af1acc4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To apply for a new loan or learn about our services, please press 2.",
+                "fileID": "3f55253194654bf2bf26ccdb0eff5f5d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start a new loan application, please press 1.",
+                            "fileID": "1249fda7bafd4d28b5783242bdc45918",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our loan application team.",
+                                        "fileID": "e2b9226133e4483eaa3caf6989bceba6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1b0f3d5ad10c42909728650cfadc70eb",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For information on eligibility and required documents, please press 2.",
+                            "fileID": "52d99f3fb0df4c27bca3b0f1f18d853a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our product information team.",
+                                        "fileID": "755a025937104d148f4b1e941d36e6ad"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4461366978704688ba657bd8ad79c7c7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ad3e7c820799479ab2b0eab2ef66957c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8df3aaae59df449b868da3fd54cabe9c",
+        "navigationGoals": null
+    },
+    "id": "1c148dcad55143e3aed724b913b6fed7",
+    "navigationGoals": null
+}

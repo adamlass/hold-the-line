@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Nelson Staffing, your San Francisco partner for engineering temporary staffing and direct hire solutions.",
+            "fileID": "878459d95b47467ca104c9300550c924"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For candidate services and career opportunities, press 1.",
+                "fileID": "4d6f19e4b3cb4a4b826e1d3d93590378",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For temporary engineering staffing positions, press 1.",
+                            "fileID": "604d7b35ef06452d9422d557f00fb012",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a specialist in temporary staffing.",
+                                        "fileID": "3212aeb91a274bd3b1419c5d7de52b64"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "914a9c002339438480f3e390a9634cf4",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For direct hire job opportunities, press 2.",
+                            "fileID": "986b9dde8f15436884efc17a22971cc0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our direct hire recruitment team.",
+                                        "fileID": "8f8609e5a26a4cfd909d166c4d608648"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c574b43c4b294c8f8c4a5f4dc9088e70",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "470655cf04f04a29b931b5422215b7eb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For client services and employer staffing solutions, press 2.",
+                "fileID": "8a0f39234a0441059c23244d71a78b58",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new staffing solution requests, press 1.",
+                            "fileID": "527e32c7e32d4f21af36e1f1fb15498f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a client solutions specialist.",
+                                        "fileID": "e18079c6567e4573880425f8a4316000"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "297dcc8100d44b8182ff7d303334ba39",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For existing account and billing inquiries, press 2.",
+                            "fileID": "6219b4e9813e40f681358635ad7b77a4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account support team.",
+                                        "fileID": "5958d5b3a28d4ed18438b8563d2f893f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dd1c5e114e0d4b29a539d72c325a96c4",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ae7903ab489149bda3e25ed28cddb169",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9cc14c0c563b417b9223a7e530a951de",
+        "navigationGoals": null
+    },
+    "id": "99ed1fcc57dd4f859222ee5f84665a8b",
+    "navigationGoals": null
+}

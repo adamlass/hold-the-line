@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Zynga in San Francisco, your home for the world\u2019s most popular social games.",
+            "fileID": "f7aceac93fc54c29ab300553c57d150c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For customer support, press 1.",
+                "fileID": "e4279ada91554c23ab1be15c91f065ae",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For gameplay assistance and troubleshooting, press 1.",
+                            "fileID": "07b1e8bd6caa4a618bf4d22b357262b7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a gameplay specialist.",
+                                        "fileID": "1d00ed3fc9b14c8582f0522255e226f3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "95db259c925f44e9afa1cba50957cc95",
+                                "navigationGoals": [
+                                    "Quickly troubleshoot a game error that's preventing me from playing.",
+                                    "I need help recovering my game progress in Farmville Clash after reinstalling on my new phone.",
+                                    "Diagnose recurring server timeout errors during match-making on iOS and request a workaround",
+                                    "My game keeps freezing when I try to play\u2014can someone help me fix it?",
+                                    "I need help troubleshooting a persistent glitch where my in\u2010game resource production freezes whenever I start a new level."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press 2.",
+                            "fileID": "ec1ff839580842d79473fe0616fd50ea",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "72360441c62c4429bc36583e97f3f25a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "281d3f5f08ca4a6bb02116054f93625e",
+                                "navigationGoals": [
+                                    "Get billing support to clarify and correct an unexpected charge on my account.",
+                                    "I want to apply my military veteran discount to the recent coin pack I purchased.",
+                                    "Investigate duplicate in-app purchase charges on my account and obtain transaction IDs for refund processing",
+                                    "I see an unfamiliar charge on my billing statement and need help resolving it.",
+                                    "I\u2019d like to review and dispute a recent charge on my account for an in\u2010app currency purchase."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b7cde16359914e0c91201e85b4c31591",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For business and partnership inquiries, press 2.",
+                "fileID": "69316f04f2ee4432a1c8b0fd148c348d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For partnership and advertising opportunities, press 1.",
+                            "fileID": "fdc7ecc291bd49618c1bb2c2463cc25f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships team.",
+                                        "fileID": "0591f7f0e138471c85ece85c073810cf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4ce99a09d0324bf7a68a2395292c0215",
+                                "navigationGoals": [
+                                    "Discuss an advertising partnership opportunity with the Zynga team.",
+                                    "I represent a veterans nonprofit and want to discuss an in-game fundraising partnership.",
+                                    "Propose integrating my ad network SDK for a co-marketing partnership and discuss revenue-share terms",
+                                    "I run a local senior center and want to discuss partnering on a community game event.",
+                                    "I represent my university physics society and want to discuss a potential advertising partnership to run an educational campaign in your games."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For media and press inquiries, press 2.",
+                            "fileID": "8702e2248b694db889fe82c95d412a7f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our media relations team.",
+                                        "fileID": "8f2bee4a83e8475fb0ef81b0e9999adc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8971181df56f4b73ba7ddfa9df910175",
+                                "navigationGoals": [
+                                    "Reach media relations to obtain a quote for my upcoming article.",
+                                    "I'm a veteran journalist seeking to arrange an interview with your media relations about your veteran hiring program.",
+                                    "Request the official press kit and embargo details for your upcoming API release for a tech blog feature",
+                                    "I'm writing a story for our neighborhood paper and need to speak with someone in media relations.",
+                                    "I\u2019m a student journalist researching physics engines in social games and would like to schedule an interview with your media relations team."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e6182f9edff44e18992170eb904ff037",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1b6296b8ed99466fa006d30c73aca51d",
+        "navigationGoals": null
+    },
+    "id": "0a08db8a19114ec8a17c345e4bc2c6cd",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Tradeshift in San Francisco, reimagining procurement and payables to connect your supply chain to the future.",
+            "fileID": "1a77f18eb4944090b1dc35848d6c1198"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For digital marketplaces and apps, press 1.",
+                "fileID": "325fc41dc6b54725b430f89ff3f32480",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our Digital Marketplaces sales team, press 1.",
+                            "fileID": "77ae44e70608494689277e846307b379",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Digital Marketplaces sales team.",
+                                        "fileID": "e5d1cd6acbe04680b6588e04c864886e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c5b52019eb9f4af795ceb8a300809acf",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To reach technical support for our procurement apps, press 2.",
+                            "fileID": "e55ba76224724e2498bc1be9c67449f6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support for our procurement apps.",
+                                        "fileID": "7ec24691f51841e7b98b7551799d7344"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7fa1b7c9dae84513a2401b9b891cf251",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d1258d54ada64044a77358b8ee933ebd",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For payments and invoicing, press 2.",
+                "fileID": "775666c5270d4052b6f51ec4351ada24",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss payment solutions with our team, press 1.",
+                            "fileID": "e4e6f1609f094e38963356b810d69c35",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Payments Solutions team.",
+                                        "fileID": "99c650471db1418daaf0b296c81b86a7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "777c0b37512440b7a601dccb820b3e62",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To get help with invoicing and payables, press 2.",
+                            "fileID": "066975c70f804ed99d7f386c53c542a7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Invoicing and Payables support team.",
+                                        "fileID": "3d0916182aa44cdfbcd66dc0ef60a19e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "98eab5e358c84775991a0b480ce9be9e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3fb0d81380c749739435a415babbabb1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a45bb96b7a8849409bdd4d76a4a797c7",
+        "navigationGoals": null
+    },
+    "id": "04882a268f664943aedbbf6fb366b259",
+    "navigationGoals": null
+}

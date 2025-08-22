@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Tray.io, the San Francisco-based citizen automation platform empowering you to integrate, automate, and innovate without developer resources.",
+            "fileID": "7897f7c4432245af94ab8df7125f3bb5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you need technical support for your workflows and integrations, press 1.",
+                "fileID": "1837bfa37c3f46b289439a4e3a8993fb",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For assistance building and troubleshooting automations, press 1.",
+                            "fileID": "277cb8909a82444d9ce180b69ae23510",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a workflow specialist.",
+                                        "fileID": "bf192760523c444dafe772ab39e46c4e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e826ad2956694cde8b7f9ff76008a1b9",
+                                "navigationGoals": [
+                                    "Get my failing data workflow resolved quickly",
+                                    "I need help fixing a broken workflow integration in my recruiting automation.",
+                                    "I need help debugging an integration workflow that\u2019s failing due to authentication errors across connectors",
+                                    "I\u2019m not very technical and need help troubleshooting my automation workflows that keep failing",
+                                    "I need help debugging my automation workflow that imports my experiment data into a spreadsheet."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help with our API and developer tools, press 2.",
+                            "fileID": "a1ad09cda6d24cdaa3dc3bba8e3a30f8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with an API expert.",
+                                        "fileID": "58148f55f59e4bb09491079c0467be87"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e73ebf0be5ff40cdbd58b8f42d1dedad",
+                                "navigationGoals": [
+                                    "Fix authentication errors in my API integration before the deadline",
+                                    "I want guidance on authenticating and calling the Tray.io API for my service.",
+                                    "I want to optimize my API calls and review our OAuth token refresh implementation",
+                                    "I need assistance setting up and accessing my API key for developer tools",
+                                    "I want assistance integrating the Tray.io API with my lab\u2019s data acquisition software."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "34d5f5a12b414aa2bc561d40f3dab580",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To learn about our platform and speak with sales, press 2.",
+                "fileID": "fa931168713943d3b1e290b74e5432f3",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a free demo with our sales engineers, press 1.",
+                            "fileID": "cf750b43f8704703b105a632edd46d34",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales engineer for your demo.",
+                                        "fileID": "0bfe4948d73c4b2d98bf1eb63ad27246"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a392dbe1720c47bc95821f9f443ffd8b",
+                                "navigationGoals": [
+                                    "Schedule a concise demo to evaluate Tray.io for our marketing automations",
+                                    "I\u2019d like to schedule a demo to see how Tray.io can integrate with my veteran services database.",
+                                    "I\u2019d like to arrange a sales engineer demo focusing on enterprise automation architecture and platform capabilities",
+                                    "I\u2019d like to schedule a live demo to see how the platform works",
+                                    "I would like to schedule a demo to see how Tray.io could streamline my research data pipelines."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For questions about billing or your account, press 2.",
+                            "fileID": "d7f940d5183744ee802864023f509c27",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "8b3bdc63aa854f57b868d88edd07aca1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0b58e52d86914e22a6cff8763b2a51f8",
+                                "navigationGoals": [
+                                    "Clarify and correct an unexpected invoice charge on my account",
+                                    "I need to update my payment method and verify my current subscription details.",
+                                    "I need a detailed breakdown of our usage-based billing metrics and to dispute unexpected overage charges",
+                                    "I have questions about my bill and need to update my payment method",
+                                    "I have a question about the billing for my Tray.io account\u2019s usage credits."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3e0ba1349d104c54bdfae9a2487310c2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1abe0c7ce81d4759b5d7367bf2e3916a",
+        "navigationGoals": null
+    },
+    "id": "25db9b2f96804fd0a6d40afd1349b474",
+    "navigationGoals": null
+}

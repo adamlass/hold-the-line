@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling PagerDuty, your cloud-based incident response platform.",
+            "fileID": "a2379aeb8a8e4e6091aa755eb175fd94"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press '1' for incident management support and technical assistance.",
+                "fileID": "83e497fbc49e418dbe78fd61586393c6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press '1' for urgent incident escalation.",
+                            "fileID": "3b8127650b2c4982a7066dfad64d1b1e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our urgent incident escalation team.",
+                                        "fileID": "e60147a4b7cc4ebfa5e5f0eb0abb370b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6f0afd36c31f4e5a91e065ecbcc7243b",
+                                "navigationGoals": [
+                                    "I need to escalate a critical production incident immediately",
+                                    "I need urgent assistance to restore critical incident alerts that have stopped triggering.",
+                                    "I need to escalate a P1 incident\u2014our primary web service is down and we need immediate on\u2010call support.",
+                                    "My website is down and I need immediate assistance to restore service.",
+                                    "I need to escalate an urgent incident in our physics lab monitoring system to get it noticed immediately."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press '2' for general technical support inquiries.",
+                            "fileID": "66ea3b39c81b47058cb085f1ebeb5e5d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our general technical support specialists.",
+                                        "fileID": "5e46e0cf4a04428891b1b047f209c685"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "354e0e3b2a67426abee982986cb0657e",
+                                "navigationGoals": [
+                                    "I need assistance with a non-urgent technical issue",
+                                    "I need help configuring my team\u2019s on-call schedule and notification settings.",
+                                    "I need help troubleshooting my API integration; I\u2019m getting authentication failures calling the PagerDuty REST API.",
+                                    "I'm having trouble logging into my PagerDuty dashboard; can you help me?",
+                                    "I need help troubleshooting my PagerDuty integration with the lab\u2019s environmental sensors."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1055165c7b1e482eae2dd00fa830c9af",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press '2' for sales, new account, and product information.",
+                "fileID": "d024174958b94aae98a5b33b5554fe95",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press '1' for sales and new account setup.",
+                            "fileID": "aa62a3daae9b41daa516dc7be81e1ec6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "1fb776dcf82146de8f3fd6d7cc7581c2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2646b150b8d54456bca41c659ac49d46",
+                                "navigationGoals": [
+                                    "I want to set up a new account and learn about product options",
+                                    "I want to set up a new PagerDuty account for my veteran-run organization.",
+                                    "I\u2019d like to set up a new business account with SSO via Okta and discuss enterprise feature tiers.",
+                                    "I'd like to sign up for a new PagerDuty account and need help getting started.",
+                                    "I want to open a new PagerDuty account for my campus research team."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press '2' for billing and subscription inquiries.",
+                            "fileID": "8e3b5a4a84e2455299950f77b528aea4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and subscription department.",
+                                        "fileID": "c16638b2cc2441678ee14b34e2f7615c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5bc3b82327364140a9b80fccf406752f",
+                                "navigationGoals": [
+                                    "I need to review and update my billing and subscription information",
+                                    "I need to update my billing information and review my subscription status.",
+                                    "I need to review our subscription invoice, clarify the overage charges for SMS alerts, and adjust our plan.",
+                                    "I have questions about my latest bill and need help updating my payment method.",
+                                    "I have a billing question about my student subscription and its renewal terms."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fb6e61e277c54fa79849c3578c65c630",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "55d385685d86458797d98c6989d14d1c",
+        "navigationGoals": null
+    },
+    "id": "6bd0e2afaf6641068a602371c063e315",
+    "navigationGoals": null
+}

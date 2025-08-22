@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Strava, the number one app for runners and cyclists in San Francisco.",
+            "fileID": "0e86bd6c261b48f583de6a580d666fe6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To track a run or cycling activity and view your performance data, press 1.",
+                "fileID": "2dc6ef78b3164ca2ba2f426bf2eb5e08",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start a new activity recording, press 1.",
+                            "fileID": "ad2d39f1cceb43149508c684dc4376bc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our activity setup team.",
+                                        "fileID": "e4a1b829f92d496594f9c5d505fcf3fc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "99c498c87be5413dbf0d4f5e211a2bdd",
+                                "navigationGoals": [
+                                    "I need to start and record a new workout session immediately.",
+                                    "I want to start and record a new run so I can track my performance metrics.",
+                                    "Start a new GPS-tracked run session to record performance metrics",
+                                    "Can you help me start recording a new run? I\u2019m not sure how to begin.",
+                                    "I want to set up and begin a new run with live pace and distance tracking"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To review your past workouts and stats, press 2.",
+                            "fileID": "cda2995a56e345a0ad2cd1d0302b3492",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we retrieve your activity history.",
+                                        "fileID": "4ba75816eed04fd5b22d7dafcda3a662"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "266a698af2344de3aa49c1d320cca433",
+                                "navigationGoals": [
+                                    "I want to retrieve and review my recent activity stats.",
+                                    "I\u2019m looking to pull up my past workouts and stats to review my training progress.",
+                                    "Access my workout history with detailed analytics",
+                                    "I\u2019d like to review my past workout stats, could you help me find my activity history?",
+                                    "I need to pull up my recent training logs to analyze my weekly mileage"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "dc9d04e2e3894330851d944d5b5ec446",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account and subscription support, press 2.",
+                "fileID": "f8e3b993556d41d2b05d60a51aa7d701",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing and subscription questions, press 1.",
+                            "fileID": "880b12af62a04b3d835f62287188e212",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our billing specialists.",
+                                        "fileID": "322bb26ee4fa4acd8b4f17853c54f025"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dbcb1935e771436b81ad5b60ae959d07",
+                                "navigationGoals": [
+                                    "I need to update my payment details for my subscription.",
+                                    "I need help updating my subscription and applying the veteran discount to my account.",
+                                    "View my subscription plan and update my billing information",
+                                    "I need assistance understanding my subscription payment; I\u2019m not sure if it renewed.",
+                                    "I\u2019d like to inquire about renewing my Strava Premium plan and updating my payment details"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical assistance with the Strava app, press 2.",
+                            "fileID": "e860f64b383049e4847522503d484889",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to technical support.",
+                                        "fileID": "b8627c59ec5a4126aad418f1bf7f7b87"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "850ec3b04bda48429d345fdc2afb86ce",
+                                "navigationGoals": [
+                                    "I need help troubleshooting a syncing error in the Strava app.",
+                                    "I\u2019m experiencing GPS and sync issues with the Strava app and need technical support.",
+                                    "Troubleshoot the app\u2019s sync error and restore server connectivity",
+                                    "My Strava app isn\u2019t working properly\u2014can someone help me fix the issue?",
+                                    "My app won\u2019t sync my ride data; I need help troubleshooting the sync issue"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "30a73c60e6274f0aa888343f2b573a49",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "630521727d0b425ea1217cc29029db42",
+        "navigationGoals": null
+    },
+    "id": "04dd20338e344b31b1c30962a7e0b807",
+    "navigationGoals": null
+}

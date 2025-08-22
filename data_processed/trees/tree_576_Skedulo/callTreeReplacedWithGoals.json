@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Skedulo in San Francisco, the powerful mobile scheduling platform built for your field team.",
+            "fileID": "de5e09ea577d4491a6def6535c5b59a4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For scheduling and route optimization support, press 1.",
+                "fileID": "e73572e4974f4a739221ec87fbd40ab9",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help resolving scheduling conflicts or assigning jobs, press 1.",
+                            "fileID": "dae871d9bd9f49048ed5e56dd295df82",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a scheduling specialist.",
+                                        "fileID": "b1b653c1bfba46c6b1ed193681072bf5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "05fc7c1d6bb842629f77698d2fd14329",
+                                "navigationGoals": [
+                                    "Resolve overlapping assignments in my field team\u2019s schedule",
+                                    "I'm trying to resolve overlapping job assignments for my field team this week.",
+                                    "I need to resolve overlapping service appointments and auto-assign jobs based on technician skill sets.",
+                                    "I need help sorting out conflicts in my work schedule and assigning jobs correctly.",
+                                    "I need help resolving overlapping field assignments for my team next week."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "If you would like assistance with travel route planning and productivity tracking, press 2.",
+                            "fileID": "e450dd97733a419a865a073f1fc1cbe2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a logistics support representative.",
+                                        "fileID": "a2e04a9af2f6485693540bca74a81cb2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e172bbd0331b45838550c79c2433c4b6",
+                                "navigationGoals": [
+                                    "Optimize travel routes for tomorrow\u2019s field visits",
+                                    "I need to plan efficient travel routes for my crew and monitor their daily performance.",
+                                    "I want to generate optimized travel routes for my field team and enable real-time productivity tracking.",
+                                    "I\u2019d like assistance planning my travel routes and tracking my productivity on each trip.",
+                                    "I want to plan the most efficient travel routes for site visits and set up productivity tracking for my crew."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0eec9bf3d6374757b6e18d72fca7a9fe",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account management and billing inquiries, press 2.",
+                "fileID": "5566c6422ae746ffa76a8c927b0a3a64",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with account setup and user access, press 1.",
+                            "fileID": "7d9c9a48eb7147cc9e714952683ad878",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our account services team.",
+                                        "fileID": "23ed724c236746719fa4c1befbbaf60a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f35b69238f8c4c3c9e0c0464ba4425cb",
+                                "navigationGoals": [
+                                    "Add a new team member to my account and configure their access",
+                                    "I want to set up new user accounts and grant appropriate access levels for my operators.",
+                                    "I need to provision new user accounts and configure role-based access control for my team.",
+                                    "I need help setting up my account and accessing it, including adding users.",
+                                    "I\u2019d like to add a new team member to my account and grant them appropriate access credentials."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing questions or invoice support, press 2.",
+                            "fileID": "bc958f19adb0444ba58aca3dbcbffc86",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing department.",
+                                        "fileID": "ce282418e3af4ebdb64ff57216e83fc2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "29377675fb2b4b3aa6471f543a6946bf",
+                                "navigationGoals": [
+                                    "Clarify an unexpected charge on my latest invoice",
+                                    "I have a question about a recent invoice that doesn't match our service agreement.",
+                                    "I have questions about my latest invoice and need to update my payment method.",
+                                    "I have questions about my bill and need help understanding the charges on my invoice.",
+                                    "I have questions about a recent invoice and need assistance understanding the charges on my bill."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "da784d677fb8487cabd0da5151dfbf46",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7bfdcf3d23064264b01b886734bdf9ea",
+        "navigationGoals": null
+    },
+    "id": "16dc3d0e72d347b1a2341146614b91da",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Meltwater, your San Francisco-based partner in business analytics.",
+            "fileID": "e6ad74b39e4343438807bfd19d8457e6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our analytics solutions and products, press 1.",
+                "fileID": "92a0e917794f4489b902e4ca30961ee1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For sales and pricing inquiries, press 1.",
+                            "fileID": "c4e5385c9c0e48999754076558a35d70",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "2890781c6681480abb7946363c1cf860"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6db214ccd8f642f680e8b406617e7eb5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For product demonstrations and tours, press 2.",
+                            "fileID": "4fb7af91142f432f9871508bc01e93f0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to schedule your demo.",
+                                        "fileID": "7997cd86e4d544c190293d0780cece94"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "36c89b0af7944d239831373fe520b45a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e16c8c9cb88d4537aefc83fffe6767ef",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and service, press 2.",
+                "fileID": "eb69ff35bf524f0e8a9a82cf8c9ee2f1",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "a95ed41518c84521b0d8753e4823fb72",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "bcc7682fe2cc44ba8f2b19450b0578f5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a926e0e0165048b39e706afce27942e0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account management and billing, press 2.",
+                            "fileID": "954348433c1742f59d1326c68348f813",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "116dbc41035b4f0f81e948b62afed7ed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4fbb90d1d2b04afdae529f68922f5b65",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d4e194a26a1e41d897a78dabf7a1f536",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bcba551da5424385b3198a4bea7218b6",
+        "navigationGoals": null
+    },
+    "id": "8ef7403b614441eea1b04b30e55f8792",
+    "navigationGoals": null
+}

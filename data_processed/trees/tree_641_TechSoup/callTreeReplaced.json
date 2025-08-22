@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to TechSoup in San Francisco, a global network bridging technology solutions and services for good.",
+            "fileID": "68f21b731e9244c4ac024a008ed4d7d5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For development agency services and program support, press 1.",
+                "fileID": "4128be59d64c44fe95ba153221959321",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For custom software development and integration, press 1.",
+                            "fileID": "031fd975b973489d8cbd4de00ecc9b38",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our software development specialists.",
+                                        "fileID": "e9215c72fd024e6aa97acba35e13d66f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5687a95a8ba74341bddb41ca24ef80db",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For training and capacity building programs, press 2.",
+                            "fileID": "dba0e5e7dbdc4eb4bc8a6fe9c58ff715",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our training and development team.",
+                                        "fileID": "47034b403c324ebbb9fc601e4f2bba22"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5dc00f128a9e418bba9c8d5e44d703dc",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "33d9b5e6635747e5aca2d128181b0c13",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For partnership and grant inquiries, press 2.",
+                "fileID": "53b70f9dfefe4b84abc454b229626763",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For collaboration and strategic partnerships, press 1.",
+                            "fileID": "588251a60b4b4f69a81564e9c10fcff0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our partnerships team.",
+                                        "fileID": "6713635446d4407db1a49c6de4ec3325"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64d594840ea94bbb9092c27b18c2f251",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For non-profit technology grants and donations, press 2.",
+                            "fileID": "827f97df8ed346a29db3abc8589c67f4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our grants and donations specialists.",
+                                        "fileID": "3dd66dea1fbb4dcf839bdfd45b35f05a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ddd4590a73de4fd7b9345c6a7f298a50",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e0401dfb1e824f2a9c6cbd1ee68a74b1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "14300dd13d5c4ac488abc20d2ac259f0",
+        "navigationGoals": null
+    },
+    "id": "cebd9f6ff814435d8655191d7d29319f",
+    "navigationGoals": null
+}

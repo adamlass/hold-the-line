@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Nova Credit in San Francisco, where we unlock international credit data to help lenders make better decisions.",
+            "fileID": "a76baef54dba411b9748135a23de985a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new partnership and sales inquiries, press 1.",
+                "fileID": "47d72e2aae4f4b92b4a548f699806387",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For consumer loan data solutions, press 1.",
+                            "fileID": "b5b09d1efb784a688534a0feb202a4b9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for consumer loan data solutions.",
+                                        "fileID": "b4e03d8c5bf64e1fab61da2a9259f16b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "db558e7dede84b7494a8cc3814b4deef",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For enterprise integration discussions, press 2.",
+                            "fileID": "f261d6bc2d354785a74730493a148231",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Enterprise Integration team.",
+                                        "fileID": "5905bfc9a7a14660ae4be13893f3a7bc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5e115fc0bb564e718dc9a1de46ef4951",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "727e274feaf243f19f48448b05ee4030",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing client support, press 2.",
+                "fileID": "b7c510abd7314be58959251cdde58624",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account and reporting support, press 1.",
+                            "fileID": "ef8bd208c8894d89b65ba8e126c57b48",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Client Success team for account and reporting support.",
+                                        "fileID": "828ddde4b65f42ee8ae3e494a588faa6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5e560af6fa3244218de0b81ff6db9f33",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical API support, press 2.",
+                            "fileID": "82b9f8c12ae14bde9b91c21d21e870df",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Technical Support for API and integration assistance.",
+                                        "fileID": "e580e3bbb2754447a053b632d13f73ac"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4844ad6fc1324599af4fbf8a6df0e314",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e57ccad0dfe24836a092ef7df05fce05",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "aa825bc23085444f8321a6f49e25895e",
+        "navigationGoals": null
+    },
+    "id": "374b0255be2a41da915d65272b8ff6f9",
+    "navigationGoals": null
+}

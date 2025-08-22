@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Forkable, San Francisco's lunch concierge, where we pick and deliver your next meal.",
+            "fileID": "6dfa6892964b40e2aa4a03c60d28ffc9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To place a new lunch order, press 1.",
+                "fileID": "7198b26c535e4403b73a17252de00ed6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For personalized menu recommendations, press 1.",
+                            "fileID": "23b7d903f95e427a846977699c6a1e8d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our menu specialists.",
+                                        "fileID": "cea66af2689c40aaaaa1a5c1923559eb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "16552985c6374ca9ac97011c8b73a47f",
+                                "navigationGoals": [
+                                    "Get personalized menu recommendations before placing my lunch order",
+                                    "I need personalized high-protein lunch suggestions for my fitness regimen.",
+                                    "I'd like algorithm-driven menu recommendations tailored to my dietary macros.",
+                                    "I\u2019d like recommendations for today\u2019s lunch and to place my order.",
+                                    "Obtain menu suggestions\u2014something nutritious and budget-friendly\u2014and place a new order."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak directly with a Forkable concierge, press 2.",
+                            "fileID": "bfafb66499a84cfd895d2bba77c20f50",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a concierge.",
+                                        "fileID": "eec8b7a3e86442c2b9057a5757549f10"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "240bf67dfc5d47d99a2cea447eee82b6",
+                                "navigationGoals": [
+                                    "Speak with a live concierge to place a new lunch order",
+                                    "I want to speak with a concierge to set up a weekly healthy lunch plan.",
+                                    "I want to talk to a concierge about configuring a custom group lunch schedule.",
+                                    "I want to speak directly with a concierge to place my lunch order.",
+                                    "Speak with a concierge to clarify dietary restrictions and finalize my lunch order."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "091adb8e23fa44068217263d941d5ffd",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you need assistance with an existing order, press 2.",
+                "fileID": "56d8f283ef7c4639a62306a3f8e2bb49",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To track your delivery status, press 1.",
+                            "fileID": "2542c1f6f1ba4f6ebf7dcc21e566d6bc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your delivery details.",
+                                        "fileID": "577033db751e4831bfa93a2a448dd5cf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6d3424a26ef64621a75af8bb5c06ff8d",
+                                "navigationGoals": [
+                                    "Track the delivery status of my current lunch order",
+                                    "I\u2019d like to check the delivery ETA for my current order.",
+                                    "I need real-time delivery telemetry to track my order's current location and ETA.",
+                                    "I need to check the status and location of my current lunch delivery.",
+                                    "Track my existing lunch delivery to see its current status and estimated delivery time."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To modify or cancel your order, press 2.",
+                            "fileID": "a3796793bd6043fcaf1129fecd6ac663",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to order support.",
+                                        "fileID": "b8c1a78f2c3e4629a4c3e95685709737"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d950f7fe0b494a6d9c7250c645e08226",
+                                "navigationGoals": [
+                                    "Modify or cancel my existing lunch order",
+                                    "I need to modify my existing order to add an extra protein bar.",
+                                    "I need to modify my existing order: swap an item and adjust quantities before dispatch.",
+                                    "I need to change or cancel my existing lunch order.",
+                                    "Modify my current order by substituting items and adjusting delivery time."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8d74cfb406b44fd9abfe940f261c5e31",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d612a41d396045d8978262534c179461",
+        "navigationGoals": null
+    },
+    "id": "aff540da366e478a95258ee4798309fa",
+    "navigationGoals": null
+}

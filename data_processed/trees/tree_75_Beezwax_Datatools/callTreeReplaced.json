@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Beezwax Datatools in the East Bay, your partner in web and database solutions since 1996.",
+            "fileID": "51aaef923c92485d94bff192fbd220e8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new project consultations and service inquiries, press 1.",
+                "fileID": "c3293e99689f4e1a80a1d309cafe426d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss a new website or web application, press 1.",
+                            "fileID": "90d1b38c535e497ca45c776d10a7fa74",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our web development team.",
+                                        "fileID": "96f163c877a64de1a8a8cb5d12d3d3e4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "39278297694146008a75199ecacc5a6b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To explore database design, optimization, or data visualization services, press 2.",
+                            "fileID": "6079beec082d4f788070890792a8c4cb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our database solutions specialists.",
+                                        "fileID": "a6968d5954424615a95a93e2b5cce971"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "510613927e794f018430da5738a0535f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b942d90e63254ce2b7ec4ecd85b52621",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support with existing projects or troubleshooting, press 2.",
+                "fileID": "849638aa0d1842ddb713efa2a1adce36",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support or issue resolution, press 1.",
+                            "fileID": "de861902604f4d3997eb971c82e30be8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "d2e31d498f924b11b1cabe04de5071be"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4b8c94faed7e4190b285a5222a0a54d5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For project updates, billing, or account questions, press 2.",
+                            "fileID": "504580184a7246c79c6842d824035b22",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to project management and billing.",
+                                        "fileID": "da5af33aaff24108b4434ef56ecbe408"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f8bce09d157d45ffb79fb0c1e3265bed",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "172575494bf946418b16ce1d53909ed3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "baf7f9c216cd49a3bb19f03d4e12f671",
+        "navigationGoals": null
+    },
+    "id": "866abeb43b8d4f7fadd04973bee7cc1f",
+    "navigationGoals": null
+}

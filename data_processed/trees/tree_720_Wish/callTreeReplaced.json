@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Wish in San Francisco, where shopping is made fun.",
+            "fileID": "d7ec2146679d4c2bbf2b26eff49747b4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To start shopping our curated deals and trending items, press 1.",
+                "fileID": "ae59916f44d646daa9c16aec218f073e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For electronics and gadgets, press 1.",
+                            "fileID": "a9edae01c01340d38af0fa61e6f4713d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our electronics department at Wish, where shopping is made fun.",
+                                        "fileID": "10d68964c388433283044c4642914b35"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cdb3a3fe84134d748f11f5a0d367109a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For fashion and accessories, press 2.",
+                            "fileID": "ad7a7689e85b43199c7469dec460c013",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our fashion department at Wish, where shopping is made fun.",
+                                        "fileID": "d6860800a6e148d48fcc8296e19db61f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5ae657655e7d4b9881f07b7b2f22326a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d68bdf9c0ceb4e6686d9656a7f98174c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For your orders or customer support, press 2.",
+                "fileID": "01c64aba65d449f3936f2470e921e853",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check your order status, press 1.",
+                            "fileID": "6d7536cf34224f3584f1af1147b97f15",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we retrieve your order details at Wish, where shopping is made fun.",
+                                        "fileID": "1f75e5244a2a43ac9f6f1d84c32cf551"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7ddceb7bd030419dbad3ea882bff1aed",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with customer service, press 2.",
+                            "fileID": "dcd840a06d5e4d28abd9060f239381bc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to a customer service representative at Wish, where shopping is made fun.",
+                                        "fileID": "34435349fb744cadb9a18a85da790e31"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "be73c4d8287b46918a34e0893529e72c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "972897ad9d234443b1de01286bf59285",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b1ffa4bcce284e7d996d5e7678e788d9",
+        "navigationGoals": null
+    },
+    "id": "a12252e7f133449eb8a985e0d04cccb6",
+    "navigationGoals": null
+}

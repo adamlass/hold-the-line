@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Runway Incubator, San Francisco\u2019s premier coworking and innovation hub uniting entrepreneurs, startups, VCs, mentors, Fortune 500 companies, and industry experts.",
+            "fileID": "f66309b9ea304e0b8c6f4bc5b412515f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For membership services and facility tours, press 1.",
+                "fileID": "b616353ace2e46aa8b6fcdb029995eb5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a membership specialist about plans and pricing, press 1.",
+                            "fileID": "b12591c3c4334968a9211baf1733831e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a membership specialist.",
+                                        "fileID": "9b38c6686c21443f9d2e74fe540a5454"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c3acbb4d801747f4822991ed95e52e71",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a tour of our San Francisco workspace, press 2.",
+                            "fileID": "96175265fcd94a74ad238580438fe1d3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our tours team.",
+                                        "fileID": "5d3e742d9f924b9181c8698935f254d7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "793c52dbde7644fdbaebd8e50593cb49",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6f24503ba005455bb2cab69c51079c89",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For community events and mentorship programs, press 2.",
+                "fileID": "6e6546ce7c7b4ae893574450fcd0e607",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on upcoming events and workshops, press 1.",
+                            "fileID": "55db2f9de3364e9f8a415dad90ecd53d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our events coordinator.",
+                                        "fileID": "cd29e27b5fb74141a60bb49ef11c2f4f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4255d086b493455887d9fc8fc5bfb8c9",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To connect with mentors and industry experts, press 2.",
+                            "fileID": "88b1c070c15c411c80af0c720f3b3a68",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our mentorship program team.",
+                                        "fileID": "aa8cdd16a6404ccb8c89e462b4048c5c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4413c6dbfd2e4acda745edbc55b2fb43",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "22ec7af06e564c88863a95e3c8bf6321",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "491574ac6b76413eaf211fb5def8090e",
+        "navigationGoals": null
+    },
+    "id": "46f272eba6124c179252827df56ada50",
+    "navigationGoals": null
+}

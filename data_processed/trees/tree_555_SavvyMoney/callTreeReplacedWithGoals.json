@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling SavvyMoney in the East Bay, the only solution providing comprehensive credit score analysis, full credit reports, monitoring, and personalized offers all in one dashboard.",
+            "fileID": "3b4969afb7bd4a21a8d296909a55a455"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For existing members and account services, please press 1 now.",
+                "fileID": "354d86c80b0149c9b8b028f1a5127181",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you have questions about your credit score or full credit report, press 1.",
+                            "fileID": "ae9c452dd6cb424bbd57ca4c5d41aacd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a credit report specialist.",
+                                        "fileID": "6f0b5a09f2104fd58e44814778706903"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4f41d985ffb941a19aae6078d5ee2e0f",
+                                "navigationGoals": [
+                                    "I need to dispute an error on my credit report.",
+                                    "I want to review my full credit report and check for any errors before applying for a VA home loan.",
+                                    "Review my full credit report breakdown, including tradelines and utilization metrics, and dispute any errors.",
+                                    "I need help understanding the recent change in my credit report and score.",
+                                    "I\u2019d like to clarify an unexpected entry on my credit report."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "If you need assistance with credit monitoring or alerts, press 2.",
+                            "fileID": "ea82869f400c46e78017b40a34dc63fd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a credit monitoring specialist.",
+                                        "fileID": "84844ad360a14e5db502694acd48f9da"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "729d29cb12224f30ad3181d0d9d5f163",
+                                "navigationGoals": [
+                                    "I want to set up real-time credit monitoring alerts.",
+                                    "I need to set up credit monitoring alerts to watch for identity theft after relocating post-service.",
+                                    "Configure custom credit monitoring thresholds and enable real-time alerts for inquiries and score fluctuations.",
+                                    "I want to set up credit monitoring alerts to watch for identity theft.",
+                                    "I want to enable real-time monitoring alerts for any changes to my credit profile."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ac818a3baa264f5d94fef9f3128be270",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For new customer inquiries and sales information, please press 2 now.",
+                "fileID": "823a0bbb2f7a48dd9bc88f29f3e5a58c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you'd like to hear about personalized financial offers, press 1.",
+                            "fileID": "2229cf2d94e24294b9f3bb13b18db049",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our offers team.",
+                                        "fileID": "22ccce04eecc4bf8970988eeb0b8b03c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8dec29a6794c4ba1941ab5d2c0768300",
+                                "navigationGoals": [
+                                    "I\u2019d like to explore personalized financial offers available to me.",
+                                    "I\u2019m interested in personalized loan or credit card offers designed specifically for veterans.",
+                                    "Explore data-driven personalized loan and credit card offers based on my risk profile and optimization recommendations.",
+                                    "I'm looking for personalized loan or credit card offers that fit my needs.",
+                                    "I\u2019m interested in reviewing customized financial offers that fit my student budget."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "If you're interested in our financial technology partnerships, press 2.",
+                            "fileID": "c3f20151adc5474393da30af9077d653",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships department.",
+                                        "fileID": "9f1ce8295e7647e58f47defbd1b6d0ce"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6e2215cbe50e455ebadb1afcb098f31b",
+                                "navigationGoals": [
+                                    "I need information on partnering my business with your fintech solutions.",
+                                    "I\u2019d like information on fintech partnerships that provide special financial tools for ex-military personnel.",
+                                    "Obtain technical partnership details on integrating SavvyMoney\u2019s credit APIs into my fintech platform, including specs and pricing.",
+                                    "I\u2019d like to know if you partner with my local credit union for these services.",
+                                    "I\u2019m exploring a potential fintech partnership opportunity for a student research project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "982b0c30ac4949409c89e73ee2987c69",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f49d0ea281b94080aaaf835212cedbea",
+        "navigationGoals": null
+    },
+    "id": "003f73b934eb476e97a5ee0adba8235e",
+    "navigationGoals": null
+}

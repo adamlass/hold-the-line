@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Salesforce, the world\u2019s number one CRM platform based in San Francisco.",
+            "fileID": "f05e28e367a64a6bb1a3bc717745be9a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales inquiries and product demos, press '1'.",
+                "fileID": "ed0385f9cfbd4a6d9d88f12dfbfcb3f8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press '1'.",
+                            "fileID": "837623554587499e840efab94e6934e4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Salesforce sales representative. Your call is important to us.",
+                                        "fileID": "7a82a17ad5f948d4a66ebaf17f036b4a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b4462379c364432f9f49084994f36176",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To request pricing information and consultation, press '2'.",
+                            "fileID": "5f108e7331aa47b2bccfdf3235716502",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience. We are connecting you to our pricing and consultation team.",
+                                        "fileID": "1ebf64f1cea840b1b78454c2e41dc2af"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f34e0e1b0c0441428817ccd31c45b406",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ebac392259f24b27a3744f26dfbfd763",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technical Support, press '2'.",
+                "fileID": "5a46a4af0ab144ecae2d066cf271d01b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are an existing customer and need technical assistance, press '1'.",
+                            "fileID": "6dc2f605181243fcb596a4182140f4e7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to a Salesforce support engineer. Thank you for holding.",
+                                        "fileID": "0b1d4a8346ff47c7baf160a920870884"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5e1f7e0953a94cc6bb745af4e00f5e65",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To contact your account manager, press '2'.",
+                            "fileID": "6fb8e6808ee44051addcb104dbca9dcf",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line as we connect you to your dedicated account manager.",
+                                        "fileID": "bf5501b7d0b544f8b255c99e2a17a6e8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cabb2f8d831b4cb4a784290cf5b6003d",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "043fa6a0896e428994a8e4173943bb78",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "661e82c812ac439a9898e263d1763f96",
+        "navigationGoals": null
+    },
+    "id": "abedf07fdff843569fa3cbd8b24bb2df",
+    "navigationGoals": null
+}

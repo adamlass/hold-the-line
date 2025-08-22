@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Carbon Five in San Francisco, your all-in-one design and development agency.",
+            "fileID": "df1aa7ec0f3e47d4a4bdb4ebc86d9886"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new project inquiries, press 1.",
+                "fileID": "de6d7107a9a146d3ae4e415ac33d9e49",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our design studio, press 1.",
+                            "fileID": "1768a06c256849af85482f863ae245e4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a design consultant.",
+                                        "fileID": "3ce1865015754d7ba4c566d5746aaf96"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "89389f0baa474dc38afe171a4a4f7ab5",
+                                "navigationGoals": [
+                                    "I\u2019d like to discuss design concepts for a new mobile app.",
+                                    "Discuss UI and branding design for a veteran community outreach platform",
+                                    "Evaluate Figma prototyping workflows for our new mobile app design.",
+                                    "I\u2019d like to talk with someone about designing a new website for my small business.",
+                                    "I\u2019d like to discuss the UI and interaction design for an interactive physics portfolio website."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To connect with our development team, press 2.",
+                            "fileID": "dd9f82547f5440c49cccf3e17e3ffe92",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a development specialist.",
+                                        "fileID": "52fe367b34944999b728fa4473c3800d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c9aed859c4084a949b080c0f45268da1",
+                                "navigationGoals": [
+                                    "I need to speak with a developer about building the backend for a new project.",
+                                    "Plan development of a mobile app to help veterans find job networking opportunities",
+                                    "Architect a GraphQL API with Apollo Server for our upcoming project.",
+                                    "I need to discuss building a custom software application from scratch.",
+                                    "I need to consult with a developer about building the data-processing backend for my physics visualization app."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a5320bd7bbd4429bbe1af4c8f78ed680",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing client support, press 2.",
+                "fileID": "fc4633367d9a4db2a4576dbbd1ea1d53",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For project status updates, press 1.",
+                            "fileID": "37384dc3d1d44c1b87a21ac5c9904649",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your project status.",
+                                        "fileID": "ec4fcf7d57cd49808f6e3bbfca40b570"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "17195577126647a0b4c4da2a79537d37",
+                                "navigationGoals": [
+                                    "I\u2019m calling to get the latest status update on my ongoing project.",
+                                    "Check the current status of my veteran support website redesign project",
+                                    "Get the latest sprint progress update on our React dashboard implementation.",
+                                    "I want an update on the status of my ongoing project.",
+                                    "I\u2019m calling to get a status update on the ongoing physics simulation web app project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support and troubleshooting, press 2.",
+                            "fileID": "09a6be2429e24d339c8755ef2c2ab2e0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "3c9e305aed2c458fa7c78c73cc83f513"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3c4738a173024eb89a61f9dbfefebe82",
+                                "navigationGoals": [
+                                    "I need help troubleshooting a technical issue in my current application.",
+                                    "Report and troubleshoot a bug in the messaging feature of my veteran health app",
+                                    "Troubleshoot latency spikes in our production REST API service.",
+                                    "I\u2019m having technical issues with the software you delivered and need help fixing them.",
+                                    "I need technical support troubleshooting a rendering bug in the physics simulation app we built."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3c42b1d850574f1ea6d46276558636d9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "97dbb4bc57444471a44b778f02688f7e",
+        "navigationGoals": null
+    },
+    "id": "b078b56c9907476482369216a395ddcf",
+    "navigationGoals": null
+}

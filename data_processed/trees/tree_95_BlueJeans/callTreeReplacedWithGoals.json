@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling BlueJeans Network in South Bay, the most advanced video conferencing solution for your workplace or on the road.",
+            "fileID": "7cd2eaf6aff248c39a13d2ce301cbc5a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new account inquiries, press 1.",
+                "fileID": "706b151363e64df0a4dad4d5effe39ad",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn more about BlueJeans video conferencing features, press 1.",
+                            "fileID": "d58edc2a2efb4b0abf1a49162a8362fa",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our product specialists.",
+                                        "fileID": "6e4d450cb9f54595b7d12301d037cfe0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7cf2e356d9a846439d7bd65539fc7b44",
+                                "navigationGoals": [
+                                    "Request a demo of advanced conferencing features",
+                                    "I\u2019m interested in setting up a new BlueJeans account and learning about its core features, including any veteran discounts.",
+                                    "I need a detailed enterprise deployment overview and API integration demo for the BlueJeans platform.",
+                                    "I\u2019d like someone to explain how your video conferencing service works and what features it offers.",
+                                    "Sign up for a new student account and arrange a demo of BlueJeans features for remote physics labs."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing details and subscription plans, press 2.",
+                            "fileID": "90b4fbfe0a2045a8a0c0226701399afc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold to speak with our pricing and subscription team.",
+                                        "fileID": "73c31d87726f43fda43b5d2c1cbd8a5b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "18e69ab0f13a449f8dc699765fde27ce",
+                                "navigationGoals": [
+                                    "Retrieve detailed subscription and pricing options",
+                                    "I\u2019d like to review BlueJeans subscription plans and get detailed pricing information, especially for veterans.",
+                                    "I want a quote breakdown for an annual subscription covering 500 host licenses plus add-on services.",
+                                    "I need help understanding the subscription plans and pricing for BlueJeans.",
+                                    "Get pricing details on student subscription plans and ask about academic discounts."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a460e6f6ddd148a89088019e75c11a98",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and troubleshooting, press 2.",
+                "fileID": "922d22a824fe4eb8b435dc2f3b9dfe43",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need technical assistance with your BlueJeans service, press 1.",
+                            "fileID": "e37047211ee84484a54c24ac48e44d55",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Your call is important to us; please stay on the line for tech support.",
+                                        "fileID": "af044f3ce5804e0b95959e5e083f0096"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "08a30a21f75447ba8b9fffd54993cc48",
+                                "navigationGoals": [
+                                    "Troubleshoot video/audio issues in my BlueJeans meetings",
+                                    "I can\u2019t connect to my VA telehealth appointment on BlueJeans and need help troubleshooting the connection.",
+                                    "I need help diagnosing end-to-end video latency via packet captures and adjusting QoS settings.",
+                                    "I\u2019m having trouble connecting to my meeting and need technical help.",
+                                    "Fix audio and screen-sharing issues when broadcasting my physics simulations over BlueJeans."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing or account management support, press 2.",
+                            "fileID": "93f523be31f7422eb77811582c66e4e6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "We are connecting you to billing and account services; please hold.",
+                                        "fileID": "d86785afd01141068bedb2164c32d8d2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "03476b45bdb74716be456ce107d35a3e",
+                                "navigationGoals": [
+                                    "Update billing information on my BlueJeans account",
+                                    "I need to update my billing information and verify my subscription status for my BlueJeans service used for my veteran support group calls.",
+                                    "I want to update my billing cycle, add a new invoicing contact, and review usage reports.",
+                                    "I want to review my latest bill and update my payment information.",
+                                    "Update my billing information and review my most recent BlueJeans account charges."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c93fea6f16c84630902e4f22ed77c4b2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "cf7bf6a175ae43c5825edacce52b8e23",
+        "navigationGoals": null
+    },
+    "id": "5b0e3991ce3e49f38883c98ad390faf0",
+    "navigationGoals": null
+}

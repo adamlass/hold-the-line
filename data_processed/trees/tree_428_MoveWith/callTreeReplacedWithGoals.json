@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to MoveWith, your personal fitness coach on the go.",
+            "fileID": "67155f42f5784186931aa1446d6c9ab0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For membership and session options, press 1.",
+                "fileID": "9d954b177ea64c4a8d9ad5c26a7cdb6f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule or reschedule a training session, press 1.",
+                            "fileID": "f47697fa95774861b9329af6c2d014f3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a session scheduling specialist.",
+                                        "fileID": "531e59053d1f409a96a736488257109b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ac1fc29237234756a0afcaa14dd8364d",
+                                "navigationGoals": [
+                                    "I need to reschedule my personal training session to a different day this week.",
+                                    "I need to reschedule my physical rehab training session to Friday afternoon.",
+                                    "Book a one-on-one HIIT session for Thursday at 5:30 PM.",
+                                    "I need to change the time of my next exercise class",
+                                    "I need to reschedule my Friday afternoon training session to Wednesday early evening to accommodate my lab schedule."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To manage your subscription or billing information, press 2.",
+                            "fileID": "72238389262e4b958e2b3db1b2da8f92",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to billing and subscription support.",
+                                        "fileID": "464ffba72461456f9093e62aebde5d08"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "98c3d8f14d074436b1069be36b986f23",
+                                "navigationGoals": [
+                                    "I want to update my payment method on my membership and check my next billing date.",
+                                    "I want to update my payment method and apply my veteran discount to my membership.",
+                                    "Upgrade my subscription plan to annual billing and update my credit card on file.",
+                                    "I would like help updating my membership payment information",
+                                    "I\u2019d like to update my credit card on file for my membership and confirm when my next payment is due."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a8b4cd4645dc412697e7cf575a3a6d4b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and general inquiries, press 2.",
+                "fileID": "01cd5e1b74224a3e8cfc04d6960c0c1b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and app assistance, press 1.",
+                            "fileID": "7b48661c910242d78d5b3807ef7e4050",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while our technical support team reviews your request.",
+                                        "fileID": "cfe18bb9056542b48bc0461729948636"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5c5e6afedfee407fbb028785cbceaa17",
+                                "navigationGoals": [
+                                    "I can\u2019t log into the MoveWith app on my phone and need help restoring access.",
+                                    "I\u2019m getting an error when I try to load my veteran-specific workout plan in the app and need technical help.",
+                                    "Troubleshoot why the app isn\u2019t syncing my smartwatch workout data.",
+                                    "I am having trouble opening the MoveWith app on my phone, can you assist me",
+                                    "The app crashes every time I try to view my workout history; can you help me troubleshoot this?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For our location, hours, and general information, press 2.",
+                            "fileID": "8b95874d86c14330b96ea537009bc98a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve our location and hours for you.",
+                                        "fileID": "57fa723958ee439eb608da5e75ae4ace"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "934ce40fa8804a3c8055a3224a47abee",
+                                "navigationGoals": [
+                                    "I\u2019d like the address and weekend hours for the nearest MoveWith studio.",
+                                    "I\u2019d like to find the nearest MoveWith studio with evening hours that offers adaptive workouts for veterans.",
+                                    "Get the address, operating hours, and navigation directions to the nearest MoveWith studio in downtown SF.",
+                                    "Could you tell me your nearest studio address and opening hours",
+                                    "Could you give me the address and weekend hours for your Midtown gym location?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4e8460538d6b48eab8f9cdc4b2618997",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "dd449986d7a349b4b85e7fba897b683c",
+        "navigationGoals": null
+    },
+    "id": "383f3dbd079b4cb4b97119bb495a0f4f",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Oscar Health in New York, where we do health insurance differently with more coverage, less hassle, and valuable member perks.",
+            "fileID": "4163abd310cf4b1794fbfed4d42ad9d4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For help with your existing plan, press 1.",
+                "fileID": "6ed9a8f7efa64c79b61f6a25b9ac72f8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For questions about claims or coverage, press 1.",
+                            "fileID": "cf397bc6fbea415bb2caee2c85dd1b6d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a claims specialist.",
+                                        "fileID": "2b10e7e3cc984ddc8d24dd943ac201e3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ddcb943515f9409da27a682e883d3f07",
+                                "navigationGoals": [
+                                    "I need an update on a claim I submitted last week.",
+                                    "Check on my recent PTSD counseling claim approval and coverage details.",
+                                    "I need to check the status of my recent claim submission and understand why it was denied.",
+                                    "I need to know why my knee brace claim was denied.",
+                                    "I need to understand why my recent claim for an MRI scan was denied."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, payments, or premium inquiries, press 2.",
+                            "fileID": "0eb289590a434ed08507b8ee9f86b2b8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "7bfb45aa4cd344f89cbb446706511bdd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "50633d76825048ba84e6dd666194c992",
+                                "navigationGoals": [
+                                    "I want to confirm my premium due date and pay my bill.",
+                                    "Ask why my monthly premium increased and review my billing charges.",
+                                    "I want to configure automated premium payments via ACH and review my billing statement.",
+                                    "I'd like to pay my monthly premium and set up automatic payments.",
+                                    "I want to update my payment method and enroll in autopay for my monthly premium."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "da7c26d26c954b8eb7bfe82f488efaa9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For new membership or plan information, press 2.",
+                "fileID": "9f672dc0eefc48e08e108e32f339a376",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To get a quote or compare plans, press 1.",
+                            "fileID": "6f005796e8a948e4a53cd6772d59c19e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we prepare your personalized quote.",
+                                        "fileID": "bc1b3eea8abc4ebfa82bd471e1dd85c6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "eaa47eeca6a340e7ab9d3610e2544e0a",
+                                "navigationGoals": [
+                                    "I\u2019d like a quick comparison quote for individual versus family coverage.",
+                                    "Get a personalized quote for a plan that covers mental health and physical therapy.",
+                                    "I\u2019d like to get a detailed premium estimate comparing a high-deductible Bronze plan with a Silver plan.",
+                                    "I need a quote to compare plans that cover my prescriptions.",
+                                    "As a physics graduate student, I\u2019d like a quote for an individual health plan for next semester."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about member perks and wellness programs, press 2.",
+                            "fileID": "8992632ff83040d08091d08ebaeb0b8b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a wellness advisor.",
+                                        "fileID": "ba135128a9a24f62b461d814b2afbede"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1d57036d5f19413596b95c5bf5f99e33",
+                                "navigationGoals": [
+                                    "Tell me about the wellness perks, like gym reimbursements and member programs.",
+                                    "Find out which wellness perks and benefits, like gym discounts or stress-management programs, I qualify for.",
+                                    "I\u2019m looking to enroll in the wearable device reimbursement program and sync my activity data for wellness credits.",
+                                    "I want to learn about your wellness and fitness perks for seniors.",
+                                    "I\u2019d like details on your wellness perks, especially any gym membership discounts or mental health resources."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b7548356564d42688c33f3840d4db515",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1cc3aaaa344846aeb6d6194203e0916f",
+        "navigationGoals": null
+    },
+    "id": "87d5c7f42f1b4ac6ae35f5328426ebab",
+    "navigationGoals": null
+}

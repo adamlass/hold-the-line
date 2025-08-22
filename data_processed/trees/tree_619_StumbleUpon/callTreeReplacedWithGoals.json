@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to StumbleUpon in San Francisco where we connect people to great content.",
+            "fileID": "892247d385df464396c2b53682ba184e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To receive personalized content recommendations, press 1.",
+                "fileID": "b8f73a2940ad47c99832d8599f99707f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For daily tailored content suggestions, press 1.",
+                            "fileID": "b23781c17fe441a0945c04bb3fa18011",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our recommendations team.",
+                                        "fileID": "cbe01839fd8947d98aecb8b25c40e7f4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "12ebf8f391634030a9c86528d275c786",
+                                "navigationGoals": [
+                                    "Get today\u2019s top industry articles tailored to my preferences",
+                                    "I\u2019d like daily personalized article recommendations on veteran resources.",
+                                    "I want to pull my daily algorithmically curated content feed.",
+                                    "I\u2019d like to get my daily personalized content recommendations.",
+                                    "I\u2019d like personalized physics and science article recommendations based on my interests."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For assistance from our editorial team, press 2.",
+                            "fileID": "88d75b6a3f704ec8bf0bbb25ebbb6644",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we\u2019re connecting you to our editorial team.",
+                                        "fileID": "9725230762724ee090441257ac29cc3c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "630b3906b5ea498da1890912ad1ffbfc",
+                                "navigationGoals": [
+                                    "Ask the editorial team for feedback on my draft article",
+                                    "I want to submit my veteran memoir idea and get editorial guidance.",
+                                    "I need to connect with an editor for content curation strategy.",
+                                    "I need help from the editorial team to find articles I\u2019ll enjoy.",
+                                    "I want to consult with your editorial team about submitting a physics research article."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a121fb767be447d5b1f19895bcd85668",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account and subscription support, press 2.",
+                "fileID": "9c013cd734d048818521f6afd7ba18a3",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For password or login assistance, press 1.",
+                            "fileID": "36a85d491617483c94c19bf69347d730",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to account support.",
+                                        "fileID": "7226848d9bdb46ff9713ad9118ca63d3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "123706c767ca4235a974e80ceb3e2c7d",
+                                "navigationGoals": [
+                                    "Quickly reset my account password",
+                                    "I need help resetting my account password.",
+                                    "I\u2019m locked out\u2014please initiate a password reset workflow.",
+                                    "I forgot my password and need assistance logging in.",
+                                    "I need to reset my password so I can log into my account."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and subscription inquiries, press 2.",
+                            "fileID": "6d0dc436f8054469b8b82c2ed3d2b763",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing support.",
+                                        "fileID": "0b554efd7c034cbdafd0b6658b81d658"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fea784d3ff754e21917a15d2edc0bf0a",
+                                "navigationGoals": [
+                                    "Check the latest subscription billing details",
+                                    "I have a question about recent billing charges on my subscription.",
+                                    "I need a detailed breakdown of my subscription billing cycle and charges.",
+                                    "I have a question about my subscription billing.",
+                                    "I\u2019d like to update my subscription plan and billing information."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "66b66e6762454969861fd70e556ebae0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9b70b8bd63d942f4ac9d97c2dc3b4f0c",
+        "navigationGoals": null
+    },
+    "id": "ce5973e361c94b14ac0707bb86ec03cf",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Smarking, your San Francisco-based parking data consolidation and optimization experts.",
+            "fileID": "db7c25ed12734db8abd20dc6bf93b4a2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press '1'.",
+                "fileID": "06ed0029e0c84f89936c33bf05b14089",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a demonstration of our platform, press '1'.",
+                            "fileID": "e376bbaea8eb4913b6db281397343de5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for demo scheduling.",
+                                        "fileID": "b3bd04e62ac4441281b55da19869d780"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7177b7eff51540cd9fc5c51cf0dee443",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn more about pricing and plans, press '2'.",
+                            "fileID": "c2eddd9995584701b9c2e7eba44a51c7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing team.",
+                                        "fileID": "2cc60756fb3a47b7a897bd9b8e7f2682"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a6c439ab2efa4e04800814b2fce08ea3",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7a05c6cd0513465b8bd6f53771b86e36",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and system troubleshooting, press '2'.",
+                "fileID": "b72be5104bff43bc91f4ce6793189466",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For API and integration assistance, press '1'.",
+                            "fileID": "b02a435c633047e9942020fde84040f4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an integration specialist.",
+                                        "fileID": "11769262038b494ba32e0c6f60959f83"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "28e01f0e57e148dea4bd3206fe61cfcf",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To report a system issue or bug, press '2'.",
+                            "fileID": "0bbf58430ed14c7ebac0c2b01b2fc252",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support team.",
+                                        "fileID": "584817628679408dbe9586b83dffa11a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5278d2a7b2724f0da80ed4586984ca33",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "92f3fb50fc6d4cd2b929cbcbbdb92426",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6822b927e24f459ebdd34802b73e8cb8",
+        "navigationGoals": null
+    },
+    "id": "3f74cd28b3944b699add084f6778d30e",
+    "navigationGoals": null
+}

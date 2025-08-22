@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Getaround San Francisco, where you can rent cars from people nearby starting at five dollars an hour.",
+            "fileID": "0a195104f3f345aa81991ed330a96675"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To rent a car and explore available vehicles, press '1'.",
+                "fileID": "9204f192989d4e6a91303226baaa1d01",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To search cars by location, press '1'.",
+                            "fileID": "90e2cfdf4174448d9809ceb9197ecce5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to our vehicle availability team, please hold.",
+                                        "fileID": "5adc3b4911c34bbab4ac804d27477826"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e2aa763d284b4ab89b1e82531f0587c4",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To manage or cancel an existing reservation, press '2'.",
+                            "fileID": "45c58d676f7e463fb317ee5259f20f61",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to reservations support, please hold.",
+                                        "fileID": "7a6619bfe3c041c381fc9d197c648dd4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6eea13703a754efd98e432bf2f94bc4e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "70fa4061c356497685463d6215fd5616",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To list your car and earn income as a host, press '2'.",
+                "fileID": "3d0767a7b32549a9b0ab5c3f1fc779e7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To sign up as a car owner, press '1'.",
+                            "fileID": "e36d0eb70eb74ab5a48dc28503c82def",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we will connect you with our host onboarding team.",
+                                        "fileID": "7cc6f3a57181451db28679a544e55dc8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "99ad91d1e2d44818988ef0c34d7bb63b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To manage your current listings, press '2'.",
+                            "fileID": "fa47eaf29f8c4290ac3e2373bd872227",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to your host account manager.",
+                                        "fileID": "13050864a8b24a4bae7f55cfb527b2eb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "90ba072fab684d64b4726e9d290a3e06",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "980db5b5cfe84202a6fcd590df3f9f6f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bdf90178a8df4e388e55da65a586ae8a",
+        "navigationGoals": null
+    },
+    "id": "136e129b007248d78de14534875c412e",
+    "navigationGoals": null
+}

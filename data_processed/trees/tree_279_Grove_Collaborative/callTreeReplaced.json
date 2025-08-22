@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Grove Collaborative, your source for healthy, beautiful home essentials.",
+            "fileID": "a81bc05042ad48e0a2aa29139ea8b335"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For orders, subscriptions, or account inquiries, press 1.",
+                "fileID": "c07ade2164e84e33a5b015140cb39325",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For order status and tracking, press 1.",
+                            "fileID": "b61f3f4d5f8544e599043bae927b1417",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order support team.",
+                                        "fileID": "ed6a9f3db5d6401e808b84f096c43993"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f93aca1573f147fda66d0cd9ed253e4e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To update your subscription or account details, press 2.",
+                            "fileID": "cdf7b892394e497e8991d1dec42d23bf",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you with our account services department.",
+                                        "fileID": "cf1f765dafdf4ac396629cca624e6cb6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3a38b62252bb4599a30c646ff3789962",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "473fd49a95af49a18692257a45dd899a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For product information, tips, or sustainability support, press 2.",
+                "fileID": "0b3ba691bc78494ea866dd2edfb32743",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product ingredients and usage guidance, press 1.",
+                            "fileID": "2cd52009c48842f89b5757539150d928",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a product specialist.",
+                                        "fileID": "583884f5d9a5423b823e77d8700834a8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "004a4321b1fb4643886cc6e231d78442",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For eco-friendly home tips and sustainability advice, press 2.",
+                            "fileID": "9126ce671555460d8d450534f28e06ac",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you with our sustainability team.",
+                                        "fileID": "988d3502f11c49b981ff6eb892102c22"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ffa91f4182b04669a2fd219a16726d43",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "de7116b5e8694e2896f98d7d9cd5a488",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "17aa44fa9d284da5b1f790b007c2d7f5",
+        "navigationGoals": null
+    },
+    "id": "6b4a95725bfe4a6c8b64b91e54d98257",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Stamen Design in San Francisco, where we create experimental data visualization prototypes.",
+            "fileID": "5a8d26f8f2b042d29333709aa317ce80"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new project consultations, press 1.",
+                "fileID": "686e38b7c3e345f6b5c65c195c725434",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our design team, press 1.",
+                            "fileID": "1f0fd685d367437ead716e0799212e57",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our design specialists.",
+                                        "fileID": "a04ebba5530c43b1a8f52a507cddd9ac"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9e006eacb54147c492d4334b1d75d608",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To reach our development team, press 2.",
+                            "fileID": "c997250cbe7e44348bde58cc463bf406",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our developers.",
+                                        "fileID": "0b6c5a76ba2f4124ae53e69852b08039"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a194aa5195524e86a63ca249d7c064bc",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "50e972e483ee4d6f80ce51f850891c59",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For company information, press 2.",
+                "fileID": "9114eb0910634fd3a4e7434c2fabe7cc",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear about our agency and approach, press 1.",
+                            "fileID": "19d512d799234a61961478212c58f5fe",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we prepare our agency overview.",
+                                        "fileID": "f0c5a210ea8244b1895f4d694b56d1f3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9d7f2708a3d5447ea6aaee2f009d7409",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For our office hours and location, press 2.",
+                            "fileID": "65390e34a1844f3a9251309e960f3174",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve our office hours and location details.",
+                                        "fileID": "6a1f7d6f9515490385454b3b1cc737df"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3b9c425c579a4c368785b9f3fdc74deb",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f0df7711a8964ac7b81ed4932499d307",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "474bc5ce965641c6ae7a02bee94afaba",
+        "navigationGoals": null
+    },
+    "id": "772d2710bf1e4b5f813bf211345cf1f7",
+    "navigationGoals": null
+}

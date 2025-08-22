@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Benchmark Capital in San Francisco, specializing in early-stage venture investments in mobile, marketplaces, social platforms, and enterprise software.",
+            "fileID": "2f17dd9d05a448fd8d76db8d0b234cd0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For general inquiries about our investment focus and portfolio, please press 1.",
+                "fileID": "4d79f68f95454cffbf1d2361a54461de",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our early-stage venture investment criteria in mobile, marketplace, and social sectors, please press 1.",
+                            "fileID": "f3cd97464cce4e82b0b606bd63d096ca",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our investment team.",
+                                        "fileID": "98a837ebc4ad485fb9603d209062cf6d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ab76ef44a82441c5bb30d5ebe6f6101b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For information on enterprise software and infrastructure investments, please press 2.",
+                            "fileID": "be233767986e42abb43884b12e8ec8e7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our enterprise software team.",
+                                        "fileID": "643902fad1c34485a7f133376a5d10b4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "708a206933164e9ba7e994b547becc5d",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "670bc59f5ca541b98b3e970c0f077ed6",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support with existing investments and our financial services, please press 2.",
+                "fileID": "e4053edea8f24413854b495fb7ede7c2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are a portfolio company seeking support services, please press 1.",
+                            "fileID": "3558ce748bb14def807063314d3893ea",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our portfolio support team.",
+                                        "fileID": "f6fec5fa5e4d462c878ed8437223b6b5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cf5d16f6412540f3a40046c677493cc5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For financial reporting and accounting assistance, please press 2.",
+                            "fileID": "82e89a3dfcb6478f9023ffd9cad2200b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our finance support desk.",
+                                        "fileID": "010c7c0986c444b49a39d01881dbdbee"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ee1899156fc14c6eba331c827d9194ec",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1964d0a67e58407ca1f3085647f84e7d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e38eaec7ac384faaa4ce353cfb997883",
+        "navigationGoals": null
+    },
+    "id": "ab122fd6c9e545139fbb39db54ae5f84",
+    "navigationGoals": null
+}

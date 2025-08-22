@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to BabyCenter San Francisco, your trusted source for pregnancy, children's health, parenting, and child development information.",
+            "fileID": "36e1120d14874d98825a4c94eff4dc26"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For pregnancy resources, press 1.",
+                "fileID": "e33367c8bb044bf5a4f5d5205c3f6603",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For our week-by-week pregnancy guide, press 1.",
+                            "fileID": "b36d395d3792403e93cc24afe90305f0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the week-by-week pregnancy guide.",
+                                        "fileID": "070dffa7a3924f5db388c09ce2696ce0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a1044d6926a74ed89981f84d64d29d33",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For prenatal class schedules and wellness tips, press 2.",
+                            "fileID": "0d6981a1cb584733a8522e55ff3ca871",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve information on prenatal classes and wellness tips.",
+                                        "fileID": "2f9e98e879164e078906102a1f54b950"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1e98d8a47ce94fc2887b6d27311f30bf",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fb1e76d803ed425f9b899418992da221",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For children's health and parenting resources, press 2.",
+                "fileID": "4eba2c8323734fea8e2bb38d83cc78a4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For children's health and nutrition advice, press 1.",
+                            "fileID": "28465194c8154427af63c344a68adc2b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve children's health and nutrition advice.",
+                                        "fileID": "8546e03856b14a87ac9b4f31c4efde88"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "577ae6c98811410785313985d00ada7d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For parenting tips and child development articles, press 2.",
+                            "fileID": "21b960a9e1e24406812b014fbd1f2cb8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve parenting tips and child development articles.",
+                                        "fileID": "876f91f466c8497aa0ae759fec78b422"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2147458382b44b0d8a6e10758871cc7b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5419657a514740dc98c42b7b77c1b63d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1b3fcf6ff4ef47a2a431954aaa87f156",
+        "navigationGoals": null
+    },
+    "id": "621475762b164b6d85b0c918e49ee328",
+    "navigationGoals": null
+}

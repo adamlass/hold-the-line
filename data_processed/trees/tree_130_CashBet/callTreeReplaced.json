@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to CashBet, your East Bay partner for legal and profitable iGaming operations.",
+            "fileID": "6007c0571c024993865493b8b5c5463a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an existing operator, press '1' for operator support.",
+                "fileID": "6e19ccaa68ec4cff9b7672c23089f75c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and platform integration, press '1'.",
+                            "fileID": "6c16f780d607456682bfcc45397fec4b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team in East Bay.",
+                                        "fileID": "91209ca77530485a904c4624de0ea876"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e10c3e4457a74ac49454d84fd75be67d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For compliance, regulatory, and legal questions, press '2'.",
+                            "fileID": "97fba6d5096846abbc5f100fe8b17b83",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our compliance specialists.",
+                                        "fileID": "278d7fdaf7d44ef49c4734bbef0f32e6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3503ebe4c5b64eb5a47f0364e8386080",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "48ae684ff62e40f18556fc36f10794c1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are interested in our services, press '2' for sales and licensing inquiries.",
+                "fileID": "fc0e738a7a714cbeab695430015cd255",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on licensing and legal setup, press '1'.",
+                            "fileID": "5c03d25a9c5e446b88a857ec343b6b10",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our licensing team.",
+                                        "fileID": "569648011dce48aca9b4d578b7992ce3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "63c624936b4244998a6da2d4413e3f4a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For product demos and profitability consultations, press '2'.",
+                            "fileID": "fe9fb0244e304241a34613772118601c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales and consulting team.",
+                                        "fileID": "5da9501cff1c4a1ea2fe01ce5a6bbfcf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ff9829bbc4ff4cfb9a0883e3c29eb7d4",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "767f297b9e324baab9ff6c615884706f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b25137649e0b4337b77840b22d758e4a",
+        "navigationGoals": null
+    },
+    "id": "27f62a336fa4465fa901f422e4e4e13f",
+    "navigationGoals": null
+}

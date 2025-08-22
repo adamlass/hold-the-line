@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Thalmic Labs in San Francisco, where we pioneer wearable technologies that transform how you interact with computers.",
+            "fileID": "1c28485a38554da3b2e903f3bb8e7f56"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support, press 1.",
+                "fileID": "7cfe067f4f834dbd96d0256eb5fe2ecf",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For device setup and troubleshooting, press 1.",
+                            "fileID": "442bb782f106427ea35dafd7a1fd7ae2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "c00d83f687d742e1bf322c28f61a45b3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dc5b2a64f9a14e80b2d192efde108020",
+                                "navigationGoals": [
+                                    "Troubleshoot my new wearable\u2019s setup and connectivity issues immediately",
+                                    "I need help troubleshooting my MYO armband\u2019s connection and calibration on my PC.",
+                                    "Diagnose and recalibrate the IMU sensors on my Myo armband after the latest firmware update",
+                                    "I need help setting up my new wearable device and connecting it to my computer.",
+                                    "I need assistance calibrating my Thalmic armband for precise muscle signal readings in my physics lab experiment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For warranty and repair status, press 2.",
+                            "fileID": "afe39e13167b47b1a4c6c0685c8d43ab",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your warranty and repair information.",
+                                        "fileID": "a2401bdd941c445fb6cae8e168eb0286"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a304ca7af22b443fa3b0511932164330",
+                                "navigationGoals": [
+                                    "Verify the warranty coverage and current repair status of my device",
+                                    "I'd like an update on the warranty repair status of my sent-in gesture control device.",
+                                    "Retrieve the RMA number and current warranty repair status for my malfunctioning Myo device",
+                                    "I\u2019d like to check the warranty repair status of the device I sent in.",
+                                    "I\u2019d like to check the warranty coverage and current repair status for my faulty Myo armband."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "210f8a42cb5f46eabfaa3b71fa2055e3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and product information, press 2.",
+                "fileID": "a66b0daab9e641e68c49c84df46ac2a7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product catalog and pricing, press 1.",
+                            "fileID": "0bc4f5da71da4ee79490b4f6d32e76fb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our sales team for detailed product information.",
+                                        "fileID": "a23e6d1c531647b0852452de574c2dc7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b96409f967724e86b71d519936fd1869",
+                                "navigationGoals": [
+                                    "Obtain a detailed product catalog with pricing for your latest wearables",
+                                    "I'm interested in getting a price list and catalog for your wearable devices.",
+                                    "Obtain the detailed technical spec sheet and per-unit pricing for the upcoming Myo release",
+                                    "I want to review the product catalog and pricing to choose the right model.",
+                                    "I\u2019m comparing Thalmic armband models for a research project and need detailed specifications and pricing information."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For bulk orders and partnership inquiries, press 2.",
+                            "fileID": "8846012965a344bea4268760eb3eccca",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our partnerships and bulk order team.",
+                                        "fileID": "349a3a481bb04fef84c5ba7a09b6681a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a398c8921e42482799d39bd4a6b7fb36",
+                                "navigationGoals": [
+                                    "Explore bulk purchasing options and partnership opportunities for my company",
+                                    "I want to discuss bulk ordering armbands for my veterans\u2019 support group program.",
+                                    "Discuss enterprise bulk-order discounts and OEM partnership requirements for integrating Myo into our product line",
+                                    "I\u2019m looking into bulk ordering multiple devices for my senior center and need pricing details.",
+                                    "I\u2019m interested in placing a bulk order of armbands for a university physics lab and would like to discuss partnership and discount options."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e3e8017540694d22bb44e328ae55a7e7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "dfd9aa1a2e0d44e0a1c06f462123c2b9",
+        "navigationGoals": null
+    },
+    "id": "4a3391ae77624e1089ad831fe75954ef",
+    "navigationGoals": null
+}

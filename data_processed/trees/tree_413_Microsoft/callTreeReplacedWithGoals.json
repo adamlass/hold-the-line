@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Microsoft in San Francisco, where our mission is to empower every person and organization to achieve more.",
+            "fileID": "9e3db32596ac4073b3bd861f56c08eb7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For consumer product support, press 1.",
+                "fileID": "24f39895ef8543e086c736c3f5739b01",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For Windows and Office assistance, press 1.",
+                            "fileID": "f388b81669cb471db21325e18e2ba463",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Windows and Office specialist.",
+                                        "fileID": "e8bbcf70404e4ed2b37a9554314904be"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "36502ebc130742919b3014b97bb4823a",
+                                "navigationGoals": [
+                                    "I need help fixing an Office activation error on my Windows PC.",
+                                    "I need help reinstalling Office on my personal PC after upgrading my hard drive.",
+                                    "Resolve Office 365 activation error (0x80072f8f) on Windows 10",
+                                    "I need help installing and activating Office on my PC.",
+                                    "I need help enabling the math equation editor in Word on my Windows laptop."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For Surface devices and accessories, press 2.",
+                            "fileID": "92fc3bf9a4c04a4cb7bb5d6cc9fefaec",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the Surface support team.",
+                                        "fileID": "1001bbaad89a464988c6214a081a886a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "73b6ab6a06e842ff9e6820cf59cf14d8",
+                                "navigationGoals": [
+                                    "I need to arrange a replacement battery for my Surface Pro.",
+                                    "My Surface Pro isn\u2019t charging properly and I\u2019d like repair or replacement options.",
+                                    "Update firmware and calibrate Surface Pro 7 Pen for optimal performance",
+                                    "My Surface touchscreen isn\u2019t responding and I need assistance fixing it.",
+                                    "My Surface Pen isn\u2019t working when I try to draw physics diagrams in OneNote."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1b3f467a541449fc81edc415372e74b5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For business and enterprise solutions, press 2.",
+                "fileID": "5ec54a09b59648fd804e0d8c968b8e8a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For cloud services and Azure inquiries, press 1.",
+                            "fileID": "21c6d4567c994b5ca4a8927d7740eeea",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Azure cloud support team.",
+                                        "fileID": "adb4e07fd6f9469aa5843ed79d43b31c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a6b8caf31cdd45ec9d0c060e4c5bb72a",
+                                "navigationGoals": [
+                                    "I need guidance setting up auto-scaling on my Azure web app.",
+                                    "I want to set up a secure virtual machine in Azure for my small consulting business.",
+                                    "Configure Azure AD conditional\u2010access policies with MFA for our corporate tenant",
+                                    "I forgot how to access my files in Azure storage and need help recovering them.",
+                                    "I want to set up an Azure virtual machine with GPU support for my physics simulations."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For licensing and volume purchasing, press 2.",
+                            "fileID": "538a8509ce0c4d0f9d26b5420533aeec",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our licensing specialists.",
+                                        "fileID": "e7f5d13e3929489194c8832411a3c474"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "45f199f0c8444b3f98cb681d8b475150",
+                                "navigationGoals": [
+                                    "I need to purchase volume licenses for Office 365 for my department.",
+                                    "I\u2019m organizing a veterans nonprofit and need pricing and licensing options for bulk Microsoft 365 subscriptions.",
+                                    "Purchase volume licenses for 200 Microsoft 365 E3 seats under our Enterprise Agreement",
+                                    "I want to purchase multiple Office 365 licenses for our community center.",
+                                    "I need to purchase bulk academic licenses for Office 365 for my physics study group."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4f7eb077c0a64f39aa368389eeb152ab",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "0f736c29e9cc458892444bdcb99298b3",
+        "navigationGoals": null
+    },
+    "id": "976df00c84d540b4bcd2bdc55b96b306",
+    "navigationGoals": null
+}

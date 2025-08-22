@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Kleiner Perkins, San Francisco venture capital partners investing in bold founders from inception to IPO and beyond.",
+            "fileID": "39747674508c40f59d3772645abd7822"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For inquiries regarding our existing portfolio companies, press 1.",
+                "fileID": "ccd3d0d827ac407a95099aa6b7170182",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reach your Kleiner Perkins partner, press 1.",
+                            "fileID": "340815a1af3345259677762cc25f8aa2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your partner. Your call is important to us.",
+                                        "fileID": "3050c9693d654d98aeda7ba755c9ba40"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "238e9df98fbd4ad681221627ea2961e2",
+                                "navigationGoals": [
+                                    "Connect me directly to my Kleiner Perkins partner for a quick update",
+                                    "Discuss my veteran-focused startup's progress with my Kleiner Perkins partner",
+                                    "Sync with my Kleiner Perkins partner to review our Q2 performance metrics and discuss scaling our microservices architecture.",
+                                    "I\u2019d like to speak with my Kleiner Perkins partner about updates on my existing portfolio company.",
+                                    "I need to speak with my Kleiner Perkins partner about a potential research collaboration with one of your portfolio companies."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For accounting or billing questions, press 2.",
+                            "fileID": "3665d5d19e2d4b67bc9f2200569e588f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our finance team.",
+                                        "fileID": "f849274ba394468e8107d024cb43b6af"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9cf4bc3c006f430c9a42fcf79037b8b0",
+                                "navigationGoals": [
+                                    "Resolve a billing question on my account statement",
+                                    "Ask finance for details on the recent funding disbursement to my veteran-support company",
+                                    "Get clarification on the latest invoice\u2014specifically reconcile the expense codes and billing cycle for our cloud infrastructure usage.",
+                                    "I need help understanding and paying my recent billing statement from Kleiner Perkins.",
+                                    "I have a question about my recent invoice for data analysis services from one of your portfolio startups."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "883cec3f5a9045d295461c3bf984846a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an entrepreneur seeking funding for a new venture, press 2.",
+                "fileID": "985bbce89e8c4b1bbf39251eefa70cdb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For initial pitch submissions, press 1.",
+                            "fileID": "e9309c0d9336483e8b361b2d85b6bd05",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our investment intake team.",
+                                        "fileID": "b7929a3d3e504d3d93dd2a536d0a3a04"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6622260161b14d21b961c6ea6212fd05",
+                                "navigationGoals": [
+                                    "Submit my initial pitch deck for venture funding",
+                                    "Submit an initial pitch deck for my veteran-owned venture to Kleiner Perkins",
+                                    "Submit an initial pitch deck for our AI-driven SaaS startup focusing on real-time data analytics.",
+                                    "I want to submit my initial pitch for a new business idea to Kleiner Perkins.",
+                                    "I\u2019d like to submit my initial pitch for my quantum computing startup."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about our investment criteria, press 2.",
+                            "fileID": "bfdc9c44aff443a0b93fb59ce4a31fa9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, transferring you to our investment criteria specialist.",
+                                        "fileID": "c8d8ccd5801744aaa4c58ae0c34e7704"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4e8fe16be7c74269a7c96c9463c7173c",
+                                "navigationGoals": [
+                                    "Get details on Kleiner Perkins\u2019 investment criteria",
+                                    "Inquire about Kleiner Perkins' investment criteria for veteran-led early-stage startups",
+                                    "Discuss Kleiner Perkins' investment criteria, including preferred check sizes, traction benchmarks, and sector focus.",
+                                    "I\u2019d like to ask what Kleiner Perkins looks for when evaluating new investment opportunities.",
+                                    "I want to learn about your investment criteria for deep tech ventures in applied physics."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b7733356e4aa4368a13bbbfbeb36c1d2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7cbbf83185db4bdd885e29094543b9e6",
+        "navigationGoals": null
+    },
+    "id": "2f048f5164ea4646b7dfae3fa065f2ae",
+    "navigationGoals": null
+}

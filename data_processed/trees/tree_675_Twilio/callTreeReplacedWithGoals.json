@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Twilio, the leading voice, SMS, and video platform connecting businesses globally.",
+            "fileID": "0ba75b273495484585006cd0cedd378b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and new account inquiries, press 1.",
+                "fileID": "8c48c3f27d6b417da17e20b1296fb122",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To open a new Twilio account, press 1.",
+                            "fileID": "7a62c801f5bd4d618948fab4377329ab",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our new accounts team.",
+                                        "fileID": "a8fcc525eebe46e6b3e0ba2aada30e6e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8d786cddbed5458bb2b19184ea03f48b",
+                                "navigationGoals": [
+                                    "Set up a new Twilio account.",
+                                    "I want to open a Twilio account to send SMS alerts for my veteran outreach program",
+                                    "I want to provision a new Twilio account and retrieve my Account SID and Auth Token.",
+                                    "I need help opening a new Twilio account.",
+                                    "I\u2019d like to create a new Twilio account to experiment with SMS APIs for my physics lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing and product information, press 2.",
+                            "fileID": "6dbd00356a5f451f8e9336dc82c9c459",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing specialists.",
+                                        "fileID": "25c2d36629e24d5887239b9702b5417f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bab9c6bded664c17aff031b72d4ab3a7",
+                                "navigationGoals": [
+                                    "Get detailed pricing information on Twilio\u2019s messaging and voice services.",
+                                    "I need detailed pricing info for Twilio SMS services for my nonprofit veteran charity",
+                                    "I need a detailed breakdown of usage-based pricing for SMS, Voice, and Video SDKs.",
+                                    "I\u2019d like to know about Twilio pricing and service plans.",
+                                    "Could you provide me with the pricing breakdown for Twilio\u2019s messaging and voice services for a student project?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ec72ca88d1394ce79a5a9416412d1e83",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Support, including technical and billing assistance, press 2.",
+                "fileID": "7aec49893e8442e5bbd950d9b901bafd",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "ee88b65ffc2f483db7d3fc101144a13a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support engineer.",
+                                        "fileID": "f8d9da233eab443899fd3749accecb62"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9da0111a5e844fdaba715ff276815248",
+                                "navigationGoals": [
+                                    "Troubleshoot a technical issue with my Twilio integration.",
+                                    "I'm experiencing technical errors with my SMS API integration for my veteran support app",
+                                    "I'm encountering HTTP 400 errors with my Twilio API integration and need help debugging.",
+                                    "I\u2019m having trouble with my Twilio setup and need technical help.",
+                                    "I\u2019m experiencing issues sending messages via the Twilio API in my data collection script and need troubleshooting assistance."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "6afa7843b1d04bfb9046c62ff40cfeb6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "00c883437b894e15af9eb9e1206b711c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b8984ca707e64b8faa9d7180404980f0",
+                                "navigationGoals": [
+                                    "Resolve a billing discrepancy on my Twilio invoice.",
+                                    "I have a question about my billing statement for Twilio services used by my veteran group",
+                                    "I need an itemized breakdown of unexpected charges on my latest Twilio invoice.",
+                                    "I need assistance with a billing question on my Twilio account.",
+                                    "I need clarification on a recent billing charge for my Twilio usage this month."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7db9ad928ddf4075b56339278f24304a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "97ed614bbaaa455baefa4252205c7bb3",
+        "navigationGoals": null
+    },
+    "id": "4dd72e4e26ea4ba79dd1bb2b3d845860",
+    "navigationGoals": null
+}

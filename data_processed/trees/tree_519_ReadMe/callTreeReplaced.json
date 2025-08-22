@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to ReadMe in San Francisco, where we help developers say goodbye to static documentation.",
+            "fileID": "bf6863d030654c90a4488fde34d5729b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "a6651c4be92a4b028198e786a2590645",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing and plans information, press 1.",
+                            "fileID": "7caa196ca85d449cb4ea2fa7d71dec43",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing team.",
+                                        "fileID": "c0f0dae85e8c4390a6d7406405a43472"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1e36ee30c3a5420fa9aed277a30ab0e6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a product demo with a ReadMe specialist, press 2.",
+                            "fileID": "2a5f6531f572404cb61526642e03f758",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a product demo coordinator.",
+                                        "fileID": "ae3244b6aaba43e0917229d91507ef0e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dd9ab5aafde44bd6bcd76d9f71ea846e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "83c7863b626740bda752c32d132162a4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and customer service, press 2.",
+                "fileID": "7112c817948143c382c27df3546e253b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For API integration support, press 1.",
+                            "fileID": "3fe14230d8c3460c9527f545704113c5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One of our integration experts will be with you shortly. Please hold the line.",
+                                        "fileID": "3cecf2dc1db4459ca213aa1ad510362d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1c365354f7d943b5804121f4ce4a0fce",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To report a bug or check on an existing support ticket, press 2.",
+                            "fileID": "06a2da9de67c4371922fe55747b7e3c6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support team for bug reports.",
+                                        "fileID": "2a52214c503e4ed4b031c61d132d7e65"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cdcca77e91664eae939ba4aa880a8b6b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0bd242fc732f4b9489abd47dc699f45e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bb69f3aadd6a48ec8d76e7e07315af43",
+        "navigationGoals": null
+    },
+    "id": "be06fedccc8c4953a486433206d28d70",
+    "navigationGoals": null
+}

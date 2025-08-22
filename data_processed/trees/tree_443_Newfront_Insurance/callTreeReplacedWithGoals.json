@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Newfront Insurance, the modern San Francisco brokerage combining excellent service with streamlined technology.",
+            "fileID": "a6ab0f07b15b4a5f98f7ba9ef313fca0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new insurance quotes and policy options, press 1.",
+                "fileID": "bf1488b49cb4408b83a80f1cfedc3f3f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For personal insurance products like auto, home, or renters coverage, press 1.",
+                            "fileID": "5a0425b0fe354aad88a9ce01fe9c1220",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a personal lines specialist.",
+                                        "fileID": "519019fda6524ca0b9e6e5a345b254d6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2ff9dc9a2df34ec89f6b36210eb39c45",
+                                "navigationGoals": [
+                                    "Obtain a quote for personal auto insurance.",
+                                    "I\u2019m looking for a personal auto insurance quote with a military discount",
+                                    "Generate a telematics-based digital quote for bundled auto and homeowners insurance",
+                                    "I\u2019d like to get a new quote for my home insurance.",
+                                    "I'd like a renters insurance quote for my off-campus apartment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For commercial insurance solutions tailored to your business, press 2.",
+                            "fileID": "ff029efb342f4c259cc14d8dab5ac58a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a commercial insurance expert.",
+                                        "fileID": "ce54586335ce4cd3a372985bec4cf78a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "17c6c4ba202d4e7eb2471f08195ff3ef",
+                                "navigationGoals": [
+                                    "Request a commercial insurance quote for my business.",
+                                    "I need commercial liability coverage for my veteran-owned construction business",
+                                    "Request a risk-modeling quote for commercial general liability and cyber coverage for my startup",
+                                    "I need an insurance quote for my small business.",
+                                    "I need a commercial insurance quote for my freelance physics tutoring business."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ab358c8ce0af47aa925d39dca776a6ff",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To report a claim or check the status of an existing claim, press 2.",
+                "fileID": "ad9e23c1872c4b9bb9654a2c73266d98",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To file a new claim, press 1.",
+                            "fileID": "5e06696a9a914cdd9b6eda08d3b718e7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a claims representative.",
+                                        "fileID": "178bab6f42b64d82846dd81c4749627b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c2470934551440c0a687d07e85e5093e",
+                                "navigationGoals": [
+                                    "File a new auto insurance claim.",
+                                    "I want to file a new claim for hail damage to my personal vehicle",
+                                    "Initiate a new claim submission for water damage at my home with loss details",
+                                    "I want to file a new claim after my recent auto accident.",
+                                    "Submit a new renters insurance claim for water damage in my apartment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check on an existing claim, press 2.",
+                            "fileID": "6267396b89f8407d96ad39759f76551a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your claim status.",
+                                        "fileID": "f29ad77e1c2e44a7919cd54332434475"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cd3772e8ab654428a7403a0b5951fc58",
+                                "navigationGoals": [
+                                    "Check on the status of my existing insurance claim.",
+                                    "I\u2019d like to check on the status of my existing auto insurance claim",
+                                    "Check the adjudication status and adjuster notes for my existing water damage claim",
+                                    "I\u2019d like to check the status of my existing claim.",
+                                    "Check the status of my existing auto accident claim."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8d1782521a6e44b3856e7412e313c3b0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "0865c6a712a94777818883b0ceb78dfa",
+        "navigationGoals": null
+    },
+    "id": "1edf4afd21e04921aea0c3cfd1ae03fc",
+    "navigationGoals": null
+}

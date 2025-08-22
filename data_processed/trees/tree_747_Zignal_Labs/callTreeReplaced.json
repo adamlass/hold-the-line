@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Zignal Labs in San Francisco, the only media analytics platform harnessing the entire digital media landscape in real time.",
+            "fileID": "adcb73a20d7047c781fd374439c59db4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and Product Information, press 1.",
+                "fileID": "9ed49e20c06940efa17ceb6060695164",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a live platform demo showcasing our real-time media analytics, press 1.",
+                            "fileID": "1fa84716f9954b139941f40856d2920a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for a live demo.",
+                                        "fileID": "3361384d1ffb4e4a87ab4728b363ccba"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ae81cecf9e764a109b6d8feae76bb465",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For details about pricing and subscription plans, press 2.",
+                            "fileID": "5544378248544409a550ae5118e3a12f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing and billing team.",
+                                        "fileID": "876da7ef9d3e4ab6b9eefdd2d24739d8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "510d7331a94f4cbcbcad80b002ae1f97",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ae600e31055f4e3383421113318a5dc3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technical Support and Customer Service, press 2.",
+                "fileID": "c8502fb61c984dbc8cf624259c804978",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need technical assistance or troubleshooting, press 1.",
+                            "fileID": "ad6ef4ac6a134529ba08c8009898df5b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "e753a8fbe91042a5a5d2733334a56ff6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7922e592d2fa4387a8a3a3def558549b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For onboarding, training, and help resources, press 2.",
+                            "fileID": "3852fa2750c841d79cc7c6cd4b3d1424",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our customer success team.",
+                                        "fileID": "8be3c827974541ff9ea3a4e9307712a0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2ca52dfb25354de3a2c67540155e6aa5",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e3362e65336e40ccb0e1c3acfea00dba",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "fb35d8a5c68947ed842104e7500352b0",
+        "navigationGoals": null
+    },
+    "id": "e7b772ef29d34cf4b7853bbc8228c6d6",
+    "navigationGoals": null
+}

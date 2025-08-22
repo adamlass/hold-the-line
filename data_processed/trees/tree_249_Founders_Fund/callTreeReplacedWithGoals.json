@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Founders Fund, a San Francisco venture capital firm investing in smart people solving difficult problems.",
+            "fileID": "00f4ed5d5e2946da9cad760ff1f228bb"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an entrepreneur seeking funding, press 1 to choose that menu.",
+                "fileID": "c307694fb1fb485badb09f68709da5da",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit a new pitch deck, press 1 to choose that menu.",
+                            "fileID": "f8d976a134f84e26b6147ed121dda1be",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our investment team.",
+                                        "fileID": "b4acfa14d5234e828d7cdb12d8390dc9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c6ea6bec80334322be4c0c8db97faac2",
+                                "navigationGoals": [
+                                    "I need to upload my startup\u2019s pitch deck for initial funding consideration.",
+                                    "I\u2019d like to submit my pitch deck for my veteran-focused career-transition startup.",
+                                    "Send my startup\u2019s pitch deck to the investment team for seed financing evaluation",
+                                    "I\u2019d like to submit my startup\u2019s pitch deck.",
+                                    "I want to share my quantum computing startup proposal with your investment team."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To follow up on an existing application, press 2 to choose that menu.",
+                            "fileID": "fa551d24b9c54355b80afcb912c3d528",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our partnerships manager.",
+                                        "fileID": "77ec0c77ee4441378e1c076be27d168a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fdf0748732704bdcb68878461db53f36",
+                                "navigationGoals": [
+                                    "I want to check the status of my existing funding application.",
+                                    "I\u2019m calling to follow up on my existing funding application.",
+                                    "Check the status of my existing seed funding application and due diligence progress",
+                                    "I want to get an update on my existing funding application.",
+                                    "I need to check the status of my existing funding application for my photonics research startup."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6d0bf2007182495bbcb855ddd0b802e8",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For information about our firm, press 2 to choose that menu.",
+                "fileID": "d4085f4d930b476e8cfb7fd590e09e64",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear our latest portfolio highlights, press 1 to choose that menu.",
+                            "fileID": "04b77a184ea44343808c4ebc5ce22cd1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for recent success stories from our portfolio companies.",
+                                        "fileID": "2dc7e01e70594899ba10599d0cd9c26f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "541c3736c12e4d718660f648d5fe4c76",
+                                "navigationGoals": [
+                                    "I\u2019d like to hear the latest success stories from your portfolio companies.",
+                                    "I want to hear recent portfolio success stories, especially around companies helping veterans.",
+                                    "Retrieve the latest performance metrics and case studies from their portfolio companies",
+                                    "I\u2019d like to hear your recent portfolio success stories.",
+                                    "I\u2019d like to hear your most recent deep-tech portfolio success stories."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with our general inquiries desk, press 2 to choose that menu.",
+                            "fileID": "3a28c52e0f8c4d48b406126d291d4c66",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a representative.",
+                                        "fileID": "2ed0c5fdb9634a1083bf851fba3b87b4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "97667096f9a64b3c85de7e5dba9796ba",
+                                "navigationGoals": [
+                                    "I need to speak with someone about general information and questions regarding your firm.",
+                                    "I need to speak with a representative about general inquiries and veteran entrepreneurship programs.",
+                                    "Speak with a representative about the firm\u2019s investment criteria and general office operations",
+                                    "I need to speak with a representative for general inquiries.",
+                                    "I have questions about internship opportunities for physics students at your firm."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6f311d474cc142d4baa6f8681ac5d43c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c5ef6d11abe5410eacd4cbf91fe5ebf8",
+        "navigationGoals": null
+    },
+    "id": "fbadc029d3334fbab4a5411fe7f786da",
+    "navigationGoals": null
+}

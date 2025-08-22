@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Discord Support in San Francisco, your connection to crystal clear voice and text chat.",
+            "fileID": "0e25e1ca8eaa434faf76e8befd4dcb6c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for account and billing inquiries.",
+                "fileID": "606c5206c1d84c3a976757ec01c82748",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for account setup and login assistance.",
+                            "fileID": "19da3e9a2c204e1fb9a958eb080b7750",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account specialist.",
+                                        "fileID": "c97f6e35e3e447a2afe50ccc2a9cb189"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "877fc80a197641fb8d6697afa07f6d89",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for billing and subscription questions.",
+                            "fileID": "b49fc0873abf43aab69a44b00145809e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a billing specialist.",
+                                        "fileID": "67ff99c73e7140969c8eba57e789d72e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fb796a5794374055ae124a5051e1a7e6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1b5a45c6f69448abaebd2dc1916d24a3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for technical support and troubleshooting.",
+                "fileID": "2a40f1ca82154306ba9822b5dcbc2fdf",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for voice chat quality and connectivity issues.",
+                            "fileID": "22b79118ac934dd090b4eb84275b9580",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support agent.",
+                                        "fileID": "f9b8e9fa04954864b936ce10b157ba45"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b278ba67c1664a179f9adcde65d52be1",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for mobile and desktop app support.",
+                            "fileID": "969b954dbd4a46808a7d04bdc2813874",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an app support specialist.",
+                                        "fileID": "7ff56d9d38804ea0a24968159dabb5c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "14cdf5fbc0c147c4848acfb52d5329ad",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "609a666ce6b84141a5cbdf94c3a05286",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2775e85927214839bd15b29ae83fb472",
+        "navigationGoals": null
+    },
+    "id": "a3efecca5bf94ea09e5d3ccd020aacf0",
+    "navigationGoals": null
+}

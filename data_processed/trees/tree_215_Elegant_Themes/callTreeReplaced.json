@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Elegant Themes in San Francisco, your ultimate source for professional WordPress design tools.",
+            "fileID": "fc864618e1d246f3b26273b0f7527e47"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our sales team about the Ultimate WordPress toolkit and premium themes, press 1.",
+                "fileID": "e096c3f627f34478b4cf20491ccc9de2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For details on our All Access subscription with unlimited themes and plugins, press 1.",
+                            "fileID": "8a9857a0cdba4143b1dab4372379497c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales specialists for subscription details.",
+                                        "fileID": "66b1bf6a32ab40c29823cc1a4dc46d93"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f1398a22b2a04dbf88a171c69caf8cc5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For information on custom development and agency services, press 2.",
+                            "fileID": "0b1faef9535c49ecbe3fed86aaa69499",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our development team.",
+                                        "fileID": "b1addc6903fa484c8b4e2bc50f41f421"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b8435ac83c2b400cb14fa45d36cf5c3a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b6312515098a4427ac8f86570b62837a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support or account and billing inquiries, press 2.",
+                "fileID": "012e8a57e7b34015a48cc844d990c07c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For troubleshooting and bug fixes on themes and plugins, press 1.",
+                            "fileID": "d6ce2e271b5b47c0ae8fc2d126d247ec",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "8b8b6b95f12a4e7aac02a020c5d3f3b7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "88212568a0bb4e35a4bd6fc20fb4e358",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing, renewals, and account management, press 2.",
+                            "fileID": "53aced53a04b4ec4b185693a92d37bd5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "eee6a8ed2cfd47e3921777b79d110eff"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a5faf8bc2f4c4d41880e024eb20bd687",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d3607930e7494fb48ff36d5bb62ccf54",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4de89d60b9704450b42de4be2200ac18",
+        "navigationGoals": null
+    },
+    "id": "cdecbb63d3504617bc32f9b9c113e0c8",
+    "navigationGoals": null
+}

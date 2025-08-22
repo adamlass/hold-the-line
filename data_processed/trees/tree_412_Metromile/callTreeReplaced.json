@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Metromile, the San Francisco-based auto insurance that charges you just pennies per mile.",
+            "fileID": "41fb286ba9ed40af9c2a0ad287a7fa56"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To get a personalized insurance quote or start a new policy, press 1.",
+                "fileID": "6f36c79aa370478f9b39e65a5a404992",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a free customized insurance quote, press 1.",
+                            "fileID": "238925f607d34da0805ea73a7d88548c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales specialist for your quote.",
+                                        "fileID": "0e9a011f89ab41d28a91a612239b6455"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d487e3d9746d4b5ca2c305f724a60118",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To set up your new policy online, press 2.",
+                            "fileID": "bf947d5dd3014c56902180944f2f9210",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a customer service representative to help you get started with your new policy.",
+                                        "fileID": "06f5187d782c4eecad61ae170c120a64"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e667ef960d364fb1afb16e47adc042b3",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3aaba5262c8944109a20d533d9908104",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing policy support and claims, press 2.",
+                "fileID": "ef2ba1a4b64147f2bac468f49cf41f95",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you have questions about your monthly bill or mileage charges, press 1.",
+                            "fileID": "1d5e9091af034139a17cd7dae18b07b3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "178df91069cd4520bb63af893b42aad6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4cc05242462e401984d468241e588bb5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To file a claim or check your claim status, press 2.",
+                            "fileID": "24ddad32a15d46578156a7a9c0a3bcc8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our claims team.",
+                                        "fileID": "2b088a196f0d450085a595c56c5139a8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f28b773d3b234373b5cf095cdf00fbc5",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7e990ad49ab0421aa8d24933d2bca6cb",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "29b8382e2ec94cf29865696231bd137b",
+        "navigationGoals": null
+    },
+    "id": "4c0f01ccda0b43838c823267b75867d5",
+    "navigationGoals": null
+}

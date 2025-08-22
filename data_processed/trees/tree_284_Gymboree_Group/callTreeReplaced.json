@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Gymboree Group, San Francisco\u2019s premier destination for quality kids\u2019 clothing since 1986.",
+            "fileID": "5d09efc0d9044ec9bb5bdd766fdabd66"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For shopping and orders, press 1.",
+                "fileID": "a9f9fbebadb444918c84a7853407faaf",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To browse our latest arrivals and seasonal collections, press 1.",
+                            "fileID": "a6d4080760fb489d84903cd1b988b642",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our online sales team.",
+                                        "fileID": "48ba210eea8d445a851ab04a5cbe7ab5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1bda06b85c0a42c7bc3a4123b65f3584",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing order, press 2.",
+                            "fileID": "bb15f022ea984499a4d1e9a8f0ac5c16",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we retrieve your order status.",
+                                        "fileID": "10259c83f6eb4a58ba94b56e540b1426"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "63d9151a6648460aa2f5faf2c557e0da",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1a0b1ab6a7674da2bcaf038eb0766dda",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer service and support, press 2.",
+                "fileID": "05f1894de2084d81bad628fc7cf5d278",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For returns and exchanges, press 1.",
+                            "fileID": "b854a3ed0a5f443c94e77281c629ebee",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our returns department.",
+                                        "fileID": "207bdd92ce2b42f5993ea1b40db08fc1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f8453ed7b811444682e0eff74997f45b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For sizing advice and product information, press 2.",
+                            "fileID": "e02cb10107c94a96aa4d442dd73e6702",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to a product specialist.",
+                                        "fileID": "0447633721774255a429830b83171d9c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6fa706b485e148d28bcc982708e003fa",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5e185823b07a4f7ebbb73725d2798ed3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a6bd3e8c43c74c7dab5111c60f45135b",
+        "navigationGoals": null
+    },
+    "id": "1c6a19ac126047ba9fbf7086711e1bab",
+    "navigationGoals": null
+}

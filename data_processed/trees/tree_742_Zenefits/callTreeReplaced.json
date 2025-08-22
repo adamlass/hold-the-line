@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Zenefits, your all-in-one HR management platform in San Francisco.",
+            "fileID": "cc3a09bf51424ae79bc450baa984764c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For payroll services, press 1.",
+                "fileID": "1065b251637b4d20a70951707f8eebf9",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To initiate or schedule a payroll run, press 1.",
+                            "fileID": "962b494e2a4843da808d4928ca091430",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our payroll operations team.",
+                                        "fileID": "4ed9e67a3fb942b3a43e720adb8ef1cc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d3c7b25e190c4c3fbe2692201df9abcb",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For payroll troubleshooting or questions, press 2.",
+                            "fileID": "264d1d56b9a94694832b1cbb83a9cd85",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our payroll support specialists.",
+                                        "fileID": "3b63f8bb94894530907aa683cbb700d6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1bd48cd21dd240f58046eb59472b71cd",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9274af9fdd3646b490a79fce0e1838e9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For benefits and compliance assistance, press 2.",
+                "fileID": "ecab2031bce14440a403d042072599bd",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For benefits enrollment and plan changes, press 1.",
+                            "fileID": "0d1998a884bf4f04a1ecf76dae257508",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our benefits administration team.",
+                                        "fileID": "91634ba0bf244d528a2a2635567749fe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "10726a71dbe645dc9cfb26cd5238e3c7",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For compliance guidance and policy inquiries, press 2.",
+                            "fileID": "b32e262c7a4a4272b38d6233c7881939",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our compliance advisory team.",
+                                        "fileID": "f162acbd1b4e4b909c4f92b276c503d1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7dc57f761cf14b3ebc5bd64d43257592",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c760d7e4e5ac412081968611ddcb753a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8a5891d1f96f421189606f52ec7450d3",
+        "navigationGoals": null
+    },
+    "id": "5fe593e1460e4e8f805d227fa0528d67",
+    "navigationGoals": null
+}

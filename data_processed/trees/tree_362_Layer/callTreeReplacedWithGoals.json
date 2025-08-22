@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Layer in San Francisco, where we streamline a unified experience across marketing, sales, and support.",
+            "fileID": "1107322cbc024325ab6223aeb1b8201c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and marketing solutions, press 1.",
+                "fileID": "fd585f55cefa4c6ea3d1d0657fdbd993",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our marketing solutions team, press 1.",
+                            "fileID": "f909adbe048645f580ebaae868c0b61c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our marketing solutions team.",
+                                        "fileID": "cee9a1ac540d4bb79594f236c1e94c83"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bf80c736bc9f4fb188f9007534ea3ca9",
+                                "navigationGoals": [
+                                    "Understand how to set up targeted email campaigns with Layer\u2019s marketing tools",
+                                    "I need marketing support to promote my veteran outreach program",
+                                    "I need to discuss API integration options for your marketing automation platform and review ROI analytics.",
+                                    "I need someone to explain your marketing service options to me.",
+                                    "I\u2019d like details on Layer\u2019s marketing tools to promote my physics lab\u2019s seminar series."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To connect with our sales specialists, press 2.",
+                            "fileID": "19e23ef7816a454b887d5175eba43ba0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales specialists.",
+                                        "fileID": "1306b58fb4b845d9919c225d7ea745b3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "774be08450d0476a98bcaa32ed70337d",
+                                "navigationGoals": [
+                                    "Obtain a detailed pricing quote for expanding our sales team\u2019s license",
+                                    "I\u2019d like to purchase a sales platform subscription for my veteran-owned small business",
+                                    "I\u2019d like details on enterprise licensing models and SDK integration for your sales enablement solution.",
+                                    "I\u2019d like to speak with a sales specialist to get a quote.",
+                                    "I need to discuss subscription pricing with sales for our student-run tech project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "44303c710d664b3dbda3d617a93d1406",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and service inquiries, press 2.",
+                "fileID": "1399335d98254f35b8a634519603fc4d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "0808c7bc19284f3aa567e8ce22d7b22a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support.",
+                                        "fileID": "3318144f70b448ada8e0fdfdacb5bee9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7ba4719eeb53482aa398976bd9cabd3b",
+                                "navigationGoals": [
+                                    "Resolve an urgent API authentication error in our support portal",
+                                    "I\u2019m having technical issues connecting your API to my CRM",
+                                    "I\u2019m experiencing OAuth authentication failures with your API\u2014can you help me debug the requests?",
+                                    "I\u2019m having trouble with my account login and need technical help.",
+                                    "I\u2019m facing an integration error with Layer\u2019s API in my data analysis software and need technical help."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press 2.",
+                            "fileID": "fa8f621a24474443aea8b2191428bd95",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our account and billing team.",
+                                        "fileID": "2a86571899f6473a8b9841d8432656e1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d2f1d3941cd54725aa0e09b611f618db",
+                                "navigationGoals": [
+                                    "Update payment information and download recent invoices for our account",
+                                    "I need help correcting a billing mistake on my last invoice",
+                                    "I want to upgrade to the Enterprise subscription tier and understand the prorated billing adjustments.",
+                                    "I want to resolve a billing question about my recent charges.",
+                                    "I want to update my payment method and review my latest invoice for my account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7e19c50b46ae4d0380ba2b8175826b54",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2aa8c422379f48fd8e0a52a4a02c16bc",
+        "navigationGoals": null
+    },
+    "id": "e0e332a13b9947769cfe4b4443ab910b",
+    "navigationGoals": null
+}

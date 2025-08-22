@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Square, based in San Francisco, where we work for every business.",
+            "fileID": "a01569bac05a446e8f087ce99ff2c92f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our payment solutions and POS hardware, press 1.",
+                "fileID": "5ab7eb43f29f46b0a3a44458a424c1f8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a Point of Sale hardware specialist, press 1.",
+                            "fileID": "d618c20a162b407197de1bc368ced742",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Your call is important to us. Please hold while we connect you to a POS hardware specialist.",
+                                        "fileID": "842fdc6b51b1470ebd64fde9f355c7bb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aa3d87e82e364023a75b34b9ca2e2c9c",
+                                "navigationGoals": [
+                                    "Order replacement POS hardware and confirm it integrates with my current setup",
+                                    "I need help setting up my new Square POS terminal for my veteran-owned coffee truck.",
+                                    "Update firmware on my Square Terminal and calibrate the contactless and magstripe modules",
+                                    "I\u2019d like to buy a new Square countertop terminal and learn about its features.",
+                                    "I need help configuring my Square terminal for ticket sales at our physics lab event."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To explore our online payment and e-commerce tools, press 2.",
+                            "fileID": "d54a34f8ccf44750ac8bc8220a868719",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you with our online payments team.",
+                                        "fileID": "fe61bcfcbaf046d6bbae7271425f4ec6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cb7744fecf264b668766c0974d457a2b",
+                                "navigationGoals": [
+                                    "Set up Square\u2019s online payment tools on my e-commerce website",
+                                    "I want to integrate Square\u2019s online payment tools into my small veteran-run web store.",
+                                    "Integrate Square's payment API into my e-commerce site and configure OAuth tokenization",
+                                    "I need help integrating Square\u2019s online checkout on my website.",
+                                    "I'd like to set up an online payment page to sell physics club merchandise."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5259d399cdfa4c008939e9ccaf7ea5ce",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and billing inquiries, press 2.",
+                "fileID": "f34a2a914c6f4682b29418de15377df1",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with your Square devices, press 1.",
+                            "fileID": "52c42241bb0441adabae0eed24e44adc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. One of our technical support agents will be with you shortly. Please hold.",
+                                        "fileID": "b0ba17b4785542f28865266cc7be4268"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8d35861ee2df46cf95f8d901fffb5f8b",
+                                "navigationGoals": [
+                                    "Troubleshoot my Square device\u2019s connectivity so I can process payments",
+                                    "My Square card reader keeps losing connection at my event and I need technical support.",
+                                    "Diagnose Bluetooth connectivity and driver errors on my Square Reader",
+                                    "My Square card reader won\u2019t turn on\u2014can someone help me fix it?",
+                                    "My Square card reader isn't connecting; I need technical assistance to fix it before our lab demonstration."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing questions, press 2.",
+                            "fileID": "5c35a839e0424367a0c0d5d904e0fc14",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to the billing and account management department.",
+                                        "fileID": "5576e5cda5f040f99d010cf1a1bae4b8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "55ee153cf3ea4c729790090f80c3b4a7",
+                                "navigationGoals": [
+                                    "Obtain last month\u2019s billing statement and update my payment information",
+                                    "I need to review my monthly Square fees and update my billing information for my nonprofit.",
+                                    "Review detailed billing statements and adjust my subscription plan",
+                                    "I want to update my billing info and understand my latest invoice.",
+                                    "I need to review and update my billing statement and payment method for my Square account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "143022f23e4e4f24ab30d37dfb967e1e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a814097070b74e7dbfd4f6fdfe0ddbb6",
+        "navigationGoals": null
+    },
+    "id": "bb3d303a3fc1456199a0bef31e3896ba",
+    "navigationGoals": null
+}

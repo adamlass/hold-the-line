@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Saba Software in the East Bay, where our talent platform seamlessly connects skills with learning, performance, succession, and talent management.",
+            "fileID": "93da56f9d50e4f48a97e169e988dd4a4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for Sales and Product Information.",
+                "fileID": "23a7dd3346f34c2abae3667456db36e3",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for a product demonstration of our connected talent platform.",
+                            "fileID": "b704e2f540e046908d89724ea8125201",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our demo specialists.",
+                                        "fileID": "d976589b90914354aad8fe2a6bb4b971"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "44da6e5fced84083bd2275482f796023",
+                                "navigationGoals": [
+                                    "Schedule a walkthrough of the talent platform to evaluate its features for our team.",
+                                    "I\u2019d like to schedule a demo of the talent platform to see how it can support veteran programs.",
+                                    "Schedule a live demo showcasing the platform\u2019s API integrations and analytics dashboard.",
+                                    "I\u2019d like someone to walk me through a demonstration of the talent platform features",
+                                    "I\u2019d like to see a live demo of how your platform tracks and visualizes skills and learning progress for a student project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to inquire about pricing and licensing options.",
+                            "fileID": "61e9835680ad46e3a773e4d167f1511a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing team.",
+                                        "fileID": "544067495b4f402a8961b720cb4493bf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "48c3a6f4e8304f2b92c2bb1b88bead30",
+                                "navigationGoals": [
+                                    "Obtain a detailed breakdown of subscription costs and license tiers for budgeting.",
+                                    "I\u2019m looking for pricing and licensing details, including any discounts available to veterans.",
+                                    "Get detailed licensing tiers, subscription models, and user-seat pricing for the platform.",
+                                    "I need information on subscription pricing and available license options",
+                                    "I need information on academic licensing fees and discounts for using your talent platform at my university."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b7b89733ddc4467abcb0423d0a46c747",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for Customer Support and Services.",
+                "fileID": "19a178110f694c3c918fe0ca5dbf6135",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for technical support with Saba Platform issues.",
+                            "fileID": "eaa7b8ca9d6645b48f714b3f6b37e19d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "f86ca11d3a0345bc8fc889b04ad2da2f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "86ce50aa457a431fa7b36a33169661c2",
+                                "navigationGoals": [
+                                    "Troubleshoot my dashboard access issue on the Saba Platform.",
+                                    "I need technical support\u2014I\u2019m a veteran user and can\u2019t access parts of the Saba platform.",
+                                    "Troubleshoot an OAuth authentication error I\u2019m seeing in the Saba Platform API.",
+                                    "I\u2019m having trouble logging in and need help resetting my password",
+                                    "I\u2019m having trouble logging into the Saba platform and need technical assistance to resolve the error."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for account and billing inquiries.",
+                            "fileID": "f46c62e772e7464ba46140e93554d471",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "665d0d11d20a4e759a0997d4eb96cc91"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c9100f55eeac48dd9c94ac85eac8c3a1",
+                                "navigationGoals": [
+                                    "Review my most recent invoice and confirm the charges applied.",
+                                    "I have questions about my account billing and invoices.",
+                                    "Review my enterprise invoice breakdown and update the payment method on file.",
+                                    "I want to review my latest bill and clarify the charges",
+                                    "Can you help me understand and get a copy of the billing statement for my recent course subscription?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c2598e50e9404bbc8bb00109c3cc20ca",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "81ab9d99cdf4408a8137e76c1357ad83",
+        "navigationGoals": null
+    },
+    "id": "88af105dbee14ae99317838c2a8e1e6d",
+    "navigationGoals": null
+}

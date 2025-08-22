@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Notable Labs in San Francisco, your partner in advanced blood cancer testing for oncologists.",
+            "fileID": "e5744d40f80a4c18a71d86c549f05519"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a healthcare provider, press 1 for specimen orders and results.",
+                "fileID": "d6d4458e2e064b6d93a2701faba06ced",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit a new sample for testing, press 1.",
+                            "fileID": "754705e9946f4ffcaa59055f7761ddad",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our specimen intake team.",
+                                        "fileID": "baa9d2ed362549d485d6cf0b4ce5bb85"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "909ee15a879b4d6c8ae7cfbcdbd534f1",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing sample, press 2.",
+                            "fileID": "4310da49766c4cc3ad3acb3654e1f81c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your sample status.",
+                                        "fileID": "73c70628580d459a81e2e13373f4e922"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "befa246b18ae4d4ba5880a21461edfc1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8bdcf90abfdc48f59e69d279807545fc",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a patient or have general inquiries, press 2 for patient services.",
+                "fileID": "b685b8a72bf84f3482e792e031be8401",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing and insurance questions, press 1.",
+                            "fileID": "8dc376dfe96a467db396ebd8b9b2c05d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing specialist.",
+                                        "fileID": "bd5daad8edb44a34be9b4fad7df5f813"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fe89e2443d9448e2bd43a0c652c243c9",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn more about our testing services, press 2.",
+                            "fileID": "25798e3a492a45a6b46a2dc2381ee32b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our information team.",
+                                        "fileID": "87dca231de62460384601fa5dc7805bf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "606375a3b23b45ecab45408d1ea1ca46",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "48bf3772b4f44bb1b9441ad605c8ebe7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9bb3396ab8cb48d7ab041722cf9625a8",
+        "navigationGoals": null
+    },
+    "id": "e64829bba5ce40e5b4d9206686c3afd5",
+    "navigationGoals": null
+}

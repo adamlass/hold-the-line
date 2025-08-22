@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Hello, and thank you for calling Mynd East Bay, where modern property management brings you peace of Mynd.",
+            "fileID": "10234db342d54ed39c2cc56eddb0e61d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For resident and leasing support, press 1.",
+                "fileID": "59598c44e49e4365a480ff9749aa7205",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To apply for a rental or schedule a tour, press 1.",
+                            "fileID": "65e8c871c5a2444e8cb369bace2a7d60",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a leasing specialist.",
+                                        "fileID": "e6f9562ccb4b4f749de5e1777f241c03"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f80acb8667f44a47bf27642453aa4788",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To pay rent or submit a maintenance request, press 2.",
+                            "fileID": "1a52472df21f48c2935d4ab3428cfbf9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to resident services.",
+                                        "fileID": "316cde5b58244b59b8ae913b37a5f3b8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "832f106df10a465881e842fd2e0bc68a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a98ac05ee2b64693843cf0ec8bd05c2d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For owner services and property insights, press 2.",
+                "fileID": "b04929ea539d4d30ad5604aaf47b071b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For performance reports and financial statements, press 1.",
+                            "fileID": "d041b773c9194aa5bfb9652d41681951",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your owner reports.",
+                                        "fileID": "a74c09c897354206a0f74a2f97c3bacd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d60a40d68d4f47ec91d8bafb5e6c2528",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with your property manager, press 2.",
+                            "fileID": "5d5bb6f174204dd4bfdb0f5e49176097",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your property manager.",
+                                        "fileID": "9b46b46da13c43f188d3ed6145a41db8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8bf736fae4914d53a73004da8da32960",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8d5ff361c88c4ba1b69ac81db498bf59",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "92dbf42a1a15449ba3f1ab33b8578969",
+        "navigationGoals": null
+    },
+    "id": "96d62204fa044ab0be37ed2cb81850dd",
+    "navigationGoals": null
+}

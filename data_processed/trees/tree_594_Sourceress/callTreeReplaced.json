@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Sourceress, the San Francisco-based AI recruiter reinventing talent acquisition for businesses.",
+            "fileID": "8303f7080ebe48479c7cc58c2519e93f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our sales team about AI recruiting software demos and pricing, press '1'.",
+                "fileID": "72143de6678d41e998d66600827394cd",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing details and to schedule a product demo, press '1'.",
+                            "fileID": "a5c35d5e89d64fa59cf7a4c63361cd81",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest in pricing and demos. Please hold while we connect you to a sales specialist.",
+                                        "fileID": "e0cee0f55e314fe793fa60c30cf03b77"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a36e840ba03c4d3f8d215fa29f9b71eb",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For partnership opportunities and software integrations, press '2'.",
+                            "fileID": "7da46845de21439db9ec7c379ced6f8f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to our partnerships team. Please hold.",
+                                        "fileID": "6a8a016630884232b9e3e2db5d4ce653"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "786c7b4eae1a4d9395a1eed601650db0",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5a703a5017904416ac931c72dbd5f033",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support or assistance with your existing Sourceress account, press '2'.",
+                "fileID": "b58077324765449c9b2b5f27ecf06275",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press '1'.",
+                            "fileID": "5eff9ab8ee524c14a2a808b2b15cb750",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for contacting technical support. Please hold for the next available agent.",
+                                        "fileID": "7406bfde5a394408b83f242a4b9932de"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "70c555e761a9458fa39ce9788253cdf9",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries and account management, press '2'.",
+                            "fileID": "844b10ee295e4b67af8ab96b76c2786f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Your call is important to us. Please hold while we connect you to billing support.",
+                                        "fileID": "203d7195a9724fb1b46431cf62c29128"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bf464c362d314b52b53333cfc5d4363d",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3668bfb4e07d4e239b2ed59ad20dfae8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1dec8cd27441459da261d153e9e218a8",
+        "navigationGoals": null
+    },
+    "id": "fc08e9d979ed45a19221dd7e74b5fff5",
+    "navigationGoals": null
+}

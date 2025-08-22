@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Terminus Software in San Francisco, the ABM platform B2B marketers love.",
+            "fileID": "715bf014d4414d3292276cd6c00a58b3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and Marketing Solutions, press 1.",
+                "fileID": "8c8fdc707dc34bb78978b4b6ce59d780",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a personalized product demo, press 1.",
+                            "fileID": "d7657c774cc64aebb32bc33233770db0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for your product demo.",
+                                        "fileID": "955c2c48679c4b67b8826073900d7d21"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e29b006628fc49bfb6acddcb7e084b65",
+                                "navigationGoals": [
+                                    "Schedule a personalized Terminus Software product demo as soon as possible",
+                                    "As a veteran-owned business, I\u2019d like a personalized walk-through of your ABM platform.",
+                                    "I want to schedule a personalized ABM platform demo focusing on campaign orchestration.",
+                                    "I need a step-by-step demo of your marketing software to understand how it works.",
+                                    "I\u2019d like to arrange a personalized demo of your ABM platform to evaluate its segmentation tools for my physics department\u2019s lab outreach."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss pricing and licensing options, press 2.",
+                            "fileID": "aa4de2e1a40c4eaea824b3c67cb8b8ee",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing team to review licensing options.",
+                                        "fileID": "c4d8b221f48f430ebd874c580aed07b6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c1227c1e39d34c7c9f84af0772ee3c48",
+                                "navigationGoals": [
+                                    "Review Terminus Software pricing and licensing options for my marketing team",
+                                    "As a veteran entrepreneur, I want to discuss pricing tiers and licensing options for my team.",
+                                    "I want a detailed pricing and licensing breakdown for your enterprise ABM solution.",
+                                    "I'd like to learn about your pricing plans and licensing options for the platform.",
+                                    "I need to review your pricing plans and academic licensing options for student-led marketing experiments."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fd85683eb0b043029499fd282f7dde03",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technical Support and Onboarding Services, press 2.",
+                "fileID": "32e98c3dadd346d2afd877e468d90e17",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "d8705b941a6140e2a1743c55e0186caf",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support specialists.",
+                                        "fileID": "f5c284d0d6cf424a84c2d8f0fe58ae5e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9e28a2f7db844560a3282a518b23171c",
+                                "navigationGoals": [
+                                    "Resolve a technical issue I\u2019m encountering with the Terminus platform",
+                                    "I\u2019m encountering a technical error and need support troubleshooting the platform.",
+                                    "I need help troubleshooting API integration and authentication errors with Terminus.",
+                                    "I'm having trouble with the software and need technical support to fix it.",
+                                    "I\u2019m experiencing an error with the API connector in my student sandbox and need technical support to resolve it."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For onboarding and integration assistance, press 2.",
+                            "fileID": "f782351a32014ccaa1caec89d83f2860",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our onboarding and integration team.",
+                                        "fileID": "d0147ade69684348b7ca328d70a472d8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4e2c9b895d9844c7ae1bf42ec29275ea",
+                                "navigationGoals": [
+                                    "Get help integrating Terminus Software with our CRM system",
+                                    "I need help onboarding and integrating Terminus with our existing systems.",
+                                    "I need assistance configuring and integrating Terminus with our Salesforce CRM.",
+                                    "I need assistance setting up and integrating the software into my system.",
+                                    "I need assistance onboarding and integrating Terminus with Salesforce for my lab\u2019s campaign data pipeline."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "136d08ed9ce7421b8f5d765d4bc5af07",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2842a5c2c9b44a9eb380c321544a7cd0",
+        "navigationGoals": null
+    },
+    "id": "9f222c67a7af43d49bf7e2e97ace9de8",
+    "navigationGoals": null
+}

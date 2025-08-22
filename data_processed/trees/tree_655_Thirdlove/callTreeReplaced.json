@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling ThirdLove in San Francisco, where we design bras for the modern woman.",
+            "fileID": "3999cbeec8804b449021534db1c49ae2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For order support and returns, press 1.",
+                "fileID": "7429ec76cda84419a3b458152e083af2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To track an existing order, press 1.",
+                            "fileID": "310fb8a3da294bf793c889c1c47888b8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order tracking team.",
+                                        "fileID": "84dcecdf254f4959833c24f8d83accf6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "826efee3c90f47cfb3dcad92735565ca",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For returns and exchanges, press 2.",
+                            "fileID": "858ea83c90c14920b06ae0d1b9cd6a0f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our returns specialist.",
+                                        "fileID": "b37a65382ec4436b9211c7b2e2831438"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "570e23b6349d4a80b6a6285ae1f1a651",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f2254f40d90d4e579e76c296cfa234c8",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For bra fitting advice and product information, press 2.",
+                "fileID": "30bdac829543453b9e665ba62e8e7f3f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a virtual fitting, press 1.",
+                            "fileID": "ded38e4fc6f146cb91d9f43c25cd0131",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a fitting consultant.",
+                                        "fileID": "65d92d92712e4088b7cd74f9f55f7179"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e48d1ca2f3f34e4cb957ea82224707c1",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn about our bra collections, press 2.",
+                            "fileID": "dd896155e6174730b12ca45f41329db1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a product expert.",
+                                        "fileID": "24a14b250c884dd58eba87ec8add5cfd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "33d2d0d7d049481e91b10747e9da742d",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3932b3ca0b444b9e84158c746b6f0192",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ae88ada0df6f49319d70ac9d9e2ebd02",
+        "navigationGoals": null
+    },
+    "id": "c3cbf83ab4124ad0a129354dec7950f9",
+    "navigationGoals": null
+}

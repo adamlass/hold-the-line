@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Cadre Talent, San Francisco\u2019s leading recruiting firm specialized in building top tech teams.",
+            "fileID": "94e42a256af94ffcb54e55c84a101bf3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a company looking to hire elite technology professionals, press 1.",
+                "fileID": "294b819586f84e9f94759f4f5521221a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss your team-building strategy with one of our recruitment experts, press 1.",
+                            "fileID": "b6910cfea33941589e69bac729a3d99e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for holding. Please stay on the line while we connect you with a recruitment expert.",
+                                        "fileID": "57cee7cbc9cd4851b8d322796b0196e1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5aa923dd88f04bfda8739c9281364d45",
+                                "navigationGoals": [
+                                    "Discuss strategy for recruiting senior engineers on my team.",
+                                    "I run a veteran-owned startup and need to discuss a strategy for hiring experienced software engineers.",
+                                    "I need to strategize our hiring roadmap for scaling the cloud engineering team.",
+                                    "I need to speak with someone about planning a hire for my small business\u2019s tech team.",
+                                    "I\u2019m leading a small research project and need to discuss hiring software engineers."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To receive updates on an existing search or account, press 2.",
+                            "fileID": "c23065a3682a43f3b1da9269639e09e5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "We appreciate your patience. One of our account managers will be with you shortly.",
+                                        "fileID": "cae3d598e7fd469ab8e128ff0e39fe55"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "af88f6d51aae49278bb19c682bc3fd67",
+                                "navigationGoals": [
+                                    "Get the latest update on my current hiring search.",
+                                    "I\u2019m checking in on the status of our ongoing search for a senior developer we\u2019re recruiting.",
+                                    "I\u2019d like a status report on our active search for a senior backend engineer.",
+                                    "I\u2019d like an update on the candidates and progress for our current hiring account.",
+                                    "I\u2019d like an update on our active search for a data analyst to join our lab team."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "14348649fd194c7281e17962392c8187",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a tech professional seeking exciting new opportunities, press 2.",
+                "fileID": "907001ea787e496b9ccb168085ef0d24",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore our current job openings and career paths, press 1.",
+                            "fileID": "9826e8d730fb47d3bf432d8d41cd958b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for waiting. You will be connected to a talent advisor momentarily.",
+                                        "fileID": "223c41a17102413f80d964f1e41bd608"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b4dd4d3a45fe45498400f91deef3236b",
+                                "navigationGoals": [
+                                    "Browse current tech job openings that match my skills.",
+                                    "As an ex-military professional transitioning to tech, I want to explore current software engineering openings that fit my background.",
+                                    "I\u2019m exploring your current full-stack developer openings.",
+                                    "I want to review the latest technology job openings you have available.",
+                                    "I want to explore entry-level data science roles that fit my physics background."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To submit your resume for future consideration, press 2.",
+                            "fileID": "b46af6f1f74f465f90f3542d453b6220",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we gather your details and prepare your candidate profile.",
+                                        "fileID": "88d9515416ea47c7b3c308dbdcc49383"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "260315f888994a758a2f7ea0561282fe",
+                                "navigationGoals": [
+                                    "Submit my resume for future tech positions.",
+                                    "I\u2019d like to submit my resume and profile for consideration for future IT roles as I move into civilian tech work.",
+                                    "I want to submit my resume for future architect-level DevOps roles.",
+                                    "I\u2019d like to submit my CV for future tech roles you might fill.",
+                                    "I\u2019d like to submit my resume for future openings in computational physics internships."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "dce8611a5bc14a15b6f0e74d790963a1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b59b552776d040d0baa912ed5b38717b",
+        "navigationGoals": null
+    },
+    "id": "f2f985d3c5874219a5ae835a2a7216a8",
+    "navigationGoals": null
+}

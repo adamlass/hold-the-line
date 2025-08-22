@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Tophatter, the world's most entertaining live auction site based in San Francisco.",
+            "fileID": "47055d7a1cc842848cca57ac402dab18"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For live auctions and placing bids, press 1.",
+                "fileID": "1035fc981080489aa8f0cc61ad655384",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To join a live auction currently in progress, press 1.",
+                            "fileID": "0cf392eece2e4ed994bcf8aaecbd9b06",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our live auctioneer.",
+                                        "fileID": "e81f4b6a2c6d472a848af6b0773d5eca"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "446b56633abb487d9c01cdc803a57bf7",
+                                "navigationGoals": [
+                                    "Join the live auction in progress so I can start bidding now",
+                                    "Join the current live auction so I can bid on that tactical backpack.",
+                                    "Connect me to the real-time auction stream so I can place live bids.",
+                                    "I\u2019d like to join the live auction that\u2019s happening right now.",
+                                    "I\u2019d like to join the ongoing auction and place a bid."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To register for an upcoming live auction, press 2.",
+                            "fileID": "25335605d5444ae9b5c289a77288e700",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we register you for the next auction.",
+                                        "fileID": "1a684df7961a4b6ab3c455c8fa72d3dc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a97bbe43b9994418b24712a7fa4e43c8",
+                                "navigationGoals": [
+                                    "Register me for the next scheduled live auction event",
+                                    "Register me for the next live auction; I want to bid on some military memorabilia.",
+                                    "Register my account for the upcoming live auction event.",
+                                    "I need help registering for the next scheduled auction.",
+                                    "Please register me for the next live auction event."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "45dcec8e84ba43348beee2e37637e02a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account information and customer support, press 2.",
+                "fileID": "6b3cf2dc46844b9f84770ce4bfa44464",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To update your account or payment information, press 1.",
+                            "fileID": "7e1b4611a60b4ec780ede4b25272d888",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we access your account details.",
+                                        "fileID": "4e61d70f20274c8c80a652bebe72ea4f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "623d223800ef4d288556e54170d41f31",
+                                "navigationGoals": [
+                                    "Update my payment method on my Tophatter account",
+                                    "Update my payment method and shipping address to complete my purchase.",
+                                    "Update my stored payment credentials with a new credit card token.",
+                                    "I want to update my payment information on my account.",
+                                    "I need to update my payment details on my account."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a customer service representative, press 2.",
+                            "fileID": "3b77ae0dc6424598b043478d8c838c85",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a customer service representative.",
+                                        "fileID": "e92a01cad0a249afb05c3b949ec9266c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a09e253495e8486ea07c6ca6f75f77c3",
+                                "navigationGoals": [
+                                    "Connect me with a customer service rep to resolve an issue",
+                                    "Connect me to customer service to verify my veteran discount eligibility.",
+                                    "Connect me to a support specialist to troubleshoot a payment-sync error in my account.",
+                                    "I\u2019d like to speak with a customer service representative for assistance.",
+                                    "I want to speak with a customer service rep about my account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b7991df0fadf411ba5a8f706ccf79ff9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "177cac764ae149eca234a9b76a98c47a",
+        "navigationGoals": null
+    },
+    "id": "fa711f3045c846de9c1a183e259545e1",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to BrightBytes in San Francisco, where we turn big data into big benefits for students.",
+            "fileID": "d48001ccdbf84614b242d2b9c7c6aac3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For account and dashboard support, press 1.",
+                "fileID": "71268935fd4842f7b831d5cf16f706c1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance and troubleshooting, press 1.",
+                            "fileID": "c39edcdb6fc14fed96f311dd2a7a3b5d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "9e43cea6e9f24a08b9ac08226d3b318b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e7e1b20ce4274079bf3c03b1bafd1eeb",
+                                "navigationGoals": [
+                                    "Resolve a login issue with my BrightBytes dashboard",
+                                    "I can\u2019t log into my account to view my students\u2019 data dashboard.",
+                                    "My dashboard API integration isn\u2019t pulling in real-time student analytics; I need technical troubleshooting.",
+                                    "I need help resetting my account password so I can access my dashboard.",
+                                    "I can't access my account dashboard; please help me troubleshoot the technical issue."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For subscription details and billing inquiries, press 2.",
+                            "fileID": "82e29bf5bf3443f19e5d221adf6857b3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to our billing department.",
+                                        "fileID": "d0c4b3bbdec54c8ea7c421eaec3181c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b055835906eb4613b61f9a9240814d1c",
+                                "navigationGoals": [
+                                    "Update my payment method and clarify the latest subscription charge",
+                                    "I need to review and update my subscription billing details.",
+                                    "I want to update the credit card on file for our enterprise subscription and get a detailed breakdown of last month\u2019s invoice.",
+                                    "I\u2019d like to check and update my billing information for my subscription.",
+                                    "I need details on my subscription plan and want to update my billing information."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0f777bf4a42a46e89144c1ad01d59865",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For information on our data visualization solutions, press 2.",
+                "fileID": "968a8a0b8bc6494b96e74fc1ee679159",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a solutions specialist about our services, press 1.",
+                            "fileID": "2277bb35c37b439f88593b555c38fffc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a solutions specialist.",
+                                        "fileID": "08eead10eb5845ca8c9ea8128cad86b6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3912b27ecb424957b0acd4a37ab2569a",
+                                "navigationGoals": [
+                                    "Discuss integration options for data visualization with a specialist",
+                                    "I\u2019d like to speak with a solutions specialist about your data visualization tools for my veteran education program.",
+                                    "I\u2019d like to discuss integrating your data visualization SDK into our LMS with a solutions specialist.",
+                                    "I want to speak with someone about which data visualization service best fits my needs.",
+                                    "I\u2019d like to speak with a specialist about integrating your visualization tools with my physics research data."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a demo or consultation, press 2.",
+                            "fileID": "34decff77ffd4f1b84bc029e8cb577c4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest. Please hold while we connect you to our scheduling team.",
+                                        "fileID": "ce4b836481b54d8c95b297b2e2e1f84d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8c0ab529f8694688bfeef8238b9a67f5",
+                                "navigationGoals": [
+                                    "Schedule a demo of the data visualization platform for next week",
+                                    "I want to schedule a demo of your data visualization platform.",
+                                    "I\u2019d like to schedule a demo of your data visualization platform to explore advanced customization options.",
+                                    "I\u2019d like to schedule a demo appointment for your data visualization platform.",
+                                    "I want to schedule a demo of your data visualization platform at a convenient time."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4200fdd81ea942729b956ceeb9b4a60b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ef277bc033e8469d8d86d702f2d3253f",
+        "navigationGoals": null
+    },
+    "id": "977d6a18c6d54980b4ba36d7875131a7",
+    "navigationGoals": null
+}

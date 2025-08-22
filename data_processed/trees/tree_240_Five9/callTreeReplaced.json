@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Five9 in the East Bay, the leading provider of cloud contact center software for the digital enterprise.",
+            "fileID": "d714eb95617e44fa8c8937bea5c6efba"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support, press 1.",
+                "fileID": "ab78ede7ae8548729c5b4d0339b5a14f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For cloud platform assistance, press 1.",
+                            "fileID": "186a9cc1ab35412fb8a7e4bbedb48ac2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a cloud support specialist.",
+                                        "fileID": "52db48336da1464681a2751e27cef831"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0f4f70c0c9ef43bb83c1386cbc02f7e3",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "b0a3db63b9ef4ec5b4d5af47aa48e504",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing team.",
+                                        "fileID": "c4fc43e9cb904a7a98ba6f10ad0a79f5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f5eb0d6ffbe849b495731312f5fcaf3e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ca3ffb3b6ba9476faa82e0419d1dc7b1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and product information, press 2.",
+                "fileID": "e554e82aeb9b4dc39dbdaadf154fd815",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our cloud contact center solutions, press 1.",
+                            "fileID": "83be62b438a14763a3c49645c9c7bd7e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our sales team.",
+                                        "fileID": "86c954a234354c688ca41dd56f22b181"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64f8e7334eff49749da3005c0bf0b2c2",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For enterprise partnership and integration inquiries, press 2.",
+                            "fileID": "cc333a792e424958891feb7eea3dc550",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our partnerships team.",
+                                        "fileID": "0991bea2a0bd49d3a3fed0bbb40a2915"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aa903a58340942bda2d7104cec92602e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "710da8f0496041799bcc3cfa9eea8039",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a7413ba7014d4c82b55091656123dbb7",
+        "navigationGoals": null
+    },
+    "id": "7d7294aaa2dc4a2da0dd0c507ade27c0",
+    "navigationGoals": null
+}

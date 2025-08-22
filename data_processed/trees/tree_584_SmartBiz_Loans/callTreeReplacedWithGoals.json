@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling SmartBiz Loans in San Francisco, your partner for SBA loans from one hundred fifty to three hundred fifty thousand dollars at competitive rates.",
+            "fileID": "0aab110d70c64e4ca171d8e0a0783628"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To prequalify online for a six point two five to seven point two five percent SBA loan ranging from one fifty to three fifty thousand dollars, press 1.",
+                "fileID": "d185d3c956fa4cdc8d19809792c4dfd5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check your existing prequalification status, press 1.",
+                            "fileID": "854240fd0e004661b6817d943d1c0c85",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your prequalification details. A representative will be with you shortly.",
+                                        "fileID": "d5cbb25160cf4c85bb42bb960e0b242e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2c03dec21b3f433d9eebd02694283cf8",
+                                "navigationGoals": [
+                                    "Verify the status of my SBA loan prequalification",
+                                    "Check if I'm still prequalified for an SBA loan for my veteran-owned business.",
+                                    "I need to retrieve the status of my SBA loan prequalification online.",
+                                    "I want to check the status of my SBA loan prequalification.",
+                                    "Retrieve the status of my existing SBA loan prequalification."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To start a new loan application, press 2.",
+                            "fileID": "7a704a749416491b858e83a5311166d0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our online application team.",
+                                        "fileID": "d58d102d556f4c4d830c18a55fa1a8b6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "600c980eb92f4b429d8f0d15b5093e27",
+                                "navigationGoals": [
+                                    "Begin a new SBA loan application",
+                                    "Start a new SBA loan application to expand my veteran-led small business.",
+                                    "I want to initiate a new SBA loan application for $150K\u2013$350K at your advertised rates.",
+                                    "I need help starting a new SBA loan application.",
+                                    "Initiate a new SBA loan application online."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "29c66c9b85474930b09d7e10e1d2429b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To speak with a loan specialist, press 2.",
+                "fileID": "5dce55fdc0b5495ebbd855f3cccdc57d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For questions about loan terms and rates, press 1.",
+                            "fileID": "e72919b2d2c04dda9e85a19ed6e78d51",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a specialist for terms and rate information.",
+                                        "fileID": "a6bce02d7afb43f6bc585f675301d683"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b994371f3b0d4532b942fbee5930b298",
+                                "navigationGoals": [
+                                    "Ask a specialist about SBA loan rates and terms",
+                                    "Ask about current SBA loan rates and terms for veteran entrepreneurs.",
+                                    "I need to review the APR, interest schedule, and amortization terms for your SBA loans.",
+                                    "I have questions about loan terms and interest rates and need to speak with someone.",
+                                    "Discuss detailed loan terms and interest rates with a specialist."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For support with an existing application, press 2.",
+                            "fileID": "96bfe0a429fb4d4b88c5bba6319823db",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our application support team.",
+                                        "fileID": "ede047dbf6304d39804a6cebbae97196"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "92b8a50f9b3542369b72c84379edfc52",
+                                "navigationGoals": [
+                                    "Get help with my existing SBA loan application",
+                                    "Get help with my ongoing SBA loan application for my veteran-owned business.",
+                                    "I\u2019m experiencing a validation error on my in-progress SBA loan application and need technical support.",
+                                    "I need assistance with my current loan application.",
+                                    "Obtain support for my current SBA loan application."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bd177e6adf5e459db647495278611237",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1cbd9e8198004338a49701c996c516b1",
+        "navigationGoals": null
+    },
+    "id": "012cf8069ff84aceb282c15af174f0a8",
+    "navigationGoals": null
+}

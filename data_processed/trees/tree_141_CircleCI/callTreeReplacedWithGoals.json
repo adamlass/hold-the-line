@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to CircleCI in San Francisco, where we help teams rapidly release code they trust by automating their build, test, and delivery processes.",
+            "fileID": "b9c26b973c6c4a7787cb72e84e25b73c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our sales and account management team, press 1.",
+                "fileID": "5308a42832cd465fb497d245ce49d6dd",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss new sales inquiries and pricing, press 1.",
+                            "fileID": "b20aa898557545248b06ec8f8479e3db",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team, a representative will be with you shortly.",
+                                        "fileID": "dab9d6ff8ecf4a0e9a0558abf1c93c41"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "837ca8caa47a4dce991b6bf95df4ca10",
+                                "navigationGoals": [
+                                    "I need a quote for upgrading our team to the Performance plan",
+                                    "I\u2019d like to get pricing details for a small development team subscription.",
+                                    "I\u2019d like to discuss enterprise licensing and pricing tiers for high-availability CI/CD pipelines.",
+                                    "I need to talk to someone about setting up a new account and pricing",
+                                    "I\u2019m exploring CircleCI plans for a student-run research project and need details on pricing and student discounts."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For existing account management and billing questions, press 2.",
+                            "fileID": "c1d835eb51b348678542b887de71aae0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our account management team now.",
+                                        "fileID": "9dea67f923a7468a986409ec0e1a3267"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4e86a82132594e22848f0affbe239846",
+                                "navigationGoals": [
+                                    "I need to resolve a billing error on our latest invoice",
+                                    "I need help understanding and updating the billing on my existing CircleCI account.",
+                                    "I need to update my payment method and review my current subscription usage metrics.",
+                                    "I want help understanding the charges on my current bill",
+                                    "I need to update my billing information and clarify the charges from my last invoice."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "41b934910f5243198e19974dd04da589",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support, press 2.",
+                "fileID": "3d777a70670841bb8579ef3bf73abc7e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you\u2019re experiencing build or deployment issues, press 1.",
+                            "fileID": "c1297d25dc324564b9c9947ce5d8273f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a build and deployment engineer.",
+                                        "fileID": "be775ab70c7b4c9a94e34fdca9783f94"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "acfe874bf98b4f66acc58287a1120de4",
+                                "navigationGoals": [
+                                    "My build is failing and I need an engineer to troubleshoot it",
+                                    "My build pipelines are failing with a Docker image error, and I need technical support.",
+                                    "I\u2019m troubleshooting a failing CI pipeline due to Docker layer caching errors in our Kubernetes deployments.",
+                                    "My code builds are failing and I need assistance fixing them",
+                                    "My recent build of my physics simulation code failed\u2014I need help debugging the build pipeline."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For assistance with integrations or our API, press 2.",
+                            "fileID": "217fa50058e94cb0948391a6fa1c0e14",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Just a moment please, connecting you to our integrations and API support team.",
+                                        "fileID": "d15677a3476c457b943cd00f6b3a3ed2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9bc3bed035ce4ae48359c0f255411a2f",
+                                "navigationGoals": [
+                                    "I need help integrating CircleCI\u2019s API into our CI pipeline",
+                                    "I want assistance setting up the GitHub Enterprise integration via the CircleCI API.",
+                                    "I need assistance configuring the CircleCI API for custom webhooks to trigger downstream microservices.",
+                                    "I need help connecting CircleCI with my other tools via the API",
+                                    "I want guidance on using the CircleCI API to automate my data analysis workflow integration."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "da12ab9078da4c62913537dd572873de",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9206f5a728114a32bfeadf9d55b04e88",
+        "navigationGoals": null
+    },
+    "id": "20cb6635fad6451fac49a5fb1f4b17a5",
+    "navigationGoals": null
+}

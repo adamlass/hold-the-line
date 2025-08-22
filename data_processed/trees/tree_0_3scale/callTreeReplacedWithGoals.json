@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling 3scale in San Francisco, your API management solution from Red Hat.",
+            "fileID": "e45a2970f0a2479f82b0e45c7e231a9e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For support options, press 1.",
+                "fileID": "83d5d75769844764aa8a8880ae86f4e7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For developer support and API integration help, press 1.",
+                            "fileID": "d195ee103f8c47ed9dbcc4f410c70e7e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our developer support team.",
+                                        "fileID": "4a254bd60c6041678dba71f68d6f6039"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3ee393f6df224bd9b252814f0e00117f",
+                                "navigationGoals": [
+                                    "I need assistance integrating my application with the 3scale API.",
+                                    "I need help integrating the 3scale API into my application.",
+                                    "I need help troubleshooting my OAuth implementation in our 3scale API integration.",
+                                    "I need help linking my software to the API\u2014I\u2019m not sure how to enter my credentials.",
+                                    "I\u2019m setting up the 3scale API for a physics simulation and need guidance on integration best practices."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical troubleshooting and issue resolution, press 2.",
+                            "fileID": "f154b5ef6df043e585d51da24880cd5f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we\u2019re connecting you to technical troubleshooting.",
+                                        "fileID": "e6d38dffd16347708db981a40c630733"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f2d89892ba714c5798017daded6ce8ab",
+                                "navigationGoals": [
+                                    "I\u2019m experiencing errors with my API calls and need technical troubleshooting.",
+                                    "I\u2019m experiencing errors with my API calls and need technical troubleshooting.",
+                                    "I need to resolve intermittent 502 errors from the 3scale gateway.",
+                                    "My program keeps timing out when calling the API; can someone help me fix it?",
+                                    "I\u2019m getting HTTP 403 errors when calling the API endpoints and need help debugging the issue."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ef16eb43e86e431d93e367c65d4e703d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales inquiries and pricing information, press 2.",
+                "fileID": "5b80c54980bd4ab89abe34e4c08aaa65",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For details on standard pricing plans, press 1.",
+                            "fileID": "2626776831bb43fe8b469de99640e596",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we gather our standard plan pricing.",
+                                        "fileID": "64c6f3d21ec84e3796abaea5fd759762"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ff947ac68eaa4308bfb57cc67bdc73db",
+                                "navigationGoals": [
+                                    "I want to get details on your standard API pricing plans.",
+                                    "I want details on your standard 3scale pricing plans.",
+                                    "I want a breakdown of monthly call quotas and cost tiers for the standard 3scale plan.",
+                                    "Could you tell me how much the basic API package costs each month?",
+                                    "I\u2019d like to see the standard 3scale pricing tiers for individual developers or students."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For enterprise solutions and custom quotes, press 2.",
+                            "fileID": "affc296efb6d4ddea23724d4abdc7319",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our enterprise sales team.",
+                                        "fileID": "936f049eba9144fdba9faef779d0b070"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6ac9a98c782f40768ba48ea5e823b2d1",
+                                "navigationGoals": [
+                                    "I\u2019d like a custom enterprise quote for a high-volume API solution.",
+                                    "I\u2019d like a custom quote for an enterprise solution.",
+                                    "I'm looking for a custom enterprise quote with dedicated SLA and high-availability cluster pricing.",
+                                    "I\u2019d like a custom quote for a high-volume enterprise plan.",
+                                    "I need detailed pricing and a custom quote for a volume license for our department\u2019s API usage."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3e4ecb18b07b47db96e96613d730067c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "61a8fd9dc09646718afb9d4584b2daf4",
+        "navigationGoals": null
+    },
+    "id": "131a0a8292ce44d1a74ab303faf4ca1c",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Dataminr in New York, delivering AI-powered alerts on critical events the moment they happen.",
+            "fileID": "2d377bf8a3c9471a9f8bbf14adf55524"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To reach our sales department, press 1.",
+                "fileID": "cbf6dcb6783948a5a2e785cf8db37759",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product information and demonstration requests, press 1.",
+                            "fileID": "ee75bb8232944aa0871891af960fedbf",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales specialists for product information and a live demonstration.",
+                                        "fileID": "2ec5c780cc714c5b9d3a435ba9ee081c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "51853fe477d44dc09a6e17b13fa7aa64",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing and contract inquiries, press 2.",
+                            "fileID": "1ffb861f33dd46e7b4724860cc639679",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our sales team for pricing and contract assistance.",
+                                        "fileID": "abcf5d237e2243a6bd6906d7f824de32"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4f29ce8c21e341cfa18d04cc2396780b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "30a4a9c4bfe34f529a77a8f819d11807",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To reach our support and account services, press 2.",
+                "fileID": "a1b28db832f64d719300eb29eb68a43f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "af773b042e96473e8268ce10fda9de00",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "2d8877dd58934f7fb696b1a7516ff093"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "462a35a2902e401f900d25e521c5966f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account management and client success, press 2.",
+                            "fileID": "84e32caa6dde4fdaaf748470f5445cf4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your account manager for client success services.",
+                                        "fileID": "98f591de5ba54cd1aba09dfcab354f40"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f6a5688479a746db836c984514a41748",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0904daa9376943eb9dde7db14a0e8f21",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8d0076cd031f4692b8747e1b8b6602cf",
+        "navigationGoals": null
+    },
+    "id": "daa6ef1bde644411a68ca181da453a74",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Wonderschool in San Francisco, the early childhood experience you\u2019ve been looking for.",
+            "fileID": "8533e3c92c944b3ba6890021e994820c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For enrollment and program information, press 1.",
+                "fileID": "f5462bd737354a18a82088241b63cfdd",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a campus tour, press 1.",
+                            "fileID": "114922acac0843f7aa1edf37fd875c50",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our enrollment team for campus tours.",
+                                        "fileID": "f194da220b9f49e5b7f541687f830512"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e98773e5d80a4e73beeca6375c8f2fc8",
+                                "navigationGoals": [
+                                    "I need to book a campus tour for my child as soon as possible",
+                                    "I\u2019d like to schedule a campus tour to see if this program is right for my preschooler.",
+                                    "Schedule a campus tour and get an iCal calendar invite.",
+                                    "I\u2019d like to arrange an in-person campus tour to see the preschool classrooms for my granddaughter.",
+                                    "Book a campus tour to review their early childhood programs."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For tuition details and financial assistance, press 2.",
+                            "fileID": "e60d05e1d3fe40d8a351eda7b891b8cb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our finance specialist.",
+                                        "fileID": "db9648496a3b4eb29682cf699bb6f2a4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "866108bd3bdf405ba7d6081b8b3cc239",
+                                "navigationGoals": [
+                                    "I need details on tuition fees and available financial aid",
+                                    "Can you explain tuition costs and any financial aid or military family discounts?",
+                                    "Access the detailed tuition fee breakdown and financial assistance criteria.",
+                                    "I need information on tuition costs and available financial aid for my grandson.",
+                                    "Get details on tuition costs and available financial aid."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f744826f96c14979bc9f373012a41916",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For general inquiries, press 2.",
+                "fileID": "b3802a338b1f492883fb7fb6f1ca9a60",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For partnerships and community outreach, press 1.",
+                            "fileID": "af3dad24de68469ea64f7effe7cdbafe",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our community outreach team.",
+                                        "fileID": "79b31b440ab8433b8093916ff258474e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f8c97ae54a92484caa242e1042aaf597",
+                                "navigationGoals": [
+                                    "I'm exploring partnership opportunities with your community outreach program",
+                                    "I\u2019m interested in how Wonderschool works with local veteran and community groups.",
+                                    "Set up a partnership inquiry for community outreach collaboration.",
+                                    "I\u2019m interested in volunteering or attending community events at the school and want to know how to get involved.",
+                                    "Explore partnership options for a community STEM outreach initiative."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For career opportunities and human resources, press 2.",
+                            "fileID": "0ae6efb8a8b649ec9f35f611aade8856",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our human resources department.",
+                                        "fileID": "6d7b66edc4da499bb6d0a45251af60be"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "648502fa6365423ea605c70a14049544",
+                                "navigationGoals": [
+                                    "I\u2019m inquiring about current job openings and HR policies",
+                                    "I\u2019d like to learn about job openings and veteran hiring programs in your HR department.",
+                                    "Inquire about open technical positions and submit my resume via your HR portal.",
+                                    "I\u2019d like to inquire about part-time job or mentoring opportunities for retirees at Wonderschool.",
+                                    "Inquire about current job or internship openings at Wonderschool."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8b94df582e0a4774a316f8a280184098",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a74746490c8a46bd910ddf4e488b9249",
+        "navigationGoals": null
+    },
+    "id": "02617560beb1405aa8fe2a34ba9f3207",
+    "navigationGoals": null
+}

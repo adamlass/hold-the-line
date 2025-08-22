@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Workbridge Associates in San Francisco, your partner in placing IT professionals at leading tech companies.",
+            "fileID": "0be91655518d4b7d86baf53b98301c68"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a job seeker, press 1 to explore our latest IT opportunities.",
+                "fileID": "64f6d1571d644e44a732e5104d8a9dc4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit or update your resume, press 1.",
+                            "fileID": "950479c69c8a4060a710569d93df17dd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a careers specialist.",
+                                        "fileID": "381b652e968d430d9ef1a6b831a3dc0e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e14a3b43827c4afaa5e8309c84602566",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To check the status of your application, press 2.",
+                            "fileID": "b3811a03e7b04a07bf68a3a894eb3a79",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your application status.",
+                                        "fileID": "8b477a7c3cab4d5593aafd2d50e123c5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "346d88d979a845dfbe80632bb2a5337e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9db78f2510ba4f2689947c4e26c5fa4c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an employer, press 2 to discuss your IT hiring needs.",
+                "fileID": "8c5a50141da842d594d9a61eae2029be",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a recruitment specialist, press 1.",
+                            "fileID": "fe28fb0dcd424209b95215e96ff0f66a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruitment specialist.",
+                                        "fileID": "7d99558b8a8649c7b94dec7a25047c2f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1ca3203e490e46adabb0950e5f1bde97",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn about our services and rates, press 2.",
+                            "fileID": "b0c212c3783e475d9162d270e1d6fbcd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our services team.",
+                                        "fileID": "8745ec06a36d46fa9cc6f3b95e36a288"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f955c5273eb54df386d20f28927f755c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7ea8fb653d824f38be892906dc2f5bb4",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "83379158e32c401b8e2f4938ca43ea12",
+        "navigationGoals": null
+    },
+    "id": "b314f350131e4e40964c23b1f3f5af78",
+    "navigationGoals": null
+}

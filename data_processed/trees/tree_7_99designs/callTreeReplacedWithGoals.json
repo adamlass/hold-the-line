@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Ninety Nine Designs, the global creative platform for custom graphic design based in the East Bay.",
+            "fileID": "c932356f6756419ea221377c04c4d0b2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To start a new design contest, press 1.",
+                "fileID": "61ecde55a0ab471a87065711fa9b8ae8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To launch a logo design contest, press 1.",
+                            "fileID": "c6dd508e356b40368ede56f07ec9bdb4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our contests team for logo design.",
+                                        "fileID": "ce3a86570abe4ddcbe652ef2c41c25dc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5132e0cb776640b280bc29b771951c52",
+                                "navigationGoals": [
+                                    "Launch a logo design contest to get a new company logo quickly.",
+                                    "Launch a logo contest to create a brand mark for my veterans support nonprofit",
+                                    "Spin up a crowdsourced logo design contest to generate a new brand mark",
+                                    "I would like to start a logo design contest to update my garden club\u2019s emblem.",
+                                    "I\u2019d like to launch a contest to develop a fresh logo for my university physics club."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To launch a website or other design contest, press 2.",
+                            "fileID": "4963fe55928040f7beeda3d06ef01a5d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our contests team for websites and other projects.",
+                                        "fileID": "4d40ab980f9f4a738964edb927c8cb14"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "272b1ed48e084ab89e2ada7d11efe6d2",
+                                "navigationGoals": [
+                                    "Start a website design contest to refresh my site\u2019s look.",
+                                    "Run a website design contest to get a new site for my military outreach group",
+                                    "Launch a UI/UX website design contest to source prototypes and mockups",
+                                    "I need to launch a brochure design contest for my community center.",
+                                    "I\u2019d like to start a competition to build a new website for my lab\u2019s outreach program."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "81b8566860144635ab6b3bcce24956e1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To hire a designer directly, press 2.",
+                "fileID": "01bc60d37843498a9cf67ed186560feb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hire a designer for logo work, press 1.",
+                            "fileID": "85b1623f2e6f47638c41b883d504bca5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our designer matching team for logo projects.",
+                                        "fileID": "78d3c69c11424abc8e1d44313dca9cd3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "87ff2576894841b1b9c8264b45191242",
+                                "navigationGoals": [
+                                    "Directly hire a designer to create a professional logo.",
+                                    "Hire a designer directly to craft a logo for my veteran assistance program",
+                                    "Directly onboard a senior logo designer for brand identity work",
+                                    "I want to hire a designer directly to create a new logo for my knitting group.",
+                                    "I want to hire a designer directly to create a custom badge for my quantum physics team."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To hire a designer for website or other design services, press 2.",
+                            "fileID": "e04773415b4c433b8aae858a7ed62c05",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our designer matching team for websites and other design services.",
+                                        "fileID": "2cb1cb34c57741e1a8e5f98c627f16c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e56074584abe4bf899af6b1622fd52cb",
+                                "navigationGoals": [
+                                    "Find and hire a designer for a website redesign project.",
+                                    "Hire a web designer to build a site for my veterans support project",
+                                    "Contract a front-end/UI designer for my website redesign",
+                                    "I need to hire someone to redesign my personal blog\u2019s website.",
+                                    "I want to hire a freelancer to revamp and add graphics to my research group\u2019s site."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "37ba85a52f3348ddb8694d2793c6b299",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6c55f2c1aa154c0b9a5003b265e44b79",
+        "navigationGoals": null
+    },
+    "id": "0221d8b283b542559a25f7017f570fe7",
+    "navigationGoals": null
+}

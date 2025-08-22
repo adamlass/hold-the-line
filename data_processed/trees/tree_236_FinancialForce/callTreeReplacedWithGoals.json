@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling FinancialForce in San Francisco, the cloud ERP solution built on Salesforce for unified front and back office.",
+            "fileID": "33a899e952e0422bacfede69da3de3b6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For accounting and financial management on our cloud ERP platform, press 1.",
+                "fileID": "b5040dec61dc4cd1bd88f8f67be58a90",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing and invoicing support, press 1.",
+                            "fileID": "1cf6117140384f7ab913704eb954010f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and invoicing specialists.",
+                                        "fileID": "0f9462c6922645ba9ac7f5b33ff4c8b6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "89af9e2c14c04b2989f3bd050d8b90e7",
+                                "navigationGoals": [
+                                    "I need to resolve a discrepancy on last month\u2019s invoice.",
+                                    "I need help correcting a billing error on my account.",
+                                    "Debug my automated billing process\u2014last night\u2019s invoices failed to generate.",
+                                    "I need help understanding and paying my billing statement.",
+                                    "I need assistance issuing a corrected invoice for a research grant payment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For general ledger and financial reporting assistance, press 2.",
+                            "fileID": "578041ffd6d041488faaeee403d4253b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold and we will transfer you to our general ledger support team.",
+                                        "fileID": "c48648249b714d10bda3619a69e173fc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "752857412dfe4a799ba63ca8c93e78d2",
+                                "navigationGoals": [
+                                    "I need help reconciling my general ledger for Q2.",
+                                    "Help me reconcile my department\u2019s general ledger transactions.",
+                                    "Customize a consolidated general ledger report for our Q2 financials.",
+                                    "I need assistance reconciling my accounts and generating my financial report.",
+                                    "I want to generate a clear general ledger report for my lab\u2019s funding account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "11347d6abdc145b485ada20e64f00dd8",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For implementation services and technical support, press 2.",
+                "fileID": "9d7f95aa3a6e4137b1f13f22903be0bf",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For onboarding and team training, press 1.",
+                            "fileID": "15ddf0b57a5b4fa4a0883fe5d920a38e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our onboarding and training team.",
+                                        "fileID": "903a17d2fa544ad7a9589d5e759c9791"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "da07eb74a99d42bb98552ac392f52821",
+                                "navigationGoals": [
+                                    "I want to schedule onboarding and training for our new finance team members.",
+                                    "I need to schedule onboarding and training sessions for my finance team.",
+                                    "Schedule a team training session to onboard staff on ERP configuration workflows.",
+                                    "I need step-by-step help setting up my account and learning how to use the system.",
+                                    "I\u2019d like to schedule an onboarding and ERP training session for my research team."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical troubleshooting and system maintenance, press 2.",
+                            "fileID": "8b1712677ed24f81b182da7cafcdf9de",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line while we transfer you to technical support.",
+                                        "fileID": "043ca37cd5c646578a2f25e554895d75"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2200fcecf70b4b238d5a6b020043b957",
+                                "navigationGoals": [
+                                    "I need assistance troubleshooting a system error in our ERP integration.",
+                                    "I\u2019m getting an error when loading financial reports and need troubleshooting assistance.",
+                                    "Investigate slow API response times and arrange system patch updates.",
+                                    "I need help troubleshooting a login error in the system.",
+                                    "I\u2019m troubleshooting a data sync error between Salesforce and our ERP system."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9989a30ea978499fb6be8fa9a95757e3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "caba147057bf4386bc3b76687b8277bf",
+        "navigationGoals": null
+    },
+    "id": "8e3e4e60bf0a4a70bb342bb9d2bcd7aa",
+    "navigationGoals": null
+}

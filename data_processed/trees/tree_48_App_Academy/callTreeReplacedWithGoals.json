@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to App Academy in San Francisco, where you change your career and only pay tuition once you\u2019re hired as a developer.",
+            "fileID": "d8fbf8b8eede4c158a3467b830b6cc12"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our training programs and career services, press '1'.",
+                "fileID": "eb2f4942385d4858a4b7296c11fb66dd",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our full-stack web development curriculum and course structure, press '1'.",
+                            "fileID": "2d05160bc2384c68b2f8557849213e01",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our curriculum specialists.",
+                                        "fileID": "e5dda3a5b59e4640a7ad4cc983541889"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0c2245ead0d24c20ba769c5bf43527a0",
+                                "navigationGoals": [
+                                    "I need a concise overview of the full-stack web development curriculum to see if it fits my schedule.",
+                                    "I want to understand the web development curriculum \u2013 course topics, duration, and any veteran-specific accommodations.",
+                                    "Give me a breakdown of your full-stack dev curriculum\u2014coverage of front-end and back-end frameworks, project modules, and timelines.",
+                                    "I need help understanding the full-stack web development curriculum details.",
+                                    "Could you provide specific details about the full-stack web development curriculum modules, prerequisites, and schedule pacing?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To hear about career support, job placement rates, and employer partnerships, press '2'.",
+                            "fileID": "b9e80743f18c4a30af4991417b82f2fd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our career services team.",
+                                        "fileID": "3cba3f08395e48f48ba9ddfa55259201"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6712307613174f9cb674e5ff70ac5b2b",
+                                "navigationGoals": [
+                                    "I want to learn about job placement rates and employer partnerships to assess career support.",
+                                    "I need details on career placement support \u2013 job rates for vets and employer partners.",
+                                    "Share your employment outcomes\u2014job placement rates, employer partnerships, and career support workflows post-graduation.",
+                                    "I'd like to ask about job placement rates and career support after graduation.",
+                                    "I would like to understand the school\u2019s career support metrics, including job placement rates and employer partnerships."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "86b724fc284846df8310a895b4472821",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To speak with admissions or learn about tuition payment options, press '2'.",
+                "fileID": "cf4ec9cf0d17456b932a63235918a52e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To get details on the application process and enrollment requirements, press '1'.",
+                            "fileID": "2fade535035348b6ab2641904becee65",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our admissions advisors.",
+                                        "fileID": "8e8c270371b04747b624325ae925f89d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "848eb596ab6348a6a79a4734c09646d0",
+                                "navigationGoals": [
+                                    "I\u2019d like the application requirements and enrollment deadlines so I can apply quickly.",
+                                    "I want to know how to apply \u2013 prerequisites, deadlines, and veteran enrollment procedures.",
+                                    "Outline the admissions pipeline\u2014application prerequisites, evaluation criteria, and upcoming cohort dates.",
+                                    "I want to know the application requirements and how to enroll.",
+                                    "Could you outline the application requirements, key deadlines, and enrollment procedure for the program?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss tuition, deferred payment plans, and financial options, press '2'.",
+                            "fileID": "6531851271e745c0a8ef6c9711345f46",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our finance department.",
+                                        "fileID": "1e5dc70644c747be909209980751a73e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "86a571a23f1845dd945ec7f29a5c6c53",
+                                "navigationGoals": [
+                                    "I\u2019m looking for details on tuition payment options and deferred payment plans to plan my budget.",
+                                    "I'm looking for financial options \u2013 GI Bill benefits, deferred tuition plans, and scholarships for vets.",
+                                    "Explain your financial model\u2014deferred tuition plans, income-share agreements, and installment payment options.",
+                                    "I'm looking for information on tuition payment plans and financial aid options.",
+                                    "I want to discuss the total tuition cost and the deferred payment or financing options available."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ee0879b3a3e545a698b54b0721ae4789",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3444ac625aa6473da13dc11f7e43e06b",
+        "navigationGoals": null
+    },
+    "id": "591435fbc68144c5974e8daeebd29940",
+    "navigationGoals": null
+}

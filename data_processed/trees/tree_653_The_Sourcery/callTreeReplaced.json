@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling The Sourcery in San Francisco, your partner in building a pipeline of top talent.",
+            "fileID": "19bbe23eeffd4c20b17c756fa0ca44f1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For employer services, including building and maintaining your candidate pipeline, press 1.",
+                "fileID": "eb2cb378237d4a47ac4e32abe4aed1df",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a recruitment specialist about sourcing candidates for your openings, press 1.",
+                            "fileID": "8e3d4087189642fa854fc0a3dc5c7425",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruitment specialist.",
+                                        "fileID": "211aa300ce4e43c5833a3847445a6326"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9cd1ecd601024d949597de6ef6531fdd",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For help with your existing account or to discuss ongoing partnerships, press 2.",
+                            "fileID": "ed782aff08d5495fa47226cbcce13c3a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our account management team.",
+                                        "fileID": "e9283c7ead7d463f8278b52cd884777e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ed67600853464a5992781de86e4f336e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bdb582921fe94ef093203182bf92057e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For candidate inquiries such as submitting your resume or checking application status, press 2.",
+                "fileID": "3daf6e2ea5de42b4aa4b71599ca094de",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit your resume or explore current opportunities, press 1.",
+                            "fileID": "106dac42cbd4495e962fa95ed5bb2b59",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a candidate services representative.",
+                                        "fileID": "ef90b7d9b33c411188472760441ead56"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4f88b9ab563240a99fc7f4f51501a862",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To check the status of an application, press 2.",
+                            "fileID": "1cc088c06cd349a5b6fe7ab32cebda79",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your application status.",
+                                        "fileID": "1cae5d785f0b4627b14d1939c5b7bb66"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ba15201f0e6c493f82e7be2b64a62932",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9048969bd5a14efb88cf42ab5c81d999",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9c8b4cc2e7614b0c9974fa924811b84e",
+        "navigationGoals": null
+    },
+    "id": "af3a9c04229b495dbb2f14163ae4232b",
+    "navigationGoals": null
+}

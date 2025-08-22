@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Bugsnag, your focused and powerful error monitoring solution for web, mobile, and server applications.",
+            "fileID": "cb73866edfac456a9459658eb9579bbf"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and Pricing information, press 1.",
+                "fileID": "836844ac8beb48c480dcacd40733f557",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on plans and pricing, press 1.",
+                            "fileID": "850694a433384a3299ffa085e6801086",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for plans and pricing.",
+                                        "fileID": "953224f1ad654f22b080e492a04be9a1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5e908cf42f8244c39afdf2c7b175235c",
+                                "navigationGoals": [
+                                    "Review Bugsnag\u2019s pricing tiers to choose the most cost-effective plan.",
+                                    "Review and compare pricing tiers to choose the right plan",
+                                    "Get a breakdown of pricing plans, feature limits, and API call quotas for enterprise error monitoring",
+                                    "I need to know the cost details for your subscription plans.",
+                                    "I\u2019d like detailed information on your pricing plans, especially for academic research use."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To request a live demo, press 2.",
+                            "fileID": "bb5d038312f746d2bdb89878a757d41b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to schedule your live demo.",
+                                        "fileID": "cbd84af969bc418fb525547e2ab33ac1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dba98c1c432b415fa41e1af9f2b758a7",
+                                "navigationGoals": [
+                                    "Schedule a brief live demo to evaluate Bugsnag\u2019s features.",
+                                    "Request a live demo to see the platform in action",
+                                    "Schedule a live demo focusing on SDK integration and real-time error analytics",
+                                    "I\u2019d like to schedule a live demo to see how Bugsnag works.",
+                                    "I want to schedule a live demo to see how Bugsnag works for my web application."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fa154049479a42c8951319db9f9b0041",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technical Support, press 2.",
+                "fileID": "ece9ca08c0564068ac85713a436f9e73",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For integration assistance and setup, press 1.",
+                            "fileID": "4b42cd48c1944f6ba011c6a40fe7518b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an integration specialist.",
+                                        "fileID": "40ed3bf7e0bd4f8d8f2599f7037fd664"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ec279f8d6e5346968dc0215e00a7dde7",
+                                "navigationGoals": [
+                                    "Get immediate assistance integrating Bugsnag into our deployment workflow.",
+                                    "Get step-by-step help integrating the SDK into my application",
+                                    "Connect me with integration support to instrument our Node.js SDK for microservices",
+                                    "I need assistance setting up and integrating Bugsnag with my application.",
+                                    "I need help integrating the Bugsnag SDK into my JavaScript-based research project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To report a new issue or check ticket status, press 2.",
+                            "fileID": "fa63f14aaf414544aee88ccebf589853",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "49d50efccc994939b3d98078966954f1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ae5966cb2a18426088a264a7314a54ed",
+                                "navigationGoals": [
+                                    "Report a new error and check the status of my existing support ticket.",
+                                    "Open a new error ticket and check the status of my existing support case",
+                                    "Log a new P1 crash in our React Native app and fetch the current ticket status",
+                                    "I\u2019d like to check the status of my existing support ticket.",
+                                    "I already submitted a support ticket and want to check the status of my issue."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "018a27ad63a543f08eea0c38f44846ef",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5ad8f7db1ed14d24a68665229a3f4991",
+        "navigationGoals": null
+    },
+    "id": "25702efef4734d8389f8580d94521e3d",
+    "navigationGoals": null
+}

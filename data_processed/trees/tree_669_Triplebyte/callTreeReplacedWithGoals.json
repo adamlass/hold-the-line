@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Triplebyte in San Francisco, where you can take our coding quiz and receive offers from top tech companies.",
+            "fileID": "6ebceeca5fa4422bb6840f5c61d4a619"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a software engineer looking to take our coding quiz and get matched with leading tech companies, press 1.",
+                "fileID": "1be55f07828e4cde826f6c50e86def25",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start your coding quiz now, press 1.",
+                            "fileID": "e8975e1c60584889a8764f17ec84eb69",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a quiz specialist.",
+                                        "fileID": "1986e4ff8c814e15b9c89cf829d62604"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ef80e3e997d14675a4fdb979b712d236",
+                                "navigationGoals": [
+                                    "I\u2019m ready to start my coding quiz right away",
+                                    "I want to start my Triplebyte coding quiz to help me transition into a software engineering role.",
+                                    "Initiate the Triplebyte coding assessment to benchmark my software engineering skills.",
+                                    "I need help starting the coding quiz.",
+                                    "I\u2019d like to begin my Triplebyte coding quiz so I can demonstrate my software engineering skills and get matched with top tech firms."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For questions about an existing quiz or your application status, press 2.",
+                            "fileID": "deefc549a1cc480c8a426b81a3c88148",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to candidate support.",
+                                        "fileID": "57a82f3d34f045b085b37330befe0869"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4211669302c44a159211d70df912019f",
+                                "navigationGoals": [
+                                    "I\u2019d like an update on my current quiz application status",
+                                    "I need to follow up on my submitted coding quiz and check my application status.",
+                                    "Check on my existing coding quiz outcomes and application status.",
+                                    "I want to check on the status of my quiz application.",
+                                    "I need an update on my coding quiz results and application status after completing the assessment."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a480b299cd564b95a1087349acbdc1d1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a hiring manager interested in our B2B recruitment services, press 2.",
+                "fileID": "3c8215d6431d44d3b79ad414ad13ddba",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our enterprise sales team, press 1.",
+                            "fileID": "d6b09b90d83c460cae8a3329b9a78098",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an enterprise sales representative.",
+                                        "fileID": "72ed056cde0847779eedc3f5bacf65a7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0022dc4177ae439f8d124da6564531d9",
+                                "navigationGoals": [
+                                    "I want to speak with sales about using Triplebyte for our tech hiring",
+                                    "As a veteran now in a hiring manager role, I\u2019d like to discuss enterprise sales options for recruiting engineers.",
+                                    "Connect with your enterprise sales team about B2B tech recruitment services.",
+                                    "I'd like to speak with someone about recruitment services for hiring.",
+                                    "I want to discuss enterprise recruitment options to hire lab assistants for my physics research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For customer support or technical assistance with our platform, press 2.",
+                            "fileID": "1ec16cd7c41c4dc5894a9a141ed453c4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to customer support.",
+                                        "fileID": "4f7e10ff010f4e13957eb573f2c85bfb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "274a2bded72a4fd5a0a197692b326622",
+                                "navigationGoals": [
+                                    "I need assistance troubleshooting the hiring platform",
+                                    "I have a technical issue with my recruiter account and need customer support to resolve it.",
+                                    "Get technical support for integrating Triplebyte platform into our ATS.",
+                                    "I'm having technical trouble with the platform and need assistance.",
+                                    "I\u2019m having trouble accessing the enterprise platform dashboard for candidate management and need customer support."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2291761c43cb4f4c9e09bd6986d3b372",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f3e231ad2bd549678122fd2204e67903",
+        "navigationGoals": null
+    },
+    "id": "8ebd71393ca247dab2ce3881faf872fe",
+    "navigationGoals": null
+}

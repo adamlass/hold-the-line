@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Yelp in San Francisco, your trusted source for local business reviews.",
+            "fileID": "738576303cbc4717af243132f2347e62"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For business reviews and recommendations, press 1.",
+                "fileID": "66982c5bebc94f35a497692ce6347bfc",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For restaurant reviews, press 1.",
+                            "fileID": "9546273881ff4f9eadfb647b8944d19e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our restaurant reviews team.",
+                                        "fileID": "48a369f02c104f229e09afd325dbd285"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6e506e39bab54193ae003f38ecbd766a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For shopping and service reviews, press 2.",
+                            "fileID": "a2d1038b868e47c98032de4074ac4397",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our shopping and services support team.",
+                                        "fileID": "22b08ec61652497aa77b4f9374494253"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c3894485a1ce4ab8bc5213dcfa4d390c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4b057f1894824ebeb982b0ebbf9b31c7",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account and technical support, press 2.",
+                "fileID": "eaf9b0f4aa1747bf969fa0a8ebef5109",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account assistance, press 1.",
+                            "fileID": "b9a4d75c906f4a15ab274c7475a20cf3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to account support.",
+                                        "fileID": "f4776d2fb4c54c998136fef70c88eb83"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9e52083f24544ca38889e34e35a4671b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical issues or feedback, press 2.",
+                            "fileID": "9839a86ee79e4cb79b3e780888ef239b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "ed7f5552088640b89852e1140f789a74"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e8608b918bcb41cf96ab799dc868f2c4",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b72a53f569514a30aca127cdd3adee02",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "92126189b63c438ba4ffd4f3523e801f",
+        "navigationGoals": null
+    },
+    "id": "81b5f27715cf4317836b008ad5f321a9",
+    "navigationGoals": null
+}

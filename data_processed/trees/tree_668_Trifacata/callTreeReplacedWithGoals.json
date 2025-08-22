@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Trifacata in San Francisco, empowering everyone to wrangle data faster.",
+            "fileID": "f9da7ffc1e964013b2cf5db8ab842a97"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales, licensing, and pricing, press 1.",
+                "fileID": "20a28516655642efb1f8115236b511cb",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new sales inquiries and demo scheduling, press 1.",
+                            "fileID": "ec79c8a637f44213ad997a9e782974d7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our sales team, who will show you how Trifacata accelerates data preparation.",
+                                        "fileID": "85d2f23b00454c38b3a710934b75a0c8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "155c76ed99d24d249c1eebc1ea378aa6",
+                                "navigationGoals": [
+                                    "Schedule a demo and get pricing details for the platform\u2019s data preparation tools.",
+                                    "I\u2019d like to schedule a demo and discuss purchasing a license.",
+                                    "Schedule a demo of Trifacata\u2019s automated data prep and pipeline optimization.",
+                                    "I\u2019d like to schedule a live demo of your data preparation tool and learn about pricing.",
+                                    "Schedule a live demo of Trifacata for my research group"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, account management, or license renewals, press 2.",
+                            "fileID": "595377225c4b4b28a27990ddc1d186e0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our billing specialists, who will assist you with account questions.",
+                                        "fileID": "8c0b22462da146198d86a4da09a87d8e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cb4e78ccc4244543a8f0cbee63c1e9b1",
+                                "navigationGoals": [
+                                    "Renew my software license and confirm upcoming billing charges.",
+                                    "I need to renew my license and update my billing information.",
+                                    "Renew our Trifacata enterprise license and adjust the billing cycle.",
+                                    "I need assistance renewing my software license.",
+                                    "Renew my Trifacata license for another year"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "576e3ce990324f7698001624f39547b5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and services, press 2.",
+                "fileID": "1856748622804b118d9831942c2462b5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "68a085a49b9f41f89745fd2f9e453620",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for technical support, and our data wrangling experts will be with you shortly.",
+                                        "fileID": "115d9db7d2fa4644b4cf11b1ee94b920"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "67ff972add694040badafedefa97ec57",
+                                "navigationGoals": [
+                                    "Troubleshoot an error in the platform\u2019s data processing workflow.",
+                                    "I\u2019m experiencing errors with the software and need technical troubleshooting.",
+                                    "Troubleshoot a failed data transformation job in the Trifacata platform.",
+                                    "I\u2019m having trouble running the program and need technical support to troubleshoot.",
+                                    "Get help fixing an installation error when installing Trifacata on Linux"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For training, onboarding, and documentation, press 2.",
+                            "fileID": "3398800b5c9e4bda9ed07a20ee03f189",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for training and onboarding, where our team will help you get started.",
+                                        "fileID": "ed71bcfe8ede43428bda60a8d05d9aa1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "10585b6dc7b646a1855191e5fc990f75",
+                                "navigationGoals": [
+                                    "Arrange a quick onboarding session and obtain the user documentation.",
+                                    "I want onboarding support and access to training materials.",
+                                    "Register for an onboarding workshop and request the latest API developer guide.",
+                                    "I need step-by-step onboarding and training to get started with the software.",
+                                    "Register for an introductory training session on using Trifacata"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c21f87b505434e729e0e13f608356668",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "beb700cf96f74b8f881a480fa61e352a",
+        "navigationGoals": null
+    },
+    "id": "1e7d34e7b9d2448a945d0c35f4d4fa6c",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Yodlee, transforming financial services with seamless access to data through our powerful API solutions.",
+            "fileID": "370a3c48c30c428484ad1d8022699c51"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For developer support and access to our API documentation, press 1.",
+                "fileID": "16e125261ae2493997d2e1b1bfc1fcaf",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For API onboarding and integration assistance, press 1.",
+                            "fileID": "754bc7febde04548bb348572c911b19f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical specialist for developer support.",
+                                        "fileID": "a4581b159e574361a1875b51cd46fa75"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8ea096b7cf2947a2a19b08f88d3c4470",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For reporting data feed issues, press 2.",
+                            "fileID": "0d751bb2c74e48ce90c75ddf3c688ec9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your data feed details.",
+                                        "fileID": "217b58068d40406985b8409029566b3b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c3af4886240e458d97a82ed87f444b37",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f00baa9b375646aca74f40f0a77f8bd7",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For enterprise and partnership inquiries, press 2.",
+                "fileID": "9ad87e45e805486d903d72ecaa5da598",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For bank and financial institution solutions, press 1.",
+                            "fileID": "e28e0cdbd8344a0b9a4dbee799f5401c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our enterprise solutions team.",
+                                        "fileID": "46035e2775b94c0cb01848808e8c5aae"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ad3fb6811c2a47babc873e47b7ddedb9",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account management, press 2.",
+                            "fileID": "6663460a7d2a4030ad93226190ce9c55",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing support.",
+                                        "fileID": "a38f72fb76d34b1f92632db83a64884a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "33ef88c9e9ac4baebba16c0c82db92be",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "05de771a6b43475a977b321ef279f5b7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8a6a698555914d1ca60240868768d3c4",
+        "navigationGoals": null
+    },
+    "id": "15bfa12e71f541d981f6012f8a4996f4",
+    "navigationGoals": null
+}

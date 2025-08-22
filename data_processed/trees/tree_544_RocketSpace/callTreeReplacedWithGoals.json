@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to RocketSpace in San Francisco, where we provide speed and direction to the world\u2019s top tech startups and corporate innovators.",
+            "fileID": "c8a928d7e44d46e8994d0eb54fed61f5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For workspace bookings and tour scheduling, press 1.",
+                "fileID": "b740d5907ff34c23a62b29a8d033c41e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reserve a dedicated desk, press 1.",
+                            "fileID": "47eaf40be7f44d61b99ade97ea1edee2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our dedicated desk reservations team.",
+                                        "fileID": "20427d22c6ff4b62b068d46519e0faa1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b92e7969ce574125943d96a0cba95087",
+                                "navigationGoals": [
+                                    "Book a dedicated desk at RocketSpace San Francisco for next month.",
+                                    "I\u2019m a veteran entrepreneur and I want to reserve a dedicated desk at your San Francisco location",
+                                    "I'd like to provision a dedicated workstation with 24/7 secure access and gigabit ethernet connectivity starting next week.",
+                                    "I need to reserve a dedicated desk for the coming month and ask about accessible amenities.",
+                                    "I\u2019d like to reserve a dedicated desk for my research work next month."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To book a private office, press 2.",
+                            "fileID": "2df453ed738f422ab72a64c30d8ec7d6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our private office bookings team.",
+                                        "fileID": "a8b0dc19a015472195a7be8a03488def"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "083d9253e1ef4dfeabb2057a0394a34e",
+                                "navigationGoals": [
+                                    "Reserve a private office at RocketSpace SF starting in August.",
+                                    "I\u2019m a veteran and need to book a private office at RocketSpace SF for my upcoming project",
+                                    "I need to reserve a three-person private office suite with high-throughput network and managed firewall support for an upcoming client workshop.",
+                                    "I\u2019d like to book a private office for a short-term stay and arrange a tour of the space.",
+                                    "I need to book a private office for a group study session."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "82706694399c4b93a6f0ea9a679fe9a0",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For membership and billing inquiries, press 2.",
+                "fileID": "6744b5dbb2674562b3f8ca1a8f022a88",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new membership plans and pricing, press 1.",
+                            "fileID": "cecda302618a42ff8c1626abcc44075d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our membership information team.",
+                                        "fileID": "de854e332e294489b12834b12a8d4d63"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "895c2e4589c74a329535ffb624550567",
+                                "navigationGoals": [
+                                    "Get details on RocketSpace membership plans and pricing.",
+                                    "As a veteran business owner, I\u2019d like details on your new membership plans and pricing",
+                                    "I want to review the new membership tier architectures, pricing models, and associated SLA commitments.",
+                                    "I want to learn about your membership plans and pricing, especially any senior discounts.",
+                                    "I want details on membership plans and pricing to pick the right option."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and invoice support, press 2.",
+                            "fileID": "b22ae3a0e9a44a1691142eb552a303c7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing support specialists.",
+                                        "fileID": "1f5873f3040c4ad4b58fcfc9f5fde8cc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5a34ffee2b6c43e6b9aeb5ef4b98072c",
+                                "navigationGoals": [
+                                    "Clarify a recent charge on my RocketSpace billing statement.",
+                                    "I\u2019m a veteran member and need help resolving an issue on my latest billing invoice",
+                                    "I need a comprehensive ledger for last month's billing cycle, including individual invoice IDs and cost-center allocations.",
+                                    "I need help understanding my latest invoice and resolving a billing question.",
+                                    "I have questions about my latest billing invoice and need support."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e634fd9ca532482b83a3bd36f290814a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "fb2431153e8f44879f62a04dc99c021f",
+        "navigationGoals": null
+    },
+    "id": "04951a111e5543eb87b92a13c0388947",
+    "navigationGoals": null
+}

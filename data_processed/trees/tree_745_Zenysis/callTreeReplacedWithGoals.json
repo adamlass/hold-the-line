@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Zenysis, based in San Francisco and empowering governments with data analytics for public health in emerging markets.",
+            "fileID": "b18453040e994527877a2b505c54c88d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For existing client support, press 1.",
+                "fileID": "03463ae929ee4aaca3708cbee54a237a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance with your Zenysis platform, press 1.",
+                            "fileID": "161068beaccf44a89a71a8f92fa28425",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "293aa2730c024cde87f427929a2eb7ba"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ec1507d001bc4bd384e9d6599712078d",
+                                "navigationGoals": [
+                                    "Troubleshoot a recurring data import error in my analytics dashboard",
+                                    "I need help troubleshooting an error in my Zenysis dashboard that\u2019s preventing data uploads.",
+                                    "I need help debugging the JSON schema validation errors in my Zenysis data import pipeline.",
+                                    "I need help fixing an error when I try to log into my Zenysis platform.",
+                                    "I\u2019m encountering an error when uploading my weekly lab data into the Zenysis platform\u2014can I get technical support?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account and billing issues, press 2.",
+                            "fileID": "ac0b4de3801c47a99b2b6857a7af23f7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "d64200107a7a4ec2ab9f010dcdeb6b4c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "37e9aff43363464786bda46d8e43c79c",
+                                "navigationGoals": [
+                                    "Clarify unexpected charges on my latest invoice and update our payment method",
+                                    "I want to update my billing information and dispute an unexpected invoice charge.",
+                                    "I want to review last month\u2019s invoice, dispute an unexpected charge, and update my payment method.",
+                                    "I\u2019d like someone to explain my latest invoice and clarify the charges on my account.",
+                                    "I need to review my latest subscription invoice for the student plan\u2014can I speak with billing?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7bf77af3d1a54f0589031387f7a8dd7a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For new business and sales inquiries, press 2.",
+                "fileID": "db32fe5c5dac4bf69ea2bdd4fa19c085",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a product demonstration, press 1.",
+                            "fileID": "976c1c8292da4648b224b80d019ebeaf",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative to schedule your demonstration.",
+                                        "fileID": "5c94ba7374894b0bbc1dca4884f80dff"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "63ceba57a46d44758d15d11c0eac66a6",
+                                "navigationGoals": [
+                                    "Arrange a platform demonstration for our team next week",
+                                    "I\u2019d like to schedule a live demo of the Zenysis platform\u2019s analytics features for my public health team.",
+                                    "I\u2019d like to schedule a live demo of your real-time analytics dashboard and API integration workflows.",
+                                    "I\u2019d like to schedule a demonstration of your platform to understand how it works.",
+                                    "I\u2019d like to schedule a demonstration of Zenysis\u2019s dashboard features for my research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For government partnership opportunities, press 2.",
+                            "fileID": "e69450ba2ac1451589726190ea30791e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our government partnerships team.",
+                                        "fileID": "a3b685a214c749b18934ca35a791b8a0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b456804e670240a89870454bf06e7d1a",
+                                "navigationGoals": [
+                                    "Explore a public\u2010sector partnership for outbreak monitoring with your data analytics",
+                                    "I\u2019m exploring a government partnership opportunity to integrate Zenysis into our health ministry\u2019s data systems.",
+                                    "I\u2019m interested in exploring a government partnership to integrate Zenysis into our national disease surveillance infrastructure.",
+                                    "I\u2019m interested in exploring a government partnership with Zenysis for a public health project.",
+                                    "I want to discuss a potential collaboration between my university\u2019s public health department and Zenysis."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5cda0056db874e0b9c5349594ebbbc98",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "34386d77900348d78ee02f19f60e58d7",
+        "navigationGoals": null
+    },
+    "id": "93fcd402041545df9c9825c6cfb10abf",
+    "navigationGoals": null
+}

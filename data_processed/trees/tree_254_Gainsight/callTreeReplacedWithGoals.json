@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Gainsight on the Peninsula, empowering you to boost revenue, reduce customer churn, and drive customer advocacy.",
+            "fileID": "8ac5c0da7e73440d85d3e0623ac8af3c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and pricing inquiries, press 1.",
+                "fileID": "906363d03ea0470c902daae680c190aa",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a product demo, press 1.",
+                            "fileID": "a3e32ecea43e470ab1f6ac3092854b16",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to our demo scheduling team, please hold.",
+                                        "fileID": "6f8ffdbd11794dc78f1a728500330137"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "723f30f938c741499d01bcb3ef034650",
+                                "navigationGoals": [
+                                    "Schedule a product demo to review the platform\u2019s features next week",
+                                    "I\u2019d like to book a demo of your platform to see how it can support my veteran-focused nonprofit.",
+                                    "Schedule a technical deep-dive demo of Gainsight\u2019s integration and API capabilities.",
+                                    "I need help scheduling a product demo.",
+                                    "I want to schedule a detailed product demo to assess Gainsight's capabilities and pricing."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative, press 2.",
+                            "fileID": "9c2b9b2bc6eb444baf6bb825cabd834a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you with a sales representative, please hold.",
+                                        "fileID": "2f9a49d9a18845e4a0f5df4794d7203b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5369f04e1c2a43b0936c49a196bb5c08",
+                                "navigationGoals": [
+                                    "Connect with a sales rep to discuss pricing tiers and contract details",
+                                    "I need to talk to someone about pricing plans and any nonprofit or veteran discounts available.",
+                                    "Connect with a sales consultant to review enterprise licensing and pricing tiers.",
+                                    "I want to speak with a sales representative about pricing.",
+                                    "I need to speak with a sales representative to discuss licensing options and volume discounts."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "729ca4ee127e4b0da2936a362677797d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer success solutions and support, press 2.",
+                "fileID": "cf1b8dbcf2db44fab561d2b2779b3a36",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn how to reduce customer churn, press 1.",
+                            "fileID": "4f3fe0dac54f4fc6a11fa034eea82912",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to our customer success experts, please hold.",
+                                        "fileID": "6882e452a9f045b3926053ad5fe59d08"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f5fa893927094f99a6666dee5c268c99",
+                                "navigationGoals": [
+                                    "Get expert tips on cutting our customer churn rate",
+                                    "I want advice from your experts on improving engagement and retention for the veterans in our program.",
+                                    "Consult on implementing churn-prediction analytics in our customer success workflow.",
+                                    "I\u2019d like advice on reducing customer churn.",
+                                    "I'm seeking expert guidance on reducing customer churn using customer success best practices."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To explore our advocacy and growth strategies, press 2.",
+                            "fileID": "305202d0da4049b1b75d8e0040448ef5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to our advocacy strategy specialists, please hold.",
+                                        "fileID": "89394c93f455485f8f80b042f2154ab7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "48f0daa7302b4fdf8e04cb028504ef8c",
+                                "navigationGoals": [
+                                    "Explore how to build and scale customer advocacy programs",
+                                    "I\u2019m looking for strategies to build advocacy and grow our veteran alumni network using your tools.",
+                                    "Get expert advice on architecting a customer advocacy and growth engine with Gainsight.",
+                                    "I\u2019d like information on customer advocacy and growth strategies.",
+                                    "I'd like to learn about customer advocacy and growth strategies with Gainsight."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "27f873aa6e1847e191c53e03a126b3a4",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a02aafb5621041b09b93897a76395874",
+        "navigationGoals": null
+    },
+    "id": "88382941f4eb46f8a4a36c70dbe23b65",
+    "navigationGoals": null
+}

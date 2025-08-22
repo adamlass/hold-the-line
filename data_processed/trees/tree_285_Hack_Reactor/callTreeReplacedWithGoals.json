@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Hack Reactor, where you can reinvent your career with in-person or online, full-time or part-time software engineering programs.",
+            "fileID": "3fdf31f7fda2413ab78a513be7d1dc54"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our software engineering programs, press 1.",
+                "fileID": "1ed0c30ad8e34d7bacaeb5e28f411687",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear about our full-time immersive bootcamp, press 1.",
+                            "fileID": "cdb4e7beb3bc47d38d317043c5fe5d18",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a specialist for our full-time immersive bootcamp.",
+                                        "fileID": "10548cd655054921a170de4b8879876c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "77ed0746e2f14c188223f9f7a227f969",
+                                "navigationGoals": [
+                                    "Connect with a specialist to get details on the full-time immersive software engineering bootcamp.",
+                                    "I\u2019d like to speak with a specialist about your full-time immersive bootcamp and how it aligns with my transition from military service.",
+                                    "I need a deep dive into the full-time immersive program\u2019s curriculum stack, including modules, instructional hours, and project-based learning details.",
+                                    "I need information about the daily schedule and support for the full-time immersive bootcamp.",
+                                    "I\u2019d like to speak with someone about the full-time immersive bootcamp curriculum and schedule."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about our part-time flex programs, press 2.",
+                            "fileID": "c05b62dfc0124e35863fbe010c4753eb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a specialist for our part-time flex programs.",
+                                        "fileID": "cb6380c87eb84e628b41931ad50bd1bb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8b008eaadb0b479e9b137c88cfd2fb23",
+                                "navigationGoals": [
+                                    "Speak with someone about the part-time flex program\u2019s schedule and format.",
+                                    "I need details on the part-time flex software engineering program schedule so I can balance it with my current commitments.",
+                                    "I\u2019d like to understand the part-time flex schedule architecture, including live session frequency, asynchronous content, and remote collaboration tools.",
+                                    "I want to know if the part-time flex program\u2019s pace and hours can fit my routine.",
+                                    "I want to learn more about the part-time flex program options and how they fit around my studies."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "06dcb46f7c9449188c525a258eea31a7",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For admissions and financing options, press 2.",
+                "fileID": "03b8a632b735498689506956f3072cb2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss tuition and financial aid, press 1.",
+                            "fileID": "836f08e89a3e496db9992ad018247d8d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our financial aid advisors.",
+                                        "fileID": "415a0c71dfd44bdbb29bbc04e06dcd9c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "09b43471bfb0434482be5689b2a34aad",
+                                "navigationGoals": [
+                                    "Ask a financial aid advisor about tuition costs and available funding options.",
+                                    "I need information on tuition costs and veteran financial aid options, including how to use my GI Bill benefits.",
+                                    "Could you walk me through the tuition breakdown, financing structures like ISAs, deferred tuition, and scholarship eligibility criteria?",
+                                    "I need to discuss tuition fees and financial aid or payment plan options.",
+                                    "I need details on tuition costs and available financial aid or scholarships."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For application support and next steps, press 2.",
+                            "fileID": "fe425e4c43444549a1bb4b7724a19abd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our admissions team.",
+                                        "fileID": "780614cb816542e899ea3cccef0ada1d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "694c2f0f9616413cb8087919a9435593",
+                                "navigationGoals": [
+                                    "Request guidance on application requirements and next steps for enrollment.",
+                                    "I\u2019d like guidance on the application process, deadlines, and whether my military training can count for credit.",
+                                    "I\u2019m looking for step-by-step guidance on the application pipeline: prerequisites, coding assessments, interview stages, and submission deadlines.",
+                                    "I need help completing my application and learning the required documents.",
+                                    "I\u2019m looking for guidance on the application process and next steps to enroll."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "be62768243b048edbcd5c2be0ab36859",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f827d0a8cd534c139f7cc23c1ac8f611",
+        "navigationGoals": null
+    },
+    "id": "2b1292f0eefc47c99de29897e1cb1915",
+    "navigationGoals": null
+}

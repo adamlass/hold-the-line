@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling DNAnexus in South Bay, the cloud-based genome informatics and data management platform accelerating genomic medicine.",
+            "fileID": "c9c8ecfc122f4a418883d09a46af4f80"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for technical support or system status.",
+                "fileID": "2df3059372864dca88838b49044305f4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to connect to a technical support specialist.",
+                            "fileID": "f255e4df46f440be8d286981dd6e544e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "c7f37a8b97b641fa83258b1ffed3ccec"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "03e0b1f190fe44d290d54668091ef296",
+                                "navigationGoals": [
+                                    "I need help fixing a genome analysis workflow that\u2019s failing to run.",
+                                    "I\u2019m having trouble running my genome analysis pipeline and need a technical specialist to troubleshoot.",
+                                    "I\u2019m encountering a runtime error in my WDL pipeline on DNAnexus and need help debugging it.",
+                                    "Help me log into my DNAnexus account to view my genome data",
+                                    "I need help troubleshooting an upload error in the DNAnexus CLI for my genomics dataset."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for automated system status updates.",
+                            "fileID": "48af6e0cb443434c9b7caf9a6440c591",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the current system status.",
+                                        "fileID": "adebf66dfbf44dac8b214c9dcc232e6c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "260e6767f1084b179dea7fee76e790e6",
+                                "navigationGoals": [
+                                    "I\u2019d like a quick update on whether the platform is experiencing any outages.",
+                                    "I\u2019d like to check if there are any current outages or performance issues before I launch my job.",
+                                    "I want to check the current API service uptime and any active incidents on the DNAnexus platform.",
+                                    "I\u2019d like to check if the DNAnexus system is up and running right now",
+                                    "I want to check if the DNAnexus platform is currently experiencing any outages before I begin my analysis."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "99afaa8871184f829916aef53d5bac5d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for sales, licensing, and partnership inquiries.",
+                "fileID": "07b44550f0e44141967af70991503332",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with a sales representative.",
+                            "fileID": "822e11a13ccd4208bd6262319fc6e2d5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "0d805bbcbd5c4a7399b826858a656e02"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "570d8f6fc16647cd9aff45b41606f909",
+                                "navigationGoals": [
+                                    "I\u2019m looking for pricing details to add more user licenses.",
+                                    "I want to discuss licensing options for my veteran-led biotech startup\u2019s use of your platform.",
+                                    "I\u2019d like to discuss purchasing a multi-user license for our bioinformatics team.",
+                                    "Tell me about the cost of a personal subscription to DNAnexus",
+                                    "I\u2019d like details on student pricing and licensing options for academic access to DNAnexus."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for enterprise partnership information.",
+                            "fileID": "0feeb20a58d44bd7a93f0abaa576c2f5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships division.",
+                                        "fileID": "003e04ba30f84401afc8bfc34ce97049"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a9424a0f0b494135b85bdeb5f6117dfb",
+                                "navigationGoals": [
+                                    "I want information on partnering for API integration with our tools.",
+                                    "I\u2019m interested in setting up an enterprise\u2010level partnership for a veteran health genomics research program.",
+                                    "I\u2019m interested in exploring an enterprise integration partnership with custom API support.",
+                                    "I want information on partnering my community clinic with DNAnexus",
+                                    "I\u2019m exploring a potential research collaboration with DNAnexus and need information on enterprise partnerships."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ae57696e50c5462e8cbe37b907141d15",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ac657706cbf34cc28051a0ca73fb698c",
+        "navigationGoals": null
+    },
+    "id": "1ae8338c1eb14717b344f2eed55fb6be",
+    "navigationGoals": null
+}

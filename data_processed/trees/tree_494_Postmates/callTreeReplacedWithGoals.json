@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Postmates San Francisco, powering fast, on-demand local deliveries from any merchant.",
+            "fileID": "6289f8b7ab2042eb84e25187c3b16bfd"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For customer support, press '1'.",
+                "fileID": "02caf6060e984fac8dbdfc95890cee12",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For order status and tracking, press '1'.",
+                            "fileID": "c105c387a22e40009dc035808f5e910c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a customer support specialist for your order status.",
+                                        "fileID": "5271ea1322f847dba6dd1dd47a3ac261"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "14646daf43e7468fa220fe8a8d2bdf13",
+                                "navigationGoals": [
+                                    "I need an update on my current Postmates order status and ETA.",
+                                    "I need to find out when my dinner order will arrive",
+                                    "I need to retrieve the real-time GPS coordinates and ETA for my current Postmates order.",
+                                    "I want to check the status of my recent delivery.",
+                                    "I need an update on the arrival time of my recent order."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For payment and billing questions, press '2'.",
+                            "fileID": "3010206150994cb7b4901806dfc6f30f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a billing specialist.",
+                                        "fileID": "25070b793ff446d6b6d7b7aced897d1d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9a554d0127bf45898019f4e9ed419180",
+                                "navigationGoals": [
+                                    "I need help resolving a billing issue on my recent Postmates charge.",
+                                    "I want to dispute a double charge on my account",
+                                    "I need to review my latest invoice and dispute a duplicate billing charge.",
+                                    "I need help understanding a charge on my billing statement.",
+                                    "I have a question about a billing charge on my last order."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a52a88549ae2400287f1d1261d8446fa",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For merchant and partner inquiries, press '2'.",
+                "fileID": "ef04c69b92c94dedad031904f5bcbe4c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new merchant account setup and integration, press '1'.",
+                            "fileID": "2e6777695f75469da375b86b9db47367",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our merchant integration team.",
+                                        "fileID": "ce40771f8e554f938090b507e323a900"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "178fe395ac4741b3a8f7cb4b4fd8a5a6",
+                                "navigationGoals": [
+                                    "I want to set up a new merchant account and integrate with Postmates.",
+                                    "I\u2019d like to set up my veteran-owned caf\u00e9 on Postmates",
+                                    "I need to onboard my store to Postmates, set up API credentials, and configure webhook endpoints.",
+                                    "I\u2019d like to set up my shop to start delivering with Postmates.",
+                                    "I\u2019m interested in setting up a new Postmates merchant account and integrating my POS system."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For existing partner support and logistics questions, press '2'.",
+                            "fileID": "1392738750694233b799696a59ee836d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to partner support.",
+                                        "fileID": "39d975b4b696420cbfc4de7891a90460"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8098756638164a18a1ec2ad4e0298477",
+                                "navigationGoals": [
+                                    "I need support with delivery logistics for my existing merchant account.",
+                                    "I need help resolving delivery issues for my existing partner store",
+                                    "I need to troubleshoot missing order dispatch webhooks in my existing Postmates integration.",
+                                    "I need assistance with delivery logistics for my existing partner account.",
+                                    "I need assistance resolving a logistics issue with my existing Postmates partnership."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d3f7f3eb6e1f466881f004ff4047d446",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8889b91281a1442e83a941442f3fc2cc",
+        "navigationGoals": null
+    },
+    "id": "0c722965fd0543ac8fb05d6981f37603",
+    "navigationGoals": null
+}

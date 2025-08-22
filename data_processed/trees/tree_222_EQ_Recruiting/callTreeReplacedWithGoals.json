@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling EQ Recruiting, San Francisco\u2019s recruiting agency focused on emotional intelligence, culture fit, and genuine connections.",
+            "fileID": "83db9663a83f474c8f752a96706a0210"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a candidate seeking your next opportunity, press 1.",
+                "fileID": "2a2bfce22069475aa852f059480e0f4f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit your resume and receive tailored job matches, press 1.",
+                            "fileID": "94f7fbd3fbf54fcb8eadcd5cea85f8a1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our candidate relations team.",
+                                        "fileID": "9e89189ff27746fb8e1d87589f952824"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f2f199f8d19e4a6d933fbd2437c8f27f",
+                                "navigationGoals": [
+                                    "Send my resume for tailored job opportunities.",
+                                    "Send my resume to get matched with veteran-friendly job openings",
+                                    "Upload my resume to receive AI-driven job matches from EQ Recruiting.",
+                                    "I need help submitting my resume so I can get matched with suitable job openings.",
+                                    "Upload my CV to get matched with physics research or internship opportunities"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To book an interview coaching session with our experts, press 2.",
+                            "fileID": "768164b0c8a0444988e767c9a8b9c0eb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to an interview coach.",
+                                        "fileID": "5aa80797da36468586d7357b14ff7fc4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "55a2944472a94534b2363a95d54b3bfa",
+                                "navigationGoals": [
+                                    "Book an interview coaching session.",
+                                    "Book an interview coaching session to improve my interview skills",
+                                    "Schedule an advanced interview coaching session with EQ Recruiting\u2019s expert team.",
+                                    "I want to schedule an interview coaching session to prepare for job interviews.",
+                                    "Schedule an interview coaching session to prepare for upcoming physics internship interviews"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d87ec16674064ecb82e64fb54f0d33a4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a company looking to hire top talent, press 2.",
+                "fileID": "0fea601500a441189a1d032c10ae42b6",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To post a new job opening and find your ideal candidates, press 1.",
+                            "fileID": "236bea7ecc9d4c62add36a1aa689e339",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we link you to our employer services specialist.",
+                                        "fileID": "ff8847b7c2f54ee48452a11e49c85af1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "765e24411d414631ab5483b6c95be751",
+                                "navigationGoals": [
+                                    "Post a new job listing to attract ideal candidates.",
+                                    "Post a new job opening for my veteran-owned small business",
+                                    "Post a new job opening with detailed role requirements to attract top candidates.",
+                                    "I\u2019d like to post a new job opening to attract qualified candidates.",
+                                    "Post a job listing for a physics lab assistant role to attract suitable candidates"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To arrange a consultation about your recruitment needs, press 2.",
+                            "fileID": "1d57763fdf67430793be68927a84ab89",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we forward your call to our hiring consultant.",
+                                        "fileID": "d0ee119e85ae499fa7422049a336bcf6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64e5972ddfbf4c5f8312d61a257f748f",
+                                "navigationGoals": [
+                                    "Schedule a consultation on our recruitment needs.",
+                                    "Arrange a consultation with a recruiter about hiring for my company",
+                                    "Arrange a strategic consultation to optimize our company\u2019s talent acquisition pipeline.",
+                                    "I\u2019m looking to speak with a consultant about my company\u2019s hiring needs.",
+                                    "Set up a consultation to discuss recruiting physics students for my research team"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a103b8a61ec4449d87494d94804d5410",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "eff36fcc715b477d9a18e52b6a7d8db2",
+        "navigationGoals": null
+    },
+    "id": "a401eb6dab844283860ed360c25112e6",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Duncan Channon in San Francisco, a two-time Ad Age Small Agency of the Year specializing in bold marketing solutions.",
+            "fileID": "c5302fa1ab704b09876b0e0039b4021d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on new business opportunities and our marketing services, press 1.",
+                "fileID": "36be052a9fc048798a15b1c28e2f62df",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our new business development team, press 1.",
+                            "fileID": "1ad2685d3cd549f09a5b8edc84213485",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our new business development team.",
+                                        "fileID": "a912628ad10b4e8b9800c3864bb551a7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4f28fe4418214121b4a006a3b7d7a9fb",
+                                "navigationGoals": [
+                                    "I need to speak with someone about launching a new marketing campaign",
+                                    "Discuss starting a marketing campaign for my veteran-owned small business",
+                                    "Connect me with your new business team to discuss integrating an API-based marketing automation solution.",
+                                    "I\u2019d like to speak with someone about partnering with your team to advertise my small local bakery.",
+                                    "I\u2019d like to discuss marketing services your agency could provide for promoting my student-run physics research fair."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about our creative and branding services, press 2.",
+                            "fileID": "4ae234f735bb41c58dcc27bd31470020",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our creative and branding specialists.",
+                                        "fileID": "7635c8ff42c8427686f92cd1dbd62999"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3a3ae1730de64e548855ed1fa65edd45",
+                                "navigationGoals": [
+                                    "I\u2019d like details on your creative and branding services for a rebrand",
+                                    "Review creative branding concepts for my nonprofit supporting veterans",
+                                    "I want to brainstorm a dynamic branding architecture for our product design system with your creative specialists.",
+                                    "I need help refreshing the logo and branding for a charity event I\u2019m organizing.",
+                                    "I need branding and creative design support for my university physics club\u2019s new outreach campaign."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e1f2defd18ff4c47a77ae9b16f016868",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing client support and account inquiries, press 2.",
+                "fileID": "13c67112fed74028a1640057a786c025",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For client services and project updates, press 1.",
+                            "fileID": "30f9489c64a64c7989ab911a4d4c1a75",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to client services and project support.",
+                                        "fileID": "a1aebfb6afc0488abb269b5581fcbf2f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ba6c73c6142f4e16a232d4c76f66638f",
+                                "navigationGoals": [
+                                    "I need a status update on my ongoing project",
+                                    "Get a status update on our ongoing digital ad project",
+                                    "As an existing client, I'd like a status report on our current project's sprint milestones.",
+                                    "I want an update on the marketing materials project we\u2019re currently working on.",
+                                    "I\u2019m calling to get an update on the progress of our ongoing physics department marketing project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and invoice questions, press 2.",
+                            "fileID": "8306f7d8fcf848f2a2b5114c2ba2c621",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "40deeeaf354445039db886ced388a53e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a0d9920b37914deea68b95fecff6ae69",
+                                "navigationGoals": [
+                                    "I need help resolving a billing issue on my invoice",
+                                    "Clarify a charge on my most recent invoice",
+                                    "I need to audit my latest invoice and verify the billing itemization.",
+                                    "I have a question about the recent bill I received for your services.",
+                                    "I have questions about the invoice we received for the promotional materials created for our physics symposium."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "94c1c13fb0e74649af834d8eb37fa13e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e2ed345d324f40d0ac978e8948688931",
+        "navigationGoals": null
+    },
+    "id": "1a41271fec444944a7a9b84c343533c0",
+    "navigationGoals": null
+}

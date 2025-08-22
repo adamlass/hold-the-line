@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Mayvenn, your trusted source for premium virgin human hair and extensions.",
+            "fileID": "bf2ac473ece94572aff4eb677820f3fe"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new orders and product information, press 1.",
+                "fileID": "92d7281b21874e10b77e9f8cee9c172b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To place a new order with one of our stylists, press 1.",
+                            "fileID": "0c0e0057c2b24472be4a0b467d9e4e31",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order placement specialist.",
+                                        "fileID": "6dec021dc9324feea93f77c00a0bd289"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "47e9397043094e18a64b1f1d9c936ed8",
+                                "navigationGoals": [
+                                    "I need to place a new order for virgin hair extensions with a stylist.",
+                                    "I'd like to place a new order for hair extensions with one of your stylists.",
+                                    "I\u2019d like to place a new order for a 20-inch virgin hair bundle with a stylist.",
+                                    "I need help placing a new order for hair extensions with a stylist",
+                                    "I\u2019d like to place a new order with a stylist for virgin hair bundles."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For detailed product information and care tutorials, press 2.",
+                            "fileID": "0c093697732742f5880c090932ffb165",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line and one of our product experts will assist you shortly.",
+                                        "fileID": "bd4b95d0303e4069ad7607e1ad01f3a9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "38bc7de4e77b4e228fe77ced8686e1de",
+                                "navigationGoals": [
+                                    "I\u2019d like detailed product information and care instructions for your premium hair.",
+                                    "I need detailed product information and care tutorials for your extensions.",
+                                    "I need detailed technical specs and care instructions for the 18-inch raw virgin weave.",
+                                    "I want detailed product information and care instructions for my extensions",
+                                    "I need detailed product specifications and care tutorials for my extensions."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0bd16918294144ee9f7dcfc538a19331",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For returns, exchanges, and updates on existing orders, press 2.",
+                "fileID": "38620ca721474485a34893bd2424ab5e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To initiate a return under our industry-leading 30-day policy, press 1.",
+                            "fileID": "eba7a902fe504e3a987f87f87d9b3c82",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we process your return request.",
+                                        "fileID": "53739f8aad6a4ebf82e50d4eaf12ab91"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "eb2d816895b74bff88ab7ffc0f9b11b1",
+                                "navigationGoals": [
+                                    "I want to initiate a return for my recent hair purchase under the 30-day policy.",
+                                    "I want to initiate a return for my recent order under your 30-day policy.",
+                                    "Please initiate an RMA for my last hair extension delivery under the 30-day return SLA.",
+                                    "I need to initiate a return for my recent order under the 30-day policy",
+                                    "I want to initiate a return for my recent hair extension order under the 30-day policy."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing return or exchange, press 2.",
+                            "fileID": "81a1ba0577d247f5bcd27cf5e6f466da",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience. A support representative will be with you shortly to update your return status.",
+                                        "fileID": "280a1db52c25457381bc1d72ff3e1d10"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8b5a628f60dc4319b932bd590402eb70",
+                                "navigationGoals": [
+                                    "I need to check the status of my existing return or exchange.",
+                                    "I'm checking on the status of my return or exchange for my hair extensions.",
+                                    "I\u2019m checking the RMA status for the hair extension return I filed last week.",
+                                    "I want to check the status of my return",
+                                    "I\u2019d like an update on the current status of my return/exchange request."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4731b4d6fbf14149bc2f8d51438af70b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6d2eefcf64c141cbbf9b3c37c74a176f",
+        "navigationGoals": null
+    },
+    "id": "12a4c91133144cc58a08ea23d3790e5c",
+    "navigationGoals": null
+}

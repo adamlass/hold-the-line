@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Demandbase in San Francisco, the leading B2B marketing platform for targeted advertising and Sales IQ solutions.",
+            "fileID": "926d42e08eae49909130693e737d8803"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for Sales IQ insights and analytics.",
+                "fileID": "6e224745a45b4063a4a5614a50bddad0",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to request a personalized Sales IQ demo.",
+                            "fileID": "93259794c70b42e99ff7e0189b1531a6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to schedule your personalized Sales IQ demonstration.",
+                                        "fileID": "f0a85a7be21a47c9948254d364a25f7e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e4d193e6166c48a1aae8086ac7aaf6ec",
+                                "navigationGoals": [
+                                    "Schedule a demo of the Sales IQ analytics tool.",
+                                    "Schedule a personalized Sales IQ demo to see how it can help my veteran-led small business find quality leads.",
+                                    "Schedule a deep-dive demo of Sales IQ's predictive analytics module.",
+                                    "I\u2019d like to set up a personalized demo of the Sales IQ analytics tool.",
+                                    "I\u2019d like to schedule a personalized demonstration of Demandbase\u2019s Sales IQ platform."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to speak with a Sales IQ specialist.",
+                            "fileID": "7fa68a0b20f34b89a8df1abceb3c79f6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Sales IQ specialist.",
+                                        "fileID": "cc6be5c60ee24724ad30aed3cbe3214d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "34215abd558d4ac8805684fb97115871",
+                                "navigationGoals": [
+                                    "Speak with a Sales IQ specialist about our analytics needs.",
+                                    "Speak with a Sales IQ specialist about integrating its insights into my outreach workflow for veteran support programs.",
+                                    "Connect me with a Sales IQ expert to discuss CRM integration use cases.",
+                                    "I need to speak with someone about using the Sales IQ service.",
+                                    "I need to speak with a Sales IQ specialist to discuss specific analytics features."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2182434b874a43ba87e5999879f6ce96",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for our targeted advertising and personalization solutions.",
+                "fileID": "59ae673b865446c1b475689d4de84588",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to request a targeted advertising demo.",
+                            "fileID": "e2138ec2a278433db8a7572c89ca4e7c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to schedule your targeted advertising demo.",
+                                        "fileID": "fc65b636afe641be81cc15e0a5e9b74a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1c70f6fd71bf4538bae5c5e5365a0b86",
+                                "navigationGoals": [
+                                    "Arrange a demonstration of the targeted advertising platform.",
+                                    "Request a targeted advertising demo to learn how to reach veteran communities for my nonprofit.",
+                                    "Arrange a demo of your targeted ad personalization engine.",
+                                    "I want to schedule a live demonstration of your targeted advertising solution.",
+                                    "I\u2019d like to arrange a demo of Demandbase\u2019s targeted advertising and personalization tools."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to speak with an advertising specialist.",
+                            "fileID": "16d48c9892804918b33ff13d1b9dd61a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an advertising specialist.",
+                                        "fileID": "7aca7c59597c4e02a08d880142df8048"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e91e181898da491aa06b4a7b5801964b",
+                                "navigationGoals": [
+                                    "Connect with an advertising specialist for personalized campaign advice.",
+                                    "Connect with an advertising specialist to plan ad campaigns tailored to veterans and military families.",
+                                    "Put me through to an advertising specialist to talk about DMP integration and personalization workflows.",
+                                    "I\u2019d like to talk to an expert about your advertising and personalization offerings.",
+                                    "I want to talk to an advertising specialist about targeted ad strategies."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ff6e1578b78644048ef5ffa4714ca227",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "520afc09e0bc4f7fb8f072183e4f1656",
+        "navigationGoals": null
+    },
+    "id": "f5697eb24a904387826e447043a1f48d",
+    "navigationGoals": null
+}

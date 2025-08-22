@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Cruise Automation in San Francisco, pioneers in self-driving car technology.",
+            "fileID": "443c50f5e5e24805a1f742fd9799fe2f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our autopilot system and schedule a demonstration, press 1.",
+                "fileID": "81a5cad5e08245f1beae192b2bc11af5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a product demonstration and pricing information, press 1.",
+                            "fileID": "a54fe3b6ae044c479c78ab813e89b09f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Cruise Automation sales representative for demonstrations and pricing.",
+                                        "fileID": "ecb89374208843f5873b4ce104e61a86"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c8d0715017bb45f689f91384c8d0d4c3",
+                                "navigationGoals": [
+                                    "Schedule an autopilot demo and get pricing details.",
+                                    "I\u2019m a disabled veteran interested in scheduling a demo of your autopilot system and learning about veteran discounts.",
+                                    "I\u2019d like to schedule a live demonstration of your Level 4 autopilot system and get a detailed pricing breakdown.",
+                                    "I want to learn about the autopilot system and arrange a demonstration.",
+                                    "Arrange a demonstration of Cruise\u2019s autopilot technology and obtain detailed pricing information."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss business partnerships and integrations, press 2.",
+                            "fileID": "8a45a08ea54d43f6896dee3b73004c75",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships and integration team.",
+                                        "fileID": "2525ae1f42b44335894b04dd9d7cbb92"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "472e2e231a7e4cc495d15dc7145b2345",
+                                "navigationGoals": [
+                                    "Discuss integrating Cruise's self-driving system into our fleet.",
+                                    "I represent a veterans transport non-profit and want to discuss integrating your self-driving technology into our fleet.",
+                                    "I\u2019m exploring an SDK integration partnership to embed your autonomous navigation stack into our fleet.",
+                                    "I coordinate a community shuttle service and need to discuss integrating your self-driving cars.",
+                                    "Inquire about a research partnership to integrate Cruise\u2019s self-driving platform into my university project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "df410247159549a8baeb7f2b7fd7c04a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "87ef2e8045e540b482d4eec5b10981f2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "5430a48d9ed44162a607505e9274fe1c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Cruise Automation technical support engineer.",
+                                        "fileID": "4919f5c2e07047548247d3f1428115aa"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "91dcb9a966274dd981f8ba312762d8aa",
+                                "navigationGoals": [
+                                    "Troubleshoot a software issue with our self-driving autopilot.",
+                                    "As a veteran driver, my car\u2019s autopilot is giving a sensor error and I need technical troubleshooting.",
+                                    "I\u2019m experiencing a LiDAR-guidance calibration error and need technical troubleshooting for my self-driving vehicle.",
+                                    "My Cruise autopilot isn't working right now; I need technical support to fix it.",
+                                    "Seek technical assistance for diagnosing an autopilot sensor calibration error on my vehicle."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For emergency roadside assistance with your self-driving system, press 2.",
+                            "fileID": "b39f098c5fd14be28927ee1d87fc5108",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our emergency assistance coordinator.",
+                                        "fileID": "9d239179c5ed4b139f6ca30c65764ee7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5a96ee55e3044424bffe5a10f7301ac4",
+                                "navigationGoals": [
+                                    "Get emergency roadside assistance for my autonomous vehicle.",
+                                    "I\u2019m stuck on the side of the road and need emergency roadside assistance for my self-driving car.",
+                                    "My autonomous car has a sensor fusion fault with GPS drift; I need emergency roadside assistance.",
+                                    "My self-driving car broke down; I need emergency roadside assistance.",
+                                    "Request immediate roadside emergency support for my self-driving car."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "847a809ee93f46e0b411fe6982eadb76",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ee585b69bcd545aea015d2380f51ab21",
+        "navigationGoals": null
+    },
+    "id": "6f459653d99842c0be6d34119f95dcc6",
+    "navigationGoals": null
+}

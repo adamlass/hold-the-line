@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Gorgias, your dedicated Shopify customer support helpdesk based in San Francisco.",
+            "fileID": "015f912369414b1d967230721c9bff0d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For help with your Gorgias helpdesk on Shopify, press 1.",
+                "fileID": "8605343cd7414515bd580c4070541793",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance with integrations and setup, press 1.",
+                            "fileID": "5b7902a077b748c0909a074200c64d77",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "388fc16bca0940a1923388cb6ec545fc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "72f5a28aa9c046d5981dff0d4237b388",
+                                "navigationGoals": [
+                                    "Configure my Shopify integration so incoming orders generate support tickets.",
+                                    "I\u2019m a veteran setting up my Shopify store; need help integrating Gorgias and automating ticket routing.",
+                                    "I need help configuring the Gorgias API integration with my Shopify store.",
+                                    "I need help connecting Gorgias to my Shopify store.",
+                                    "Assist me with configuring the Gorgias\u2013Shopify integration for my store\u2019s setup."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, invoices, and account questions, press 2.",
+                            "fileID": "60d5203b5cb148179388bb1494cb085a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a billing specialist.",
+                                        "fileID": "d0d74185bed14065a45863aa40c9c80a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "80a4819871144ef09ad73dd2d82f75ff",
+                                "navigationGoals": [
+                                    "Check last month's invoice and update the credit card on file.",
+                                    "I need to review my latest Gorgias invoice, clarify charges, and update my payment method on a fixed budget.",
+                                    "I want to clarify the line items and transaction details on my latest Gorgias invoice.",
+                                    "I have questions about my Gorgias invoice and billing.",
+                                    "Clarify a discrepancy on my latest Gorgias invoice."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "48cbe815d120437a963fc2850d71827d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For new account inquiries and sales information, press 2.",
+                "fileID": "efd9720c58ee40568494f3c8bd9e9752",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing, plans, and feature details, press 1.",
+                            "fileID": "531c439bd6a14a90ae6d065267d77367",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for pricing information.",
+                                        "fileID": "5da3d34cd163494fa2a21b03f3c08c19"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bfcef966a5e340be9d1adf84e9b2b4d9",
+                                "navigationGoals": [
+                                    "Compare plan options and pricing to decide on an upgrade.",
+                                    "As a veteran small-business owner, I\u2019d like details on Gorgias plans, pricing tiers, and any veteran discounts.",
+                                    "I\u2019d like to compare the feature sets and rate limits across different Gorgias pricing tiers.",
+                                    "I\u2019d like details on your subscription pricing and features.",
+                                    "Provide detailed pricing information on Gorgias subscription plans."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a personalized demo or trial, press 2.",
+                            "fileID": "36e8388eca9047678345d14e6b888d74",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a representative to schedule your demo.",
+                                        "fileID": "69a7e597f17843adbe301dc1ddc3175f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f061d9abbc6c46828389556173743038",
+                                "navigationGoals": [
+                                    "Schedule a demo to see how Gorgias works with my store.",
+                                    "I\u2019d like to schedule a personalized Gorgias demo to evaluate support workflows for my Shopify shop.",
+                                    "I need to schedule a personalized demo to evaluate Gorgias\u2019s AI automation capabilities.",
+                                    "I want to schedule a live demo of Gorgias.",
+                                    "Schedule a personalized demo of Gorgias for feature evaluation."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "55a8329a8d00423d9d62087bacf4281a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "01264d0793964678ae1cc77197dc800e",
+        "navigationGoals": null
+    },
+    "id": "842a40e27b7549e1b23dcc331cd27cf3",
+    "navigationGoals": null
+}

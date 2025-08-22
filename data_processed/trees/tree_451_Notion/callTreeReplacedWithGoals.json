@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Notion, the San Francisco-based platform that fuses all your work apps into one seamless team workspace.",
+            "fileID": "bbd1e2892b5047239f474f0cfc9dee27"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product demos, press 1.",
+                "fileID": "77fd93d3a97045be8eba19342bb5bd03",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For enterprise pricing and team packages, press 1.",
+                            "fileID": "f6ba4dd769ec484e94cd22c49c0e2763",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales specialist.",
+                                        "fileID": "104661cd47b14cb28d3a40a996e1721c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "10be2c0166b54293a2e5586fdddd667d",
+                                "navigationGoals": [
+                                    "Get details on enterprise pricing and team package options",
+                                    "I\u2019d like to discuss enterprise team pricing packages for my organization.",
+                                    "I'm evaluating enterprise licensing and team package options for our organization.",
+                                    "I\u2019d like to know the cost and options for a team or enterprise plan to use Notion with my community group.",
+                                    "I need detailed enterprise pricing information for Notion team subscriptions."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For a one-on-one product demonstration, press 2.",
+                            "fileID": "f6ac5968e64d46cc98b067705e3762bf",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a product expert.",
+                                        "fileID": "e370caeecffc482b9a6f50062d0ce443"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2f10dc114ab7408a875d3e3bd6c61702",
+                                "navigationGoals": [
+                                    "Book a one-on-one Notion product demonstration with an expert",
+                                    "I want to schedule a one-on-one product demo to explore Notion\u2019s features.",
+                                    "I'd like to schedule a one-on-one technical demo of Notion's advanced features.",
+                                    "Can someone walk me through a one-on-one demo so I can learn how to use Notion step by step?",
+                                    "I\u2019d like to schedule a one-on-one Notion demo to explore advanced features."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "48b4e362fcc44bd6aa39d2e29e60f55b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and account management, press 2.",
+                "fileID": "6e886aad7093483c9e6e213cce849524",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "8cf255370e2d401dbc3a4452f5efd5d2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "fd4efb043170446b9b4ce203f8010492"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "74508e1ec94a46819de6f42c83fb9afe",
+                                "navigationGoals": [
+                                    "Troubleshoot a technical issue I\u2019m encountering in my workspace",
+                                    "I\u2019m experiencing a technical issue syncing my workspace and need help troubleshooting.",
+                                    "I need help troubleshooting our workspace API integration errors.",
+                                    "My Notion notes aren\u2019t syncing between my computer and tablet; I need help fixing that issue.",
+                                    "I\u2019m experiencing syncing errors in Notion and need technical help to resolve them."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account, billing, and subscription inquiries, press 2.",
+                            "fileID": "f113ad8a56634e809738c96cb2a3d806",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "4d0b91d292b943ca982c153e8954a7b4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2353c3dd115a48b398c90faac85af816",
+                                "navigationGoals": [
+                                    "Ask about a billing charge and modify my subscription plan",
+                                    "I need to update my billing information and review my subscription invoice.",
+                                    "I want to update our subscription plan and payment method.",
+                                    "I was billed twice last month and need to sort out my subscription charges and get a refund.",
+                                    "I want to review my latest subscription invoice and update my billing information."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d614b71c35b74fcd857e28d3d7a7505c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "83233c1edbff4cfda45e7e40b4ba4d57",
+        "navigationGoals": null
+    },
+    "id": "444142d448d946a59373b9d61ae787cd",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Faire, where retailers discover and sample thousands of unique products risk-free.",
+            "fileID": "f2719fa6cea246b7b1300e853173fd48"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for new retailer registration and inquiries.",
+                "fileID": "f500ef3a67034efa85b37145d11b799e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with our sales team about opening an account.",
+                            "fileID": "02d709cd1c6543e6abfa97473448802b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "26e32995c4d94c86969b31125c5e4247"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d046b75a61c749eaaaa98dcb0fd1be54",
+                                "navigationGoals": [
+                                    "I\u2019d like to open a new retailer account quickly.",
+                                    "I\u2019d like to open a new wholesale account to stock my veteran-owned shop.",
+                                    "I need to open a new retailer account and get API access documentation.",
+                                    "I need help opening a new retailer account with a sales representative",
+                                    "I want to open a new Faire retailer account to order physics lab supplies."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to hear about our risk-free ordering process.",
+                            "fileID": "1241799108254a109c04b099124fb205",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we send you information on how to place your first order risk-free.",
+                                        "fileID": "b42f36efbc0f48189624b0ca98892d59"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "915d74b8fb1a4f8a9f11030d7351aa26",
+                                "navigationGoals": [
+                                    "Explain how the risk-free ordering process works for my first purchase.",
+                                    "I need information on placing my first risk-free order for my new store.",
+                                    "I need details on the risk-free ordering process and return policies.",
+                                    "I\u2019d like guidance on how to place my first risk-free order",
+                                    "I\u2019d like details on your risk-free ordering process before placing my first order."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "839c02c363764d1a95b707c27658b1d4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 if you\u2019re an existing retailer and need support.",
+                "fileID": "2d28d5347c224de381f00c90cc732510",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for help with orders, shipments, and returns.",
+                            "fileID": "a60096a09dd643babd3ec095c00470bc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order support team.",
+                                        "fileID": "0e4bf6f1b82342d0ac31cddfd1685018"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "eaace760577c43daacad6e25b388f5de",
+                                "navigationGoals": [
+                                    "Assist me with tracking and possibly returning an existing order.",
+                                    "I need to check the shipment status for an existing order I placed.",
+                                    "I need to troubleshoot a missing shipment and initiate a return.",
+                                    "I need assistance with a recent order\u2014tracking, shipment, or returns",
+                                    "I need to check the shipment status of my recent lab equipment order."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for account details, payments, and billing inquiries.",
+                            "fileID": "e3df168bae1b46fa9fe1bb97c9211d58",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing support.",
+                                        "fileID": "b9e5d43fb42a4a25bd4529708ceb32d9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f5ff9170aba540e39d07f194b4de48cf",
+                                "navigationGoals": [
+                                    "Help me understand my recent invoice and make a payment.",
+                                    "I have a question about a charge on my vendor account invoice.",
+                                    "I need to review my billing cycle details and update my payment method.",
+                                    "I want to discuss my account billing and payment details",
+                                    "I need to update my payment method and billing info on my existing account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7edfa077b83b432d96839ad3a82705f6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ff89d655142344d0a2136323e903c68f",
+        "navigationGoals": null
+    },
+    "id": "08f397e060b747268025f6c10fb06a14",
+    "navigationGoals": null
+}

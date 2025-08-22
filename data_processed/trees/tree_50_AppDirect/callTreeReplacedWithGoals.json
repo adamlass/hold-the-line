@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to AppDirect, the only end-to-end commerce platform for success in today's digital economy.",
+            "fileID": "a1032bad1a1e4243822334c2b4a0dc6d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and pricing inquiries, press 1.",
+                "fileID": "2ab2349b6d474969af7d7283a789d3b8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our new customer sales team, press 1.",
+                            "fileID": "b92d9abbce454bc6a52cbaa57f1d9292",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our new customer sales team.",
+                                        "fileID": "4b921f9f48a84246894b1f90eedb608f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2a8195eeaefb4805b8cb4abc8ab40d5e",
+                                "navigationGoals": [
+                                    "Get pricing info and sign up for a new account",
+                                    "Ask about veteran discounts and new customer pricing options",
+                                    "Evaluate enterprise pricing tiers for a new AppDirect subscription and clarify the billing model",
+                                    "Help me choose and buy a new subscription plan, and explain the costs.",
+                                    "I\u2019d like to get pricing and a quote for a new student lab software subscription."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For existing account management and upgrades, press 2.",
+                            "fileID": "48010bd1482e4a6d918d309078771333",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account management team.",
+                                        "fileID": "105ac24055224f558b8452a6d31219b4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d1058dd63df74be4bf6dd4acbc4a8c9a",
+                                "navigationGoals": [
+                                    "Upgrade my existing plan to the next tier with additional features",
+                                    "Upgrade my existing plan to add seats with a veteran discount",
+                                    "Upgrade our existing platform subscription to increase user capacity and enable advanced modules",
+                                    "I\u2019d like to upgrade my existing account to a higher tier.",
+                                    "I want to upgrade my account to add extra seats for my study group."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "33cd6dfa20224b08ad887d3458939a3b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and platform services, press 2.",
+                "fileID": "bc090c3ad2d942a18407947a8407f8e8",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For platform troubleshooting and system status, press 1.",
+                            "fileID": "ab72a55c06b94eb89ac445e749fbf5a2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to platform support.",
+                                        "fileID": "36c842afcb314affb2ba55057f21911e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b4921792ee0741d5b4d5b9f61d5ae642",
+                                "navigationGoals": [
+                                    "Troubleshoot a current platform issue and check system status",
+                                    "Troubleshoot recent platform errors disrupting order processing",
+                                    "Investigate platform latency issues and verify system status across our environment",
+                                    "I can\u2019t access my dashboard\u2014please troubleshoot and confirm the system is working.",
+                                    "I need help troubleshooting login issues and checking the platform\u2019s status."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For integration and API support, press 2.",
+                            "fileID": "451118671e92486ea1874c34bdd029e9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our integration specialists.",
+                                        "fileID": "b67192a7614a4d8faeb2d24dedb8a960"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "89d62a40a1074dd993c3fc37d12c3af0",
+                                "navigationGoals": [
+                                    "Set up API integration with our systems and resolve errors",
+                                    "Get assistance integrating the AppDirect API with my inventory system",
+                                    "Resolve API authentication errors when integrating AppDirect with our internal provisioning system",
+                                    "I need assistance connecting my software through your API integration.",
+                                    "I\u2019m looking for assistance integrating AppDirect\u2019s API into my research workflow."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7ee9e16e252045a785ba272f3040f866",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "35b4ec1d2c4f470b88907c3c3efe347d",
+        "navigationGoals": null
+    },
+    "id": "64fb8c9e0f8644f9b1bd60efeede8cf1",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling MindSource, your top tier technical staffing and consulting agency in South Bay.",
+            "fileID": "5b8af7fd82c74ed390782b582a170bed"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For job seekers looking for technical roles, press 1.",
+                "fileID": "5e6c307b083040f28392976e958b6794",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak directly with a recruitment specialist, press 1.",
+                            "fileID": "c1a4374e2ccc4c4eb9a68acada12ef36",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruitment specialist.",
+                                        "fileID": "01dce623d5a548aea828739c2e6fd800"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3cebf03ef45f4658a32e62833e266446",
+                                "navigationGoals": [
+                                    "Connect me with a recruiter to discuss potential tech roles.",
+                                    "I\u2019d like to speak with a recruiter about transitioning my military IT experience into a civilian technical role.",
+                                    "Connect me with a recruitment specialist to discuss my software engineering job placement strategy.",
+                                    "I would like to speak with a recruitment specialist about finding a technical job.",
+                                    "I\u2019d like to speak with a recruiter about physics-focused roles."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To hear about our current open positions, press 2.",
+                            "fileID": "9d8f1f145c2a41fe87718e4e971c4c2c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the latest job listings for you.",
+                                        "fileID": "d6797e43b0994f7182055a523eb52002"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "58360d3d7bc049ebb1c1b579f78a0482",
+                                "navigationGoals": [
+                                    "Retrieve the most recent technical job openings you have.",
+                                    "I want to hear your latest technical job openings that match a military cybersecurity background.",
+                                    "Provide me with the latest list of active technical job openings in the Bay Area.",
+                                    "I want to hear about your current open tech positions.",
+                                    "Can you share your current openings for entry-level technical positions?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "98a57cb4248f452db8bc686da1250e3f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For hiring companies seeking expert IT staffing solutions, press 2.",
+                "fileID": "30e807ea29c048c483ca94cda953da50",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss your workforce needs with an account manager, press 1.",
+                            "fileID": "0c799c3778214ab69761d1d0171c6989",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you with an account manager.",
+                                        "fileID": "be1aa057e2694c6386622abeb79d14c7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b887fd38b7b94da6b2c16f6e581dabaf",
+                                "navigationGoals": [
+                                    "Let me speak to an account manager about staffing IT roles.",
+                                    "I need to discuss staffing needs for my veteran-founded startup and hire IT specialists.",
+                                    "I need to speak with an account manager about our enterprise IT staffing requirements.",
+                                    "I need to talk to an account manager about hiring IT staff for my business.",
+                                    "I need to discuss staffing undergraduate interns for my research lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn more about our consulting services, press 2.",
+                            "fileID": "762f392d01aa4026ab7c590a92a5cac0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we provide information about our technical consulting services.",
+                                        "fileID": "961cec2111c0437bbd528fc5342a16ca"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f08e7f214e614a38aea3a06dd84a04fa",
+                                "navigationGoals": [
+                                    "Provide me information on your technical consulting services.",
+                                    "I\u2019m interested in your technical consulting services to help modernize my small business\u2019s IT systems.",
+                                    "Send me details on your system architecture consulting and technical advisory services.",
+                                    "I would like to learn more about your IT consulting services.",
+                                    "I\u2019m interested in learning about your technical consulting services for a physics project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bd0ca84aeae4440b860c465f8d3cbae8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bb16adcbe6bc4adda292bcd24ca9cb78",
+        "navigationGoals": null
+    },
+    "id": "46615f922a1a46bba40eb93fc8ceac16",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling DNAnexus in South Bay, the cloud-based genome informatics and data management platform accelerating genomic medicine.",
+            "fileID": "c9c8ecfc122f4a418883d09a46af4f80"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for technical support or system status.",
+                "fileID": "2df3059372864dca88838b49044305f4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to connect to a technical support specialist.",
+                            "fileID": "f255e4df46f440be8d286981dd6e544e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "c7f37a8b97b641fa83258b1ffed3ccec"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "03e0b1f190fe44d290d54668091ef296",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for automated system status updates.",
+                            "fileID": "48af6e0cb443434c9b7caf9a6440c591",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the current system status.",
+                                        "fileID": "adebf66dfbf44dac8b214c9dcc232e6c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "260e6767f1084b179dea7fee76e790e6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "99afaa8871184f829916aef53d5bac5d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for sales, licensing, and partnership inquiries.",
+                "fileID": "07b44550f0e44141967af70991503332",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with a sales representative.",
+                            "fileID": "822e11a13ccd4208bd6262319fc6e2d5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "0d805bbcbd5c4a7399b826858a656e02"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "570d8f6fc16647cd9aff45b41606f909",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for enterprise partnership information.",
+                            "fileID": "0feeb20a58d44bd7a93f0abaa576c2f5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships division.",
+                                        "fileID": "003e04ba30f84401afc8bfc34ce97049"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a9424a0f0b494135b85bdeb5f6117dfb",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ae57696e50c5462e8cbe37b907141d15",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ac657706cbf34cc28051a0ca73fb698c",
+        "navigationGoals": null
+    },
+    "id": "1ae8338c1eb14717b344f2eed55fb6be",
+    "navigationGoals": null
+}

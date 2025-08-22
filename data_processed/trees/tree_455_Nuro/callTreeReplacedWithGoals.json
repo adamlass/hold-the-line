@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Nuro South Bay, where we deploy self-driving vehicles to accelerate the benefits of robotics.",
+            "fileID": "4c1734e30a3b4bb6be11cea7943847f1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To schedule a local goods delivery with our autonomous vehicles, press 1.",
+                "fileID": "c63ece5a3cca42869a96fe2a79cabb2f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a new delivery service, press 1.",
+                            "fileID": "afd547706b93445f86f60400387ec68c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our delivery scheduling team.",
+                                        "fileID": "482180dbee8e419fa0f1d909360f83ea"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2f5f42e6af77425caa8a68326677e0f0",
+                                "navigationGoals": [
+                                    "Book a one-time package pickup and delivery from my office to a client's address tomorrow morning.",
+                                    "I need to schedule a delivery of my groceries using your autonomous service.",
+                                    "I need to schedule an autonomous last-mile delivery for a 5 kg hardware shipment between two South Bay addresses.",
+                                    "I\u2019d like to schedule a grocery delivery from my nearby store.",
+                                    "I\u2019d like to schedule a same-day pickup and delivery of lab equipment across campus."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing details and service area information, press 2.",
+                            "fileID": "e0cdb756cedf4991be8bb77438be38f3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our pricing specialist.",
+                                        "fileID": "490d7dbdf8ad4febaa4fc947df9b86ad"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "93c244d9f021419db2cae2747c43332f",
+                                "navigationGoals": [
+                                    "Get a quote for delivery costs and confirm service availability for a 15-mile route across the Bay Area.",
+                                    "I\u2019d like to know your delivery rates and whether you cover my neighborhood.",
+                                    "I\u2019d like to get a detailed price quote and service area map for Nuro\u2019s autonomous goods delivery.",
+                                    "I need to check if you serve my area and what the delivery fee would be.",
+                                    "I need a quote on delivery fees and to confirm if my off-campus apartment is within your service area."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b9274184011a419cb19576dd108c644a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For help with an existing delivery, press 2.",
+                "fileID": "682ccf0a75cf4d8eb2f55501f2d7f2c3",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To track your current delivery, press 1.",
+                            "fileID": "8da280bb8c924c1c8d69c88b26da512f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to delivery tracking.",
+                                        "fileID": "78063cb9efc8441ab4f7fb9293fcb1b9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "262645253dff40bba5294098e0e51c54",
+                                "navigationGoals": [
+                                    "Check the real-time status of my delivery scheduled for today.",
+                                    "I want to track the status of my current delivery.",
+                                    "Please provide real-time telemetry and ETA updates for my currently en route autonomous delivery.",
+                                    "I want to track where my current delivery is right now.",
+                                    "I want to track the real-time status of my current delivery of biology samples."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support or other questions, press 2.",
+                            "fileID": "e7c3b7a038c446d7be4143587377de62",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "9cdb7206947744ce82b6e5dcac4b2913"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b1d5866c80924777b24021fcfd410ead",
+                                "navigationGoals": [
+                                    "Resolve an error in the app that's preventing me from viewing my delivery details.",
+                                    "I need help updating the drop-off instructions for my delivery.",
+                                    "I need to troubleshoot a sensor error (code 0x3F2) on my active autonomous delivery vehicle.",
+                                    "I\u2019m having trouble with the delivery tracking feature and need technical assistance.",
+                                    "I\u2019m seeing an error code in the app for my scheduled delivery and need technical assistance."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "14a7f95553c44baf98d9f1d236329408",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1ffc758b0d87470393f723b3c6547cb6",
+        "navigationGoals": null
+    },
+    "id": "62a9dc55861d4f3e8eeab62efdf914ca",
+    "navigationGoals": null
+}

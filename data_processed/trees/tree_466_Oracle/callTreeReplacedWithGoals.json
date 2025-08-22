@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Oracle in Peninsula, where we deliver a comprehensive and fully integrated stack of cloud applications and platform services.",
+            "fileID": "d9f5bac4f4ce48bba93d4f0aa3f51c1a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "2e9340541ee049b999d510c8ce6da4f1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a cloud applications specialist, press 1.",
+                            "fileID": "0505a9a93a424d379edd6c38f36fac83",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a cloud applications specialist.",
+                                        "fileID": "991177b79a154a0198c0f24a877b5d08"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "94bd694cfdc94dcdba264ea3e05de155",
+                                "navigationGoals": [
+                                    "Could you give me pricing and feature details for Oracle\u2019s cloud applications?",
+                                    "Ask about cloud applications pricing and veteran discount eligibility.",
+                                    "I want to discuss enterprise SaaS licensing options and integration APIs for your cloud application suite.",
+                                    "I\u2019d like to speak with someone about purchasing cloud applications.",
+                                    "I need pricing details and academic plans for Oracle\u2019s cloud applications to manage my lab data."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To connect with a platform services advisor, press 2.",
+                            "fileID": "16f2bcdfd2a047e0b18a70ac1e1c495c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a platform services advisor.",
+                                        "fileID": "c7425d122c33452a9d1e22f7fc603c0d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a799ed33df6b4044acd36ca7ef91e011",
+                                "navigationGoals": [
+                                    "I\u2019d like to discuss Oracle\u2019s platform services options and costs.",
+                                    "Find out how to configure platform services to host my veteran support portal.",
+                                    "I need details on your PaaS container orchestration service, including Kubernetes cluster autoscaling and uptime SLA.",
+                                    "I need to talk to a platform services advisor about subscription options.",
+                                    "I want information on Oracle\u2019s platform compute and storage options for running physics simulations."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "42a26fa410eb4bf9913c03c18126c363",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and service assistance, press 2.",
+                "fileID": "10bce0d1d75844e68091ab0030264ee5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For cloud applications support, press 1.",
+                            "fileID": "5ee6d204712444ab81db8e4bc03fe75f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to our cloud applications support team.",
+                                        "fileID": "5b6d29ef863047a599d1f804a2be9f34"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dc02ca2010354e93a331d90ed4121589",
+                                "navigationGoals": [
+                                    "I\u2019m experiencing an error in my Oracle cloud applications and need support.",
+                                    "Troubleshoot an access error in the cloud applications portal I\u2019m using.",
+                                    "I\u2019m having API authentication failures in your cloud ERP application; I need help troubleshooting OAuth token errors.",
+                                    "I\u2019m having trouble accessing my cloud applications and need technical support.",
+                                    "I\u2019m unable to access my Oracle cloud applications to upload my experiment results and need help."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For platform services support, press 2.",
+                            "fileID": "b032775a97814fbcb82ce0decc557242",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to our platform services support team.",
+                                        "fileID": "f3554489d1694f00b26e1101870b3abc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e7b57315a5904e809464828ae7596c14",
+                                "navigationGoals": [
+                                    "My Oracle platform services deployment isn\u2019t functioning correctly\u2014please help.",
+                                    "Resolve high latency issues on my platform services deployment.",
+                                    "I\u2019m experiencing high latency in my virtual network on your platform service; I need assistance optimizing VPC configuration.",
+                                    "My platform services aren\u2019t working properly and I need help troubleshooting.",
+                                    "My Oracle cloud virtual machine won\u2019t start and I need assistance troubleshooting the platform service."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "212683b84f754c1e84b18e34742ca2e7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f519ee0583864e798ee789c73934f2e3",
+        "navigationGoals": null
+    },
+    "id": "3a61da282fa64df49bdd05108efb8778",
+    "navigationGoals": null
+}

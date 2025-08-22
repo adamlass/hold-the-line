@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Twitch, the live streaming video platform for gaming and entertainment in San Francisco.",
+            "fileID": "09defb9aa89f48eb9f0ce389efbaff5a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you\u2019re a streamer needing assistance, press '1'.",
+                "fileID": "27fdf9f813a440ad82583790dba27f81",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with your stream or broadcasting software, press '1'.",
+                            "fileID": "6c8764b49dae43058f047be1b96ae510",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Twitch streamer technical support.",
+                                        "fileID": "23a176ac227e4d32ab675a3973fc2e56"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "459b65af1a1647828fd03fc2129fc6df",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For questions about monetization, subscriptions, and partnerships, press '2'.",
+                            "fileID": "9ad44ead1f9e463e9dae4ceba799870b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships and monetization team.",
+                                        "fileID": "7a137ead39ac40f7b9d14d7f685778d8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "49a52b9663ca4efe9daa58ae2a693e83",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "abf72205b8da40af94149727141efddb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a viewer and need assistance, press '2'.",
+                "fileID": "b23fea8232e04261a581b28adbf90214",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account, login, and password issues, press '1'.",
+                            "fileID": "596d07bc1d9a4c65950d7ce876c92254",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account support.",
+                                        "fileID": "b61607f494f04fd88fbbd625acfe56c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4940ffd902a1445a93eae83d1da45470",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To report content, file a safety concern, or for moderation help, press '2'.",
+                            "fileID": "15e13322d2a54d43995b745a2a6de25f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to content moderation and safety support.",
+                                        "fileID": "adec280a09ad4d27911ffd5605a67866"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "961f5f3b0edc4f31b56c41246d35c95e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d5d720149ca84eeca6a72c40e69f1193",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b4147b9bb1f04f428b15b2693e5a24e3",
+        "navigationGoals": null
+    },
+    "id": "26cfe7c10a674fa69b6a4426d8909ff4",
+    "navigationGoals": null
+}

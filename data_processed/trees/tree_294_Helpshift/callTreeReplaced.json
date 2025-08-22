@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Helpshift in San Francisco, delivering a superior customer service experience with our AI-powered messaging platform.",
+            "fileID": "5b7fe9ea963442c08661892bff844cd4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "82fef999e12d46a598ac02a3f2270b4c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized product demo, press 1.",
+                            "fileID": "4a1a84e2c12f4cc083d97602f4f9804b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for your demo.",
+                                        "fileID": "44bae1e19d01429db29013b52cc6503f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f0bda1788be247e59702af5617b182d4",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To request pricing details and licensing options, press 2.",
+                            "fileID": "b360d6ba2cef4e7eb9edfa2b29be56d6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing team.",
+                                        "fileID": "02f4aa1331eb45e79231a52f274c129f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "eaee4d11fbdc45519c6d30e988e21842",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f6fdbb9cc18e435cbeeab01c97b954b5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "4cb6dcbf73ba466390134bf2570fdc4a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and system troubleshooting, press 1.",
+                            "fileID": "9012a59b17be4a6d85425434425fad23",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we route you to our technical support team.",
+                                        "fileID": "36c584b6878b4526b65aa52a179e4e40"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bb633e62d76b4d6d8c29dd957b937646",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries and account management, press 2.",
+                            "fileID": "2f67e2e4e1e946a9abb2cdf7e6a64ed2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing and account services.",
+                                        "fileID": "cd3e8d5beced46a1a22836ca8543b3f2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "76327d82bee445a6be5f7905d8ecac7b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d3aeadb58b9c483d9aeea318b9039226",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "08f3c959d25246488da33f4456ff199e",
+        "navigationGoals": null
+    },
+    "id": "93b0b3bc4ba8471d9666f2890fa6cc1b",
+    "navigationGoals": null
+}

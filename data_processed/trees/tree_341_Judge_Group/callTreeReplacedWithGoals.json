@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to The Judge Group in San Francisco, your trusted partner for technology, talent, and learning solutions.",
+            "fileID": "376f11b270d94cbeb1ef0fad6bd858fb"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a job seeker looking for your next opportunity, press 1.",
+                "fileID": "55db3c6c76614dad95647940801bab79",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a recruiter, press 1.",
+                            "fileID": "7bc56df273b9496ba8484c4379137df1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruiter who can assist you.",
+                                        "fileID": "3b5193d42e054f2b9bc7ef384d1f9f03"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d0296f99905649cd93b7387acc230a56",
+                                "navigationGoals": [
+                                    "I need to speak with a recruiter about available tech roles that match my background.",
+                                    "Talk to a recruiter about my military-to-tech career transition.",
+                                    "I want to speak with a recruiter about SaaS backend engineering positions with Kubernetes expertise.",
+                                    "I need to speak with a recruiter about finding a job.",
+                                    "I\u2019d like to speak with a recruiter about entry-level physics positions at tech firms"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check your application status, press 2.",
+                            "fileID": "53d617ced83e4910a3c037fbe0c3d0da",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your application status; a team member will be with you shortly.",
+                                        "fileID": "060d817da34c4d9d89b1c41aaf75cd40"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e720dd2a112c493aa47a851d99349b84",
+                                "navigationGoals": [
+                                    "I want to check the status of my recently submitted job application.",
+                                    "Check the status of my software engineer application.",
+                                    "Retrieve the status of my application for the DevOps engineer role with AWS and Terraform proficiency.",
+                                    "I want to check the status of my job application.",
+                                    "I\u2019m calling to get an update on my application for the summer physics internship"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b22711e71b47431fb4d5eea1f16c5ccf",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For corporate clients seeking hiring or training solutions, press 2.",
+                "fileID": "de8a03dd68834ad0ad3054274a570f8d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss recruiting services, press 1.",
+                            "fileID": "e69a9f08cd2d4cec936e4a78f2e0b88a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our client services team.",
+                                        "fileID": "629bcb90f6a6488bbb97064c407fc535"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ee54c0962fd446489ce17ed1052afc60",
+                                "navigationGoals": [
+                                    "I need to discuss recruiting services for my company\u2019s open positions.",
+                                    "Discuss recruiting services for my veteran-owned business.",
+                                    "Discuss your end-to-end talent acquisition solutions for scaling our full-stack development team.",
+                                    "I\u2019d like to discuss recruiting services for my company.",
+                                    "I want to discuss setting up recruiting services to hire physics undergraduates for research roles"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To inquire about our training and learning programs, press 2.",
+                            "fileID": "6d3a4b7ac608439ca6f18ce76f74a933",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our learning solutions specialist.",
+                                        "fileID": "89a9983a0b5c4208a6de7e1f7635126b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f483e7afd72a412e98cf2ebd9e47ef14",
+                                "navigationGoals": [
+                                    "I\u2019m looking for information on your corporate training and learning programs.",
+                                    "Inquire about leadership training programs for my veteran staff.",
+                                    "Connect me with your learning solutions specialist to explore upskilling programs in cloud-native architectures.",
+                                    "I\u2019m calling to learn more about your training and learning programs.",
+                                    "I\u2019d like details on your training programs tailored for physics students"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6300c8a6e70044d6947508e5142c5bbf",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "98ac91fec46342eeb0b0bb77725dde6b",
+        "navigationGoals": null
+    },
+    "id": "e1c1ce5776954b29974b29670cb9dfcd",
+    "navigationGoals": null
+}

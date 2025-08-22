@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling SpringML in the East Bay, your partner in accelerating time to insight and impact through data.",
+            "fileID": "4be710d3489b4a22aa8730075f90a82b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For data analytics and engineering services, press 1.",
+                "fileID": "928e37f2fa6b4c72aed1dd432d5eb50f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For data engineering and pipeline development, press 1.",
+                            "fileID": "04e23886897240d3a1adb7fdec0926d8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a data engineering specialist.",
+                                        "fileID": "83c18b529747470a9e140939321c0cfa"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b451e4ed8cf247d8b1b445f98c09b756",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For business intelligence and reporting solutions, press 2.",
+                            "fileID": "833c0998bffa4b14bbb0741ecb1eccb8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a business intelligence specialist.",
+                                        "fileID": "9133ede6040f4429828f988039ddd923"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fcfdfa854ce24498b70e8fe6d8b3e41e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7a1f6678e1fc4ab8b8040fa4fc726df4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For artificial intelligence and machine learning solutions, press 2.",
+                "fileID": "3eb91b0b2012449a80d68d15db8f0414",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For AI strategy and consulting, press 1.",
+                            "fileID": "d0a1b9a5196e47b0b4c5717224eba348",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an AI strategy consultant.",
+                                        "fileID": "3079530584324c9ab82a052b99c8ad6d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b34ac7dd5a8f4e5b8ffb462ecb429f99",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For machine learning model deployment and support, press 2.",
+                            "fileID": "c701de4715ea44c3b666fc1cbd91b728",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our machine learning deployment team.",
+                                        "fileID": "3b385048f31846769c3a67d765a72351"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7e5cc1ef21ba4f10b1aa7f4f5a3ecea6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5375621a70b04b539787033d10e97c0a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "0c083f64da2e4a45be3c35e9f6f57b48",
+        "navigationGoals": null
+    },
+    "id": "cf939a0751914b9a92923db434a1b5a0",
+    "navigationGoals": null
+}

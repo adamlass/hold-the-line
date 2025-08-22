@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Urban Airship in San Francisco, where we orchestrate and deliver hyper-personalized messages in real time.",
+            "fileID": "bbf589258e054959a73792b66ea8cccf"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Marketing solutions, press 1.",
+                "fileID": "5a3988f8383e4d679b483947672d5f56",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss campaign orchestration services, press 1.",
+                            "fileID": "710b0acf4da349ad9880013f43bc0589",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our campaign orchestration team.",
+                                        "fileID": "6301abd84f544725b0c6e1ce00fe1aa9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6b40ff4f68fc447c896307900a182499",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn about channel integration capabilities, press 2.",
+                            "fileID": "bc66176a73894f89a3f73edcce56a91d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our channel integration specialists.",
+                                        "fileID": "01190b0d02a54195b75c95bf4a74167b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "73aa90f482004774b944dd146fcbeb01",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e5cafa36384d41ed8c0b2fba07beea7d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Analytics and reporting support, press 2.",
+                "fileID": "9286988acefe4e70824a23c585efb675",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To get real-time campaign data reports, press 1.",
+                            "fileID": "e3e4d87bea9e433a891627add0d13029",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our analytics reporting team.",
+                                        "fileID": "7542cb818e274e19be600bd8d19de4f0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "732814f0dd3d49d9a2f9dbccc5e5e351",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To set up a custom dashboard, press 2.",
+                            "fileID": "70af62d12620450dbb7b17afd12cef53",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our dashboard support specialists.",
+                                        "fileID": "8f07bffed7e04a1391538aa4dd2bc37d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cae14a2474a9424eb1ea3b44ec6d89ba",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "beaf559ec6d648c883035dc9a9aa1856",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1b3e0cb9ec8e48de89e25bdeb7a49a63",
+        "navigationGoals": null
+    },
+    "id": "158a753541b9474ead43176369cb322a",
+    "navigationGoals": null
+}

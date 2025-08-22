@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Yodlee, transforming financial services with seamless access to data through our powerful API solutions.",
+            "fileID": "370a3c48c30c428484ad1d8022699c51"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For developer support and access to our API documentation, press 1.",
+                "fileID": "16e125261ae2493997d2e1b1bfc1fcaf",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For API onboarding and integration assistance, press 1.",
+                            "fileID": "754bc7febde04548bb348572c911b19f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical specialist for developer support.",
+                                        "fileID": "a4581b159e574361a1875b51cd46fa75"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8ea096b7cf2947a2a19b08f88d3c4470",
+                                "navigationGoals": [
+                                    "Help me integrate Yodlee\u2019s API into our platform quickly",
+                                    "I\u2019m developing a budgeting app for fellow veterans and need help integrating your API",
+                                    "I\u2019d like to speak with a specialist about integrating Yodlee\u2019s REST API and accessing the developer SDK documentation.",
+                                    "I need help setting up Yodlee data access for my budgeting app.",
+                                    "I need help integrating Yodlee\u2019s API into my data analysis pipeline and understanding the authentication flow."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For reporting data feed issues, press 2.",
+                            "fileID": "0d751bb2c74e48ce90c75ddf3c688ec9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your data feed details.",
+                                        "fileID": "217b58068d40406985b8409029566b3b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c3af4886240e458d97a82ed87f444b37",
+                                "navigationGoals": [
+                                    "Report and fix an issue with our API data feed",
+                                    "My data feed stopped syncing my benefit transactions and I need it fixed",
+                                    "I need to troubleshoot missing transaction records in my Yodlee data feed.",
+                                    "My account isn\u2019t showing recent transactions\u2014please help me retrieve my data feed.",
+                                    "I\u2019m missing transaction records in my data feed and need assistance troubleshooting the issue."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f00baa9b375646aca74f40f0a77f8bd7",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For enterprise and partnership inquiries, press 2.",
+                "fileID": "9ad87e45e805486d903d72ecaa5da598",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For bank and financial institution solutions, press 1.",
+                            "fileID": "e28e0cdbd8344a0b9a4dbee799f5401c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our enterprise solutions team.",
+                                        "fileID": "46035e2775b94c0cb01848808e8c5aae"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ad3fb6811c2a47babc873e47b7ddedb9",
+                                "navigationGoals": [
+                                    "Discuss enterprise partnership options for our bank",
+                                    "I run a veteran support nonprofit and want to explore an enterprise partnership",
+                                    "I want to discuss enterprise licensing and partnership options for Yodlee\u2019s bank solutions.",
+                                    "I\u2019d like to find out if my small community bank can become a Yodlee partner.",
+                                    "I want to explore a partnership to integrate Yodlee solutions with my university\u2019s finance research lab for institutional banking data."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account management, press 2.",
+                            "fileID": "6663460a7d2a4030ad93226190ce9c55",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing support.",
+                                        "fileID": "a38f72fb76d34b1f92632db83a64884a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "33ef88c9e9ac4baebba16c0c82db92be",
+                                "navigationGoals": [
+                                    "Resolve a billing discrepancy on my Yodlee account",
+                                    "I need to update the payment method on my enterprise subscription",
+                                    "I need billing support to review my Yodlee account usage charges and invoices.",
+                                    "I\u2019m confused about a charge on my account and need help understanding my invoice.",
+                                    "I\u2019d like to update my billing information and discuss upgrading my developer account to a paid plan."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "05de771a6b43475a977b321ef279f5b7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8a6a698555914d1ca60240868768d3c4",
+        "navigationGoals": null
+    },
+    "id": "15bfa12e71f541d981f6012f8a4996f4",
+    "navigationGoals": null
+}

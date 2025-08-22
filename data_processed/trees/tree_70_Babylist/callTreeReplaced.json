@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Babylist in the East Bay, where building your baby registry is as easy and fun as pinning on Pinterest.",
+            "fileID": "e8c21bf0611c4f3d9e6ce6820685ce6e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To create or manage your Babylist registry, press 1.",
+                "fileID": "c3fe50f027a645209b45971779c55585",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To add items from any store to your registry, press 1.",
+                            "fileID": "07cd562a7ba446ce88fbce118ab23348",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our registry creation team.",
+                                        "fileID": "368f8125adf24cedb47775edc5e2b3b4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e911541e9e87480fb5efdeec2553ce61",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To edit, share, or view your existing registry, press 2.",
+                            "fileID": "2e9bd05be894461684baecc1fd0622c5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our registry management team.",
+                                        "fileID": "5a297138ae084bd0921ca13da68dc1dc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1de95ea1273c444081d7b8565f8732e8",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "726f9672e270458a85b1c813e3a2d7b5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For order, shipping, or gift support, press 2.",
+                "fileID": "e5d2ea8d291c4c1d9e0cd758aecd6027",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For questions about gifts you\u2019ve received, press 1.",
+                            "fileID": "f2cb1edf59154a7c90ce3cbd84d3d838",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our gift support specialist.",
+                                        "fileID": "975c5d59b3fb432189d9c8b4a1adb5fa"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6e878e980a0b4450b1cd18541cb13930",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For assistance with orders or shipping, press 2.",
+                            "fileID": "f95ac7289cb54c21ae4bafe5432d5195",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order and shipping department.",
+                                        "fileID": "6569d6a9dad24414a8614ef5f5da724e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5bf5d5818bd54025b2568dda504b1846",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "37913dabc8fd4b4b8d6297198cbc3e10",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c12d75d19f324495aa4763d4cfd37590",
+        "navigationGoals": null
+    },
+    "id": "af6374551d214e089fe4e37e369d852c",
+    "navigationGoals": null
+}

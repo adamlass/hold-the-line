@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Control the future of your health at Forward, a new kind of doctor's office in San Francisco.",
+            "fileID": "ee06599730fc4aafb8964479d0fb8212"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For appointment services, press 1.",
+                "fileID": "9dd292d6770240f8a84134114dabf1b6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a new appointment, press 1.",
+                            "fileID": "63e04c318a334628a00e6b20a25c3ae5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our scheduling team.",
+                                        "fileID": "377268a543264255bdd00e64b5e7d0d7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8932f41be21a44b38229ce45bc7c424e",
+                                "navigationGoals": [
+                                    "Schedule a new appointment at Forward for my annual wellness exam.",
+                                    "I need to book my first checkup at Forward\u2019s San Francisco clinic.",
+                                    "Schedule a new biometric health profiling appointment",
+                                    "I need help booking a check-up at the San Francisco office.",
+                                    "I\u2019d like to book a new appointment for a full physical at Forward."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To reschedule or cancel an existing appointment, press 2.",
+                            "fileID": "e94f8bb61a27495aa000a54b2a66207c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. We\u2019re transferring you to the appointments desk.",
+                                        "fileID": "8215d03c61494083b5c7b02de9db11b1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4b4b93effb3f4425b47fff0aff519c8f",
+                                "navigationGoals": [
+                                    "Reschedule my upcoming Forward appointment to a different day.",
+                                    "I need to reschedule my upcoming appointment I already set up.",
+                                    "Reschedule my biomarker analysis follow-up appointment",
+                                    "I\u2019d like to change the date of my upcoming appointment.",
+                                    "I need to reschedule my upcoming routine checkup."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "981d92a5b8b84282ac4c34c722d821ce",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For patient support, press 2.",
+                "fileID": "06ae1ae31d3448049e5c797d12ead6a6",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a nurse or care provider, press 1.",
+                            "fileID": "0a145db1f8db4fa1a783f48c63644ec8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a clinical team member.",
+                                        "fileID": "f7b543485ecd423dadaf39e827d0e14b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ae4cbe452fcf4344a8c45220560416cc",
+                                "navigationGoals": [
+                                    "Connect me with a nurse to discuss a quick health concern.",
+                                    "I\u2019d like to speak with a nurse about some persistent knee pain from my service.",
+                                    "Discuss my recent blood panel results with a care provider",
+                                    "I have questions about my medication and want to talk to a nurse.",
+                                    "I need to speak with a nurse about my recent lab results."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and insurance inquiries, press 2.",
+                            "fileID": "104fbba3724b472f915f3871ae2e606f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we transfer you to billing and insurance support.",
+                                        "fileID": "39604afaab7640e1841706d9baa78254"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2a7ba0e713a8481c8d918465994191f3",
+                                "navigationGoals": [
+                                    "Review my recent billing statement and insurance coverage details.",
+                                    "I need help clarifying a billing charge and how my VA benefits apply.",
+                                    "Verify insurance coverage for my genomic sequencing assay",
+                                    "I need assistance understanding my bill and insurance coverage.",
+                                    "I have a question regarding my billing statement and insurance coverage."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5b3a3099b1fe4d6ba1cc99e466619b88",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1c5a8e64697e45f2862437fe15ac3f5e",
+        "navigationGoals": null
+    },
+    "id": "6504a3fedba44067bdf14db428e20620",
+    "navigationGoals": null
+}

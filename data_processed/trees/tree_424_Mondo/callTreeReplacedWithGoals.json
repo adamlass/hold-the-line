@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Mondo, the largest national staffing agency based in San Francisco specializing exclusively in high-end IT and digital marketing talent.",
+            "fileID": "842dd842d99a4b6d98ab4f38bf4a9df2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a client looking to hire top tech professionals, press 1.",
+                "fileID": "cc9e2d47caf84271bf9da23bec4fc8b2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To post a new job requisition with our team, press 1.",
+                            "fileID": "549b380c29cb4b63a4a43eaaba193a08",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a client services specialist; we\u2019ll connect you momentarily.",
+                                        "fileID": "5ea04b2b4ead473fb5f4a6acbfc3afcd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a140e03b36cd4f9aaa5dbf1909d801db",
+                                "navigationGoals": [
+                                    "Post a new job opening for a senior DevOps engineer",
+                                    "I\u2019m running a veteran-owned IT consulting firm and need to post a new tech support position.",
+                                    "I need to post a new backend developer requisition with detailed technical requirements.",
+                                    "I need help posting a new IT job listing; I'm not sure how to complete the requisition.",
+                                    "I\u2019d like to publish a new opening for a computational physics postdoc position in my research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss an existing job order, press 2.",
+                            "fileID": "040c2c7eac544d17aaaca3fb16f6b744",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for your account manager; you\u2019re being transferred now.",
+                                        "fileID": "0e7f3c9b846c49ddb9c1f20bef0761c7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7f48b20eac2d468789003fa34715a53c",
+                                "navigationGoals": [
+                                    "Check the status of our open full-stack developer requisition",
+                                    "I want to follow up on an existing software engineer requisition we placed last week.",
+                                    "I want to get a status update and discuss next steps on my current cybersecurity contractor order.",
+                                    "I want to review the status of a job order I placed and discuss it with my account manager.",
+                                    "I need an update on the candidate search for the quantum modeling engineer role we posted last week."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4a15cd4b1f1d48e09971488320e8b6fd",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a candidate seeking new career opportunities, press 2.",
+                "fileID": "2e507749ca04482fab3ff42754442102",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit your resume to our recruiters, press 1.",
+                            "fileID": "e8f6a4034bf34efca1665c72e4951386",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a candidate specialist.",
+                                        "fileID": "1852cc56a78f4289b85d263ec9c6a4d4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "11957cef398245c685fb6e37e5e29c67",
+                                "navigationGoals": [
+                                    "Submit my resume for IT project manager roles",
+                                    "I\u2019d like to submit my resume and translate my military skills for IT project manager opportunities.",
+                                    "I\u2019d like to submit my Cloud Infrastructure Engineer r\u00e9sum\u00e9 and profile to your recruiting team.",
+                                    "I\u2019d like to submit my resume for tech roles and need assistance uploading it.",
+                                    "I\u2019d like to submit my CV for consideration for any machine learning or data science internships."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For information on current job openings, press 2.",
+                            "fileID": "327736be76464defa06db5922de5c716",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the latest job listings for you.",
+                                        "fileID": "e62cb28ba86b49d88e02421ff0aecd59"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bdda28353ca0403fa65b5ebbc1f12de9",
+                                "navigationGoals": [
+                                    "Get information on current front-end developer job openings",
+                                    "I\u2019m looking for current cybersecurity job openings that match my security clearance.",
+                                    "Please send me the latest frontend React developer job listings you have available.",
+                                    "I\u2019m looking for current job openings in IT and need someone to walk me through them.",
+                                    "I\u2019m interested in reviewing your current listings for entry-level positions in data analysis or software development."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "aaf199f9e13542bf99a09216eb15a4cd",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "fc13a1af41bc4abcabb554e3a60318f2",
+        "navigationGoals": null
+    },
+    "id": "c7066d66c70f429ab7d6ca6dd77a100c",
+    "navigationGoals": null
+}

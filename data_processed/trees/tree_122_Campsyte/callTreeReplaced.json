@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Campsyte, San Francisco\u2019s leading marketplace for booking inspiring outdoor venues for your offsite meetings and events.",
+            "fileID": "c4c7ea00c8a54c5e91b865ee598bf532"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To browse available outdoor venues, press 1.",
+                "fileID": "ac4a416b569b4ff889bbfb889d68ea43",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear about venues in San Francisco, press 1.",
+                            "fileID": "c47a47dae4584673bb0133e5274ac32d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve details for San Francisco outdoor venues.",
+                                        "fileID": "d0cb20e5139444c6889419ef1a50757a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3cc7e389326848808ab2f77471537acf",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To hear about venues outside of San Francisco, press 2.",
+                            "fileID": "41a5cb43203a485c9ddf0d132024c2e1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve details for outdoor venues beyond San Francisco.",
+                                        "fileID": "2e2766dae493454a9b3a13a538c0a78e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "506d9fb52c674ba8afd7016b784dabb2",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bfcc46d577204cefb9bbdd8bb3b541fc",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To speak with a venue specialist, press 2.",
+                "fileID": "04ef2810897e468ba540fecd2e41295a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing and availability, press 1.",
+                            "fileID": "7609990cb2984b9c91df2b4e1e2fdabb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a pricing and availability specialist.",
+                                        "fileID": "b5b194e67d7e4df7bb430b2fa9285da9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "46dfc629162e4adb9d7a8e91ec084189",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For assistance with an existing booking, press 2.",
+                            "fileID": "8ba1f79614844f2e9cb9daf148dc638b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to customer support for your booking.",
+                                        "fileID": "d482a6310803488481b2c52e35ed4859"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "55611c3d4b7e44e18cca148e012238a7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "aa10ce6bc6f44762972ace0cc4f80db3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c0fca16b1c924d39a70a2c310c4735f2",
+        "navigationGoals": null
+    },
+    "id": "1c33f55ee5ef43e0bd933e42d111eace",
+    "navigationGoals": null
+}

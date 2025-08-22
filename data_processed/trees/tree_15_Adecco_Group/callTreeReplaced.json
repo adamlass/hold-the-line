@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling the Adecco Group Peninsula, the world\u2019s leading provider of temporary staffing, permanent placement, career transition and talent development.",
+            "fileID": "c2ab82ab7da54cf8a8b8a8e68b8bf2ad"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a job seeker looking for career opportunities, press 1.",
+                "fileID": "ca1f8c07f0ae4b199a5d889c68cd7062",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For temporary staffing and contract positions, press 1.",
+                            "fileID": "112a31433b524e5696a6c9b4908d91a8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our temporary staffing specialist. Your call is important to us.",
+                                        "fileID": "77dc885576334f08a2c26ea391e9c5d9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0de6a4cdf1484cf79c0ced04dce7f07e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For permanent placement and career transition services, press 2.",
+                            "fileID": "aa6fc6195d4d4b929ac59d0cd1e2998e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a permanent placement advisor. Thank you for your patience.",
+                                        "fileID": "59379d9b842547a8b378bd830e097aac"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ffbd349395a34286b6f140805b8ae077",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "db42e64dd5154ff6807d098d198168d6",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an employer seeking workforce solutions, press 2.",
+                "fileID": "5489f12deb9d498b85d52aeb1e38fd92",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For temporary staffing solutions for your business, press 1.",
+                            "fileID": "1b8f329dc08a41c1b59333788d061f3c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to a business staffing specialist.",
+                                        "fileID": "7f78661424664bb39d3036891ee1dded"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "085b86ba49044455b8f3cdd39c38ec65",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For talent development and workforce consulting services, press 2.",
+                            "fileID": "55c7bbb427f3462a96fe9a79442400a2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our talent development consultant.",
+                                        "fileID": "0e7ed95b095040c2bf0a66185573fda0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "99d8b112cd3f49ac9af37bd2ee4f4f3f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "55a7ef47e3e04990aac77078cc851ea1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "48886d777dda4599ab9c653963eafbeb",
+        "navigationGoals": null
+    },
+    "id": "c2f7ce7db1554feea2532ba6171bb2a3",
+    "navigationGoals": null
+}

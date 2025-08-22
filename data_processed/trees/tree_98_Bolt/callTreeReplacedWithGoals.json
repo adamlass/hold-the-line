@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Bolt, the San Francisco\u2013based commerce platform that drives online revenue with a better-than-Amazon, zero-fraud checkout.",
+            "fileID": "7e7a1ae0ea4246e98118b3f305dc3436"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new account inquiries, press 1.",
+                "fileID": "caca11adddb9481da9fbaad778731478",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss integrating our better-than-Amazon checkout on your site, press 1.",
+                            "fileID": "adecbfdefbab43498f1bebe479c01d04",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales specialist.",
+                                        "fileID": "8bf3123ceb794828b70ab2abd1b1d5c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dd83d1cf9ac24f9bacc54be8ea8f5e4c",
+                                "navigationGoals": [
+                                    "I need to open a Bolt account and implement their checkout on my website.",
+                                    "I\u2019d like to speak with a sales specialist about integrating Bolt\u2019s checkout on my veteran-owned online store.",
+                                    "Discuss API integration endpoints and SDK setup for Bolt\u2019s zero-fraud checkout",
+                                    "I\u2019d like help opening a Bolt account and having someone walk me through adding your checkout to my website.",
+                                    "I\u2019d like to speak with sales about integrating Bolt\u2019s checkout into my site."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To review pricing plans and discover how we can boost your revenue by up to twenty percent, press 2.",
+                            "fileID": "8f117ad20dbe4976ba764b6e899d0364",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a pricing consultant.",
+                                        "fileID": "f202b13ea0744a329637983d1d580943"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "95598665efd142c19c2cdeed41067b16",
+                                "navigationGoals": [
+                                    "I\u2019d like to review Bolt\u2019s pricing plans and find the best option to grow my sales.",
+                                    "I need to discuss pricing plans and see how Bolt can boost revenue for my small business.",
+                                    "Obtain detailed pricing tiers and ROI projections for Bolt\u2019s enterprise plan",
+                                    "I\u2019m on a tight budget and need someone to explain your pricing plans and help me choose the best option.",
+                                    "I need to review Bolt\u2019s pricing plans to estimate costs for my project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9e1f345bc55e4d869f3521d8dd1deec0",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "add3738369154c529bcb6f74c11c41bd",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with your current integration, press 1.",
+                            "fileID": "f4145fc89e554b8aaab9a6f99e858474",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support.",
+                                        "fileID": "4c5103ceffe54e449f55df0149e5846d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ebbd3fde512e400ea7f55149350a21c4",
+                                "navigationGoals": [
+                                    "I\u2019m having issues with our current Bolt checkout integration and need technical help.",
+                                    "I\u2019m seeking technical support to troubleshoot my current Bolt integration on my website.",
+                                    "Resolve authentication and session-timeout errors in my current Bolt API integration",
+                                    "I\u2019m getting errors with my current Bolt integration and need patient, step-by-step technical support.",
+                                    "I\u2019m experiencing errors with my current Bolt integration and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For assistance with fraud protection and risk management, press 2.",
+                            "fileID": "d7f0f8038b5242e4a917621cab715460",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our fraud prevention team.",
+                                        "fileID": "520cb242d32b40e4b9bab7f7d8546cf3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "04e4b4c0775e4513b311e03ddb006887",
+                                "navigationGoals": [
+                                    "I want to set up fraud protection and understand Bolt\u2019s risk management features.",
+                                    "I want to connect with the fraud prevention team to set up risk management for my e-commerce site.",
+                                    "Consult on advanced fraud-detection algorithms and chargeback prevention configurations",
+                                    "I want guidance on preventing fraudulent orders and setting up your risk management features.",
+                                    "I want assistance configuring Bolt\u2019s fraud prevention features."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "dbeeab269e264e6694644dc465609de5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3f6f56bc51614eacbe829113ad71be69",
+        "navigationGoals": null
+    },
+    "id": "cee5c76736c84b4582044f1ce7e55e2b",
+    "navigationGoals": null
+}

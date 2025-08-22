@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Mapbox in San Francisco, where businesses add powerful mapping, navigation, and search capabilities to any application.",
+            "fileID": "1522de74b24f4bdc82e7355262514d50"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For developer support and technical inquiries, press 1.",
+                "fileID": "e6775e059ce54a478a7ac8ea660b1caa",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To get help integrating Mapbox SDKs into your applications, press 1.",
+                            "fileID": "1f0fa95d46144a7a9bdfc22bf60a5927",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a developer support specialist.",
+                                        "fileID": "640f2c435d8e441ab9bc0119a3e174db"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "507afda2ddda4b2ab94dbea87bc3e7f8",
+                                "navigationGoals": [
+                                    "Connect me with a developer specialist to integrate the Mapbox SDK into our application.",
+                                    "I need assistance adding Mapbox mapping features to my veteran resource app.",
+                                    "Integrate the Mapbox Maps SDK for iOS into my Swift app and configure offline tile caching.",
+                                    "I need help installing the Mapbox SDK into my project.",
+                                    "I\u2019d like guidance on integrating the Mapbox SDK into my iOS physics simulation app."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For troubleshooting API errors and SDK performance, press 2.",
+                            "fileID": "c79b2d25745044919fdff87a7203412f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical assistance team.",
+                                        "fileID": "f72b7c9837eb45a99d9a8d7744a2b070"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1d8ac24f62124cbf9e27a9e0b4c82773",
+                                "navigationGoals": [
+                                    "Help me troubleshoot API errors and improve SDK performance in our project.",
+                                    "I'm getting errors with Mapbox APIs in my service locator and need troubleshooting help.",
+                                    "Debug and fix HTTP 429 rate-limit errors in my Mapbox Directions API calls.",
+                                    "I\u2019m running into API errors when using the SDK and need help fixing them.",
+                                    "I\u2019m encountering API errors when fetching map tiles for my campus guide project and need technical troubleshooting."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9629ace0a8c44ea791ad7df2de3be5d5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and new business opportunities, press 2.",
+                "fileID": "959b13eb4f1b4c26a2795687e354d187",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new account setup and pricing information, press 1.",
+                            "fileID": "a330a1f9d2a0480582dae1a1f1115d6e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "2581cd88d77b4f5f928e291946c9b721"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2efbaaf2e5e647fda8e7518dc2133f07",
+                                "navigationGoals": [
+                                    "I need to set up a new Mapbox account and get details on pricing plans.",
+                                    "I want to set up a new account and get pricing details for using Mapbox in my nonprofit's app.",
+                                    "Create a new Mapbox business account and review pricing tiers for monthly map tile usage.",
+                                    "I want to set up a new Mapbox account and learn the pricing details.",
+                                    "I want to open a new Mapbox account and learn about student pricing plans."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss enterprise solutions and partnerships, press 2.",
+                            "fileID": "7fcbdc41db33451ea953ea1ec1f386d2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our enterprise partnerships team.",
+                                        "fileID": "4510c67f0f884768b2e572729be009f6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "781a987b52034ee78132cff4929117e5",
+                                "navigationGoals": [
+                                    "I want to discuss enterprise solutions and partnership options for our organization.",
+                                    "I'd like to discuss enterprise-level mapping solutions for my large-scale veteran outreach program.",
+                                    "Explore an enterprise partnership for custom SLAs and dedicated support for geospatial services.",
+                                    "I\u2019d like to discuss enterprise solutions and partnership opportunities.",
+                                    "I\u2019d like to explore enterprise-level partnerships for deploying Mapbox in our university\u2019s GIS research lab."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "196a9be7af1740d5ad3fd744fbf51378",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8fe8fa311bbf4996ba7419a7ae6c5488",
+        "navigationGoals": null
+    },
+    "id": "0830bb2b014d40db98228b27c0ef16d7",
+    "navigationGoals": null
+}

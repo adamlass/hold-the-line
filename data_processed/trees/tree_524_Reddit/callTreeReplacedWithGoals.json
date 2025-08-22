@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Reddit, the front page of the internet, broadcasting from San Francisco.",
+            "fileID": "69a84855528343978cb4f8f00630b191"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are interested in advertising solutions or brand partnerships, press 1.",
+                "fileID": "866cb04f39e44f29bfd554f45f3214ad",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team for custom advertising packages, press 1.",
+                            "fileID": "478e8ae507b542c4a7cb0560a49d5bdb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a member of our advertising sales team.",
+                                        "fileID": "f46b10cac39f482780d5f895cc3a7690"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "079fe42672fc4833a1e21641adf66912",
+                                "navigationGoals": [
+                                    "Talk to a sales rep about a custom advertising package",
+                                    "I need to speak with someone about custom advertising packages for my nonprofit supporting military veterans.",
+                                    "I want to scope a bespoke programmatic ad campaign and talk to your enterprise sales engineer.",
+                                    "I need to talk with someone about a custom advertising package for my small business.",
+                                    "I want to set up a custom advertising package on Reddit to promote our university physics society\u2019s seminar series."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For information on our self-serve advertising platform and campaign tools, press 2.",
+                            "fileID": "a33e8807a06f41e6ab60467e2585cfc5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we gather details on our self-serve ad platform.",
+                                        "fileID": "c8c6504beb6b4d9db80ee23d8c327d24"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d68a431606814c48bea389b11769f405",
+                                "navigationGoals": [
+                                    "Get details on the self-serve advertising platform and campaign tools",
+                                    "I\u2019m calling to learn how to set up and manage a self-serve ad campaign to promote my veteran-owned small business.",
+                                    "I need API docs and pricing details for your self-serve advertising platform to spin up a campaign.",
+                                    "I\u2019d like guidance on using your self-serve ad platform to run my own ads.",
+                                    "I need instructions on using Reddit\u2019s self-serve ad platform to run a campaign recruiting participants for my physics research survey."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f0d345f892e24319afc1284ddf0f12c6",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For help with your Reddit account or to report technical issues, press 2.",
+                "fileID": "57ede0cd5baf46e78dc91a5a597c65c7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To get assistance with account issues, password recovery, or login help, press 1.",
+                            "fileID": "866c783df0084939bc7f9bd639d211bf",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Reddit account support.",
+                                        "fileID": "c0cbecc6acbe4659884c5561a754cdc5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "61b46ec7934748aaafd866cdba81095e",
+                                "navigationGoals": [
+                                    "Recover my password and regain access to my Reddit account",
+                                    "I need assistance recovering my Reddit account password and logging back in.",
+                                    "I need to reset my Reddit login credentials and troubleshoot my two-factor authentication.",
+                                    "I forgot my Reddit password and need help recovering my account.",
+                                    "I\u2019m locked out of my Reddit account and need help recovering my password and regaining access."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For general questions, feedback, or press inquiries, press 2.",
+                            "fileID": "f6fd62c9441f4e17b2da6d122e3cc093",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our community relations team for general inquiries.",
+                                        "fileID": "75d82d800b4c4df084546ba1c41c7634"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1a2705ee46184acaace4dcac1f929c45",
+                                "navigationGoals": [
+                                    "Provide feedback on Reddit\u2019s mobile app performance",
+                                    "I want to ask general questions and share feedback about Reddit\u2019s veteran community initiatives.",
+                                    "I\u2019d like to get your press kit and connect with community relations for media partnership inquiries.",
+                                    "I have general questions about Reddit and would like to speak with someone for assistance.",
+                                    "I\u2019d like to send feedback about moderation in Reddit\u2019s physics communities to the community relations team."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cff7e7a097c844ae90ecd4646b2df680",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d4300212b96b46ef9b29f69104b26f2e",
+        "navigationGoals": null
+    },
+    "id": "bd20a4784c594f398533157db8cd5487",
+    "navigationGoals": null
+}

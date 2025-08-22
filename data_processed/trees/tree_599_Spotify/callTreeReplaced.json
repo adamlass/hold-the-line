@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Spotify, your digital music service from San Francisco offering access to millions of songs.",
+            "fileID": "3631d95450a04973bea2e19aa2411b54"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For subscription and billing inquiries, press 1.",
+                "fileID": "83b4e9ca2c784519be64c9a1bc842ebb",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For plan changes and upgrades, press 1.",
+                            "fileID": "1436d4069c1345bea5d88c98a2699e3b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our subscription support team.",
+                                        "fileID": "48077ca5337e422fbfbfd77e3c3fcd00"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fc8556abf5744cffb1b67f1c49d803e0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and payment questions, press 2.",
+                            "fileID": "331bd09589354565930356afd7b97250",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a billing specialist.",
+                                        "fileID": "0ca7a2a59fc740ab9f15f3912a3f04a2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "da547968c3ba44cc8daba93c56cd74a6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "769ab092e78f464db3a177ee647d733d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support, press 2.",
+                "fileID": "fdbd116f561c481984ab3fea5f37dcfb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For streaming and playback issues, press 1.",
+                            "fileID": "6c9d79ed60824088af829c46ee4e4028",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support agent.",
+                                        "fileID": "70bf075a1936491aaf63633cd079cc81"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a4f54062e2bd4c0fa7ea384d6f107636",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For library and playlist help, press 2.",
+                            "fileID": "16a9c1a9cfbd40d1bc7f8fd2c008bcb6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our library support team.",
+                                        "fileID": "b16f0a5e6c1d4d2fbe8ec21e117e9feb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fc7e6d5dc63c44f3b4ffe9d52d6e74f1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2c29f4b24c3846aeb2254e0f1faf2eba",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c99e686f70264bb8a8dba4f213d18cdf",
+        "navigationGoals": null
+    },
+    "id": "3d8d8cc657bd4d23b91c83e7ab09946f",
+    "navigationGoals": null
+}

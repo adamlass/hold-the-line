@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Cadence Design Systems in South Bay, delivering industry-leading hardware and computer vision design enablement solutions.",
+            "fileID": "7383db4c887c4413a27ed471fc75d7e0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support, press 1.",
+                "fileID": "2345acad35e84cd490f503d392c51fbc",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For assistance with our electronic design automation tools, press 1.",
+                            "fileID": "deff62b246f442f6931822ff6b84be7f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical specialist for EDA tools support.",
+                                        "fileID": "cbd1c954756142f6b73dada9fadd0653"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dcc20af420684057b512f4e549bad591",
+                                "navigationGoals": [
+                                    "Troubleshoot a simulation error in my EDA tools so I can resume my design work immediately",
+                                    "As a veteran engineer, I'm getting a license activation error in Allegro PCB Editor and need help resolving it.",
+                                    "Debug Spectre simulation convergence errors in my transistor-level design environment.",
+                                    "I need help updating and troubleshooting my electronic design automation software on my computer.",
+                                    "I\u2019m encountering errors in my Cadence EDA simulation and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help with system design IP and integration, press 2.",
+                            "fileID": "e2bec94ff1194caa937ceb4ca7d1e8b5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical specialist for IP solutions.",
+                                        "fileID": "34f9ae3a865c4468b3bbce5e795be83a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fc79b3c23e2349b98b18172162f4f487",
+                                "navigationGoals": [
+                                    "Get guidance on integrating a PCIe IP block into my system design without further delays",
+                                    "I'm integrating a secure IP core into my SoC design and need guidance on the setup process.",
+                                    "Integrate a Tensilica Xtensa DSP core into my custom SoC IP flow.",
+                                    "I need guidance on integrating a system design IP into my current project.",
+                                    "I need help configuring and integrating a Cadence IP block into my system design."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "68fe087db5924dc89099aedf49f7bc45",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales, licensing, and account services, press 2.",
+                "fileID": "92879e80cafc41ecacfd9ad0ca55234b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you would like to inquire about purchasing new licenses, press 1.",
+                            "fileID": "ee23dac0a8f642cf847b45eea25a8659",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for new license inquiries.",
+                                        "fileID": "24560c1111d946a89da3a55bc6979294"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4985e4da478c496b839279155c3095ca",
+                                "navigationGoals": [
+                                    "Purchase an additional license for Spectre simulation today",
+                                    "I'm looking to purchase an additional Virtuoso license for my veteran-owned consulting business.",
+                                    "Get a quote for 10 additional Allegro PCB Designer licenses.",
+                                    "I want to purchase a new license for your design tools and need help choosing the right one.",
+                                    "I\u2019d like to purchase a new license for Cadence\u2019s PCB/EDA tools as a student."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For questions about existing orders or account management, press 2.",
+                            "fileID": "47daedc0bf8c4ea0bf20afbe887c22e4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account management team.",
+                                        "fileID": "0a33b84fd34947f19bbfef436f897bf5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "17a6aec0313f42958f65546522d20f97",
+                                "navigationGoals": [
+                                    "Check the status of my recent license renewal invoice and update my billing details",
+                                    "I need to check the status of my license renewal order and update my account billing information.",
+                                    "Check the status of my annual Virtuoso license renewal order.",
+                                    "I need to check the status of my existing license order and update my account details.",
+                                    "I want to check on my existing license renewal and update my account information."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b3581c08aad24b91a3811eca7776bbb1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b1f87b53864944a29f1ad249d46eeaf1",
+        "navigationGoals": null
+    },
+    "id": "dcfa178fe3ca4219bc0c867e34821438",
+    "navigationGoals": null
+}

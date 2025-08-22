@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to NepFin in San Francisco, where we believe there is a better way to provide capital to the businesses that provide for America.",
+            "fileID": "33cf643857d847b7bbf9f2dbfe77a6c2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For existing clients, press 1.",
+                "fileID": "c7c9c694e2154f2bbfee95cc8111aa10",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account and loan servicing, press 1.",
+                            "fileID": "de0754b04d66464ca2e68c1de4832b1e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account and loan servicing specialist.",
+                                        "fileID": "13e5d68808bc4e48919ac798c759e51e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ad99dd84d60f481298c91f5eb1ef277e",
+                                "navigationGoals": [
+                                    "Check my current loan balance and make a payment immediately.",
+                                    "I need to review and adjust my current loan repayment schedule.",
+                                    "Adjust my loan repayment schedule and retrieve the latest amortization details for my existing account.",
+                                    "I need help making a payment and checking the balance on my existing loan.",
+                                    "Review my existing student loan balance and adjust my repayment schedule."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support, press 2.",
+                            "fileID": "ae94b0bd96734ac6b69ddb954aa334c0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our technical support team.",
+                                        "fileID": "c30d63e6747e4d7aacbeca4cfba2a60e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3fb8593438504524aef1d00e3b2bf379",
+                                "navigationGoals": [
+                                    "Reset my online portal password so I can access my account.",
+                                    "I can\u2019t log into my NepFin account online and need help.",
+                                    "Resolve a two-factor authentication error in the NepFin web portal to regain account access.",
+                                    "I can\u2019t access my online account and need assistance resetting my password.",
+                                    "Troubleshoot the login error I'm getting in the online account portal."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9ef176a4f4524fe2acb7f76b9abb599f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For new financing options and business inquiries, press 2.",
+                "fileID": "fd1c531f28c2464882ca5a52c8a5596b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For start-up financing solutions, press 1.",
+                            "fileID": "5172b9f2895244f49daa587e4a8c1dcd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our start-up financing experts.",
+                                        "fileID": "b79a71448fda4d43b2d7bcc4992e3ded"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cefa5de7d2d841058d2f07823908b3a6",
+                                "navigationGoals": [
+                                    "Discuss seed funding options for my new start-up venture.",
+                                    "I\u2019d like to apply for startup financing for my veteran-owned business.",
+                                    "Review seed-stage convertible note terms and API-based fund disbursement options for my startup.",
+                                    "I\u2019m exploring financing options to start a new small business.",
+                                    "Discuss seed-stage financing options for my physics research start-up."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For established business financing options, press 2.",
+                            "fileID": "29f0ab13c07c461ca93b06c7c193070c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an established business financing specialist.",
+                                        "fileID": "67110e6cc2054cc497040840881f23a6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "deec13cfdd9c46aa9f5bf3257f43ca0b",
+                                "navigationGoals": [
+                                    "Explore expansion financing options for my established business.",
+                                    "I\u2019m looking for growth capital for my established company.",
+                                    "Explore a revolving credit facility with automated ERP integration for my established business.",
+                                    "I\u2019d like to discuss refinancing and expansion funding for my established business.",
+                                    "Explore refinancing solutions for my small, established tutoring business."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7da04665589044518e6b1148a2de5980",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a1c4f6f9559c46d7b56bd6f7590f37ea",
+        "navigationGoals": null
+    },
+    "id": "ed5a034bc685480189ccbcf1127892c2",
+    "navigationGoals": null
+}

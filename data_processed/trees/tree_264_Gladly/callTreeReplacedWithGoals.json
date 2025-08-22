@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Gladly in San Francisco, where customer service is at its best when it\u2019s a conversation.",
+            "fileID": "9964f2b0b2554d808cb12586bbab5d54"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about Gladly\u2019s customer service platform and pricing, press 1.",
+                "fileID": "c55c3c36f1e44ea4bab46283864eeb4b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a product specialist, press 1.",
+                            "fileID": "b520513601f344a0a9c5c32089919afd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product specialist.",
+                                        "fileID": "de4c426a26b24a4e82db14aff6472574"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4f0387de9fbd427b9e88e54304c2cc91",
+                                "navigationGoals": [
+                                    "Speak with a product specialist to review feature tiers and pricing.",
+                                    "As an ex-military veteran launching my own support service, I\u2019d like to speak with a product specialist about Gladly\u2019s pricing and platform.",
+                                    "Connect me to a product specialist to discuss API integrations and customization options.",
+                                    "I\u2019d like someone to explain how your customer service platform works and what it would cost.",
+                                    "Discuss Gladly platform features and pricing with a product specialist for my physics research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a live demo, press 2.",
+                            "fileID": "440d7f0417ed4f6fa2ba1eab485939ae",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you; a sales representative will be with you shortly.",
+                                        "fileID": "1414d9c1421d49939d1b08f9b610bb9c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0026b203f1e042ffb6fbfd9485dd72a7",
+                                "navigationGoals": [
+                                    "Schedule a live demo to see the platform\u2019s capabilities in action.",
+                                    "I\u2019d like to schedule a live demo to evaluate Gladly for our veteran outreach program.",
+                                    "I\u2019d like to book a live demo of the Gladly platform.",
+                                    "I need to schedule a live demo so I can see how the system functions.",
+                                    "Schedule a live demo of the Gladly customer service platform to evaluate it for academic use."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f75adb28c5dc45439310729ce230321a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "7e6d19bf4e4644c49e86e3b4c54e41fa",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you have technical questions or need troubleshooting, press 1.",
+                            "fileID": "d8d0788e77434f3ea55b341905a5e1fd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for technical support.",
+                                        "fileID": "42f0d6eea3c84234981052f905dfb6c6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dff66d0b67de48e98d4a00bf1c319069",
+                                "navigationGoals": [
+                                    "Connect with tech support to troubleshoot an integration issue.",
+                                    "I need technical support to troubleshoot the Gladly integration for our helpline.",
+                                    "I need technical support to troubleshoot an API integration error.",
+                                    "I\u2019m having trouble with the software and need technical help to fix it.",
+                                    "Get technical assistance troubleshooting the API integration for my lab\u2019s support system."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, account management, or invoices, press 2.",
+                            "fileID": "e11effc7799f4257ad0b639a22cb664f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our billing department.",
+                                        "fileID": "f120af1ee81d4397a336178d5b1bc40c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "752cd35706a94768adca6fce507edd74",
+                                "navigationGoals": [
+                                    "Obtain my latest invoice and clarify billing charges.",
+                                    "I have questions about billing and invoices on my Gladly account.",
+                                    "I have a question about my recent invoice and billing charges.",
+                                    "I need help understanding and paying my latest bill.",
+                                    "Review my student account invoice and clarify recent billing charges on my plan."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "867438002871479fb42d24ba403f352a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7acdaeefb23a43feb262239c63d1b128",
+        "navigationGoals": null
+    },
+    "id": "37aacbadbf554a9d8defa17a7f4ee774",
+    "navigationGoals": null
+}

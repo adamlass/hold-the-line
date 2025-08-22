@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Copper, the productivity CRM that handles your busywork so you can focus on building lasting business relationships.",
+            "fileID": "dd2f467598f849d1aa610ab9b732f9ac"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales, press 1.",
+                "fileID": "44397226d67644bf881d5db47eea47da",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a live demo of Copper, press 1.",
+                            "fileID": "e6e9c5351fd9487dbe440fe88ed45a77",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our Sales team for a live demo.",
+                                        "fileID": "7cf62df79cfb46ee894f56907f3762fe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9b44effba9974f10b57083be167561e8",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a live demo of Copper\u2019s CRM for my team.",
+                                    "Book a live demo of Copper CRM to see how it fits my workflow",
+                                    "Schedule a live feature walkthrough focused on Copper\u2019s API integration capabilities.",
+                                    "I\u2019d like to schedule a hands-on walkthrough of the Copper system.",
+                                    "I\u2019d like to schedule a live demo to evaluate Copper for managing my research collaborations."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To get pricing details and subscription options, press 2.",
+                            "fileID": "1407a19d3263403fb20411bcaf3f5ce3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a Sales specialist for pricing details.",
+                                        "fileID": "83b5e00acaac44d8928eeabf16b4b82a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dfe67a40e5a543c093514dcb2257f8cc",
+                                "navigationGoals": [
+                                    "I need a clear breakdown of Copper\u2019s pricing tiers and subscription options.",
+                                    "Get detailed pricing tiers and subscription options for Copper",
+                                    "Get a detailed breakdown of subscription tiers, per-seat pricing, and feature-based add-ons.",
+                                    "Could you explain the subscription plans and their monthly costs?",
+                                    "I\u2019d like details on subscription plans and pricing to see if it fits my student budget."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "576a250af82b48a5a07262c4b2e64d3e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Customer Support, press 2.",
+                "fileID": "6ac40530824643299b17d8df5fa97ea7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with your existing account, press 1.",
+                            "fileID": "b4c89312593e4eb78b4a64cb928660d2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a support representative for assistance with your account.",
+                                        "fileID": "fec7d5f1731f4c2b910598a291a0d56f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e756288641814ed989289885015db303",
+                                "navigationGoals": [
+                                    "I want to update the billing details on my existing Copper account.",
+                                    "Get help accessing and updating my existing Copper account",
+                                    "Configure SAML SSO for my team\u2019s access to our Copper account.",
+                                    "I\u2019m having trouble logging into my account and need help accessing it.",
+                                    "I need to add a new collaborator to my existing Copper account."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "If you are reporting a technical issue, press 2.",
+                            "fileID": "ac38fa4119c6454e8225971135aa2afe",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our technical support team.",
+                                        "fileID": "ac7c459a486c470cb55c7f0134091a09"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "77ad166d32c44bf9be2f0e2897b3b953",
+                                "navigationGoals": [
+                                    "I\u2019m experiencing a sync error with Copper and need technical support to resolve it.",
+                                    "Report a technical issue I\u2019m experiencing in the Copper app",
+                                    "Troubleshoot an API sync failure between Copper and my Google Workspace integration.",
+                                    "The system is freezing when I try to use it; I need technical assistance.",
+                                    "I need to report a bug: the CSV import fails with an error."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c829777b9dae45beaa35fc77c2c71eb8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5ace62209c124507a73561b75c1d53f9",
+        "navigationGoals": null
+    },
+    "id": "f6487170f85a468d8ffeb1571db38f79",
+    "navigationGoals": null
+}

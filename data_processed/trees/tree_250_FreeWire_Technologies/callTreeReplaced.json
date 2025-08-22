@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to FreeWire Technologies in the East Bay, where we empower you with on-demand clean power beyond the electrical grid.",
+            "fileID": "0eba19aea45e4d4997fa7318bd0f161b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our mobile charging and power solutions, press 1.",
+                "fileID": "2725f448888c48b78f4182de64af7551",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our portable electric vehicle charging solutions, press 1.",
+                            "fileID": "ca692063649f4610a98b04d716b6ddb2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest in our portable EV charging. Please hold while we connect you to a specialist.",
+                                        "fileID": "badfea2c5ff640d4a3ecd06ef90746f5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "267430370b074fa6a2e9e6a4df16ec66",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To inquire about site and utility-scale power deployments, press 2.",
+                            "fileID": "9b812ea1dcf142989da8aa888b6078f6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our grid independence solutions team.",
+                                        "fileID": "ac9505b3ae0144a4a248469a320ab356"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b77bbe4ad30249b0976643429a75baaf",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e2d6331e7abc4194b4b1715f45f2cbc0",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and service inquiries, press 2.",
+                "fileID": "6838672843a24f508ade35aa7a1e43ad",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance with your FreeWire systems, press 1.",
+                            "fileID": "c8d9b685384f498a921e63227b8cf339",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our technical support department.",
+                                        "fileID": "39351fd7901f4d19aad077841f0c8430"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2158b3aa40cf4e88a827e64a03ef2739",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "da3a97bb9df14088b9ec5703fa03d1b1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and accounts team.",
+                                        "fileID": "c3de33e533174cfb8ee7dd53a27e64e4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bcabc5bbee404e34b62e625627560d44",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "da92d1496e4840efbeb623278888785a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6c50f3c84ad5493ab09445568f481e6b",
+        "navigationGoals": null
+    },
+    "id": "4e41d5da973d4f9f923879966cddf8e7",
+    "navigationGoals": null
+}

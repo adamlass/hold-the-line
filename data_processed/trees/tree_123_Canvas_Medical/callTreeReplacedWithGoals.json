@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Canvas Medical, the fabric of primary care in San Francisco.",
+            "fileID": "c0abcfa2c719474cae3eebb1e5b29459"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For appointments and clinical support, please press 1.",
+                "fileID": "71ceecc6279b4dbf965c65ebb8dd4868",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a new appointment, please press 1.",
+                            "fileID": "547a616b62294e8795010b022a9be46a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our scheduling team.",
+                                        "fileID": "01ae2caca1604355a3a2268d5cb5accd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7f609dd2c630456faf89957475323388",
+                                "navigationGoals": [
+                                    "I need to book a new primary care appointment next week.",
+                                    "I need to book a follow-up check-up for my PTSD treatment.",
+                                    "I\u2019d like to provision a new primary care appointment slot through your scheduling system.",
+                                    "I\u2019d like to book a new primary care appointment.",
+                                    "I\u2019d like to schedule a new physical exam appointment for next week."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To modify or cancel an existing appointment, please press 2.",
+                            "fileID": "4bb55cf7798e41789453a1496c8f3226",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we transfer you to appointment management.",
+                                        "fileID": "cf5b80cbe1b041a898ed82c8cb6da537"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a5564e5fcc2a48a0a94681076ad096cc",
+                                "navigationGoals": [
+                                    "I want to change the time of my existing appointment.",
+                                    "I need to reschedule my upcoming blood test appointment.",
+                                    "I need to update the time details on my existing appointment in the system.",
+                                    "I need to change the date of my upcoming appointment.",
+                                    "I need to reschedule my existing appointment to a different day."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3a78bb2ae8314406ba462982d8e7571b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For billing and insurance inquiries, please press 2.",
+                "fileID": "07b2d0fa36e2426790588a89315de593",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing questions or payment assistance, please press 1.",
+                            "fileID": "c6dcef5e9ac246248158c7541e956fe2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our billing department.",
+                                        "fileID": "211e96c8531148a0917f567d7d85cbff"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "567db6d0aa964e74bd158dd630ce38aa",
+                                "navigationGoals": [
+                                    "I have a billing question and need to make a payment.",
+                                    "I need assistance setting up a payment plan for my last clinic visit.",
+                                    "I want to audit a recent medical charge and set up payment assistance.",
+                                    "I have questions about a medical bill and need payment help.",
+                                    "I have questions about my recent bill and want to arrange a payment plan."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For insurance verification and coverage information, please press 2.",
+                            "fileID": "c440bf398b5a43d69b161e006693f65e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we transfer you to an insurance specialist.",
+                                        "fileID": "3a50a742487e4d3da5e1e0ab2b833be9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a6834b05b2a7426cba1163e7a6c7d778",
+                                "navigationGoals": [
+                                    "I need to verify my insurance coverage before my visit.",
+                                    "I want to verify my VA health benefits coverage for routine check-ups.",
+                                    "I need to verify my insurance coverage parameters for upcoming visits.",
+                                    "I want to verify my insurance coverage for a visit.",
+                                    "I want to verify my insurance coverage before my upcoming visit."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3ecc1993e67d45c1b0b091fc0123e202",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "cfa488c62b7c4250bbe36929d87f3ff9",
+        "navigationGoals": null
+    },
+    "id": "a09216419a0842aeaad6f4d14f1c0dc0",
+    "navigationGoals": null
+}

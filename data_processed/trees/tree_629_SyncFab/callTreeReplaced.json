@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to SyncFab in the East Bay, pioneering the digital transformation of the manufacturing supply chain with blockchain technology.",
+            "fileID": "857b657e982944449ea5250f48d686e5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you would like a new quote or to place a manufacturing order, press 1.",
+                "fileID": "025ec475577d44a09e092def6df4a0af",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a quote, press 1.",
+                            "fileID": "04c2d604e5e14ef7a709ef3607541fdc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our quoting department.",
+                                        "fileID": "7855b395cf7e416ca8c531bea1d682c6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fd3caba5ac834ea1b9a5cd8a87e25917",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative, press 2.",
+                            "fileID": "3a980ca43cf0489aa6cd6ac7831868fb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to sales.",
+                                        "fileID": "15b3338ebdf44b9186866808b9cf0c25"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cf097bd0d24f49ebb2e9a97e961c7aaa",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1d2f9e6e9c944dcb9c6bfa164211b9f5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you need order status or support, press 2.",
+                "fileID": "02a4f663c4ba4aca9b3fb61b3f4c5135",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check the status of an existing order, press 1.",
+                            "fileID": "d7e59b6666d843e5b404f1d97836aed1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to order support.",
+                                        "fileID": "ef48b32a9139424697f4f1a35ad3ea87"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ca1a580e8bc5458f9b261671395df9f5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical assistance or troubleshooting, press 2.",
+                            "fileID": "21d1c8bdd6ab4005bfd79118072da354",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support.",
+                                        "fileID": "44f5b778a31041d6bf85bba4ccad9928"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aa2f4eb3a293497c81f52d11b840e11e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b91e7a1ac54d4ed8a08f5642e16f6680",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "081bc3eecd26479c805c036cbd25b33e",
+        "navigationGoals": null
+    },
+    "id": "71f36bcfe70c473083a2b5e6cc366e4c",
+    "navigationGoals": null
+}

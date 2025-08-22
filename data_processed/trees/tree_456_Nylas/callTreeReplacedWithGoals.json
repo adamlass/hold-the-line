@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Nylas, the San Francisco-based API provider for email, calendar, and contacts synchronization.",
+            "fileID": "8141c10e059842f691b1083436c42f89"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and partnerships, press 1.",
+                "fileID": "7a4a2d19715b4df49d666916ed82c8f8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press 1.",
+                            "fileID": "cd96414f322c47d7b7481a8411697b30",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative in our San Francisco office.",
+                                        "fileID": "c54d78c2e2974a44bc2947fc34a74804"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b5326536eacc4921bbde062fab5c8ec9",
+                                "navigationGoals": [
+                                    "Get a customized enterprise pricing quote and discuss volume discounts",
+                                    "I\u2019d like to speak with a sales representative about enterprise pricing for my veteran-run app.",
+                                    "I need to discuss enterprise-tier API rate limits and pricing options with a sales representative.",
+                                    "I\u2019m interested in buying your API service and need to speak with someone about pricing.",
+                                    "Ask a sales representative for academic pricing and feature details for a student project using the Nylas API"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss partnership opportunities, press 2.",
+                            "fileID": "bdaed9ed41014bc7b7e6d957e2e2662d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a partnership specialist, who will be with you shortly.",
+                                        "fileID": "6513b7b70294454bb9b04b9586bec352"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e25c938af14a45718bc8483b4c38a3ff",
+                                "navigationGoals": [
+                                    "Explore a technology integration partnership with Nylas",
+                                    "I\u2019m interested in discussing partnership opportunities between my veteran-focused non-profit and Nylas.",
+                                    "I want to explore a white-label partnership and co-marketing integration for the Nylas synchronization APIs.",
+                                    "I would like to discuss a potential partnership opportunity with your company.",
+                                    "Explore a collaboration between Nylas and my university physics lab to integrate email and calendar sync into our research platform"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d2c6027c90d9403cbae898ad1dcb2e6b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support, press 2.",
+                "fileID": "60f0243fc3134b8ea9c6cf1194039022",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with our email, calendar, and contacts APIs, press 1.",
+                            "fileID": "12b4f2a096214f47a05e754bb7cbc8f5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "d49e06ad53c647029ad3f5810f7c0cea"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9b65350debc0462eb312e5ab16c3ee68",
+                                "navigationGoals": [
+                                    "Troubleshoot a calendar\u2010sync API error I\u2019m seeing in production",
+                                    "I need technical support to troubleshoot my calendar sync API integration.",
+                                    "I\u2019m troubleshooting OAuth token refresh failures in the Nylas email sync API and need technical assistance.",
+                                    "I need technical support to help me set up or fix my email and calendar synchronization.",
+                                    "Troubleshoot a Python integration issue where the Nylas calendar API is returning incorrect timezone offsets for scheduled events"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing, press 2.",
+                            "fileID": "c08fc66fdcf144fda8b707a4db61f909",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account management team.",
+                                        "fileID": "9663b99d197445039af9934aaa2aa2ed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a476705ab4e045da9f7f7d860eb164dc",
+                                "navigationGoals": [
+                                    "Update my billing info and request last month\u2019s invoice",
+                                    "I have questions about my latest invoice and need help with billing and account management.",
+                                    "I need to upgrade my API subscription, review usage overage charges, and update my billing method.",
+                                    "I need assistance with my account billing and managing my subscription.",
+                                    "Upgrade my Nylas account plan and update billing information to support higher API usage for my project"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c68ad17e0f2b4a849c2702c040c6a03a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "56c9bd4a9e5e49f09169f86a8380e986",
+        "navigationGoals": null
+    },
+    "id": "7a2c33033837476a86ecaba29c3f290e",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling TechConnexion, the San Francisco boutique recruiting agency connecting innovative companies with top tech talent.",
+            "fileID": "63e609485fb24fd59327283e0bbe919d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For companies looking to hire outstanding tech professionals, press 1.",
+                "fileID": "038744edf2984d59866b7fa99f0aa16b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak directly with one of our recruiting specialists about your hiring needs, press 1.",
+                            "fileID": "872475fe4bd94ea48b34fc49972eaeb0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruiting specialist.",
+                                        "fileID": "d2c5888f3452471cb3a5246f481c7875"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f76db9c509d3423898eff0a0752020b3",
+                                "navigationGoals": [
+                                    "Quickly discuss filling a senior developer role with a recruiting specialist",
+                                    "I need to speak with a recruiting specialist to find software engineers for my veteran-led startup.",
+                                    "I want to connect with a recruiter to scope out a senior backend engineer role and discuss the hiring timeline.",
+                                    "I\u2019d like to speak with someone about hiring a tech specialist to manage my company\u2019s computer needs.",
+                                    "I\u2019m leading a physics research project and need guidance on hiring software engineers\u2014connect me to a recruiting specialist."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn more about our partnership models and fee structures, press 2.",
+                            "fileID": "a31bb9b91d45466abe23ed640c71f33d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships department.",
+                                        "fileID": "801d06154bda42f1a53d38975636dbf0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "070b13d52921450a8e817781cf7b91c7",
+                                "navigationGoals": [
+                                    "Get a summary of your partnership plans and associated fees",
+                                    "I\u2019m looking for details on your partnership models and fee structure for recruitment services.",
+                                    "I need the breakdown of your partnership models and fee structures for retained search services.",
+                                    "I need information on your partnership options and recruiting fees.",
+                                    "I\u2019m exploring a collaboration between my university lab and your agency; please explain your partnership models and fee structure."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bdffcaa8e3e6401782167cde25473cd4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For job seekers interested in new tech career opportunities, press 2.",
+                "fileID": "2ebdc4ee93364b2fade245653735c86c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit your resume and explore current openings, press 1.",
+                            "fileID": "4fab845e19034976bc3cf66b050ea554",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we route you to our candidate services team.",
+                                        "fileID": "c589e57b28c043948b783bdff8f143d0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4bc6b8b9a3584d35a8684aa057d09c3b",
+                                "navigationGoals": [
+                                    "Upload my resume and immediately review open tech positions",
+                                    "I want to submit my resume and explore tech roles that value my military experience.",
+                                    "I\u2019d like to submit my CV and review current software development openings that fit my skill set.",
+                                    "I want to submit my resume and learn about current tech job openings.",
+                                    "I\u2019m a physics student seeking a tech internship; I want to submit my resume and review current openings."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a consultation with one of our career advisors, press 2.",
+                            "fileID": "f1a39bc5cfb94831a85a4e456e795bee",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruitment advisor.",
+                                        "fileID": "b7425c548dbd4bf5b2d8635b842ad50d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "258af1e2d5d446258277731c6d25ede1",
+                                "navigationGoals": [
+                                    "Schedule a concise career advising session with a recruitment expert",
+                                    "I\u2019d like to schedule a consultation with a career advisor to plan my transition into a tech position.",
+                                    "I want to schedule a virtual consultation with a career advisor to optimize my job search strategy.",
+                                    "I\u2019d like to schedule a consultation with a career advisor about moving into a tech role.",
+                                    "I\u2019d like to schedule a career planning session with an advisor to discuss transitioning into a tech role."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "43be2c7eaf2d4cf889a3e2470ea69049",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e2cf4ad37b624e84804d0457579e399b",
+        "navigationGoals": null
+    },
+    "id": "a80955b2842c4b98a1f225362becdf63",
+    "navigationGoals": null
+}

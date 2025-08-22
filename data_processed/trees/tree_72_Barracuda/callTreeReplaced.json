@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Barracuda Networks in the South Bay, the worldwide leader in security, application delivery, and data protection solutions.",
+            "fileID": "fb50fde916a74e359e868607b086a9f2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support, press 1.",
+                "fileID": "698ff009c3794069ba6c2b3bf3a6a534",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For security solutions support, press 1.",
+                            "fileID": "4d3b65a0c92f4db3ae4b5875df2775ce",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to a security solutions specialist.",
+                                        "fileID": "64b1941ca40f43c2a11923ff55f760ed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8f1b030600bf4846afc1dcc2868b2913",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For application delivery or data protection support, press 2.",
+                            "fileID": "f3ddbf75d8ea4cc3b7fffb8ec2eff47c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our application delivery and data protection support team.",
+                                        "fileID": "218d9b37b72e418a9aec8af95864662c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aeeef8848cf44bc9898d04437e84151f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e167d0ec483b4bbf939d287f43607323",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and account services, press 2.",
+                "fileID": "ac15003a0f4645f4ade3b028e0b6a048",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team, press 1.",
+                            "fileID": "59f4a6873bf447359bcb388bb4bfd035",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we transfer you to a sales representative.",
+                                        "fileID": "26743a942eee45ab92d081273f791d37"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7671a1741a1744338471680595e4893c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press 2.",
+                            "fileID": "bfc40154e9354742a3a19aa93ac83ad9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our account and billing services team.",
+                                        "fileID": "0a9de8ac11274850a538db8b07b6482d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4d1c6cec694e41f698c5b7b2deb93593",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c740439a03b64a8483fc0472c3563da1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d2288791181f4285982766e79ea6b9e4",
+        "navigationGoals": null
+    },
+    "id": "43c56e48613b49b9ace4b3bcfa0c0320",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Evernote Peninsula, where we help you capture and prioritize ideas, projects, and to-do lists.",
+            "fileID": "cfe45f56040b4f299820382b1e92df35"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you need help capturing notes or using our productivity tools, press 1.",
+                "fileID": "d4c100ba01da45418483931d758dd8ed",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For troubleshooting app issues or reporting bugs, press 1.",
+                            "fileID": "aa400ae39bd149aa80cf41a6a8a54e65",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "2284e6f16698453f8c95476ec28435e3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3d66740bc6de46298cfaac4937d08b73",
+                                "navigationGoals": [
+                                    "Fix app syncing errors so I can access my latest notes",
+                                    "I\u2019m getting an error when syncing notes on my mobile app and need technical help.",
+                                    "I need help troubleshooting an OAuth authentication error in the Evernote Windows client.",
+                                    "I can\u2019t sync my notes on my tablet and need help fixing the app.",
+                                    "I need help resolving a sync error that\u2019s preventing my lab notes in Evernote from updating across my devices."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account settings and billing inquiries, press 2.",
+                            "fileID": "d8530d2b9dda42428f3225c73b4a071b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "2deb8f2b20524ced929bf39a2c12eb2f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "abd2db91cb7448a7a344e23d92ad1189",
+                                "navigationGoals": [
+                                    "Update my subscription payment details to avoid service interruption",
+                                    "I want to update my payment method and review my account billing details.",
+                                    "I need to update my credit card information for my Evernote Premium subscription.",
+                                    "I\u2019d like to update my payment method and review my recent bill.",
+                                    "I\u2019d like to update my credit card for my student Evernote subscription and review my recent billing statement."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d998eaab97b44c27a58fe1e102659e66",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For information on premium plans and sales, press 2.",
+                "fileID": "35e7c34f85e4490cbcca94fa41e4c8ed",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team about new subscriptions, press 1.",
+                            "fileID": "6dbcaa9aa3b842638159574d99272083",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to sales.",
+                                        "fileID": "44befeda7e2741feaa8cceab5e6b636a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2acba2b513c141af9123473dfc8ed061",
+                                "navigationGoals": [
+                                    "Upgrade to a Premium plan and get pricing details quickly",
+                                    "I\u2019m looking to switch to a premium plan, ideally at a veteran discount.",
+                                    "I\u2019d like to discuss enterprise licensing options for a 50-user Evernote deployment.",
+                                    "I want to sign up for the Evernote Premium plan.",
+                                    "I want to speak with someone about purchasing a new Evernote Premium plan with student pricing."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For partnership opportunities and developer API inquiries, press 2.",
+                            "fileID": "fe437e1d51f142d3b761ec91597d2fb2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships team.",
+                                        "fileID": "19826cfe9b0441a49af2de7d49f64464"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0ac61e5fb07a476a870fe359c212763a",
+                                "navigationGoals": [
+                                    "Inquire about developer API integration for our team",
+                                    "I\u2019d like to discuss a potential partnership to integrate your API for our unit\u2019s workflow.",
+                                    "I want to inquire about developer API access to integrate Evernote with our CRM system.",
+                                    "I\u2019m trying to connect Evernote with another app using your developer API.",
+                                    "I\u2019m exploring how to use the Evernote API to integrate my physics research notes with our lab\u2019s data analysis tools."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "dd1f7f3b5e4a4d22b58c5cb0f6362d95",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f7adf7780f9a4168ba508a4339a7acde",
+        "navigationGoals": null
+    },
+    "id": "ac6114ce96d74676b5bbdad6dd38353e",
+    "navigationGoals": null
+}

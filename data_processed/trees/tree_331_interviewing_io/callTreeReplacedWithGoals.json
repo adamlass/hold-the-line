@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling interviewing.io in San Francisco where we provide B2B software and services for talent acquisition with actionable interview feedback.",
+            "fileID": "9d7209bd6c234126bd029950af9ee1f2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new partnerships, press 1.",
+                "fileID": "a4b7f22e32664033a88d1de5bada249e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press 1.",
+                            "fileID": "be82364cee994965a7afbff5623dae14",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "09bdbf854dbd4ffe966d0fc7d4f6df97"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "71f89168a2b64086b7a86e91597c9465",
+                                "navigationGoals": [
+                                    "Connect me to sales to discuss partnership opportunities",
+                                    "Ask a sales rep about enterprise subscription pricing and any veteran discount opportunities.",
+                                    "Discuss enterprise API integration and negotiate custom licensing packages.",
+                                    "I want to speak with a sales representative about purchasing your interview feedback service.",
+                                    "Inquire about university-wide licensing options to integrate interviewing.io into my physics department\u2019s career services"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a product demo, press 2.",
+                            "fileID": "d7dcaa62bb1b487bb67926cf1af89cea",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our demo scheduling team.",
+                                        "fileID": "44f6b1d7aae244b3a1308c7ed399e931"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e932247d44434ea7b3be73763b51bfb4",
+                                "navigationGoals": [
+                                    "Schedule a product demo for our team as soon as possible",
+                                    "Schedule a live demo of the interviewing.io platform to see how actionable interview feedback works.",
+                                    "Schedule an in-depth technical demo of the latest interviewing.io platform features.",
+                                    "I\u2019d like to schedule a product demo to see how the platform works.",
+                                    "Schedule a live demo of interviewing.io\u2019s mock interview and feedback platform"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f31955308a4343c1beddd50795e8767d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and existing customer services, press 2.",
+                "fileID": "7bc5c0379ef64b3f8c709035c2ba4b3f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "98f60108796642ca8d92223b1d2b1e19",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "5bc7b04100af4285852617f5abbb305b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9b242d4948bb4eafabb6973aaaefa957",
+                                "navigationGoals": [
+                                    "Put me through to technical support to resolve a platform issue",
+                                    "Resolve a technical issue preventing me from recording my mock interview sessions.",
+                                    "Troubleshoot API authentication errors and debug webhook event failures.",
+                                    "I need technical assistance with an issue I\u2019m having using your software.",
+                                    "Resolve a technical error preventing me from accessing my recorded interview replay"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press 2.",
+                            "fileID": "b8997cf4ac5c474cbb0652f8f9058781",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account specialist.",
+                                        "fileID": "f74d403515ce4fef835a116984514821"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "03d1cacac8da49b7af45f69e7c148b32",
+                                "navigationGoals": [
+                                    "Connect me with billing to review my account charges",
+                                    "Update the credit card on file for my existing subscription.",
+                                    "Clarify billing line items and upgrade our subscription plan to the annual tier.",
+                                    "I have a question about my account billing and need help reviewing my invoice.",
+                                    "Obtain a detailed invoice for my annual subscription for reimbursement purposes"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "60c131e4a25c43a0aaca33a61b8022b1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4426ab52e0ce4cf688932abee74a2fa6",
+        "navigationGoals": null
+    },
+    "id": "23092c5414f44360a3efa31ff3c3b89b",
+    "navigationGoals": null
+}

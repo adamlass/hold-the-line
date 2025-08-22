@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling LiveRamp in San Francisco, your identity resolution middleware partner for seamless data integration across marketing platforms.",
+            "fileID": "80a5064ae5884ff9bf359a23ed2b9a8c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales inquiries and product demos, press 1.",
+                "fileID": "6f549fffd65b4ed699e1e98f4aa03f55",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you'd like to schedule a live demo of our identity resolution platform, press 1.",
+                            "fileID": "3c652b17d42a496091f0513f7cfdeabb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales representative to schedule your demo.",
+                                        "fileID": "8ff2f1100cb94e129023af838c103dbf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1ccb93f26cd94254806e75baf95bcdb6",
+                                "navigationGoals": [
+                                    "Schedule a live demo of the identity resolution platform",
+                                    "I\u2019d like to schedule a live demo of your identity resolution platform for my veteran outreach program.",
+                                    "I'd like to schedule a live demo of the identity resolution platform.",
+                                    "I\u2019d like to schedule a live demo of your platform, please.",
+                                    "I\u2019d like to schedule a live demo of your identity resolution platform to evaluate its data integration capabilities for a university research project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about pricing, plans, and licensing options, press 2.",
+                            "fileID": "7e6fe15107d3445985ad95b79f6e46a5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales representative for pricing details.",
+                                        "fileID": "8f63d2e931224d089323720b1125a917"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "799849dc372b4b419dfea488dff93a81",
+                                "navigationGoals": [
+                                    "Get detailed pricing and licensing options for LiveRamp",
+                                    "I need details on pricing and licensing options to support my veteran service project.",
+                                    "I need detailed pricing and licensing information for LiveRamp\u2019s services.",
+                                    "I\u2019m calling to find out about your pricing and licensing options.",
+                                    "I need details on pricing, plans, and licensing options for using LiveRamp in an academic setting."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "df552d8ec25d446ba31a66f6a2361819",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and integration assistance, press 2.",
+                "fileID": "6a19a68a2bcb4ebd9171356252a94faf",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with setup, integration, or troubleshooting, press 1.",
+                            "fileID": "dd2a059e71a644c7b542385888184a8f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "44554d7f558847bfa68bf6b92ee20378"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fc53e59f17b44fdf8b22b47585f6a572",
+                                "navigationGoals": [
+                                    "Get help with setup and integration of the platform",
+                                    "I need help integrating your identity solution into my CRM to manage veteran contacts.",
+                                    "I need help troubleshooting my LiveRamp API integration.",
+                                    "I need help with setup and integration of your system.",
+                                    "I\u2019m looking for help troubleshooting the API integration of LiveRamp\u2019s identity resolution service with our experimental data pipeline."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check on the status of an existing support case, press 2.",
+                            "fileID": "62986cf312ad416fa65c44adc21cb0a0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your support case details.",
+                                        "fileID": "0d0b896792d74f109ea827bd179d5753"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "700040e6d8de416ba17b72b7d86d704f",
+                                "navigationGoals": [
+                                    "Check the status of my existing support case",
+                                    "I\u2019d like an update on the support ticket I opened about our integration issue.",
+                                    "I want to check the status of my open support case.",
+                                    "I\u2019d like an update on the status of my support case.",
+                                    "I\u2019d like an update on the status of my existing support case about the API connectivity issue."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "10ff1a2cf0b74ee487b8a2ddb42b0518",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "172a8d97534945cb9ae395a430b3adb5",
+        "navigationGoals": null
+    },
+    "id": "621c0dd7f06b42c8809c26e48317865c",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Crunchyroll, your San Francisco\u2013based destination for legal anime streaming and simulcasts.",
+            "fileID": "239599ad965f48f7b3b27ecea789386f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To manage your subscription or account, press 1.",
+                "fileID": "51ddf0b3726e43a9a9579bb2844a7dd2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for new subscriptions and plan options.",
+                            "fileID": "1dd74a4136564551b949d44062a5186d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest in Crunchyroll memberships; please hold while we connect you to a subscription specialist.",
+                                        "fileID": "9a68fd72f4184211940c744dcafaf838"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "37c8951eec464777ae60bc0fe9f5d9ba",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for billing inquiries or account changes.",
+                            "fileID": "6bb9cbec8def4a90a2263fb5bfa80229",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing and account support team.",
+                                        "fileID": "040161fb19294911a52a64972a8f403e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "eb5ff6a63de84a138e5e945d59582c09",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "24534cc3442e4fa3a7a228b409916de3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and streaming assistance, press 2.",
+                "fileID": "50dfd3b34ff341d7b58f509d74a19a39",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for streaming quality or playback issues.",
+                            "fileID": "e910b32a548e430e8ff5a7d40d9c3654",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "We are connecting you to a technical support agent for streaming issues; please hold.",
+                                        "fileID": "6a618b6935364116a529a1f807465f02"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "773e658486d745b586c19887c1184c28",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for device compatibility and app troubleshooting.",
+                            "fileID": "29c47fa821d54ba691cbbe1e3bf4960c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our device support team.",
+                                        "fileID": "47e5d263d48b4a0a9777c63937cce6f1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1c43c84776424785863cc2f40507810c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ff318681ae7f4694b198faa76fb27476",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5dbc0a181df7433ead2fcf456ebc2ccd",
+        "navigationGoals": null
+    },
+    "id": "6451703197394b4cb992ccf565cda0d0",
+    "navigationGoals": null
+}

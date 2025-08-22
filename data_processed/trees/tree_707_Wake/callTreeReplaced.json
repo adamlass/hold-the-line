@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Wake, San Francisco's fastest way for designers to share work with their team.",
+            "fileID": "b66115504ca44b929d2debcfc13edcd9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For customer support, press 1.",
+                "fileID": "2b90b5f6691949b884311f245cd19c28",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reset your password, press 1.",
+                            "fileID": "5b5b1713e4034b089901e03f1770c4be",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an agent for password assistance.",
+                                        "fileID": "dfb183a9465f4a7a9aee0ef3e6ef56fe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4265c8be68a0423bb7f386dede758112",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries, press 2.",
+                            "fileID": "e6840c3aa20445058e08e534d1c3f13c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "81c7a1a94dae4fc19897c09014705d0d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5e9d85fca4654d868bcea04a07a44a66",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a02445057388462b9699a5153d708e84",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For information about Wake and its features, press 2.",
+                "fileID": "55071ddfa52b46b7b3e644783896a195",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear about our latest features, press 1.",
+                            "fileID": "773623939ca84435afe6b21198a54915",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we provide details on our latest features.",
+                                        "fileID": "1be2a4fdf65745e19921ad1e6142e10c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a4b02adc57364e8fab905143ba3f3ec6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a demo, press 2.",
+                            "fileID": "592fff8b6b32400aab319684398a6862",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a Wake specialist to schedule your demo.",
+                                        "fileID": "b81753a798824a67beb42bcb98359c57"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5344a8723fc74a0b9da34956a58e377d",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "47b1f6b4f77c4b9c83f5f5e5b14953ce",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "640584c98b9648ceb958f999310611fc",
+        "navigationGoals": null
+    },
+    "id": "afd97cff324247539467a0af345c5da2",
+    "navigationGoals": null
+}

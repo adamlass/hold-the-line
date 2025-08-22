@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Glassdoor North Bay, your gateway to millions of job opportunities, insider company reviews, and personalized salary insights.",
+            "fileID": "c09200c7de2d4fc59f4ba44d8cf13503"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Job seekers, press 1 to explore job openings or personalized salary tools.",
+                "fileID": "df61cb5d61f84473835c881918bfe9d9",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to search millions of current job listings.",
+                            "fileID": "b8bb35ad07a64c6580cda74584cda2c5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our job search service.",
+                                        "fileID": "196e27f576254bdaba0059eac668ad74"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0f2e949395024feb951afbff2393e745",
+                                "navigationGoals": [
+                                    "Find remote software engineer openings in the Bay Area",
+                                    "Browse available cybersecurity analyst jobs in the Bay Area tailored for veterans",
+                                    "Search current job listings for remote Senior DevOps engineer positions with Kubernetes expertise in the Bay Area",
+                                    "Could you help me find current job openings?",
+                                    "Search for undergraduate research assistant positions in particle physics near North Bay"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to access personalized salary calculators and compensation insights.",
+                            "fileID": "b2c970d9239641839a8d8016d55b9284",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we prepare your salary tools for you.",
+                                        "fileID": "d902357a190747f381a68cc0a1c32a93"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f337056e59194be3939d8eb8816abbf7",
+                                "navigationGoals": [
+                                    "Estimate the market salary for a senior marketing manager in San Francisco",
+                                    "Check compensation insights and salary ranges for entry-level logistics coordinator roles",
+                                    "Use the compensation benchmarking tool to calculate the 2025 median salary for a Principal Data Scientist in New York",
+                                    "Could you show me how to use the salary calculator?",
+                                    "Estimate the average compensation for a first-year physics PhD research assistantship"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "04688ac8db5044b8a3cb7197a3ce9aec",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Employers, press 2 to post a job or discover recruitment solutions.",
+                "fileID": "45c2840b57cd4d38a0589ea1f8a71655",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to post a job for free on Glassdoor.",
+                            "fileID": "0b40306bbe214c09829ddc8b81619230",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our job posting support.",
+                                        "fileID": "94c14399718d4150889fe957fd123789"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "47a3f4021a87490c99db51de14242438",
+                                "navigationGoals": [
+                                    "Post a mid-level accountant job listing for my company",
+                                    "Post a free job ad for administrative staff at my veteran-owned nonprofit",
+                                    "Post a new full-stack developer job requiring React, Node.js, and AWS proficiency",
+                                    "I need assistance posting a new job opening.",
+                                    "Post a free job listing for a lab technician position in my university\u2019s physics department"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to learn about our talent acquisition and employer branding services.",
+                            "fileID": "2ea939fef752451caddc291cd0625a97",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an employer representative.",
+                                        "fileID": "f8b538f6657c4c909829d1015a374b3c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6fa048eb4a6f4c919855ed857f58b400",
+                                "navigationGoals": [
+                                    "Get details on employer branding and recruitment solutions",
+                                    "Learn about recruitment and employer branding services to attract veteran candidates",
+                                    "Get details on employer branding and talent acquisition services, like EVP optimization and programmatic job ads",
+                                    "I want information on your recruitment and employer branding services.",
+                                    "Find information on Glassdoor\u2019s employer branding services to attract physics applicants"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "eda16a72b8df4518b984d19c20ed1007",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1614c1b059b143dabb49bab7a3feb8f2",
+        "navigationGoals": null
+    },
+    "id": "2c8640a36ac045d5850db7276a9d819a",
+    "navigationGoals": null
+}

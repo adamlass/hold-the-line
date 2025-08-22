@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to KittyHawk, where we unite mission, aircraft, and data to empower safe and effective drone operations.",
+            "fileID": "7295317ff9fc40ce8da4445dde71df3f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with flight planning and mission management, press 1.",
+                "fileID": "5d1035e0a2884b5180a57e8e65abdb16",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help creating and configuring a new flight mission, press 1.",
+                            "fileID": "46f370e9233a4812a4b356b4e8c3561b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a mission planning specialist. We appreciate your patience.",
+                                        "fileID": "e2845f5a4ea74f6d892b8046be0af6b7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a9dbd8e6b24e45ae874d089afe40df78",
+                                "navigationGoals": [
+                                    "Help me set up and configure a new drone flight mission with waypoints and parameters.",
+                                    "I want to configure a new reconnaissance flight plan for my drone mission.",
+                                    "Help me configure waypoints and payload settings for a new drone mission.",
+                                    "Help me create a new drone flight plan with waypoints and altitudes.",
+                                    "I\u2019d like help creating and configuring a new drone flight mission for my aerodynamic experiments."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For data analytics and reporting on your drone operations, press 2.",
+                            "fileID": "b249c092d5c74c3ebf5babc027db228e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our data analytics team. Your expertise matters to us.",
+                                        "fileID": "33986d7f28074dcead104cc94aeccf5d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dcfe9b5ed66f4143b4ef9283da99610a",
+                                "navigationGoals": [
+                                    "I need a detailed analytics report on my recent drone operations.",
+                                    "I need a detailed analytics report on my recent drone sorties.",
+                                    "Help me run analytics and export telemetry data from recent flights.",
+                                    "Show me how to get a report of my past drone flights and performance data.",
+                                    "I want to analyze my drone\u2019s flight data and generate a report for my research."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b84765f3a8074fd0b73e7a84c5c1ff34",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support with your drone hardware or software, press 2.",
+                "fileID": "3d9a484b86024dd18ea6067019d04850",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For hardware setup and maintenance support, press 1.",
+                            "fileID": "29fa1a8377254a1ca36a400d4234072c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a hardware support technician. We\u2019ll be right with you.",
+                                        "fileID": "01d00b6b15334763971afbbfb8afe9b8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4f81b2d999d849058e4398627852511b",
+                                "navigationGoals": [
+                                    "I\u2019m having hardware issues\u2014need guidance on setting up and calibrating my drone components.",
+                                    "I\u2019m having trouble setting up and calibrating my drone\u2019s hardware.",
+                                    "Help me calibrate UAV hardware components and replace propellers.",
+                                    "Walk me through setting up and calibrating my drone hardware.",
+                                    "I need assistance with hardware setup and routine maintenance on my quadcopter for my lab project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For software and platform troubleshooting, press 2.",
+                            "fileID": "ce9e135cf5234084835816c84e5c7bcd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our software support team. Thank you for your patience.",
+                                        "fileID": "c220be2cfb1b44b29e384568860133d7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "15200d6bf6684146807ef3d00ecbe2e7",
+                                "navigationGoals": [
+                                    "My flight control software is malfunctioning; please help troubleshoot the issue.",
+                                    "My mission planning app keeps crashing and won\u2019t sync my flight data.",
+                                    "Help me troubleshoot connectivity failures and firmware update errors in the control platform.",
+                                    "Troubleshoot my drone control software\u2014it won\u2019t launch properly.",
+                                    "I\u2019m encountering errors in the flight planning software on my tablet and need troubleshooting support."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "16ffe86390324e4ba8d568af665ef657",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "abc5b1fb7a1c4c74903397628682c231",
+        "navigationGoals": null
+    },
+    "id": "ea086ba5cfe747cfa0cd506133b83596",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Logikcull, the instant discovery platform empowering modern legal teams.",
+            "fileID": "b81506129af144f5b6111b33a73fa95d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For customer support, press 1.",
+                "fileID": "3f7ad47b120d429d8708b7e1939405d9",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "a78f3e27814d4f46bc9e57af78f28e4f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "ca4a1dbf3b7942df80accd1ed8a48595"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b5e3bb979eb643bf88ec586cc733aceb",
+                                "navigationGoals": [
+                                    "Fix a PDF upload failure in my Logikcull account.",
+                                    "I\u2019m having trouble uploading documents to my case and need technical assistance",
+                                    "I need help troubleshooting a SAML authentication error on my Logikcull account",
+                                    "I\u2019m having trouble logging into my account and need help fixing the error.",
+                                    "I\u2019m encountering an error importing my large test dataset into my case and need help troubleshooting."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "66b116cde83847fbbad599610c335f09",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and account services team.",
+                                        "fileID": "66428c431a03432fafb5e449b52e77d8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "88887b13490a494dac4436f99c1ac7d5",
+                                "navigationGoals": [
+                                    "Clarify unexpected charges on my last invoice.",
+                                    "I\u2019d like to review my recent invoice and apply any veteran discount to my billing",
+                                    "I want to review my e-discovery storage usage and adjust my subscription tier",
+                                    "I don\u2019t understand the charge on my latest bill and would like someone to explain it.",
+                                    "I need to update my payment method and get clarification on my current subscription invoice."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "21c46c8f9f454ec699e6f2077e7277fe",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and new account inquiries, press 2.",
+                "fileID": "70bb532ff55648cdbbfb51f1e1ca5f0f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press 1.",
+                            "fileID": "3d9969307883446ea55dd10124098ba2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "f1e84d6ca89049bcbc88f67b9e216ffb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "23a474c9681940b38383e063855fd2ec",
+                                "navigationGoals": [
+                                    "Get pricing details for an enterprise license.",
+                                    "I want to discuss enterprise pricing for my law firm handling veterans\u2019 claims",
+                                    "I'm evaluating enterprise licensing and need to discuss API integration options",
+                                    "I want to sign up for a new account and get details on pricing.",
+                                    "I\u2019d like to discuss pricing options for multiple licenses for my student research lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To request a free trial, press 2.",
+                            "fileID": "52e8c8d6d0c848e8bd71b4a6bde7e823",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our onboarding team for your free trial.",
+                                        "fileID": "4aced56aad4b465c8b54c89beaca0a0f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "053173fb7e3a479db8da1abdab2ca522",
+                                "navigationGoals": [
+                                    "Set up a free trial account immediately.",
+                                    "I\u2019d like to start a free trial and get onboarding for my upcoming case",
+                                    "I'd like to set up a 30-day sandbox trial with SSO and API token provisioning",
+                                    "I\u2019d like to start a free trial so I can try the service before subscribing.",
+                                    "I want to start a free trial to evaluate the platform for my physics research project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d44f2d7bc25b41d6af8f740d24d0dc5d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d3f1de2adea74b49886b1bf38b055463",
+        "navigationGoals": null
+    },
+    "id": "c85ec9a4973744bbbae807b8a8a00913",
+    "navigationGoals": null
+}

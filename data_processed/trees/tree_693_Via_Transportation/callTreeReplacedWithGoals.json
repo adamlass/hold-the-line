@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Via Transportation in New York, where our smart, eco-friendly on-demand transit puts city rides at bus-like fares.",
+            "fileID": "a3680c1a7134438f8518a35bdd6c39e3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For booking a ride or managing your reservation, press 1.",
+                "fileID": "bcec298ea8084106b6332cf0e7b052a4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To book a new ride, press 1.",
+                            "fileID": "934c0134eb40458da1936cb3455e8f09",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our ride booking specialists.",
+                                        "fileID": "e160128c90de4d9596dc3d32762f6df7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5e12736d41034d65a8dff5ceda47fc88",
+                                "navigationGoals": [
+                                    "I need to book a new ride for my 8:30 AM commute downtown.",
+                                    "I need to book a wheelchair-accessible ride to my VA appointment Monday at 9 AM.",
+                                    "Initiate a new ride booking on Via using the dynamic pooling algorithm optimization.",
+                                    "I\u2019d like to schedule a ride from my home to my doctor\u2019s appointment tomorrow morning.",
+                                    "I need to schedule a ride from campus to the research lab tomorrow morning."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To modify or cancel an existing reservation, press 2.",
+                            "fileID": "e33af919b51644739a5e52e71e176296",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our reservation management team.",
+                                        "fileID": "5f8db14034e24f6ba2ed6e4be85c6e14"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "baaca5116e7849c0a385aab5c00f9a03",
+                                "navigationGoals": [
+                                    "I want to cancel my existing reservation for this afternoon\u2019s trip.",
+                                    "I need to change my existing ride from the VA clinic tomorrow to an earlier time.",
+                                    "Adjust or cancel my existing reservation for a ride scheduled through the Via platform.",
+                                    "I need to change the pickup time on the ride I booked for today.",
+                                    "I want to change the pick-up time and drop-off location on my upcoming reservation."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3487740323914e7a99991dc2aac384ff",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and corporate inquiries, press 2.",
+                "fileID": "28aa966a237946b1a79817ae66970bc1",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For customer support, press 1.",
+                            "fileID": "542048eac3534420ba3cd25f400b5f40",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to customer support.",
+                                        "fileID": "7900421d8b724c1ca85a06258392d851"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ccff1bde068f4e06b76b42f64387e31a",
+                                "navigationGoals": [
+                                    "I have a billing question about a recent fare charge on my account.",
+                                    "I need help updating my payment method and applying my veteran discount.",
+                                    "Report a payment processing bug in the Via app causing card tokenization to fail.",
+                                    "I have a question about a charge on my last trip and need assistance.",
+                                    "I have a question about an unexpected charge on my last trip."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For investor relations and press inquiries, press 2.",
+                            "fileID": "a1263c16439b4bce91a820353a3f36b4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our investor relations department.",
+                                        "fileID": "9c46fae506a940ffa083499841966b85"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9d0df21b20174ea7b3348cf10a615eeb",
+                                "navigationGoals": [
+                                    "I\u2019m looking to speak with investor relations about potential funding opportunities.",
+                                    "I want details on how to become an investor in your transit service.",
+                                    "Request Via\u2019s latest funding metrics and investor relations prospectus.",
+                                    "I\u2019d like information on Via Transportation\u2019s latest investor reports.",
+                                    "I\u2019m gathering details on Via\u2019s latest funding and investor contacts for a campus project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d0631715277d47aa898c318b34c681f5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7b27048ea2ad42128d6004bb0c7dc4df",
+        "navigationGoals": null
+    },
+    "id": "95d14666fda840ef9a95a21133e143a7",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Beyond Games in San Francisco, where we build incredible mobile gaming experiences.",
+            "fileID": "d6354b1f664c4b2bb02ec1580457ac11"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For customer support, press '1'.",
+                "fileID": "72551c7fa3ad4f719def9d88b3a40e02",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with our mobile games, press '1'.",
+                            "fileID": "5243e640d57f4e3b807f0aeddb6e6b34",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "f87846147db9481ab56a8808c6639fb1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b10793807b7441a6b965ef30c8cb30d3",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account and billing inquiries, press '2'.",
+                            "fileID": "99de6eb77f03475093aa4cb5ce7ee121",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our accounts team.",
+                                        "fileID": "6b5cfa6e046d4832a6960c6bcd5a680c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3c9f28b16db6420b88de814a11666c45",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9e7de6b27a0142e8b6c0c83221c87beb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For information about our games and company details, press '2'.",
+                "fileID": "039ff42cb40f429da02afb79f7b8e6e1",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our latest mobile games and upcoming releases, press '1'.",
+                            "fileID": "91b2cd0f86734ddaa16544e6002851e1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we fetch the latest game information for you.",
+                                        "fileID": "d1f82e3c8edc48ffa5d07cee307b6f7d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9f1834b0aad14402964beaae4fd1687e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To hear about Beyond Games, career opportunities and company news, press '2'.",
+                            "fileID": "a32f47c26624463c9280a5291af17c02",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our company information line.",
+                                        "fileID": "e8bfb8681d1d455c9206714aa2c0ff12"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "04c0906cd53745478cdded45219c1023",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5a4632dbc6354174a6c8f8da0036cf02",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "33c971620d1d46e0b5e9eb5e05c4dfd9",
+        "navigationGoals": null
+    },
+    "id": "9900497f9aab4368b27a16ea22fbd9d0",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Shopify in San Francisco, your e-commerce partner for selling online, in store, on social media, or anywhere you choose.",
+            "fileID": "828eb18241894ccca5abe4353b4d25b6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For online store and social media sales support, press 1.",
+                "fileID": "c0a231c7b5054bcca14a66e0d7658815",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with your online store, press 1.",
+                            "fileID": "a5d2d83f99f14a6c869c931dbfb1a361",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an online store support specialist.",
+                                        "fileID": "01d4308226f24a9b90bc60dcbde51e3f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "55f4f51fcbaf44d3a87d77f546f81364",
+                                "navigationGoals": [
+                                    "My website\u2019s checkout page is failing to process orders; I need help fixing it.",
+                                    "I need help adding and customizing a veteran-owned badge on my online storefront theme",
+                                    "Optimize my Shopify online store\u2019s Liquid theme for faster load times using CDN integration and GraphQL queries.",
+                                    "I need help updating my online store\u2019s homepage layout; I\u2019m not sure how to make my text and images look right.",
+                                    "Help me organize my physics demonstration kits into a new collection on my online store."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help with social media sales, press 2.",
+                            "fileID": "e0458859393342818fd104c8612a4c38",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a social media sales specialist.",
+                                        "fileID": "db099d75fd764e0d94c453acfe63b4b4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "811eadaaca1b419d8286cb1cd016057f",
+                                "navigationGoals": [
+                                    "I want to integrate and tag my products in my Facebook/Instagram shop posts.",
+                                    "I want to link my Instagram account so customers can purchase directly through my posts",
+                                    "Configure and debug the Shopify\u2013Facebook Channel and Meta Pixel with Conversion API for Instagram Shopping.",
+                                    "I want to link my Instagram business account so customers can shop my crafts directly from my posts.",
+                                    "I need to integrate my physics-themed T-shirts with Instagram Shopping."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a5ed29d763fe4acebde2c24bd0676156",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For in-store and mobile sales support, press 2.",
+                "fileID": "6c6d3f6252b94dd2a39ce4bac3db7d6b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For point-of-sale hardware and in-store support, press 1.",
+                            "fileID": "3c1cccb3a8cc44b6a8e246871796d068",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a point-of-sale support specialist.",
+                                        "fileID": "c2c296c896074bc8a14204f7dac0056e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8fe2721708984ccf92c16e5769cdd944",
+                                "navigationGoals": [
+                                    "My new in-store card reader won\u2019t pair with the POS; I need assistance connecting it.",
+                                    "My in-store card reader isn\u2019t working and I need help troubleshooting the POS hardware",
+                                    "Troubleshoot Bluetooth pairing and firmware update for my Shopify POS card reader on iPad.",
+                                    "I need step-by-step help setting up the new card reader in my boutique to accept payments.",
+                                    "Assist me in pairing my new card reader to Shopify POS at our campus physics club store."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pop-up or trunk-of-your-car sales support, press 2.",
+                            "fileID": "7df37da282b44388be6991e697b6eb83",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a mobile sales specialist.",
+                                        "fileID": "fb5253df4b174338a751d7953b4ce6b4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "19c22297374f4b4b839beeff3aad386d",
+                                "navigationGoals": [
+                                    "I need to configure my mobile card reader for pop-up events, including offline transactions.",
+                                    "I need assistance setting up a mobile checkout system for my pop-up market events",
+                                    "Set up Shopify POS Go\u2019s offline mode and cellular connectivity for mobile pop-up sales.",
+                                    "I\u2019m selling at a community fair and need guidance on using my phone and mobile reader for on-the-go checkouts.",
+                                    "I want to enable offline mode on my card reader for a pop-up sale at the physics department fair."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1339d55ab3294df7861cb2e85eedffb7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4adde5bba7f74eee9fae156db89fc7d6",
+        "navigationGoals": null
+    },
+    "id": "3aafe89b7c9e41cf97bed0ae17c1ae4f",
+    "navigationGoals": null
+}

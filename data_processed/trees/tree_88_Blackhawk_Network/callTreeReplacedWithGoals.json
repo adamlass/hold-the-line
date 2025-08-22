@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Blackhawk Network in the East Bay, your partner in innovative gift card, digital payment, and loyalty solutions.",
+            "fileID": "21c320abd14b46a38fe454b7b735ff98"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For personal gift card and digital payment services, press 1.",
+                "fileID": "2f146478eb6b4ff4a82d92a2fe4667a4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To purchase, reload, or send a personal gift card, please press 1.",
+                            "fileID": "ed61e510f63449a5b6844a4665030a74",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a personal gift card specialist.",
+                                        "fileID": "8e0e08e609b1464ea2489858d1ec5e95"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b2c44b6c560d4d89ab06d71498476347",
+                                "navigationGoals": [
+                                    "I\u2019d like to purchase a digital gift card and send it right away.",
+                                    "I\u2019d like to purchase and send a personal gift card to my spouse overseas.",
+                                    "Issue a new digital gift card via API and deliver it to my friend\u2019s email",
+                                    "I want to purchase and send a $50 gift card to my granddaughter.",
+                                    "I want to purchase and send a digital gift card to a friend."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For balance inquiries or transaction history, please press 2.",
+                            "fileID": "5ba5dee59eac4339a8beb4e4b41043c3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please as we transfer you to balance and transaction support.",
+                                        "fileID": "77484bc66a96420697bf8e9ece31a636"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "476c9b33c1824245a30a79475c719a8e",
+                                "navigationGoals": [
+                                    "I need to check the remaining balance and recent transactions on my personal gift card.",
+                                    "I need to check the remaining balance and recent transactions on my digital gift card.",
+                                    "Retrieve the balance and transaction history for my existing digital gift card",
+                                    "I need to check the balance and recent transactions on my gift card.",
+                                    "I\u2019d like to check my gift card balance and review my recent transactions."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "32c5a23d764f4d168d6013105943e6a2",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For business and corporate program inquiries, press 2.",
+                "fileID": "87c6d6d8dfb745449d4c291f0ee3ee04",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss bulk ordering or corporate gift card programs, press 1.",
+                            "fileID": "c9ab0bd04c8f4685a81b17f95b956d9b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our corporate solutions team.",
+                                        "fileID": "08d1f290281c4947bdb3122de5646468"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6fd5177619654766aa18cb4e19f12497",
+                                "navigationGoals": [
+                                    "I want to set up a bulk corporate gift card order for our employee rewards program.",
+                                    "I want to discuss placing a bulk order of gift cards for my veteran-run small business\u2019s employee rewards.",
+                                    "Set up a bulk corporate gift card order with custom branding for an employee rewards program",
+                                    "I need to place a bulk order of 30 gift cards for my church group.",
+                                    "I\u2019m arranging a bulk order of gift cards for an upcoming university event."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For digital payment and loyalty platform integration support, press 2.",
+                            "fileID": "e776167534324b388b130aaa6b4e3c8e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line while we reach our platform integration specialists.",
+                                        "fileID": "e028caf3a5864496a5c0f9f4a805b6d2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d3477440d2f74b3d8f3b6688664f6148",
+                                "navigationGoals": [
+                                    "I need technical assistance integrating your digital payment and loyalty platform into our system.",
+                                    "I\u2019d like information on integrating Blackhawk\u2019s digital payment platform into my nonprofit\u2019s donation system.",
+                                    "Integrate Blackhawk\u2019s digital payment and loyalty API into our platform and troubleshoot webhook callbacks",
+                                    "I need help integrating digital payment and loyalty services into my small store.",
+                                    "I need assistance integrating your digital payment and loyalty platform into our application."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "92fdd81e75d04e6eb855046368a72bb9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "936cecbfa7bc4540bea19abd37291135",
+        "navigationGoals": null
+    },
+    "id": "620448b32f414cc18acf302f1d2e6004",
+    "navigationGoals": null
+}

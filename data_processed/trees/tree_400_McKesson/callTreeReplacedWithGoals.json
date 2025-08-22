@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling McKesson, the oldest and largest healthcare company in the nation.",
+            "fileID": "ff0e86cf86c14dc19bf717fb3794e195"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For pharmacy and healthcare provider support, press 1.",
+                "fileID": "b2baf22831bc4dd9ab1710c7f062815a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For prescription order status or refill requests, press 1.",
+                            "fileID": "74e2c890d74c4620a833d3e4673e5ba7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to prescription order support.",
+                                        "fileID": "85d1ad552ec44f678fdf7984ef65e5a4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e1648255b8e94f068138c5830c57817d",
+                                "navigationGoals": [
+                                    "Check the status of my recent prescription order and request a refill.",
+                                    "Check the status of my prescription refill for my blood pressure medication.",
+                                    "I need to query the real-time status of my prescription refill order.",
+                                    "I need to refill my arthritis medication and check the status of the order.",
+                                    "I\u2019d like to check the status of my prescription refill."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For product returns or medical device recalls, press 2.",
+                            "fileID": "e935e3e648984780871ec09e1c774969",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to returns and recalls support.",
+                                        "fileID": "df15326a86fb4c59ae8d60ba919a73ae"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5bf1c33d11b04e6ebee5138a8d276a41",
+                                "navigationGoals": [
+                                    "Initiate a return for a recalled medical device I received.",
+                                    "Initiate a return for a knee brace that arrived damaged.",
+                                    "I need to initiate a return for a recalled medical device and get instructions.",
+                                    "I want to return my faulty mobility device that was just recalled.",
+                                    "I need to arrange a return for a defective medical device."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0d3798672caf4f12a0bb541f4b703d0c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For billing and account services or corporate inquiries, press 2.",
+                "fileID": "b49c0058d8cf46cca23ee76f54f43eb4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing inquiries or payment processing, press 1.",
+                            "fileID": "f847263e104248c78095af984818b214",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing and payments.",
+                                        "fileID": "202a520b86d64295b729d6a3a949fcaf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a8564799ed6c4aa2a400bb16cc980188",
+                                "navigationGoals": [
+                                    "Resolve a billing discrepancy on my pharmacy invoice and make a payment.",
+                                    "Confirm my insurance coverage and pay the outstanding balance on my recent prescription.",
+                                    "I need to review my billing statement and process an outstanding payment.",
+                                    "I\u2019d like to review and pay my latest pharmacy bill.",
+                                    "I want to review my recent bill charges and process a payment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support with our online portal, press 2.",
+                            "fileID": "e076d7498c644cacb43f9800c2848b70",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "a9a82ea6fd904b8295a930461a811c48"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f0b13f0a8415473aaf256862004e3d05",
+                                "navigationGoals": [
+                                    "Reset my online portal password so I can log into my account.",
+                                    "Reset my password on the online portal so I can view my prescription history.",
+                                    "I need troubleshooting for authentication failures on the online provider portal.",
+                                    "I\u2019m unable to log into my online account and need assistance.",
+                                    "I need help logging into the McKesson online portal."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d4fe59c17a8743a88a47d8c8779f08ed",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "832a35ef03d14de3a0d8eafec9887c29",
+        "navigationGoals": null
+    },
+    "id": "98226f87e49d4244b7dc2300ac00a16d",
+    "navigationGoals": null
+}

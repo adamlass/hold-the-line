@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Wheelwell, San Francisco\u2019s premier marketplace for automotive parts and services.",
+            "fileID": "d5dbca4b94a7401f999941c12be3ed20"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For parts purchases and inquiries, press 1.",
+                "fileID": "a7d91331bc7a4562a70552c6d587a657",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new aftermarket parts, press 1.",
+                            "fileID": "4397153739c144b79c0e53435c4f1ec1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our parts specialist.",
+                                        "fileID": "a73d5c5d30fe422a91c18f25de111db0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7530dd4e5c3d40a2807cebc9437e0488",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For certified used parts, press 2.",
+                            "fileID": "320c7e6ff11b44d08ad7291bd5f95833",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our used parts department.",
+                                        "fileID": "40b9eff8b56e4e738664747c662d8ff5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "630eb391c4fc4f9a9d9cb2ca28dd2456",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a5cf84d220804f5da08eae2967e235e2",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For service bookings and appointments, press 2.",
+                "fileID": "7c12a945ba5d4f19b47566fdd28bdc84",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a service appointment, press 1.",
+                            "fileID": "0c2582ae13ae485e981a01f976d3f438",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we schedule your service appointment.",
+                                        "fileID": "1527d24354024ae7a0267aa8f393b3e2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3f4d09524d2046d396b01b6cf24410ae",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To locate a local mechanic or service center, press 2.",
+                            "fileID": "fd90b449cbec4943867b5d00d313c13f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a local service provider.",
+                                        "fileID": "9aebdd72e56d413995265bd1eb2f5206"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "287bf7c34d494beca88aabafc0f1bb0f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "388829c1346a4fce9c55482841ee66e6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ef6d5845408a49f3a44eb0d07ffd24be",
+        "navigationGoals": null
+    },
+    "id": "55ffa51c29e8464fa9276dee95720e7d",
+    "navigationGoals": null
+}

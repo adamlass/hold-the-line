@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Slack in San Francisco, your central hub for team communication and collaboration.",
+            "fileID": "d07040a0bbf34d94af5df0ab1711b83f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For product setup, integrations, or technical support, press 1.",
+                "fileID": "bf0cac7dde424e36806490bb564ebbe4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help onboarding new team members, press 1.",
+                            "fileID": "790b19bada6d41e2a81bb3d1dad13b91",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our onboarding support team.",
+                                        "fileID": "4c53d01c394844f5836a2b3aca4dcffd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3c2de0d1bec74013aea4fdffd492e00b",
+                                "navigationGoals": [
+                                    "I need help setting up Slack accounts and workflows for our new team members.",
+                                    "Help me onboard new members to our veteran support Slack workspace.",
+                                    "I want to configure SCIM-based user provisioning to onboard our new team members into Slack.",
+                                    "Please help me onboard my new team to Slack \u2013 I\u2019m not sure how to add them and get them started.",
+                                    "I need help adding my new lab members to our Slack workspace and setting up their accounts."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For troubleshooting integrations and apps, press 2.",
+                            "fileID": "3556ee5b98bc4910a8ec4d9e65cc3ef6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our integrations support specialist.",
+                                        "fileID": "2f65598bcd9e4b118aacff46e40b9e8d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "00f136093ebc4d2b9ee9067a8b36bb32",
+                                "navigationGoals": [
+                                    "I want to troubleshoot and fix errors with our Slack integration.",
+                                    "Troubleshoot the Zoom integration in my veteran group's Slack workspace.",
+                                    "I need help debugging our custom Slack app integration that\u2019s failing to post messages via the API.",
+                                    "I\u2019m having trouble with my calendar integration in Slack; can someone help me fix it?",
+                                    "I\u2019m having trouble getting our GitHub integration to post commit notifications in our team\u2019s channel."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e6f1e7f36ae040b689537a2d4526f081",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales inquiries, account management, or billing, press 2.",
+                "fileID": "dd8819b28af246428dec71d60ec85362",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new licenses, enterprise pricing, and product demos, press 1.",
+                            "fileID": "790304a25ab347dc8ad64076afe753f9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "39ab644e7e534078ad99c63a8772b195"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5ed584d4b64b4e229ae6e14ff7589a0f",
+                                "navigationGoals": [
+                                    "I\u2019d like enterprise pricing details and a product demo for additional licenses.",
+                                    "Get enterprise pricing details and request a product demo for my nonprofit Slack plan.",
+                                    "I\u2019d like to review Enterprise Grid pricing and purchase additional user licenses for our workspace.",
+                                    "I\u2019d like to know the cost and buy more licenses for my Slack workspace.",
+                                    "I\u2019d like to inquire about enterprise pricing for a university physics research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing questions and subscription management, press 2.",
+                            "fileID": "d5976b9ea57545489f7086dba0b17bda",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "e78530533996473b8945302548b6c2d0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "91ce20c3a98140b58e8a828a4bb8be7e",
+                                "navigationGoals": [
+                                    "I need to update my billing information and review my current subscription plan.",
+                                    "Update my billing information for our Slack subscription.",
+                                    "I need to update our Slack subscription billing method and retrieve the latest invoice.",
+                                    "I need help managing my Slack subscription and updating my billing information.",
+                                    "I need assistance updating our subscription payment method and obtaining an invoice for my department."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2ab6f45b17db4093a4fd98b133fb2552",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ce5e5fa08dcc4a8897ce65c4fc0a0fb4",
+        "navigationGoals": null
+    },
+    "id": "7c163ac4c9a247c7a8fa37e450b25f48",
+    "navigationGoals": null
+}

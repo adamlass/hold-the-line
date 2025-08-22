@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to DesignMap in San Francisco, where we leverage years of industry experience to deliver smart user experience design that makes enterprise software great.",
+            "fileID": "252c0a32dcbe4c589d637ee6ea1fce9e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For user experience design services, press 1.",
+                "fileID": "026ad0573d9d4df08f308e8305af44a5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you\u2019re interested in starting a new design project, press 1.",
+                            "fileID": "53deda4e537444a39e9c1f262095db55",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a UX design specialist.",
+                                        "fileID": "2b67b27268f64a1c8ca816a3be5c3397"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c200cb4f572a441daba566ce0610d461",
+                                "navigationGoals": [
+                                    "Kick off a new UX design engagement with a specialist",
+                                    "I want to start a new UX design project to build an app for veterans.",
+                                    "Kick off a new UX design project and align on user flows, wireframes, and high-fidelity prototypes for our enterprise portal.",
+                                    "I\u2019m ready to start a new user experience design project for my application.",
+                                    "I need to start a new UI design for a physics experiment data visualization app."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For support on an existing design engagement, press 2.",
+                            "fileID": "11d33144a15546c5ad9a274d67d4dc8c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with your project lead.",
+                                        "fileID": "991d1c9bfbb24b9fbd9b3c012980f157"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fd41a88f3da2435f9ca0af0daa052bfc",
+                                "navigationGoals": [
+                                    "Get support for my ongoing design project",
+                                    "I need support refining the current UX for our veteran support platform.",
+                                    "Get support on our existing design engagement: refine the component library and update the UI style guide based on stakeholder feedback.",
+                                    "I need help with the ongoing design engagement we already have.",
+                                    "I\u2019d like to request tweaks to the existing UI designs for my lab data analysis tool."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b1bc3a8516874277b3840a9e1b54a29c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For enterprise software development solutions, press 2.",
+                "fileID": "3802e16b89a64819944fbb5604438ab7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical architecture and integration inquiries, press 1.",
+                            "fileID": "e7b74c594e274c288047f1f16a19c75b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our development architect.",
+                                        "fileID": "c028b2a2f9be4863b24a1da656225f36"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "63ef04fa154f4875bc3470680fbbb6ac",
+                                "navigationGoals": [
+                                    "Discuss technical architecture and integration for our enterprise software",
+                                    "I\u2019d like to discuss technical architecture for integrating our veteran services data.",
+                                    "Discuss technical architecture and integration: advise on microservices design, API gateway setup, and data synchronization patterns.",
+                                    "I have questions about technical architecture and integrating our systems.",
+                                    "I have questions about integrating my simulation software with the university\u2019s data servers."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For project status updates or ongoing support, press 2.",
+                            "fileID": "ab6aeb45bd8f467ebae3f08fd6438b52",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our support team.",
+                                        "fileID": "1cbc31e349de4692afe891e98a891667"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "77b91f49689e4349a1ba76041369db16",
+                                "navigationGoals": [
+                                    "Obtain a progress update and support for my software development project",
+                                    "I\u2019m calling to get a status update on our enterprise software and arrange ongoing support.",
+                                    "Request a project status update for our development initiative: check sprint progress, issue backlog, and deployment timeline.",
+                                    "I need a support update on our existing enterprise software solution.",
+                                    "I want a status update and ongoing support for the lab equipment control system you\u2019re developing."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c50ee6cfe46c4ad5b85e8d4c21a2861f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "42faa1b48c144cb1a82edc8669a50a16",
+        "navigationGoals": null
+    },
+    "id": "81c82b13b4304bb6938ca546ab6a1682",
+    "navigationGoals": null
+}

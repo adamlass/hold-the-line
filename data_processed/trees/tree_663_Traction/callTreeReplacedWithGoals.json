@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Traction, the San Francisco interactive agency that merges psychology and technology to transform human behavior into consumer action.",
+            "fileID": "1fa73846386544d38f390fe4edd115a4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new business inquiries and proposals, press 1.",
+                "fileID": "114ebdf9c9514ab8989cd26b6a7844d7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss digital and interactive marketing campaigns, press 1.",
+                            "fileID": "d5d9fd7620fa43e388ba9483493fdc9b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our interactive campaign specialists.",
+                                        "fileID": "dfbb17e50f934d3bae96437b513641b8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "eef729d5c62b458a801fa9d300e4e61e",
+                                "navigationGoals": [
+                                    "Request a proposal for launching a new interactive marketing initiative",
+                                    "I need to discuss a proposal for a digital marketing campaign for my veteran-owned outdoor gear startup.",
+                                    "I want a detailed proposal for a new integrated digital marketing campaign with UX/UI focus and KPI projections.",
+                                    "I\u2019d like to speak with someone about setting up a new digital and interactive marketing campaign.",
+                                    "I need to pitch an interactive marketing proposal for my university physics outreach group"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To explore our behavioral psychology solutions, press 2.",
+                            "fileID": "7b25ddaddd3f4c03b5c8395ebfdc8694",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our psychology and technology experts.",
+                                        "fileID": "4f2436033e2c45788b7cb0a8c4868d1f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ce8b8128593a47bf8fd85d71f8ed1ca5",
+                                "navigationGoals": [
+                                    "Inquire about behavioral psychology solutions to boost user engagement",
+                                    "I want to learn about behavioral psychology strategies for my PTSD awareness campaign.",
+                                    "I\u2019d like to discuss leveraging behavioral psychology frameworks for our user engagement solution.",
+                                    "I need information on your behavioral psychology services to boost my customer engagement.",
+                                    "I want to explore behavioral psychology tools to boost engagement in my online physics tutorial platform"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "da73452bab4943e1897bf8921e178fbc",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing client support and project updates, press 2.",
+                "fileID": "436754a0be7248c2b0eb245e99a8fdf2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support or troubleshooting, press 1.",
+                            "fileID": "e0697a65d6fc450394a4845c3a9fdfca",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our technical support team.",
+                                        "fileID": "6a75bd4fe83f43e68b88ebd3aa9cf887"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ebba9b5385524a6d92ebb07e2f78909c",
+                                "navigationGoals": [
+                                    "Troubleshoot a technical issue in my current campaign setup",
+                                    "I\u2019m locked out of the client portal for my veteran mental health campaign and need technical help.",
+                                    "I need assistance debugging the API integration in my current campaign toolkit.",
+                                    "I\u2019m an existing client having technical issues with my account portal and need help troubleshooting.",
+                                    "I\u2019m having trouble accessing the technical data feed in my current campaign and need support"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For project status, reporting, and analytics, press 2.",
+                            "fileID": "52a5c156659a426b8b6695600724b763",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our project management team.",
+                                        "fileID": "65bccfa6a4fe440e8087096b4c1813cf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ba30239b1a06430495e4acbc441a2c91",
+                                "navigationGoals": [
+                                    "Get the latest project status and performance analytics report",
+                                    "I\u2019d like an update on my project\u2019s performance analytics for my veteran outreach initiative.",
+                                    "I want to retrieve the latest analytics dashboard and status update for my ongoing project.",
+                                    "I need an update on my current project\u2019s status and performance reports.",
+                                    "I\u2019d like to get the latest status update and performance analytics on my ongoing marketing campaign"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e00f2ac373f248fc9a530e4d4f0b1fa3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "330103a15e0e4388bc201a911b3a9a1b",
+        "navigationGoals": null
+    },
+    "id": "0abdcee513824f87ab24469cf7b88d58",
+    "navigationGoals": null
+}

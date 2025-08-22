@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Discord Support in San Francisco, your connection to crystal clear voice and text chat.",
+            "fileID": "0e25e1ca8eaa434faf76e8befd4dcb6c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for account and billing inquiries.",
+                "fileID": "606c5206c1d84c3a976757ec01c82748",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for account setup and login assistance.",
+                            "fileID": "19da3e9a2c204e1fb9a958eb080b7750",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account specialist.",
+                                        "fileID": "c97f6e35e3e447a2afe50ccc2a9cb189"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "877fc80a197641fb8d6697afa07f6d89",
+                                "navigationGoals": [
+                                    "I need to reset my Discord password and log in quickly.",
+                                    "I can\u2019t log into my Discord account and need to reset my password to access my veteran support server.",
+                                    "Help me reset my two-factor authentication and clear stale login tokens to regain account access",
+                                    "I forgot how to log into my Discord account and need help resetting my password.",
+                                    "I can\u2019t log into my Discord account to join my physics study group server and need help with account setup."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for billing and subscription questions.",
+                            "fileID": "b49fc0873abf43aab69a44b00145809e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a billing specialist.",
+                                        "fileID": "67ff99c73e7140969c8eba57e789d72e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fb796a5794374055ae124a5051e1a7e6",
+                                "navigationGoals": [
+                                    "I want to update my payment method for my Nitro subscription.",
+                                    "I want to apply a military discount to my Nitro subscription and update my billing details.",
+                                    "I need to migrate my Discord Nitro plan to an annual subscription and update my credit card details",
+                                    "I need to review my recent subscription charges and update my payment details.",
+                                    "I need to sort out my Nitro subscription billing, especially to apply for a student discount."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1b5a45c6f69448abaebd2dc1916d24a3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for technical support and troubleshooting.",
+                "fileID": "2a40f1ca82154306ba9822b5dcbc2fdf",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for voice chat quality and connectivity issues.",
+                            "fileID": "22b79118ac934dd090b4eb84275b9580",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support agent.",
+                                        "fileID": "f9b8e9fa04954864b936ce10b157ba45"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b278ba67c1664a179f9adcde65d52be1",
+                                "navigationGoals": [
+                                    "My voice calls keep dropping\u2014please fix my connectivity.",
+                                    "My voice chat keeps dropping when I\u2019m in calls with my veteran community group.",
+                                    "Diagnose and resolve packet loss and high latency in my Discord voice channels to improve call quality",
+                                    "My voice chat keeps cutting out and I need help improving the connection.",
+                                    "My voice chat keeps dropping during group problem-solving sessions and I need to fix the connectivity issue."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for mobile and desktop app support.",
+                            "fileID": "969b954dbd4a46808a7d04bdc2813874",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an app support specialist.",
+                                        "fileID": "7ff56d9d38804ea0a24968159dabb5c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "14cdf5fbc0c147c4848acfb52d5329ad",
+                                "navigationGoals": [
+                                    "My desktop app keeps crashing on launch; help me resolve it fast.",
+                                    "My Discord mobile app keeps crashing on startup and I need help fixing it.",
+                                    "Fix the Discord desktop client crash loop error after the latest update on my Windows machine",
+                                    "I can't get the Discord app to work on my phone and need help installing or updating it.",
+                                    "The Discord desktop app crashes when I open a voice channel for my study group\u2014I need help updating or reinstalling it."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "609a666ce6b84141a5cbdf94c3a05286",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2775e85927214839bd15b29ae83fb472",
+        "navigationGoals": null
+    },
+    "id": "a3efecca5bf94ea09e5d3ccd020aacf0",
+    "navigationGoals": null
+}

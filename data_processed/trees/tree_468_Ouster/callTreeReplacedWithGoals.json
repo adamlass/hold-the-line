@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Ouster in San Francisco, your trusted leader in industrial laser hardware.",
+            "fileID": "e1450d6e952b4f39af8ff2d566431b31"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support, press 1.",
+                "fileID": "fec2591c53d3483c9d163ea5ee0ea597",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For hardware troubleshooting and maintenance, press 1.",
+                            "fileID": "549f9d70bc304478bce0a194abd478e7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a technical support specialist.",
+                                        "fileID": "e3938777be4044279eb6904e993b76e3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "49d16dd9ad8449af9a04ab8d466143ac",
+                                "navigationGoals": [
+                                    "Troubleshoot and repair a hardware issue on my industrial laser unit.",
+                                    "I need help diagnosing a hardware failure on my LiDAR unit and arranging repairs or replacement parts.",
+                                    "Troubleshoot intermittent laser diode power fluctuations on my Ouster OS1 LiDAR and get maintenance guidance.",
+                                    "I need help troubleshooting a hardware malfunction on my industrial laser.",
+                                    "Could you help me diagnose and fix a calibration drift on my OS-1 hardware?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For firmware updates and software integration, press 2.",
+                            "fileID": "59572839a072402d842b1b0d8b898b83",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, transferring you to our firmware support team.",
+                                        "fileID": "300ce12c861a49968e2afb4513e714c0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "924b748a93a14f6c8314fe798a995565",
+                                "navigationGoals": [
+                                    "Walk me through installing the latest firmware and integrating it with our system.",
+                                    "I\u2019m looking to update the firmware on my laser sensor so it integrates properly with my autonomous vehicle software.",
+                                    "Schedule a firmware upgrade to v2.4 for my OS1 LiDAR and integrate its point-cloud stream with ROS2.",
+                                    "I want assistance installing the latest firmware and integrating it with my computer.",
+                                    "Could you walk me through updating the sensor firmware and integrating the SDK into my Python project?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9d74b52319154eedbe1d7cb36b1f142a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and general inquiries, press 2.",
+                "fileID": "c68cc557301c4c41b35e072c91da974b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new product demos and specifications, press 1.",
+                            "fileID": "8c49372a44814f5c91553c3aed178bcd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a product specialist.",
+                                        "fileID": "8c818f32dba74bd6891749927f32520b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "18cacf7e728346668f021b8d91c2c9bb",
+                                "navigationGoals": [
+                                    "Show me a demo and detailed specifications for your newest laser models.",
+                                    "I\u2019d like a demonstration and detailed specifications of your newest industrial laser sensor for my mapping operations.",
+                                    "Request a live demo of the new OS2-64 LiDAR and detailed specs on its multi-return scanning capability.",
+                                    "I'd like to schedule a demo and get detailed specifications for your newest laser model.",
+                                    "Could you send me detailed specs and arrange a demo for the new 128-channel lidar model?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, quotes, and order status, press 2.",
+                            "fileID": "0bd1b20db159406296b6f9e812aae321",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, transferring you to our sales team.",
+                                        "fileID": "32438b5238974566b17374f61ac4b513"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2e6439f0545244edb0efabc83a41f7c3",
+                                "navigationGoals": [
+                                    "Provide a quote and status update for my recent equipment order.",
+                                    "I\u2019m requesting a quote for multiple units of your laser hardware and need information on pricing and delivery times.",
+                                    "Obtain a quote for ten OS0-16 LiDAR sensors and check the current lead time and order status.",
+                                    "I'm calling to get a price quote and check the status of my parts order.",
+                                    "Could I get a quote on eight sensors and check the status of my recent order?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7329bb9fed8b43dcb846c6675c52dfe7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e4f7aa57835044ed8cc1aa560aff5220",
+        "navigationGoals": null
+    },
+    "id": "60554fe0f0614d0795c7305c9e52b6e4",
+    "navigationGoals": null
+}

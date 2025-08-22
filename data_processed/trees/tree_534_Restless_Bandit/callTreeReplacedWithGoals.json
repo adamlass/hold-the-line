@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Restless Bandit in San Francisco, your partners in talent rediscovery.",
+            "fileID": "b3d2434dba81427e983702e91f6c18c2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with your current account and campaign performance, press 1.",
+                "fileID": "dd45a0ce5dd14b82b146a402a9f43557",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For questions about billing and invoices, press 1.",
+                            "fileID": "02079d94b73d431ea4e36a30fed693e0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing team.",
+                                        "fileID": "f53658fc665f4231871266988a055ace"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6f4ceac939964c368ba6a8c13b465f51",
+                                "navigationGoals": [
+                                    "Please send me my latest billing statement and clarify an unexpected charge.",
+                                    "I need to review a recent invoice on my account and see if I qualify for a veteran discount.",
+                                    "Reconcile the line-item charges on my latest invoice for API calls used in our last talent rediscovery campaign",
+                                    "Please help me understand the charges on my recent invoice.",
+                                    "I need a copy of my last invoice for the participant recruitment campaign for my lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support and troubleshooting, press 2.",
+                            "fileID": "b447e1a4ffcb432cb0bc623b7dffecde",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "798eace30d484342a42995ff1fe13144"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "09480673c9064aedb62f24a696ba7907",
+                                "navigationGoals": [
+                                    "I\u2019m getting an error on my campaign analytics dashboard and need a quick fix.",
+                                    "I can\u2019t log into my account dashboard and need technical support to troubleshoot access issues.",
+                                    "Diagnose the intermittent OAuth token refresh errors in my API integration pipeline",
+                                    "I\u2019m having trouble with my account and need technical support to fix an issue.",
+                                    "I\u2019m having trouble connecting the campaign analytics API to my lab\u2019s database."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bf740e8f6a43495c93e1616876a92e14",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales, pricing information, or to learn about Talent Rediscovery, press 2.",
+                "fileID": "11f0add20fb246d8b86a4c29537108c2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo of our platform, press 1.",
+                            "fileID": "362f2f43296645948d5b3f61777a7182",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our demo team.",
+                                        "fileID": "be69101b46174904899d5b1351e985d5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ddd742c604f44ffc95f08530d12f53da",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a concise demo of the Talent Rediscovery platform.",
+                                    "I\u2019d like to schedule a personalized demo to learn how your platform can help me find job opportunities.",
+                                    "Schedule a technical walkthrough of your talent rediscovery API endpoints and analytics dashboard",
+                                    "I\u2019d like to schedule a simple demo to see how the Talent Rediscovery platform works.",
+                                    "I\u2019d like to schedule a demo focusing on advanced candidate filtering for my research recruitment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a sales representative, press 2.",
+                            "fileID": "f4738742796e4976a5ebcf208dcab576",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team.",
+                                        "fileID": "6d9dee78756f423abe53e4afa3e4c241"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cb4689402c12405da90ae90e0357b017",
+                                "navigationGoals": [
+                                    "I want to speak with a sales representative about pricing and contract options.",
+                                    "I want to speak with sales about subscription plans and veteran pricing options.",
+                                    "Discuss enterprise pricing tiers for high-volume API usage and SLA guarantees",
+                                    "I want to speak with someone about pricing and subscription options.",
+                                    "I want to discuss pricing plans for a year-long subscription to support our next study."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0a22973dbaa34876a256bf00edf49e0e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7d12a95dfd4c4fe3aa2f9438cc0e349a",
+        "navigationGoals": null
+    },
+    "id": "a28f1bb360044931a513158b2b33fb1d",
+    "navigationGoals": null
+}

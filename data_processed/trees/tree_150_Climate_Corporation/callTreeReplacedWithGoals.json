@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Climate Corporation, the leading digital agriculture platform headquartered in San Francisco.",
+            "fileID": "6ceab9d326a144b5acf19b10178c7e54"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support with our Climate FieldView platform, press 1.",
+                "fileID": "8dd43587694945c5a5ace061a290f5f6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For software troubleshooting, press 1.",
+                            "fileID": "d4d0d099c6f54fb5ba2d5287de905001",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our software troubleshooting team.",
+                                        "fileID": "c9e4bb9baf20445292e70173e6677b1d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1fc6a0b0dbd344f89ed19c5e17617341",
+                                "navigationGoals": [
+                                    "Diagnose and fix a software glitch in my FieldView dashboard that\u2019s preventing data uploads.",
+                                    "Troubleshoot why the FieldView desktop software crashes when loading my field maps",
+                                    "Diagnose and fix a FieldView software crash when importing sensor CSV logs.",
+                                    "I need help fixing an error that keeps popping up in my FieldView software.",
+                                    "I\u2019m having trouble with the FieldView software crashing when I upload my field data."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account and login assistance, press 2.",
+                            "fileID": "c8438de2b1554d00a846f61950113f04",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account support team.",
+                                        "fileID": "302d0eefa689442fa3b20f7b7c3c1b47"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fed31c93ef7c4668b7ed84237f4a5627",
+                                "navigationGoals": [
+                                    "Reset my FieldView login credentials so I can access my account immediately.",
+                                    "Reset my Climate FieldView account password so I can log back into my dashboard",
+                                    "Unlock my FieldView account after an MFA lockout and reset my API auth tokens.",
+                                    "I can\u2019t log into my FieldView account and need to reset my password.",
+                                    "I can\u2019t log into my FieldView account and need to reset my password."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "88fb5e66d61f48c082c7084320758667",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and new account inquiries, press 2.",
+                "fileID": "f525c457f60747a58e4c86e73643fd42",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a personalized platform demo, press 1.",
+                            "fileID": "70ab58fbe8114088aeea8e34d478b702",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo scheduling team.",
+                                        "fileID": "2c21423735824f32b0bdff9f060ea824"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e4c85f7d84684494b63830a740f47c42",
+                                "navigationGoals": [
+                                    "Schedule a personalized Climate FieldView demo to evaluate its features for my operation.",
+                                    "Schedule a personalized demo of the FieldView platform with information on veteran discounts",
+                                    "Schedule a personalized demo of FieldView\u2019s API integration and IoT data visualization.",
+                                    "I\u2019d like to schedule a simple walkthrough demo of the FieldView platform.",
+                                    "I\u2019d like to schedule a personalized demo of the FieldView platform to explore its features."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, plans, and licensing information, press 2.",
+                            "fileID": "e7b2366b789c4de984d0470e0de20e60",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales department.",
+                                        "fileID": "91bbfb010dbb4370866225beceae1aef"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "59cfa9de60214167a274afff188067b2",
+                                "navigationGoals": [
+                                    "Get detailed pricing and licensing options for the Climate FieldView platform.",
+                                    "Get detailed pricing and plan options for Climate FieldView, including any veteran rates",
+                                    "Get detailed enterprise pricing for FieldView, including concurrent-user licensing and volume discounts.",
+                                    "I want to learn about the subscription pricing and plan options for FieldView.",
+                                    "I want to get detailed pricing, plans, and licensing options for FieldView."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8e5e270fd7b34985987cc1d4d32405a8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "54543c28556245868b427f5811f794bc",
+        "navigationGoals": null
+    },
+    "id": "62f95e1b3d4849b59e0119d3a7f584ec",
+    "navigationGoals": null
+}

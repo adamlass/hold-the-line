@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Riviera Partners, San Francisco\u2019s premier recruiting agency for world-class executive and engineering talent.",
+            "fileID": "abe4637334d743318b698f35da4df253"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 to learn about our executive search services.",
+                "fileID": "0367244e25814b29a7b9cfa58ec93c01",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with a specialist about C-level and board placements.",
+                            "fileID": "478536d204a14cb7a438e94ffd389f02",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our executive search team.",
+                                        "fileID": "33da85f5686440eda58771a858157346"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9c578f04a4be41c5b1aefc7f4fa52fb5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 to hear about our retained search process and partnership model.",
+                            "fileID": "08830a25f21945aebfe09fa3e49765c1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we\u2019re pulling up details on our retained search offerings.",
+                                        "fileID": "154b47bd8d754780a41c15d6f5aae265"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "658b7d077b16487689417695cee1fde7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c36bc80794bc48d8aca5c55c110973f6",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 to explore our engineering talent solutions.",
+                "fileID": "26c3dc71241c4da29c142d771ced3813",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with a recruiter about software engineering hires.",
+                            "fileID": "c6cfc152647342b5893bf5cc7bf0a07c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our engineering recruitment team.",
+                                        "fileID": "5c51c9f54b454af0893189ca6ca1cbad"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ca15890c20eb44e1b076b6d7e182848c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 to learn about our technical assessment and candidate vetting services.",
+                            "fileID": "c4ae979f0b1f4d57a808ec94695a6b78",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for holding. We\u2019ll be right with you to discuss our assessment solutions.",
+                                        "fileID": "ed647bad548a4c4d861b1c8293eb9e8f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4aae8856e0984665854798a48c1139dd",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4e72e86b409f450c801301b7844a8611",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "79a4253c07b049d6847fba7da9fa110f",
+        "navigationGoals": null
+    },
+    "id": "deb5f02d0b294db98b080d864071c06c",
+    "navigationGoals": null
+}

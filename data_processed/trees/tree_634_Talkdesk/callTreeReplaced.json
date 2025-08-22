@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Talkdesk, the Contact Center for Innovative Enterprises in San Francisco.",
+            "fileID": "58ae8f7adbcc4439a45540df626cf12c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new account inquiries, press 1.",
+                "fileID": "52d07aab90a940f1a8782af8d31633a0",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To connect with our enterprise sales team, press 1.",
+                            "fileID": "6d19dc51ace64b4994f7c551d6489dc5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our enterprise sales team.",
+                                        "fileID": "ea050bbcbf7e4d84a6f78c414cf95e3d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0ab248558ad94faf82dab6326cb8cda6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For product demonstrations and pricing details, press 2.",
+                            "fileID": "685cdcc09a9a4c309c2f03e9fe2ae8e5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a product specialist.",
+                                        "fileID": "ce84234db92440e992f354f532678d01"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5fbe4b60c8ba455d9343e43fc43c1180",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "55d537eeb315402aa65276c7ad610c33",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and customer service, press 2.",
+                "fileID": "6753018630da423f8480ce17f221e748",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To report an issue or request technical assistance, press 1.",
+                            "fileID": "f3b02744f55143aaabdcffaa01fabcce",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for technical support. Your call is important to us.",
+                                        "fileID": "2e4a58f787da473c990469c2f4a28f2c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d6b4e7e39d4a4516ab4f52cfcdbbcf20",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries and account management, press 2.",
+                            "fileID": "886ace0efaca47eaa8a216b160a89cd4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "1254361ff1714019acf07757dfe53f58"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2c1610b5b9b849aebd1fa0028baa98ec",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0b26a7ec5bad4dec83b5578c296769a8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "97dd314c069a40258cc1ea1d480566b0",
+        "navigationGoals": null
+    },
+    "id": "c58fe90ba07b47aa899ac4e770bbbca5",
+    "navigationGoals": null
+}

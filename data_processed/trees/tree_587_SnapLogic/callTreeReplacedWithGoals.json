@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to SnapLogic, powering digital business transformation with automated application, data, and cloud integration.",
+            "fileID": "bb50516d4cb14a40839209774759b399"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and Account Services, press 1.",
+                "fileID": "3add072ae5974194a0b5cc81df220952",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our Sales team, press 1.",
+                            "fileID": "a152837b3fc546e581d80eae3a1d5a41",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a SnapLogic sales specialist.",
+                                        "fileID": "05e58b5e23b5465eb3f3e247b870f768"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e6aaec391b4c47469b9d34957ffdf493",
+                                "navigationGoals": [
+                                    "Get enterprise integration pricing and licensing details",
+                                    "I\u2019d like to learn about pricing and any veteran discounts for a new SnapLogic subscription.",
+                                    "I\u2019d like to discuss enterprise pricing tiers and API throughput limits for our upcoming integration project.",
+                                    "I need to understand pricing for renewing my integration service.",
+                                    "Explore licensing and pricing options for integrating my lab\u2019s experimental data workflows."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To reach your Account Manager, press 2.",
+                            "fileID": "7a85ed2458dc4abb9e97b87cdb3eb5ea",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your SnapLogic account team.",
+                                        "fileID": "8df45f4be4f1410692daae23e82b74bb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d13a5f74c02e4c03aa0961c0370d6c8c",
+                                "navigationGoals": [
+                                    "Discuss my upcoming subscription renewal with my account manager",
+                                    "I\u2019m calling to review my existing contract and discuss veteran-specific renewal benefits.",
+                                    "I need to review and adjust our subscription plan, including seat counts and renewal terms.",
+                                    "I have a question about a charge on my latest invoice.",
+                                    "Review my existing account details and upgrade my student integration plan."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e2993181aed64b3e84c17cfb912fe526",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technical Support and Customer Success, press 2.",
+                "fileID": "be49fd636329482cb70a6f6cfc5c5270",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For integration assistance and troubleshooting, press 1.",
+                            "fileID": "68c1eaaae5134b9c92e06708a0486929",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a SnapLogic support engineer.",
+                                        "fileID": "418dc75fe4c349b288687217605ec84e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c55effd9eb6943bfa98a55504d2c6568",
+                                "navigationGoals": [
+                                    "Troubleshoot the data sync error in our integration pipeline",
+                                    "I need help troubleshooting my integration pipeline to meet security compliance standards.",
+                                    "I\u2019m troubleshooting a pipeline error with REST Snaps and need help debugging a JSON schema mismatch.",
+                                    "I need step-by-step help setting up a new app connection.",
+                                    "Get assistance troubleshooting my pipeline that imports spectrometer data into AWS storage."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check system status and alerts, press 2.",
+                            "fileID": "654396ba75964f1a9ba37caecfb885c1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the latest system updates for you.",
+                                        "fileID": "8293ce72aff949bd92df7e729f11af6d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9afd0ca05f7f4961a0d9c6ea62f5629b",
+                                "navigationGoals": [
+                                    "Check current system uptime and any active service alerts",
+                                    "Can you give me the current system status and any active alerts before I start my deployment?",
+                                    "I want to check the current health status and active alerts for our US-West data integration instance.",
+                                    "Can you tell me if there are any current service outages or alerts?",
+                                    "Check for any system outages or alerts affecting my scheduled data workflows."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2a621c09245a47138100c2067908e51a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f7af37441f324edea9f83f1af3ccb872",
+        "navigationGoals": null
+    },
+    "id": "1d523e62508340a2a466561928dd7531",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Wake, San Francisco's fastest way for designers to share work with their team.",
+            "fileID": "b66115504ca44b929d2debcfc13edcd9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For customer support, press 1.",
+                "fileID": "2b90b5f6691949b884311f245cd19c28",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reset your password, press 1.",
+                            "fileID": "5b5b1713e4034b089901e03f1770c4be",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an agent for password assistance.",
+                                        "fileID": "dfb183a9465f4a7a9aee0ef3e6ef56fe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4265c8be68a0423bb7f386dede758112",
+                                "navigationGoals": [
+                                    "I need to reset my Wake account password right away.",
+                                    "I need to reset my Wake account password\u2014I\u2019ve been locked out since switching devices",
+                                    "Reset my Wake account credentials and re-enable access after a failed MFA attempt",
+                                    "I'm having trouble logging in and need to reset my password.",
+                                    "I need to reset my Wake account password to access my shared files."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries, press 2.",
+                            "fileID": "e6840c3aa20445058e08e534d1c3f13c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "81c7a1a94dae4fc19897c09014705d0d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5e9d85fca4654d868bcea04a07a44a66",
+                                "navigationGoals": [
+                                    "I have a question about a charge on my latest Wake invoice.",
+                                    "I want to review my recent subscription charges and see if a veteran discount can be applied",
+                                    "Update my credit card on file and review my monthly subscription usage charges",
+                                    "I want help understanding a recent charge on my account.",
+                                    "I have a question about my recent subscription charge on Wake."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a02445057388462b9699a5153d708e84",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For information about Wake and its features, press 2.",
+                "fileID": "55071ddfa52b46b7b3e644783896a195",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear about our latest features, press 1.",
+                            "fileID": "773623939ca84435afe6b21198a54915",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we provide details on our latest features.",
+                                        "fileID": "1be2a4fdf65745e19921ad1e6142e10c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a4b02adc57364e8fab905143ba3f3ec6",
+                                "navigationGoals": [
+                                    "Give me a quick overview of Wake\u2019s newest features.",
+                                    "I\u2019d like to learn about Wake\u2019s latest features, especially any offline collaboration tools",
+                                    "Get detailed release notes on Wake\u2019s latest collaboration and design-sharing features",
+                                    "Could you tell me about your most recent features?",
+                                    "Can you tell me about the newest collaboration features in Wake?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a demo, press 2.",
+                            "fileID": "592fff8b6b32400aab319684398a6862",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a Wake specialist to schedule your demo.",
+                                        "fileID": "b81753a798824a67beb42bcb98359c57"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5344a8723fc74a0b9da34956a58e377d",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a demo with a Wake specialist.",
+                                    "I need to schedule a live demo of Wake for my team\u2019s evaluation",
+                                    "Schedule a technical demo to explore Wake\u2019s API integration and enterprise deployment options",
+                                    "I'd like to schedule a demo to learn how to use Wake.",
+                                    "I\u2019d like to schedule a demo of Wake for my research group."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "47b1f6b4f77c4b9c83f5f5e5b14953ce",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "640584c98b9648ceb958f999310611fc",
+        "navigationGoals": null
+    },
+    "id": "afd97cff324247539467a0af345c5da2",
+    "navigationGoals": null
+}

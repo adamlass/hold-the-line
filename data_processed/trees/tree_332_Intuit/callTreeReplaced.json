@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Intuit in South Bay, your trusted partner for financial, accounting, and tax solutions.",
+            "fileID": "e47d948550ec40b794da56bb3352ef62"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For product support and software assistance, press 1.",
+                "fileID": "0ea0e11d3bcd4809958cb764482225e6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For QuickBooks support, press 1.",
+                            "fileID": "0a64eef7b8f340068da5db47ac01fd3b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a QuickBooks specialist.",
+                                        "fileID": "d336fbbabedc48d8bbb6716ea055217a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ba3606c2905941b78ec287e6c81982e6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For TurboTax assistance, press 2.",
+                            "fileID": "25bdf9b5e97c4e86a7e04ca1f826708d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a TurboTax representative.",
+                                        "fileID": "36ad44d6eb4b437397e9fd5b27909c47"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "29684f6004d34079a277744898eee150",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4ef846babd684b569a05170cea8dd842",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For billing inquiries and account management, press 2.",
+                "fileID": "5d4f8fa8910c4b66b0d983d33ca09746",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing questions, press 1.",
+                            "fileID": "665202f4a9cb450f9dc87fc967fed955",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "27d10f5a95f24d71a8b0c33919a8253c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6a1740909ebc49568a5e81c7c49afbac",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For subscription changes and upgrades, press 2.",
+                            "fileID": "1494e069fbae4933a8ed4e930f7fc4bc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account services for subscription updates.",
+                                        "fileID": "3bfed078f38f4cf4af573239d0b80abd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9fe83f08769947329d5b0bfd48aa022c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d68f534c96214cbc88124656a5bd4205",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "48418606fb244191af9e8b1dfbeb9d3e",
+        "navigationGoals": null
+    },
+    "id": "72ce669479d14cf8aaec242fa946d6c3",
+    "navigationGoals": null
+}

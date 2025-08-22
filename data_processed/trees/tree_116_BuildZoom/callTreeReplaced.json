@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling BuildZoom in San Francisco, your free resource for finding trusted contractors.",
+            "fileID": "987c59ca5c0147019b073d3455793941"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To inquire about hiring a contractor for your project, press 1.",
+                "fileID": "008231b897314e27a263e7da8c16461d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a live advisor about selecting the right contractor, press 1.",
+                            "fileID": "085dd5308499439fa5f3c7a7b575ac5e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold and we will connect you with a project specialist shortly.",
+                                        "fileID": "e0f8a955448348e2bc9d847608b80abb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fd9f7bcc052647f8b00acc6242e65b67",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For assistance with an existing project quote, press 2.",
+                            "fileID": "e96771e567d447e4995ab68b600dff6d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we retrieve your quote details.",
+                                        "fileID": "30f307666e14449fb715008e915fb1cd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3fa4d02d551a41ecaba81a2a4e40ef89",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d40aa1cdcf8d426bb01c4def4ecb0abd",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you\u2019re an experienced contractor and want to join BuildZoom, press 2.",
+                "fileID": "c5a0f3e3221d407b95b42e886e80d06e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn how to partner with BuildZoom as a contractor, press 1.",
+                            "fileID": "564a243b3f5c48c981fddc9dcc963728",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our contractor onboarding team.",
+                                        "fileID": "9978a39dd2b54ee4827636083b36b790"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d0a9ee2f323a45d2bc77f5ce73760c3f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For help with your contractor account or profile, press 2.",
+                            "fileID": "6c010e7f22384b978fe6b1b426379cd0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Connecting you to contractor support. Please hold.",
+                                        "fileID": "7b354a2fd6ba4ab1ae56dab9d03f6662"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b334dc4a5aaf429aa7c3fb16dbdfeec1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "02b77c8ec2f747928cf37a51d221dc39",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "47290885694547b38a42b3b365fdda47",
+        "navigationGoals": null
+    },
+    "id": "0def7e2a65d64422acf30ab7bd50e9f6",
+    "navigationGoals": null
+}

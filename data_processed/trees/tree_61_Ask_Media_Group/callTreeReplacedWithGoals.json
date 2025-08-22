@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Ask Media Group in the East Bay, where we build digital experiences that educate and inform millions every day.",
+            "fileID": "e4148878fc654494a7dd194907605fbb"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For advertising solutions and sponsorship opportunities, press 1.",
+                "fileID": "ee4428f6e08f4a49a7477121376d64c1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our brand advertising packages, press 1.",
+                            "fileID": "0ad0b56dd1014085ad519c7c8c5631c7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a specialist in brand advertising.",
+                                        "fileID": "ce9e0b61b5154b27b56b221fa3eedbfe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2572887baadd430aa145fb8a74c16d84",
+                                "navigationGoals": [
+                                    "Get pricing and feature details for brand advertising packages.",
+                                    "I\u2019d like details on brand advertising packages to promote my veteran outreach program.",
+                                    "I need the detailed media kit and audience segmentation analytics for your brand advertising packages, including integration guidelines.",
+                                    "I need someone to explain your brand advertising packages and help me choose the right one.",
+                                    "I\u2019d like to discuss brand advertising options to promote my physics blog to a broader audience."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To explore sponsored content partnerships, press 2.",
+                            "fileID": "6cd75fc773974ff3ba0e1ff24a6c7123",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sponsored content team.",
+                                        "fileID": "efc55c609ee24ca49a83f917a747b2b8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bfe61e0a2e524da8b147c10c3bb80d5c",
+                                "navigationGoals": [
+                                    "Discuss options for a sponsored content partnership.",
+                                    "I\u2019m interested in developing a sponsored content campaign to share veterans\u2019 stories.",
+                                    "I'd like to discuss a sponsored content partnership, specifically workflow integration, CMS plugins, and performance metrics.",
+                                    "I want to discuss a sponsored content partnership to promote my small business.",
+                                    "I\u2019m interested in sponsoring an educational content series to feature my physics experiment write-ups."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ca37cb4e76504918a724f77f08b00678",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For B2B software demonstrations and support services, press 2.",
+                "fileID": "47130c3b890f46f68482836e5c288b0f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a demo of our platform, press 1.",
+                            "fileID": "4aa404cc14e548baa1a9204f81d446f6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a platform demonstration specialist.",
+                                        "fileID": "c698c312ccc6486d87f3787fb7e2c9d2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1000c52eb4a64080aa14c50b1455c119",
+                                "navigationGoals": [
+                                    "Schedule a quick demo of the B2B platform.",
+                                    "I need to schedule a demo of your ad management platform for my nonprofit organization.",
+                                    "I want to schedule a technical demo of your B2B platform, focusing on API endpoints, integration workflows, and dashboard features.",
+                                    "I'd like to schedule a live demonstration of your platform so I can see how it works.",
+                                    "I want to schedule a demo of your platform to see if it can help organize my physics lab group work."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support or service inquiries, press 2.",
+                            "fileID": "69852c30bbc94f2896f2a33115783db5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "3c768eaa4eae42f99d5355a857e9e629"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "756536b0bd2541e7bbf7fe76db59e12b",
+                                "navigationGoals": [
+                                    "Troubleshoot a technical issue with the software service.",
+                                    "I\u2019m having trouble logging into the platform and need technical support.",
+                                    "I'm experiencing an API authentication error with your SDK and need technical support to troubleshoot the OAuth handshake.",
+                                    "I'm having trouble with the software and need to speak with technical support.",
+                                    "I need technical support troubleshooting the software tools I\u2019m using for my quantum mechanics simulations."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "579e6fb546ef4134820690a5486c937c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "89c8df37c5594a7d94d6e5a8c165639f",
+        "navigationGoals": null
+    },
+    "id": "2e2c9e2b4ad546a3b88bcf870f92e263",
+    "navigationGoals": null
+}

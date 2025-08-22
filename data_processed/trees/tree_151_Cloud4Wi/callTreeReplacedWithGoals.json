@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Cloud4Wi in San Francisco, where we empower enterprises with advanced visitor engagement and networking solutions.",
+            "fileID": "686c083240ad448085aeda46dc518ffa"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support with your Cloud4Wi platform, press 1.",
+                "fileID": "843a91d9c2f34669a595dca51a69a232",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help installing or configuring our enterprise solutions, press 1.",
+                            "fileID": "ebf86603144a401c831b66cef97596fd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "cab4ff0c50334a7cb4114262efebf40d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0fe29bd5b3c74b91b7dce5fd4d14e6f9",
+                                "navigationGoals": [
+                                    "Help me install and configure Cloud4Wi on our corporate network.",
+                                    "Help me set up admin and user access levels on my Cloud4Wi platform for my veteran support team",
+                                    "I need assistance configuring the Cloud4Wi enterprise solution and integrating its SDK into our network.",
+                                    "I\u2019m not very tech-savvy and need help setting up the Wi-Fi system at my senior center.",
+                                    "Help me set up the Cloud4Wi platform on our lab network for tracking experiment visitors."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For troubleshooting connectivity or analytics concerns, press 2.",
+                            "fileID": "adc68a5fafa7463fb2e3eed590f5648f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we are connecting you to our troubleshooting specialists.",
+                                        "fileID": "a08d18c932304057b789bf99a714af07"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5ab3dfc7a6a749e6bebb50319c194ebd",
+                                "navigationGoals": [
+                                    "Troubleshoot intermittent Wi-Fi connectivity and missing analytics data.",
+                                    "Troubleshoot why our Wi-Fi analytics dashboard isn't showing attendee data from the veteran workshop",
+                                    "I want to troubleshoot connectivity drops and analytics data inconsistencies in my Cloud4Wi platform.",
+                                    "My guest network keeps dropping connections and I can\u2019t make sense of the usage stats\u2014could you help me troubleshoot?",
+                                    "I\u2019m getting intermittent Wi-Fi drops on our Cloud4Wi sensors in the physics department; can you troubleshoot?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "68b309d528f04cc180bf89fb67322145",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and product information, press 2.",
+                "fileID": "9c43312ef225413e9d79efc07fe83770",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our guest engagement and analytics suite, press 1.",
+                            "fileID": "fba2fb1c7a754326b44ef199fff367f3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a sales consultant.",
+                                        "fileID": "d77aea3c42754c268d371d850f029368"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7167359cf056492495c8a014898114b9",
+                                "navigationGoals": [
+                                    "Provide details and pricing for your guest engagement and analytics suite.",
+                                    "Get pricing and feature details for the guest engagement and analytics suite for our upcoming veteran career fair",
+                                    "I need a technical briefing on the guest engagement and analytics suite features and licensing models.",
+                                    "I\u2019d like to understand how your guest engagement tools and dashboards work before I decide.",
+                                    "Can you walk me through the features and pricing of your guest engagement analytics for university labs?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss custom enterprise networking integrations, press 2.",
+                            "fileID": "9060d86dde95429b85a1a041d5402153",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for holding. A networking integration specialist will be with you shortly.",
+                                        "fileID": "1e3804ea423f4526a934f56b6339a823"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f05d5269c22242338ba1395e60a0350d",
+                                "navigationGoals": [
+                                    "Discuss custom integration options for Cloud4Wi with our enterprise networking infrastructure.",
+                                    "Discuss integrating Cloud4Wi with our DoD CAC badge system for secure Wi-Fi at the veteran transition center",
+                                    "I\u2019d like to discuss custom RADIUS and API integrations for our enterprise network.",
+                                    "I need information on integrating your solution with our building\u2019s existing network, as I\u2019m unfamiliar with the process.",
+                                    "I need to discuss integrating Cloud4Wi with our campus RADIUS authentication system."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a91a3811c0704376b0f6662a3282542b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2b3e9da19398430290e570fbc4c33a87",
+        "navigationGoals": null
+    },
+    "id": "b454c854695847f780c50a8bc681f4ae",
+    "navigationGoals": null
+}

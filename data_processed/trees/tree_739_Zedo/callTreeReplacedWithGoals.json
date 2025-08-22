@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Zedo in San Francisco, your partner for premium high-impact advertising with ZINC.",
+            "fileID": "d7622c7b5b2746afb32826d659d304c9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our high-impact ZINC ad formats and sales inquiries, press 1.",
+                "fileID": "ccd90b8254f64a87ad6dd5c4483ed1a2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new client onboarding and package setup, press 1.",
+                            "fileID": "e4196c2214974af0be46a6c397d4aa08",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our client onboarding team.",
+                                        "fileID": "3a561639799540f494cad8e66e84e126"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "041e46f147f84dc68efdf8823deeb2e4",
+                                "navigationGoals": [
+                                    "Set up my new ZINC advertising package and get started immediately",
+                                    "I\u2019m a veteran-run startup and want help getting set up with my first ZINC advertising package.",
+                                    "I need guidance on integrating the ZINC API and configuring my new ad package.",
+                                    "I\u2019m not very good with this; please help me set up my new advertising package.",
+                                    "I want to onboard a new ZINC ad campaign to promote our university physics seminar series."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries and account management, press 2.",
+                            "fileID": "8c53f679e365479895f0a8394c042586",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the billing department.",
+                                        "fileID": "397dd5c2e98049ae9a0901a12426cf51"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64168e57121e46c8b18eae5f2464084b",
+                                "navigationGoals": [
+                                    "Review and correct a recent invoice and update my payment method",
+                                    "I need to check my billing statement and update my payment info for my ad account.",
+                                    "I need to download my latest billing CSV and update my payment method for my Zedo account.",
+                                    "I don\u2019t understand my latest bill; could you help explain the charges?",
+                                    "I need help resolving a billing discrepancy on my ZINC advertising account invoice."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "109e747b1ac14d20991999ade70896e1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and campaign assistance, press 2.",
+                "fileID": "b13a2c5a73b84b1ba1c3df7e3004c195",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical implementation and troubleshooting, press 1.",
+                            "fileID": "2e1a1230b77a48d891f23137a4192722",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support specialists.",
+                                        "fileID": "95c99091e7a94aabb3f8afeb4b0bdde2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c96897e86d0d4742a08627717d9eb12b",
+                                "navigationGoals": [
+                                    "Troubleshoot integration errors with my ZINC ad implementation",
+                                    "My ad integration isn\u2019t working; I need technical support to troubleshoot the implementation.",
+                                    "I need assistance troubleshooting our header-bidding tags and resolving ad load errors.",
+                                    "I\u2019m having trouble installing the ad code on my site; can you guide me through it?",
+                                    "I\u2019m having trouble integrating the ZINC ad code into our lab\u2019s website and need technical implementation assistance."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For campaign performance reports and analytics support, press 2.",
+                            "fileID": "877c9526c7d04c409b525bd2b9cb2a31",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our campaign reporting team.",
+                                        "fileID": "39d41b5009534bbc8d83006d8f7691c0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "011ab94b03b74e58a78d6feb4eb9e15d",
+                                "navigationGoals": [
+                                    "Obtain detailed performance analytics for my active campaign",
+                                    "I need a performance report and analytics breakdown for my current campaign.",
+                                    "I need to pull campaign analytics, export CTR and impression metrics, and set up automated dashboards.",
+                                    "I\u2019d like help reviewing my campaign results; I\u2019m not sure how to read the report.",
+                                    "I\u2019d like to obtain detailed performance analytics for my latest ZINC ad campaign."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e9dbc2eebee24964b5d5358f293f0479",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1c1423f8c21542e99a3ef085a29764d5",
+        "navigationGoals": null
+    },
+    "id": "66c463b3dda841379a8210dd60a68df8",
+    "navigationGoals": null
+}

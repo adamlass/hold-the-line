@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Redpoint Ventures in San Francisco, where we invest in people.",
+            "fileID": "04fa68ce24c043c992fc6f7fc08eb5df"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our investment team, press 1.",
+                "fileID": "0ee954a3ac544dc7823b1aa49f745b35",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For existing partners, press 1.",
+                            "fileID": "5bebdfb6c068489980395df22b171295",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your partner representative.",
+                                        "fileID": "bb807f6aa33c48ea9e0900246663f956"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d60f19ad81b34e368a5b505f14ef1134",
+                                "navigationGoals": [
+                                    "Connect me with my partner representative for an update on my investment.",
+                                    "I\u2019m an existing partner and need to discuss our ongoing investment with my Redpoint representative.",
+                                    "I need to discuss our quarterly LP reporting dashboard metrics with my partner rep.",
+                                    "I need to speak with my partner representative about my existing investment.",
+                                    "I\u2019m an existing Redpoint portfolio founder and need to check the status of our next funding disbursement."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For founders seeking funding, press 2.",
+                            "fileID": "3bebc1572cd84d398391a53c7b7c2105",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our investment team.",
+                                        "fileID": "2fde1b7178e94a28be87cdd90373cf55"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "58120cbf9ed640a087a48294a35729a1",
+                                "navigationGoals": [
+                                    "Discuss funding options for my startup with the investment team.",
+                                    "I\u2019m a veteran founder seeking funding and want to speak to the investment team about my startup.",
+                                    "I\u2019d like to schedule a pitch meeting to review Series A funding terms.",
+                                    "I\u2019d like to talk to the investment team about applying for funding.",
+                                    "I\u2019m launching a physics-based tech startup and would like to speak with someone about seed funding opportunities."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6ac3c01af1994d4586b36cd575cbcc3e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For information about Redpoint Ventures, press 2.",
+                "fileID": "6cf69a068f504b1190200ffe0c05df1f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our portfolio companies, press 1.",
+                            "fileID": "3819e5b3148441d99a9a7c1bb90c6d96",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our portfolio highlights.",
+                                        "fileID": "0e473c0932aa4700a14cae303f272eaa"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fa4244dfd2e44661a24f9583a4389ca7",
+                                "navigationGoals": [
+                                    "Get a summary of Redpoint Ventures' portfolio companies.",
+                                    "I want to get details on Redpoint Ventures\u2019 portfolio companies.",
+                                    "I\u2019m looking for a detailed list of your AI and blockchain portfolio companies and their performance metrics.",
+                                    "I want information on the companies in your investment portfolio.",
+                                    "I\u2019d like to learn which Redpoint portfolio companies are working in photonics and quantum materials."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For press and media inquiries, press 2.",
+                            "fileID": "691f3f96e21f4054a24627ae098b9be9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our media relations department.",
+                                        "fileID": "bb4da41df0e64a1c8504eb0835dcc287"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bc79ae863a814a799ae45e120ed1eadb",
+                                "navigationGoals": [
+                                    "Request media materials from Redpoint's media relations department.",
+                                    "I have a press inquiry and need to connect with your media relations department.",
+                                    "I need to request the latest media kit and high-res logos for an upcoming press article.",
+                                    "I need to contact your media relations department about a press inquiry.",
+                                    "I\u2019m writing a campus publication and need to request a press kit or arrange an interview with your media relations team."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "81278666fd624ffaa8e1c3ebf110f9ce",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c7ebb8627b6f453b8f5a1452dfe3c06a",
+        "navigationGoals": null
+    },
+    "id": "e29e3b426ab84cf89a5f40e895d7f375",
+    "navigationGoals": null
+}

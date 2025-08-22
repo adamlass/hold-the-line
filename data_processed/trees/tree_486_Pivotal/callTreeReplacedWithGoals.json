@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Pivotal in San Francisco, where leading companies build and run their most important applications.",
+            "fileID": "bbbf60e8c6a444d1935cb93ac3d677de"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For platform solutions and sales, press 1.",
+                "fileID": "4ba118931b2042d1bfa71a359d0d10b3",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing and licensing information, press 1.",
+                            "fileID": "f8a12e6fa2b84b5aa5e58b73d013da7a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a platform specialist.",
+                                        "fileID": "e1f5c054835d409a80e88fa88c0a5243"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "84f5fc70405d4a289ad3185c9b233da1",
+                                "navigationGoals": [
+                                    "I need to quickly review Pivotal platform pricing and licensing options.",
+                                    "I\u2019d like details on licensing costs and any veteran discounts for your platform.",
+                                    "I need detailed pricing info on enterprise licensing tiers for Pivotal Platform.",
+                                    "I need to review pricing and licensing details for your platform solutions.",
+                                    "I\u2019d like to get details on licensing and pricing options for using your platform in my academic research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For a technical product demo, press 2.",
+                            "fileID": "7039258045544de689cd3a57d7c87bd2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a demo engineer.",
+                                        "fileID": "e007da90f0bf4f8aa352e33ae8d5161c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f8be1671f43f42629c0ad659cc1a0a7c",
+                                "navigationGoals": [
+                                    "I want to schedule a technical walkthrough of the Pivotal platform.",
+                                    "I want to schedule a technical demo to see how your platform handles my applications.",
+                                    "I want to schedule a technical demo of Pivotal's container orchestration and microservices features.",
+                                    "I'd like to arrange a simple, guided technical product demo of your software.",
+                                    "I want to schedule a technical demo to see how your platform handles containerized physics simulations."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3f406d95ce2840f88f0fdd868cad02a9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and services, press 2.",
+                "fileID": "67b5851982a9442183c2bd9c64d73ddd",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For troubleshooting assistance, press 1.",
+                            "fileID": "e09ea74c8b0c4351bb1231e4fd52ae7b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line while our support team retrieves your account information.",
+                                        "fileID": "f244ca9be2c947acbfb5231683e6afdc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6ba0747e070e47dc83e5172482cf115d",
+                                "navigationGoals": [
+                                    "I need immediate troubleshooting support for my Pivotal account issue.",
+                                    "I need help troubleshooting access issues with my account.",
+                                    "I'm encountering a 502 gateway error in my Cloud Foundry deployment and need troubleshooting assistance.",
+                                    "I'm having trouble with my account and need step-by-step troubleshooting support.",
+                                    "I need assistance resolving an error I\u2019m encountering on my trial account."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For training resources and workshops, press 2.",
+                            "fileID": "5c60c56a21ee4cbbb62bf1f3eb76bc90",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we are connecting you to our training specialists.",
+                                        "fileID": "dd06e98226d242e18fedce95c216d190"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ab0c9c365b8e437983ad7fa3f2f89267",
+                                "navigationGoals": [
+                                    "I\u2019d like details on upcoming training workshops and how to enroll.",
+                                    "I\u2019m looking for training resources or workshops on using your platform.",
+                                    "I\u2019d like to enroll in an advanced Pivotal Platform training workshop on Kubernetes integration.",
+                                    "I want information on beginner-friendly training workshops and resources.",
+                                    "I\u2019m looking for workshops or tutorials to learn how to deploy workloads on your platform."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "806d1e73da9d4085800f87f7dfdeb237",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3c4acc84dce14361838cf279e497fec1",
+        "navigationGoals": null
+    },
+    "id": "a927c83fe5e944a69afeb0ad57433227",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Pantheon in San Francisco, where marketers and developers build, host, and manage powerful websites.",
+            "fileID": "91170855b5e64bb4892d915886d67809"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For marketing and site management support, press 1.",
+                "fileID": "3100e56d5e3a42d9a68370f527298748",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To get help with account onboarding and platform training, press 1.",
+                            "fileID": "ed8ca6c73d0f495790b51f08853fe3e2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our onboarding and training team.",
+                                        "fileID": "c8f5f5541a2147d0b8d856936613d7f8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bf01a100549a4d4b9e746e66a4cba794",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with performance optimization and analytics specialists, press 2.",
+                            "fileID": "5ae8cbc5782647c382142216ca30f08f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our performance and analytics team.",
+                                        "fileID": "8ac0eb2220e3427393995a0ee54f11c0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fb19a8e5c93248248610c98ccebee757",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f8d6f296ec5d4f5a9645b30062d797dd",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For developer tools, APIs, and hosting support, press 2.",
+                "fileID": "39995fdfcef94304b63507ef57d75100",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For API and integration assistance, press 1.",
+                            "fileID": "e3e8e864629741bea9e79d23faaf95ed",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our API and integrations experts.",
+                                        "fileID": "9deaa03259044aa8aa4d06b7182de05b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ef6eedb1d2cf46c3b0695c1c6c8c1abc",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For hosting infrastructure and scaling support, press 2.",
+                            "fileID": "2a4edeee49034b36933e46cd94ed7dc5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our infrastructure support team.",
+                                        "fileID": "f2a04b6220eb469cbd922eba4d1773d9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6f933086367d444b8e35fa0a955fb8c4",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9ae3071166ea4588a22707d013786214",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e0ebcb552735404bb3998cb233b29613",
+        "navigationGoals": null
+    },
+    "id": "54ad925ae4d742a48dfedb2ce4eab1bd",
+    "navigationGoals": null
+}

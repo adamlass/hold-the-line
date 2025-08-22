@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Adyen in San Francisco, the fintech partner helping you accept payments everywhere.",
+            "fileID": "11d7349cbdcd46dca661a9c4af2ce725"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For existing merchant support, press 1.",
+                "fileID": "71a6ee525f8a4e4d94c3d547dfd7c110",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "68d671090f674381bc21f595d414c85d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "5ab3b60fcf1f415bbcc2788723df0706"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1a226db77e56439f8d0ac2c756406446",
+                                "navigationGoals": [
+                                    "Resolve the \u2018error code 105\u2019 I\u2019m seeing in my payment API integration ASAP",
+                                    "I need help troubleshooting my payment terminal that stopped processing transactions at my veteran-owned store.",
+                                    "I need help debugging my payment integration using Adyen\u2019s API; I\u2019m getting HTTP 500 errors on transaction calls.",
+                                    "Help me troubleshoot my card reader at checkout.",
+                                    "I need help debugging API integration errors for my payment flow."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "3eab5501efe840c8a5d58f87573b8abc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing team.",
+                                        "fileID": "12806b43040b4ce8a12a31228dabab87"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "30be9079008643bebdf9ce530654465c",
+                                "navigationGoals": [
+                                    "Obtain my latest invoice and correct the unexpected charge on it",
+                                    "I want to clarify an unexpected charge on my merchant account invoice for my small business.",
+                                    "I want to reconcile my monthly settlement report and update the billing details on my merchant account.",
+                                    "I need help understanding my recent billing statement.",
+                                    "I want to review and understand my latest invoice and fee breakdown."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f4d820ebc17c4dc99b696f387cef6469",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For new business and sales, press 2.",
+                "fileID": "69c1ca4b9efd4b7abd3b5b87b88fd277",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing and plans information, press 1.",
+                            "fileID": "9743af83ff724c159b9547f37265b243",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for pricing details.",
+                                        "fileID": "9606b03870b74c71a556785de66edb71"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "15028bbd029a46778ecadc077cad34c9",
+                                "navigationGoals": [
+                                    "Compare Adyen\u2019s transaction fee tiers and volume discounts for our expected volume",
+                                    "I\u2019m looking for detailed pricing on transaction fees and plans before switching my veteran-run caf\u00e9 to your platform.",
+                                    "I\u2019m evaluating Adyen\u2019s usage pricing and tiered fees for high-volume API transactions.",
+                                    "Provide details on your service pricing for a small business.",
+                                    "I\u2019d like to learn about your pricing plans and volume discount structure."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a live demo of our platform, press 2.",
+                            "fileID": "b23c5ce3741b4787a4a18a29d2a354a8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we schedule your demo with a solutions specialist.",
+                                        "fileID": "a2bacfffd17d49649939a40e64427a29"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9a97aee598b04846b97cd61997c3073a",
+                                "navigationGoals": [
+                                    "Book a live walkthrough of the Adyen platform next Tuesday morning",
+                                    "I\u2019d like to schedule a live demo to see how your payment solution could support my veteran-focused nonprofit.",
+                                    "I\u2019d like to book a live walkthrough of the Adyen platform with a focus on API endpoints and integration best practices.",
+                                    "Schedule a live demo to see how your payment system works.",
+                                    "I\u2019d like to schedule a live demo to see how the platform works."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "299f27af7246485882f2f9998ada8aec",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "66ec03f3fe6045a5b5936eace9de83c7",
+        "navigationGoals": null
+    },
+    "id": "aa1d647429e245538313716297e380ed",
+    "navigationGoals": null
+}

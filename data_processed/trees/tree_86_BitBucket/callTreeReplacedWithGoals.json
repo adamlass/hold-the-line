@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to BitBucket in San Francisco, your hub for collaborating on code, managing Git repositories, and building software as a team.",
+            "fileID": "ea80cdb306aa422aa11044597d7995e2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For repository management and code collaboration support, press 1.",
+                "fileID": "5ec6bae990494b34a4ec05c4fe7efb90",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with pull requests and inline code comments, press 1.",
+                            "fileID": "ae4b51241fdf4176a3d685bfe38886e6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a code collaboration specialist.",
+                                        "fileID": "d3cde00d8bf149b1b21f026362345ffd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "953fd8aeaece4556863be5596eaaf5c7",
+                                "navigationGoals": [
+                                    "Get detailed feedback on my open pull request and resolve inline comments quickly",
+                                    "As a veteran new to code collaboration, I\u2019m trying to view and address inline comments on my pull request.",
+                                    "I need help resolving merge conflicts in my pull request and adding inline code review comments on my API changes.",
+                                    "I need help understanding how to add comments to a pull request in my repository.",
+                                    "I\u2019d like help reviewing and leaving inline comments on a pull request for my physics simulation code."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For assistance with repository creation, permissions, and branches, press 2.",
+                            "fileID": "51e01ab831bd4743a7f01fc11d806f91",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a repository configuration expert.",
+                                        "fileID": "3528c09401234d09b93a3572dd67b8de"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "260708dc86df406d9d916747e136af96",
+                                "navigationGoals": [
+                                    "Set up a new repository for my project, configure branch protections, and grant team access",
+                                    "As a former service member building my first project, I need to set up a new repository with branch protections and user permissions.",
+                                    "I want to create a new Git repository for my microservice, set up branch protection rules, and assign write permissions to my dev team.",
+                                    "I want guidance on creating a new repository and setting permissions for my team.",
+                                    "I\u2019d like to create a new repository with branches and grant access to my study group for our quantum mechanics project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "84a4299008e94767ac6a03533f09da36",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account, billing, and security settings, press 2.",
+                "fileID": "2edeff4c54b04521a40f141edbcab51c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing inquiries and subscription plans, press 1.",
+                            "fileID": "b7df2540ae574de0b70d23a59709b5c2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing support team.",
+                                        "fileID": "86d3d403720041c9991551ffe75ef084"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f8d9c89ae767490eb04a53c4e1c95ef9",
+                                "navigationGoals": [
+                                    "Review my current subscription charges and upgrade to the premium plan before the next billing cycle",
+                                    "I\u2019m a recent veteran user and need help understanding my team\u2019s subscription billing and plan upgrade options.",
+                                    "I\u2019d like to upgrade to the Standard subscription plan, update my payment method, and understand our seat-based billing costs.",
+                                    "I have a question about my subscription charges and billing plan.",
+                                    "I need to review my subscription options and billing details for our student team plan."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account security, user access, and profile settings, press 2.",
+                            "fileID": "37222c49a55642639dd68aeee9dbe6ee",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account security support.",
+                                        "fileID": "58666026776841ae95f7b22fe23af68f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8395e861a557426d910e2c48eb75665f",
+                                "navigationGoals": [
+                                    "Enable two-factor authentication on my account and audit user access permissions for my team",
+                                    "As an ex-military professional securing my tools, I want to enable two-factor authentication and manage team access.",
+                                    "I need to enable SAML single-sign-on for my organization and configure two-factor authentication for user accounts.",
+                                    "I need assistance updating my account security settings and managing user access.",
+                                    "I need to enable two-factor authentication and adjust user access settings for my BitBucket account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0d18df96492a4ad89e9719c5ec545010",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "11c96c1a6bdd44e5b31851666e880c3e",
+        "navigationGoals": null
+    },
+    "id": "a4bc3436b9f7404a87cc4f4156bece0a",
+    "navigationGoals": null
+}

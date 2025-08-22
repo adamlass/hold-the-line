@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Deepnote in San Francisco, the easiest way to publish your Jupyter notebooks.",
+            "fileID": "fe17f931d214452080b97c048e86de7f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new business inquiries and to schedule a product demo, press 1.",
+                "fileID": "f98b9e1a05824a71a987e60018cdab36",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales specialist, press 1.",
+                            "fileID": "c887c52419744c4883fdb64b946242cb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to a sales specialist.",
+                                        "fileID": "c3f10771f6ff4ec1903e5fff6a7cad62"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "55c21463d52d470cab69df31918a6d7e",
+                                "navigationGoals": [
+                                    "I need to schedule a product demo to evaluate Deepnote for my team.",
+                                    "Schedule a Deepnote product demo so I can learn to showcase my data analysis skills for my civilian career transition.",
+                                    "I need to schedule a product demo focused on Deepnote\u2019s API integration and real-time Jupyter collaboration features.",
+                                    "I\u2019d like to schedule a product demo to see how Deepnote works for me.",
+                                    "I want to schedule a Deepnote demo to evaluate its features for my physics coursework collaborations."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about pricing and subscription plans, press 2.",
+                            "fileID": "44757bfc31ff4c05adef02a132cc9e55",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our pricing team.",
+                                        "fileID": "15c6106a96ae42079cd40d5310562731"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "36afc3f8681540bc934e440b209aa6bd",
+                                "navigationGoals": [
+                                    "I want detailed pricing and subscription options to finalize our budget.",
+                                    "Ask about Deepnote subscription tiers and whether I qualify for a veteran discount.",
+                                    "I want to understand Deepnote\u2019s subscription tiers, usage-based billing and enterprise seat licensing costs.",
+                                    "I need to learn about your subscription plans and pricing.",
+                                    "I'm looking for information on Deepnote\u2019s subscription plans and academic discounts for students."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8d731fc2d4b14c2aa527fd530141017f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support or account assistance, press 2.",
+                "fileID": "4671c6ba6bef429c8255fc3d8ac12a7b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with your Jupyter notebooks or publishing workflow, press 1.",
+                            "fileID": "d1d5ceb112e441e78b5684b8d848c037",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to a technical support engineer.",
+                                        "fileID": "e7750c07571e44e7bc5a83a4b6977108"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1a0ff0b946ad4c3ca93e65919ba71153",
+                                "navigationGoals": [
+                                    "I need help troubleshooting an error in my Jupyter notebook publishing workflow.",
+                                    "Troubleshoot my Jupyter notebook publishing error when linking to external datasets.",
+                                    "I need help troubleshooting my notebook publishing pipeline\u2014kernel errors and container deployment in Deepnote.",
+                                    "I\u2019m having trouble publishing my Jupyter notebook and need help with the workflow.",
+                                    "I need technical help debugging a publishing error in my Jupyter notebook on Deepnote."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "f53b0fd077614f63a3b6f1750963fec0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our billing department.",
+                                        "fileID": "b97ba016ae214359a1908f4612873866"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a709f70739e84dca9d357ddfa69a751f",
+                                "navigationGoals": [
+                                    "I need to review my billing statement and update my payment method.",
+                                    "Obtain my latest billing invoice and update my credit card on file.",
+                                    "I need to update my billing method, retrieve past invoices and adjust seat counts on my Deepnote account.",
+                                    "I want to review my billing and update my payment information.",
+                                    "I have a question about a recent charge on my Deepnote billing statement."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b70b067fe53a4bc1b2121001087c7ce0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7e3205e4fff040159332ed754111047a",
+        "navigationGoals": null
+    },
+    "id": "05775d345ecc4bf4a29abdef7a48624a",
+    "navigationGoals": null
+}

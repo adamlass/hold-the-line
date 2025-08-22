@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#SBATCH --job-name=whisper-titans-setup     # Job name
+#SBATCH --output=slurm-jobs/job.%j.out      # Name of output file (%j expands to jobId)
+#SBATCH --cpus-per-task=2                   # Schedule 8 cores (includes hyperthreading)
+#SBATCH --gres=gpu
+#SBATCH --time=24:00:00                     # Run time (hh:mm:ss) - run for one hour max
+#SBATCH --partition=scavenge                # Run on GPU queue
+
+echo "Running on $(hostname):"
+nvidia-smi
+
+poetry install
+
+poetry env list
+
+echo "Running script"
+poetry run python src/whisper_titans/__init__.py 

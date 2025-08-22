@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to HotelTonight, your go-to marketplace for last-minute hotel deals in San Francisco and beyond.",
+            "fileID": "40b0a3171ba84e1db8dc67797a90cbf7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For reservations and bookings, press 1.",
+                "fileID": "6a9a1110e383404fab929452748dc3ed",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To book a new reservation, press 1.",
+                            "fileID": "b81ab0b022914433bee2c6dfb46f1e24",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our reservations team.",
+                                        "fileID": "b531202a8c834aee8d31e858ffe688f8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cbe512d46e04434bb436c55890abae3f",
+                                "navigationGoals": [
+                                    "I need to book a last-minute hotel room in San Francisco for tonight.",
+                                    "I\u2019d like to book a last-minute hotel in San Francisco for next Friday and apply my veteran discount.",
+                                    "I want to provision a last-minute room in San Francisco by initiating a new booking transaction.",
+                                    "I need help booking a last-minute hotel room for tonight in San Francisco.",
+                                    "I\u2019d like to reserve a last-minute hotel room in San Francisco for a research symposium next week."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To modify or cancel an existing reservation, press 2.",
+                            "fileID": "555529606c134d7294be50768c3d8d63",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we\u2019re transferring you to reservations modifications.",
+                                        "fileID": "57c2e514895f42b08136f7afa0815244"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "949eee03ba02456a811a4768a466659f",
+                                "navigationGoals": [
+                                    "I\u2019d like to modify the dates on my existing HotelTonight reservation.",
+                                    "I need to change the check-out date on my current reservation from July 22 to July 25.",
+                                    "I need to alter the parameters of my existing reservation, like adjusting the check-in date.",
+                                    "I\u2019d like to modify the dates on my existing reservation.",
+                                    "I need to change the dates on my existing reservation for my upcoming San Francisco internship."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "013356e467554cb59d71809e28536f1e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, press 2.",
+                "fileID": "bb51688e976348eebac7ae52d85997d9",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For app and technical support, press 1.",
+                            "fileID": "1401b322392e459498470200951cb3a1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with technical support.",
+                                        "fileID": "94faab58bcb1480dbbad7237dc2bc6a7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "34d7d88c6c4344a2885cb8213412afba",
+                                "navigationGoals": [
+                                    "My HotelTonight app keeps crashing when I search\u2014please connect me to technical support.",
+                                    "I\u2019m unable to log into the HotelTonight app with my account and need help accessing my bookings.",
+                                    "I\u2019m hitting an HTTP 500 error in the iOS app during booking and need debugging assistance.",
+                                    "The app isn\u2019t loading my bookings, could you assist me?",
+                                    "I\u2019m experiencing an app crash when applying filters and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and payment inquiries, press 2.",
+                            "fileID": "57a11f6c70674331942fbdbedc394c40",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we\u2019re connecting you to billing support.",
+                                        "fileID": "4e79aa4cfd074dac88606f68e4c46f72"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f7d809b6afcc492ab18a0576ecb1aeb9",
+                                "navigationGoals": [
+                                    "I see an unexpected charge on my bill and need help resolving it with billing.",
+                                    "I want to dispute a charge for my recent stay and confirm the price breakdown, including my veteran discount.",
+                                    "I need to reconcile and audit a duplicate payment transaction on my last invoice.",
+                                    "I have a question about a charge on my hotel bill.",
+                                    "I have a billing question about a charge from my last HotelTonight stay."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f110ea2426f44cf09f7516ae82f33e64",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bd9fafb266b640e18d61fbb9aba08a71",
+        "navigationGoals": null
+    },
+    "id": "45f06d7cf0384ec4bb16253e58578f1c",
+    "navigationGoals": null
+}

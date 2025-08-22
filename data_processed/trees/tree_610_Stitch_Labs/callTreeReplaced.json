@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Hello and thank you for calling Stitch Labs, your San Francisco partner for scalable inventory management for high-growth e-commerce brands.",
+            "fileID": "f48d4d3e123e4a55a08ca6dfe42d70b4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for customer support.",
+                "fileID": "4ad077f1a24f419aa2b711aad01165d2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for technical support and API assistance.",
+                            "fileID": "ce5d82d50d4848daa74e3f69cbb1c2b3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a technical support specialist.",
+                                        "fileID": "d17765d05ba2472580d6bb02b2874449"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9f3b34a806f04331936cd281174ea382",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for billing and account questions.",
+                            "fileID": "04f3bde4933b4ca9b778c9117faf31cc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing team.",
+                                        "fileID": "6a6affb66caf4dcfbc502648f0215b79"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9f09e96c498b4bf48b5aac166fc153f4",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "94a837c52b674414923fb0b559a89285",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for sales, demos, or new account setup.",
+                "fileID": "589488c500c24f309596dc75125eca5f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with a sales representative.",
+                            "fileID": "b4d01ebbca214f788188bfe8aa9e9ad7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales representative.",
+                                        "fileID": "b42ad6fec903408c9444450a346942d0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6a1bfc4197254fefb3b65d1ec92c8a09",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for onboarding and training information.",
+                            "fileID": "1447d85881434d37ab504ce01c79275e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our onboarding team.",
+                                        "fileID": "b883e1ac3c1f46abadd4d33972b43c99"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7d9e48cd73df448a974f651e1e626b9a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "26a0bb15960f4a5384e6fa38d822904c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "10a7b60029964c2e8d422434334a246d",
+        "navigationGoals": null
+    },
+    "id": "eee4435f4444419591de91c8d88a7f2f",
+    "navigationGoals": null
+}

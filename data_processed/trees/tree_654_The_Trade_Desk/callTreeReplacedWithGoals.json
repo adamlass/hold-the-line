@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to The Trade Desk New York, where we transform advertising through our AI-driven technology platform.",
+            "fileID": "136ee0183e4347cbb54b070dd8f73c6e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new business inquiries, press 1.",
+                "fileID": "f95800d9a5db41609ba61fb08e25f39c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn more about our AI-powered ad buying platform, press 1.",
+                            "fileID": "0abe32b1f829467db7db5e80ff788160",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales specialist.",
+                                        "fileID": "c5ab9c2f1b8f4ed49ec0444129a39ff1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "880b1765e83d42008db75160aaeb2ac4",
+                                "navigationGoals": [
+                                    "Quickly get a summary of the AI ad-buying platform's key features",
+                                    "I want to talk to a sales specialist about using your AI ad platform to promote my veteran-owned business.",
+                                    "Get pricing and integration details for your AI-driven ad buying platform API.",
+                                    "I need someone to explain how this advertising platform works.",
+                                    "I want to understand the algorithmic approach your AI ad-buying platform uses for real-time bidding."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a personalized demo of our technology, press 2.",
+                            "fileID": "18b6fb74717e4f1dada4a561ccae243c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we set up your demo appointment.",
+                                        "fileID": "b7894275d3c6448a86ff2fb1fadc1544"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4d9fc973173c42768a3cbf47a9af79a3",
+                                "navigationGoals": [
+                                    "Schedule a one-on-one demo of the platform at my earliest convenience",
+                                    "I need to schedule a personalized demo to see how your platform can support my small business operations.",
+                                    "Schedule a personalized demo highlighting dynamic bidding and audience segmentation features.",
+                                    "I want to schedule a convenient demo of the platform.",
+                                    "I\u2019d like to schedule a hands-on demo of the platform to walk through its features."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f826e418fa9f4112a47fddf5c423ca6f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and account assistance, press 2.",
+                "fileID": "7dba1d37737f4d3cac186a9b68721c24",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To report a technical issue with your dashboard, press 1.",
+                            "fileID": "63b110dcb4a74c8184ab911a721eae56",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support.",
+                                        "fileID": "d87743ecb3ad47c3ab2f343186a0379e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "970beca828c643c8a8fdc0c9472579b2",
+                                "navigationGoals": [
+                                    "Report a malfunction on my ad campaign dashboard and get it fixed",
+                                    "I\u2019m unable to access my campaign metrics on the dashboard and need technical assistance.",
+                                    "Report that my dashboard API is returning 502 errors when fetching campaign performance metrics.",
+                                    "I'm having trouble with my dashboard and need technical help.",
+                                    "My dashboard isn\u2019t updating with the latest campaign metrics; can you troubleshoot it?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing questions or account management, press 2.",
+                            "fileID": "8e28d45e9de445199e284848d63fdcc2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing team.",
+                                        "fileID": "1a92f22e39d947c7a5b8e4e062f4d6b3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "789ee6f4b9344db08ee610b6a84e5d24",
+                                "navigationGoals": [
+                                    "Clarify a billing discrepancy on my latest invoice",
+                                    "I\u2019d like to review my billing and ensure my veteran discount has been applied correctly.",
+                                    "Update my company\u2019s billing info and request last month\u2019s invoice breakdown.",
+                                    "I need help understanding my billing statement.",
+                                    "I need to review my most recent invoice and set up automatic payments for my account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0f0db9bf28c54f039c8c9b047819255c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d266aef8a05d4c19b63e464743612d90",
+        "navigationGoals": null
+    },
+    "id": "b57996cb3a014ccd80e39ba9777e6050",
+    "navigationGoals": null
+}

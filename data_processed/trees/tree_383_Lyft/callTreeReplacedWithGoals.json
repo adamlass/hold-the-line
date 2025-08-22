@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Lyft San Francisco, where grabbing the wheel means you can start earning on your schedule.",
+            "fileID": "c78d9a0d24e949709799ad77080dfc7f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For driver account and onboarding support, press 1.",
+                "fileID": "8095ecab22264bafb963960ec840e6e3",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn how to sign up as a Lyft driver, press 1.",
+                            "fileID": "655c9ff6b82d4bd5af9e4007b604c459",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a driver onboarding specialist.",
+                                        "fileID": "4ca00169a33d4b02a2e400fea6d7cb8a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f9b72e0999974eecb5fe11c3d4b14e93",
+                                "navigationGoals": [
+                                    "I need to finalize my Lyft driver application and confirm my account activation timeline.",
+                                    "I need help completing my Lyft driver signup.",
+                                    "I need to provision my Lyft driver account: complete KYC, upload VIN and insurance docs, and enable 2FA.",
+                                    "I need help setting up my new Lyft driver account\u2014I\u2019m not sure how to begin.",
+                                    "I\u2019d like to understand the Lyft driver onboarding process, including required documents and next steps."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For questions about earnings, payouts, or bonuses, press 2.",
+                            "fileID": "f9723e1dc05f48028d2cf9d09995746e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our driver earnings team.",
+                                        "fileID": "c02f6e91a23441f391ba02d3dd203f15"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4fb6f2018d284cac85a80193f9194d3a",
+                                "navigationGoals": [
+                                    "I want a breakdown of my recent driving earnings and the expected payout date.",
+                                    "I want to review my recent driver earnings and payouts.",
+                                    "I want to retrieve my weekly payout statements via the driver dashboard API and resolve any transaction discrepancies.",
+                                    "I\u2019d like assistance understanding my recent earnings and when I\u2019ll receive my payout.",
+                                    "I need clarification on how Lyft calculates driver earnings, payout schedules, and available bonuses."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4a7e22470e534f3b9ac97cdb4e227eac",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For passenger and ride support, press 2.",
+                "fileID": "d6e6d9ee5915483d9122fad6a00109d6",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with ride issues or refunds, press 1.",
+                            "fileID": "aa2ac67fd9d746bda99fee10f0f64055",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to passenger support.",
+                                        "fileID": "112157579a4f4ee5a45ef0e319706c35"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f3841c236cd24cd98ad5ae76d290e4c6",
+                                "navigationGoals": [
+                                    "I\u2019m requesting a refund for my last ride that was canceled unexpectedly.",
+                                    "I need a refund for my last passenger ride.",
+                                    "I need to open a fare dispute for an erroneous charge and trigger a refund through the support portal.",
+                                    "I want to report a problem with my last ride and request a refund.",
+                                    "I want to dispute a charge from my last ride and request a refund."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To inquire about your current ride or driver location, press 2.",
+                            "fileID": "d35c2bf7fb0e46dd955b1412effabec4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we check your ride details and connect you.",
+                                        "fileID": "3c051b3834da46f5b4f7a0bb958748e1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "58972879e61240ad88859001900764a7",
+                                "navigationGoals": [
+                                    "I\u2019d like an update on my current ride\u2019s driver location and estimated arrival time.",
+                                    "I want to know my current ride's driver location.",
+                                    "I'd like to get the real-time GPS coordinates and ETA for my current ride using the app's tracking API.",
+                                    "Can you tell me where my driver is right now? I\u2019m waiting for pick-up.",
+                                    "I\u2019d like to know my current driver\u2019s location and estimated time of arrival."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cc3d01d70aa941899138d6128522160b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "28c7a9a9e5d04a4fa9a8b8b55bf79608",
+        "navigationGoals": null
+    },
+    "id": "fda90d76743a40189bfb91058d92c3e4",
+    "navigationGoals": null
+}

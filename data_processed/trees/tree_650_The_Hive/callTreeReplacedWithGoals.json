@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to The Hive, San Francisco\u2019s premier AI-driven visual intelligence solutions provider.",
+            "fileID": "86dc245cb0494a0a907bb7ac7aeb3225"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Hive Data services and support, press 1.",
+                "fileID": "e2abbbfc46904ca6afa19214fcff221a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team about our machine learning data labeling marketplace, press 1.",
+                            "fileID": "598e8ecc9547480e97cff6025ca32eb0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales department. Your call is important to us, and a specialist will be with you shortly.",
+                                        "fileID": "dfeb174dd9124f7796ff38dce3879935"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "93cd65ae6c4f4c869892d66f2246cab6",
+                                "navigationGoals": [
+                                    "I need a pricing and feature overview for your data labeling marketplace.",
+                                    "I\u2019d like to find out how to apply as a contract data labeler on your machine learning marketplace, and what qualifications you require.",
+                                    "I want a detailed quote on throughput, pricing, and SLA for your ML data-labeling marketplace.",
+                                    "I\u2019d like to speak with sales about buying data labeling services.",
+                                    "Get pricing and subscription details for labeling my physics experiment images"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical assistance with your Hive Data labeling projects, press 2.",
+                            "fileID": "ebddface09c043f8a4b2e50ee1287579",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support. One of our data labeling experts will be with you momentarily.",
+                                        "fileID": "ed27ed6ee16d42bda3f8067740582de1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "06167706417548708c690f86fe6ad3dc",
+                                "navigationGoals": [
+                                    "I'm encountering errors in my current labeling project and need technical support to resolve them.",
+                                    "I need technical help with my current Hive Data labeling project\u2014the annotation tool is failing to save my work.",
+                                    "I need help debugging my data-annotation pipeline\u2014I'm encountering labeling errors on my vision dataset.",
+                                    "I need technical help with my Hive Data labeling project.",
+                                    "Fix an error in my annotation project that\u2019s preventing me from saving segmentation masks"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "83f13df901224a26b988731c875c6577",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For our AI-driven predictive analytics and media extraction services, press 2.",
+                "fileID": "6387be403a134b119b633cdccab30074",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about Hive Predict\u2019s advanced forecasting solutions, press 1.",
+                            "fileID": "bdb7e9bb723749edb489b9f75ec3d71b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience. Please hold while we connect you to our Hive Predict specialists.",
+                                        "fileID": "5b86c739bde34c89b7bb6de1f64eaa37"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "13ea98c798da44638f201443eaafe684",
+                                "navigationGoals": [
+                                    "I'd like to schedule a demo and get pricing details for your predictive analytics forecasting solutions.",
+                                    "I want to discuss how Hive Predict can forecast equipment maintenance needs and learn about pricing and setup time.",
+                                    "I want to evaluate your AI-driven predictive analytics API for time-series forecasting.",
+                                    "I want to learn about setting up predictive analytics with Hive Predict.",
+                                    "Learn about trialing Hive Predict\u2019s forecasting tools for my time-series experiment data"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To explore Hive Media\u2019s video and image indexing services, press 2.",
+                            "fileID": "b1be39c00da64ead870fe557afa1454f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for holding. A Hive Media representative will be with you shortly.",
+                                        "fileID": "cf829c28f72e4ba9b048f2e126fa9163"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fccf168dfd9d4f369e87c98c1cb21a63",
+                                "navigationGoals": [
+                                    "I want to integrate your video and image indexing service into our media workflow and need guidance.",
+                                    "I\u2019m looking for guidance on integrating your video and image indexing API to organize surveillance footage efficiently.",
+                                    "I want to integrate your video/image indexing microservice into our media processing workflow.",
+                                    "I need assistance with your video and image indexing service.",
+                                    "Ask about indexing and metadata tagging for my high-speed lab video recordings"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "774650e5fead4f409a0ac9463344fa3b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c0c137a42ea54a94bee1848c93da98be",
+        "navigationGoals": null
+    },
+    "id": "51654f5180c64de8942b5ea1c58bc28c",
+    "navigationGoals": null
+}

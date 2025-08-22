@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Kong, your partner in secure, managed, and orchestrated microservice APIs based in San Francisco.",
+            "fileID": "fa8bf0de11a3468e8ade0d09f24593c5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and pricing, press 1.",
+                "fileID": "6e90d6078f504d43b858f7ef0b653e0f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To inquire about new licenses and pricing plans, press 1.",
+                            "fileID": "5fbb3cb0c5dd4daf85c7f0b701fa1f3d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "82f3f345111e4d59ad2373ce07f11be5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d2d39ba84a9a45d2b2c1a2469ed74918",
+                                "navigationGoals": [
+                                    "I need detailed pricing and licensing options for adding new API gateway instances.",
+                                    "Inquire about pricing options and veteran discounts for purchasing new API gateway licenses.",
+                                    "Get enterprise license tier pricing for deploying Kong Gateway in production clusters.",
+                                    "Could you please explain the pricing for a new API license? I\u2019m not very tech-savvy and would appreciate some guidance.",
+                                    "I\u2019d like information on academic licensing and student pricing for Kong\u2019s API platform"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For assistance with your existing account or subscription, press 2.",
+                            "fileID": "d359cbc867a34dd0aeadcbf6b24b4ecd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account support.",
+                                        "fileID": "4135c87844b145d2b69f00204b93c67c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8abfbdf822f949a0b6be04fb52820397",
+                                "navigationGoals": [
+                                    "I need to update the billing and payment information on my current subscription.",
+                                    "Update my payment method and renewal settings on my current subscription.",
+                                    "Update my existing subscription\u2019s billing info and review API call usage quotas.",
+                                    "I need help managing my current subscription and checking my renewal options.",
+                                    "I need to update my current subscription and review my invoice details"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "99f60f330d414109968f09b718689374",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and API management, press 2.",
+                "fileID": "26d8a6002273436f916d835ea82df6ee",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To report an API issue or get troubleshooting help, press 1.",
+                            "fileID": "d49ad16a1d1a4d6183b6328a84a67f0d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "01f75e1a2b474a0e9b3cda75de140cda"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c6a8842c1255414aad89ff3af8d0effc",
+                                "navigationGoals": [
+                                    "I\u2019m experiencing a 500 error on one of my API endpoints and need help troubleshooting it.",
+                                    "Report a 500 Internal Server Error in my API deployment and request troubleshooting support.",
+                                    "Troubleshoot intermittent 502 Bad Gateway errors on my Kong-managed microservice endpoints.",
+                                    "My API isn\u2019t working and keeps giving errors\u2014I\u2019d like help troubleshooting it.",
+                                    "I\u2019m encountering a 401 Unauthorized error in my API requests and need troubleshooting assistance"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For API onboarding and developer resources, press 2.",
+                            "fileID": "8ed18315e0d34335ac43bf09c94e4218",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our developer success team.",
+                                        "fileID": "355f9e5024834768bd3f2276bcae5b60"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fd1738844dd24ecd8265b5d16fe59598",
+                                "navigationGoals": [
+                                    "I want to onboard a new developer and get access to integration guides and resources.",
+                                    "Obtain developer onboarding materials and best practices for integrating plugins.",
+                                    "Access the developer portal for onboarding docs and Go SDK examples for Kong\u2019s API.",
+                                    "I\u2019m new to this and need assistance setting up the API and finding the right developer guides.",
+                                    "Could you provide onboarding documentation and best practices for integrating my service with Kong?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3e54721ab56247cea872f49dbda341b5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "74c4d491e018467fbc02f558f1754b27",
+        "navigationGoals": null
+    },
+    "id": "9eca2ac0644347f4a3cfd2e7943339e0",
+    "navigationGoals": null
+}

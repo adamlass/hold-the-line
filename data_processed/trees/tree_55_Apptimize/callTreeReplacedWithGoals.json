@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Apptimize in San Francisco, the leading developer tool for mobile A/B testing and release management.",
+            "fileID": "04f9821387a74a22b0755c6bdcf4d948"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "a813287f72e6471f92828e8936d7c9bd",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a demo of our A/B testing platform, press 1.",
+                            "fileID": "ddd142e70bb540bd80a51eb4bb228f9a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All our sales representatives are currently assisting other callers. Please hold the line and we'll connect you shortly.",
+                                        "fileID": "1b1be9ebeff04a8498c86e5ce5cd24f7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b72990e0404245a79f8fa1b9e9823978",
+                                "navigationGoals": [
+                                    "I need to schedule a brief demo of the A/B testing platform this week.",
+                                    "I\u2019d like to book a live demo of your A/B testing platform for my team\u2019s upcoming project.",
+                                    "I want to schedule a hands-on SDK demo for the Apptimize mobile A/B testing platform.",
+                                    "I\u2019d like to schedule a live demo of your A/B testing platform and have someone walk me through it.",
+                                    "I\u2019d like to arrange a guided walkthrough of the A/B testing platform for my project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing and plan details, press 2.",
+                            "fileID": "79db331acbec4e3db2b93c8ad882643c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our pricing specialists are currently busy. Please stay on the line and we'll be with you shortly.",
+                                        "fileID": "8b3ed072cff44fa6ab8b487d92777741"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4bc92cbba593424380b458c509739d09",
+                                "navigationGoals": [
+                                    "I want clear pricing tiers and plan comparisons for your A/B testing service.",
+                                    "I need detailed information on your subscription tiers, including any veteran discounts you offer.",
+                                    "I\u2019m looking for a detailed pricing breakdown on enterprise plans for multi-variant A/B tests.",
+                                    "Could you explain your subscription plans and pricing so I can choose the right option?",
+                                    "I need detailed information on subscription tiers and pricing options."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d9b550953476407fa04a998374cc89e7",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and account assistance, press 2.",
+                "fileID": "18433640be0948d997255c214bdc832e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help setting up A/B tests or experiments, press 1.",
+                            "fileID": "1946f9d43f264e3eb32c39d91d7ff74f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All our technical support agents are currently helping other customers. Please hold the line and we'll connect you shortly.",
+                                        "fileID": "92b17200078144e692f15c4472c53b32"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d10a846aebe74dba823179be67c28a23",
+                                "navigationGoals": [
+                                    "Help me set up and launch a new A/B experiment in my mobile app.",
+                                    "I\u2019m looking for assistance configuring my first A/B test in the platform.",
+                                    "I need help configuring and deploying an A/B test experiment via the Apptimize SDK.",
+                                    "I need help setting up my first A/B test on your platform.",
+                                    "Can someone help me set up and configure A/B tests in the mobile SDK for my study?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For release management or integration support, press 2.",
+                            "fileID": "e129c8024ef14ac58b3535b2ab3f37af",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our release management experts are on other calls at the moment. Please hold and we'll connect you as soon as possible.",
+                                        "fileID": "ba435cd8f60348289243cb5a690468cc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c8afe3bd3f474d32bf34598ce32ca428",
+                                "navigationGoals": [
+                                    "Assist me with integrating your release management tools into our CI/CD pipeline.",
+                                    "I need help integrating your SDK into our mobile release pipeline.",
+                                    "I need integration support to set up Apptimize in our CI/CD pipeline for release management.",
+                                    "I\u2019m looking for assistance integrating your release management tool into my workflow.",
+                                    "I\u2019m looking for support integrating the SDK and managing release deployments."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "395d1bc0d9aa4939b6dec74331549d10",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f5a5eb3766bf45678d2e10581dc18bd3",
+        "navigationGoals": null
+    },
+    "id": "c8948da8effd4074a9dffe121fa699e1",
+    "navigationGoals": null
+}

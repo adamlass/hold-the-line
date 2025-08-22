@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Carbon in the Peninsula, where we revolutionize 3D printing and manufacturing with our breakthrough technologies enabling the creation of unique end-use parts.",
+            "fileID": "0b550a8509ec4514afbd53413480b17f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support, please press 1.",
+                "fileID": "c7ffbf43f2b74abc9fc7aff2b7ac97eb",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For printer troubleshooting, please press 1.",
+                            "fileID": "1b66bd19f113487781f0ee7367b25957",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a printer troubleshooting specialist.",
+                                        "fileID": "fcd71f8b921d4b4fa6c9252f2b420d0d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "793d989fb67e480cbca914c3c28ea3e0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For materials and part consulting, please press 2.",
+                            "fileID": "3a8b74ef93cf4d0c8a77deff32081d2b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a materials and parts consultant.",
+                                        "fileID": "c9f66613b66f4059b726ffb24ed21129"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "88cd5c9355c04f628c2df0f70b5b6cc2",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3c753420484842ac9fd9898bfcdb17da",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and order inquiries, please press 2.",
+                "fileID": "5e5571b47bcf48b2a82df19df62a8334",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a live demo of our 3D printing solutions, please press 1.",
+                            "fileID": "39ddf151f685497493b948c843a316f2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our demo scheduling team.",
+                                        "fileID": "b725de3aa5384b1dbe58a5931eac7d6f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a5d2a9c4cdce4441a988f32f1f6e4f48",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To discuss manufacturing of end-use parts with our team, please press 2.",
+                            "fileID": "8cfaacaa0c6140918481da924a3f9d35",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our manufacturing consultation team.",
+                                        "fileID": "a83d8727f72d45859abed4a1f9b62726"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a2f09e72d109498f83ec851e8d718673",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7166127673734e03b736ca20efed166f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d99ae5677d134d84b1a84c807ce04a9f",
+        "navigationGoals": null
+    },
+    "id": "5908ba20002441ada56f3766862f5155",
+    "navigationGoals": null
+}

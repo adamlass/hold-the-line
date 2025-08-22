@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling MemSQL in San Francisco, the enterprise-scale database platform delivering real-time transactions and analytics in a single platform.",
+            "fileID": "001551518d7d4e36a42d07e22c0bfbb5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our sales team about enterprise licensing and demos, press '1'.",
+                "fileID": "66fcc501828442a79c2d0789031259ef",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing and enterprise licensing information, press '1'.",
+                            "fileID": "9c4c58a0a9f9462e84bd552048e58f5a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for pricing and licensing.",
+                                        "fileID": "766b1eb982c543ceb382fe028c8dbecd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "82e9037a2ede4bc1b361c5f19f807ee6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For product demonstrations and trial access, press '2'.",
+                            "fileID": "19a048adfc664591b8c903f3acfb31bc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for a product demonstration.",
+                                        "fileID": "d80624450db040b7b9488eed58e4ca20"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f324a2e10bf841438821cc6ab6bbae61",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7a92038b8f564d26bd3a82922de8fd5d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To reach customer support for technical help or billing, press '2'.",
+                "fileID": "bb1e24e657d34ed0a5fb2db5a3283c41",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press '1'.",
+                            "fileID": "49149be0a884497a94ce2b0b53f1d32f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support engineer.",
+                                        "fileID": "52f30e627ddb465cad8e8f7f078b4640"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "23582e9040f54a9f9b5fd9c5d1bc7af6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press '2'.",
+                            "fileID": "f935a8873b144f9e972c454cd4ab73b1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "4d325b7df0e34dc1bfce1b1dc218e002"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4150ad1570ac46e0b4276271a8adbf7e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bcb3d8f0fa6a489f822649ad87ccecc3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f9109f3f173b415e804c57e967910132",
+        "navigationGoals": null
+    },
+    "id": "2d5c5256edb24e279ae269ca0f897620",
+    "navigationGoals": null
+}

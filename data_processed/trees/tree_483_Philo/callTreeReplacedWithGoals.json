@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Philo, based in San Francisco, where we\u2019re building a better TV experience.",
+            "fileID": "d2c3e68e463e411b8ae2bc8b2d5cc3cc"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For account and subscription options, press 1.",
+                "fileID": "17f6775164034687a10135b49182ae88",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To update your account details or subscription plan, press 1.",
+                            "fileID": "3c23f1dc77e3408799dbc2c6e258c104",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account specialist.",
+                                        "fileID": "7679de586caf4a9e8243ef741d13cb2b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b884c5d02cea4d7f90348f193c0c1d01",
+                                "navigationGoals": [
+                                    "I need to add the premium movie package to my Philo subscription.",
+                                    "I want to add my veteran discount to my existing Philo subscription plan.",
+                                    "I want to provision two additional concurrent streams and update my account credentials.",
+                                    "I\u2019d like to change my subscription plan to add the sports package.",
+                                    "I\u2019d like to upgrade my Philo subscription tier to access more channels."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and payment inquiries, press 2.",
+                            "fileID": "2edfa67092ae41ba819622af78786c5f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we transfer you to billing support.",
+                                        "fileID": "c1f655bf3deb4323882ed447ef9f3bb5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0915f9c566824fbea4cd760fb16b5842",
+                                "navigationGoals": [
+                                    "I need to update my payment method with a new credit card.",
+                                    "I need help resolving an unexpected charge on my Philo account.",
+                                    "I need to retrieve the transaction logs for my last billing cycle and update my default payment token.",
+                                    "I need assistance understanding my most recent bill and making a payment.",
+                                    "I need to resolve a duplicate charge on my recent bill."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6eee4bd9cc8e4d7cbf30fd54117d21be",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For channel lineup and programming support, press 2.",
+                "fileID": "df2180e95c2b428ba51c5ed2bcd8b156",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore available channels or check network availability, press 1.",
+                            "fileID": "20ed3490e8da456eae53c2e9eefcb7cd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our channel support team.",
+                                        "fileID": "8179a32b916948b590cd55b820277132"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6758c4a622c04030b8659a83f2eba5ed",
+                                "navigationGoals": [
+                                    "I want to check if my local sports channel is available on Philo.",
+                                    "I recently moved and want to know which channels are available in my new area.",
+                                    "I want to verify channel distribution availability in my ZIP code and enable the HD feed for ESPN.",
+                                    "Can you check if my local news channel is available on my lineup?",
+                                    "Can you confirm if the Science Channel is included in my local lineup?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For show recommendations or help finding content, press 2.",
+                            "fileID": "cf54c133d32d44a1ae7c3cedc14b8e19",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Philo programming expert.",
+                                        "fileID": "fd7a5c2e355a482ea2f3d0e07f48bf95"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6eed587192254321ab145c6bb66f062e",
+                                "navigationGoals": [
+                                    "I need a recommendation for a good sci-fi series to watch tonight.",
+                                    "I\u2019m looking for military documentaries or veteran-focused shows on Philo.",
+                                    "I need algorithmic recommendations for sci-fi content based on my watch history and metadata tags.",
+                                    "I\u2019m looking for some easy-to-follow cooking show recommendations.",
+                                    "I\u2019m looking for recommendations on high-quality physics documentaries."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "633ee6d5b46e4c459ef6c30011e6de82",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "058aecf9e34a419886633e2f1ff10582",
+        "navigationGoals": null
+    },
+    "id": "ffdff663ba3c4464a20d46ea6be22b9e",
+    "navigationGoals": null
+}

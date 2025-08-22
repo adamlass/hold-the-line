@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling HoneyBook in San Francisco, where we help you book your ideal clients faster, more frequently, and with less legwork.",
+            "fileID": "5d705dc59efa4835aec2482e24307eb0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To discover how to book your ideal clients faster with HoneyBook, press 1.",
+                "fileID": "bac828e4d14349f3ad9c2d904b1b1dd9",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our automated proposals and contracts, press 1.",
+                            "fileID": "6f5901b294784daa96e32c0baaac4d8d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a HoneyBook sales specialist.",
+                                        "fileID": "b3e557602c994a25b86e9caed2fba85d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d3fd821c2b6342df9a6c744759a61ec9",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To explore our subscription plans and pricing, press 2.",
+                            "fileID": "f16714b6a8f34f01b544670e51e97320",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for pricing details.",
+                                        "fileID": "546d9424a01e468d95a9aea846dfa384"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "76c9e25dc81e47e4b10569e927bb2c78",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bdf118fa2b0341dcb3895665388bc05c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For help with your HoneyBook account or billing, press 2.",
+                "fileID": "c6a157c841a24cf683d304c8943c0729",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account setup and technical assistance, press 1.",
+                            "fileID": "5604f232c38f4cdf9ec6eda7a65b16a7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support team.",
+                                        "fileID": "f4ea3cf75d374a88b3767bf6b7d27ab6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0d3500c3411e43dd81536a5eaaf6243f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For questions about billing and invoices, press 2.",
+                            "fileID": "0a4a0aa8f6c24131bb2f76ef9cc03dc3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing team.",
+                                        "fileID": "29aad7005d6a4978b9c56efec131dc97"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "72d0932e4bdb49b181a846d56ae0f0b5",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "dae31d689c354305bf02cd69a0196f96",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d642e3ccf14d40bb85fb49769b0a38dc",
+        "navigationGoals": null
+    },
+    "id": "96751ab39e6c42cf8ee5ab41e95bfb9f",
+    "navigationGoals": null
+}

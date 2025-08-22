@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Brigade, the San Francisco-based platform empowering citizens to make their voices heard and hold politicians accountable.",
+            "fileID": "f2eb6130f01d4dc4bd5be00a0b9a9940"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a concerned citizen wanting to start or join an advocacy campaign, press 1.",
+                "fileID": "7603e8da7a3a45499b738cc02a063255",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on creating or joining a Brigade campaign, press 1.",
+                            "fileID": "5352912461cf46f589c1a22be0ad3da1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our campaign support team.",
+                                        "fileID": "3e78071e2198434fb1fcbc3fe1dd6ee7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bb9ce3660f854498857a371f04437f33",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account assistance and technical support, press 2.",
+                            "fileID": "0f5b079cee3c44678db211957448c069",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account support team.",
+                                        "fileID": "2936c4ab6d9c4a8cae2dcc5ca20744ca"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "95bb2ecb9cbf4860b1efcede8824c1a5",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4425cb0dd4f744f8b5b6ef5d5ef7ef45",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you represent a government agency or civic organization seeking collaboration, press 2.",
+                "fileID": "9aafc7118f8d40b7a2b790ed32b14fae",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For partnership and policy collaboration inquiries, press 1.",
+                            "fileID": "c5993407f7b545c38d0eab2eaa9fe47b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our government relations department.",
+                                        "fileID": "f9d40b2f76c34b4ab0ee6989fc5da7eb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dc48453f63ed4cd2bb2f474ece87cde1",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For developer resources and API integration support, press 2.",
+                            "fileID": "c109dd1320944cde93d78218e5b7154b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical partnerships team.",
+                                        "fileID": "50fb38c42d0a42bf914a9d7f42d93234"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3e6920d0b3334bec9daaa92f7f4e3c4b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d213005b818348f281e3e166d7bcec64",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7e58e9f2d09d4b11957c76fa1978946d",
+        "navigationGoals": null
+    },
+    "id": "94c518064e064787ab182b592b9744b8",
+    "navigationGoals": null
+}

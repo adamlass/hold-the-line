@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to BetterUp in San Francisco, where we help organizations drive lasting behavior change.",
+            "fileID": "39f777b1785a4f8b9e91db4faf2c7a24"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new business inquiries and tailored employee engagement solutions, press 1.",
+                "fileID": "5ced614aaa394db49dc8af7ee4afb3e5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative about our B2B software and services, press 1.",
+                            "fileID": "f6ed033828174ecd81389b8ee1ae2c42",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience. Please hold while we connect you to our Sales team.",
+                                        "fileID": "dc196f5f903f4a79b39b3c04d9021586"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aa8ac329b96a494da2dd9baed403f1ca",
+                                "navigationGoals": [
+                                    "Get enterprise pricing details for a corporate coaching package",
+                                    "I want information on corporate coaching packages to support our company\u2019s veteran reintegration program.",
+                                    "Discuss enterprise sales options and pricing for BetterUp\u2019s employee engagement platform.",
+                                    "I need to speak with someone about purchasing BetterUp for my organization",
+                                    "I\u2019d like to discuss pricing and licensing options for group coaching seats for my physics research team."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a free demonstration of our transformation platform, press 2.",
+                            "fileID": "0d6ae7401b0f4e319ae0863acb60d0e5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we will connect you to schedule your demo shortly.",
+                                        "fileID": "28fe3c48b6d64e52a90300c70479ceae"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "602e42d4596e4ce698d25df9bf061be2",
+                                "navigationGoals": [
+                                    "Book a time next week for a live demo of the transformation platform",
+                                    "I\u2019d like to schedule a demonstration of BetterUp\u2019s transformation platform for my team\u2019s mentoring initiative.",
+                                    "Arrange a technical demo of the transformation platform, focusing on analytics and integrations.",
+                                    "I\u2019d like to schedule a free demo to see how the platform works",
+                                    "I want to schedule a demo of the BetterUp transformation platform to evaluate it for our student organization."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "673811ef59264e96b132213e998946e4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support with your existing coaching programs and account services, press 2.",
+                "fileID": "a26bf8e5c88345eea1ea9cdd16c43e8d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance with the BetterUp platform, press 1.",
+                            "fileID": "e2b888814b0144c78bab467f3ed416ca",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "We appreciate your call. Please hold while we transfer you to Technical Support.",
+                                        "fileID": "d7bc636c8ee64abbab881c64577fd1e2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "73380da998dd48a39f5834b1d190b2c2",
+                                "navigationGoals": [
+                                    "Fix the login error that\u2019s blocking access to my coaching dashboard",
+                                    "I need technical help accessing my BetterUp coaching dashboard and session materials.",
+                                    "Get technical assistance troubleshooting our API integration with the BetterUp platform.",
+                                    "I\u2019m having trouble logging into my coaching portal and need technical help",
+                                    "I\u2019m encountering an error logging into the BetterUp app for my coaching program and need technical assistance."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For coaching program updates and account management, press 2.",
+                            "fileID": "9b01fee7c574436b8fc8b779e96ab44b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Your call is important. Please hold while we connect you to your Account Manager.",
+                                        "fileID": "680bdc4e220644dcb780a27283ab6191"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "13107c89436b4462b1bf21791ca5883b",
+                                "navigationGoals": [
+                                    "Update our company\u2019s billing info and confirm upcoming session dates",
+                                    "I\u2019d like to update my current coaching plan and adjust my session schedule with my coach.",
+                                    "Modify our coaching program configuration and update account billing and user assignments.",
+                                    "I want to update details on my current coaching program and account",
+                                    "I need to reschedule my upcoming coaching session and update my account details for my current program."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "04e8bd16468f4fdd9b1df6a22a2bb228",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d9c469608d5d4765a01547886bb942a1",
+        "navigationGoals": null
+    },
+    "id": "1a33fe41ba93418c8b8b05d18818cf4c",
+    "navigationGoals": null
+}

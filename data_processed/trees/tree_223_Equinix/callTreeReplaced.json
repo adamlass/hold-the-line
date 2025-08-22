@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Equinix Peninsula, the world's largest IBX data center and colocation provider offering the fastest application performance and lowest latency routes worldwide.",
+            "fileID": "b2bfe623d4244529993196ef3025426c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new colocation deployments, press 1.",
+                "fileID": "eadd26647ff2488a8b0b01bc7584cadf",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on rack space, power, and cooling, press 1.",
+                            "fileID": "776217e5c92343f1822d40d1911530bb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist for colocation capacity and power services.",
+                                        "fileID": "02db94e20e9f4207894d04134c8ebec4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "70379ef43b424e01b294f25f04e1312e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For interconnection and peering services, press 2.",
+                            "fileID": "c7bd87819868448589b6c6f2cb2213c0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our interconnection team for peering services.",
+                                        "fileID": "941070bd17ba40188c5f8f421e4586a6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5ed85fde438742a4bb300c4e57b9a043",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9e7eed72da684eb3bfd872f20cff3a7a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and customer service, press 2.",
+                "fileID": "79be9d291a4c4b3bae235febc94d5a17",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and network monitoring, press 1.",
+                            "fileID": "9648f2c6b30f444a935688055238936e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support. An engineer will assist you shortly.",
+                                        "fileID": "7c017b42280349f199422d060a160168"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c7c6ae597e364a298502f0f5b86595c6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing, invoicing, and account management, press 2.",
+                            "fileID": "a758370dd0d54f4480dc8a23429cabfe",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing and account management.",
+                                        "fileID": "f438e3817ecc4a2f9d8889605065ca14"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0b2c590e6b1841c491157c672ef5a781",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "158a88ae4e96401097b4e070bf946408",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "938cc668f0524194813b8eaaf361a8a8",
+        "navigationGoals": null
+    },
+    "id": "43a30850a0ae4610bee59fc3799b0c3b",
+    "navigationGoals": null
+}

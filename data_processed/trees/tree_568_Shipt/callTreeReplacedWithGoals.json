@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Shipt in San Francisco, where same-day delivery makes a difference in your life.",
+            "fileID": "052d754a93804489ac27426ec9689e9b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For help with an existing order, press 1.",
+                "fileID": "ee3e72f97fc14139b578f671e18c97b1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To track your delivery status, press 1.",
+                            "fileID": "c9bba8e98ed7443dafdd9dfae1599238",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your delivery status.",
+                                        "fileID": "89b784c08a504302bda275702148440f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b85bb057c93d4a19b858f101fe43535a",
+                                "navigationGoals": [
+                                    "Check the expected arrival time for my grocery delivery today",
+                                    "Find out the delivery status and ETA for my order.",
+                                    "Retrieve the current GPS location and ETA of my active delivery",
+                                    "I\u2019d like to check when my groceries will arrive",
+                                    "Could you provide me with the current location and estimated arrival time of my ongoing order?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To modify or cancel your order, press 2.",
+                            "fileID": "2f51b000ec914f6a81a9aeca961584ef",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order support team.",
+                                        "fileID": "994900153d5a43b1b888d6593af840d8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0f55fc8e702a4a738610946b8ea15e52",
+                                "navigationGoals": [
+                                    "Modify an item in my existing order before it ships",
+                                    "Cancel an item from my existing order.",
+                                    "Amend the item quantities in my pending order before it\u2019s dispatched",
+                                    "I need to update an item in my current order",
+                                    "I need to modify my existing order by adding an extra item before delivery."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "739b6149ea3d4823acc4229a8c2981e5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For membership or account assistance, press 2.",
+                "fileID": "9fa32814c51745b39e3c8602ad865449",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For questions about Shipt memberships and pricing, press 1.",
+                            "fileID": "707ecce6d85d4a90bb71612bbc1bafc7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to membership support.",
+                                        "fileID": "350a85cd1e5d481c88df4277154320e1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9fce356fae5349e0bc7608346471df9d",
+                                "navigationGoals": [
+                                    "Clarify the differences and costs between monthly and annual membership plans",
+                                    "Ask about Shipt membership costs and benefits.",
+                                    "Evaluate the pricing tiers of Shipt memberships and upgrade my plan",
+                                    "I want to find out how much the Shipt membership costs",
+                                    "I\u2019d like clarification on Shipt membership tiers, benefits, and pricing options."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help with the Shipt app or website, press 2.",
+                            "fileID": "85ee33d29cc44299ad85029d9723b3aa",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "c4b07fba57364de3841d16fabceceb6f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "456a85d6cbea4bfd9b73a5e053e5b23e",
+                                "navigationGoals": [
+                                    "Resolve the app crashing issue when I attempt to complete payment",
+                                    "Troubleshoot a login error in the Shipt app.",
+                                    "Troubleshoot the authentication error I\u2019m encountering in the Shipt app",
+                                    "I\u2019m having trouble logging into the Shipt app and need help",
+                                    "I\u2019m experiencing an error logging into the Shipt app and need technical assistance."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7d6e74a0f56f4ca5998242ebdf628643",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d5263716ff8841ae836e55f5bd280e46",
+        "navigationGoals": null
+    },
+    "id": "c552d89df4c74dba84b24c35f1066927",
+    "navigationGoals": null
+}

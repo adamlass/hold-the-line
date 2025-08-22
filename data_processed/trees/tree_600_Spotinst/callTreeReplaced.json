@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Spotinst, your San Francisco-based partner in seamless application scaling and orchestration across any cloud.",
+            "fileID": "cc438afc5ae04d29880f1f4c2eef4be2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new account inquiries and product demos, press 1.",
+                "fileID": "f13849e7faf4464790c946e423bf80e3",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a free demo with our solutions team, press 1.",
+                            "fileID": "3bb5f712886c410c86cff9ae7cf87c8e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Spotinst solutions specialist.",
+                                        "fileID": "49ec64deb0e04d4f9beecf3093401c49"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fae1e03f2c9e40a8ae9946781079c2dd",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To discuss pricing and enterprise licensing options, press 2.",
+                            "fileID": "41144aaf5f9e42a294128d7de440cd84",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer your call to our Sales department.",
+                                        "fileID": "f6601521a0454af6b6a664f9c7acd18e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4ac85bc065a54bbab138664b283daec3",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "10433fb9752f4291aceae329610d7975",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing account support and technical assistance, press 2.",
+                "fileID": "eed3de2fd6d144739d4bf79b8a527373",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with your Spotinst integration or technical issues, press 1.",
+                            "fileID": "f1cd9a1f5f2b4e328b2ca9ea8ea5906f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "a8c49c590bae40fabc26a0602dac0b92"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f85547c2d3004067b03207a66bfb21c5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries and account management, press 2.",
+                            "fileID": "adb0ce92bb2745629d17b7db2fbe757c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "c42e37309cf94a9393c3acc270b64c1f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3cc59f9bb7724ca0b98df228660bddd0",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2bffad4a604146cdb77365df62cd4d17",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "aeff7ee14fb24a4d853e544b50d0720a",
+        "navigationGoals": null
+    },
+    "id": "777d2959c681458c8e2cd4441c416108",
+    "navigationGoals": null
+}

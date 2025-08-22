@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to NoRedInk in San Francisco, where we build stronger writers through interest-based curriculum, adaptive exercises, and actionable data.",
+            "fileID": "baa9f2633b7f49918e084eb26fca197b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For schools and educators, please press 1.",
+                "fileID": "1e9504bc9d2c4f12b20accb0e27f2315",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account setup and training, please press 1.",
+                            "fileID": "6a2e6999544e488db73c4789d2781dec",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account specialist.",
+                                        "fileID": "6a9c111b6a2e4827992ebd897f343a05"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7216c151916b440c8a14aeb7e6694994",
+                                "navigationGoals": [
+                                    "Set up my educator account and schedule an onboarding session.",
+                                    "I\u2019m a veteran new teacher setting up my NoRedInk educator account and need training.",
+                                    "I need to set up our district\u2019s administrator account with SSO integration and get a walkthrough on teacher onboarding.",
+                                    "I need help setting up a new teacher account for my school.",
+                                    "I need to set up a NoRedInk account and schedule training for my high school\u2019s physics club advisors."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For curriculum and instruction questions, please press 2.",
+                            "fileID": "30a5e6106b9e424c9aa925ad2f0f85f3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a curriculum specialist.",
+                                        "fileID": "0ddc53b48ba947678a5e382c01844a8a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "72cbd11238fb4516b28421d4ec237774",
+                                "navigationGoals": [
+                                    "Get advice on integrating NoRedInk exercises into my curriculum.",
+                                    "I\u2019m a veteran educator looking for guidance on selecting and customizing NoRedInk curriculum.",
+                                    "I want to customize adaptive writing modules to match our school's curriculum standards and discuss best practices.",
+                                    "I\u2019d like guidance on adapting the writing curriculum for my tutoring sessions.",
+                                    "I want to learn how to integrate NoRedInk exercises into our physics lab report curriculum."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "92b61bd4596b4df1b54f6f4a9e713bcb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For students and families, please press 2.",
+                "fileID": "d6230e9b9ce946acbc3d780fc1c4354d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, please press 1.",
+                            "fileID": "ace4adc112ce4ba3b7c91546bdf1c6b2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "7edf8e0277d342acbf781186c1a321fb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3d6c08dad2e94c788cacbc05fdd7826c",
+                                "navigationGoals": [
+                                    "Troubleshoot a login issue preventing access for my child.",
+                                    "I\u2019m a veteran student using NoRedInk and can\u2019t log into my account\u2014need technical support.",
+                                    "I'm experiencing authentication errors when students try to log in; I need help troubleshooting the platform.",
+                                    "I\u2019m having trouble accessing the platform on my tablet and need tech help.",
+                                    "I\u2019m experiencing login errors on my student NoRedInk account and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For progress data and performance reports, please press 2.",
+                            "fileID": "bb8c73c956f8474bacb4a6df9311358c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a data specialist.",
+                                        "fileID": "37227b3e13224e6fb733fd0e81834d50"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4aac3fbaea5d49bcad600137c3391721",
+                                "navigationGoals": [
+                                    "Obtain a detailed progress report on my student\u2019s performance.",
+                                    "I\u2019m a veteran parent checking my child\u2019s NoRedInk progress reports and need access to performance data.",
+                                    "I\u2019d like to retrieve detailed performance analytics for my class in CSV format and configure the API export.",
+                                    "I need assistance understanding my grandchild\u2019s progress report.",
+                                    "I\u2019d like to retrieve my recent writing performance report to analyze before finals."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0682b4abe8774016bdf4ae43df5a1054",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "081ea29282b54098bc4efef66e6c62f6",
+        "navigationGoals": null
+    },
+    "id": "08863e9511a846f4b812d3c280b7102e",
+    "navigationGoals": null
+}

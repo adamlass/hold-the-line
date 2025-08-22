@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Boxbot, your partner in scalable last-mile logistics solutions.",
+            "fileID": "e63e322aa61642acbb691fa4b35f92bf"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales, partnerships, or to schedule a demo of our autonomous delivery platform, press 1.",
+                "fileID": "b7b218a1a3d14703bd132929cdec3ca5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo of Boxbot\u2019s robotic delivery system, press 1.",
+                            "fileID": "d9390e739f1e44be97fde76ce72b0161",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist to schedule your demo.",
+                                        "fileID": "b6b6519cda0e4b3db8fa0fef08c1af50"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "40c17f9527304318a0ff7d5e4dffdb82",
+                                "navigationGoals": [
+                                    "Schedule a demo of Boxbot\u2019s robotic delivery system.",
+                                    "I\u2019d like to book a personalized demo of your autonomous delivery robots.",
+                                    "Schedule a personalized hands-on demo of Boxbot\u2019s autonomous delivery system, focusing on route optimization algorithms and payload capacity specifications.",
+                                    "I\u2019d like to schedule a demonstration of your robotic delivery service.",
+                                    "Book a demo to observe Boxbot\u2019s robotic delivery system in action"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a Boxbot sales engineer about integration and pricing, press 2.",
+                            "fileID": "58303a811fed421bbefd1c3800614aa9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a sales engineer. Thank you for your patience.",
+                                        "fileID": "d678de0718fc4ceab59590378bde84cf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6c4199f6d343472499d1be0ad3a29c4d",
+                                "navigationGoals": [
+                                    "Discuss integration options and pricing with a sales engineer.",
+                                    "I need to speak with an engineer about integrating Boxbot and getting pricing details.",
+                                    "Consult with a Boxbot sales engineer about integrating their API with our warehouse management system and clarify pricing tiers and SLAs.",
+                                    "I need pricing information and integration details for using your delivery platform.",
+                                    "Discuss integration into our operations and obtain pricing information"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "701009ae0e8c4ff79d7ef78b81b3299d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support, shipment tracking, or to reach our operations team, press 2.",
+                "fileID": "de03c9f056974911b38ee2344d0d7ba5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To track an existing shipment or check delivery status, press 1.",
+                            "fileID": "94356fd3fee34cd3b088dcda267535b8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we locate your shipment details. A representative will be with you shortly.",
+                                        "fileID": "6746f47868c4440bb5f03c154d15a305"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "208298317b2740bd9b7cdd0e83e792f1",
+                                "navigationGoals": [
+                                    "Check the status of my current Boxbot shipment.",
+                                    "I want to check the delivery status of my current Boxbot shipment.",
+                                    "Retrieve real-time telemetry and ETA updates for my current Boxbot shipment, including any exception events or delays.",
+                                    "I want to check the delivery status of a package I\u2019m expecting.",
+                                    "Check my shipment\u2019s current location and estimated delivery time"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support or operations inquiries, press 2.",
+                            "fileID": "019c6006e5a74f09aef20d37662e6ee4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold as we connect you to our operations support team. Thank you for waiting.",
+                                        "fileID": "71affe8a2e114bd68d9e3eba45e0494a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "57ec658fcd854befbbc57835d5c88928",
+                                "navigationGoals": [
+                                    "Get technical assistance for my Boxbot operations setup.",
+                                    "I need help from operations to resolve an issue with my recent delivery.",
+                                    "Diagnose and resolve HTTP 500 errors from Boxbot\u2019s fleet management API that are impacting our automated dispatch workflow.",
+                                    "I need help because my package shows delivered but I haven\u2019t received it yet.",
+                                    "Get technical support for an issue with my Boxbot delivery"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "01a017e98ae14a889a9af9e75559a52b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7bfe342a347b4c04bc001e17f0a5f0e6",
+        "navigationGoals": null
+    },
+    "id": "e175dec41ede40d3afa29947ff73dd0f",
+    "navigationGoals": null
+}

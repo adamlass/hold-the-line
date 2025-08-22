@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Shutterfly Peninsula, your home for personalized photo gifts and stationery.",
+            "fileID": "c0a972b1a1cc4a0688d5d0a4d89e339b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with existing orders, account information, or technical support, press 1.",
+                "fileID": "9a66c1ac0e434325b13655386985c3c5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For order status or changes to an existing order, press 1.",
+                            "fileID": "1be402d2625f457b80d3554ae649a533",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our order support team.",
+                                        "fileID": "f24a0037f3e94f23981942cc2a689e53"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d99518f6f7a54b3a8cb1bad8a64229d1",
+                                "navigationGoals": [
+                                    "Check the shipping status of my last Shutterfly order",
+                                    "I need to update the shipping address on the commemorative photo book I ordered for my military reunion.",
+                                    "Query the ETA for order #123456, check its tracking status, and update the delivery address.",
+                                    "I need to update the shipping address on my recent photo gift order.",
+                                    "I want to update the shipping address on my recent photo calendar order."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account questions or technical support, press 2.",
+                            "fileID": "7a50d0be4e0e44bfa5e4ed73a683a094",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with technical support for your account.",
+                                        "fileID": "68d0c1ab53a44f67b750fdf620d2f7cd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d86e4b450431462cbe08b1a31c95dfec",
+                                "navigationGoals": [
+                                    "Reset my account password to access my Shutterfly account",
+                                    "I can\u2019t log into my Shutterfly account to access my service photos and need help resetting my password.",
+                                    "Troubleshoot a login failure, reset my account credentials, and enable two-factor authentication.",
+                                    "I forgot my account password and need help resetting it.",
+                                    "I need help recovering my account password to access my projects."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c2e4b4d9161f4d268b5b1f0e9d422ec5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To create a new photo book, customize photo cards, or explore stationery products, press 2.",
+                "fileID": "77144a14f7f84335a36d8a9eb075d845",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start a new photo book or customize a photo card, press 1.",
+                            "fileID": "93885edb1e0e4de2ab3038e5e858e4e1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold as we transfer you to our creative services team.",
+                                        "fileID": "bac165ade57342e2a85e69cc381e0764"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "df1f854ad49040d4bf6016b5385f3481",
+                                "navigationGoals": [
+                                    "Start designing a custom photo book for this month's client presentations",
+                                    "I want to start a new photo book documenting my deployment photos.",
+                                    "Initiate a new 20-page lay-flat wedding photo book with custom bleed margins and color-corrected layouts.",
+                                    "I want to start designing a new photo book with my family pictures.",
+                                    "I'd like to start a new photo book project for my physics lab group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about photo sharing and our stationery options, press 2.",
+                            "fileID": "326e591f12cd40138133adcbddff53ef",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold as we connect you to our product information team.",
+                                        "fileID": "ea5c2ce0261440678e09fdb6d5d7a280"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b59897d764334972af3b01df9495ee3e",
+                                "navigationGoals": [
+                                    "Get a quick overview of available stationery products and photo-sharing options",
+                                    "I\u2019m looking for information on sharing photos with my veteran support group and exploring thank-you stationery options.",
+                                    "Get specs on archival-grade stationery substrates and cloud-based photo-sharing integration options.",
+                                    "I\u2019d like information on your stationery and card design options.",
+                                    "I'm interested in learning about your stationery paper options for note cards."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "276b7c28c3eb4b338191f6f863d9e1e3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "707e1656d40144298aafec81b516a83a",
+        "navigationGoals": null
+    },
+    "id": "2ede8afd012d4a60898ad031ab027558",
+    "navigationGoals": null
+}

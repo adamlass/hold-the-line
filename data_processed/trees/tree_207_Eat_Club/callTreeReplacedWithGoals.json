@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Eat Club, San Francisco\u2019s office lunch benefit that satisfies individuals to power teams.",
+            "fileID": "5df40cfcf09040028423a3f3cc39d95a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For existing members and account support, press 1.",
+                "fileID": "fa65e21c5c5b4ce093f565fc6f3a165a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For questions about your account or delivery status, press 1.",
+                            "fileID": "a4084906c1c144bc80d30d96f462fef7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account specialist.",
+                                        "fileID": "8ed6853e8faf41e2b3dbab734cd1a361"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f65a438182b040d892ad76c857d95003",
+                                "navigationGoals": [
+                                    "I need to confirm when today\u2019s lunch delivery will arrive at our office.",
+                                    "What\u2019s the status of my office lunch delivery today?",
+                                    "I\u2019d like to query my account metadata and troubleshoot a stalled delivery status in your system logs.",
+                                    "I need to check the status of my lunch delivery today.",
+                                    "Check the delivery status of today\u2019s lunch order"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with customer support, press 2.",
+                            "fileID": "fb6290a03856491b924a00d90a258d86",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a customer support representative.",
+                                        "fileID": "429dcfcd2bbb4d0f9388a06378af77cb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5029141460d249dbbf995a3072c346df",
+                                "navigationGoals": [
+                                    "I\u2019m calling to resolve an unexpected charge on my Eat Club account.",
+                                    "I need to update the credit card on my account.",
+                                    "I need to escalate a payment-failure incident and roll back an erroneous transaction.",
+                                    "I need help fixing an issue with my account billing.",
+                                    "Cancel my weekly office lunch subscription"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a742711855464077b5c83d5678083e60",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales inquiries and new orders, press 2.",
+                "fileID": "876c2595f78142b0a926d99876df590e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To place a new corporate lunch order, press 1.",
+                            "fileID": "81fe33a481104201af12ca80c6006d38",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with an order specialist.",
+                                        "fileID": "e4606463da774cb28618bb2488a01cac"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1aad93d4710d4a6ba3dc18c57eab1065",
+                                "navigationGoals": [
+                                    "I want to place a corporate lunch order for 20 people next Wednesday.",
+                                    "I\u2019d like to place a corporate lunch order for 10 people next Friday.",
+                                    "I want to provision a weekly recurring corporate lunch order via API for 50 team members.",
+                                    "I\u2019d like to place a new corporate lunch order for my team.",
+                                    "Place a new corporate lunch order for my physics study group"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, quotes, or menu options, press 2.",
+                            "fileID": "371aeac729a440989065c6cf1893e1bd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our sales team for a custom quote.",
+                                        "fileID": "b826ca5ae0fd4d8398d05c262d323b08"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2acb6c33b31d42d1b4b8c952f0e12661",
+                                "navigationGoals": [
+                                    "I\u2019d like a custom quote for weekly catered lunches for my team.",
+                                    "Can I get a quote and menu options for a weekly lunch benefit for my team?",
+                                    "I\u2019m seeking a custom pricing quote with per-user rate cards and SLA details.",
+                                    "I want to review menu options and get a price quote for an upcoming event.",
+                                    "Request pricing and menu options for a 30-person catered lunch"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2b8505a546fa40c29cca18af7e248488",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "50a48db1274b48689058578597af72fc",
+        "navigationGoals": null
+    },
+    "id": "7344b8b1731b4379872054331ae2f904",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Cradlepoint, your South Bay experts in enterprise-grade network hardware.",
+            "fileID": "fda3e504babc45e390d6c1589ba7fe1f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and Product Information, press 1.",
+                "fileID": "e8473a782ca84041b99ff04e5c4aecdb",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For details on our device portfolio, including CR4250, AER2200, and AER1600 series, press 1.",
+                            "fileID": "f5c21011c23f433dbc7bd1cbbd838248",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product specialist for device information.",
+                                        "fileID": "8e2bd698b8d44c8fa6b038b889be5115"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "415f5c903cb24e93876cedc192c3dfb6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing, ordering, and shipment inquiries, press 2.",
+                            "fileID": "5f4041823b5a4be0a56e14008ec56af1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for pricing and orders.",
+                                        "fileID": "efab789d515949d7a6818ce371eba738"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e20becc1b06f455d8aaadeba27bbffde",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "70bdd944083c400192817929d2abc572",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technical Support, press 2.",
+                "fileID": "9708d190feb24d2ca7bee836601f4892",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For troubleshooting our COR IBR600B, 900, 1100, and 1700 series routers, press 1.",
+                            "fileID": "f46863f97bbf46838bb5c18a0984915b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support engineer.",
+                                        "fileID": "4966406224c54f9ea2555743831edb4b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e34cc92395a74b5291d843dde59fa02f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For help with Cradlepoint Virtual Router, firmware updates, and software, press 2.",
+                            "fileID": "5b8e6e6caa9a4169bf2553b7c1a6c46b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to firmware and software support.",
+                                        "fileID": "a4dbaa688a0b453ba01973781ba0c513"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f285572dbaee412db6a847c6318ffe5c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "508dc64d142844f5beff55d4c7dd6ccd",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "48e7673f58f6447e89099bcd67a7e517",
+        "navigationGoals": null
+    },
+    "id": "b29a6ed2818040ed8e188af8af08b45b",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Grin, Sacramento\u2019s all-in-one influencer marketing platform to find, recruit, and activate top social influencers.",
+            "fileID": "0eb355eb3a694f6680c639529dd2f495"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 to speak with our sales team about a demo or pricing.",
+                "fileID": "d8ca820da9b04d328a767fe369bd1d41",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to schedule a free live demo of Grin\u2019s software.",
+                            "fileID": "1af2f5b726534f67afcb6c4a0f39a7cd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo scheduling team.",
+                                        "fileID": "47e21822255a4510a657c56c236697d4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fffeadd051714a93bad5f4b58d048256",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a live demo of your influencer marketing platform.",
+                                    "I\u2019d like to schedule a live demo to see how Grin\u2019s platform can help me promote veteran support initiatives.",
+                                    "Schedule a live technical walkthrough of Grin\u2019s API and campaign automation dashboard.",
+                                    "I need help scheduling a live demo of the Grin platform.",
+                                    "I\u2019m a physics student looking to schedule a live walkthrough of your influencer management platform."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to discuss pricing options and subscription plans.",
+                            "fileID": "845b9a4d571f496d94d55b626cb6afd4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a pricing specialist.",
+                                        "fileID": "93c89c394c0049298736bbc77d89cbb6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f6483f13ecaf4486bbfa78be0c463013",
+                                "navigationGoals": [
+                                    "I need to review your subscription tiers and pricing options.",
+                                    "I want to discuss subscription tiers and ask if you offer a veteran discount on your pricing plans.",
+                                    "Get a detailed breakdown of subscription tiers, seat-based pricing, and API call limits.",
+                                    "I\u2019d like to review pricing plans and subscription options.",
+                                    "I need details on your subscription tiers and any student pricing options you offer."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6238161c6f84401bb71077774d06db62",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for customer support and account assistance.",
+                "fileID": "738d4cb9654c40c4beaa6e8b451baa14",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for technical support with your Grin software.",
+                            "fileID": "f56ff2dd163e453a8ab13bbccaa092f1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "7d51ed83b990483fa4db236b0d8005e5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "17c40225a4ed4ddeb8b62d7053555486",
+                                "navigationGoals": [
+                                    "My Grin dashboard won\u2019t load \u2013 I need technical support to fix it.",
+                                    "I need technical help fixing an error when uploading my influencer list into the Grin software.",
+                                    "Troubleshoot an OAuth authentication error in our Grin API integration.",
+                                    "I\u2019m having difficulty using the software and need technical support.",
+                                    "I\u2019m having trouble with my dashboard analytics\u2014can I get technical support to fix it?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for billing questions or account updates.",
+                            "fileID": "cf1d69758add4aaba98fd044d04edf90",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "c6f9168f27934be7b1d93aae008a5c3f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7efb4e32c4694734a1206346c3339679",
+                                "navigationGoals": [
+                                    "I want to update the credit card on my account.",
+                                    "I need to update my payment method and request a prorated refund for the period I couldn\u2019t use the service during my deployment.",
+                                    "Update my payment method and retrieve the latest invoice for my account.",
+                                    "I want assistance understanding my bill and updating my payment information.",
+                                    "I\u2019d like to update the credit card and payment details on my account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5d949e84153545d7b3a64edb8a505d9f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "505a06ff29274abdb0d75f960e1302f9",
+        "navigationGoals": null
+    },
+    "id": "7161865046f044d19fd5095fb77f73c2",
+    "navigationGoals": null
+}

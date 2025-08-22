@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Techees Recruiting in San Francisco, where we connect talented candidates with leading employers.",
+            "fileID": "6c6487489e8b498d920368667e0b5d58"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for candidate services.",
+                "fileID": "95f19bc596114c769c628b09ec2bb9a8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to schedule an interview with a recruiter.",
+                            "fileID": "658c64537800492da52298fb2d1b1305",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruiter to schedule your interview.",
+                                        "fileID": "edea185cbfaf4784a401164c52b12b65"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5d0b0ffed10e4d829cf02e6130ee9601",
+                                "navigationGoals": [
+                                    "Schedule an interview with a recruiter for the product manager position next Tuesday morning.",
+                                    "Schedule an interview to discuss how my military leadership experience fits your open roles.",
+                                    "I'd like to book an interview slot with a recruiter to synchronize on my interview timeline.",
+                                    "I need assistance scheduling my job interview.",
+                                    "I want to book a phone interview for the data science internship I applied for."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to check your application status.",
+                            "fileID": "c6ba3e38debb4d4e92a6f0a9c168ed92",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to check your application status.",
+                                        "fileID": "d3e924d90841480e969f5a88087f78dd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0f916000f6e14b7f854cbe8b81d865ee",
+                                "navigationGoals": [
+                                    "Get an update on my application status for the product manager role I applied for last week.",
+                                    "Check the status of my recent application for a position that aligns with my service background.",
+                                    "I want to retrieve the current status of my application in your ATS pipeline.",
+                                    "I\u2019d like to find out the status of my job application.",
+                                    "I\u2019d like to check the status of my application for the physics research assistant position."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "09c7127511ee4e6a8b6aecbe466a010f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for employer services.",
+                "fileID": "07f74ebf9c914e739cad69df499512b9",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to post a new job opening.",
+                            "fileID": "cb03f7bc81374e60af26404a555d2106",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruiter to post your job opening.",
+                                        "fileID": "cea7977c67d34d06948c6bb601ebb0f7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b64a1e21410849a690c52dbc5469a91c",
+                                "navigationGoals": [
+                                    "Post a new job opening for a senior software engineer based in San Francisco.",
+                                    "Post a new job opening for a veteran-friendly operations specialist role at my startup.",
+                                    "I need to publish a new job requisition detailing the role's tech requirements.",
+                                    "I\u2019m looking to post a new job opening for my company.",
+                                    "I need to post a lab assistant opening for my physics research project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to discuss your candidate search.",
+                            "fileID": "c1dbc42c39464dafbef7bc129a623483",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to discuss your candidate search.",
+                                        "fileID": "efbf99cc9f644ea78dc1e21e055c2066"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0f7408392f1e4c6ea3faa8efe0c6fb7a",
+                                "navigationGoals": [
+                                    "Discuss potential candidates for our upcoming UX designer hire.",
+                                    "Discuss my search for qualified ex-military candidates to join my team.",
+                                    "I want to review and optimize my candidate search parameters with a recruiter.",
+                                    "I need to talk with someone about sourcing candidates for a role.",
+                                    "I want to discuss finding suitable candidates for summer research internships in my group."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a13bcb9a222c445980113651c523bdf6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6aaa19dea0f24bfface6f6048397e17a",
+        "navigationGoals": null
+    },
+    "id": "20a5bba49d2f47b0b3e316f47c47be6f",
+    "navigationGoals": null
+}

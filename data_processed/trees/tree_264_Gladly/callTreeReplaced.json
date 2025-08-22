@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Gladly in San Francisco, where customer service is at its best when it\u2019s a conversation.",
+            "fileID": "9964f2b0b2554d808cb12586bbab5d54"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about Gladly\u2019s customer service platform and pricing, press 1.",
+                "fileID": "c55c3c36f1e44ea4bab46283864eeb4b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a product specialist, press 1.",
+                            "fileID": "b520513601f344a0a9c5c32089919afd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product specialist.",
+                                        "fileID": "de4c426a26b24a4e82db14aff6472574"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4f0387de9fbd427b9e88e54304c2cc91",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule a live demo, press 2.",
+                            "fileID": "440d7f0417ed4f6fa2ba1eab485939ae",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you; a sales representative will be with you shortly.",
+                                        "fileID": "1414d9c1421d49939d1b08f9b610bb9c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0026b203f1e042ffb6fbfd9485dd72a7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f75adb28c5dc45439310729ce230321a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "7e6d19bf4e4644c49e86e3b4c54e41fa",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you have technical questions or need troubleshooting, press 1.",
+                            "fileID": "d8d0788e77434f3ea55b341905a5e1fd",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for technical support.",
+                                        "fileID": "42f0d6eea3c84234981052f905dfb6c6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dff66d0b67de48e98d4a00bf1c319069",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing, account management, or invoices, press 2.",
+                            "fileID": "e11effc7799f4257ad0b639a22cb664f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our billing department.",
+                                        "fileID": "f120af1ee81d4397a336178d5b1bc40c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "752cd35706a94768adca6fce507edd74",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "867438002871479fb42d24ba403f352a",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7acdaeefb23a43feb262239c63d1b128",
+        "navigationGoals": null
+    },
+    "id": "37aacbadbf554a9d8defa17a7f4ee774",
+    "navigationGoals": null
+}

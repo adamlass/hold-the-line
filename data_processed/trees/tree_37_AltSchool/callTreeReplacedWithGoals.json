@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to AltSchool in San Francisco, where we make learning visible for students, educators, and parents.",
+            "fileID": "0f4117d482c3489a8a470b5a119cdb49"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For student and parent services, press 1.",
+                "fileID": "5a6855a89d4b485c8db43b9f93e9a6d4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check student progress reports, press 1.",
+                            "fileID": "d09b9f57aff84d989048221a5644fa7c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a specialist for student progress reports.",
+                                        "fileID": "f11120705ede473ebdc9518e9b5eb09c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8fa91d4defc645f48fae92a8f6ff977e",
+                                "navigationGoals": [
+                                    "Retrieve my child\u2019s latest progress report.",
+                                    "Check my child\u2019s latest progress report and get help understanding their assessment results",
+                                    "Access my student's latest performance metrics dashboard",
+                                    "I need help understanding my granddaughter\u2019s progress report and what her grades mean.",
+                                    "Review my current physics course grades and progress report"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "07023c3f986844c89eaa8c464e5082b8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to billing and account support.",
+                                        "fileID": "876e92335dbd4159b100dca81d32770c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a586408a99ea4c2ab365a63576d677bb",
+                                "navigationGoals": [
+                                    "Verify and pay my student\u2019s outstanding tuition balance.",
+                                    "Ask about billing options and any veteran tuition discounts for my child\u2019s enrollment",
+                                    "Review my invoice history and pending balance on my AltSchool account",
+                                    "I\u2019d like to discuss my child\u2019s tuition bill and arrange payment over the phone.",
+                                    "Clarify my tuition billing statement and available financial aid for my physics classes"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e1c218748c6a4fefbf8191fbc7634b72",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For educator services, press 2.",
+                "fileID": "bc0c65dba37b47cc9f7d6a1ff2d4c021",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For professional development resources, press 1.",
+                            "fileID": "2c2811a08c1b415bb1c9456be3c27b26",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to professional development resources.",
+                                        "fileID": "e9e7ab3a4bcd42b9913d0057f8d1eeb9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c31d26a022c44a2b8c1996f1bb8d2d4e",
+                                "navigationGoals": [
+                                    "Enroll in the next professional development webinar.",
+                                    "Find professional development programs tailored for veterans transitioning into teaching",
+                                    "Enroll in the upcoming professional development webinar on adaptive learning frameworks",
+                                    "I\u2019m an older teacher wanting information on enrolling in your professional development workshops.",
+                                    "Enroll in upcoming physics pedagogy workshops and other teaching\u2010skill development programs"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support, press 2.",
+                            "fileID": "dc7794b47fd646558f739b3c56ddb4b6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support.",
+                                        "fileID": "57db8657e7ef44a9ab4eff0be88d90cd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2ec7107bcbf34ea18e2dbdb3a897ac62",
+                                "navigationGoals": [
+                                    "Reset my educator portal password.",
+                                    "Get help troubleshooting my educator portal login and device setup for online instruction",
+                                    "Troubleshoot classroom device network connectivity issues",
+                                    "I\u2019m having difficulty logging into the educator portal and need help resetting my password.",
+                                    "Resolve login issues with the AltSchool portal so I can access my physics assignments"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ba0ff41f5fc6424a98682c4942618a50",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ce4c53a9c6b54b4b906dce00e0f25f12",
+        "navigationGoals": null
+    },
+    "id": "feadb0ed9ed245f0b40579e45cf3e88f",
+    "navigationGoals": null
+}

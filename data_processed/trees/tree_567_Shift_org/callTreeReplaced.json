@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Shift dot org, a San Francisco nonprofit dedicated to matching veterans with organizations and immersive fellowship programs leading to careers they love.",
+            "fileID": "7fa6b6bfa7fd46d79538ca0cce67b031"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our immersive fellowship programs for veterans, press 1.",
+                "fileID": "1be642f9a7ac476ea8423c1bcefdb336",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For details on our Veteran Skills Accelerator program, press 1.",
+                            "fileID": "949aeb09f06b45278542b16b69b9ef20",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a specialist for the Veteran Skills Accelerator program.",
+                                        "fileID": "6986eb06ac8c43f6bfaae41c7d7618c1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "427b5fab7d3a4e78ba8eeb2704c31e40",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn about our Entrepreneurship Fellowship tailored for veterans, press 2.",
+                            "fileID": "3c528fdcaf974ebd9b05538ca94a84c0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a specialist for the Entrepreneurship Fellowship.",
+                                        "fileID": "818bc2d92f9f4c5ca08bd60970c353dc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a20008a6571a4be4974b9ccef3377ace",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "be2b8819fbb44f5bba5e0bfd1ea43fc5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To speak with our talent acquisition team about job placements or partnerships, press 2.",
+                "fileID": "4958af72654c426695efec4820885111",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss current job openings and application support, press 1.",
+                            "fileID": "4a90265e79c2470da813c257b46af0f9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a recruitment specialist.",
+                                        "fileID": "07be8843696746ba951514200a1deb73"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "da484865985145d8bcc1fe585d87519f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To explore partnership opportunities for hiring veterans, press 2.",
+                            "fileID": "8701629796454f369768037eb56038bd",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our employer partnership team.",
+                                        "fileID": "57429189fcd54956a5941bbf1c97c8c7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7f2480f612f84a519bdff14d62e3f162",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6410662206a5475c916c1734b5909221",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "74de3c7515d04a2ebe9f367626e9d765",
+        "navigationGoals": null
+    },
+    "id": "82ba2c58f6084363b9f4e7cec672ddbc",
+    "navigationGoals": null
+}

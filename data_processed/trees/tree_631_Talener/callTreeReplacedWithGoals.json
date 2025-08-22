@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Talener, your San Francisco-based recruiting agency for software engineers and tech professionals.",
+            "fileID": "46f3252f9d5140daac109b911ac9eda5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are looking for your next tech position, press 1.",
+                "fileID": "884c31f634e543caa42739c00b02fcd8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a software engineering recruiter, press 1.",
+                            "fileID": "af5861af769d48c5ba441110eba6180c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a software engineering specialist.",
+                                        "fileID": "70b2b1847eb346a3ac77198301b19f1f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ef3d3dbaa49149f2a20969c2063aea2b",
+                                "navigationGoals": [
+                                    "Connect with a software engineering recruiter about open positions",
+                                    "Discuss software engineering roles for a veteran transitioning into tech.",
+                                    "I want to talk to a recruiter about software engineering job opportunities.",
+                                    "Please connect me with a software engineering recruiter to discuss job openings.",
+                                    "I\u2019d like to speak with a software engineering recruiter about entry-level developer roles in San Francisco."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about other technical roles we have available, press 2.",
+                            "fileID": "e1c387e637f546cd8478d5ea83789eef",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical roles specialist.",
+                                        "fileID": "2ed9a700e2d74e0c916883372cbec883"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2c70faad60944a74bc135edcb1646d45",
+                                "navigationGoals": [
+                                    "Learn about non\u2010engineering tech roles like data science or DevOps",
+                                    "Learn about non\u2013software engineering technical positions like cybersecurity or DevOps suited to my background.",
+                                    "I need info on other technical roles like DevOps, data engineering, or QA.",
+                                    "I\u2019d like to learn about other tech roles you have that might suit me.",
+                                    "I\u2019m interested in exploring technical positions outside of pure software engineering, such as data science or hardware engineering."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b08659d852b84c21b590132207082f19",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an employer seeking top tech talent, press 2.",
+                "fileID": "528338d9eaff4ad3a7f27289c987a1e2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss hiring software engineers, press 1.",
+                            "fileID": "c7f0d9e3f5764e62b96470df5ec7aace",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an enterprise software recruitment consultant.",
+                                        "fileID": "7e3b81b0aa4f4d289ff9265d34897f41"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a8372464324c473cb1870fad0a82201b",
+                                "navigationGoals": [
+                                    "Speak with a consultant to hire software engineers for my company",
+                                    "Speak with someone about hiring software engineers for my veteran-led tech start-up.",
+                                    "I\u2019m looking to hire enterprise software engineers for our upcoming project.",
+                                    "I need to speak with someone about hiring software engineers for my business.",
+                                    "I need to hire a software developer to help build simulation tools for my physics research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To talk about other technology hiring needs, press 2.",
+                            "fileID": "5d5638c2cb6c4e93b892d77e35f97f43",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our tech talent acquisition team.",
+                                        "fileID": "c28c1247cf8248efb065c619dcb97cd7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d13bc4ca2c0c4210ac755f2ed3b44a6b",
+                                "navigationGoals": [
+                                    "Discuss recruiting other tech talent such as UX/UI designers or data engineers",
+                                    "Discuss recruiting other technical specialists, such as system administrators or data analysts, for my company.",
+                                    "I want to discuss hiring for other tech roles, like infrastructure architects and support engineers.",
+                                    "I want to discuss filling various technical positions at my company.",
+                                    "I\u2019m looking to recruit hardware technicians or electrical engineers to support our experimental setups."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d677171e681f4b1596f6c68b3fe74e56",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "90acecfde17c4528b5acddd1d6fac1db",
+        "navigationGoals": null
+    },
+    "id": "31d3a2f803914e7490be3b4e879bbe5a",
+    "navigationGoals": null
+}

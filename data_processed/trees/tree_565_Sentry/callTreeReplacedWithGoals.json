@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Sentry in San Francisco, where we help developers monitor and fix crashes in real time.",
+            "fileID": "2830fccd755d41a4ad73914dd6d506ff"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our sales team for new accounts and product information, press 1.",
+                "fileID": "7317a1afdf26416fb212e8536f78cf4f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product information and feature overview, press 1.",
+                            "fileID": "cdaba8dab17f4df2a927e78547cb3d71",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for product information.",
+                                        "fileID": "908d45d9671941688c77ed8d9cc8a240"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0d1a5f772a3b43449c8a87848c10b223",
+                                "navigationGoals": [
+                                    "I want a quick overview of Sentry\u2019s features to see if it\u2019s right for my team.",
+                                    "I\u2019m a veteran transitioning into software development and would like an overview of Sentry\u2019s crash monitoring features to see if it meets my needs.",
+                                    "I'd like a technical walkthrough of Sentry's latest performance monitoring features for our JavaScript SDK.",
+                                    "Can someone explain how your product features work for a new user?",
+                                    "Discuss creating a new Sentry account and understanding its crash-monitoring features for my physics research project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, plans, and licensing details, press 2.",
+                            "fileID": "9998925334e64904a4ee86e981c797ae",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for pricing and licensing.",
+                                        "fileID": "967824e29f4744fda5888f5a828c8833"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "959edef081ce4b2cb4e3d02823e39ebb",
+                                "navigationGoals": [
+                                    "I need detailed pricing and licensing information to finalize our budget.",
+                                    "I\u2019m a veteran founder and need to review Sentry\u2019s pricing plans, licensing tiers, and any available discounts for vets.",
+                                    "I need detailed information on enterprise pricing tiers and the seat-based licensing model.",
+                                    "I need help understanding subscription costs and licensing terms.",
+                                    "Get details on Sentry\u2019s subscription tiers and licensing costs for integrating it into our lab\u2019s data collection."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "398360d9008c4d6d98aaaf68efb27862",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and existing account assistance, press 2.",
+                "fileID": "c6c9a1ccbe6542b297e5b1443fc796a4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and to report a bug, press 1.",
+                            "fileID": "65eca195f82b4964aa64d0c1b29ab3bb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "a06cb30d220c4bd1bbce9814847b7fca"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "89beb190372d4ee490f565aca456fd1c",
+                                "navigationGoals": [
+                                    "I\u2019m experiencing a crash in my app and need to report the bug for urgent help.",
+                                    "I\u2019m encountering critical crashes in my application and need to report a bug to Sentry\u2019s technical support team.",
+                                    "I want to report a missing error aggregation for our React Native app in Sentry.",
+                                    "I\u2019m having an issue with the app and need to report a bug.",
+                                    "Report a technical issue: the Sentry Python SDK crashes when logging sensor data in my experiment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "8998c07368d84a7ea56987b15a6b411b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account management and billing team.",
+                                        "fileID": "a0abf0baaf684ef4af06d6be6a50aac3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aea72a0987ca4d6e88d1733b9888bdad",
+                                "navigationGoals": [
+                                    "I need assistance resolving an issue with my account\u2019s billing and invoice.",
+                                    "I want to update my account billing information, review my subscription details, and confirm any veteran discounts on my plan.",
+                                    "I need to update our credit card on file and review the last invoice for our Pro plan.",
+                                    "I have a charge on my account I don\u2019t recognize and need billing assistance.",
+                                    "Update billing information and payment method for my existing Sentry subscription used in my research group."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2b287b0971914ab3b02f2235a6167843",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "70c93eb20584485e98bfb9cf6679e4a1",
+        "navigationGoals": null
+    },
+    "id": "a658086173b84f9385d63d1a70c53715",
+    "navigationGoals": null
+}

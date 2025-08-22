@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Bebo, the San Francisco-based streaming app designed exclusively for Twitch Partners.",
+            "fileID": "c4702572e139441aaa277d2c7bcd853f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support and app assistance, please press 1.",
+                "fileID": "f5d2845ccc784ef7be8b0ad16f03db36",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For streaming quality or connectivity issues, please press 1.",
+                            "fileID": "210f0fb8313646efae38c653864dc301",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist for streaming quality and connectivity issues.",
+                                        "fileID": "0b7e1605515b4beda59f8ab06cae37fa"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1d3fb2f5acf049b3b67c4c49a95f65b8",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For help with app navigation and features, please press 2.",
+                            "fileID": "a3cd7a7b68bd40c99001a352ad21c103",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a support agent for app navigation and feature assistance.",
+                                        "fileID": "803ffe77d57547caad7a96870fc21a5b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dfe9d3b4338e4cf0a1fad31c89501ce0",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "63d14a77742e4c7d9b79dcce9dbcb23d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For partnership opportunities or account inquiries, please press 2.",
+                "fileID": "a94644743fbe4f0c869dbe537c9ee54b",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For partnership program details and advertising opportunities, please press 1.",
+                            "fileID": "25513dacc3ca416da2f63cf47da490a1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships team.",
+                                        "fileID": "b89da7afc05c41bd8aae1cf02152d965"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a03a42f5135a46749b10182a00ee6f28",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account management or billing inquiries, please press 2.",
+                            "fileID": "676e1a5c568f410eae33583e1d55936f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and account management team.",
+                                        "fileID": "d89568c050a147fdaf1caa70c352613a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "96a9bf069577402d9f7fb775d9e2338e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f92ff4c144604874a0c02a7c2f9b5c2f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b3f58d05b3e2429b824738b4686daee8",
+        "navigationGoals": null
+    },
+    "id": "6c743263cf624b629444b8ea0b13746f",
+    "navigationGoals": null
+}

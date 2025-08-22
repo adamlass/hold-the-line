@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to TEKsystems in San Francisco, where we're building tomorrow's workforce today.",
+            "fileID": "4614037aa103436e97ece6dd95fbd7e7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a job seeker looking to build your career, press 1.",
+                "fileID": "e1cf3426d5674304b94f81fee51c0ce7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our recruitment team, press 1.",
+                            "fileID": "2889c6fc3c7f445aa3da8d1c48a6d4a9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to one of our recruiters.",
+                                        "fileID": "ce1c16f4cb3744019526cadf29cbb9b0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bf5b45c0ba1a489384636e3c37d13646",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To check the status of your application, press 2.",
+                            "fileID": "faf07bc26cbe44d5864af1b834185d72",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your application status.",
+                                        "fileID": "7e97747d48c54dc1a2ea72091be51ce8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e4a98b5968cb4a3bbf7ec97d1362eaf1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d41aff488d4543669cc5cb099efb535f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a company seeking tech talent, press 2.",
+                "fileID": "4bd8e88211104f49ac2b71e0c5ca7a85",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss tailored staffing solutions, press 1.",
+                            "fileID": "908898016d604332a72105f07462919b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a staffing specialist.",
+                                        "fileID": "a78a50ab726449f896ac7540600f3695"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7836e9797a094da6bf1ddfe76edacf98",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "58cf58e243c445ee898adee4fbfc20d4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "8d9bb3cb376949d889e1ee38972c0d70"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0690412ba09841c2a60f1f32ae3c56a3",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a883a39bdd674c389a866c5a827a5274",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e5371aa5dc2b4a9bb4e12faeb7c72699",
+        "navigationGoals": null
+    },
+    "id": "1f08f43f1a3647358b28e5fc54775555",
+    "navigationGoals": null
+}

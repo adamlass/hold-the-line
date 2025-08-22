@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Fivetran in the East Bay, the developer platform for streaming data into your warehouse for advanced analytics.",
+            "fileID": "7b9c5b25b7dc4ce5be7bf9a95832e3ba"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for sales and free trial information.",
+                "fileID": "e6e03c40dd0a4755989af4d9f3972805",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with a sales representative and sign up for your free trial.",
+                            "fileID": "07a96d9535c84199ba4a5fab7f11a1f8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for choosing Fivetran. Connecting you to a sales representative now. Please hold.",
+                                        "fileID": "b52a8403014443fd94bb8f801a64cedd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "57f4e44d836b43ebae7ec3305c50d099",
+                                "navigationGoals": [
+                                    "Start a free trial of Fivetran to quickly evaluate its data streaming capabilities.",
+                                    "I want to sign up for a free trial and speak with someone about getting started.",
+                                    "Connect me to a sales rep to activate a free trial and discuss API throughput limits.",
+                                    "I want to speak with someone to set up a free trial.",
+                                    "Set up a free trial to stream experimental data into my warehouse for analysis."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to learn about enterprise plans and pricing.",
+                            "fileID": "05b2e9c4e3f041588129e6db0da113b4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Connecting you to our enterprise sales team. Please hold.",
+                                        "fileID": "83e2c7b7d6a64064a44d5413713ac3b3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "302bd96e08ff4f1faa80878eef273d81",
+                                "navigationGoals": [
+                                    "Get a quote for enterprise plans and pricing tailored to a large-scale deployment.",
+                                    "I need to discuss enterprise plans and pricing options for my organization.",
+                                    "I\u2019d like to speak with enterprise sales about custom SLAs and volume-based pricing for a large-scale deployment.",
+                                    "I\u2019d like details on enterprise plan pricing.",
+                                    "Request detailed enterprise pricing and plan options for a research lab."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5a348e47562545758afdba2d57515044",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for technical support and account inquiries.",
+                "fileID": "0675a59904e94f50b4a1cb5e1b4a3e4d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for help with data connectors and integrations.",
+                            "fileID": "f3d5ea92915a4549b0c9f392e55d017e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "4cd9b4ce8e1948b4a415ec3fb215731a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3b65cdb68abc4ced8c1e7b78cd6bcf45",
+                                "navigationGoals": [
+                                    "Troubleshoot my data connector setup to resolve integration issues fast.",
+                                    "I need help configuring a data connector for my project.",
+                                    "I need technical support to troubleshoot my Kafka connector\u2019s partition lag and optimize real-time sync.",
+                                    "I need help configuring my data connectors.",
+                                    "Get assistance configuring a Fivetran data connector integration."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for account management and billing inquiries.",
+                            "fileID": "5e26491676074b339c82f80503f2c96b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account management.",
+                                        "fileID": "f472619bfc3a4946a99f95ef99999785"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f107c9b4308046ba87df40744869b8eb",
+                                "navigationGoals": [
+                                    "Clarify and fix a billing discrepancy on my account invoice.",
+                                    "I have a billing question and need to update my payment method.",
+                                    "I want to update my billing info and review last month\u2019s usage invoice for my account.",
+                                    "I have a billing question about my account.",
+                                    "Review my billing statement and update payment information for my account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ca3a6b7af91e4b26a5f8073a9d571037",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8f568fafe8574a789d09444883b2a7de",
+        "navigationGoals": null
+    },
+    "id": "0c232674b5644847890b30b1703e3a82",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Khan Academy South Bay, where learning is always free and accessible to everyone.",
+            "fileID": "16e8a5051ed343cca7e0ff688f24b8ba"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To explore our course offerings, press 1.",
+                "fileID": "edf7672dab9d4ebf98eb5aa75662ee29",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To browse math courses and resources, press 1.",
+                            "fileID": "258ad62dc5aa45ec8c97251031d1d618",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our math education specialist.",
+                                        "fileID": "4c601e5f9c394791aca3391813599231"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7c2d9958c88342c79d5d2b6137289fcd",
+                                "navigationGoals": [
+                                    "Identify which math course best fits my current skill level for professional development.",
+                                    "I want help strengthening my algebra skills to prepare for college math courses.",
+                                    "Discuss optimizing my personalized math curriculum using Khan Academy\u2019s data-driven proficiency metrics.",
+                                    "I\u2019d like guidance on finding a beginner math course suited for me.",
+                                    "I want to review the calculus and linear algebra modules for my physics studies."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To browse science, arts, and humanities resources, press 2.",
+                            "fileID": "00520205ee374d8d9cd2abe4abdd7928",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our science and humanities education specialist.",
+                                        "fileID": "36df313d17e446d09ae98e2890a0bf93"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fce87327dbdc4106824344eba6618c9c",
+                                "navigationGoals": [
+                                    "Locate a concise science module to refresh my basic chemistry understanding.",
+                                    "I\u2019m looking for science and humanities courses, like biology and writing, to retrain for a civilian career.",
+                                    "Inquire about integrating interactive science simulations into a homeschool AP Physics module.",
+                                    "I\u2019m interested in exploring your science and arts classes.",
+                                    "I'm looking to explore physics and astronomy lessons on classical mechanics."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "941791115b3d4d2c876ddd5ca1fb0701",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account support and partnership information, press 2.",
+                "fileID": "f646235480f448bd92f50c77556f95a5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with your Khan Academy account, press 1.",
+                            "fileID": "bb25af673fbd4bbdbf72efe654a3c8c5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the account support team.",
+                                        "fileID": "7b314313b9ab4177bbff6878a91321df"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "94f23050976d4396affc435f626b0859",
+                                "navigationGoals": [
+                                    "Reset my Khan Academy account password so I can regain access to my profile.",
+                                    "I need help resetting my account password so I can access my saved lessons.",
+                                    "Recover my student account, enable two-factor authentication, and troubleshoot login token errors.",
+                                    "I need help resetting my Khan Academy account password.",
+                                    "I need to reset my Khan Academy account password."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For volunteer opportunities or partnerships, press 2.",
+                            "fileID": "c81124cd04304e28860d10d7735c0053",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our community outreach coordinator.",
+                                        "fileID": "315757d9b4184a52b8bd0de99593b743"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8ed9f3b77d5541c3b5b58577c0e9ab39",
+                                "navigationGoals": [
+                                    "Learn how to volunteer as a STEM mentor with Khan Academy South Bay.",
+                                    "I\u2019m interested in volunteering as a STEM tutor through Khan Academy\u2019s program.",
+                                    "Explore volunteering to develop open-source educational content or community-driven courseware.",
+                                    "I want information on how to volunteer as a tutor.",
+                                    "I want to sign up as a volunteer physics tutor with Khan Academy."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f1ea34b9e79b4f01862d9ca07e2774f5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d41a031eae6844d8a7c6fa0bfb2e1815",
+        "navigationGoals": null
+    },
+    "id": "4a1eeb94f5bc43e1b79c19ac1da1dadf",
+    "navigationGoals": null
+}

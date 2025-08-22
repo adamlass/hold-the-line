@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Yammer in San Francisco, where we help you connect and collaborate across your organization to make faster decisions.",
+            "fileID": "ff01d060bb6741a7b4f7bec9f0e976bd"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on products, demos, and pricing, press 1.",
+                "fileID": "061a9a1eccc24860ba3186c8b66afe9e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a live demo with our team, press 1.",
+                            "fileID": "ef32035891134e4c86141685ab1a7433",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you, please hold while we connect you to our demo specialist.",
+                                        "fileID": "e1c04f054f5748bcae4daba5d1531604"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e6e2d36566ba4c83be9230fc4aea82d5",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a live demo to see how Yammer can integrate with our team\u2019s workflow.",
+                                    "I\u2019d like to set up a live demo to see how Yammer can help my veterans\u2019 support group collaborate effectively",
+                                    "Schedule a live demo with a Yammer specialist to explore its API integration features.",
+                                    "I\u2019d like to schedule a live demo to learn how Yammer works for my organization.",
+                                    "I\u2019d like to set up a live demonstration of Yammer\u2019s collaboration features for my physics research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing plans and subscription options, press 2.",
+                            "fileID": "5551dacb62e64ee980cf4a319ef9bba3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our sales representative.",
+                                        "fileID": "b9c470f27a354ab29411a12df4bf42f0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "26f5d43506df4d42ab95c7087a54459b",
+                                "navigationGoals": [
+                                    "I need a breakdown of your subscription plans and detailed enterprise pricing options.",
+                                    "I need details on subscription tiers and any nonprofit/veteran discounts for our organization",
+                                    "Request a detailed quote on Yammer\u2019s enterprise pricing tiers and subscription models.",
+                                    "I need to review Yammer\u2019s pricing plans and subscription options.",
+                                    "I need details on student subscription costs and plan options for academic use."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b562ffa353954beb9d70e10ebc63d851",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and technical assistance, press 2.",
+                "fileID": "2d1ed862e6f749c884fc720f8c1c7881",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "da150ba8067c41d286f974c528fb9941",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our technical support team.",
+                                        "fileID": "869d78b2193e495b999bba6099b1482a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c063cce05d574d42b5affd91a9aa73e9",
+                                "navigationGoals": [
+                                    "I\u2019m experiencing a login error and need help from technical support right away.",
+                                    "I\u2019m having trouble accessing our veteran network on Yammer and need technical assistance",
+                                    "Troubleshoot an API authentication error in our Yammer integration setup.",
+                                    "I\u2019m having technical problems with the app and need troubleshooting help.",
+                                    "I\u2019m having trouble logging in with my university\u2019s single sign-on and need technical assistance."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries and account management, press 2.",
+                            "fileID": "72ca01e361ef41d9bfd982f4db08a919",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we direct you to our billing department.",
+                                        "fileID": "1d653fd184d942eaa8e02d824eae0ef3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0e93d8e49ddb443bbd07afdfd21dd09f",
+                                "navigationGoals": [
+                                    "I want to review my most recent invoice and update my billing information.",
+                                    "I want to discuss our billing and request an adjusted rate for our veteran-run nonprofit account",
+                                    "Investigate unexpected charges on my Yammer subscription invoice and update billing details.",
+                                    "I want to check my billing charges and update my account details.",
+                                    "I need to update my billing information and review recent charges on my account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bdacd3672deb41b39ba58dddf0d6a054",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ab01290cb43d4a5eb26c131f24097ab6",
+        "navigationGoals": null
+    },
+    "id": "32baa8e525a64ad99c82ec305e398652",
+    "navigationGoals": null
+}

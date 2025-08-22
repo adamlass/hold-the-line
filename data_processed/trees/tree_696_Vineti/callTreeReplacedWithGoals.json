@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Vineti, the San Francisco\u2013based software platform powering cell and gene therapy programs.",
+            "fileID": "d9c641c59d2b4bc68996824a914e0ae0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and Product Information, press 1.",
+                "fileID": "d949d097b335446eb82a0b6f233fb2d8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press 1.",
+                            "fileID": "22af58dfe8624a758dddf21b39d75521",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "db4d9a6af01140f19df856ba96e93a43"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bbeef35ce8724e61adfd60acaf007c70",
+                                "navigationGoals": [
+                                    "Get pricing and contract options for deploying Vineti in our cell therapy program",
+                                    "I\u2019m coordinating a VA cell therapy program and need to speak with a sales rep about enterprise licensing.",
+                                    "Discuss enterprise licensing tiers, API integration options, and custom pricing with a sales rep",
+                                    "I need to speak to a sales representative to help me understand purchasing options and pricing.",
+                                    "I\u2019d like to discuss academic licensing options and pricing for your gene therapy platform for my thesis research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about our platform features, press 2.",
+                            "fileID": "4e1c84784f1e4bf7ba89e0575de0409c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a product specialist.",
+                                        "fileID": "81ce2dde67d04565b13f70b3559e42ae"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "086976b9f44341bb9499c8db06b59bb8",
+                                "navigationGoals": [
+                                    "Review Vineti's core platform features to determine fit with our processes",
+                                    "I\u2019m leading a gene therapy study for veterans and want to learn about Vineti\u2019s platform features.",
+                                    "Explore the platform\u2019s workflow automation modules, API endpoints, and analytics dashboards with a product specialist",
+                                    "I\u2019d like to learn about the features your software offers for managing my therapy program.",
+                                    "I want to learn about your platform\u2019s sample tracking and data integration features for my lab experiments."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "54c3210ebb7043a1ad24a2a23deb3763",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Technical Support and Billing inquiries, press 2.",
+                "fileID": "d46b759aca1946b0a70700acaa20c169",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For Technical Support, press 1.",
+                            "fileID": "130abc217e894fae823d008b321fd3b0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "6a783ec5906649dcb69bbd824e8bb63d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b6a874e308794a78a7030ae527472f9e",
+                                "navigationGoals": [
+                                    "Fix the API integration error preventing data synchronization",
+                                    "I\u2019m having trouble uploading patient treatment data at the VA facility and need technical support.",
+                                    "Troubleshoot upload errors and integration failures in the cell therapy software with technical support",
+                                    "I\u2019m having trouble accessing the platform and need technical support to fix it.",
+                                    "I need help troubleshooting an API error I encountered when uploading my cell data."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For Billing and Account questions, press 2.",
+                            "fileID": "6013a59392864a5e868cff7b205467ba",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "d198c375e91d44bd802907f17ddbbca1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8eb5f0cc3f3e4093bcb7d83981117e3c",
+                                "navigationGoals": [
+                                    "Resolve the billing discrepancy on our recent invoice and update payment details",
+                                    "I need to update our VA account billing details and clarify the recent invoice charges.",
+                                    "Clarify invoice line items, adjust subscription seat count, and update payment method with billing",
+                                    "I need assistance understanding my bill and payment options.",
+                                    "I have questions about the billing invoice for our student group\u2019s subscription."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9ebc514515254cad87221a9f7c4821a6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e373bab8addb4301aceeeea825bb2bcb",
+        "navigationGoals": null
+    },
+    "id": "22a57170c3aa4f7ca0ac3e1780365d0d",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Weebly in San Francisco, where we help you launch and grow your business every step of the way.",
+            "fileID": "740e03346a5f410eb62b9cc757b287a2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales and new account inquiries, please press 1.",
+                "fileID": "06f05c2d8dff4522a9f10013c7de1da6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For website plans and pricing details, please press 1.",
+                            "fileID": "46b3b332de3b42efa7dbe305f17aeccb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All of our pricing experts are currently busy. Please hold, and we will connect you to Sales as soon as possible.",
+                                        "fileID": "2316365f7dca4c49b6a19c4931109d70"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4cf08287eec34d519499c6ec5f6402af",
+                                "navigationGoals": [
+                                    "Compare website plan pricing options for a new Weebly account",
+                                    "I\u2019m exploring Weebly\u2019s website plan pricing to launch my new business.",
+                                    "Compare monthly vs annual subscription tiers and feature limits for a new Weebly site",
+                                    "I need to find out how much your basic website plan costs.",
+                                    "I want to compare monthly and annual pricing for deploying a personal website to share my physics research notes."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For assistance setting up your first store or site, please press 2.",
+                            "fileID": "866a0026263746f084d56b884c8fcef7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience. An onboarding specialist will be with you shortly.",
+                                        "fileID": "f17e2ce87ea744aeb285cf0cd5883318"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bc663a0212284e5a982e706bc57f65fa",
+                                "navigationGoals": [
+                                    "Get step-by-step assistance setting up my first Weebly site",
+                                    "I need help setting up my first online store with Weebly.",
+                                    "Get step-by-step guidance on deploying a custom domain and configuring DNS for my first Weebly store",
+                                    "I\u2019d like step-by-step help setting up my very first online store.",
+                                    "I need help setting up my first online store to sell physics-themed T-shirts for our student society."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "55e5a832309041f394b1f304ad28c5ab",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Customer Support and account services, please press 2.",
+                "fileID": "230ca305ffcb447297303de39d4c21d6",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, please press 1.",
+                            "fileID": "ee4fc297f89c4f9bbec31e51b4afa099",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All of our support agents are assisting other customers. Please hold, and we will connect you to technical support as soon as possible.",
+                                        "fileID": "d5a233bf56dd41f497e218f1b5d7873f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c8e7f8f9946c4fde99d8cc5b06e45a58",
+                                "navigationGoals": [
+                                    "Quickly resolve a technical issue with my existing Weebly site",
+                                    "My Weebly site isn\u2019t loading correctly and I need technical support.",
+                                    "Troubleshoot JavaScript integration error when embedding a third-party analytics widget on my site",
+                                    "I\u2019m having trouble getting images to upload on my site and need technical assistance.",
+                                    "I'm running into an error uploading LaTeX-formatted equations on my site\u2014please connect me to technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and payment inquiries, please press 2.",
+                            "fileID": "1a4a0c1d8b21483598517b36039cc1b1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our billing specialists are busy right now. Please stay on the line, and we will be with you shortly.",
+                                        "fileID": "3bacf87d330b47baac4e6a48ad46a297"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6a5de911cc984ac7a7a5689992afe217",
+                                "navigationGoals": [
+                                    "Clarify a billing charge and update my payment information",
+                                    "I need to update my billing details and review my last invoice.",
+                                    "Investigate and dispute an unexpected charge on my Weebly subscription invoice",
+                                    "I need to update the credit card information on my billing account.",
+                                    "I'd like to review last month's billing charges and update the credit card on file."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "36179eaa412f43109c8214bc178fa6e1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bbc9719413ef41228633505b4f9d568d",
+        "navigationGoals": null
+    },
+    "id": "3dcec6b08ceb4f9192e4e05765ed6ad6",
+    "navigationGoals": null
+}

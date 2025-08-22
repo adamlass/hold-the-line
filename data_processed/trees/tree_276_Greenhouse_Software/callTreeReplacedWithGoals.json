@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Greenhouse Software in San Francisco, where we make recruiting your competitive advantage.",
+            "fileID": "996ccbc50aec437aad377de98e899532"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new customer inquiries, press 1.",
+                "fileID": "4bea529850154adbb493b3cb95e5ca70",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a live demo of our talent acquisition platform, press 1.",
+                            "fileID": "5af5d002a6164721a648c7ac3fa19e77",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest in Greenhouse. One moment please as we connect you to a Greenhouse Software Demo Specialist.",
+                                        "fileID": "bdd0d4fbbc76439f97d2cd2db49dda76"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e6f1bacdef4d40fd91e9c766f5bd5502",
+                                "navigationGoals": [
+                                    "Book a 30-minute demo of Greenhouse\u2019s talent acquisition platform this week.",
+                                    "Book a walkthrough of the talent acquisition tool to support our veteran hiring program.",
+                                    "I need to set up a live demo to assess your talent-acquisition platform\u2019s API integration and feature set.",
+                                    "I\u2019d like to schedule a live demo of your recruiting platform.",
+                                    "I\u2019d like to schedule a live demo of Greenhouse\u2019s recruiting platform for our undergraduate physics research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss pricing, licensing, and implementation, press 2.",
+                            "fileID": "139a6449378b4946bfd788db38a2593b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our Sales Solutions team.",
+                                        "fileID": "f740cbd0c7e947e4a0817047c545ec89"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bd83047ba6b94f508d83db6f88836664",
+                                "navigationGoals": [
+                                    "Get a detailed quote for Greenhouse pricing, licensing, and implementation.",
+                                    "Get details on pricing, licensing, and any veteran nonprofit discounts before implementation.",
+                                    "I want to review enterprise licensing options, pricing tiers, and implementation timelines.",
+                                    "I need to discuss pricing, licensing, and how to get started.",
+                                    "I\u2019m calling to discuss student pricing and campus licensing options for Greenhouse at my university."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "71eafdad125049f6b406cc7f22b7ed82",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support, account management, and training, press 2.",
+                "fileID": "a942831aad5a42f2acc63703ad98b9ad",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "64c18e686a0b48749e8bed696abfadc5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Your call is important to us. Please hold while we connect you to Technical Support.",
+                                        "fileID": "36bfc76d0d0445b5807d03f1590f3a9a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5290f2178158480d80514bec9d1315d7",
+                                "navigationGoals": [
+                                    "Troubleshoot a current technical issue with my Greenhouse account.",
+                                    "Troubleshoot my account integration\u2014I'm unable to import candidate data and need technical assistance.",
+                                    "I\u2019m experiencing an OAuth token error with the Greenhouse API and need technical support to troubleshoot.",
+                                    "I\u2019m having trouble logging in and need technical support.",
+                                    "I need technical support to troubleshoot a login error on my Greenhouse account."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management, renewals, and customer training, press 2.",
+                            "fileID": "00190d09d6104353b3ca63f2a1ea7abb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your Account Manager. Thank you for choosing Greenhouse Software.",
+                                        "fileID": "c4b0304be7d44cbc94f0d175b7d899cd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "82d50245dc2a4c7bb2850c605b764b95",
+                                "navigationGoals": [
+                                    "Renew our Greenhouse subscription and update my account details.",
+                                    "Arrange subscription renewal and schedule user training for my team on the platform.",
+                                    "I\u2019d like to renew our enterprise subscription and arrange advanced user training sessions.",
+                                    "I want to renew my subscription and ask about account management and training.",
+                                    "I want to renew our department\u2019s Greenhouse subscription and arrange a training session for our physics lab team."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7499e4b813e945dfbd8defbf1a53c649",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "084327847e924813bdfe11fbb740e663",
+        "navigationGoals": null
+    },
+    "id": "ca11f15b5d3740c5916ba53eff4e1e0b",
+    "navigationGoals": null
+}

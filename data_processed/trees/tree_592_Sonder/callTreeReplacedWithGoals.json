@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Sonder, an entirely new way to stay in your favorite neighborhoods around the world.",
+            "fileID": "3669841323dc4c1f913ecb893b38ca29"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For reservations and availability, press 1.",
+                "fileID": "a6d87f7a9bc2425fab2f76b93c6e1da7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To make a new reservation, press 1.",
+                            "fileID": "053c7c0987a54ad2b62f90dbbb061144",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our reservations team.",
+                                        "fileID": "42abb4139c714913b263eb5255d883e3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f973e4ccaddf4d1981a21ff3b8f7282b",
+                                "navigationGoals": [
+                                    "Book a two-night stay in my preferred neighborhood for next week",
+                                    "I need to book a one-week stay near the VA hospital in San Diego for my upcoming appointment.",
+                                    "Provision a new reservation for Aug 15\u201318 in San Francisco and confirm the rate code.",
+                                    "I\u2019d like to make a new three-night reservation next month in Boston.",
+                                    "I'd like to book a two-bedroom apartment in Berlin for my upcoming research trip next month."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To inquire about long-term stays, press 2.",
+                            "fileID": "a66285ac9a9b4f1dae7e301cea80bb75",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our extended stays specialist.",
+                                        "fileID": "7eb2c2a56fc4472ab75b80f46fa7a292"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2f6d96241afc445b81f3965c8a84c9b0",
+                                "navigationGoals": [
+                                    "Get pricing and availability for a six-week extended stay",
+                                    "I\u2019m a veteran relocating to Denver for a civilian job and need a furnished monthly stay for three months starting in September.",
+                                    "Query long-term stay pricing and availability for a 30-night booking in New York starting Sept 1.",
+                                    "I want to ask about monthly rates for a long-term stay.",
+                                    "I'm planning a three-month research stay and need details on Sonder's long-term rates and availability."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "94330f89a72f465b905e2f013ef83cbb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For assistance with existing bookings and customer support, press 2.",
+                "fileID": "b264e80fc19741b0baeffff3e9479020",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To modify or cancel your reservation, press 1.",
+                            "fileID": "357a7938529648af919a9b9d33dbfed9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our booking support team.",
+                                        "fileID": "f450f9d651454a83839bc96c0f8c2e5a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f767cb6637134030ab5269a5c1da4241",
+                                "navigationGoals": [
+                                    "Reschedule my upcoming reservation to new dates",
+                                    "I need to change my existing reservation dates from August 5\u201310 to August 7\u201312 due to a schedule change.",
+                                    "Modify my existing reservation: change check-in from Sept 10 to Sept 12 and upgrade room type.",
+                                    "I need to change the check-in date on my existing reservation.",
+                                    "I need to adjust my check-out date by one day on my current reservation in New York."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing or payment inquiries, press 2.",
+                            "fileID": "183810f459cd4f7a93e6ce8b4031474f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "4501f73a3b68452ca7365b73e2480422"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "853117ee1ffe42989004e864a10827e9",
+                                "navigationGoals": [
+                                    "Resolve an unexpected charge on my recent bill",
+                                    "I need a detailed invoice for my last stay in New York to submit for reimbursement.",
+                                    "Review my invoice for reservation #12345, verify charges, and update my payment method.",
+                                    "I have a question about a charge on my bill.",
+                                    "I have a question about an unexpected charge on my bill for my recent stay in San Francisco."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1006640c464d4028bf207b8cc8d0c7f9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7723ae56265d4a3d966f356b68608f33",
+        "navigationGoals": null
+    },
+    "id": "cabb66ab0de44f40b5ec6813ee9eb638",
+    "navigationGoals": null
+}

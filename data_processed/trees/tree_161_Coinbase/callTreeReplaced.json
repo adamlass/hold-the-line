@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Coinbase, San Francisco's trusted platform for buying, selling, and managing your digital currency.",
+            "fileID": "fdde6c45bcde4285b0f7b60f65e5870a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For account and security inquiries, press '1'.",
+                "fileID": "a584c4bedf3f41bd82cc0ece2ab5e035",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with account verification, press '1'.",
+                            "fileID": "83c3b8349c9940e5913bb3c949bef92b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account verification specialist. Your security is our priority.",
+                                        "fileID": "9265f405efc84b11b0ed9a6ecd8c99c2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "91c8a0e154314b82a70ff0a8dd51ffdd",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To report a security issue, press '2'.",
+                            "fileID": "63fa0b0ef8ac4d38aef84650b2f4fe15",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our security team. We appreciate your patience.",
+                                        "fileID": "af920ef3dc504cb6a82359c23d472714"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d6c28a84b5ff438da322712c68d69f9b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "eb7150c05dea40639dfc643b5dc017f5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For trading and transaction support, press '2'.",
+                "fileID": "c0027bdaab35451c92f9f7269d0acf06",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with buying or selling digital currency, press '1'.",
+                            "fileID": "659922ad96be4e26809b0273770c3b13",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to a trading support representative.",
+                                        "fileID": "e446bd8d522347b7aba261601aa881b6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a1bd0438eb9046b3a73b82e71d8c2ff3",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For questions about transaction history or statements, press '2'.",
+                            "fileID": "cb77231c0f9147d087fbd68f525c8856",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line while we retrieve your transaction details.",
+                                        "fileID": "5fa02601292e4c24868489599d52ed96"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8dc2803ecdd54a368a608127ee9a7975",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "18f3e72ea9e24ce580dcb1c2b4ebe095",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b269afa1b8674a8dad36d053eea17a71",
+        "navigationGoals": null
+    },
+    "id": "b00c3fa425504566981ade46d007ff3f",
+    "navigationGoals": null
+}

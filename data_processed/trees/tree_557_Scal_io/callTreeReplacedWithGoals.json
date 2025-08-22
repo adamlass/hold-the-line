@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Scal.io in San Francisco, where we handcraft software solutions.",
+            "fileID": "7b10af82dc3b436db5211fc35cc135a6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn more about our custom software development services, press 1.",
+                "fileID": "fc9c4445b246403385aca893db525ee7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss a new project or schedule a consultation, press 1.",
+                            "fileID": "9631b1ed4196478487b0fbdff804c637",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our project consultation team. We appreciate your patience.",
+                                        "fileID": "44a5c34266dd42dfb69658f68a3e4efc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "06a9d5bf811f4d398de977f5bc7f6ce3",
+                                "navigationGoals": [
+                                    "I want to schedule a consultation to discuss a new software project.",
+                                    "I\u2019d like to schedule a consultation to discuss building a custom software solution for veterans benefit management.",
+                                    "I\u2019d like to schedule a technical scoping session for a new microservices architecture project.",
+                                    "I\u2019d like to set up a consultation to discuss creating a custom software solution.",
+                                    "Schedule a consultation to explore building a custom physics simulation tool for my research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To request a quote or review our portfolio, press 2.",
+                            "fileID": "c172ba10d87746508d8997571b9f9e42",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our quotes department. Your call is important to us.",
+                                        "fileID": "180c4eab592d441dbb6fe4f9ade33a1f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e745e379d91f4bc296246899156c9728",
+                                "navigationGoals": [
+                                    "I need a detailed cost estimate and examples of past work.",
+                                    "I want to review examples of your past work and get a quote for a volunteer coordination app for my veteran organization.",
+                                    "I need a detailed cost estimate and portfolio examples for integrating a REST API.",
+                                    "I need a price quote and would like to see examples of your past work.",
+                                    "Obtain a quote for developing a data visualization dashboard to analyze my experimental results."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0ecdec99bd9b452ca9c4b0f1ee8981d5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support with an existing project or to report an issue, press 2.",
+                "fileID": "f95b306a5f1347d696d3cd95a4c22958",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To report a bug or technical issue, press 1.",
+                            "fileID": "d8120631ea28483d87f2c8261a03f0f0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support specialists.",
+                                        "fileID": "4f6094a539c1498f8d577f8c3723992d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "63267fd5ecf6463e9a581dd91732769b",
+                                "navigationGoals": [
+                                    "I need to report a critical bug in our live application.",
+                                    "I need to report a bug in the veteran services portal you developed\u2014it crashes when I submit a support request.",
+                                    "I want to report a production bug in our CI/CD pipeline configuration.",
+                                    "I\u2019m having an issue with the software you built and need help reporting a bug.",
+                                    "Report a technical issue I encountered when running the data-analysis software you developed for my project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For updates on your current development project, press 2.",
+                            "fileID": "6731060d14d14d1f976ff9137814c268",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to your project manager.",
+                                        "fileID": "799f8f7a28cf4203905befad424cbadf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3d3ee6d16d464ca39a104c0dba035951",
+                                "navigationGoals": [
+                                    "I want an update on the progress of our current development project.",
+                                    "I\u2019d like an update on the development progress of our case management system for veterans.",
+                                    "I\u2019m calling to get an update on the current sprint deliverables and upcoming milestones.",
+                                    "I\u2019d like an update on the progress of my current development project.",
+                                    "Get an update from my project manager on the progress of the custom simulation app you\u2019re building."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "062e12144faa4017b85faacd0481ad1d",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "bbf52e0635e14cad95640baa309a4a95",
+        "navigationGoals": null
+    },
+    "id": "634b2eb15e8a44c3871aa1cc6985cb12",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to HireClub in San Francisco, your career coach in your pocket.",
+            "fileID": "32f16701b09543e4ada980831bd9adec"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To get started with your free career coaching, press 1.",
+                "fileID": "bcef94e0e4b740d4baf53ea486b13fdc",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to schedule your free introductory coaching session.",
+                            "fileID": "5a7f2cdb798346f4b2b65999f0bed32f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to a certified career coach.",
+                                        "fileID": "cde18bb19fb34225b2768957bb53ef37"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bf7b43d11be549909386ad28b95c711f",
+                                "navigationGoals": [
+                                    "Book a free initial career coaching appointment.",
+                                    "I want to schedule my free introductory career coaching session to discuss transitioning from military to civilian roles.",
+                                    "Schedule a free career coaching kickoff session in my calendar.",
+                                    "I\u2019d like to book my free introductory coaching session.",
+                                    "I would like to schedule my complimentary introductory career coaching session."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to learn about our personalized coaching packages.",
+                            "fileID": "54facdbbf257446691cfce54359b81d0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we provide information on our coaching packages.",
+                                        "fileID": "3555442f99644078b100c2908fe4bede"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "efe67d2df6c248c0b9d1477ef5280ca9",
+                                "navigationGoals": [
+                                    "Get detailed info on coaching package options and pricing.",
+                                    "I\u2019d like information on your paid coaching packages, including costs and any veteran discounts.",
+                                    "Fetch detailed module breakdown and pricing for your customized coaching plans.",
+                                    "Could you explain your paid career coaching plans?",
+                                    "I would like to learn about your personalized coaching packages and pricing."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "850471127406498d9f277aa55b9bdb79",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an existing member, press 2 for account support.",
+                "fileID": "189f0196cba143bea29532192ac03347",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for technical assistance with your HireClub account.",
+                            "fileID": "6da285d8058549c6b1aeabb92a878a11",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to technical support.",
+                                        "fileID": "1d8a251d773543448151ebe55c7980a2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a3b8f1b8fa1e494ab0ed165c8bcd8f35",
+                                "navigationGoals": [
+                                    "Resolve a technical issue accessing my HireClub account.",
+                                    "I\u2019m an existing member and need technical help accessing my HireClub account.",
+                                    "Troubleshoot my HireClub account's API authentication issue.",
+                                    "I\u2019m having trouble logging into my account, please help.",
+                                    "I need technical assistance logging into my HireClub account."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for billing and subscription inquiries.",
+                            "fileID": "e227dadd79164359a4fe895ef3ad0bc8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our billing department.",
+                                        "fileID": "1b048d1b9f774833a7cc956ba4e8d6e4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "60754e4e1c8343cd8e1783396969f4cf",
+                                "navigationGoals": [
+                                    "Inquire about charges on my subscription invoice.",
+                                    "I have a billing question about my subscription and want to review charges and veteran discount options.",
+                                    "Review and reconcile my latest subscription invoice and billing records.",
+                                    "I have a question about my billing and subscription charges.",
+                                    "I have a question regarding my billing and subscription charges."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5c5451e0bb7c4fe0beb8da9d894ef56f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1c60260c7bee40e1adce1c68d5be94af",
+        "navigationGoals": null
+    },
+    "id": "bc9702f30b8f4f38b8d868676ae50497",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to BrightTALK in San Francisco, where you can discover and learn with the world's brightest professionals.",
+            "fileID": "bf852daa7f4b4f0e8ce91e75f6ab0e1e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For upcoming webinars and learning events, press 1.",
+                "fileID": "de7551ad24e9417198b725551bb37a33",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To browse our technology and business tracks, press 1.",
+                            "fileID": "5dba239191294f6fb056fe944432ca30",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Technology and Business Events team.",
+                                        "fileID": "02ddb36bc1ad49e585f3a34d0d881b58"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5c90598751124c03a620372ebf6cc7a5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To register for a live webinar, press 2.",
+                            "fileID": "6736db291725430c94be5da79401daf2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Webinar Registration desk.",
+                                        "fileID": "6c377b0a170b4041b24d125014b5bb49"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0d6799eeb9a948adbcb031423eb54126",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9e30173212ad4ceb979ebbe6fbf9eae4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To learn how to speak at BrightTALK or host your own channel, press 2.",
+                "fileID": "3c1127374e8848bcaab4ab52813de278",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To hear about speaker requirements and guidelines, press 1.",
+                            "fileID": "6ff90f430bad4484ae102b5ba824f9b1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Speaker Services department.",
+                                        "fileID": "2930ef3b6df5455b90e6895fcaf8061c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "46ce0d3f0b384ed89f451978714f2497",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To discuss hosting your own BrightTALK channel, press 2.",
+                            "fileID": "5d3678d03c634883a4f73d9974740fb3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Channel Partnerships team.",
+                                        "fileID": "0ce7f77e28d643d99f76a8a4d36441af"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0c4b4f0aa14e41849ccd44a985b7fb21",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fb29d09f37004c2ebe840e28b20af5bb",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c17b315a48db4a928b2a29d8ab0a35ef",
+        "navigationGoals": null
+    },
+    "id": "f99efb260d624a05b2da1f98120620a7",
+    "navigationGoals": null
+}

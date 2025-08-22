@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Stash Invest, where innovation meets purpose-driven investing.",
+            "fileID": "b7636d07883a4d9bbb8d60e85ba0e5e8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To explore our curated selection of investments, press 1.",
+                "fileID": "9a895013dafd4ad09bf9713642862c14",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our hand-picked stocks, press 1.",
+                            "fileID": "03fdd1b96dac4554966d597142309af6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our stock investment specialists.",
+                                        "fileID": "32500f2091eb4e0d904b4355b78590b1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "158c20a13bd94d9990faa1900603cb51",
+                                "navigationGoals": [
+                                    "Discuss potential high-growth stocks with a specialist for quick portfolio additions",
+                                    "I want advice on buying individual stocks that support veteran hiring initiatives.",
+                                    "I want detailed performance metrics and risk analytics on specific equities to rebalance my portfolio.",
+                                    "I\u2019d like help buying a few shares of a company\u2019s stock.",
+                                    "I want to discuss selecting individual stocks in renewable energy and assess their risk profile."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discover our curated ETFs, press 2.",
+                            "fileID": "79056390168c4ffe937a4838d4c42ef2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our ETF investment specialists.",
+                                        "fileID": "e8e23bc8c1b443efa814daf5f53fba08"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e7e4c1be6c8841869c793587899e0802",
+                                "navigationGoals": [
+                                    "Get tailored ETF recommendations that fit my investment strategy",
+                                    "I\u2019d like information on ETFs that focus on defense and social responsibility.",
+                                    "I need to evaluate expense ratios and underlying index compositions of your curated ETFs for optimal diversification.",
+                                    "I want to set up a recurring purchase of a broad-market ETF.",
+                                    "I\u2019d like guidance on building a diversified ETF portfolio with low expense ratios."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4a99d72a171640e7a4d5be1f53552f44",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account and technical support, press 2.",
+                "fileID": "df18a54811854fa4b9e77fcc6aaffa72",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account access and security assistance, press 1.",
+                            "fileID": "d6be5e49c2d2401caaa6d60bb30dac25",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with an account access specialist.",
+                                        "fileID": "b4fe8d4b82864cc9b0e511256fb6ab43"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "67f4da227af9430fb258c48ee30481af",
+                                "navigationGoals": [
+                                    "Resolve my login issue and regain secure access to my account",
+                                    "I need help unlocking my account and resetting my password.",
+                                    "I\u2019m troubleshooting my multi-factor authentication setup to enhance account login security.",
+                                    "I forgot my password and need assistance logging into my account.",
+                                    "I need help resetting my login credentials and securing my account."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For funding, deposits, and withdrawals, press 2.",
+                            "fileID": "b06eda29483143b3bd3641335ee0ea8d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our funding team.",
+                                        "fileID": "727a26764b70433e9f10c1f872bf6ee9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8c743cf6a1a4490ba7ec2dae0013a721",
+                                "navigationGoals": [
+                                    "Initiate a deposit and confirm it posts to my account promptly",
+                                    "I want to set up a direct deposit from my military pension into my Stash account.",
+                                    "I\u2019d like to link and verify a new ACH bank account for automated deposits and check funding limits.",
+                                    "I need help linking my bank and making a deposit into my account.",
+                                    "I want to fund my account via ACH transfer and confirm the deposit timelines."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e129ec4bb5da41fb9a71e05ea95e0bc5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "205e121735bc4f968fbc6f0845450d7f",
+        "navigationGoals": null
+    },
+    "id": "886627cc65594ab2ab47388c084533d4",
+    "navigationGoals": null
+}

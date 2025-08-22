@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Scality, the world leader in AI-powered enterprise object and cloud storage.",
+            "fileID": "7ce6745ef2054affbdcfa32c40773eaa"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and enterprise solutions, press 1.",
+                "fileID": "6a9e52c06fc742839538c8d1f6bb2254",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss AI-driven cloud storage solutions, press 1.",
+                            "fileID": "ae3fe3de213743cc9c30c58c39bd7687",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our enterprise AI solutions team.",
+                                        "fileID": "1e912f3d03c24740a0a736448b34746b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b02ad4c7241541e2b53fcfba4c2b42c7",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To request pricing information or schedule a demo, press 2.",
+                            "fileID": "012ec568356d4ac7992a151ff7cca883",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to sales for pricing and demo arrangements.",
+                                        "fileID": "b7ca1d87cbb24a3f87c7dbd77c219183"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1b57cb491e5249c19e7a781aea07e99f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "04ddc9030b24442cbab72e87ac760e47",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and developer tools, press 2.",
+                "fileID": "87617ff842ca40388adffe153265a2a5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For developer tools and API integration support, press 1.",
+                            "fileID": "f0210822c5fb400da5e531bfa05b28d4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our developer support specialists.",
+                                        "fileID": "8226efcd5d9e4abfab29388a71afd1d3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bbd5fe3ee0e9457f8c142947aa86c4d0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For service status and cloud operations inquiries, press 2.",
+                            "fileID": "39a58d316a734179b87e76e67aa0eba3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve the latest service status information.",
+                                        "fileID": "9e4e299730e042e99113cc87f97897d5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "850ef2245e9546fc942f3969b18fd257",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "536ebc9503c04afa9636587d59435ba8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "aca96e56467e4b18a4c6a04bc1b90a77",
+        "navigationGoals": null
+    },
+    "id": "3f0040ce3c3740b3aa76e30d8fd27b89",
+    "navigationGoals": null
+}

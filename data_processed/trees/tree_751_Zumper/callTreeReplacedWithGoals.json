@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Zumper, San Francisco\u2019s premier service for finding and applying to millions of apartments.",
+            "fileID": "d16230fb072e4d069cc2e1df49fb5227"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To search apartment listings, press 1.",
+                "fileID": "13c7b4becee74bf1b1fa7f3711be2b6c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To browse available units by neighborhood, press 1.",
+                            "fileID": "af977d625dda4fd4b28334f1cfd4b84d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an apartment search specialist.",
+                                        "fileID": "5da424acd6a94d6dbcbfa2d21d60ce24"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4ff1a7cd382f426385d76afd5b889f9f",
+                                "navigationGoals": [
+                                    "Find available one-bedroom apartments in SoMa",
+                                    "Search for a one-bedroom wheelchair-accessible apartment near the VA hospital within my budget.",
+                                    "Search for available apartments in SoMa using neighborhood-based filters",
+                                    "I need help finding available apartments in my preferred neighborhood",
+                                    "I\u2019d like to search for a one-bedroom apartment within a 15-minute commute to the physics department, with rent under $2,500."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To apply for an apartment or check your application status, press 2.",
+                            "fileID": "43647d49a58145e08f25a70b2c51859f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our application support team.",
+                                        "fileID": "af337f29dd26450b8c465dd82a674f4c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64977da0715e45a881943ff70a57f4ae",
+                                "navigationGoals": [
+                                    "Check the status of my apartment application",
+                                    "Verify the status of my application for the Mission District studio I submitted last week.",
+                                    "Check real-time status of my apartment application and upload additional documents",
+                                    "I want to check on the status of my rental application",
+                                    "I want to check the status of my application for the two-bedroom on Market Street that I submitted last week."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fe167451c3324e7eb5a85645b15cae76",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To manage your rental property listing, press 2.",
+                "fileID": "8f5cf4ae40654637b5a06b40bd202d0a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To list a new rental property, press 1.",
+                            "fileID": "04d84e164e3746bbb8ee260174174b70",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our landlord services department.",
+                                        "fileID": "865bbb2204af45878656ad1176db55fc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2ee3bee5127243278a38d4700477f506",
+                                "navigationGoals": [
+                                    "List a new rental property for my Nob Hill condo",
+                                    "List my two-bedroom townhouse near the VA campus on Zumper to attract suitable tenants.",
+                                    "Create a new rental property listing with automated syndication and rent settings",
+                                    "I\u2019d like to list my property for rent",
+                                    "I need to list my spare bedroom for rent starting August 1, including lease terms and utilities."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To update or review an existing listing, press 2.",
+                            "fileID": "ae2bb23694aa4b6e9c55789c792e5885",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your listing management team.",
+                                        "fileID": "e43df6cb535c45b1be19faa4454bd8a7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2fe631b0ece14e20a057f090ef79baf5",
+                                "navigationGoals": [
+                                    "Update the rent price on my Pacific Heights listing",
+                                    "Update the rental price and add new photos to my existing San Francisco listing.",
+                                    "Update my existing listing\u2019s rent price and photo gallery",
+                                    "I need to update information on my existing rental listing",
+                                    "Please update my existing Downtown studio listing: adjust the rent to $1,200 and add a new living-room photo."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1ed7763d028547c9802864c66921475e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8036c17d355343f4955a5c6879cb1472",
+        "navigationGoals": null
+    },
+    "id": "44c0463fc53c40e4974b0108faf604d0",
+    "navigationGoals": null
+}

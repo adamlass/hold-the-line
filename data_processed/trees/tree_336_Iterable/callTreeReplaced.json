@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Iterable in San Francisco, your partner in customer engagement and growth marketing.",
+            "fileID": "c899318eeb6540c69c98b0a0a4804fb5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For marketing strategy and campaign support, press 1.",
+                "fileID": "531b0cbd4448437984ffaddb5b0994cc",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a marketing strategist, press 1.",
+                            "fileID": "6b6248ac105041c39486ef8bc6c1f19d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with one of our marketing strategists. We\u2019ll be with you shortly.",
+                                        "fileID": "0fbf3cb88a134547833e40e3ade0058c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "530eebb31b5b4ff6a982faa38051c20a",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support with your marketing platform, press 2.",
+                            "fileID": "a928e0a925524a80906151f069b64179",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience. A marketing platform support specialist will be with you momentarily.",
+                                        "fileID": "75ab445d94a24a31ba02f32176312886"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "09b781a5ee9b40b2906faf7184189aad",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ceb45f1b1cb24757a8b5f13f27826906",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales inquiries and product information, press 2.",
+                "fileID": "163181b0b3df40308fa432124ff0657f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a product demo or get a feature walkthrough, press 1.",
+                            "fileID": "f9abaf9601a24c95a5cd1f1b2702838e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One of our sales representatives will be with you shortly to schedule your demo. Please hold.",
+                                        "fileID": "966080277b69450ca12d978c5f5cd1d8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ff162e89fe694afcacb835e44f51265d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing details and billing questions, press 2.",
+                            "fileID": "8df5ecca2c9641b992f99472a42fb99c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing and pricing team. We appreciate your patience.",
+                                        "fileID": "afde056b54514a6d9d3d18feaa579b7a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8d10f86ad60c48aca8b6c784a548c68e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a1f4158fe34e441681d9409c737ce5f6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "0dc6b695f8c74089a4374ea3045486cf",
+        "navigationGoals": null
+    },
+    "id": "4cf07c0755fc4bc9bec43d5bbb03a866",
+    "navigationGoals": null
+}

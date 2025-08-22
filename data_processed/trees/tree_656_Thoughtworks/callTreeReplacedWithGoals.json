@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Thoughtworks San Francisco, where we revolutionize software creation and delivery while advocating for positive social change.",
+            "fileID": "de51cb1a09f042489d746e4eb6ec50a6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For inquiries about new software solutions and consulting, press 1.",
+                "fileID": "f62f40d7515b4f49953b55ed1856c1e3",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss a new project with our development team, press 1.",
+                            "fileID": "744085ab33aa4b69b909c868246aba45",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a project specialist.",
+                                        "fileID": "ae0f2fa8a50941f19007c215fceba5e4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8b1579dcd7ec404a814cc4c65ba36c82",
+                                "navigationGoals": [
+                                    "Connect me with a project specialist to kick off a new software development initiative.",
+                                    "I want to discuss building a mobile app to help veterans access their benefits.",
+                                    "I need to discuss designing a scalable microservices application with a development specialist.",
+                                    "I want to discuss building a custom app to help me manage my medication schedule.",
+                                    "Discuss building a custom lab data logging app for my research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about our agile coaching and digital transformation services, press 2.",
+                            "fileID": "40fac79010504cc4b3a97c785a50119d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an agile coaching consultant.",
+                                        "fileID": "038803d8798043ae8cda93d23b013603"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f709afe918714fa28a45a274cd42ff68",
+                                "navigationGoals": [
+                                    "I want an overview of your agile coaching and digital transformation offerings.",
+                                    "I need advice on adopting agile practices for my veteran-focused nonprofit\u2019s website redesign.",
+                                    "I\u2019d like to explore your agile coaching methodology and continuous delivery pipeline guidance.",
+                                    "I\u2019d like to learn about agile coaching services to modernize my small community center\u2019s operations.",
+                                    "Learn how agile practices could streamline my physics research workflow."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6d4786baba174bc2ba1f55466593d010",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are an existing client seeking support or account assistance, press 2.",
+                "fileID": "0f841f3f51e04dc4aa9fc946ca8309a4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reach technical support, press 1.",
+                            "fileID": "319d2ac939354080928d30f786dc223f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "4dc527b30df34a7499bfb5d7a489720e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "776d64b473f1400e8899357911b9d5f8",
+                                "navigationGoals": [
+                                    "I need assistance from tech support to resolve an urgent issue with our system.",
+                                    "I'm having a technical issue with the veteran support portal you built and need help resolving it.",
+                                    "I need assistance troubleshooting a CI/CD pipeline failure on our staging environment.",
+                                    "I need technical support because I can\u2019t access my Thoughtworks client portal.",
+                                    "Get technical help troubleshooting the API integration on my project dashboard."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with your account manager, press 2.",
+                            "fileID": "ff3bdbe6963141229cf139fead2bb079",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your account manager.",
+                                        "fileID": "54a8f44c13a24f95b7d0abe5bed5b978"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b6802523a4c94399bbd24aa20a56dde5",
+                                "navigationGoals": [
+                                    "Put me through to my account manager for a status update on our engagement.",
+                                    "I'd like to discuss renewing our service agreement and review billing details for our existing project.",
+                                    "I\u2019d like to discuss contract renewal and pricing tiers with my account manager.",
+                                    "I want to speak with my account manager about updating my service plan and billing.",
+                                    "Talk to my account manager about extending our student consulting package."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4d5fff14e7824e1a9b5ef5966b884d2e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "700e219b45cc43ae87c9f51734c7ec25",
+        "navigationGoals": null
+    },
+    "id": "2d6b8d87887a4c7ea928393fad1249fe",
+    "navigationGoals": null
+}

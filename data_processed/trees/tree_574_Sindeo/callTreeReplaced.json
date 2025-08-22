@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Sindeo in San Francisco, where we simplify the path to home ownership and refinancing.",
+            "fileID": "32e48da9bb4643c8a9aa71a498e22ff7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new home purchase mortgages, press 1.",
+                "fileID": "e3fad94531194dccac0b93d46ad9501e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start a new home loan application online, press 1.",
+                            "fileID": "4715b91a9ff94c76b034a7b41b892bf5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our online applications team.",
+                                        "fileID": "36306e45ecbc4f12ba4ffcd5b0e471ef"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1397f8174f664d7a892b667e72b50c23",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with a purchase mortgage specialist, press 2.",
+                            "fileID": "c90b881e37904ab3a60ea8d31e7a9bdf",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a purchase mortgage specialist.",
+                                        "fileID": "7be23db8224c454383b30a57ef97b399"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a13aeba680e846d9b6808a13cb038c9f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "79c631461263430f9c2d5e7632563786",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For refinancing your existing mortgage, press 2.",
+                "fileID": "a111d4a46e044e499241688defc3dad7",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To begin your refinance application online, press 1.",
+                            "fileID": "e447768c20904f6293c98d39b6932226",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our refinance applications team.",
+                                        "fileID": "4533120e47b14536adab7bbb2ce01e87"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "94259c0dff9b424284d7b0051cbaf899",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with a refinance specialist, press 2.",
+                            "fileID": "ca93b161233745fa9fa7234a4e47bcff",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a refinance specialist.",
+                                        "fileID": "16df85c888fa4a9cb681d49be679a1e6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a4d94970e2e9438b8912868b72f912f3",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "97e3f066ff294e63ac24e314fe278adf",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b8c297427b374093aef5768715bceff6",
+        "navigationGoals": null
+    },
+    "id": "bc38142db1e944589588d409e12e939d",
+    "navigationGoals": null
+}

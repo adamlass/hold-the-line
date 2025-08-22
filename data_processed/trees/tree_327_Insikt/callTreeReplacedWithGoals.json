@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Insikt, San Francisco\u2019s trusted provider of affordable small loans for hardworking people with low or no credit.",
+            "fileID": "fb9158fbf18549d3bfbc6a37da377937"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new loan applications or to manage existing loans, press 1.",
+                "fileID": "c5b71677e2c6473aa778436f76fd2ae0",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To apply for a new small loan today, press 1.",
+                            "fileID": "b4b09f7280294b94850c59ebea5277ba",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a loan specialist.",
+                                        "fileID": "f41c9f4e52e44f519edd386bc25f2689"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "383daef7d40348e0bc9fe8f45a8cdd7a",
+                                "navigationGoals": [
+                                    "I want to apply for a new small loan today.",
+                                    "I need to apply for a small loan to cover my rent as I transition out of the military.",
+                                    "I want to start a new small loan application and confirm the required documentation.",
+                                    "I need help starting a new small loan application\u2014I\u2019m not sure where to begin.",
+                                    "I'd like to apply for a small personal loan to cover my textbook costs."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check your loan balance or make a payment, press 2.",
+                            "fileID": "df5eea98c6204bfcb11db8bf5f785363",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your account information.",
+                                        "fileID": "24a58ea5cfa844ed9acc717e8251f568"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cc0c2bf44d31455093df28ba19a81ea0",
+                                "navigationGoals": [
+                                    "I need to check my current loan balance and make a payment.",
+                                    "I\u2019d like to check my current loan balance before planning my budget.",
+                                    "I want to check my current loan balance and make a payment.",
+                                    "I\u2019d like to check my current loan balance and make a payment today.",
+                                    "I want to check my current loan balance."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "863874ce632640ddac73a16785670b25",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and general inquiries, press 2.",
+                "fileID": "63e4c248fe264cfdba513e78e7e22a6c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For questions about payments, billing, or setting up autopay, press 1.",
+                            "fileID": "2478b7c3230b4c6880be680d3fb43967",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "b1a7f969f5844c43aa2b31ffaac1c5c4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "716d7d537b2b41cbb1f72cd223b3be1a",
+                                "navigationGoals": [
+                                    "I\u2019d like to set up autopay for my loan payments.",
+                                    "I want to set up autopay for my loan payments so I don\u2019t miss a due date.",
+                                    "I want to set up autopay on my loan and verify billing cycle details.",
+                                    "I want assistance setting up automatic monthly payments for my loan.",
+                                    "I have a question about a charge on my billing statement."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For information on rates, eligibility, and credit assistance, press 2.",
+                            "fileID": "0a869362e59a41cfbb191a835e4a6d82",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our credit assistance team.",
+                                        "fileID": "27b2006ea67046fab08b3468bf6057d9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4a277b86b0fd45c8bd7e6158953706cc",
+                                "navigationGoals": [
+                                    "I want information on my interest rate and eligibility for credit assistance.",
+                                    "I\u2019d like information on credit-building assistance and rates available to veterans.",
+                                    "I want to get details on interest rates, eligibility criteria, and available credit assistance programs.",
+                                    "I\u2019d like information on my loan\u2019s interest rate, eligibility, and credit assistance options.",
+                                    "I'd like to learn about eligibility requirements and interest rates."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f563d52231b04942bd8fafcbabd8ab86",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ae57e8db57f14f3db095d98bed2e61ab",
+        "navigationGoals": null
+    },
+    "id": "1e2c89f36d2e4b5397bf714a9b4905cb",
+    "navigationGoals": null
+}

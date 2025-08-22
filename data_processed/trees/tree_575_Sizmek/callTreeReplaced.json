@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Sizmek, the Peninsula\u2019s largest independent buy-side advertising platform where we create impressions that inspire.",
+            "fileID": "ea1f164f4f7046ef83d268d2ac0f33c4"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For advertising solutions, press 1.",
+                "fileID": "bf28e7efab464d4b835d1a6833c9b1fe",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For campaign setup and guidance, press 1.",
+                            "fileID": "107af7df2693494882d09da18285edce",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a campaign specialist.",
+                                        "fileID": "a0217bd2bb7c4cdeb01f312b83ad7758"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9148631271c34dd2928121152bcd7578",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For creative optimization services, press 2.",
+                            "fileID": "571d69804d7943b89012ee13d2db8b5d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a creative services specialist.",
+                                        "fileID": "843579179d7b4577bf415ade2309debc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3e110478ddd341f1861e6ddec7ea6eb6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "92c27d8613fc486383e37ebd01bd9bbf",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For marketplace support, press 2.",
+                "fileID": "377baec2c6e9442fa03ed568b1fd8cda",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing and account questions, press 1.",
+                            "fileID": "64548602ba8e42ec9d1a93d6b917a423",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing department.",
+                                        "fileID": "0f66c49388904ec38ff2148932d964ab"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b763d99cebd34cf08b4e8e3d707e66df",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical platform support, press 2.",
+                            "fileID": "a10fefc41d8344479d493da9c5fc6b04",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a technical support representative.",
+                                        "fileID": "0761189196fb4a8c9a0d1b8d1c28f79f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4f4e651fc3164d2f9bbadc62df0a25b0",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6994563544484e668bcd991d1028733b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "1d5d964e49454e03b07f2b82f9ebdeed",
+        "navigationGoals": null
+    },
+    "id": "83c1ef80ae494f4dba088a7362566826",
+    "navigationGoals": null
+}

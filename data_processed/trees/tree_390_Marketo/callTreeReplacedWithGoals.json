@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Marketo in the Peninsula, where we empower marketers to master the art and science of digital marketing.",
+            "fileID": "52d3de3d0ca94101a1891b3aa57c7c16"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For product demonstrations and sales inquiries, press 1.",
+                "fileID": "cf55f4f564044b2fb88a0b59a1a5e2c8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a personalized demo of our marketing automation platform, press 1.",
+                            "fileID": "e0aa6d54686f4043aceb07d15c69412e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a Marketo product specialist.",
+                                        "fileID": "b8d694dc2a5f479bac3aca20bdd86f3e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c56cada0ca6847acae543f6356dfa1aa",
+                                "navigationGoals": [
+                                    "I want to schedule a personalized demo of your marketing automation platform.",
+                                    "I want to schedule a personalized walkthrough of Marketo for my veteran-run nonprofit\u2019s email automation.",
+                                    "Schedule a deep-dive demo on Marketo\u2019s automation API and workflow builder with a product specialist.",
+                                    "I\u2019m not very tech-savvy and would like someone to guide me step-by-step through a demo of your marketing automation platform, please.",
+                                    "I want to book a personalized demonstration of Marketo\u2019s automation features for my physics lab\u2019s newsletter."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing information and subscription plans, press 2.",
+                            "fileID": "5469faddd5f64fffb473b48938059f0e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our sales team for pricing details.",
+                                        "fileID": "bbf9200e582f40d5a33086d2d60bfde3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "94318101f585482d90aff4011561c278",
+                                "navigationGoals": [
+                                    "I'd like detailed pricing and subscription plan information.",
+                                    "I need detailed pricing information for monthly and annual plans for my small veteran-owned business.",
+                                    "Get a breakdown of subscription tiers, feature limits, and API call quotas for enterprise licensing.",
+                                    "Please explain your subscription plans and fees in simple terms so I can choose the right one.",
+                                    "I need detailed subscription pricing information to see if Marketo fits within my student grant budget."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "19e7daa31dff41009900f5a66e34a20b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and account services, press 2.",
+                "fileID": "2870f73444374c5a91cfb113f0f59584",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting assistance, press 1.",
+                            "fileID": "6be7024eb12a486fbf26cbb6ac736842",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our technical support team.",
+                                        "fileID": "b9cfba37cd3b480283a50d82840b570e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9558ac45dfc24b3b8f72faba55be1518",
+                                "navigationGoals": [
+                                    "I'm having a technical issue with my account integration and need troubleshooting assistance.",
+                                    "I need help troubleshooting why my automated email triggers aren\u2019t firing in Marketo.",
+                                    "Troubleshoot my REST API integration\u2014I'm encountering OAuth token refresh and 401 errors.",
+                                    "I\u2019m having trouble logging into my account; could someone walk me through fixing this access issue?",
+                                    "I'm having trouble with my email campaign setup and need technical assistance to resolve the issue."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, renewals, or account updates, press 2.",
+                            "fileID": "61f84c32cb98485eb5a145690e96de7c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our account services department.",
+                                        "fileID": "6727efc545084b18990ff4e3ba94d4bc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0774110e23164bf6ac5e4a800e213130",
+                                "navigationGoals": [
+                                    "I need to update my billing information and renew my subscription.",
+                                    "I want to update my payment method and renew my annual Marketo subscription.",
+                                    "Update my payment method and renew our enterprise subscription for seamless service continuity.",
+                                    "I need to update my credit card on file and renew my subscription, and would appreciate help through each step.",
+                                    "I'd like to update my payment details and confirm renewal options for my account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4335b13358ec49c988cc749da831653f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "46671f8db177416bb3b265de2bac2e62",
+        "navigationGoals": null
+    },
+    "id": "fe1271d915e640b2bc64deb4b454370d",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Fitbit in San Francisco, where we motivate you to reach your health and fitness goals.",
+            "fileID": "e94cdf8b27d84055b6b9a76537a793d0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support and device assistance, press 1.",
+                "fileID": "75aafbd002a94b099a2d5496afde735b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For device setup and tutorials, press 1.",
+                            "fileID": "0c198b7294b44eff916ac587e49b5685",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a device setup specialist.",
+                                        "fileID": "244a2b083da241f3adb59c671142e68c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a0cb3fd785004d91a96e6dc694c64cd1",
+                                "navigationGoals": [
+                                    "Help me set up my new Fitbit device quickly",
+                                    "I\u2019m a veteran and need help pairing my new Fitbit with my phone and setting up my fitness profiles.",
+                                    "I need help pairing my new Charge 5 via Bluetooth LE, performing the initial firmware update, and configuring data-sync intervals.",
+                                    "I need help pairing and setting up my new Fitbit tracker step by step.",
+                                    "I need help pairing my new Fitbit device with my phone and learning how to set up basic activity tracking features."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For troubleshooting and repairs, press 2.",
+                            "fileID": "d96705bb4ca24c2191ab6fffe43edf47",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to troubleshooting support.",
+                                        "fileID": "facea1eebecb45948ad13236e77beaac"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4d22176b1cbc48439f0b75d9c2e314ab",
+                                "navigationGoals": [
+                                    "Resolve syncing issues with my Fitbit and arrange repairs if needed",
+                                    "My Fitbit won\u2019t hold a charge; I need troubleshooting and repair options.",
+                                    "My Versa 3 isn\u2019t charging properly\u2014please guide me through charging-port diagnostics or arrange a warranty repair.",
+                                    "My Fitbit won\u2019t sync or turn on; please help me troubleshoot it.",
+                                    "My Fitbit has stopped syncing data and the screen flickers\u2014I'd like troubleshooting assistance or repair options."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "98e47bd8f6ff45f8a88a1371074ed4c7",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and account services, press 2.",
+                "fileID": "6e30bd05aee548a7a16176b6457ac09c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new device purchases and current promotions, press 1.",
+                            "fileID": "0badd4d1ab0142f88c1d5558fa02a36c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for device purchases.",
+                                        "fileID": "e8fbaaa352ee41a1925934d23c9cd006"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4571488cf81e4c6f9dd27cbd5841de15",
+                                "navigationGoals": [
+                                    "Purchase a new Fitbit on promotion",
+                                    "I want to purchase a new Fitbit and ask about available veteran discounts or promotions.",
+                                    "I want to compare specs and pricing for the Sense 2 vs. Charge 5, apply any available promo codes, and place an order.",
+                                    "I\u2019d like to purchase a new Fitbit and learn about any current discounts.",
+                                    "I'm interested in buying a new Fitbit and want information on current student discounts and promotional bundles."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "40db4c151edf46dfa4e20b6a80bfeb7c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account and billing services.",
+                                        "fileID": "d218494ac01a4c52805b9422835c961f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "516cf74bab9b4577be6273eb8e31f4c7",
+                                "navigationGoals": [
+                                    "Update my Fitbit account billing information",
+                                    "I need to update my billing info and review recent charges on my Fitbit account.",
+                                    "I need to update my payment method, review my Fitbit Premium subscription invoices, and enable two-factor authentication on my account.",
+                                    "I need assistance updating my billing information on my Fitbit account.",
+                                    "I need to update my payment method for my Fitbit Premium subscription and confirm my next billing date."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3be97d3f9ed143b298ff50742091595f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f9a9a32c23e345588b2f959acea9aabe",
+        "navigationGoals": null
+    },
+    "id": "ef0cf34c9ffc4f88bcbed3c1caa2c63b",
+    "navigationGoals": null
+}

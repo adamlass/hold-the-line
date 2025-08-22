@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to HintMD in the East Bay, where we create better beauty outcomes for your patients and better business outcomes for your practice.",
+            "fileID": "98d43bba40064554af83016300680c96"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new client inquiries and to speak with our sales team, press '1'.",
+                "fileID": "3cb2d8a3041f40748d2a55dd557229ef",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press '1'.",
+                            "fileID": "ce5a187ccc174bf8bfb1b6ae94d31365",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to a sales representative.",
+                                        "fileID": "406bb7a4419d4ff0907ff8ea21eac55a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6a63b59ba8704d58b7170e8921820e0a",
+                                "navigationGoals": [
+                                    "I need a quick demo and pricing details for HintMD\u2019s client management features",
+                                    "Learn about pricing and packages for launching my veteran-owned aesthetic practice",
+                                    "Discuss enterprise pricing tiers and client onboarding for a new account",
+                                    "I\u2019d like to get pricing details and sign up for your patient engagement service.",
+                                    "I\u2019d like to speak to someone about signing up our campus health clinic for HintMD."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For partnership opportunities, press '2'.",
+                            "fileID": "669e01e9027c4bac9438fc2b434825b6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our partnerships team.",
+                                        "fileID": "fbf989642caf45989f71f3068f4389ea"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7341a6a4badc4a038111979370d38a37",
+                                "navigationGoals": [
+                                    "I\u2019m looking to explore a strategic partnership with HintMD for our clinic network",
+                                    "Explore partnership opportunities to support veteran-focused health initiatives with HintMD",
+                                    "Explore a technical integration partnership via your API",
+                                    "I run a med-spa and want to explore partnering with your company.",
+                                    "I\u2019m interested in exploring a research partnership on patient engagement with HintMD."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3415f986776a4579bfe867dd8ef217e9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and training resources, press '2'.",
+                "fileID": "ff2e1032e05940cead96c3f86297ab65",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press '1'.",
+                            "fileID": "afcfb20b999e4539b039fd9300c5f102",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to a support specialist.",
+                                        "fileID": "1c57a81701884cb184f5dec348b7038c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b157c2411896460da47534a6cde45daf",
+                                "navigationGoals": [
+                                    "I\u2019m locked out of my HintMD account and need immediate technical assistance",
+                                    "Get technical support to resolve a scheduling glitch in my HintMD account",
+                                    "Troubleshoot an API authentication failure with support",
+                                    "I can\u2019t log into my HintMD account and need technical assistance.",
+                                    "I need technical support to fix an issue with the scheduling interface."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For training and onboarding assistance, press '2'.",
+                            "fileID": "e4f99e44dd6e4d9ca8ec5450aac16362",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to a training coordinator.",
+                                        "fileID": "505148ae371a4188b1b414ab533642e7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fb9a6ad935da44c5a0040c4e26a2b906",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a training session to onboard my staff onto the HintMD platform",
+                                    "Schedule onboarding and training for my clinic staff on using HintMD",
+                                    "Schedule a technical onboarding session for the analytics dashboard",
+                                    "I\u2019m new to your platform and need onboarding and training help.",
+                                    "I want to schedule training for our team on using the HintMD platform."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bcc9a931af2b4578baaf7875b97d5042",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8e14fb6de0904b9a945def96c6ada850",
+        "navigationGoals": null
+    },
+    "id": "6f67c2cf0fee42ef85435ce2f088aefc",
+    "navigationGoals": null
+}

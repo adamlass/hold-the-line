@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling inDinero, your partner in small business accounting and tax services based in San Francisco.",
+            "fileID": "54cdc127919049eb9ffff003968d97f7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for bookkeeping services and support.",
+                "fileID": "d59872e7425e4a19aa7fe18fec17597e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with a bookkeeper.",
+                            "fileID": "22057f5da05645508e9cc3fc6b4e6e6e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All of our bookkeeping specialists are currently assisting other clients. Please hold the line, and we will connect you shortly.",
+                                        "fileID": "ac7950b2fc3f476fb620048b23b2ae63"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d9dd9447998447d99e08585521fac7fb",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for questions about your account balance or statements.",
+                            "fileID": "3a60a6375aca4f54a77197447c30415a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our account support team is busy at the moment. Please hold, and we'll be with you soon.",
+                                        "fileID": "2da01973040e4e868ea910c8150b29d8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d972b0b7f59b4a0abfc92c85fc13012a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d48b559d089c478098b2aa61d5dae116",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for tax services and filings.",
+                "fileID": "bbf86d9a520f4c6182f22e8e6fda6fb4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to discuss your upcoming tax deadlines.",
+                            "fileID": "511d85736dc44520a3e11fe4d8583b7d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All tax advisors are currently on calls. Please stay on the line, and someone will assist you soon.",
+                                        "fileID": "ccc5127a270342c29dd094f5ab4e4e41"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7cb78ca3cdbc412fbf8cd211d1d40c2d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 for questions about tax filings you have submitted.",
+                            "fileID": "f511e5b100ac40feb1acbe1cab218274",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our tax filings support team is handling other requests. Please hold, and we'll be with you shortly.",
+                                        "fileID": "bdd05985362747e794d85e50f3142b1b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8ab7c054566e425d9d85dac134d3152d",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ed03b57a801c430e9fd329ef920ebfaa",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "51b473cf903a4a8d9162d49f9ac266a6",
+        "navigationGoals": null
+    },
+    "id": "cc201cf375e246358301214979426fc2",
+    "navigationGoals": null
+}

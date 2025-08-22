@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Mira, the East Bay fertility tracker that helps you get pregnant faster through personalized hormone analysis.",
+            "fileID": "f74c7f155cf44194b4fc66ba940d6b27"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For questions about using your Mira device and test kits, press 1.",
+                "fileID": "e25b62748f924439ba88ade9dad8cba7",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help setting up your Mira fertility tracker device, press 1.",
+                            "fileID": "26af617c80f849709ea15a7e4c545dea",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Mira support specialist for device setup assistance.",
+                                        "fileID": "2437662556d74792922dd3933936bec9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e69701bfe7de4fa9b896cd1b14624bf4",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For questions about ordering test cartridges or replacing hardware, press 2.",
+                            "fileID": "14a46d14c32a4897899a29d735f9e813",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we are connecting you to our product team for ordering and replacement inquiries.",
+                                        "fileID": "eca883b8ac4b4ed2a416220eb821f036"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5b0d5dc77c7c41a1b90991abf64a81ab",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "30e778e5393742bb9c29bb8640eacbf1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For assistance with interpreting your hormone results and ovulation planning, press 2.",
+                "fileID": "923761a55563465b89a01c915aefeaef",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help understanding your hormone readings, press 1.",
+                            "fileID": "2ec84d93ed0e43e7b950553b686e16ab",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for holding. A fertility coach will be with you shortly to explain your hormone results.",
+                                        "fileID": "17f7f70ee0ca44cca48fc9c531fe5d3e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b0d8d7fb8116493f9fa92efc3be0ff2c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For personalized ovulation planning consultations, press 2.",
+                            "fileID": "594ecccbae6144d9a18998af1d59c1fb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line while we transfer you to an ovulation planning specialist.",
+                                        "fileID": "b1022de3a2ae4fdd9659a4f044f6679b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "07a867e55bfb425c9b7f7321c0794db0",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "00cedd8d090c426189190bfc0a3b27fe",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "84909d2267c549b3adfe33c112d9f09a",
+        "navigationGoals": null
+    },
+    "id": "4322332f632b4098b6a23b48719f4a5e",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Crunchbase in San Francisco, democratizing the way innovators find opportunity.",
+            "fileID": "2852571a8e0040439b11b44cd30474eb"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For subscription and support services, press 1.",
+                "fileID": "449f8f78cd6a436191439f6ebc7010e1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new subscription plans and pricing details, press 1.",
+                            "fileID": "756b4d05a52a41ffb51055da245543b0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our sales team.",
+                                        "fileID": "e3abdd2e64cc466f90e81c9babd44e34"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2c8c387ac07d40ff934d73e84f943723",
+                                "navigationGoals": [
+                                    "Get pricing details for a new Crunchbase subscription plan.",
+                                    "Ask about Crunchbase subscription pricing and available veteran discounts",
+                                    "Compare and evaluate API access subscription tiers and pricing structures for my developer team",
+                                    "Learn about pricing, plans, and available senior discounts for a new Crunchbase subscription.",
+                                    "Ask about student subscription plans and pricing for academic research on startup data."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For help with your existing account and technical support, press 2.",
+                            "fileID": "526e34df89164847b9108a429f92dec1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our customer success team.",
+                                        "fileID": "d756e87a830b4d06bb7035c8418a82d0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3c40ff46f6e54641af68e1497648bb68",
+                                "navigationGoals": [
+                                    "Fix a login error on my existing Crunchbase account.",
+                                    "Help recover my account login and update billing information",
+                                    "Troubleshoot an OAuth authentication error in my existing API integration",
+                                    "Get assistance resetting my password and accessing my existing Crunchbase account.",
+                                    "Resolve login and API access issues on my existing student Crunchbase account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6e8de237ea354d31a6e7b73ff8cce045",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For press and corporate inquiries, press 2.",
+                "fileID": "757af5cafc974f5b836aaf51adf60874",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For media and press inquiries, press 1.",
+                            "fileID": "65a9eb82556048a9ab28f60f91081965",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our communications team.",
+                                        "fileID": "e485bfde968a4e2e825bb5688889de7f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e1bab926ae344b7bbac7580804f69200",
+                                "navigationGoals": [
+                                    "Obtain data and quotes for a press article on funding trends.",
+                                    "Submit a press inquiry to feature veteran-founded startups",
+                                    "Coordinate a media briefing on the platform\u2019s capabilities for an upcoming tech article",
+                                    "Request the official media kit and press guidelines for an article I\u2019m writing.",
+                                    "Request media relations support for a university newspaper feature on physics startups."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For partnership and investor relations inquiries, press 2.",
+                            "fileID": "3f2b7d815be04e1ca07bfe328a23e81d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships team.",
+                                        "fileID": "d7181d9e255a4412aeda33677d0bc69a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f7c394ef459c4013b7bf11beb673324f",
+                                "navigationGoals": [
+                                    "Discuss partnership opportunities and API integration with Crunchbase.",
+                                    "Explore partnership opportunities between my veteran support group and Crunchbase",
+                                    "Discuss a strategic data integration partnership to embed Crunchbase insights into our analytics product",
+                                    "Inquire about partnership opportunities and investor relations with Crunchbase.",
+                                    "Inquire about partnership opportunities to integrate Crunchbase data into my campus hackathon."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f8888ae129454472a2645691d813fe56",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2be670f98c764b1dab19eaf7d3d2a94d",
+        "navigationGoals": null
+    },
+    "id": "eb90126ac44b454386145c869cfde1ff",
+    "navigationGoals": null
+}

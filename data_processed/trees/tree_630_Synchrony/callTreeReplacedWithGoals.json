@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Synchrony in San Francisco, where we tailor retail banking and consumer financing to fit your ambition.",
+            "fileID": "34295442610046ae915031ba987ef42d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For consumer loan services, press 1.",
+                "fileID": "badfaca786884ee8a61105b4409b8288",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To apply for a personal loan, press 1.",
+                            "fileID": "3d382612409f4336bdf53830f8476317",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a personal loan specialist.",
+                                        "fileID": "94e7905b816e4b6faaf1a9b355035f62"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "eb63f6a9a8ac4ce9894661d8d83d3655",
+                                "navigationGoals": [
+                                    "Apply for a personal loan and get a rate estimate",
+                                    "I need to apply for a personal loan to cover my transition expenses after military service.",
+                                    "I want to apply for an unsecured installment loan with a customized amortization schedule.",
+                                    "I need help applying for a personal loan",
+                                    "I need to apply for a personal loan to help cover my living expenses while I complete my PhD research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To learn about our credit card financing, press 2.",
+                            "fileID": "3bb53be2a7fb4d679d48bae20f147597",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a credit financing specialist.",
+                                        "fileID": "afe42bf8e930404394c630b7b9ad6ec3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6ee3bc8afe474c078d2181e0fdded0c9",
+                                "navigationGoals": [
+                                    "Learn about credit-card financing options and how to apply",
+                                    "I want details on credit card financing rates to help pay for a major home repair.",
+                                    "I need details on a credit financing option with a promotional APR and high credit limit.",
+                                    "I\u2019d like information on your credit card financing options",
+                                    "I want to learn about your student-focused credit card, including its interest rate and rewards program."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6a3524a8e9c0427ea32aaf14a9f6c80b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For business lending solutions, press 2.",
+                "fileID": "6b3120d2114a4dccaa4b928086eabdc9",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss custom business loan programs, press 1.",
+                            "fileID": "07013177669d4414a125097668789d32",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a business solutions advisor.",
+                                        "fileID": "62b0c74be5f64a52b17a9e2576a15813"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "79a95e02637f4d1cbf4361f36e80f518",
+                                "navigationGoals": [
+                                    "Explore custom business-loan programs and check eligibility",
+                                    "I\u2019m looking for a custom business loan for my veteran-owned landscaping business equipment.",
+                                    "I'd like to discuss a term loan facility for my business with flexible drawdown periods.",
+                                    "I\u2019m interested in custom loan programs for my small business",
+                                    "I\u2019m launching a small physics tutoring service and would like to discuss custom business loan options."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To inquire about merchant financing options, press 2.",
+                            "fileID": "c9ca9b0953d94ca78287be4a959d9448",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our merchant financing team.",
+                                        "fileID": "c2a3e6b169d24f8eab123f24a50365f5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "66ec0fda3a444bdf8eb03a987b30e2c1",
+                                "navigationGoals": [
+                                    "Obtain details on merchant-financing plans and initiate an application",
+                                    "I want to discuss merchant financing options for stocking inventory in my veteran-run store.",
+                                    "I'm looking to set up merchant financing integrated with my POS system and dynamic discount rates.",
+                                    "Can you explain merchant financing options for my store",
+                                    "I need information on merchant financing to support my online store selling lab notes and study aids."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1845fbf3642d4fb9b00cbcc499c4bddb",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7f20059e4a4649498ea675e13c9670e2",
+        "navigationGoals": null
+    },
+    "id": "07b1f26842ed4b5f9f952aef654c93b3",
+    "navigationGoals": null
+}

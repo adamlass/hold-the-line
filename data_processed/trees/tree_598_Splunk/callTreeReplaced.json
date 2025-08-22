@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Splunk in San Francisco, empowering organizations with fast, collaborative threat detection and response.",
+            "fileID": "5789b8048f804950a5d29790c60c8bfe"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an existing customer requiring technical support, press 1.",
+                "fileID": "97c1f51edd64437580da6b7a3d58c660",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For real-time incident response and troubleshooting, press 1.",
+                            "fileID": "924672e9e0f5476c96e54b480ef2e128",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Your call is important to us. Please hold while we connect you to our incident response team.",
+                                        "fileID": "9fa77c9a1b534feb90a2a776e66d8296"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "95f1c9aca60145d68ccc663d6229287b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "0eeafc5ee7584fd981d3a08f4d1fb115",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line while we transfer you to our account management team.",
+                                        "fileID": "c48b1109ed1c41718ded7044611c29b0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4159a0d4847d4add8b301b1d4f28373a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c8c7481ea768451f9edaa637582ca722",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To speak with our sales and new account team, press 2.",
+                "fileID": "05807c098da24919ba82b2cfad1b9925",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a personalized product demonstration, press 1.",
+                            "fileID": "6738787d5b2e4c7fb80db8eeddd39a5c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our product demonstration team.",
+                                        "fileID": "27136456ae2d4d3aaaed14da0e19cbf0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9215bce0a3c840eba82342faed65246c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For partnership and reseller opportunities, press 2.",
+                            "fileID": "7ddeb4ebf44a4b8aae8e2fbcf24708fc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer your call to our partnerships team.",
+                                        "fileID": "c303f1e087194e68804bd54e61d4c095"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "abeae8a6431145c3a048f1a201f7b7be",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "0811e17f79f04f708a797adc320fe737",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "25f73a247b83415d9cbc66e75f7c3194",
+        "navigationGoals": null
+    },
+    "id": "8d4bed1cd7d943418d245d1a8c7487cb",
+    "navigationGoals": null
+}

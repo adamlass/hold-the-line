@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Headspace in San Francisco, helping you live a healthier, happier, and more well-rested life in just a few minutes a day.",
+            "fileID": "42a8d68b008b49a49848899d01ccea06"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For account and subscription support, press 1.",
+                "fileID": "a88a4abe6a4f47ab979f53d8e088f4b4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing and payment questions, press 1.",
+                            "fileID": "355482702fc740cab5bd163ae66c184f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "A billing specialist will be with you shortly. Please hold the line.",
+                                        "fileID": "f98c23f0b1bd459db3d6c9c47910a0b7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "560ec90e99e94501975accf13894507f",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support with the Headspace app, press 2.",
+                            "fileID": "fa953044e2d040a68601fb2c4615fae6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "A technical support representative will be with you shortly. Please hold the line.",
+                                        "fileID": "a3a39580ec9344a3aeadd74799156022"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cc9ecbf4f1a74779be93f6b95a072024",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "50d14db041d442b5b688d5b3e6b6cf64",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For mindfulness and meditation guidance, press 2.",
+                "fileID": "264e5961a274416a867d3ba067ad86c5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To join a guided meditation session, press 1.",
+                            "fileID": "539f501b740e4f869c621953c8a6eb3d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for a mindfulness coach who will guide you through a meditation in just a moment.",
+                                        "fileID": "124606b94e454519964d7c267b61c5e1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "92ee20865e9b4f55b5cc29b8ce549714",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For sleep and relaxation exercises, press 2.",
+                            "fileID": "8e08bd05ff1245489a02e960f17a2eb1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sleep expert for relaxation exercises.",
+                                        "fileID": "589d823306a7473b9a3813e3e0afa32b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1ac42ad61a8e42e6b9139806cd368520",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ec471f11b3d6470297534d9c733b04e9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "66b18bfc6f8841f0a9133202ef5bd29e",
+        "navigationGoals": null
+    },
+    "id": "fb4e9615451d4960968da7bf3bba2f4e",
+    "navigationGoals": null
+}

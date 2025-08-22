@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling HotPads in San Francisco, your premier real estate marketplace for searching millions of apartments and houses.",
+            "fileID": "488356aa415445e695046a472cc2115f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To search for apartments or houses, press 1.",
+                "fileID": "a756a9b55c704288bb769d061c0fdcf8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To search by city, neighborhood, or price range, press 1.",
+                            "fileID": "a27cfcf996484d10897906bb1d7265e3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our search support team.",
+                                        "fileID": "3076060b003243628e6bc523ad8c397c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f054d436ad4e4a02b049a7b36214fd40",
+                                "navigationGoals": [
+                                    "Search for a one-bedroom apartment in Pacific Heights under $3,000 per month",
+                                    "I\u2019m looking for a 2-bedroom apartment in San Francisco\u2019s Mission District under $2,500/month near a VA clinic.",
+                                    "Query rental inventory via geospatial filters: 2BR under $2500 in Mission District",
+                                    "I\u2019d like help finding an affordable apartment in San Francisco by neighborhood and price.",
+                                    "Find a one-bedroom apartment near the university physics building for under $1,200/month."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To set up saved searches and alerts, press 2.",
+                            "fileID": "e20fd231f69840eea17613e08efb88b4",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our alerts support team.",
+                                        "fileID": "b4f86c7949fd4d8fac074f4711d48680"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "74d5827777f548ad9216882d9ce33cc9",
+                                "navigationGoals": [
+                                    "Set up email alerts for new two-bedroom rentals in the Mission District",
+                                    "I want to set up alerts for 1-bedroom units under $1,800 in Berkeley close to public transit.",
+                                    "Configure push alerts for new 3BR listings under $3500 in SoMa",
+                                    "I need assistance setting up saved searches and alerts for new rental listings.",
+                                    "Set up email alerts for new two-bedroom rentals within 10 minutes of campus under $1,500."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "735dfa5a57914a5da8ee822b078a2f9c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a landlord or property owner, press 2.",
+                "fileID": "548411cb543c4e22b96af64c5dffb179",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To list a new rental property, press 1.",
+                            "fileID": "0b124bf2902b4e1fa4cc842a8964df86",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our listing specialists.",
+                                        "fileID": "4e4fea6b90374e6488c23a26fd9b192c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2b559a8d3f104260a041dff38a377f5b",
+                                "navigationGoals": [
+                                    "List my three-bedroom house for rent on HotPads",
+                                    "I need to list my single-family home in Contra Costa County for rent and note a veteran-preference tenant policy.",
+                                    "Publish a new rental listing: 2BR condo at 123 Main St with metadata and images",
+                                    "I want to list my property for rent and need guidance on creating the listing.",
+                                    "List my spare on-campus studio as a new rental property."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To manage or update an existing listing, press 2.",
+                            "fileID": "de3f139e5e4846138f8b11a980e230b8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account management team.",
+                                        "fileID": "e1a1a9fdde5a46eeba8b0ff9e97d44d5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d69f95941c094c66a88362d3ec55ca48",
+                                "navigationGoals": [
+                                    "Update the rental price and add new photos to my existing Oakland listing",
+                                    "I\u2019d like to update my current rental listing by changing its availability date and adjusting the monthly rent.",
+                                    "Edit existing listing: adjust rent to $2800 and update floorplan attachment",
+                                    "I\u2019d like to update details on my existing rental listing, such as changing the rent amount.",
+                                    "Update the monthly rent and availability date on my existing HotPads listing."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "64f0d435ebcd4ba78079bff22e692cd5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9f40a31d36284febaf2b8852fd571601",
+        "navigationGoals": null
+    },
+    "id": "1aa5693edf394de49c615de62e3f1380",
+    "navigationGoals": null
+}

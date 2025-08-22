@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Sparkcentral in San Francisco, where customer-centric enterprises transform customer support efficiency.",
+            "fileID": "3d888acea62244398310dd28edf716f5"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Sales inquiries, press '1'.",
+                "fileID": "861ca410ebcc448a896da818c578c3c1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For Enterprise Sales and partnership opportunities, press '1'.",
+                            "fileID": "ba3043a139db41139753be6b7723df9a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Enterprise Sales team.",
+                                        "fileID": "00f76dde889e455ba899743a818194ca"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aae0cac62d804607a36ebb3e17dade53",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing and product information, press '2'.",
+                            "fileID": "c7aeb128230540e299f60fcc5424d125",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Sales support specialist.",
+                                        "fileID": "2fecf7f5b0c0474dab010d30a3fb1d66"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f99fc7a25bbb47f591ae3ac67ef9ef9a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "677b43bbb30247f88621b2179fb85f93",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Customer Support, press '2'.",
+                "fileID": "309bb9245afc4f47933b0a2b0b02481a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and integration assistance, press '1'.",
+                            "fileID": "3329ab52385e445a9d0be253d99258a5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Technical Support.",
+                                        "fileID": "755bfa2098ff4eeb9c40c6dfce4ddca6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7af50a80a1864e0f8ccd1033871db38c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press '2'.",
+                            "fileID": "e3816fca9e7a4db0a541f68f29a7799b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Account Management team.",
+                                        "fileID": "27ff3eb95423487bba326529ee5f3426"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "89200fca8e43457eaf53cb74a754c5b2",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "12ee9b462f654a1794a4a4be8115c5f7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ef51950793e24dab8765a29f9584a46c",
+        "navigationGoals": null
+    },
+    "id": "709515c1869c47ad9e862abc22efda2a",
+    "navigationGoals": null
+}

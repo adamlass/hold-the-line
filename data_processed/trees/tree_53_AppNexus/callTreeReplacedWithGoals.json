@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to AppNexus, the New York-based advertising marketplace connecting leading publishers and brands.",
+            "fileID": "56283f18c6994fd5a99a351aeb629995"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For publisher services, press 1.",
+                "fileID": "a4f9d36b96774dd0b140ac081f6b5638",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reach your account manager, press 1.",
+                            "fileID": "4bb83277a8474a6fb9b73ddc46c18653",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to your account manager; a representative will be with you shortly.",
+                                        "fileID": "d971640b53c34c93902c2079300ff7ed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fd5c9d97b05e4624999942fa81f8f572",
+                                "navigationGoals": [
+                                    "Discuss a recent billing discrepancy with my account manager",
+                                    "Discuss adjusting my revenue share and optimizing ad placements for my veteran-focused blog with an account manager",
+                                    "Connect me with my account manager to review and optimize my publisher rate floors and yield strategies",
+                                    "I need to speak with my account manager about reviewing my publisher billing statement",
+                                    "Review my publisher revenue report and address a billing discrepancy with my account manager"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support, press 2.",
+                            "fileID": "e77aae4a8d1b49e48e24e55420c8af7c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to technical support; a specialist will assist you shortly.",
+                                        "fileID": "b6ac64c5319e4261be8789af2bc6e9bf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3c01e049357c412482407df54c016978",
+                                "navigationGoals": [
+                                    "Get help resolving ad-serving errors on my site",
+                                    "Get help resolving ad loading errors on my website so my ads display correctly",
+                                    "Get technical support for troubleshooting ad tag latency and debugging our Prebid.js integration",
+                                    "I\u2019m having trouble logging into my publisher dashboard and need technical help",
+                                    "Troubleshoot a header bidding integration error on my publisher site with technical support"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7333a71df2334eec990422b9481b233e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For advertiser solutions, press 2.",
+                "fileID": "d6add38841d94cb4a6281ae908988a54",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team, press 1.",
+                            "fileID": "9bf493f0d884432ea29260728dfe615a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you to our sales team; a representative will be with you shortly.",
+                                        "fileID": "5d68a26db3704a5785da80820fe66d0a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9b9e91b3c66f40a6a21623436df1426c",
+                                "navigationGoals": [
+                                    "Obtain pricing and set up a new ad package with sales",
+                                    "Find out pricing and options for a targeted ad campaign promoting my veteran-run e-commerce store",
+                                    "Speak with sales to get pricing and package details for launching a new DSP campaign",
+                                    "I want to discuss advertising package options and pricing for my small local business",
+                                    "Discuss programmatic advertising pricing tiers and volume discounts with a sales representative"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For platform onboarding and training, press 2.",
+                            "fileID": "e2c1f84d91f84b468aa090e89c53339a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. Please hold while we connect you with our onboarding specialists; someone will assist you shortly.",
+                                        "fileID": "d9e07b38bcf9410b8d12d3377f9c3229"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3193d00704244f60b9eb09d12bb1250a",
+                                "navigationGoals": [
+                                    "Schedule a platform onboarding session for my team",
+                                    "Receive guidance on setting up my first ad campaign and navigating the platform dashboard",
+                                    "Arrange an onboarding session to train my team on AppNexus API usage and platform workflows",
+                                    "I\u2019d like a guided walkthrough of the ad platform to learn how to set up campaigns",
+                                    "Arrange an onboarding session to learn how to optimize campaigns on the AppNexus platform"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e1a42881e9b44862bcfcecdb3fdd3eb5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "0945762520d94371983addfdef5e5d3e",
+        "navigationGoals": null
+    },
+    "id": "e71427136b1b4f41a773f3b6f15091ea",
+    "navigationGoals": null
+}

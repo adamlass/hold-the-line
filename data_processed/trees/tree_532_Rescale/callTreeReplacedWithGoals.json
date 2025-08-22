@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Rescale in San Francisco, your partner for industrial scientific and engineering simulation on demand.",
+            "fileID": "b6bc4eaaf7c045e3804f920a7c9db1b0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales inquiries and new trial setup, please press 1.",
+                "fileID": "174508eca24a442b9b0c9c29b3133ca9",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For pricing and licensing information, press 1.",
+                            "fileID": "5395ca95743344a5a71850dadae8c192",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for pricing and licensing.",
+                                        "fileID": "8fe68002e57343509af34fc0fd3fe1c7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1ce8352f244b4f4c9bdc520e67425e27",
+                                "navigationGoals": [
+                                    "I need detailed pricing and licensing information for Rescale services",
+                                    "I need details on subscription rates and license options for my simulation workloads.",
+                                    "I need a detailed pricing quote and licensing options for your on-demand simulation service.",
+                                    "I want to understand the pricing plans and licensing terms before starting a trial.",
+                                    "Check educational pricing and licensing options for student use"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a personalized demo, press 2.",
+                            "fileID": "0474d82ecf9e44eb82cd6e61f4fb3ffe",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our specialist for demo scheduling.",
+                                        "fileID": "5c3d07633af24b1290b6006dccf8f8f3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1603cf7fce5248189d3d0187b5c8a046",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a personalized demo of the Rescale platform",
+                                    "I\u2019d like to schedule a personalized walkthrough of your simulation platform before I commit.",
+                                    "I\u2019d like to schedule a technical demo of the Rescale platform focusing on HPC workflow integration.",
+                                    "I\u2019d like to schedule a guided demo of the Rescale platform.",
+                                    "Schedule a personalized demo to explore physics simulations on Rescale"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "69da6655a93c4036bd7d0a35a17b567d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and service, please press 2.",
+                "fileID": "b8a3c09945f54aa6b4f42e9d3ce004b4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For hardware infrastructure assistance, press 1.",
+                            "fileID": "b37b76b118934cb786d4d61916560a4e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a hardware support engineer.",
+                                        "fileID": "e9269506b51f43d38364e753f008d4a0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "47cf1554272c4612b53bde5d53b60bb6",
+                                "navigationGoals": [
+                                    "I\u2019m experiencing hardware infrastructure issues and need to speak with a support engineer",
+                                    "I need help configuring my on-premise hardware cluster to run my simulation jobs.",
+                                    "I need help diagnosing performance issues on my compute cluster hardware.",
+                                    "I need help setting up and configuring my hardware for simulations.",
+                                    "Get assistance with hardware requirements for running large-scale simulations"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For software platform help, press 2.",
+                            "fileID": "b6964d2301ac4882b979cbdc030a14c0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a software support engineer.",
+                                        "fileID": "9454db763a9a42dfa2cf5ca345464f57"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6f9a2479b48d4dabbaa928fc9176c7d9",
+                                "navigationGoals": [
+                                    "I need help troubleshooting a software platform issue on Rescale",
+                                    "I\u2019m encountering errors in the simulation software and need assistance troubleshooting my setup.",
+                                    "I need assistance debugging API integration errors on your software platform.",
+                                    "I\u2019m having trouble using the Rescale software and need assistance with the platform interface.",
+                                    "Resolve an error when submitting a simulation job on the Rescale platform"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4a602303dc724bc28306e64b41e51beb",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f28582ea23c54b37920a3cbed5b7a725",
+        "navigationGoals": null
+    },
+    "id": "b3cc7daa2d844909820cfe0f1bc4de68",
+    "navigationGoals": null
+}

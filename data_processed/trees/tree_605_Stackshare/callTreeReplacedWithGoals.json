@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to StackShare in San Francisco, the platform where developers rank and explore the best open source, SaaS, and developer tools.",
+            "fileID": "68fa473603904c239e2018057a647072"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To explore our ranked library of developer tools, press 1.",
+                "fileID": "bdabe5a8641c46f3b4e3145db280c868",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For open source projects, press 1.",
+                            "fileID": "cb6b9f41c272443090f78c79f928275c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to information on open source developer tools.",
+                                        "fileID": "93b8b33e7e8345b0b578746bdd60ea10"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6d8547dac92a4f8a95009de46f56e07e",
+                                "navigationGoals": [
+                                    "I need details on top-ranked open-source developer frameworks for our next project.",
+                                    "Find open source coding tools to support my transition to civilian tech roles.",
+                                    "Retrieve a list of top-rated open source developer tools.",
+                                    "I\u2019d like guidance on beginner-friendly open source coding tools.",
+                                    "I want to discover top-rated open-source libraries for physics simulations."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For SaaS and commercial tools, press 2.",
+                            "fileID": "0fbeed3d6cc3400381820eb4253a9934",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to information on SaaS and commercial developer tools.",
+                                        "fileID": "0d78ed66ed294c36b4a620c89b4ac0a1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "518b42a5acd64bbfb293fe72770a883b",
+                                "navigationGoals": [
+                                    "I want pricing and feature comparisons for commercial SaaS tools.",
+                                    "Compare paid SaaS development tools for my new software projects.",
+                                    "Get recommendations for leading commercial SaaS development tools.",
+                                    "I need information on paid SaaS developer tools and their pricing.",
+                                    "I\u2019d like to explore subscription-based SaaS tools for analyzing my experimental data."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "1dae208c55504dc29db63c41c8825f67",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account and partner inquiries, press 2.",
+                "fileID": "ac21c3ca04864008ac98159793f61882",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account management and settings, press 1.",
+                            "fileID": "4a72a0716b4645f289d32c0ab8e614d3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our account services team.",
+                                        "fileID": "ab112d0e56f0410e9b4fd65dd94b439f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "669ebab1005a4397bd291d674f4b4304",
+                                "navigationGoals": [
+                                    "I need to update my account settings and billing information.",
+                                    "Change my account password and update my email address.",
+                                    "Access my account settings to update profile and security credentials.",
+                                    "Please help me manage my account settings and update my personal details.",
+                                    "I need to update my StackShare account settings and contact information."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For partnership opportunities and to list your tool, press 2.",
+                            "fileID": "e301cb4ab4eb4a33997904047f4f2065",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships department.",
+                                        "fileID": "4acea18a38374a208c9b6b23cafcc5a2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a53032036c3d454092273473c146c7b7",
+                                "navigationGoals": [
+                                    "I\u2019m looking to list my company\u2019s new tool on StackShare.",
+                                    "Learn how to partner and list my veteran-focused app on StackShare.",
+                                    "Inquire about partnership opportunities and the process to list my tool.",
+                                    "Explain how I can apply for a partnership and list my software on your platform.",
+                                    "I\u2019m interested in partnering to list my new physics research app on your platform."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "63eb56cc1e99455a9dbdacaf461dee77",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c1a00f5a0bf9491f94fdab670d0f2d87",
+        "navigationGoals": null
+    },
+    "id": "1e44c03bc9d64d5a806c12bad7c45e51",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Mende Design in San Francisco, your creative partner for graphic design, visual research, and public art.",
+            "fileID": "1f81f6d88914422e8d2ad23f8dcd2c6c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our creative services, press 1.",
+                "fileID": "85ebc4c6f953454eaa5bca8fb57bc88d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about graphic design and branding, press 1.",
+                            "fileID": "2378fef39aec41e199fc976e487da374",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our graphic design team.",
+                                        "fileID": "52ac1d8dc7ca486fab233365fb12a600"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1c5e81fe3cca412690c4f1b3c9c505b6",
+                                "navigationGoals": [
+                                    "I need to finalize the logo design drafts for my new product launch.",
+                                    "I need a logo and branding package for my veteran support nonprofit.",
+                                    "I'd like to go over the design specs and deliverables for our brand identity redesign with the graphic design team.",
+                                    "I need help designing a simple, clear logo for my community club.",
+                                    "I'd like to discuss creating a branded poster for my upcoming physics seminar."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To explore visual research and public art projects, press 2.",
+                            "fileID": "e5ce16de71714519a38ff2cc5ebff4db",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our visual research and public art specialists.",
+                                        "fileID": "5fae327f00274b82b176adb337e9d12d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8fb8feb3b31e46d58bc7932541721488",
+                                "navigationGoals": [
+                                    "I\u2019d like details on commissioning a site-specific public art installation.",
+                                    "I want to commission a public art mural honoring fellow veterans.",
+                                    "I want to discuss the site-specific installation workflow and visual research methodologies for my public art project.",
+                                    "I would like information on commissioning a public art mural for our neighborhood park.",
+                                    "I want to commission a public art installation that visualizes my quantum research."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d2a0e09541374caa8689a2702f7cb665",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For client support and project inquiries, press 2.",
+                "fileID": "b7af592407f140aea248a800d09971a4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check the status of an existing project, press 1.",
+                            "fileID": "3166f97d74e749379e66f81137ab89ab",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to your project manager.",
+                                        "fileID": "d870fccce8724e75afd0ec3a95cd601e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "47b563c5ce744b2fa23a9c8abba180d9",
+                                "navigationGoals": [
+                                    "I\u2019m calling to get an update on the brochure redesign project\u2019s progress.",
+                                    "I\u2019d like to check the status of the brochure design I ordered for my veteran outreach program.",
+                                    "Please provide a status update and revised deliverable timeline for my ongoing UX/UI design project.",
+                                    "I'd like an update on the brochure project you're working on for me.",
+                                    "I'd like a status update on the logo project I ordered last week for my physics club."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing or administrative questions, press 2.",
+                            "fileID": "7accf54c865f474ab22de1d4a6039ab6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "69049e3d1a51409eb0111d201f485dbd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aa86832ea0a24f9f893f32e2554ed402",
+                                "navigationGoals": [
+                                    "I have a question about my latest invoice and payment due date.",
+                                    "I have a question about the invoice for the banner design project for my veteran charity.",
+                                    "I need an itemized invoice breakdown and to reconcile charges for my last design engagement.",
+                                    "I want to settle my latest invoice and confirm my billing details.",
+                                    "I need clarification on the invoice for my recent design order for lab materials."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9ad8c79abff04862a451f688903d9b96",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "729f0c09e9864e50ad8da8bba3d3dbf8",
+        "navigationGoals": null
+    },
+    "id": "03839bca2ea04b14a8582dcf9c954142",
+    "navigationGoals": null
+}

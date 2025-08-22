@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Wonderware in San Francisco, the global leader in industrial automation software.",
+            "fileID": "d75148b9b6bd487691275af45af8b829"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "064ad5366a1743a9974c6a0b05876d8c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about HMI and SCADA solutions, press 1.",
+                            "fileID": "434213ca57d547c78eb240f6aa8f8284",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist in HMI and SCADA solutions.",
+                                        "fileID": "e7b408f292da4db0b6506c8ef0753a5b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d2fc851169f84453a25c56c3f9f61183",
+                                "navigationGoals": [
+                                    "Get detailed specs and a quote for the HMI/SCADA software package.",
+                                    "I\u2019m a former Navy technician and need detailed info on your HMI and SCADA solutions for my facility.",
+                                    "I need a breakdown of licensing options and feature capabilities for Wonderware HMI and SCADA deployments.",
+                                    "I\u2019d like someone to explain which HMI and SCADA package I should buy and help me place an order",
+                                    "I need to speak with someone about comparing HMI and SCADA packages for real-time data display in my university lab."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss operations management and automation pricing, press 2.",
+                            "fileID": "aad7967b97d54635b92dbe8426e24376",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a pricing and operations management specialist.",
+                                        "fileID": "b206505c8d4b457a99e0b88c5e5038d7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ade6798feb374e7a82734a56d9e03cfb",
+                                "navigationGoals": [
+                                    "Inquire about pricing for operations management and automation solutions.",
+                                    "I\u2019m a veteran operations manager looking for pricing details on your automation and operations management software.",
+                                    "I need detailed pricing for the Industrial Operations Management suite, including MES and automation modules.",
+                                    "I need pricing details for your operations management solution for a small facility",
+                                    "I\u2019d like a detailed quote on the operations management add-on, including academic licensing fees."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ac21a789468742ddaea5ebe485454a14",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and service, press 2.",
+                "fileID": "a94b906f122c4e80b9ec8a7e3e4cf523",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "a2264a9b42324f3f922854d720d01129",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support engineer.",
+                                        "fileID": "6efb2894395044c1bb7e548f8b301863"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a1fcd1437d424889a944e2790e45e853",
+                                "navigationGoals": [
+                                    "Resolve a critical error in my Wonderware system with a support engineer.",
+                                    "I need technical support to troubleshoot connectivity issues with my SCADA system.",
+                                    "I\u2019m troubleshooting an OPC UA communication failure between my SCADA system and PLC network.",
+                                    "I\u2019m having trouble with my software screens not loading and need technical support to fix it",
+                                    "My SCADA system won\u2019t connect to the PLC; I need help diagnosing and fixing the connection issue."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For training, documentation, and customer success services, press 2.",
+                            "fileID": "22c0d4b413234475843164517d479a55",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our training and customer success team.",
+                                        "fileID": "01e0dc522ae843948b09a48755917e7e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c457490699ef4c3d90bcba5f7cf3e666",
+                                "navigationGoals": [
+                                    "Arrange training and obtain documentation for the latest software features.",
+                                    "I want training materials and documentation to learn how to use your automation platform effectively.",
+                                    "I need advanced training materials and technical documentation for deploying Wonderware System Platform and Historian.",
+                                    "I want basic training and documentation to learn how to use the software step by step",
+                                    "I\u2019d like to enroll in training and receive documentation on using Wonderware software for my research projects."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bdd129a3e2ff4173a7309516bf890c87",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "51f3434069f94f1fbffd40f4f8542bbd",
+        "navigationGoals": null
+    },
+    "id": "33e4c0b73a82413c931916a41430f30b",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Macy's San Francisco, your destination for buying pants online or in store.",
+            "fileID": "82a796193b614169abfc88c3a0491cf3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For questions about your orders or shipping, press 1.",
+                "fileID": "65d5b14e14a84f72a645412c8236b914",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For order status and tracking, press 1.",
+                            "fileID": "e6c72031039d470ea1df1f91020bf568",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an order specialist.",
+                                        "fileID": "6b7066564f5f4ef8b0e4a7c18053c9a0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a43a18dd72aa4af8b1f3f3171b926d0e",
+                                "navigationGoals": [
+                                    "Check the latest status of my online pants order",
+                                    "Confirm my veteran discount was applied to my recent online pants order.",
+                                    "Retrieve the real-time order status and tracking ID for my recent pants purchase.",
+                                    "I need to check the status and tracking details of my pants order.",
+                                    "Request the tracking number and current delivery status for my recent pants order."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For shipping questions and delivery estimates, press 2.",
+                            "fileID": "f53637e6991546a39b2a612872ec5fb3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a shipping representative.",
+                                        "fileID": "7116d126814049979eeb5bf1e24f46a9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d4bd9588898c4b558bebeb97c74d726a",
+                                "navigationGoals": [
+                                    "Get an estimated delivery date and shipping options for my order",
+                                    "Add expedited shipping to my pending pants purchase.",
+                                    "Query the estimated delivery ETA and shipping carrier details for my pants order.",
+                                    "I\u2019d like to know the delivery estimate for my pants order.",
+                                    "Ask when my pants order will ship and what the estimated delivery date is."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c2ae87940b86467cab037a133c3103fa",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For product and store information, press 2.",
+                "fileID": "cf53e010c1904d92b612bda2ef6f79e9",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product availability at our San Francisco store, press 1.",
+                            "fileID": "5018742dfcb3466caa8cab511401d944",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we check inventory at our San Francisco store.",
+                                        "fileID": "baee11fc56674fe098e156dbe3d7cc01"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2f27388cf509401aaff85160b96c4ecc",
+                                "navigationGoals": [
+                                    "Verify if my desired pants size and style are available at the San Francisco store",
+                                    "Verify if my preferred pants style is in stock at the San Francisco store.",
+                                    "Check real-time SKU availability for slim-fit chinos at the San Francisco store.",
+                                    "I want to see if you have my size of pants available at the San Francisco store.",
+                                    "Verify if size 32 dark-wash jeans are in stock at the San Francisco store today."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For store hours and directions, press 2.",
+                            "fileID": "a0f407568816477ab1fdcea973f6a8c1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a store associate.",
+                                        "fileID": "65b84132609d48a7aa7384aa633c7eb2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "985cf7e43a3e4a1b9596f43dec0a556c",
+                                "navigationGoals": [
+                                    "Find the store hours and directions for Macy's San Francisco",
+                                    "Find the hours and location of the Macy\u2019s San Francisco store.",
+                                    "Fetch the store's operational hours and geolocation directions for the San Francisco branch.",
+                                    "I need the store\u2019s hours and directions to the San Francisco location.",
+                                    "Find out the San Francisco store\u2019s opening hours and get directions for visiting."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "faa8e45daf314f6b8d1659131ed1c9f9",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a2b7cc98f019488d8fba3aa8099971b3",
+        "navigationGoals": null
+    },
+    "id": "547f3cb3b5b646228179f4fe4b406cd9",
+    "navigationGoals": null
+}

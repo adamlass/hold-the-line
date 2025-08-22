@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Tenable in the South Bay\u2014empowering your organization to understand and reduce its cyber risk across the modern attack surface.",
+            "fileID": "7647d076961641e3aa86697b36c20bb0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "0ccd443ebfab4190a3e6bcccd7de84c6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new product inquiries, press 1.",
+                            "fileID": "613f5e4d69dd45b0b764c6eb5f64d158",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales specialists.",
+                                        "fileID": "aa669c5e0add415ebbc26a909bfcd468"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d4e2fc263a4b476c82a7abc5a1a3d829",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For existing account management and billing, press 2.",
+                            "fileID": "36e8890d92fd46a985a53c218901bf6c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account management team.",
+                                        "fileID": "a604ad7197454feca52e202ae079c87a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ea469e056d904e13990e94e2a7a62a4d",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8a51c968a60146fcb6a8715c17a150c2",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and cyber security assistance, press 2.",
+                "fileID": "5a2d10d2146f4b5598e954baa9e73a9c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical troubleshooting and software support, press 1.",
+                            "fileID": "c2008ad053a145cfb5232d5f5bf695c9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "64a822f31bad4be195ac7ed526512724"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0cd13ae0f577462baf02cb2b9f322f96",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For incident response and risk assessment services, press 2.",
+                            "fileID": "805850ca43fb424191d7bbe7d2214259",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our incident response experts.",
+                                        "fileID": "339be28ccca14ed8bf958cafa2e35162"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f998b89b0cef4a159d8dbe93aeea7c91",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e056ed7c102e46b6a9e7a37520f5d264",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2e883ad4721141d7bc97a0c6a03c9a21",
+        "navigationGoals": null
+    },
+    "id": "7e0852c8f1a145fcaf0bbe32bd1c90bf",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Zinc in San Francisco, where communication is the answer.",
+            "fileID": "66440c84b774422d94d4e3bce651e8a2"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For Technical Support, please press 1.",
+                "fileID": "e39d506edf4545678c75fd2a0b0f5eb6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are an existing customer reporting an issue, please press 1.",
+                            "fileID": "169c476098cc443c8dff7867f0343454",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All our technical specialists are currently assisting other callers. Please hold the line and we will connect you as soon as possible.",
+                                        "fileID": "e7c876605aa14908a965589429211f85"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0f8ec624dee44e79b5b533a2f361d06d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "If you have a billing question, please press 2.",
+                            "fileID": "aa9a644d4d1943fba02941d2e9cbf792",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our billing department is experiencing high call volumes. Please stay on the line for the next available representative.",
+                                        "fileID": "e883bff13f5a4ea0b53253b75e738a24"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "88406da2a54241818d9a833500ee731c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e56eb87e258b4171bbe5df6274dc8999",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For Sales and New Service Inquiries, please press 2.",
+                "fileID": "25d1244be5af46b4a31a8bdb55f3ae48",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For Pricing Information and Quotes, please press 1.",
+                            "fileID": "911c7de0410643cabdad60ea1d5f05d2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "A sales representative will be with you shortly. Thank you for choosing Zinc.",
+                                        "fileID": "8867cac4620046838e9668f607ea5e2b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b50565c2015f4ea79430155cfd4eefc2",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For Partnership or Media Inquiries, please press 2.",
+                            "fileID": "929c00aef86443d4949f065e27226766",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our partnership team is reviewing messages in the order received. Please hold for the next available agent.",
+                                        "fileID": "0355544cbf4841d4ac1d194a089ba631"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4acaa5dc78984e61b41626428e03bf0c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fa57d9466de74f32a98a178319ba6d55",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "7cf3dae3ca8c4eebab5208ec580ee76a",
+        "navigationGoals": null
+    },
+    "id": "7f89971a0e444a6ea075a7b821ef5fc5",
+    "navigationGoals": null
+}

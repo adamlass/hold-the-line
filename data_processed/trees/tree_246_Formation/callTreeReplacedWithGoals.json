@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Formation in San Francisco, where we empower organizations with AI-driven, personalized customer journeys.",
+            "fileID": "da973f31534144f4838660bb2aa11065"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for Sales and product inquiries.",
+                "fileID": "64d0f280975d48cc924c846a1b907b7b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to schedule a personalized product demonstration.",
+                            "fileID": "872f091c22c243a5815ad2f65c3a78ac",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for a product demonstration.",
+                                        "fileID": "130a64e060ff442f931d295bfe0adcb9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4449de04da484b03b4250d268c5dbfbf",
+                                "navigationGoals": [
+                                    "Schedule a personalized demo of the AI-driven customer journey platform.",
+                                    "I\u2019d like to schedule a demo of your AI-driven customer journey platform for our veterans outreach program.",
+                                    "I want to schedule a live product walkthrough of your AI personalization platform.",
+                                    "I\u2019d like to set up a one-on-one demonstration of your AI customer journey platform.",
+                                    "I would like to schedule a personalized demonstration of Formation's AI-driven customer journey platform for my research group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for pricing, quotes, and licensing information.",
+                            "fileID": "57066ee1aa5d48a08de97f4cbea0b684",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing specialist.",
+                                        "fileID": "d8e5a4d5c4484c07b7b66c2ee874b625"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cfa6494f1d8349d0989d43ca394eefb1",
+                                "navigationGoals": [
+                                    "Obtain detailed pricing, quotes, and licensing options for Formation\u2019s solution.",
+                                    "Can I get a detailed quote for licensing your platform for my veteran support nonprofit?",
+                                    "I need a detailed enterprise licensing quote and pricing breakdown.",
+                                    "I need details on your software\u2019s pricing plans and licensing options.",
+                                    "I'm seeking a detailed quote on licensing fees for academic and non-profit use of Formation's solution."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2a92e03f274840f2b4eec3e18ddb05cd",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for Customer Support and service.",
+                "fileID": "a97a273bcfa34a8eb2648ca3536ad413",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for technical support and troubleshooting.",
+                            "fileID": "eb5a42c9deb44a10b341a7ed8d21f2f6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support engineer.",
+                                        "fileID": "5d726bb60db548758cab2985a1c58bd7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3c879fd223c4412f93489c43322b7686",
+                                "navigationGoals": [
+                                    "Get help troubleshooting a technical issue with the platform.",
+                                    "I need technical assistance integrating your service into our veterans assistance portal.",
+                                    "I\u2019m experiencing integration errors and need technical support for my API.",
+                                    "I\u2019m experiencing technical issues and need help troubleshooting the product.",
+                                    "I'm encountering errors integrating Formation's API with my lab's software and need technical troubleshooting."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for account management and billing inquiries.",
+                            "fileID": "472a2cb9f2934ba49e20622856a44b97",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our accounts and billing team.",
+                                        "fileID": "5de78d0c694a44d58a055fb8e7082ba5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "398c5055710942749eb0106b3b281abe",
+                                "navigationGoals": [
+                                    "Clarify billing charges and update account settings.",
+                                    "I need to review and clarify my organization\u2019s latest billing statement for our account.",
+                                    "I want to modify my subscription tier and clarify recent billing charges.",
+                                    "I need assistance reviewing my account billing and recent invoice charges.",
+                                    "I need to update my billing information and clarify a recent invoice charge on my account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "003822b53c2d494a80a4c85351f4491e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "af0417e8eaaf439fbf443f3105adc496",
+        "navigationGoals": null
+    },
+    "id": "013079954253413ba8fead1d523fd14b",
+    "navigationGoals": null
+}

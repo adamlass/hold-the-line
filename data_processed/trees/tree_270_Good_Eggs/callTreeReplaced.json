@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Good Eggs, San Francisco\u2019s home for absurdly fresh groceries and meal kits delivered right to your door.",
+            "fileID": "55b8d4a2b7194c4abcb1b415a8c9f6fc"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For questions about your delivery or to check your order status, press 1.",
+                "fileID": "488c61c79aec44b1be93705a014a2a87",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To track your delivery in progress, press 1.",
+                            "fileID": "90989b26cffb44cdaaf8b1dd7346c1c5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your delivery status.",
+                                        "fileID": "2017a6ec05c845bfb8446f7893f8d698"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9cdb8946b60544028f0f67726cb93c86",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "If you received an incomplete order or a missing item, press 2.",
+                            "fileID": "a42089285f714b559b7c6ea01a30773d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a delivery specialist.",
+                                        "fileID": "d5f108709f0d471e984fba8d63b8def2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9dcaf916c53746f69c66409eeb4bb515",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "10db98180ab749d4b4ce37f81468f82a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For new orders, meal kit subscriptions, or account assistance, press 2.",
+                "fileID": "97071dd65eac4b6398e0bb7d23e01774",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To place a new order or subscribe to a meal kit, press 1.",
+                            "fileID": "7820cbc7c50142c9b62f43bd8d6b32f2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our ordering team.",
+                                        "fileID": "310d0729253d45e7b97e22ac22d55fcc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "58ba03d6eca842168b6aeb3c3c19165e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account, billing, or technical support, press 2.",
+                            "fileID": "fe207dee794d4745a2cbe0367092d03c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to customer service.",
+                                        "fileID": "1761d8c924ea4bd2b0d585ba1020ee08"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "942d95f37db9460bb392bfa6b36ebfb5",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e4f19fa4f8aa47ac9edea6af269a1f45",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "626a3a6e5d5145af8a2c9e43194b3fe2",
+        "navigationGoals": null
+    },
+    "id": "56a57a847e3f4bebb07e18bb71e32119",
+    "navigationGoals": null
+}

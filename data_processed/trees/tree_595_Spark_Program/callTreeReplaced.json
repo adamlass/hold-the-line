@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Spark Program, a San Francisco nonprofit uniting diverse communities to empower middle school students to discover their potential.",
+            "fileID": "a9fe778a1cc04851bfa9789af09c8a10"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our student programs, press 1.",
+                "fileID": "17a54f51a3d4458d9c62c67a6028abbf",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For program schedules and locations, press 1.",
+                            "fileID": "e7504b9e3d8c4931b60cf229d706e014",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our program coordinator.",
+                                        "fileID": "145803527cf74d54bd7a9eba3dd58ed4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c9ce0693161d489cb73ab74529db0050",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For enrollment requirements and eligibility questions, press 2.",
+                            "fileID": "d0f74dc4c35c4190a21766f0684672ec",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience\u2014an enrollment specialist will be with you shortly.",
+                                        "fileID": "da8f7dc775974c5b8964a12e4c19dabf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d046c9f2a4db40afa81677ed40bf0726",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7f360fe65a5243afb1bace49a74c1b21",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For community partnerships and support options, press 2.",
+                "fileID": "f801bc9a898d4b639fff1f2130d8b944",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For volunteer and mentorship opportunities, press 1.",
+                            "fileID": "cfed6e61359a4e5e9d559166ee34242d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please\u2014connecting you to our volunteer coordinator.",
+                                        "fileID": "6fcdacba2f5d4974af94ebe6006cdfe9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f4b3f2f2de754762ba03504ff5462539",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For donations and fundraising events, press 2.",
+                            "fileID": "3508d06ad98b49e0a42f1731854bd7f6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your support\u2014a fundraising specialist will assist you shortly.",
+                                        "fileID": "1e0719e940bc471bad0227704f17eb83"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "61690365aa364ab0acf5d07c4bd58fed",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "43bb8b44a9ec42728142354cf869c774",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2a4a60acad3946f1a35d940c5f2f2f15",
+        "navigationGoals": null
+    },
+    "id": "9bb2313343924e05ab5e9adacef03306",
+    "navigationGoals": null
+}

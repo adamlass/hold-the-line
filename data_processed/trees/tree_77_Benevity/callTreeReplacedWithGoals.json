@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Benevity on the Peninsula, where we empower socially conscious brands to make a real difference.",
+            "fileID": "aa007d331fbf443897292d8a4d1058db"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our corporate giving and volunteer programs, press 1.",
+                "fileID": "217db97687c04fcfa3d09a3e339d28ac",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a Benevity sales specialist, press 1.",
+                            "fileID": "27fea03a03004c28b545c21f8dbf19bc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest. Please hold while we connect you to a sales specialist.",
+                                        "fileID": "a3dc004f23a74ce0b27313c850470fa8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fdfd780c4be340cc8f039407d6cb4bc3",
+                                "navigationGoals": [
+                                    "Connect me with a sales specialist to discuss corporate giving and volunteer program options.",
+                                    "I want to speak with a sales specialist about launching a corporate volunteer program to support veterans.",
+                                    "Connect me to a Benevity sales specialist to discuss integrating the CSR API into our corporate giving platform.",
+                                    "I need to speak with someone about setting up a corporate giving and volunteer program for my small company.",
+                                    "I need to speak with a sales specialist about setting up a corporate giving partnership for my student-led physics outreach project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a personalized platform demo, press 2.",
+                            "fileID": "0b82950a9c254aedb6db7251f7992ed0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "A personalized demo is a great way to see Benevity in action. Please hold while we schedule that for you.",
+                                        "fileID": "ab204f442c1c46acab74ea37710cddaf"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "94a557f086384bb296d128ef0ae20b4a",
+                                "navigationGoals": [
+                                    "Schedule a personalized Benevity platform demo to assess its fit for our company's needs.",
+                                    "I need to schedule a personalized demo of the platform to see how it can manage our veteran outreach initiatives.",
+                                    "Schedule a technical deep-dive demo of the Benevity platform, focusing on custom API workflows.",
+                                    "I\u2019d like to schedule a live walkthrough of the Benevity platform so I can see how it works.",
+                                    "I\u2019d like to schedule a personalized demo of the Benevity platform to see how it could support our volunteer programs."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7e6c57fb6f0742f39218dc4670f180bc",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support or billing questions, press 2.",
+                "fileID": "057adc644c344dd9add5fdbf8ae548e0",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and program management assistance, press 1.",
+                            "fileID": "f39725ead7a54aa18f76999cd9ed88f9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for technical support. A Benevity expert will be with you shortly.",
+                                        "fileID": "ae9b115b123042bfb348f086bff5b11e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9f33812b0aa24427a8a8d40a026d5a79",
+                                "navigationGoals": [
+                                    "Get technical assistance with a program integration issue on the Benevity platform.",
+                                    "I\u2019m looking for technical assistance to configure the program management tools for our upcoming veteran volunteer events.",
+                                    "Troubleshoot a 401 authentication error when calling Benevity\u2019s REST API for program management.",
+                                    "I\u2019m having trouble accessing the program management tools online and need technical assistance.",
+                                    "I\u2019m having a technical issue accessing my program management dashboard and need support to resolve it."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "6cc142f578e24b509f28d2ab0eca78f0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our billing team will assist you momentarily. Please hold.",
+                                        "fileID": "a638af34cff2464f9cac91b4a28db1e8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "65655b17a05f4277977467deb4114ec5",
+                                "navigationGoals": [
+                                    "Clarify and update billing details on our recent invoice.",
+                                    "I have a question about a recent invoice and need help with billing for our Benevity subscription.",
+                                    "Review and clarify the line-item details and billing cycle for our enterprise subscription invoice.",
+                                    "I have a question about a recent billing statement and need help understanding the charge.",
+                                    "I have questions about my latest invoice and need billing assistance for our account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fabc1731b1524129a92d05a1c0f1410b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "50295347540048d0bbb7c8e26f38a653",
+        "navigationGoals": null
+    },
+    "id": "490b77a9718b46ad82c631b8c44c5618",
+    "navigationGoals": null
+}

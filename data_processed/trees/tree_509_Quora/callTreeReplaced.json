@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Quora South Bay, where curious minds connect to share and discover knowledge.",
+            "fileID": "bbf3004b03d04c52bf6837d14b86e452"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To submit a new question or learn how to ask effectively, press 1.",
+                "fileID": "4b4e29c75e0c4e1394dbd8d77b6b1aa2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For tips on phrasing your question and best practices, press 1.",
+                            "fileID": "cc0dbaba7e0d4a89bd758f64abb6af25",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our question formatting guide.",
+                                        "fileID": "630367aec5c9485f8637bee171182858"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "439b94085edf418e9c345ce816731ec5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with our question support team, press 2.",
+                            "fileID": "5c021d6ce41949eb81db7d15bb7995b1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our question support team.",
+                                        "fileID": "b3bc3491d5ab455eae05c4284e08a8c8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a138c43e3dc944379a14b06167ef1f13",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7642c1175bb6499bb3f692b5b5d111ea",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To contribute an answer or share your expertise, press 2.",
+                "fileID": "4d696244ced740dd88dda6fcd3057f0d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For guidelines on writing high-quality answers, press 1.",
+                            "fileID": "70f8725cea464cef95aec2ab2685a7e6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our answer guidelines resource.",
+                                        "fileID": "2c0d9847f68041199ad83dcd5f2a8a2e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4b48b725441a4a0ba3b5c600f3726294",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To speak with our contributor support team, press 2.",
+                            "fileID": "247a9e655d7a4446a43f051c8deb8c22",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to contributor support.",
+                                        "fileID": "e261a21ee6d148fea7fde6702a5a8828"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "73abbe6c701746ab9e8434b7df5c95c0",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e718c05114874d878ef7c4216f339f05",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "fada06e3215b42daa2765a9f1b65028e",
+        "navigationGoals": null
+    },
+    "id": "f26eddcd354c4ebbb6360b5f847f305a",
+    "navigationGoals": null
+}

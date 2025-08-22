@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Fingerprint Digital, your home for thousands of hours of kids' learning entertainment powered by our breakthrough technology.",
+            "fileID": "3b552a0fc8864d089dcda25298fcd48d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For customer support and billing, press 1.",
+                "fileID": "03817d398f464da5a2df5146d4129834",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing and account questions, press 1.",
+                            "fileID": "242a4b513d044f38b8f692137eb75de7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and account team.",
+                                        "fileID": "cb9ed9d2e45d4ba4a5fda3b82a16b9f8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "065ba2cae2144194ac9ec0b918a87d7d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support, press 2.",
+                            "fileID": "fa9efbb256da4ef6b00d584b6469f825",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "e7276cbdc94f4e23a0a05c218b5159a3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "de023462a0df44ef809318793484d1c7",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "39483fa7966a45f5b70bb2dd7554eabc",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For content programming or partnership inquiries, press 2.",
+                "fileID": "1f25d4e7e0cb433599d6b1f25dd9108a",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For children's programming and features, press 1.",
+                            "fileID": "436897e95f3a45588e334fcd9f0cbd31",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our content programming team.",
+                                        "fileID": "4c5cbd1cfdc84f3ba8ee9ff8598c7f05"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9bf42e3cd167443591d4de33419ece2e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For partnership and licensing inquiries, press 2.",
+                            "fileID": "808f000a1c0047149d98b5886b971a6a",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships and licensing department.",
+                                        "fileID": "8564a7d9bed54e63841aae5662d58e70"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9c4e251b64044454904e4600165f302a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fb40bf01941e47f3b313fd0914a2c4f7",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "2a811af8760e419e91407ce97ba9b40c",
+        "navigationGoals": null
+    },
+    "id": "121e976647824e0b88e4b753eb32cb91",
+    "navigationGoals": null
+}

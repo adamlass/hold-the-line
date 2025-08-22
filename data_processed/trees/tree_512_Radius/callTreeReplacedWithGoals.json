@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Radius in San Francisco, where we provide total clarity to reach and convert your best B2B prospects.",
+            "fileID": "bd329dd28e2346588565e5e344f4530d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new customer inquiries and product information, press 1.",
+                "fileID": "5ed079e7436f4d188e677a776d662ca9",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a personalized demo, press 1.",
+                            "fileID": "3a28b8494a4240dd831fcc7a0f507880",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a product specialist.",
+                                        "fileID": "f985a09e0637478e85873cb00e043c11"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "811f80566ca34d11868ddca99a54412d",
+                                "navigationGoals": [
+                                    "Schedule a personalized product demo to quickly evaluate Radius\u2019s B2B prospecting solution.",
+                                    "Schedule a personalized demo to see if your platform suits my veteran-run consultancy",
+                                    "I want to schedule a hands-on demo of Radius\u2019s lead-scoring and data-enrichment platform.",
+                                    "I'd like someone to guide me through a personalized demonstration of your product.",
+                                    "I\u2019d like to schedule a personalized demo to see how Radius can help me identify potential research collaborators."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To get detailed pricing and plan options, press 2.",
+                            "fileID": "df9b96ad98b944229a787a6428ccf438",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our pricing team.",
+                                        "fileID": "32a6d1f49db94e7a9dd0747ceb2177ab"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bbd5a9fb3cbe48bb8dd5572311f62788",
+                                "navigationGoals": [
+                                    "Get a concise breakdown of pricing tiers and plan features to compare options.",
+                                    "Get a breakdown of pricing tiers for small, veteran-owned businesses",
+                                    "I need a detailed breakdown of subscription tiers and pricing for your B2B prospecting solution.",
+                                    "I want help understanding your pricing tiers and choosing the right plan.",
+                                    "I need detailed pricing and plan options for a student research project subscription."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "70de2bd9506741dfb2fcbf0806a9fe9c",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing customer account services and technical support, press 2.",
+                "fileID": "6725a9b8c8f64c5fbe9d3c2e2d0dccfb",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To manage your account and billing, press 1.",
+                            "fileID": "e78604ab5e0f4abcbd83f368ace35b32",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our account services team.",
+                                        "fileID": "491aacb8c1b74987946e8e5cd347d491"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "266fcd8311ea435db34426558683c588",
+                                "navigationGoals": [
+                                    "Update my account billing information and clarify recent charges.",
+                                    "Change the credit card on file for my current subscription",
+                                    "I need to update my billing info and review recent invoices on my existing account.",
+                                    "I'd like to review my account details and update my billing information.",
+                                    "I want to update my billing information and review my current account charges."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support and troubleshooting, press 2.",
+                            "fileID": "74f99214515640e4ade47e7c06f84ec3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "58e49edebbe14ebbbe113533cd0c5915"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7fdba5e96d4b4deca7fac9dcfb84f21f",
+                                "navigationGoals": [
+                                    "Resolve a technical issue I\u2019m encountering with the Radius platform.",
+                                    "Troubleshoot errors when loading my account dashboard",
+                                    "I\u2019m experiencing API integration errors and need technical support to troubleshoot them.",
+                                    "I'm having trouble with the service and need technical support to troubleshoot.",
+                                    "I\u2019m encountering errors with the API integration and need technical support."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b7220b4bd02d4b2dbedf3414e42d1e68",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3e337d28b9414084ac4de3e0069da6fa",
+        "navigationGoals": null
+    },
+    "id": "f7108aa7261f42b5b7f76b8e15e8f909",
+    "navigationGoals": null
+}

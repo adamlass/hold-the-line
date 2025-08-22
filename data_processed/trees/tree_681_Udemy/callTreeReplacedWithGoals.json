@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Udemy, the global marketplace for learning and teaching online.",
+            "fileID": "84b4891deacf440c9b992db6500ac150"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For learner support and course information, press 1.",
+                "fileID": "cfb0def0222a47f085d3a2e67f8b79dc",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To get help choosing a course or accessing your learning materials, press 1.",
+                            "fileID": "509b9b0575994b158c570f34ae50f5c6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a course enrollment specialist.",
+                                        "fileID": "3c999f5860d14473a0be545758de1aef"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "397f5d103a5b4f69b007aa8e8287340a",
+                                "navigationGoals": [
+                                    "Help me pick and enroll in the right course for my schedule.",
+                                    "I need help choosing and enrolling in a career-transition course tailored to veterans.",
+                                    "I need assistance provisioning my account and enrolling in the Kubernetes Deep Dive course.",
+                                    "I need help enrolling in a course and accessing the lesson materials.",
+                                    "I need advice on choosing the right intermediate-level physics course to enroll in."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support with our learning platform, press 2.",
+                            "fileID": "97ba83a1b18d4e4b824c1ba1ff993606",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "6b87c57f2fab49ceba9c906518a13091"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7379d0ae8cb44f3da7529e4e4b8f70b3",
+                                "navigationGoals": [
+                                    "Resolve the technical error preventing me from accessing my course.",
+                                    "I\u2019m having trouble accessing my Udemy courses\u2014my login isn\u2019t working and I need technical support.",
+                                    "My course videos are buffering and my progress isn\u2019t syncing across devices.",
+                                    "I\u2019m having trouble playing my course videos online and need technical assistance.",
+                                    "I\u2019m having trouble playing the lecture videos in my current physics course on the platform."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ad59c24c0a0145deaedec71008c5cc29",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For instructor services and partnerships, press 2.",
+                "fileID": "3dcb64abf06a48fea992e412bb35ef07",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn how to become an instructor on Udemy, press 1.",
+                            "fileID": "bde4fa3d57df4362886086817afb8f79",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our instructor outreach team.",
+                                        "fileID": "8cccd3c8a1fb40cd916ac57470af3732"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c8ac252849034cb9baf0ce426f121365",
+                                "navigationGoals": [
+                                    "Explain how to set up an instructor account and start teaching.",
+                                    "I want information on how to become an instructor and launch my own Udemy course on leadership skills.",
+                                    "I want to register as an instructor and integrate my GitHub repo for automated course updates.",
+                                    "I\u2019d like to learn how to register as an instructor and create my first course.",
+                                    "I want to learn how to create and publish my own physics course on Udemy."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical assistance with your instructor account, press 2.",
+                            "fileID": "fa0932be15e4481fbc33d3ed2dd2c141",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to instructor technical support.",
+                                        "fileID": "30db2bd3cd4f42b3a4849c18fcb8e969"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4c6b1bba48c44af0a8ca6542299c1f68",
+                                "navigationGoals": [
+                                    "Fix the login issue with my instructor dashboard so I can upload content.",
+                                    "I\u2019m experiencing issues with my instructor account setup and need technical assistance uploading my course content.",
+                                    "My Udemy CLI upload of SCORM content is failing with an authentication error.",
+                                    "I need technical help resolving issues with my instructor account settings.",
+                                    "I can\u2019t upload my instructor profile or course materials to my instructor account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "62ce3a791d75446d885e24e174242a23",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a42a66417a974002adb9d87e522687a3",
+        "navigationGoals": null
+    },
+    "id": "5a239a2fe9af4855b3d33d2d7a254d66",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling MixMax in San Francisco, your partner in powerful analytics and automation for outbound communications.",
+            "fileID": "2af975fa08754978b61848a64c335c7d"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1.",
+                "fileID": "ff989f3f82074dcf8fba3b8603712b2c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on our analytics platform and dashboards, press 1.",
+                            "fileID": "4eddc72bd04647eebfe4019728492ab7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our analytics specialists.",
+                                        "fileID": "f584dad2a9c3443b855d0671dae7da3b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64acc215e28449bfad19a4c767838fe4",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For automation and enhancement feature details, press 2.",
+                            "fileID": "dd0d4f3117504137a81cc1922fb92914",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One of our product experts will be with you shortly to discuss automation features.",
+                                        "fileID": "f1676b4acea34334a14d56be9d604f78"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e93ccf310b4a473486a776a87555e6fa",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3d1b0a29b6ee4bbbb7bf52985b8b8151",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and account services, press 2.",
+                "fileID": "d2706d5900cd4ee688bef84264e78a88",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "79cdc779617e4e81a65376a7df6f4055",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer your call to our technical support team.",
+                                        "fileID": "699f6065e72549b48d60c42b7c55ec28"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2cdde17f627a44829e414be9cbcb48d8",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "70b4b2c2010747bca62c87ababdc87e9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line and we will connect you to our account services department.",
+                                        "fileID": "4a72cd9254bd4e7e939888164e024073"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d0c18250ab7542ae99f80e5613da3e4e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "61899e6d90a24e65937df4dd5c59af28",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9b2a60940edf42709153df4ee53d0662",
+        "navigationGoals": null
+    },
+    "id": "da443a28f06c4720a102ea2d71df9717",
+    "navigationGoals": null
+}

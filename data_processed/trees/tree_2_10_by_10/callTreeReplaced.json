@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to 10 by 10 in San Francisco, where we help independent recruiters and agencies earn more in placement fees.",
+            "fileID": "b2d002c1d7444cc1a89b16ce23324ec7"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For software solutions and platform information, press 1.",
+                "fileID": "9ce7b004b225409ab1db2fafddb7d4bc",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For a product overview, press 1.",
+                            "fileID": "dec7c38b0d004114b2a17b2b08bf9f3c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our product team.",
+                                        "fileID": "b163c704ca144fd59a916e12c2b179e4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cac6a4eefc6b416db588a85af50c4668",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing and package options, press 2.",
+                            "fileID": "1ff3d34a8dc5414891dc2aa688a4b39f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve our pricing packages.",
+                                        "fileID": "1679ef34c92948f08b65f00d46a90c80"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "de07e090fec543b1b0732420fd354598",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b8586f83881d454fa5041561c84c4478",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For talent acquisition services, press 2.",
+                "fileID": "3bfd4a235ef14c0fbed122d6aa73dd50",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new service inquiries, press 1.",
+                            "fileID": "079ebe4127b74e789d7ffb6ee9fab623",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our service specialists.",
+                                        "fileID": "9a25b68b5a7246a29180f703ab836689"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "878f3a2f830a41faad5e7cab43b0c962",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For existing client support, press 2.",
+                            "fileID": "5f8f261c9b3941d8ac8ac0942f007b52",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our client support team.",
+                                        "fileID": "7f24679332a54c50b0c293007b17b755"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8cbb6fb5db5641d5b302b4596680a05c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8be22888484642cb955b8082e80219b0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "22f4420b36f247eeaee3823d71cd384f",
+        "navigationGoals": null
+    },
+    "id": "c230c8dc3abe46e189adaa1a228381f9",
+    "navigationGoals": null
+}

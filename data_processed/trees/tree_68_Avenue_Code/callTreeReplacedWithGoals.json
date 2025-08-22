@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Avenue Code in San Francisco, the leading software consulting agency for end-to-end digital transformation.",
+            "fileID": "eb9892f2273b4a849cbf0a17860baee8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with your current projects, press '1'.",
+                "fileID": "03c631845ca34d989d08537dac62de2c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and issue resolution, press '1'.",
+                            "fileID": "c9e431ab591a4784b3d3ef0fb00312d7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support specialist.",
+                                        "fileID": "60844db88864483b90b2bc6790f278dc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6fcdfd802a2140c0a6f2167c5e7f0f3f",
+                                "navigationGoals": [
+                                    "Resolve a production API error that\u2019s blocking our client demo",
+                                    "Troubleshoot deployment issues with the veteran services portal I\u2019m building.",
+                                    "Investigate and resolve intermittent API gateway 502 errors in our production microservices cluster.",
+                                    "I need help troubleshooting an issue in my current project",
+                                    "I\u2019m encountering a deployment error with the data visualization API in my simulation project and need technical assistance."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, invoices, or account questions, press '2'.",
+                            "fileID": "056c330f6b0944a8a58a1df568ede1eb",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "599718cc21dc47658a27e33fd38a1240"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0c194a258f1640ca8bfaeba48cee3671",
+                                "navigationGoals": [
+                                    "Clarify an unexpected charge on last month\u2019s invoice",
+                                    "Clarify a charge on the invoice for the veteran job-placement platform we subscribed to.",
+                                    "Clarify the overage billing calculation and SLA credits on last month's cloud infrastructure invoice.",
+                                    "I have questions about a recent invoice and need billing assistance",
+                                    "I need an itemized invoice for last month\u2019s code review services to submit for my research funding reimbursement."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bd6d4af7672f4caf989126e33145b65a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For new business inquiries and service information, press '2'.",
+                "fileID": "e9df621f19e2406ea422f794a04f4ec2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative, press '1'.",
+                            "fileID": "1cc93e69120b4c8e9ad5d77f14b8d310",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "deea08473ac240b4949d843b702817c5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "59f3c9fff4704402b453766c14fa89a0",
+                                "navigationGoals": [
+                                    "Get pricing details for a new e-commerce platform project",
+                                    "Discuss pricing and features for a custom digital outreach app for veterans.",
+                                    "Discuss enterprise-grade licensing and integration capabilities for our upcoming API platform deployment.",
+                                    "I want to speak to a sales representative about new digital transformation services",
+                                    "I\u2019d like information on your software development packages for building a machine-learning analysis tool for my physics experiments."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a free consultation on digital transformation solutions, press '2'.",
+                            "fileID": "d309e479ec8e4eb687961d75ed93acb8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our consulting team.",
+                                        "fileID": "0e198f2210634c049b64b26433c37858"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "837aefdb6c444862a33827862b9d39a1",
+                                "navigationGoals": [
+                                    "Schedule a consultation to evaluate migrating our legacy systems to the cloud",
+                                    "Arrange a free consultation to plan a digital transformation for my veterans\u2019 assistance nonprofit.",
+                                    "Schedule a technical consultation to architect a cloud-native CI/CD pipeline and containerization strategy.",
+                                    "I\u2019d like to schedule a free consultation to discuss digital transformation options",
+                                    "I want to schedule a free consultation to explore digital transformation solutions for our lab\u2019s data management workflow."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b146aadbf4ef41acba03a1a2abffc13f",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "a5126cde86104f61ae7b1124b4b732d9",
+        "navigationGoals": null
+    },
+    "id": "2c0f1c6e55fe47c69ce1ecfc8689bd18",
+    "navigationGoals": null
+}

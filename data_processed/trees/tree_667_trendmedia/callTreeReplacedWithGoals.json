@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling TrendMedia in San Francisco, a marketing agency with over fifteen years of experience building outstanding websites.",
+            "fileID": "bb47fed1d30f4fb2b5541c8d29a44755"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To learn about our website design and development services, press 1.",
+                "fileID": "a688f118ae6648e1a3b4acb845e65603",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request a quote for a new website, press 1.",
+                            "fileID": "496a4d36405f4bc78729f3d094bccd6b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a website consultation specialist.",
+                                        "fileID": "531bb4f10f964403aea66099d0d8cab1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ce0d6d28368f4d4186bef0500191c352",
+                                "navigationGoals": [
+                                    "Obtain a quote for building a new company website quickly.",
+                                    "Request a quote for a new website to showcase my veteran-owned small business",
+                                    "I\u2019d like to get a quote for a custom responsive website with headless CMS integration.",
+                                    "I\u2019d like a price quote and a clear overview of what your new website package includes.",
+                                    "I\u2019d like a cost estimate and to discuss specifications for a brand-new website project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss redesigning your existing website, press 2.",
+                            "fileID": "5a148d370a58419da7ad05eef08c10c0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our redesign team.",
+                                        "fileID": "c47d897cd7714b91bbd5984d6425a258"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4695dbd4757e49a995fe6e5c9dab6e14",
+                                "navigationGoals": [
+                                    "Discuss redesign options for my existing website.",
+                                    "Discuss redesigning my existing site for the nonprofit I run supporting fellow veterans",
+                                    "I\u2019m calling to explore redesigning my existing website with improved UI/UX using modern frameworks.",
+                                    "I need help modernizing my existing website and discussing a full redesign.",
+                                    "I\u2019m looking to revamp my existing website and explore redesign options."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "797a1a609f69410a8a09bd56a69c2856",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To explore our digital marketing and brand strategy offerings, press 2.",
+                "fileID": "a6f6b6c94d824331ae7df2ba14197fb4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our social media advertising experts, press 1.",
+                            "fileID": "96fccfaaab584fd897e6ae119525eae1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our social media advertising team.",
+                                        "fileID": "949c9d2bc4f64badbf0a5d3ec16ea6b4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "be980bf4497c44b8a8090dd85fb9a6ed",
+                                "navigationGoals": [
+                                    "Connect with someone about running social media ad campaigns.",
+                                    "Speak with social media advertising experts to boost outreach for my veteran support group",
+                                    "I want to discuss setting up and optimizing a social media ad campaign with detailed performance analytics.",
+                                    "I want assistance setting up and managing social media advertising for my business.",
+                                    "I want to plan a social media advertising campaign and understand your rates."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with our SEO and content marketing specialists, press 2.",
+                            "fileID": "ace8705fc8444b69a45b9d746073ee0d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our SEO and content marketing team.",
+                                        "fileID": "ed66b4f7ebb24a4281aefc4461c7fb8c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "67575c198c7a4677ac16303ea6dffcf0",
+                                "navigationGoals": [
+                                    "Get expert advice on boosting our SEO and content marketing.",
+                                    "Connect with SEO and content marketing specialists to improve visibility of my veteran assistance blog",
+                                    "I\u2019d like to arrange a technical SEO audit and develop a content marketing strategy to boost organic traffic.",
+                                    "I\u2019m looking for help improving my search engine rankings and developing a content strategy.",
+                                    "I need guidance on enhancing my site\u2019s SEO and developing a content marketing strategy."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "522b12c6cc8c4c50bb3363ffec68fad1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c731447a5cf4498e8c72d5df57eeefb8",
+        "navigationGoals": null
+    },
+    "id": "4327c441f0834bb3b5d488d18324bc08",
+    "navigationGoals": null
+}

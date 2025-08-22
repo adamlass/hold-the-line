@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Apteligent in San Francisco, your partner in mobile app analytics and performance optimization.",
+            "fileID": "4558a87fb10444ceb9e5e9dbe83163bf"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new business inquiries, please press 1.",
+                "fileID": "de47eb430d124f2cadf3d649019214f2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn more about our mobile analytics and user experience solutions, please press 1.",
+                            "fileID": "af37de67c8ad4412a9787b1c4733fd4c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales representative.",
+                                        "fileID": "cf9e45bd22fe4e13925a175ed9a097ab"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a84d2c7a4d124c0d87f261b965ab284f",
+                                "navigationGoals": [
+                                    "I need a concise overview of your mobile analytics and UX optimization solution",
+                                    "Get information on integrating Apteligent analytics into our veteran support mobile app",
+                                    "I want an overview of Apteligent\u2019s mobile analytics SDK architecture and core feature set for integrating into our app.",
+                                    "I\u2019d like to speak with someone about signing up for your service and learning how it works.",
+                                    "I\u2019d like an overview of how Apteligent\u2019s mobile analytics tools can help me track performance metrics in my physics study app."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To discuss pricing, demos, or partnership opportunities, please press 2.",
+                            "fileID": "0e9ad2240afd44b594c5bad8854b5367",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our pricing and demos team.",
+                                        "fileID": "7f88552bb1864527ae0ec726e65a60f2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7958d4fafae14ed88dc4c181a749dc8d",
+                                "navigationGoals": [
+                                    "I want to discuss pricing details and arrange a product demo",
+                                    "Request a demo and pricing details for using Apteligent in my nonprofit\u2019s veterans resource app",
+                                    "I'd like to schedule a live technical demo of your UX analytics dashboard and get detailed enterprise pricing tiers.",
+                                    "I need information on your pricing plans and would like to see a demonstration.",
+                                    "I want to schedule a demo and get pricing details for Apteligent\u2019s analytics platform for my university research project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c65cb3b648504aa290dd6f1de0797826",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and troubleshooting, please press 2.",
+                "fileID": "7b7e0a771c574ef2a95a409051e2fb65",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To report a new app issue or bug, please press 1.",
+                            "fileID": "15258117fbcd48e8a41b49e856f4f042",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "19b304dc1ce2430892e4aa0a6457f829"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "04489cb779a44f3d9fd548a86557e9b9",
+                                "navigationGoals": [
+                                    "I need to report a new app bug and get immediate troubleshooting",
+                                    "Report a new crash bug I\u2019m seeing in the SDK of our veterans outreach app",
+                                    "I've encountered a crash in the Android SDK causing ANRs\u2014I'd like to file a new support ticket with debug logs.",
+                                    "I want to report a new bug I\u2019m seeing in my app and get help fixing it.",
+                                    "I need to report a new bug in the Apteligent dashboard\u2014the crash logs aren\u2019t uploading correctly."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing support ticket, please press 2.",
+                            "fileID": "8e23099a5dd040c3b7c45bde3243b85f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your ticket information.",
+                                        "fileID": "31a9f66a3f714e449a2f6bec89cdbca5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "511a792143e147e8b7b188537e503800",
+                                "navigationGoals": [
+                                    "I\u2019d like a quick status update on my existing support ticket",
+                                    "Check the status of my existing support ticket for the crash issue in our veterans app",
+                                    "Can you retrieve the current status of my existing ticket about the Android SDK crash reporting issue?",
+                                    "I\u2019d like an update on the support ticket I opened earlier.",
+                                    "I\u2019d like an update on the support ticket I opened about missing session data in my analytics reports."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "bed6ffafc4d84204a9bff726908c54b6",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "052d44b17a1f463990d33493c9e8c37a",
+        "navigationGoals": null
+    },
+    "id": "c692f89ebd2e4b71a46a37d37017e868",
+    "navigationGoals": null
+}

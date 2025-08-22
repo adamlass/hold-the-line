@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to UrbanSitter, San Francisco\u2019s most trusted on-demand community for babysitters and nannies.",
+            "fileID": "60da0b5db4fa4d4b87ef1e628c199919"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a parent seeking childcare services, press '1' to speak with our family care team.",
+                "fileID": "1e324adc9cc3450f90d2ab640e47279f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To book a new babysitter or nanny, press '1'.",
+                            "fileID": "4fcdaaaa90ab441697da958e5b517695",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our booking team. A representative will be with you shortly.",
+                                        "fileID": "dc83a26b2e104ba68f44e45208c12af1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c116c7da95be43c0bbb618361025d630",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For questions about an existing reservation, billing inquiries, or to modify your booking, press '2'.",
+                            "fileID": "c428daf6e10f404d89b3aa61c5ffc9e2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for holding. We\u2019re now connecting you to our reservations team.",
+                                        "fileID": "16571aacf4df412a8c2a8c8449d94bef"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "839a7f2b45db46e4bbdb14fddc208596",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e2e49f52b1154fa6aee6df76b4e8e26e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a babysitter or nanny looking to join our community, press '2' to speak with our talent team.",
+                "fileID": "8fa82872cb4d40f7bbd96b93918dc5c5",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To apply as a new sitter or nanny, press '1'.",
+                            "fileID": "b136ab467e4244f9ad9c504f8462300c",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we forward you to our onboarding specialists.",
+                                        "fileID": "bf4834a298644f2085315eb64ea4841e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bc6dc6d18c4141b48413d618d7667436",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For current sitters to manage your profile, availability, or payments, press '2'.",
+                            "fileID": "b092de22c86d4089b182910f1c84d890",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you. We\u2019re transferring you to our community support team now.",
+                                        "fileID": "e769532f3d00468f881905b1aa53c815"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1333e2a2ae2b431aa7bcfdcc9073e810",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "047907c134dc4c908518beac14731884",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e2487bad863046f19762c1a7ef7d48ee",
+        "navigationGoals": null
+    },
+    "id": "07a88706ab3c4952a0546f2cf172b420",
+    "navigationGoals": null
+}

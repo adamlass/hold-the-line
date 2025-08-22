@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to LendUp, the San Francisco-based financial technology service making high-quality credit accessible for everyone.",
+            "fileID": "3bc9a638345e4ef484f068204ea70651"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new loan applications, press 1.",
+                "fileID": "837bc8fd65f4485bad893157a4b98a97",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check your eligibility, press 1.",
+                            "fileID": "f1087918643a4657b853888c2f763f48",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our eligibility specialists.",
+                                        "fileID": "e5c4b800039b4e9bb71b3722428f693b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6334d5778a0141f7bb2130c82b9f5868",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To start a loan application, press 2.",
+                            "fileID": "a77ba62763a8446ba21c242f8348d22c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our application team.",
+                                        "fileID": "3a5813259a634716a7e3c97ab8f0151c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2bef2fe03b214768a19ffb53e784f495",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f636e88ab34b49b992383258027ad2da",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing loan and account support, press 2.",
+                "fileID": "d5c57eff3c484826ad2445a7a21de582",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To make a payment or update your account, press 1.",
+                            "fileID": "ef091e26f0d24f4e9c1d49fb2c5d523d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to account management.",
+                                        "fileID": "3a420b98b5ab41f3b1d20454f37d5f7c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "60614763e2e34cdd8e39de003abeecee",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries and loan statements, press 2.",
+                            "fileID": "6aa0cc409eae4073b46fa452505fa503",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to our billing department.",
+                                        "fileID": "d653401eaa0a42a686f3a189abc5b5df"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e083d9fffb72476f9bced5b9538d13c9",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "aac9e6fa652547939c2ab8aaece3698c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "98a1978fc86c4e81a11792240d1c3a9c",
+        "navigationGoals": null
+    },
+    "id": "11c1cfeb11e645129cd83adc4b3a4f26",
+    "navigationGoals": null
+}

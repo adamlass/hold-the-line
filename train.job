@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#SBATCH --job-name=train                   
+#SBATCH --output=slurm-jobs/train.%j.out    
+#SBATCH --cpus-per-task=8                   
+#SBATCH --constraint="gpu_a100_40gb|gpu_a100_80gb|gpu_h100|gpu_rtx6000|gpu_rtx8000|gpu_l40s|gpu_a30|gpu_v100"
+#SBATCH --gres=gpu:h100:1
+#SBATCH --time=1-00:00:00                     
+#SBATCH --partition=scavenge
+#SBATCH --mem=8G
+#SBATCH --account=students
+
+echo "Running on $(hostname):"
+
+module load CUDA/12.1.1
+module load cuDNN/8.9.2.26-CUDA-12.1.1
+
+nvidia-smi
+
+export PYTHONUNBUFFERED=1
+
+echo "Execute python"
+poetry run python src/training/Trainer.py --mode partial --unfreezed_layers 0 --norm_adv --epochs 4 --lr 1e-5 --lr_value 1e-5 --batch_size 32 --lora --lora_r 8 --lora_alpha 16 --updates 1000 --tag "$SLURM_JOB_ID" --dropout=25
+# poetry run python src/training/Trainer.py --batch_size 16 --updates 500 --tag "$SLURM_JOB_ID" --dropout=10

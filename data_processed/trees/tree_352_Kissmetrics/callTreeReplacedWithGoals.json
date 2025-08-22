@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Kissmetrics, where we help you understand user behavior and engage customers every step of the way.",
+            "fileID": "1068a93bbebd48d4aa72a3365df5b297"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To explore our analytics solutions and see how behavior-based engagement can drive your growth, press 1.",
+                "fileID": "5d478619d9e94c6a810642614aa53689",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information about pricing and service plans, press 1.",
+                            "fileID": "5fdae7f35ad04d1393097d0f7c3abedc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a Kissmetrics pricing specialist.",
+                                        "fileID": "b2af73868e634235a11d1b7028299ca9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "96debb84b9fe4afa89152a30f10b9e2f",
+                                "navigationGoals": [
+                                    "Get detailed pricing and plan options for Kissmetrics to choose the right tier quickly.",
+                                    "Get pricing details for Kissmetrics analytics plans to budget for my veteran-run small business",
+                                    "Compare pricing tiers and calculate ROI for Kissmetrics analytics service plans.",
+                                    "Ask for details on service plans, pricing, and any available discounts.",
+                                    "I want details on pricing tiers and service options so I can budget for analytics in my research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a personalized product demonstration, press 2.",
+                            "fileID": "c2acd07b47d44fd4849b422725a725a9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to schedule your demo.",
+                                        "fileID": "5dc466062f8c4d16ac1ff87e53ab8371"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a553aa3f7f6240b1854f6ff10994f21d",
+                                "navigationGoals": [
+                                    "Schedule a personalized Kissmetrics product demo at the earliest available slot.",
+                                    "Schedule a personalized demo to see how Kissmetrics can help my veteran nonprofit track user engagement",
+                                    "Schedule a personalized demo focusing on cohort analysis and behavior-based segmentation workflows.",
+                                    "Schedule a live demo so someone can walk me through using the analytics tools.",
+                                    "I\u2019d like to schedule a personalized product demo to see how your platform could support my student projects."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "30575d3b22ae4bcbba3e8b57feb3c866",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For assistance with your current Kissmetrics account or technical questions, press 2.",
+                "fileID": "3c6c209a9b1a48d2bd97e5b85f97d5dc",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help setting up analytics tracking and understanding your data, press 1.",
+                            "fileID": "d939dc14ea6849bdb7aa4dabcb49531e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "0b77c52bc4c8492e91a8e15fd06afa38"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c8fbab4ac1914b4f94ed5ac6455acc73",
+                                "navigationGoals": [
+                                    "Get assistance setting up analytics tracking and understanding my initial data.",
+                                    "Get help setting up analytics tracking on my website and interpreting the data for my veteran support initiative",
+                                    "Get help setting up event-tracking API integration and configuring dashboard metrics.",
+                                    "Connect me to technical support to help set up tracking and explain my data reports.",
+                                    "I need assistance configuring analytics tracking on my site and interpreting the data for my experiments."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account management inquiries, press 2.",
+                            "fileID": "e89be811d548450db284fa0b522f6f8d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "2fec5bd6f3a7411dbb398ec191262a72"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cad7f7a65d22488682e304fb5ff174ad",
+                                "navigationGoals": [
+                                    "Update my billing information and clarify the latest invoice charges.",
+                                    "Clarify a billing discrepancy on my Kissmetrics account related to last month\u2019s charge",
+                                    "Update billing info, review invoice details, and adjust my subscription plan.",
+                                    "Review my latest invoice and update my payment information.",
+                                    "I need help with my account billing\u2014reviewing recent charges and updating my payment method."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "afbdff1c535c4a5da3d81415e27d01d0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4eb10e42d9ea4e8f8ba65a6b144d5bb2",
+        "navigationGoals": null
+    },
+    "id": "dc98bd1386d94ec6a37b6cc237d30653",
+    "navigationGoals": null
+}

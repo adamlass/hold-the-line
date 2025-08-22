@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Pramp, based in San Francisco, your platform for live coding interview practice.",
+            "fileID": "60494418217b49b489451ba4fa14d96e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For individual coding interview scheduling and support, press 1.",
+                "fileID": "4883b76f7a9546e6b9b6917d0c472bc4",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule or reschedule a mock interview session, press 1.",
+                            "fileID": "1de0ed4a7fe04515a89e7a6d50537094",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our scheduling team.",
+                                        "fileID": "b54a581df4494b55897e1ece55b0ee6e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "800c07fdc2904e70bc7f3ea160a30148",
+                                "navigationGoals": [
+                                    "I need to book a mock coding interview for early next week.",
+                                    "I want to schedule a mock coding interview session to prepare for a software engineering role.",
+                                    "I\u2019d like to book a mock coding interview slot next Tuesday at 3 PM PST.",
+                                    "I need to set up or change a mock coding interview appointment.",
+                                    "I\u2019d like to schedule a new mock coding interview next week around my lab schedule."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical assistance with your account or session, press 2.",
+                            "fileID": "dd0b912226a34cf39fee94b79a765bf1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, we are connecting you to technical support.",
+                                        "fileID": "5e67df7baea741f9aa7ff02078f4d692"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cd183d60f8034e449068a5e16c06b992",
+                                "navigationGoals": [
+                                    "I can\u2019t join my scheduled session due to a technical error\u2014please help me fix it.",
+                                    "I need help resolving technical issues with my mock interview setup.",
+                                    "I\u2019m experiencing WebRTC latency in my live session and need troubleshooting.",
+                                    "I\u2019m having trouble with my account and need help joining my session.",
+                                    "I\u2019m having trouble with my Pramp session\u2014the code editor won\u2019t load."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f68b45781dfc4085bea8a31620d31fc3",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For corporate training and enterprise solutions, press 2.",
+                "fileID": "8ee9f77cf9e34260b3671af484ab6a29",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about enterprise plans and bulk licensing, press 1.",
+                            "fileID": "36c028fdc6e74686a7a01934550b10ab",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve information about our enterprise offerings.",
+                                        "fileID": "8f9534ad6d4b45f695841798a7299d87"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b2cf6e106f434c90b35fe63cbfd47b15",
+                                "navigationGoals": [
+                                    "I\u2019d like pricing and details on enterprise plans and bulk licensing for my team of 20 engineers.",
+                                    "I\u2019m looking for information on group licensing plans for my veteran support organization.",
+                                    "I want details on enterprise bulk licensing and SSO integration.",
+                                    "I\u2019d like details on enterprise training packages and bulk discounts.",
+                                    "I need pricing details for group mock interviews for our physics study group."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with our corporate sales team, press 2.",
+                            "fileID": "4c66154419ae4cfebc388d7c9e03ca5c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your patience; we are now connecting you to a corporate sales representative.",
+                                        "fileID": "26f92243913e435ea6c0aa432a5c2799"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "44e0260c2cf6497eb73cd4aeb0fa7478",
+                                "navigationGoals": [
+                                    "Connect me with a sales rep to discuss custom corporate training solutions.",
+                                    "I want to speak with a sales representative to discuss enterprise training packages for my team.",
+                                    "I need to discuss custom enterprise pricing with a corporate sales rep.",
+                                    "I want to speak directly with someone about purchasing corporate licenses.",
+                                    "I want to speak with someone about enterprise training packages for my department."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8bfef03ece814c76b7be8c6ad18a5936",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "3b05b417c5e64182b2b7bc4c45a21d84",
+        "navigationGoals": null
+    },
+    "id": "94918de03b3b4c809a99e72c86df1837",
+    "navigationGoals": null
+}

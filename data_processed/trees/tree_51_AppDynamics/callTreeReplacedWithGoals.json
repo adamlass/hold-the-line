@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling AppDynamics in San Francisco, your partner in AI-driven application performance management.",
+            "fileID": "aa4701a18dbb4abc9ccb1d3ae3731524"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for sales and product information.",
+                "fileID": "d50e473c5d094940b6311a14ef70c06e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to speak with a sales representative.",
+                            "fileID": "5ae99d971b954a6c96a8ce694538453b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team at AppDynamics.",
+                                        "fileID": "b1bbd1cd72b940ea9004388887b7de24"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2d974b439573419f9a3aef9fb440418e",
+                                "navigationGoals": [
+                                    "I need to schedule a demo with a sales representative.",
+                                    "I need to speak with a sales rep to see how AppDynamics can secure our mission-critical systems.",
+                                    "Discuss enterprise APM bundle options, including real-time analytics and AI-driven anomaly detection",
+                                    "I want to speak with a sales rep to learn what features your product offers.",
+                                    "I\u2019d like to speak with a sales representative about which AppDynamics features best suit monitoring my university research applications."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for pricing and licensing details.",
+                            "fileID": "3b074fa71c4f4b2e96bdd34203a977b3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for our pricing and licensing specialists at AppDynamics.",
+                                        "fileID": "3f4c1766bcf34ff3b786e74ed01a2752"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3ad31e0bfaae453cada5fc377918e45b",
+                                "navigationGoals": [
+                                    "I need a detailed quote for enterprise licensing and subscription pricing.",
+                                    "I want to get detailed pricing and licensing options, including any veteran discounts.",
+                                    "Get detailed licensing and pricing breakdown for a 200-node hybrid-cloud APM deployment",
+                                    "I need to find out how much the software costs and what license options are available.",
+                                    "I\u2019m calling to learn about student and academic pricing and licensing options for AppDynamics."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6c372de77ce34bfb8a37ba638f230aac",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for technical support and customer service.",
+                "fileID": "e999dbdefbfb426c98e777697a27d4ce",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for technical support.",
+                            "fileID": "38c1db6f10ef44fc8c781b606b4c91e5",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to AppDynamics technical support.",
+                                        "fileID": "031bdd9291ab4607a63169d8d9b04f56"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7a25eb057cc84925966120d38707e628",
+                                "navigationGoals": [
+                                    "I need help troubleshooting a critical performance issue in production.",
+                                    "I\u2019m seeing performance alerts on my dashboard and need technical support to troubleshoot.",
+                                    "Troubleshoot persistent HTTP 5xx errors reported by the App Agent in my microservices architecture",
+                                    "I\u2019m having trouble setting up the software and need technical support.",
+                                    "I need assistance configuring the AppDynamics agent for my Java-based simulation environment."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for account and billing inquiries.",
+                            "fileID": "bbe2e2a885634cbd8b60221cc1ad5e7e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account and billing support at AppDynamics.",
+                                        "fileID": "240a2c152d7a4ca09422f809a0087b55"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f5eb9ae92d2048b0882e2614a564aa38",
+                                "navigationGoals": [
+                                    "I need to clarify charges on my latest invoice and update my payment method.",
+                                    "I need to review a recent billing charge and update my payment method on my account.",
+                                    "Request invoice and billing details for our AppDynamics subscription\u2019s quarterly charges",
+                                    "I\u2019d like to review my invoice charges and update my payment method.",
+                                    "I have a question about a recent charge and need help with my AppDynamics billing and account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9a03bb7625b74479a42d6bd42c715761",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "c141479914b04ca4998a3cc5aef53bbd",
+        "navigationGoals": null
+    },
+    "id": "0eefcc496d7948e6902e5c854071ee1f",
+    "navigationGoals": null
+}

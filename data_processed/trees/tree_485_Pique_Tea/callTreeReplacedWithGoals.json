@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Pique Tea in San Francisco, where we brew our premium teas to support gut health, boost energy, and reduce stress.",
+            "fileID": "24d5d2864d8148f48206ec7cd35b98af"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For product information and to place an order, press 1.",
+                "fileID": "e9651df496f740f0bda39fe2ada8f5f6",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To place a new tea order, press 1.",
+                            "fileID": "64898ef0b1e4491e897aa816f1127fb4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our ordering team.",
+                                        "fileID": "672cf021a5d04eb1924a932d69e2c7d7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5a55466b7de34f69ac515e35f43824b6",
+                                "navigationGoals": [
+                                    "Place a new 30-day supply order for the morning focus tea.",
+                                    "Place a new order for a stress-relief tea blend.",
+                                    "Configure a new subscription order for the premium gut-health tea using my promo code",
+                                    "I need help placing a new Pique Tea order.",
+                                    "Place a new order for Pique Tea bags to support my study routine."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing order, press 2.",
+                            "fileID": "9b2727d282aa4943976ec332f1d30037",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your order status.",
+                                        "fileID": "4ba58cd3fb3247bb9d1b9929a80f2739"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ca7b6327316d4a2ca9a5110c656c5f18",
+                                "navigationGoals": [
+                                    "Check when my recent tea subscription will arrive.",
+                                    "Check the shipping status of my recent tea order.",
+                                    "Retrieve the tracking number and estimated delivery ETA for my existing tea order",
+                                    "I\u2019d like to check the delivery status of my existing tea order.",
+                                    "Check the delivery status of my existing Pique Tea order."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b5f3b1bfed584a82ae411760ab620cc4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer care and support, press 2.",
+                "fileID": "a626d4dca50c4c42a53ec0ce03f80c00",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For returns or refunds, press 1.",
+                            "fileID": "880f18f3e6ca4ecab85d78a43b89ee11",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our returns and refunds department.",
+                                        "fileID": "aa2aefdc889446a2977cf09a80bbbc90"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d9262b0375fa48cb95654ca4dad74769",
+                                "navigationGoals": [
+                                    "Arrange a refund for a tea order that arrived with damaged packaging.",
+                                    "Request a refund for a tea order that didn\u2019t agree with me.",
+                                    "Initiate an RMA for a defective tea shipment and request a refund",
+                                    "I want to return my tea purchase and request a refund.",
+                                    "Request a refund for my recent tea purchase."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a tea wellness specialist, press 2.",
+                            "fileID": "d531175c47ba46bea8ffebb0dcdc63b3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a tea wellness specialist.",
+                                        "fileID": "f772301b32a24674b5580192806d27a7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "290f55ee819345c9b4a27ac396a970e9",
+                                "navigationGoals": [
+                                    "Consult with a tea wellness specialist about the best blend to reduce stress.",
+                                    "Speak with a wellness specialist about teas for stress and sleep.",
+                                    "Consult on optimal infusion parameters and bioavailability for the L-theanine blend",
+                                    "I need to speak with a tea wellness specialist for personalized advice.",
+                                    "Speak with a tea wellness specialist about choosing a blend to boost focus during experiments."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cb3faacd154c4d0d95c4e3d9c08d47a8",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "293775be027c4a90aff3a19556ef1eca",
+        "navigationGoals": null
+    },
+    "id": "39e6c1c7e7f3456ead4b1399124dc777",
+    "navigationGoals": null
+}

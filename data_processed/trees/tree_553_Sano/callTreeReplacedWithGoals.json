@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Sano, based in San Francisco, uncovering the unique biometric information that\u2019s vital to understanding your health.",
+            "fileID": "ec39296363e043099bd73ab49a0b6647"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For personal health insights and appointments, press 1.",
+                "fileID": "855dc086d4e04425b23cb5b640b3135a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a health screening appointment, press 1.",
+                            "fileID": "f1adcfe6cd73441fb439e144fed7acd4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our appointment scheduling team.",
+                                        "fileID": "657c64afeaae4a2987fcc92006f359d2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d13c105ab2564a8a8996ac729b06086c",
+                                "navigationGoals": [
+                                    "I need to book a routine health screening appointment.",
+                                    "I\u2019d like to book a biometric screening appointment to review my health metrics.",
+                                    "I'd like to book a comprehensive biometric panel screening appointment.",
+                                    "I need help booking a routine health check-up appointment.",
+                                    "I\u2019d like to set up a biometric health screening appointment at Sano next week."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To hear your biometric test results, press 2.",
+                            "fileID": "23efaf70810a4aa9b989f373c93b99ae",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your biometric test results.",
+                                        "fileID": "261291300067484cb2c34a1bda7f791f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "79e352737855494f88d9b584776a525a",
+                                "navigationGoals": [
+                                    "I want to access my recent biometric test results.",
+                                    "I need to retrieve my recent biometric test results.",
+                                    "I need to retrieve and analyze my latest biometric metrics report.",
+                                    "I\u2019d like to hear my recent biometric test results.",
+                                    "I need to retrieve and review my latest biometric test results from Sano."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9260b24b919d4bd38ef55452d19f65de",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For industrial and enterprise solutions, press 2.",
+                "fileID": "d38502afc3984aafb5a174ce67dc6123",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss partnership opportunities and bulk solutions, press 1.",
+                            "fileID": "1ef6e251c3564692ba559ea20a0f38b9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our enterprise solutions specialist.",
+                                        "fileID": "e43c0b9a6fc5438c895cd3fa298306e5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "d7c2925e52b14a5c93a92f7ab7101dab",
+                                "navigationGoals": [
+                                    "I'm looking to discuss bulk biometric testing solutions for my business.",
+                                    "I\u2019m organizing a veteran support program and want to discuss bulk biometric solutions.",
+                                    "I'm interested in enterprise-grade bulk assay partnerships and API integration options.",
+                                    "I\u2019m calling to discuss bulk health screening solutions for our senior center.",
+                                    "I want to discuss bulk Sano sensor solutions for our university research lab partnership."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with technical support, press 2.",
+                            "fileID": "95072de231a24405a3dd7157e7d9e33f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with technical support.",
+                                        "fileID": "aee90cc52ba142ec846f174d6b784b50"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "324fb147b2394ca386ed2af50896d3cd",
+                                "navigationGoals": [
+                                    "I need technical support for my enterprise integration.",
+                                    "I\u2019m having trouble accessing the enterprise portal and need technical support.",
+                                    "I require technical support for our enterprise data ingestion and API setup.",
+                                    "I need assistance troubleshooting my health monitoring device.",
+                                    "I\u2019m seeking technical support for integrating Sano\u2019s sensors into our lab\u2019s data acquisition software."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "750c4916602d4342bb5981b677067517",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "86d8c820244946bdae4d5c5e61e11747",
+        "navigationGoals": null
+    },
+    "id": "badc12d893f54c4d9723e328764a34eb",
+    "navigationGoals": null
+}

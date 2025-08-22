@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Twitter, the global San Francisco-based social networking platform.",
+            "fileID": "201feb54cb324257a5ba26aea6917489"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For account support, press 1.",
+                "fileID": "4cc1a2dfb9e7419383b46eb71ac8f8d8",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help resetting your password, press 1.",
+                            "fileID": "55a13ab37e6049d18d09ef6e55eab7f0",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a password support specialist.",
+                                        "fileID": "f6c5c72077d94d05a5dbc1cbc28ee1c4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1ddb4385e1cc4807b5d93711cdb50b4b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For other technical issues, press 2.",
+                            "fileID": "da05dd7b844d4fd9a2f296215da003d8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our technical support team.",
+                                        "fileID": "028fee6411354c0bae1e151286d12e53"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "85b00946a96f46348a6d48080121a3e1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8a7d720b4ace48a7b8a12a198b0d40fd",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To learn about our advertising solutions, press 2.",
+                "fileID": "b1cb0d2b850c43cf8c33f0c21804bd76",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To purchase advertising or promote your brand, press 1.",
+                            "fileID": "2e597ccc2f34413aa4c5bfc8c44c9ab7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with an advertising sales specialist.",
+                                        "fileID": "6e630ad244a24d009f223de18fb11275"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e72b5351e9044cba8c1128110bf1aeb2",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For campaign performance analytics, press 2.",
+                            "fileID": "63012ff6ee8c4ee1abe5887e007e1f41",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a campaign analytics expert.",
+                                        "fileID": "0e0bcb810a69423384a9b0a28d40ce7e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "abc7fee4de274a438b9953f5b018eb6b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "39b86de3460c4122aa68a8bbf7b354c1",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8250754b28264a3cba97cacd87683c79",
+        "navigationGoals": null
+    },
+    "id": "9e62f612992040c09e64a73dfcc8cad3",
+    "navigationGoals": null
+}

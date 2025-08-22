@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Talkable, the San Francisco-based referral marketing solution for e-commerce businesses with over fifty thousand monthly website views.",
+            "fileID": "c0890e29b9374db9bff3a24f773428d1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For product information and demos, press 1.",
+                "fileID": "57f93d1c7604403ab116b83c75f33d8f",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a free demo with a Talkable specialist, press 1.",
+                            "fileID": "1f62232928804ebe80832a781b7cb4d4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a Talkable specialist to schedule your demo.",
+                                        "fileID": "e9a74a04724d4cdcab3566503d2328d7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "64340e1a3cb040828a4cafe56dd2b9e2",
+                                "navigationGoals": [
+                                    "I need to schedule a live demo of Talkable\u2019s platform.",
+                                    "Schedule a free demo to see how Talkable\u2019s referral system can help my veteran-owned online store",
+                                    "I\u2019d like to schedule a hands-on demo with a specialist to explore your referral API integration.",
+                                    "I need help scheduling a free demo of your referral marketing tool.",
+                                    "I\u2019d like to schedule a demo to evaluate Talkable\u2019s referral features for my university lab\u2019s online store."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing details and plan options, press 2.",
+                            "fileID": "94a7d0cf4e064923a858dd8424e8445f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team for pricing details and plan options.",
+                                        "fileID": "82b72ec0bdcd48f0967d0650ab607969"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "56f5457805ac453f909e688528f340b6",
+                                "navigationGoals": [
+                                    "I want to get a quick breakdown of your pricing plans.",
+                                    "Get a breakdown of pricing plans and costs for a small veteran-run e-commerce business",
+                                    "I need a detailed breakdown of your pricing tiers and API usage costs.",
+                                    "I\u2019d like information on your pricing plans and subscription costs.",
+                                    "I need detailed pricing information and plan options that suit a student-run e-commerce project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5744cbfb70904e5db5ff44d8c247ad3d",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For support and account management, press 2.",
+                "fileID": "97f22f3cb63249008af8f2efdaaac201",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "017918ab6e79474c8e77246f6da4245b",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "85f8b41c57b24bd69006e6b6692a4f6b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f7ea781f1a0c4d828fb03cd11c04e02f",
+                                "navigationGoals": [
+                                    "I need help fixing a technical issue with my referral dashboard.",
+                                    "Resolve a technical glitch integrating Talkable with my Shopify storefront",
+                                    "I\u2019m encountering authentication errors with the Talkable SDK and need technical assistance troubleshooting.",
+                                    "I\u2019m having technical issues and need assistance with the platform.",
+                                    "I\u2019m having trouble integrating the referral tracking code on my site and need technical assistance."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "9b5e1f3e8ead4aeea0aa9cd709b32d3c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account management team.",
+                                        "fileID": "11781ef782d2443c9a6f7d92afa9ffb4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "17561043bf854b21af6990fc82471a58",
+                                "navigationGoals": [
+                                    "I need to review my latest invoice and update my payment details.",
+                                    "Ask about unexpected charges on my Talkable account invoice",
+                                    "I need an itemized invoice for last month\u2019s referral transactions and to update my billing details.",
+                                    "I have a question about my bill and need help with my account charges.",
+                                    "I have a question about a recent invoice and need clarification on my account billing."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "095b1a1ce7cc41eaa011c585debaa0b3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "56fa73f21b1f47f094a58cc2eed83e4e",
+        "navigationGoals": null
+    },
+    "id": "b8f116be09ec4304801891969a8ef8e7",
+    "navigationGoals": null
+}

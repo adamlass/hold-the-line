@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to App Annie in San Francisco, the standard in app analytics and market data.",
+            "fileID": "3198d1d158b948669dbb9d37ce930644"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for sales and account information.",
+                "fileID": "ac5647079d36407da47e5797abafd905",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for demo requests and pricing.",
+                            "fileID": "b375818d01b74baa80187f3c5f8f5d04",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for demo requests and pricing.",
+                                        "fileID": "de3eabdad8924c31b7bc22a65964d24b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "925fef213e8c4e108fc3586f9d04e24d",
+                                "navigationGoals": [
+                                    "Arrange a demo of the platform and discuss pricing plans",
+                                    "Schedule a demo of App Annie\u2019s analytics platform for my veteran-led app and get pricing details.",
+                                    "Schedule an in-depth demo of the analytics platform and get detailed pricing tiers and feature breakdown.",
+                                    "I need help scheduling a demo and finding out how much it costs.",
+                                    "I\u2019d like an academic demo and pricing estimate for using App Annie in my research data analysis."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for billing and subscription questions.",
+                            "fileID": "7b674a2a04da4ee8a62ccf74c3a59890",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to the billing team for subscription inquiries.",
+                                        "fileID": "8833c9a26db0480b955d21b69a3c6efc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1f735e10c0ae4459bd88b6c84d9338ac",
+                                "navigationGoals": [
+                                    "Resolve a question about my subscription billing and charges",
+                                    "Inquire about my current subscription invoice and any available veteran discount.",
+                                    "Upgrade my enterprise subscription and clarify the next billing cycle dates and overage fees.",
+                                    "I need help understanding my subscription charges and renewing my plan.",
+                                    "I need information on student subscription billing options and how to pay."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "7ce0b740e48d4175abc897e4685b26b4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for technical support and troubleshooting.",
+                "fileID": "53eae1c8c21e42e6afbcb44718d964a6",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for reporting service outages or errors.",
+                            "fileID": "ea2df4bd1c3e41399e4be010c7a0e927",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical team regarding service outages.",
+                                        "fileID": "f1d0f773b44448c89701417ae0778939"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "94d7c65732c84b938e31c0ca3630dcdf",
+                                "navigationGoals": [
+                                    "Report a current service outage affecting my analytics dashboard",
+                                    "Report that I\u2019m seeing an outage when trying to access my analytics dashboard.",
+                                    "Verify the current service outage status for the analytics API and request an estimated resolution timeline.",
+                                    "I need to report that my app appears to be down and get assistance restoring service.",
+                                    "I\u2019m encountering errors fetching analytics data\u2014are there any current service outages?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 for API integration and developer support.",
+                            "fileID": "9e8d963b0eb944b287194efb9b00bc79",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our developers for API integration support.",
+                                        "fileID": "dda888a91a284efa86dc3a810d894d74"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "aa6f55dbf9eb493aabb283b0b67e2122",
+                                "navigationGoals": [
+                                    "Get help with integrating App Annie\u2019s API into our systems",
+                                    "Get help integrating App Annie\u2019s API into my custom analytics system.",
+                                    "Discuss integrating App Annie\u2019s API into our data pipeline and troubleshoot OAuth authentication errors.",
+                                    "I need help setting up the API integration for my app.",
+                                    "I need assistance integrating the App Annie API into my Python scripts for my physics project."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a61b71e1d087420489818d75272ef6be",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "654e5f485bae4eebb1e45c3136c993a1",
+        "navigationGoals": null
+    },
+    "id": "1df30f8182d34578866ab1e40746d3b0",
+    "navigationGoals": null
+}

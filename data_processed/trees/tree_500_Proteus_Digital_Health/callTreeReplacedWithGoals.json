@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Proteus Digital Health, pioneering the Digital Medicines revolution for Healthcare for Everyone, Everywhere.",
+            "fileID": "d081e3481c954cc2a95966620251f85b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For career opportunities in engineering, science, design, or clinical roles, press 1.",
+                "fileID": "0a7eab440a9e494cac84d507fdb0cd1a",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To explore current job openings and internships, press 1.",
+                            "fileID": "8ccb06d29e004b5f90fb5fceca3c3ca7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our careers team.",
+                                        "fileID": "e9c5ced642564b599cdcda870ae75840"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "83d6c2c5acfb4937b00f28aede5adf5d",
+                                "navigationGoals": [
+                                    "Browse current engineering and internship job openings",
+                                    "I\u2019m transitioning from the military and want information on current engineering or clinical internship opportunities.",
+                                    "I\u2019d like to browse your current engineering and design internships and job openings in digital medicine R&D.",
+                                    "I need to find out what internships and job openings are available",
+                                    "I'd like to review current internship openings in digital medicine research."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To check the status of an application you've submitted, press 2.",
+                            "fileID": "767594f84c754346898ad16dd66ef97d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your application status.",
+                                        "fileID": "769488eba9284b7891e85bbebe0d9154"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f38dbd4c0b854cddadebe3efee63ad02",
+                                "navigationGoals": [
+                                    "Check the status of my submitted job application",
+                                    "I submitted an application for a veteran recruitment position and need an update on its status.",
+                                    "I need an update on the status of my application for the software engineering role I submitted.",
+                                    "I\u2019m calling to get an update on the job application I submitted",
+                                    "I want to check the status of my engineering internship application."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4d9c77281af6410f8cba4af6381556ac",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For product support and inquiries about our digital medicine solutions, press 2.",
+                "fileID": "afb4eb4025654824a1cffeb8a3f0e34d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical assistance with your digital health platform, press 1.",
+                            "fileID": "781b84aaaa8e4faa9cb649cdeb2c0339",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with technical support.",
+                                        "fileID": "0bbc4d5a6c7d4717994fc0693880c55d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0ba1c95cf1ce4bf697df2696e52d3d6f",
+                                "navigationGoals": [
+                                    "Get technical support for my Proteus digital health platform",
+                                    "I\u2019m having trouble logging into the Proteus digital health platform and need technical assistance.",
+                                    "I\u2019m experiencing API integration errors with your digital health platform and need technical support.",
+                                    "I need help troubleshooting my digital health platform",
+                                    "I need help troubleshooting my digital health sensor connection."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with our clinical specialists about medical inquiries, press 2.",
+                            "fileID": "f973c54764574a1286a25f00c5c44a90",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our clinical team.",
+                                        "fileID": "55ca9dd30c8944399d4f3de708e4f9c6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3fc4f55535d2470b803458463f56d939",
+                                "navigationGoals": [
+                                    "Speak with a clinical specialist about my digital medicine therapy",
+                                    "I have questions about using the digital medicine patch and want to speak with a clinical specialist.",
+                                    "I want to discuss my medication adherence analytics and clinical implications with a specialist.",
+                                    "I\u2019d like to talk to a clinician about my medication monitoring results",
+                                    "I have medical questions about the data metrics from the digital medicine sensor."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4dc24866824c44f6b096c95c1d480766",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e39207569ee94b908f89ae3bc39b2123",
+        "navigationGoals": null
+    },
+    "id": "0f1e5ec817ac4ddfa2239adef1e65091",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to npm Inc in the East Bay, the world\u2019s largest JavaScript package registry.",
+            "fileID": "6fbcbe1ec99549bd82920a72bce41e6c"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For help finding and using packages, press '1'.",
+                "fileID": "cd597f981c5646859b7a1cc4f30b4b55",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For assistance discovering packages, press '1'.",
+                            "fileID": "59cd3e54b2674f2eb0d9e6bc005e7611",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a package discovery specialist.",
+                                        "fileID": "1cb5a15d0b9446a5b5644d15b6650b78"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "00c3149885cd47b7823df597b0122f78",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For help publishing and managing your own package, press '2'.",
+                            "fileID": "9ed285656134437cb509c1aa7bfac260",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a publishing support representative.",
+                                        "fileID": "5e4fd19431994568a20e25eec91ea370"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "27603486137d4b12b6ce15e359aed973",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "efb0ae1e920e4f43aa7f8b2d103bb2d4",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For enterprise solutions and partnership inquiries, press '2'.",
+                "fileID": "ec7a1132aa944a50aa5ca87804e7e022",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on enterprise licensing and dedicated support, press '1'.",
+                            "fileID": "2e278d1b7bd34be2a68ae9ee19c31f18",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our enterprise solutions team.",
+                                        "fileID": "04d4ed37422e4ea99d83c0fa431a42d6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5c675696eedd4f01ac1511d4ba2dd3ed",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For our non-profit and open source program inquiries, press '2'.",
+                            "fileID": "16c1e5482c09494ebafcd02ac26376b2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our non-profit partnerships coordinator.",
+                                        "fileID": "d0145ec6f6c34f5689c82bfc4c9cead8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2b92b1db96cd40c2898e6cfcbe40dc6f",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c2cf9c2d1657437a8a23c3d33fa5ab20",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "96fb82c35984446e9385ba7858313425",
+        "navigationGoals": null
+    },
+    "id": "97d6fd26ef8c4269a26f9c1b6f085391",
+    "navigationGoals": null
+}

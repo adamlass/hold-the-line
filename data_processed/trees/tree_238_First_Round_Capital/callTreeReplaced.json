@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to First Round Capital, San Francisco's premier seed-stage venture capital firm.",
+            "fileID": "830f7bc378054ae293f416963b5ff7a3"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 if you are an entrepreneur interested in discussing seed-stage funding.",
+                "fileID": "c229e0f098c94dc4ac9fecd0413425b1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 to submit a new pitch deck to our investment team.",
+                            "fileID": "aab7b73bcf76435985da9a7635435e31",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our investment review team.",
+                                        "fileID": "9aa59dee5cf841c88fa2ea26a7908c2d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3a47c0d3ca4e43df98c6a51be1901ce5",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 to check the status of your funding application.",
+                            "fileID": "c92415cd487e41bfb8d032ea475205f7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we check the status of your application, one moment please.",
+                                        "fileID": "6c538caa459b4ce888ef830c05097322"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f642539b960646ad932f13448f696016",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e0de6bf009c642fcbcaeca167136004e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 if you are an existing portfolio founder or investor looking for support.",
+                "fileID": "375d969143e046008881c4378d82f172",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for portfolio company support and resources.",
+                            "fileID": "38a18535bee24c69b500acb1d8852b03",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold for portfolio support; a specialist will be with you shortly.",
+                                        "fileID": "cdc14b2cd9dd46898f1249ce82e58e55"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "ca6cf72a895a4282a2fe24d44557328c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press 2 to connect with our investor relations team.",
+                            "fileID": "d321095d2a0d44f3b56b4eb11da60e26",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to investor relations.",
+                                        "fileID": "36a565b3359c49f5889cc74a01502134"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6e928a0950be4c1e984540cb0c113648",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "24afcdbd671541dc9fd0e581e59bcc84",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "ef574409e72947b7a332d2aad85518e8",
+        "navigationGoals": null
+    },
+    "id": "b77e9e344330447eb4f4f9ee87a849a2",
+    "navigationGoals": null
+}

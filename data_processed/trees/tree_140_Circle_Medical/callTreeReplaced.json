@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Circle Medical in San Francisco, where we support your wellness exams, illness care, chronic condition management, mental health, prescriptions, and more.",
+            "fileID": "c7c91cbc98e44ea3b269cbc7bf26497a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To schedule or manage appointments, press 1.",
+                "fileID": "2407e5ef72cc4fccbc0dc5782c49129c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For wellness exams and preventive care visits, press 1.",
+                            "fileID": "3e2fd886c7084878ae55b49e0e7aea01",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our scheduling team for wellness and preventive care visits.",
+                                        "fileID": "372c99641f21491b931f65f38acc9a41"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "adc4d642fde14eb3a3850c2a698012a7",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For illness or injury consultations, press 2.",
+                            "fileID": "1e6e23a964e14879b1b48cbaec1e8d7c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to a care provider for illness and injury consultations.",
+                                        "fileID": "cfc9003a24e44542a133ba15e002d793"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9600907b02ca4973b0fb6d31098768f3",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6d1f6ed0c2a44c5bbaf1db491579942e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For prescription refills and pharmacy services, billing inquiries, or other support, press 2.",
+                "fileID": "4dff9b1025934588b49736b0bc356d2d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To request prescription refills or prior authorizations, press 1.",
+                            "fileID": "5eb3cac83910415cbeec28e6db3863ec",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pharmacy services department for prescription refills.",
+                                        "fileID": "103d78c8b097441f97c9c79bbda5fa3d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e2bee56e66ca4b749cdbe804be98782b",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing questions and insurance assistance, press 2.",
+                            "fileID": "25564ee34e314752a2229bd7ced779a9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and insurance specialists.",
+                                        "fileID": "e79da4f618c9445f9652564194fc33ed"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7682227a7138418c972d916bb2430431",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "551b9c20903f4c61bd88211397522810",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e160f351ecad4d74aea9ffbf7b460fc1",
+        "navigationGoals": null
+    },
+    "id": "e42cbbdbf66947dab155a5adb3bff2d6",
+    "navigationGoals": null
+}

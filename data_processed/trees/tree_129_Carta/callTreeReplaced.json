@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Carta, the equity management platform trusted by thousands of founders, investors, and employees.",
+            "fileID": "3ad90b2ca64c45459ed36d3a2d9bcfeb"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press '1' for Customer Support, including cap table management and equity questions.",
+                "fileID": "a3477ee508b44048babfde51ca7b209b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press '1' for Cap Table and Ownership Inquiries.",
+                            "fileID": "46ba144c331c42d49b523fa13c269c3d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All of our equity specialists are currently assisting other customers. Please hold and we will connect you as soon as possible.",
+                                        "fileID": "aaca5493d10a423b8ef233d649a126d1"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "56e3713d362d48f98d5e4db40acb3185",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press '2' for Tax Forms and Compliance Support.",
+                            "fileID": "656c664b0f6b4bc9ac590ba6b8bd6fdc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "You have reached our tax and compliance team. Please hold the line and a specialist will be with you shortly.",
+                                        "fileID": "8b79feb73b6445f988f017dd09f96e8b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0f7abb744eba4b4b8a974b90fdc0989c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "436dc545f7b2470482601f0a9cb3f7ea",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press '2' for Sales and New Account Setup.",
+                "fileID": "3261911fec7a4991b81ad92d13b13967",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press '1' for Pricing and Plan Details.",
+                            "fileID": "873b294887e94b65b372794e872f439d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to a sales representative to discuss plan options and pricing.",
+                                        "fileID": "4f9dc02f89a44107aede8c69c1064251"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "34b3d8df85524b10ab2019a045abe228",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "Press '2' for Onboarding and Setup Guidance.",
+                            "fileID": "d9b9dca39f61472caf74c9b05c473511",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "An onboarding specialist will be with you shortly to help set up your Carta account. Thank you for your patience.",
+                                        "fileID": "995d02710778459ab70df7154fa9e2dd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8f781df392af4695995865f41e2b1a14",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8cc3b4789b8940beb880882ecb29e062",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "0c46668c0e544d76b05cbb4cdefba159",
+        "navigationGoals": null
+    },
+    "id": "5be873a0063d48e19db46dbf38c3e78c",
+    "navigationGoals": null
+}

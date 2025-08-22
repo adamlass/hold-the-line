@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Zenput in San Francisco, your partner in optimizing restaurant and retail store operations.",
+            "fileID": "fbe9730e39be4967afd4bfac7f4fd579"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an existing Zenput customer seeking support, press 1.",
+                "fileID": "24bed39c8d88484b88cbcb8bd3493ae5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with the Zenput platform, press 1.",
+                            "fileID": "1222b2598b3c4783ada37cbfc709f2dc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "d07593c732cb4596ad17994aac145197"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f52dab11822644bb934f64f85f235737",
+                                "navigationGoals": [
+                                    "I need help troubleshooting an error when syncing data in Zenput",
+                                    "I need assistance logging into my Zenput account to submit today's operational checklists.",
+                                    "Troubleshoot why the Task Automation API is returning 500 errors during data validation",
+                                    "I need help troubleshooting an error in the Zenput platform.",
+                                    "I\u2019m experiencing a synchronization error when uploading inspection reports and need technical assistance."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "13ba9595a0604909831d8e3777192be1",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing and account team.",
+                                        "fileID": "23df5e70bbac4fb6bc58cad58796e199"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "267af7a3559542afbe457e5c476e12a6",
+                                "navigationGoals": [
+                                    "I need to update our company's billing information and review recent charges",
+                                    "I want to update my billing details and review my latest invoice.",
+                                    "Update our enterprise subscription payment method and obtain the latest invoice for Q2",
+                                    "I need assistance understanding my recent bill and updating my payment information.",
+                                    "I have a question about a recent invoice and need clarification on a specific billing charge."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "52e8d2bdbe2c4f3ab45248f1dd8f44b5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are interested in our solutions or want to schedule a demo, press 2.",
+                "fileID": "cbd66aa5ab644362b5931b1798ed5b2e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a demo of Zenput's store operations platform, press 1.",
+                            "fileID": "5012050eb17d44569ba0f9d824c9497e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our product specialists for a demo.",
+                                        "fileID": "d58ceafea71d48938a054f6399808eab"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c9ab68858e9f454ca1eff63d84e73c87",
+                                "navigationGoals": [
+                                    "I'd like to schedule a quick demo of the Zenput store operations platform",
+                                    "I\u2019m looking to schedule a demo of Zenput's platform for my store.",
+                                    "Schedule a demo of Zenput\u2019s operations dashboard, focusing on workflow automation and IoT sensor integrations",
+                                    "I'd like to schedule a demo of your store operations platform to see how it works.",
+                                    "I would like to schedule a product demo to evaluate Zenput\u2019s features for our campus dining operations."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For new sales or general information, press 2.",
+                            "fileID": "9d52e98dbe1c45faa34d8f6c9f94a35c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our sales team.",
+                                        "fileID": "2c3c186bcb464d87a9c59d57d0a4f0ff"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "37022fb9a3774a32b514f617f2690a1d",
+                                "navigationGoals": [
+                                    "I'd like to get pricing and feature details for Zenput's solutions",
+                                    "I need general pricing and feature information for expanding Zenput to multiple locations.",
+                                    "Get pricing and API documentation for integrating Zenput with our inventory management system",
+                                    "I'm interested in your service and want to learn about pricing and features.",
+                                    "I\u2019m exploring Zenput\u2019s pricing plans and feature offerings before making a purchase decision."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "453ffc4811b34a8f9df54a16a25e39c0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "6b2f2c9073d2498e8ff555972c31c0ed",
+        "navigationGoals": null
+    },
+    "id": "b4de822e951b4dc392f10d367f4f1ab2",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Model N on the Peninsula, where our cloud-based revenue management solutions drive top-line growth for high tech and life sciences companies.",
+            "fileID": "13407c073f9b47f780c47758c97600d1"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales or product information, press 1.",
+                "fileID": "311b2015617044a9aa19af98561dfb45",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative about high-tech revenue solutions, press 1.",
+                            "fileID": "6d32308cfae64088b65ae45fa4355f20",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative specialized in high-tech solutions.",
+                                        "fileID": "e1dd7ab6270943de9ee62b58e0b51ab3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9c616f37085144e29142b5c3613c9fd7",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To request a product demo for life sciences revenue management, press 2.",
+                            "fileID": "291b31a85ebb46f98901aede195c9123",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our life sciences product demonstration team.",
+                                        "fileID": "1baad3dcfe8c4ee39893367c497cb33d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "be92b89f3b284076992a60bbadbe098d",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9dd1a418814941c5ba125d44dad7d16e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support or account inquiries, press 2.",
+                "fileID": "964cc964e3744fed87ebb0e9466ed746",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For billing and account management inquiries, press 1.",
+                            "fileID": "8ca7c1fcd3cc4a80a7c70de42563b578",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our account management and billing team.",
+                                        "fileID": "6077f1cdbacd43a080fa9a8e36b60d06"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "111e39035d154f008ed10c0cdefa3d9d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support or troubleshooting, press 2.",
+                            "fileID": "fa3912a6db734719b701755824b01e64",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "3656ab5c7a2446dc95d2bdfe6ec13417"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e9acf4502814428abb476f5b8207d99a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b8b5783e91c44a22ade9abb93798ab44",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "118eced219f44dad8bcb8b3cfd37e3ac",
+        "navigationGoals": null
+    },
+    "id": "e5e005f09f11450a9c682a21688bb324",
+    "navigationGoals": null
+}

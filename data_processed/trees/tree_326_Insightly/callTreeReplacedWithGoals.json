@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Insightly, the leading customer relationship platform based in San Francisco.",
+            "fileID": "487cc1029ef54b24882d1b62a61480a9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To speak with our Sales team, press 1.",
+                "fileID": "64cb3a761ce041559ebcdbb1c65ed624",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For product information and demonstrations, press 1.",
+                            "fileID": "5c1c0c917a2b4b4eb92654dd80eed969",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Sales representative for product information.",
+                                        "fileID": "921165428ac040879a0e443346868a64"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "886e4e4450af4155af2bc99b348648f0",
+                                "navigationGoals": [
+                                    "Schedule a quick demo of Insightly\u2019s CRM features",
+                                    "Get a demo of Insightly to see how it can manage case workflows for my veteran support nonprofit.",
+                                    "Request a walkthrough of Insightly's CRM API capabilities and upcoming feature roadmap",
+                                    "I\u2019d like a demo of how to use your software.",
+                                    "I\u2019d like a walkthrough of Insightly\u2019s project-tracking features for organizing my physics lab work."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing, licensing, and subscription options, press 2.",
+                            "fileID": "ccd5b803818c4b7b89a181d4f6add085",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Sales representative for pricing details.",
+                                        "fileID": "1bd5a95afca74e518a3c845696e2f9f9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "44f6a457221e4ae7ae2e32b15e8ac99b",
+                                "navigationGoals": [
+                                    "Get details on pricing tiers and subscription options",
+                                    "Ask about subscription plans and nonprofit discounts for my veterans organization.",
+                                    "Inquire about subscription tiers, license limits, and billing cycle options",
+                                    "I need to know the cost and details of your subscription plans.",
+                                    "Can you detail the cost and academic licensing options for a student subscription?"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4c3ff30472cb4120ad798fcb409f04a7",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To reach Customer Support, press 2.",
+                "fileID": "288ff15df996413dbb70b73e974a976e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "83d4d2c911f34ee888b7490eac6e7853",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Technical Support.",
+                                        "fileID": "aa490d722ab046e0987fb06f50c5bcba"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8fb38fb773384f33bb1ffa07084565c6",
+                                "navigationGoals": [
+                                    "Troubleshoot a technical issue I\u2019m experiencing in Insightly",
+                                    "Troubleshoot why my contact list isn\u2019t syncing with Insightly.",
+                                    "Troubleshoot a 401 authentication error in my Insightly API integration",
+                                    "I can\u2019t log in to my account and need technical assistance.",
+                                    "I need help troubleshooting Insightly\u2019s API integration with my data analysis tools."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "35bc9daae4d144838cd63b18933de9a9",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our Billing department.",
+                                        "fileID": "5eed08150fd0439091e7bbee9e96f63e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "daff6ac61909439484de70dbcd0ffcdf",
+                                "navigationGoals": [
+                                    "Check my latest invoice and payment status",
+                                    "Clarify my recent invoice charges and update my payment method.",
+                                    "Clarify invoice line-item charges and update my billing account details",
+                                    "I need help understanding my latest bill and updating my payment information.",
+                                    "I\u2019d like to update my billing information and review my latest subscription invoice."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3d6a74dcb6c3414998f1cd94704311ed",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "73ddf022fe014f1c81f1980894e09fc8",
+        "navigationGoals": null
+    },
+    "id": "40971f2c530a40b399aed9b842ee8edb",
+    "navigationGoals": null
+}

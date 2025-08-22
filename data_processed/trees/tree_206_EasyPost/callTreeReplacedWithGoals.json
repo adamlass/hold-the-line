@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling EasyPost, the San Francisco-based API that simplifies shipping integration for businesses.",
+            "fileID": "290c9bafbf8f4fd1bc8d0ff7183c9f2b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales inquiries and new account setup, press 1.",
+                "fileID": "2bfaf7ce591949bfab358a3a54229ba1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on integrating EasyPost into your application, press 1.",
+                            "fileID": "de7672ced7bd4020a5b17d75fa84848a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a sales specialist for integration assistance.",
+                                        "fileID": "cf3c1c34a115489d8a6fe2a75774af3a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c630e38f19fa450e9f92413800d752e5",
+                                "navigationGoals": [
+                                    "Set up a new business account and discuss API integration options",
+                                    "I\u2019d like to open a new EasyPost account and get help integrating the API for my veteran care-package shipments.",
+                                    "I want to set up a new EasyPost account and get guidance on integrating the API into our platform.",
+                                    "I need someone to help me set up the shipping API on my website.",
+                                    "I\u2019d like to open a new EasyPost developer account and walk through integrating the API with my project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For questions about billing, invoices, or pricing plans, press 2.",
+                            "fileID": "f5f469a4e5c349d1bb50db8d23017a8f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please while we connect you to our billing department.",
+                                        "fileID": "dff77c9b33874e0ca5569733b17fbe3f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a31e96c4c3ae40448b45a07a18ca6ca9",
+                                "navigationGoals": [
+                                    "Get a copy of my most recent invoice and confirm billing charges",
+                                    "I need details on my billing, invoices, and available nonprofit or veteran discounts.",
+                                    "I need to retrieve my latest invoice and clarify the subscription pricing tiers.",
+                                    "I need help understanding and paying my latest invoice.",
+                                    "I need to clarify the charges on my recent invoice and adjust my billing plan."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "3c75842c4e3a463493cd3b73decb62cd",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and shipment tracking, press 2.",
+                "fileID": "7208315523434723a658b028fdb26c83",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with API integration or carrier connections, press 1.",
+                            "fileID": "f3fc585d01b743afb23974f311572535",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a technical support agent.",
+                                        "fileID": "5d0cc9b913a2400cb17ee4e83e4e6562"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "58479dc5e58f4d9eba8c10a903624189",
+                                "navigationGoals": [
+                                    "Troubleshoot my API integration with carrier connections",
+                                    "I\u2019m having trouble connecting my carrier account in the API\u2014can you help me troubleshoot?",
+                                    "I\u2019m experiencing errors connecting carrier accounts via the API and need technical troubleshooting.",
+                                    "I\u2019m having trouble connecting carriers through your API and need assistance.",
+                                    "I\u2019m encountering authentication errors when connecting carriers via the API\u2014can you help me troubleshoot?"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To track a package or get real-time shipment updates, press 2.",
+                            "fileID": "01f8af5d168b425fb61bda43c88b87dc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your tracking information.",
+                                        "fileID": "122a549691c4448ea5355b7fdaee76ee"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8120d0f6ed3b40d28674ab945a4608d9",
+                                "navigationGoals": [
+                                    "Check the real-time status of my shipment using its tracking number",
+                                    "I\u2019d like to check the real-time tracking status of a package I sent last week.",
+                                    "I need real-time shipment status for my package using its tracking code.",
+                                    "I\u2019d like an update on where my package is right now.",
+                                    "I\u2019d like to get live tracking updates on a package I\u2019m expecting."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4bdd5a8cdf8248a8a1e28c708ccfcbcc",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d12fafb1220c4aa1bd05c11946a59e11",
+        "navigationGoals": null
+    },
+    "id": "d73ad6a3c0564a08b3e5a7467fb02e8e",
+    "navigationGoals": null
+}

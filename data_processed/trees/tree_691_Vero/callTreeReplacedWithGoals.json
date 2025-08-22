@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Vero, where engineering, product, and marketing teams craft data-driven communications for personalized customer experiences.",
+            "fileID": "20ed86f93dae453381b454b0e2efb59f"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "Press 1 for sales and product inquiries.",
+                "fileID": "fe555b36e06a40489831a1d561227f7c",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for a personalized product demo.",
+                            "fileID": "62ed2ff84b53456c95276472e04325ad",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a product specialist.",
+                                        "fileID": "71035e95095046ffae667ee39c6aa7b2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "09af3420c62b40f1aab393b68d467d1b",
+                                "navigationGoals": [
+                                    "I need a personalized demo to see how Vero can streamline our customer messaging workflows.",
+                                    "I'd like a product demo focused on veteran outreach use cases.",
+                                    "I\u2019d like a live demo of Vero\u2019s API-driven personalization and segmentation features.",
+                                    "I\u2019d like someone to show me how Vero works with a live walkthrough of its main features.",
+                                    "I\u2019d like a live walkthrough of Vero\u2019s personalized messaging features to see if they fit my lab\u2019s data communication needs."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to learn about pricing and plans.",
+                            "fileID": "e5510ecf7db74cdcb4ad62cc8419100b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our sales team to discuss pricing.",
+                                        "fileID": "3bb1b032454947b9a899c026336ed690"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "10cc645f803c4335881e77f8c82d3d11",
+                                "navigationGoals": [
+                                    "I want to review Vero\u2019s pricing tiers and plans to decide on the best subscription for my team.",
+                                    "Get pricing details and plan options for a small veterans nonprofit.",
+                                    "I need a detailed breakdown of pricing tiers, usage limits, and overage costs for high-volume email sends.",
+                                    "I want to speak with someone about your subscription plans and find out which one fits my needs.",
+                                    "Could you explain Vero\u2019s pricing tiers and plans? I\u2019m budgeting for my student research group."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8a3c6564ea544a25aa8b52979802de04",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "Press 2 for technical support.",
+                "fileID": "6766b1b751ac40ed8418cb504c79a7d0",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "Press 1 for integration and setup assistance.",
+                            "fileID": "658e4da5f4f14ead9b10b4ccccaaf9f2",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our integration support staff.",
+                                        "fileID": "d41ec27302b544df83f60adfe66043df"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "30e616e4a0184c5f81cdf19f8d6614ed",
+                                "navigationGoals": [
+                                    "I need help integrating Vero with our current CRM so we can start sending campaigns today.",
+                                    "Help me set up and integrate Vero with our veteran support CRM.",
+                                    "Assist me with integrating the Vero JavaScript SDK into my React application.",
+                                    "I need assistance connecting Vero to my website and setting up my first campaign.",
+                                    "I need assistance integrating Vero\u2019s API with our existing experiment data pipeline."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "Press 2 to report a bug or incident.",
+                            "fileID": "0f8e469786e54817a596d4efd0117d72",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support engineers to address your issue.",
+                                        "fileID": "a2ba8f697dbf417cb8355825c1403785"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bc56579746e1460887b48e72520ce3fa",
+                                "navigationGoals": [
+                                    "I need to report a bug that\u2019s preventing our automated emails from sending correctly.",
+                                    "Report a bug: some automated emails aren\u2019t sending to contacts.",
+                                    "I\u2019m experiencing intermittent 500 errors on the transactional email API endpoint and need to report the incident.",
+                                    "I need to report a problem I encountered when trying to send an email through Vero.",
+                                    "I encountered a bug with event triggers not firing when new experiment logs upload and need to report it."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ad650c3d53bf4a31a2520bcd421496ac",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "91cfd9628ccb42a8b8467d0727b50610",
+        "navigationGoals": null
+    },
+    "id": "2312225ab4374686beb3e2e64a2c28cd",
+    "navigationGoals": null
+}

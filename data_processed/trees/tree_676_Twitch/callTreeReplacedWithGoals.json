@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Twitch, the live streaming video platform for gaming and entertainment in San Francisco.",
+            "fileID": "09defb9aa89f48eb9f0ce389efbaff5a"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you\u2019re a streamer needing assistance, press '1'.",
+                "fileID": "27fdf9f813a440ad82583790dba27f81",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support with your stream or broadcasting software, press '1'.",
+                            "fileID": "6c8764b49dae43058f047be1b96ae510",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to Twitch streamer technical support.",
+                                        "fileID": "23a176ac227e4d32ab675a3973fc2e56"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "459b65af1a1647828fd03fc2129fc6df",
+                                "navigationGoals": [
+                                    "Fix my streaming software connection issue quickly",
+                                    "Fix OBS streaming issues with audio and video during my live broadcast.",
+                                    "My OBS encoder is dropping frames; I need help troubleshooting my live stream.",
+                                    "I\u2019m a streamer and my broadcasting software isn\u2019t working right \u2013 I need help getting it running.",
+                                    "I need help configuring my streaming software (OBS) to eliminate frame drops and sync issues."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For questions about monetization, subscriptions, and partnerships, press '2'.",
+                            "fileID": "9ad44ead1f9e463e9dae4ceba799870b",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships and monetization team.",
+                                        "fileID": "7a137ead39ac40f7b9d14d7f685778d8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "49a52b9663ca4efe9daa58ae2a693e83",
+                                "navigationGoals": [
+                                    "Check my partnership payout and subscription revenue details",
+                                    "Learn how to meet Twitch affiliate requirements and activate channel subscriptions.",
+                                    "I want to adjust my Affiliate subscription tiers and review my payout settings.",
+                                    "I want to set up subscriptions and start monetizing my channel but don\u2019t know how to enroll.",
+                                    "I\u2019d like to learn how to join Twitch\u2019s partnership program and understand the revenue split from subscriptions."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "abf72205b8da40af94149727141efddb",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a viewer and need assistance, press '2'.",
+                "fileID": "b23fea8232e04261a581b28adbf90214",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For account, login, and password issues, press '1'.",
+                            "fileID": "596d07bc1d9a4c65950d7ce876c92254",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to account support.",
+                                        "fileID": "b61607f494f04fd88fbbd625acfe56c3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4940ffd902a1445a93eae83d1da45470",
+                                "navigationGoals": [
+                                    "Reset my Twitch password and regain access",
+                                    "Reset my password to regain access to my locked Twitch account.",
+                                    "I\u2019m locked out of my Twitch account due to 2FA errors; I need to reset my credentials.",
+                                    "I can\u2019t access my Twitch account because I forgot my password and need to reset it.",
+                                    "I need to reset my Twitch account password and regain access after multiple failed login attempts."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To report content, file a safety concern, or for moderation help, press '2'.",
+                            "fileID": "15e13322d2a54d43995b745a2a6de25f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to content moderation and safety support.",
+                                        "fileID": "adec280a09ad4d27911ffd5605a67866"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "961f5f3b0edc4f31b56c41246d35c95e",
+                                "navigationGoals": [
+                                    "Report abusive content in chat to moderation",
+                                    "Report abusive behavior in chat and request content moderation assistance.",
+                                    "I\u2019d like to report a channel for harassment and check on my safety report status.",
+                                    "I need to report a stream with inappropriate content and get help filing a safety concern.",
+                                    "I want to report inappropriate content I saw on a channel and file a safety concern with moderation."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d5d720149ca84eeca6a72c40e69f1193",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b4147b9bb1f04f428b15b2693e5a24e3",
+        "navigationGoals": null
+    },
+    "id": "26cfe7c10a674fa69b6a4426d8909ff4",
+    "navigationGoals": null
+}

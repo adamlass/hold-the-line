@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling ClearBrain in San Francisco, where AI powers your growth marketing solutions.",
+            "fileID": "8e870f8c38bd4e3587a63a93f890c394"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For help with your current AI-driven marketing campaigns, press 1.",
+                "fileID": "e284180e1e3b4fa2b624f3509d24147e",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To review campaign performance and analytics, press 1.",
+                            "fileID": "d82fcb1b7d03440ca008bc67eccf09a7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a campaign analytics specialist.",
+                                        "fileID": "ee10a265a4824588bb9efcdcb0cdd24c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "37df996668de46ad954d521a4209231d",
+                                "navigationGoals": [
+                                    "I need a quick review of my current AI campaign\u2019s performance metrics.",
+                                    "I\u2019d like a detailed performance review of my current AI-driven marketing campaigns.",
+                                    "Review KPI dashboards and ROI metrics for my current AI-driven marketing campaign",
+                                    "I need help understanding how well my current AI-powered ads are performing.",
+                                    "I need to review the ROI and engagement metrics for my current AI-driven marketing campaign."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To troubleshoot retargeting or delivery issues, press 2.",
+                            "fileID": "296d7a60bb8e4404b1ee991877eefa36",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a retargeting support agent.",
+                                        "fileID": "79c7d7b642864c64b7d9363ab40876c0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "142c840ab284432d8512cc2ece2f6a74",
+                                "navigationGoals": [
+                                    "I\u2019m experiencing delivery issues with my retargeting ads and need troubleshooting help.",
+                                    "I\u2019m not seeing my retargeting ads run properly and need help troubleshooting delivery issues.",
+                                    "Diagnose low dynamic retargeting impressions and delivery errors in my AI campaign",
+                                    "My marketing ads aren\u2019t reaching the right audience; I need assistance fixing my retargeting.",
+                                    "I\u2019m having trouble with my retargeting ads not reaching my target audience and need technical support."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "169a7b9612024acaaac2faf12614a229",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To learn about our predictive ads, lookalike audiences, and email retargeting services, press 2.",
+                "fileID": "1e43c4867a0640d29282ff7c8df5ce02",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a live demo of our AI predictive ads platform, press 1.",
+                            "fileID": "c73f9ddacfdc4e8f857e9933249174c7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we set up your predictive ads demo.",
+                                        "fileID": "a230b259df85491ab993ea48b0591c13"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5603cb10a89b48bf8a91fcb5d38a71bf",
+                                "navigationGoals": [
+                                    "I\u2019d like to schedule a live demo of your AI predictive ads platform.",
+                                    "I want to schedule a live demo of your AI predictive ads platform.",
+                                    "Schedule a live demo of the AI predictive ads platform focusing on predictive bidding features",
+                                    "I\u2019d like to schedule a live demonstration of the AI predictive ads platform.",
+                                    "I want to schedule a live demonstration of your predictive advertising platform."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To speak with a consultant about lookalike audiences and email strategies, press 2.",
+                            "fileID": "66a405fcb34540e9adc08dd217b0265f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a growth marketing consultant.",
+                                        "fileID": "bde00ae6c9e844989edd2ae5599b9b6d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "469fdeb4d0964e7eb88e065eb26bcf9e",
+                                "navigationGoals": [
+                                    "I want to speak with a consultant about building lookalike audiences and email retargeting strategies.",
+                                    "I need to speak with a consultant about building lookalike audiences and email retargeting strategies.",
+                                    "Consult on building optimized lookalike audience segments and automated email retargeting workflows",
+                                    "I want to speak with a consultant about finding lookalike customers and planning my email campaigns.",
+                                    "I\u2019d like to discuss best practices for building lookalike audiences and email retargeting strategies."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "ada7a6dcf06d47408cdb8ebf85a92641",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "17f63ae2e5794eb39b419b85478407cd",
+        "navigationGoals": null
+    },
+    "id": "5a08db2f94d445f181c5a8cfa4f3c1b2",
+    "navigationGoals": null
+}

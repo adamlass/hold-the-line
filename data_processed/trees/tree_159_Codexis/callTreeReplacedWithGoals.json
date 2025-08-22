@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Codexis, the Peninsula\u2019s leading protein engineering company for pharmaceutical manufacturing.",
+            "fileID": "b24762241cab42f3a38c09b3cb54e3bb"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For existing clients and technical support, press 1.",
+                "fileID": "97a8c43a88204a1489893dca8faf541b",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For project status and reporting, press 1.",
+                            "fileID": "137443bef37149ba8a8a4c2ffa8c9836",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our project services team.",
+                                        "fileID": "64dce1347514440d8a7388554c7e3bfc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c96a1f4d48384d71b1aa3596682aa9b2",
+                                "navigationGoals": [
+                                    "Need an update on the timeline and deliverables for my ongoing project.",
+                                    "Check the timeline and latest updates on my ongoing protein engineering project.",
+                                    "I need the latest project timeline and performance metrics for my directed evolution campaign.",
+                                    "I need an update on my ongoing project\u2019s status and next steps.",
+                                    "I need an update on my protein engineering project\u2019s progress timeline."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For technical support with our biocatalyst platforms, press 2.",
+                            "fileID": "48ecc27ca4a14010af0d71510656296e",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to technical support.",
+                                        "fileID": "26d4f3d456694321bba4197401a09e3f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a8e7731e21d34802b41f6a82f51714f9",
+                                "navigationGoals": [
+                                    "Resolve a technical error in our recent biocatalyst platform assay.",
+                                    "Troubleshoot an issue I\u2019m having with your biocatalyst platform in my lab.",
+                                    "I'm experiencing an error with the biocatalyst platform during high-throughput screening and need troubleshooting.",
+                                    "I'm having trouble using the biocatalyst platform and need technical help.",
+                                    "I want technical assistance troubleshooting my biocatalyst reaction conditions."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "96388f20261c4d8cb58f35115e5d2c77",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For new business and partnership inquiries, press 2.",
+                "fileID": "4f2fdd70f1ca4b5ab64c3e246599a835",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For partnership, licensing, or collaboration opportunities, press 1.",
+                            "fileID": "357fe9d803e144338dc91abf7593ae7a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our business development team.",
+                                        "fileID": "80192d9a9b8740e180f5761388d2cc65"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f82e5440a925444ab3d8fc77069f5e09",
+                                "navigationGoals": [
+                                    "Explore collaboration and licensing terms for enzyme optimization.",
+                                    "Explore a partnership to develop enzyme-based solutions for field applications.",
+                                    "I want to discuss licensing terms and collaboration framework for a protein engineering partnership.",
+                                    "I\u2019d like to discuss a potential licensing agreement or collaboration opportunity.",
+                                    "I\u2019d like to discuss a collaboration or licensing agreement for enzyme engineering."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For investor relations and corporate affairs, press 2.",
+                            "fileID": "48886304b0134e7ea80720bc7bda8374",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to investor relations.",
+                                        "fileID": "555f4919a0cd4efebe991ad1c78b0b92"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4ff94f92d39b4953b7ec3faa159e7234",
+                                "navigationGoals": [
+                                    "Obtain investor relations materials and schedule a briefing on your financial outlook.",
+                                    "Ask about investment opportunities in your biocatalyst technology.",
+                                    "I need to access the latest investor deck and financial performance overview for Codexis.",
+                                    "I\u2019d like information on investing in Codexis and recent financial performance.",
+                                    "I\u2019m calling to speak with investor relations about Codexis\u2019s funding and financial outlook."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9bcade3e09d94531a7baf90a82ce036c",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5aac5c1150b84b77ba4df51f390ac1a6",
+        "navigationGoals": null
+    },
+    "id": "de00a49de42644539d25d5cac2c53292",
+    "navigationGoals": null
+}

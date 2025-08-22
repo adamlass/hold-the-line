@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Landor, the San Francisco-based agency that builds agile brands thriving on change.",
+            "fileID": "0b6282b5082a440b88629f6d6053d5ac"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For marketing strategy and brand design, press '1'.",
+                "fileID": "9b992cdc09e849749eb0cdd14452adff",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For brand strategy development, press '1'.",
+                            "fileID": "012d04a5d0fe4a4089d116977ce42c4f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line. A brand strategist will be with you shortly.",
+                                        "fileID": "3ee1d7e6b1b34279928a0281abae6ffa"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "44478c5b8f584f5f9eec80bf28ce5710",
+                                "navigationGoals": [
+                                    "I need to schedule a brand strategy consultation for our product launch.",
+                                    "I need help developing a marketing strategy and brand concept for my veteran-owned consulting firm.",
+                                    "Develop a data-driven brand strategy blueprint with agile methodology",
+                                    "I\u2019d like help updating my small bakery\u2019s brand strategy.",
+                                    "I'm planning a physics seminar series and need help developing its overall brand strategy."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For brand identity and design services, press '2'.",
+                            "fileID": "a03a2a7cd42046e28915e228215c6f19",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line. A designer will be with you shortly.",
+                                        "fileID": "478da2b24823445b87af8e03ec03051c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1af122de1ace499b9573c4e37e673399",
+                                "navigationGoals": [
+                                    "I need new logo design concepts to refresh our brand identity.",
+                                    "I\u2019d like a new logo and visual identity designed for my nonprofit that supports fellow ex-military veterans.",
+                                    "Optimize scalable brand identity assets using a modular design system",
+                                    "I need assistance designing a new logo and visual style for my community center.",
+                                    "I want to create a visual identity, including logo and color palette, for my university physics society."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "f8ab398ff22940848c38dfaa781d512a",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For consulting services, press '2'.",
+                "fileID": "ce50e647022941e9a3414debb77715ef",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For market research and analytics, press '1'.",
+                            "fileID": "b10f54110d6a4845ae3e5507c4ef9ce7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line. A market research consultant will be with you shortly.",
+                                        "fileID": "445620d351e040c89d06efca911bdd31"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "257307ecc6c94800846ec7bd8d139c00",
+                                "navigationGoals": [
+                                    "I need a competitor market analysis report for our sector.",
+                                    "I\u2019m looking for market research on veteran demographics to inform my product launch.",
+                                    "Request advanced market analytics with predictive consumer segmentation",
+                                    "I want market research on selling my handmade crafts to local customers.",
+                                    "I'm seeking market research and analytics on potential attendees for a student-led science outreach program."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For change management consulting, press '2'.",
+                            "fileID": "c53a1a3916d74ba5b368ab0decaaa83f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line. A change management specialist will be with you shortly.",
+                                        "fileID": "fee1e27d6b4a4c9795540a45117a2b98"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c6f2cc1c89894b73824b71411cf816bb",
+                                "navigationGoals": [
+                                    "I need to develop a change management plan for our organizational restructure.",
+                                    "I want guidance on change management to smoothly integrate veterans into my corporate workforce.",
+                                    "Plan an ADKAR-based change management framework implementation",
+                                    "I need advice on managing the changes when I introduce new software at my store.",
+                                    "I need consulting on managing the transition to a new collaborative workflow in my physics research group."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8d1ed0ad5a064a3d9909bee4eb052f7e",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "79e6be446ee54074ac0dbd04be2c432c",
+        "navigationGoals": null
+    },
+    "id": "d4160b77b2974980b87d809d324a94e7",
+    "navigationGoals": null
+}

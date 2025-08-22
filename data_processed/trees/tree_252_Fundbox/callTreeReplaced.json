@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Fundbox in San Francisco, where we provide fast, flexible funds to grow your business.",
+            "fileID": "12f64e77d7954a1385fbfb65807b37a6"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new funding inquiries and applications, please press 1.",
+                "fileID": "5b1d2e56e9e7422aa1b6449e9dfbb99d",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To apply for a line of credit and explore financing options, press 1.",
+                            "fileID": "2867de10de384a7bab7c41cb9271e579",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a funding specialist.",
+                                        "fileID": "7e473e92c6e6499ebecbdb1903ab4c9d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9e5c1bf2e9e24fce80420538948a6280",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn more about our financial services and eligibility criteria, press 2.",
+                            "fileID": "b0b147129513410fa62b3f7d6f1ee551",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our product information team.",
+                                        "fileID": "313ad34d84ed4e458b2d3586bce73766"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cd2fe100b0e74fcb9a29856baf8d0c29",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "38acd793921c488abef2d8c08152f8c1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For account management and customer support, please press 2.",
+                "fileID": "58d0dfb269a84e86b489c408ae15ae2e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To check payment status and billing inquiries, press 1.",
+                            "fileID": "169b91fd99d348b4bfaf6ccded546785",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "677c2634547948caba0531876dd09573"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5e3b44244da24d869c802e2033358f72",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical assistance or general support, press 2.",
+                            "fileID": "44124296f5704cdcaa4f82fed34c5db2",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our support team.",
+                                        "fileID": "925c96e48f1a4367a1aee901bbec6817"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "90f4918bec58437593e9c705853b5d28",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b0a843ee10144fe59a03a6a5792bc2ba",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "557112b61a794043b3e64341508630ef",
+        "navigationGoals": null
+    },
+    "id": "4958988586c442198d1861d7491ea2b6",
+    "navigationGoals": null
+}

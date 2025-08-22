@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Snappr in San Francisco, where great photography isn\u2019t so hard.",
+            "fileID": "02b4f05a83ea435eb4909c609aef752b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new bookings or information on our photography packages, press 1.",
+                "fileID": "e4a47a5da81f4e7181f67def6f7c8355",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a session with a Snappr photographer, press 1.",
+                            "fileID": "008b44ccd86247d49a36b618a57dac8a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our scheduling team.",
+                                        "fileID": "1b898bb88f6546ea926b18535a844291"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2083675a5066492e8ab4d0cf931e6848",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To hear our photography package options and pricing, press 2.",
+                            "fileID": "fe9a4bbde00e417ab90bd4cfca20b7e8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve our package and pricing details for you.",
+                                        "fileID": "0f19deb4796144e5a57065e3405981f7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8e24ac266cd6440cb7308ae2688d53d1",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "5ee57c4733c04aaab523d70f390deb23",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you have an existing booking or need customer support, press 2.",
+                "fileID": "85443ed02cc643868af397587948d9af",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To reschedule or cancel an appointment, press 1.",
+                            "fileID": "e918cfd4ee734f98b5760c421ed0fa88",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our customer support team.",
+                                        "fileID": "082ba39bda0d4ec9b10782b11c779972"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "01406064989b4e89a6a00fc751dfdb1d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and invoice inquiries, press 2.",
+                            "fileID": "fe3333a063934e198c5da75812fe6d5f",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "2e8daec52c4445ed8bd37cf56e5c0c15"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7d925e901eb141fbbe763908e9329c66",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "92fe3125270846b3bb5a74e116255bfe",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "56ea6842bcf049ba8a9a12ad43ec7e38",
+        "navigationGoals": null
+    },
+    "id": "f1ed8cd42689459081c9e7e0ccc31e8b",
+    "navigationGoals": null
+}

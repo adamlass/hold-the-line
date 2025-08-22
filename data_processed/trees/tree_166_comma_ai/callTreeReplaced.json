@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to comma.ai in San Francisco, where we\u2019re bringing ghostriding and the future of driving to your car with our copilot retrofit solutions.",
+            "fileID": "3312dee7bb474ed29a84c4730c594884"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new copilot installations and pricing information, press '1'.",
+                "fileID": "ee72201a37174ce5b19b5fcdb809a5bf",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about copilot retrofit pricing and packages, press '1'.",
+                            "fileID": "85baef9860bd45fa868a56649072c57d",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you for your interest in our retrofit packages. Please hold while we connect you with our sales specialist.",
+                                        "fileID": "57cf7642fb25460c9fbef1da7cce4d85"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "04cf6f9002124437821fa76a0847ee87",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To schedule your vehicle installation, press '2'.",
+                            "fileID": "2cc6d65b41514d74bd5464dcef54f141",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "We appreciate your decision to outfit your vehicle. Please hold while we connect you to our installation coordinator.",
+                                        "fileID": "12e29b442f014f9e8e44cbd517a67e2d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "210faebb406544849004380b576b4fb5",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b22d591bdccc4c03a25d368032f6c665",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and service inquiries, press '2'.",
+                "fileID": "f6f6f965cbef46308f7099d9396fa39f",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To report an issue with your copilot system, press '1'.",
+                            "fileID": "05db10784c78423c92d5bb0b96f9ecc8",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "We\u2019re sorry to hear you\u2019re experiencing issues. Please hold while we connect you to technical support.",
+                                        "fileID": "210999551f3349bb805662058dcfa19a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "09eca9d39e2e4442b4ff7cc7995c354d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To check the status of an existing service request, press '2'.",
+                            "fileID": "d706aeda98eb4c1690d92ae974b89cbf",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve your service request details.",
+                                        "fileID": "35b3ac8c30c24fa894b99f2252e54148"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "356da4ce344b4157ae1ee670d6b78ca2",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "a7db0e95f5e64391bed22020c3b3f795",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "8adcfd487faa4401a1abcb162e7a1d6c",
+        "navigationGoals": null
+    },
+    "id": "7611c7adee9d497892599a4cb6fd81fa",
+    "navigationGoals": null
+}

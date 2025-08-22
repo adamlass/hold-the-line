@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Scripted, based in San Francisco, the leading B2B software marketplace connecting you with top freelance copywriters to power your content marketing.",
+            "fileID": "29ec8627b2684910a1f7e47317cb5c3b"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For assistance with existing orders and billing, press 1.",
+                "fileID": "66d8e3b9768143a3aa324bed1121b2b3",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For updates on your current content orders, press 1.",
+                            "fileID": "2892f352b18a4ed39decadfca3d5e1b1",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a team member to discuss your order status.",
+                                        "fileID": "e9cd80eb193440e3bf9ce7e9c76965d0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a2f5c9d258d54b9c8b04fa961628c6c0",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account questions, press 2.",
+                            "fileID": "3b4ea8bddf5240eea6f139acbed075e7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "ac4fbc326e0140eb853217d5f15d586e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e66bc121cecd4089a1abbb41ef9aa5da",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "c31ebd8e3ed545dd96e85a7a0bd5f46e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For new client inquiries and service information, press 2.",
+                "fileID": "d5b782cb6d41429cadb6da9fe7611a29",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn how our marketplace matches you with top freelance writers, press 1.",
+                            "fileID": "7fa0533ea10441cf8031be3f8d9451cc",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a marketplace specialist.",
+                                        "fileID": "da8200729e7641b5a055f80df738a10b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "49773b91df3e4933b105ccaff991af08",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To explore custom content strategy solutions, press 2.",
+                            "fileID": "78f9aaacf4fa46aab00211e890b622dc",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a content strategist.",
+                                        "fileID": "cc7f2b63361b42cab7223c45d50391fb"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "dc208d03909f42a18e67e590a68c9d81",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "16da1ade99ae45c4aeab1867deb18cd2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b9e8505d832443c588702b741267fc3e",
+        "navigationGoals": null
+    },
+    "id": "4d36438f16704318ab7b7603f2386e66",
+    "navigationGoals": null
+}

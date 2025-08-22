@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Mux, the video infrastructure API built by experts to make beautiful video possible for every development team.",
+            "fileID": "d17c978785454609b50a57fe3cf8dd6e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For technical support and API documentation, press 1.",
+                "fileID": "2c29aeb67e184d759bb54904f02f62fc",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To connect with our API integration support team, press 1.",
+                            "fileID": "137e3591189a445683d88969d75bcafb",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line and we'll connect you with our API integration specialists.",
+                                        "fileID": "b26a371e75f74280a11c06f84b5703b5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1f1b022f59534c3c9cdcff504ef63c95",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For developer resources and best practices, press 2.",
+                            "fileID": "9bba30dc945c4fb2bc7b9a30586d1ba8",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our developer resources team.",
+                                        "fileID": "aff0776fc6294314a2f3cc76d5358a85"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "29f531f2bcf64e3c9a956f0bb5a51e45",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "4741f8d91b8741ad8b51e50af065c252",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For sales and billing inquiries, press 2.",
+                "fileID": "e1b648fc287048d98e46fed5a3dcf82d",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team, press 1.",
+                            "fileID": "9b538261874e4879a881827831cd31a7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a Mux sales representative.",
+                                        "fileID": "a5da38e93f474d67a0f437c758ae288d"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "781bc696ffca48378c715d909913f168",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For billing and account management, press 2.",
+                            "fileID": "89e1d1ee2eea48f8adc36352ce8b6ee6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing and accounts department.",
+                                        "fileID": "5ca934db4a2d4658bef26cf7f25ad994"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8aa14a9026d44202910d2dc211bf743e",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2dcc998df95549f685ab947184a00de2",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "93636968128d476bb369fc3738d6b511",
+        "navigationGoals": null
+    },
+    "id": "b8082671d36442cca8cc18969a04a07c",
+    "navigationGoals": null
+}

@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Uber in San Francisco, where you can get a ride in minutes or earn on your schedule.",
+            "fileID": "588753bd48594341a5d768c78fdb1a02"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "To book a ride, press 1.",
+                "fileID": "9ec74f6eeec14e53b1a23a6719fcfd37",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with an existing ride, press 1.",
+                            "fileID": "fd5880642d7e47c198b48e42d7b62afa",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a rider support specialist.",
+                                        "fileID": "0bc3e20c9cbd4ecbb39940314b8c487e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cd967add68564682a48b187b877c33c2",
+                                "navigationGoals": [
+                                    "Check the ETA for my current ride",
+                                    "Change my current ride\u2019s pickup location to accommodate my service dog",
+                                    "I need to adjust the destination geo-coordinates on my active trip and sync it with the driver\u2019s ETA.",
+                                    "I need assistance finding out why my current Uber ride is delayed.",
+                                    "I\u2019d like to update the drop-off location for my current Uber ride."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For fare estimates or new bookings, press 2.",
+                            "fileID": "865e81928357415a806126269d6d3361",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our booking support team.",
+                                        "fileID": "1f1d4ae4da1d47398b7d3bad6c7fa947"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "325b316766b048f292bc95e8cd170d30",
+                                "navigationGoals": [
+                                    "Get a fare estimate for a trip from downtown to the airport",
+                                    "Get a fare estimate for a ride to the VA hospital",
+                                    "I\u2019d like a precise fare calculation for a 12-mile route using the current surge multiplier.",
+                                    "I\u2019d like to get a fare estimate to the clinic and book a ride.",
+                                    "I need a fare estimate for a trip from my apartment to the airport."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "35cbeb5c427e4bac935207fc50cad97e",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To become a driver-partner, press 2.",
+                "fileID": "ad8a79c5566644e08a0b8d56e5acc196",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To start your driver application, press 1.",
+                            "fileID": "7572ac7f3ab940d8ad8d6af1d2a4c56a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our driver sign-up team.",
+                                        "fileID": "d6a02e52dac049d0a22fa7cdbece9879"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a50f054373fd4c0a81796ce05bf3ea2c",
+                                "navigationGoals": [
+                                    "Apply to become an Uber driver",
+                                    "Start an Uber driver application and apply the veteran sign-up bonus",
+                                    "I want to start my driver-partner sign-up, submit KYC documents, and kick off the background check.",
+                                    "I want to sign up as an Uber driver and need help with the application.",
+                                    "I want to begin my application to drive with Uber."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For existing driver-partner support, press 2.",
+                            "fileID": "e145c8c909d648f88ac06d9deb0e6b60",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to driver support.",
+                                        "fileID": "4c7c1f693a8749b898145c1fd9a1257f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "15afce7818534f26a1fec7a917bf802d",
+                                "navigationGoals": [
+                                    "Update my payout bank account information as a driver",
+                                    "Investigate missing earnings from last week\u2019s driving trips",
+                                    "I need support with my driver dashboard \u2013 I can\u2019t link my bank account to the payout module.",
+                                    "I\u2019m already an Uber driver and need help updating my account documents.",
+                                    "I need assistance verifying my insurance documents for my driver account."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2bc140d1a60d4087867dd68ca3a56c7b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "f01d33656f5e417f8e7f171171a4cec9",
+        "navigationGoals": null
+    },
+    "id": "7a303b3ba4ad46538c2b1388598e1c1b",
+    "navigationGoals": null
+}

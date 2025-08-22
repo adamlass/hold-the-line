@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Returnly in San Francisco, the returns management platform that helps brands scale returns, improve customer experiences, and boost ROI.",
+            "fileID": "dbd345b9dc754db4a252d21e28496560"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For support with your existing Returnly account, press 1.",
+                "fileID": "4015e8282f07499c8038538fbb70aad3",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support, press 1.",
+                            "fileID": "1e21616d8380494d8361902a316bfaef",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our technical support team.",
+                                        "fileID": "a1db695531fd43078396e17aa734576e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "84c0d5f7482c4e5d91465e5efd0c57da",
+                                "navigationGoals": [
+                                    "Resolve a technical error in my Returnly account integration",
+                                    "I need help fixing an API error on my Returnly integration.",
+                                    "I need to debug a 500 error when sending return initiation requests via the Returnly API.",
+                                    "I can't log into my Returnly account on my computer and need technical help.",
+                                    "Troubleshoot a 401 error I\u2019m getting when authenticating the Returnly API on my test site."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing and account inquiries, press 2.",
+                            "fileID": "36bdd74ab8084859a454f3ad90b013be",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "c137c763efa1463295b33ad7ed529a93"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "82f2a0c00d114527882a739fdeb38334",
+                                "navigationGoals": [
+                                    "Review and clarify a recent billing charge on my account",
+                                    "I want to clarify an unexpected billing charge on my Returnly account.",
+                                    "I want to verify the pro plan overage charges on my latest Returnly invoice.",
+                                    "I need help understanding the charges on my latest Returnly billing statement.",
+                                    "Get a breakdown of an unexpected charge on my account and update my payment method."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "db89c955873047f7988308cb6b0e01fa",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To learn about our returns management solutions and schedule a demo, press 2.",
+                "fileID": "634c88d376fb4a2f80ef9fb2eafe63d8",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To schedule a product demo, press 1.",
+                            "fileID": "d39a287031034b0585f959efe7eb8fb9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for your demo.",
+                                        "fileID": "0e913fb386c44a3eb44c0a2adeff35ef"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "46653a02c6a34c9983169c71321bdb41",
+                                "navigationGoals": [
+                                    "Book a product walkthrough to see Returnly\u2019s returns management platform",
+                                    "I\u2019d like to schedule a demo of Returnly for my veteran-owned online store.",
+                                    "I'd like to schedule a deep-dive demo of Returnly\u2019s returns management API and dashboard.",
+                                    "I'd like to schedule a product demo to see how Returnly's return management works.",
+                                    "Schedule a product demo to see how Returnly\u2019s returns flow customization and analytics work with my Shopify store."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For pricing and ROI questions, press 2.",
+                            "fileID": "61e10ff752864c5a88874c64912234df",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales specialist for pricing details.",
+                                        "fileID": "43b7bcd3366646fdbb071e4a7f642a47"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3df6ffc7c91c47a69f62a9de14fb72f3",
+                                "navigationGoals": [
+                                    "Obtain detailed pricing and ROI estimates for Returnly\u2019s service",
+                                    "I need detailed pricing info and expected ROI for a mid-level plan.",
+                                    "I want enterprise pricing details and an ROI projection for handling 5,000 monthly returns.",
+                                    "I need information on Returnly's pricing plans and what ROI I can expect.",
+                                    "Request detailed pricing for the mid-tier plan and an ROI estimate based on 500 returns per month."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "182ad15dc6044463bf8bcf857bf327ae",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "dc982d6264884c4c943d2fdc42b37e75",
+        "navigationGoals": null
+    },
+    "id": "268e303e8c5840f5ab1539696ad682eb",
+    "navigationGoals": null
+}

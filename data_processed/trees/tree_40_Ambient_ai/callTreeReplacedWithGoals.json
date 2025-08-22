@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Ambient.ai in South Bay, where we pioneer next-generation Vision AI solutions.",
+            "fileID": "44be57cdad81481f8cf3ac6948fa7ca8"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and partnership inquiries, press 1.",
+                "fileID": "f24ce8900ac54567baa27f52be99b8b2",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For new customer demos and pricing information, press 1.",
+                            "fileID": "814deddab52346dfa605768fa89b7575",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our sales team.",
+                                        "fileID": "5c53068dd52341819556eea641577fa3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "1c3342b0ec69419ebaeb46c8ae17758f",
+                                "navigationGoals": [
+                                    "I need a demo of your Vision AI platform and details on pricing plans.",
+                                    "I\u2019d like to schedule a demo and get pricing for your Vision AI system to support veteran community programs.",
+                                    "Schedule a hands-on Vision AI demo and get enterprise pricing tiers for deployment.",
+                                    "I\u2019d like to see a product demo and get pricing information for your system.",
+                                    "Schedule a demo and obtain pricing information for Ambient.ai solutions for my university research group"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For partnership opportunities and collaborations, press 2.",
+                            "fileID": "2e27a0be82b34a55834731af095c20a6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our partnerships team.",
+                                        "fileID": "901f7f9c392f42c1a9d043efbaf9221e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c45e947bbe32498ba6d31e68aef8833f",
+                                "navigationGoals": [
+                                    "I want to discuss a collaboration opportunity and partnership terms.",
+                                    "I\u2019m exploring a partnership between my veteran support organization and Ambient.ai.",
+                                    "Discuss integrating Ambient.ai\u2019s computer vision SDK into our product as a strategic partner.",
+                                    "I want to discuss a potential partnership with Ambient.ai for my senior care service.",
+                                    "Discuss a potential research collaboration between Ambient.ai and my physics lab for an upcoming grant"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "61b5704744124a9baa7f1c269672fa91",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and customer care, press 2.",
+                "fileID": "3cd3dd504c2c4892b76e6eb763998d46",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you need help with deployment or troubleshooting, press 1.",
+                            "fileID": "2d9baf967ef84b6396e3da6f347c7a5e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our technical support engineers.",
+                                        "fileID": "dee283e3b6e7488082b9fc8cab3b4736"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f50b160ccc974fb3add5b080637874ad",
+                                "navigationGoals": [
+                                    "I need help troubleshooting deployment of your solution in our environment.",
+                                    "I need help deploying and troubleshooting the AI solution we purchased for our veteran outreach center.",
+                                    "Troubleshoot a Vision AI on-premises node that\u2019s failing to detect events after deployment.",
+                                    "I need help troubleshooting and setting up the cameras in my home.",
+                                    "Troubleshoot deployment issues with the Ambient.ai vision model on our lab\u2019s camera system"
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For developer resources and API assistance, press 2.",
+                            "fileID": "248ba77b8c81449fa3f73618fb95f216",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold the line while we connect you to our developer support team.",
+                                        "fileID": "a38051fc2359496c97f1d8140e690c1b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "efcc92d1d48244ff940e7c47db5850c0",
+                                "navigationGoals": [
+                                    "I want assistance with API integration and access to developer resources.",
+                                    "I need API documentation and developer guidance to integrate Ambient.ai into our veteran service platform.",
+                                    "Obtain the developer API reference and code samples for real-time object detection integration.",
+                                    "I\u2019m looking for API documentation and guidance to integrate your system with my home automation.",
+                                    "Get assistance with the Ambient.ai API and SDK to integrate object detection into my experiment code"
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "56fba132e3634520aff426b0359b3ce0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "4aa5c18626314aa3af7fb6e2e5d3359c",
+        "navigationGoals": null
+    },
+    "id": "c3069e86a04b47e2b6bd05f8918aac21",
+    "navigationGoals": null
+}

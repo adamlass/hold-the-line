@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Wollborg Michelson Recruiting in San Francisco, where every company finds its dream candidate and every person discovers their dream job.",
+            "fileID": "11d46e33545645d09aafde3024d6e211"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an employer seeking to fill positions with your dream candidate, press 1.",
+                "fileID": "4adaac8e0ca4455796198f3ba7cfad00",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with one of our recruiting specialists, press 1.",
+                            "fileID": "8f6b9f4c4570496f954f3fb2222e8764",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a recruiting specialist.",
+                                        "fileID": "21244ef2585c47f8ac75a9843ad05be8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4dde63b8bbcf47fe9e33e77b099d4976",
+                                "navigationGoals": [
+                                    "I need to connect with a recruiter to help me fill an open position at my company.",
+                                    "I\u2019d like to speak with a recruiting specialist about hiring veterans at my company.",
+                                    "Discuss integration of an API-driven talent acquisition pipeline to source software engineers on a tight deadline",
+                                    "I need to speak with a recruiter about filling a position at my company.",
+                                    "Connect me to a recruiting specialist to discuss internship and entry-level physics roles."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For details on our service packages and pricing, press 2.",
+                            "fileID": "5d62e8740f1c4579b97906bd53136b9c",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we retrieve information on our service packages and pricing.",
+                                        "fileID": "a894e96337b0459aba0d26909f1896b8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "718fa8235ba94f968d57c86ad93bf422",
+                                "navigationGoals": [
+                                    "I\u2019d like to get information on your service plans and pricing for hiring support.",
+                                    "I need information on your service packages and pricing for veteran recruitment.",
+                                    "Get a detailed breakdown of service tiers and enterprise pricing for volume candidate sourcing and ATS optimization",
+                                    "I\u2019d like information on your recruiting service plans and their pricing.",
+                                    "Get pricing details for resume review and interview coaching services."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "e987b601752946d1b181bbe440c061b6",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a candidate looking for your dream job, press 2.",
+                "fileID": "81a2147fd4754473894d025794333722",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To submit your resume and explore open roles, press 1.",
+                            "fileID": "70d33f7584384a95bdbfd36b53bae53f",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we guide you to our candidate portal.",
+                                        "fileID": "826b0a3bc49c4c8185fa26e5cb39cb27"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "45789f52dde04df69d63c6b5dd113ea2",
+                                "navigationGoals": [
+                                    "I want to submit my resume and look through current job opportunities.",
+                                    "I want to submit my resume and explore open roles that match my skills.",
+                                    "Upload my resume to the candidate portal and search backend engineer openings filtered by Go and Kubernetes experience",
+                                    "I want to submit my resume and explore available job openings.",
+                                    "Submit my CV and explore current physics research job openings."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a career consultation, press 2.",
+                            "fileID": "0d0a31dd5bd1433fa0dbebb1deac34f7",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a career consultant.",
+                                        "fileID": "6d9c2a4b4d144fa68adb4165df7c8639"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "3035acb2ec50453ea13ebf3e8e4e55f8",
+                                "navigationGoals": [
+                                    "I need to schedule a session with a career consultant.",
+                                    "I\u2019d like to schedule a career consultation to plan my transition to a civilian job.",
+                                    "Schedule a technical career consultation to optimize my LinkedIn profile and prep for algorithmic coding interviews",
+                                    "I\u2019d like to schedule a career consultation to discuss my job search.",
+                                    "Schedule a career consultation to refine my CV and discuss job search strategies."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "cc7e8ec19ce34110ab3bd38f8409a082",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "b74771375ab7473dbdfe57aeca001007",
+        "navigationGoals": null
+    },
+    "id": "ee0c917a63bc4fb2a9fa5c89ce33701a",
+    "navigationGoals": null
+}

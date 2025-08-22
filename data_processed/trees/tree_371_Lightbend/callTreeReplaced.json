@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Lightbend in San Francisco, where we help you modernize your enterprise at startup speed.",
+            "fileID": "4e6f1a3e151f4a899e63e566df7f4826"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information on our productivity tools and enterprise modernization solutions, press 1.",
+                "fileID": "360a7fbe751945eabf9d8f100179bae5",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales and consulting experts, press 1.",
+                            "fileID": "2dc8c5bc58c1452eae9108d412e2ca93",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our sales and consulting team.",
+                                        "fileID": "fb93242968b54763896b968de6636d5a"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a8117d999e6e4476bd7419a5ae2c4a4d",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing details, trial requests, and product demonstrations, press 2.",
+                            "fileID": "92adba3f32a64ec9b12fc7ff44d2fd64",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, connecting you to pricing and demo services.",
+                                        "fileID": "fe9ea3dcaf02456e83057615ec34e3f9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "10f7260d420d4cbdb9ab9fd26b26ba8a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "90c724b49ddc4f61be24b4acc0df99ce",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "To reach technical support or account services, press 2.",
+                "fileID": "341c811daa524ba49994caf43211fbfe",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting assistance, press 1.",
+                            "fileID": "e2a130028fa54efa8c2ea516e3780f48",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "9c8945851edb434196981ebcd057cb16"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "db6c7f9c98344efc86bca72a3e3e2759",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account management and billing inquiries, press 2.",
+                            "fileID": "aa7f702a13f943ba9b31117aace7f9f3",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please, transferring you to account management.",
+                                        "fileID": "b36e47c2afb046b2a5a65b29e6aba1dd"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "c0c79271b5e440c7bfd207718fc8a291",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "b6312c666ae34f58aa1a9a93ce41ec36",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "97ddb5d1702c4607af5962f937377b3e",
+        "navigationGoals": null
+    },
+    "id": "1156e2e50e3d48a9b0cb5c57e6232dd9",
+    "navigationGoals": null
+}

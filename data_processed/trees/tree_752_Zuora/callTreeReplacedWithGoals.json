@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Zuora in Peninsula, where we power cloud-based subscription solutions for businesses in every industry.",
+            "fileID": "11cda885e8fd47c386115b76f8bbe2ae"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and new subscription inquiries, please press 1.",
+                "fileID": "747815c0ea2b4703944275334e6fa110",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about our subscription pricing and product features, press 1.",
+                            "fileID": "434cf5e29a71495480ea1ff592f3d1a9",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative for subscription details.",
+                                        "fileID": "fdda48c99813434789514d38b93e8a29"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f175d344a34d4b3d92ee43607845cbb0",
+                                "navigationGoals": [
+                                    "Get detailed pricing and plan options for a new Zuora subscription so I can decide quickly",
+                                    "I need detailed pricing and feature information for a new subscription plan.",
+                                    "I need a detailed breakdown of Zuora's subscription API pricing tiers and feature comparisons.",
+                                    "I need help signing up for a subscription plan and want to know the cost.",
+                                    "As a physics grad student, I need details on subscription plans and feature limits for my research project."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a personalized product demonstration, press 2.",
+                            "fileID": "666b2a8ef5584850967057dfcac54185",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our demo team.",
+                                        "fileID": "a79a9dae1ab9495fb067f7da1d39011b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "4d53c6dde2ec4f37a89bd573a89f8423",
+                                "navigationGoals": [
+                                    "Schedule a personalized Zuora product demonstration to evaluate key features for my team",
+                                    "I\u2019d like to schedule a personalized demo to see how this solution fits my needs.",
+                                    "I want to schedule a deep-dive demo of the Zuora platform focusing on subscription management and integration.",
+                                    "I would like to schedule a personalized product demonstration to see how it works.",
+                                    "I\u2019d like to schedule a detailed demo of the Zuora platform for our university lab."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "fd0bb6cb80f846fe97f00de168d36152",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer support and billing, please press 2.",
+                "fileID": "3fd832ab84a34d179c8bfc5a7ec227d4",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press 1.",
+                            "fileID": "b482f3971ff946be9130fd20057ae1fe",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "28d7a7f786284066a095dbd30e749510"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0f29d161cb3742d992744588aa7cf11e",
+                                "navigationGoals": [
+                                    "Troubleshoot a technical integration error with the Zuora API for immediate resolution",
+                                    "I\u2019m experiencing technical issues with my subscription integration and need troubleshooting help.",
+                                    "I need help troubleshooting an authentication error with Zuora's REST API endpoint.",
+                                    "I'm experiencing a technical problem and need assistance troubleshooting it.",
+                                    "I\u2019m experiencing an API error integrating Zuora with our data analysis pipeline and need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing, payments, and account inquiries, press 2.",
+                            "fileID": "5014c0371b2145a29fd841dec0f03456",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our billing department.",
+                                        "fileID": "9673171123cf4441891e570901a46f92"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "5e5c9d00df0b4eaa9377ff67772e7ba2",
+                                "navigationGoals": [
+                                    "Clarify a recent invoice charge and update my payment method on file efficiently",
+                                    "I want to review my recent invoice and update my payment details.",
+                                    "I need to review my recent subscription billing statements and update my payment method.",
+                                    "I have a question about my bill and need help with my payment.",
+                                    "I need to review my current billing statement and update payment details for my subscription."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "deeaaddbcdde49359af17f030b43b030",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "80acfb02e6d34ef4a3e7a15efc852011",
+        "navigationGoals": null
+    },
+    "id": "7846d7e9529d4ecf897bc10b0a8a6af6",
+    "navigationGoals": null
+}

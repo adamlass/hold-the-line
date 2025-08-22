@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Slashdot Media, the global leader in professional technology communities.",
+            "fileID": "0776ef8ac5d3430a9c3201c50fe59f4e"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For community and editorial support, press 1.",
+                "fileID": "ee149fb192274dcabf336706ca64d710",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our editorial team, press 1.",
+                            "fileID": "23441f81324a4f4faea3b1703811913e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our editorial specialists.",
+                                        "fileID": "9fcdf10449d64817a42f499076749a91"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7d741d015da745cc958fbe9a11966342",
+                                "navigationGoals": [
+                                    "I need to check on the status and expected turnaround for my submitted article review.",
+                                    "I\u2019d like to submit a guest article about transitioning from military service into tech.",
+                                    "I need to submit a technical deep-dive article on Kubernetes security and clarify your editorial review guidelines.",
+                                    "I need help submitting a letter to the editor.",
+                                    "Ask about submission guidelines and expected review timeline for my guest physics article."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To reach account and subscription support, press 2.",
+                            "fileID": "aa59e8a490e84e1789b3e75d2f621f92",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our account support team.",
+                                        "fileID": "0358e2ee831c4332a667efdc96d33253"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "57e92a35c0504c8093c0d201637ffb1c",
+                                "navigationGoals": [
+                                    "I need to update the billing details and upgrade my subscription plan.",
+                                    "I need to update my subscription and apply any veteran discount available.",
+                                    "I want to upgrade my enterprise subscription plan, update my billing API integration, and troubleshoot payment processing.",
+                                    "I want to renew my subscription and update my payment information.",
+                                    "Apply a student discount to my premium subscription renewal and clarify billing charges."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "db6f2afa8dea4f1dbe3936ffc0654103",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For advertising and partnership inquiries, press 2.",
+                "fileID": "f2e464cbab6043afbfad8742eedcb301",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To discuss advertising opportunities, press 1.",
+                            "fileID": "0c5d957b10d9440398db8d4773577b47",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our advertising sales team.",
+                                        "fileID": "cd179e0dbf55450fbac1303da0ad284c"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "bd0ef4f460444ffe800614980733bad2",
+                                "navigationGoals": [
+                                    "I\u2019d like to get pricing and specs for running a targeted ad campaign.",
+                                    "I want details on advertising packages for my veteran-owned tech startup.",
+                                    "I\u2019d like to launch a programmatic ad campaign, get your ad-tech specifications (SSP/DSP support), and discuss targeting options.",
+                                    "I\u2019d like information about advertising options and rates.",
+                                    "Obtain ad rate details and specifications to promote my university physics workshop."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To inquire about media partnerships, press 2.",
+                            "fileID": "ba91b4ebd4704dfdad126a1e00848133",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our partnerships department.",
+                                        "fileID": "38009a49432f43bd88ee2cb5c00191d4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6b54461a9450444f9a987b6ba9421c65",
+                                "navigationGoals": [
+                                    "I want to discuss a potential co-branded media partnership opportunity.",
+                                    "I\u2019m interested in partnering to create a veteran-focused tech webinar series.",
+                                    "I\u2019m interested in a content syndication partnership using your RSS feed API and co-hosting a developer webinar.",
+                                    "I\u2019m interested in forming a media partnership for our senior tech club.",
+                                    "Explore a media partnership to publicize my department\u2019s physics outreach program."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "079bfd4952b649d4bab814ca70c8ce54",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5db0e46f5ee34bc99b5580ba0daa3f2e",
+        "navigationGoals": null
+    },
+    "id": "ee4432acf0384ed29180060cf003705f",
+    "navigationGoals": null
+}

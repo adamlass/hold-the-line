@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Liftopia in San Francisco, the world's largest online marketplace for ski lift tickets.",
+            "fileID": "7f7c44973fec46668a1cea220705f0c9"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For lift ticket bookings and pricing information, press 1.",
+                "fileID": "33199b84c89d4b29a0b5f796b1c6c716",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To search for lift tickets by mountain or resort, press 1.",
+                            "fileID": "62b0f0351a1e4179bafd5a5013b60587",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our booking specialists for mountain search. We appreciate your patience.",
+                                        "fileID": "cd052b69b3e847cebdd9d31413ad8204"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "e07392e880234b6aafc1cc0df749a92c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To modify or cancel an existing booking, press 2.",
+                            "fileID": "651ee1d4375b463bbab69b74c4515daf",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please. We're transferring you to our team for booking modifications or cancellations.",
+                                        "fileID": "f8549da9589c44c4ae4526bac66f54c7"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "f4593750b04b4db3b36655a6cbb5ac16",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "2371154e8a664bed84970cec8f5b316f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For customer service and support, press 2.",
+                "fileID": "560484cf31404c28a1258673ce85133e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To inquire about payment issues or refunds, press 1.",
+                            "fileID": "6a2ad4eb7fdd4455a787a9168bbc37fe",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our payment and refunds department.",
+                                        "fileID": "655db94c5fbc4e568cecfa8daa3c02e6"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "39093083ef7a4760b5a4edc5299960bd",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support with our website or account, press 2.",
+                            "fileID": "d29c05b1154f432a95943a612198be4d",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to technical support. Thank you for your patience.",
+                                        "fileID": "aa67639b9e494eb88150cdaa6ea1e76b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b703a8c10e3644b0975cea42f5b1845a",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "9a467f7b08e04b5eae75cc1022ce40ec",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "e34b92b92d134fa4997be98c8ae4ce54",
+        "navigationGoals": null
+    },
+    "id": "d196d04a541d46d1887edd6223dbcd48",
+    "navigationGoals": null
+}

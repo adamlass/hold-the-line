@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Stripe in San Francisco, the new standard in online payments.",
+            "fileID": "12f45fd94d3b4eecb4ad51a9a2e8dc17"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For account and billing inquiries, please press 1.",
+                "fileID": "bb7ac995da234c589c85ad5a5fae1378",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For invoice issues and payment history, please press 1.",
+                            "fileID": "4a5f35ae7a8c4d4596033427e7c85d45",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our billing specialist for invoice inquiries.",
+                                        "fileID": "48d93e0b8b564b9e84e1fef96d4671d5"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "8f01c98d58904966820fcb992dfba105",
+                                "navigationGoals": [
+                                    "Review my invoice details and payment history",
+                                    "I need copies of my recent Stripe invoices to submit for my veteran business reimbursement.",
+                                    "I want to review line-item charges on my latest invoice and confirm payment receipts.",
+                                    "I need a copy of my last invoice and help understanding my payment history.",
+                                    "I need a copy of my last invoice to reconcile my research grant reimbursements."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For updating account details or billing information, please press 2.",
+                            "fileID": "dba2058a6d5e4d498b071f7bd632e6ce",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our account management team.",
+                                        "fileID": "c69360eff4414270a09aa00a27189b49"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "27e3579b526d4c67b2bc1bd0b35225f7",
+                                "navigationGoals": [
+                                    "Update my billing address and payment method",
+                                    "I want to update the credit card on my account billing details.",
+                                    "I need to update my billing contact details and swap out the credit card on file.",
+                                    "I want to update my credit card and billing address on my account.",
+                                    "I\u2019d like to update the bank account linked to my Stripe profile for my lab equipment purchases."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "80b268aef5b04c89a3439ab4532435a6",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For developer support and API integration, please press 2.",
+                "fileID": "3d2e42a6e5f64467897bd50783017def",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For API integration guidance and documentation, please press 1.",
+                            "fileID": "9ceeced673214b7c90002b457b2a5333",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with a developer support engineer.",
+                                        "fileID": "86326560a4c543ec9f4d8e06c5b86979"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b28cd231a3384daca95b5b6892eaa852",
+                                "navigationGoals": [
+                                    "Obtain guidance and documentation for Stripe API integration",
+                                    "I need guidance integrating Stripe\u2019s API into my veteran-run nonprofit\u2019s website.",
+                                    "I\u2019m integrating Stripe\u2019s API and need guidance on authentication setup and webhook configuration.",
+                                    "I\u2019d like step-by-step help integrating Stripe\u2019s API into my website.",
+                                    "I need guidance on integrating Stripe\u2019s API into my student organization\u2019s event registration system."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For reporting a technical issue or outage, please press 2.",
+                            "fileID": "f316e3b754b04447a7ff0e1b0803d201",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we route your call to our technical operations team.",
+                                        "fileID": "0f55b785f5eb4287aa78dba20f0c45dc"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6c6c8d4dec2148e885a7ba0baf218019",
+                                "navigationGoals": [
+                                    "Report a technical issue or service outage",
+                                    "I\u2019m calling to report that the Stripe API is currently down for my site.",
+                                    "I\u2019m experiencing a service disruption\u2014my live API calls are failing and I need to report an outage.",
+                                    "I need to report a technical issue with my payment integration.",
+                                    "I\u2019m reporting an API outage\u2014my automated billing script keeps failing during test runs."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "d9decb661d714d65b71618ea5ec3acb5",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "5df9625c1a9e4ac9a5709c5c31dbc759",
+        "navigationGoals": null
+    },
+    "id": "c245a5a007374358943175522c537028",
+    "navigationGoals": null
+}

@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to The League, San Francisco\u2019s premier selective dating app matching you with like-minded singles.",
+            "fileID": "12aafd72100143a2a9199088ee470298"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are an existing League member, press 1.",
+                "fileID": "1ca92dbcbb30408db848d29340a76736",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To update your profile or preferences, press 1.",
+                            "fileID": "46861c265f494f508aeb5f0d3315df04",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a team member who will help you update your profile.",
+                                        "fileID": "4c4d194b8e004b15bff22b1e53cf643e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "7c08970757494f62922b29aa28805f0e",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To review your current matches and messages, press 2.",
+                            "fileID": "d46d99c4409e46b28ffbd29ff829e898",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "One moment please\u2014we\u2019ll connect you with support for your matches.",
+                                        "fileID": "a565e3f6b0ff432da2884b0119176dc9"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a87c90ed464948e6bb18f9a3a8cbbf6c",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "efb8c1a5add1495d92a2930b3b6cb4f5",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are new to The League or want to become a member, press 2.",
+                "fileID": "c1014e6bb3a843479af5a4a6aebb82ac",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For information on membership plans and pricing, press 1.",
+                            "fileID": "37871ef64089442b9c943e8f901bb5d6",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Thank you\u2014please hold while we connect you to someone who can discuss membership options.",
+                                        "fileID": "95e0e14ee8ee4c21b77273b1433782d8"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "52d83b8bece3498191a0a19a713e5f55",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For an overview of app features and the matchmaking process, press 2.",
+                            "fileID": "03be859a17a34bdcabd20385ff9218a5",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Hang tight\u2014we\u2019re connecting you with a specialist to explain how The League matches you.",
+                                        "fileID": "bc18da904e5b4b1497d5cd8bb6ef4226"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2f747aae618b43e2b4db161edb217cfc",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "05377e139a844a3a9e0643914bc5aa60",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "999dc9b086ce4d609f63cf9b841dfd98",
+        "navigationGoals": null
+    },
+    "id": "d9241d13b7bc4c95ae5cfaa5bf1503f2",
+    "navigationGoals": null
+}

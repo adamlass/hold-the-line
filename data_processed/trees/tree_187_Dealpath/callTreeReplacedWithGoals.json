@@ -1,0 +1,137 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to Dealpath, based in San Francisco, the real estate industry\u2019s leading cloud-based deal management platform.",
+            "fileID": "29ec7e3f834f43239f71e754387fd4af"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For new customer inquiries, including sales and product demonstrations, press '1'.",
+                "fileID": "e4e91cafd8c04ca4852e8e3955f6f0ed",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with our sales team, press '1'.",
+                            "fileID": "feb5d8741994466492cfc09ad1d2a083",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "All of our sales representatives are currently assisting other clients. Please hold for the next available representative.",
+                                        "fileID": "158330b1a2a34036a3e49bd4025e7bf2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "87f1edae3bac4d2db314d351b3c497ff",
+                                "navigationGoals": [
+                                    "Discuss purchasing options and get a pricing overview",
+                                    "As an ex-military veteran starting a real estate portfolio, I want to speak with a sales rep about purchasing Dealpath.",
+                                    "Discuss pricing tiers and API integration with a sales engineer",
+                                    "I need to talk to a sales rep to understand pricing and plan options for Dealpath.",
+                                    "I'd like to speak with a sales representative to discuss academic licensing options."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "To schedule a live product demonstration, press '2'.",
+                            "fileID": "4002390bfeb047d0877786da4c1517b6",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please stay on the line while we connect you to our demo coordination team.",
+                                        "fileID": "1eaacbde1a2c4c039f40600e6251746b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "0e3c9bd6fa14409e8a9f4e433fb90a0c",
+                                "navigationGoals": [
+                                    "Schedule a live product demonstration at the earliest availability",
+                                    "As a former service member exploring your platform, I\u2019d like to schedule a live product demonstration of Dealpath.",
+                                    "Arrange a live technical demo of the platform\u2019s API workflow",
+                                    "I want to set up a live demo to see how Dealpath works.",
+                                    "I want to schedule a live demonstration of the platform's deal-tracking features."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "36c9f98397524f9ea85f0420fb8e08c9",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing customer support, press '2'.",
+                "fileID": "ebc3972300b84a67a13d8015fda2040e",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For technical support and troubleshooting, press '1'.",
+                            "fileID": "2837050e64e44c5f938c14fc174bb124",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Our technical support specialists will be with you shortly. Please hold.",
+                                        "fileID": "ca4fe8741f624fb4a69f238fee61f43f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "b32f7521a7014d7eb98a53377768d302",
+                                "navigationGoals": [
+                                    "Troubleshoot a platform error preventing deal uploads",
+                                    "As a veteran user with an active account, I\u2019m having trouble accessing my dashboard and need technical assistance.",
+                                    "Troubleshoot authentication failure in our API webhook",
+                                    "I need help fixing a login issue with my existing Dealpath account.",
+                                    "I'm having trouble uploading my dataset into the system; I need technical support."
+                                ]
+                            }
+                        },
+                        {
+                            "text": "For billing inquiries and account management, press '2'.",
+                            "fileID": "f32752e12bd64eedbea9ab65852cf963",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our billing department.",
+                                        "fileID": "2836e7cc31794c1484e546f99e6fd26b"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "9a032d9a92ca4838bc779d0cdd2799ec",
+                                "navigationGoals": [
+                                    "Update payment details and review recent billing charges",
+                                    "As an ex-military customer, I need help understanding my latest subscription invoice and managing my billing.",
+                                    "Clarify recent invoice charges and update payment credentials",
+                                    "I have a question about a recent bill and need help reviewing my charges.",
+                                    "I need to update my payment method and review my most recent invoice."
+                                ]
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6ac1d452909c4085a6218249f37e0c0b",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9c6329ed43f44846866719da28c8601d",
+        "navigationGoals": null
+    },
+    "id": "abfee95e631a41b2b88d23ad0c4c17b2",
+    "navigationGoals": null
+}

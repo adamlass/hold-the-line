@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Mountain View Staffing in the South Bay, your trusted Silicon Valley recruiting partner.",
+            "fileID": "75d04db10da14b5697939fb6f08cb505"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "If you are a company looking to hire new employees, please press 1.",
+                "fileID": "d9085accd5de4592a2855741f2938713",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For full-time recruitment solutions, please press 1.",
+                            "fileID": "87f608eeccc1458caf7e40c486081339",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to one of our corporate staffing specialists.",
+                                        "fileID": "301cb56d02684b0cb7c955d976915ee4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "86f1acad4951478f9b21c40381f80413",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For contract or contract-to-hire staffing, please press 2.",
+                            "fileID": "f0d7641ed4604fb4805de2c70dbbfd87",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our contract staffing team.",
+                                        "fileID": "fe37cd16c1c1466895927d0db244081f"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "03af6f12441a4d10a09a12a911324557",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "524404ea95ed4960a49425952fabda1b",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "If you are a job seeker looking for opportunities, please press 2.",
+                "fileID": "f97cad7024e54ce0bc0c15a928580ab2",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "If you are seeking full-time positions, please press 1.",
+                            "fileID": "18c5eaa921dd4ed3ad127c21451554c4",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with one of our candidate consultants.",
+                                        "fileID": "9e32876869e64636a3f1dc7d9e26dcfe"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "cc2f6511625e4a598de2beb67a916ebe",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "If you are interested in contract or contract-to-hire roles, please press 2.",
+                            "fileID": "39cf644a1bef4956b3463f86fddeb658",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you with our contract recruiting team.",
+                                        "fileID": "1eb865475bff4d909193011ae2dd233e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "797664914a2b4bbf9462d6f0cb24787b",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "90accdbd26904374a615fe685335a4a0",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "d56b5a919f8c490d974eef03607763aa",
+        "navigationGoals": null
+    },
+    "id": "363387155b224f3c96ab56d2fcbe2b4b",
+    "navigationGoals": null
+}

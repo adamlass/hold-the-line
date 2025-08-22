@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Thank you for calling Sift Science, where we protect your business from fraud through the power of digital trust.",
+            "fileID": "6ac40db61c8a418089bd55bf68705ffe"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For sales and product information, press 1 to choose that menu.",
+                "fileID": "2500e42040e04ea3bd9b31351e097567",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To speak with a sales representative about our B2B fraud prevention solutions, press 1 to choose that menu.",
+                            "fileID": "ae0d278dc7d648768fa415aca8e914e3",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a sales representative.",
+                                        "fileID": "278d00dbd8634b84b403ba51f7978c87"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6cd07a8d274745f0af786f67bf2f8ce8",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For pricing, licensing, or legal compliance inquiries, press 2 to choose that menu.",
+                            "fileID": "82f916e43f98414fa5528bdf20ec24a0",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to our pricing and legal team.",
+                                        "fileID": "12e414864a984e5686b25bacce8bccb0"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "6fe7cfb484534c47b73438d715b9ccfb",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "787e5c4d5a6548bd99a89f559eb0e40f",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For technical support and account assistance, press 2 to choose that menu.",
+                "fileID": "e0ab55f1019542b0b8160abf088c1e2c",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For help with implementation or integration of our AI fraud detection platform, press 1 to choose that menu.",
+                            "fileID": "627b24bdb95c48548dc607c9c2c56a1e",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an integration specialist.",
+                                        "fileID": "ee1ec3b4aa8d4bf68f71d6be07df4039"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "2f4bfb9212624bbe9e169ce91403f1c6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For account and billing questions, press 2 to choose that menu.",
+                            "fileID": "48fb196319f34ba78889c4ea2ec8d3ae",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to an account services representative.",
+                                        "fileID": "83edbbea161146d794a37b1cc1964ba2"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "fee0cfa7f794415685516b033f8999df",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "09bc36c5250b436cb657776ee1eb42e3",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "9dbb7f5b1dbd4abba4269c26f35169a8",
+        "navigationGoals": null
+    },
+    "id": "8ffca2ccf6854106b7bd78b2cfe0d0f1",
+    "navigationGoals": null
+}

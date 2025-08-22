@@ -1,0 +1,113 @@
+{
+    "type": "welcome",
+    "contents": [
+        {
+            "text": "Welcome to SoFi in San Francisco, your partner for modern financial solutions.",
+            "fileID": "b5a0e35218224d3cadd38ff49fce10e0"
+        }
+    ],
+    "nextSegment": {
+        "type": "dialOptions",
+        "contents": [
+            {
+                "text": "For information about our loan products, including student loan refinancing, mortgages, and personal loans, press 1.",
+                "fileID": "d74aeab61b504b7ba3f2970ba902fac1",
+                "index": 1,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "To learn about student loan refinancing and mortgage options, press 1.",
+                            "fileID": "c673c81662ed482296c4712eca02f87a",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a specialist in student loan refinancing and mortgages.",
+                                        "fileID": "d0b9cab35ca14dee87e8a22b74a9193e"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "07b55321cc744713a686bba2e0b365f6",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "To learn about personal loans, press 2.",
+                            "fileID": "71b6acbdec4b429cb98f9bdd66e458ab",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to a personal loans specialist.",
+                                        "fileID": "7fdaea23707748e79d3ace0478a794e4"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a0654a4df9d44d4b9b8e416376780fc4",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "8b13a357f19d4a4c9e4e8f79d67ec1d1",
+                    "navigationGoals": null
+                }
+            },
+            {
+                "text": "For existing member support and account services, press 2.",
+                "fileID": "51b0722934334419b4e470091d9eedcc",
+                "index": 2,
+                "nextSegment": {
+                    "type": "dialOptions",
+                    "contents": [
+                        {
+                            "text": "For questions about your account or payments, press 1.",
+                            "fileID": "93e68d9f53bc4895a60f7f8e5913d0d7",
+                            "index": 1,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we transfer you to our account services team.",
+                                        "fileID": "ad4e6b922a054630b5108ec65c9dddf3"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "397d0c527c144e019b9f1a8ee3f9dd4c",
+                                "navigationGoals": null
+                            }
+                        },
+                        {
+                            "text": "For technical support with our online platform, press 2.",
+                            "fileID": "98091e0a0e734955965bb5f5fbf2b638",
+                            "index": 2,
+                            "nextSegment": {
+                                "type": "holdTheLine",
+                                "contents": [
+                                    {
+                                        "text": "Please hold while we connect you to technical support.",
+                                        "fileID": "e44415a95b424a65bd79ceafd8048b70"
+                                    }
+                                ],
+                                "nextSegment": null,
+                                "id": "a03d03181baa49539b6a36434e49cde6",
+                                "navigationGoals": null
+                            }
+                        }
+                    ],
+                    "nextSegment": null,
+                    "id": "6a9fa23cb9084c3c92c1be25b22a4230",
+                    "navigationGoals": null
+                }
+            }
+        ],
+        "nextSegment": null,
+        "id": "92f10b05f1a246f682cec94e45b2adb3",
+        "navigationGoals": null
+    },
+    "id": "59fd46f389c142dcb6cd0b41e790c526",
+    "navigationGoals": null
+}
